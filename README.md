@@ -7,7 +7,7 @@
 
 ## 关于本仓库
 
-这里提供 DIANCUP 的使用说明、品牌 LOGO 和浏览器插件安装包。**主程序不开源，本仓库不包含主程序源码、构建上下文或运行配置。**
+这里提供 DIANCUP 的使用说明和浏览器插件安装包
 
 - 容器镜像：[`madbrolab/diancup`](https://hub.docker.com/r/madbrolab/diancup)
 - 运行平台：Linux `amd64` / `arm64`
@@ -47,13 +47,12 @@ services:
     ports:
       - "9520:9520"
     volumes:
-      - ./config:/config
-      - /:/host
+      - ./config:/config #可绝对路径，可不更改使用相对路径
+      - /:/host #不可更改
     environment:
       TZ: Asia/Shanghai
       WEB_PORT: "9520"
-      DOCKER_DIR: /mnt/cache/docker
-      DEBUG: "false"
+      DOCKER_DIR: /mnt/cache/docker #示例目录，必须更换，修改为你的项目存放的文件夹（以后用DIAN创建的项目都在这个目录）
 ```
 
 将 `DOCKER_DIR` 改为宿主机实际的 Compose 项目目录，然后启动：
