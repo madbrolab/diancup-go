@@ -1,0 +1,6 @@
+Sarasa Gothic SC webfont assets
+
+Source: https://github.com/be5invis/Sarasa-Gothic
+Upstream version: v1.0.41
+Webfont files were converted from the upstream SC TTF files to WOFF2 for browser delivery.
+See OFL-1.1.txt for the upstream license.
