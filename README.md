@@ -46,13 +46,13 @@ services:
     privileged: true
     restart: unless-stopped
     ports:
-      - "9520:9520"
+      - "9527:9527"
     volumes:
       - ./config:/config
       - /:/host
     environment:
       TZ: Asia/Shanghai
-      WEB_PORT: "9520"
+      WEB_PORT: "9527"
 ```
 
 启动或更新：
@@ -62,7 +62,7 @@ docker compose pull
 docker compose up -d
 ```
 
-导航首页：`http://服务器地址:9520/`；管理后台：`http://服务器地址:9520/dashboard`。更新时保留配置目录和原有挂载；外部访问建议使用 HTTPS。
+导航首页：`http://服务器地址:9527/`；管理后台：`http://服务器地址:9527/dashboard`。更新时保留配置目录和原有挂载；外部访问建议使用 HTTPS。
 
 ### 首次设置密码
 
@@ -78,12 +78,6 @@ docker compose up -d
 3. 使用刚设置的密码登录。导航与后台共用管理密码，设置成功后验证码失效，文件自动删除；已有实例升级沿用原密码。
 
 也可直接读取宿主机配置目录中的 `setup-token` 文件；若配置了 `DIANCUP_SETUP_TOKEN`，使用该环境变量的值。
-
-## STUN 协同访问
-
-例如通过 Cloudflare Tunnel 将导航页发布为 `https://nav.example.com`，把该域名填入「STUN 协同访问地址」，网络模式选「自动识别」。系统先判断内外网：内网直连或探测成功时，点击卡片使用内网地址；外网用户通过协同域名进入时，使用卡片自身的 STUN 地址和 Lucky 同步端口。普通外网入口使用公网地址，缺少 STUN 地址或有效端口时优先回退公网。
-
-识别依据是当前入口域名，手动网络模式可覆盖自动识别。Lucky 组件及端口回调在导航设置中配置。
 
 ## 浏览器插件
 
