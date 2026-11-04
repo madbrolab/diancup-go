@@ -2,8 +2,35 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "tools",
+      "name": "工具",
+      "count": 0,
+      "index": {
+        "path": "compose/tools/index.json",
+        "sha256": "77531ffe5cd01aa4c99c53596df7733e22135bc49e529825b17270b7425b2357"
+      }
+    },
+    {
+      "id": "media",
+      "name": "影音",
+      "count": 0,
+      "index": {
+        "path": "compose/media/index.json",
+        "sha256": "e14120e7e210d565bd098ac8314b8dd1573e49c958e8472e74cd2507b0670e58"
+      }
+    },
+    {
+      "id": "games",
+      "name": "游戏",
+      "count": 0,
+      "index": {
+        "path": "compose/games/index.json",
+        "sha256": "1f4a1fd08042e42961ac7934a3a0c93ee1155829906a4e19f71e9c46a6e93d67"
+      }
+    },
+    {
       "id": "web",
-      "name": "网站与代理",
+      "name": "网站",
       "count": 1,
       "index": {
         "path": "compose/web/index.json",
@@ -11,8 +38,35 @@
       }
     },
     {
+      "id": "download",
+      "name": "下载",
+      "count": 0,
+      "index": {
+        "path": "compose/download/index.json",
+        "sha256": "5d725c884d4559e1f662b65193e77e6c46d3b7e503c07346ddf47fbc8bef3d5b"
+      }
+    },
+    {
+      "id": "storage",
+      "name": "存储",
+      "count": 0,
+      "index": {
+        "path": "compose/storage/index.json",
+        "sha256": "4635c030d8e45b4fa7b54c30d449394557bc9993e78ed02fb4541914c787cf02"
+      }
+    },
+    {
+      "id": "network",
+      "name": "网络",
+      "count": 0,
+      "index": {
+        "path": "compose/network/index.json",
+        "sha256": "9a40a16afcc4ae053ce7c68715de1616ee404c69faddbf7dba8264243f984dab"
+      }
+    },
+    {
       "id": "monitoring",
-      "name": "监控工具",
+      "name": "监控",
       "count": 1,
       "index": {
         "path": "compose/monitoring/index.json",
@@ -21,11 +75,38 @@
     },
     {
       "id": "development",
-      "name": "开发工具",
+      "name": "开发",
       "count": 1,
       "index": {
         "path": "compose/development/index.json",
         "sha256": "26648a78e049250b0371ac9343a75a018537b98ce53a5fe3f38cac3b363006c1"
+      }
+    },
+    {
+      "id": "database",
+      "name": "数据库",
+      "count": 0,
+      "index": {
+        "path": "compose/database/index.json",
+        "sha256": "9a62e0426f5e0513044ae6ceb6d936f29dc248e2eb13a3a746bea39146a6d9aa"
+      }
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "count": 0,
+      "index": {
+        "path": "compose/ai/index.json",
+        "sha256": "57a3abc198e72916cc8aacb17bce49cdfaae1c41521a97b5bad9bd6e12c1c051"
+      }
+    },
+    {
+      "id": "other",
+      "name": "其他",
+      "count": 0,
+      "index": {
+        "path": "compose/other/index.json",
+        "sha256": "97b5cf6d0ee4b20f1106ab7c498f65de84859e3a33dd21606661474c5649af5c"
       }
     }
   ],

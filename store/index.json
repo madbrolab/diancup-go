@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "8927f6892344b39eac86ce26",
+  "revision": "5a983b06d1e91cc13278dc21",
   "sections": [
     {
       "id": "container",
@@ -8,7 +8,7 @@
       "count": 4,
       "index": {
         "path": "container/index.json",
-        "sha256": "9b63aaa5f0f16678bd0ebb20e97cebc215397279dc1643aa4f8f1f79e2e82025"
+        "sha256": "d19668992dd09c8cb757deb7d63687a6b7869305aab355720bcb6d122fee504d"
       }
     },
     {
@@ -17,10 +17,14 @@
       "count": 3,
       "index": {
         "path": "compose/index.json",
-        "sha256": "2a3522c8804e477e3d8998b0adf3da87ba8fc80aa91746c055fd1f0b5e9b73ed"
+        "sha256": "68e97c0b215c6a78c1166f53e38dcec1b9ab8d84882903ecb87065aaf14d0095"
       }
     }
   ],
+  "categories": {
+    "path": "categories.json",
+    "sha256": "5e988d3e979199ccd699a68d24f393e0483792f74aac842c81610e595832f6a1"
+  },
   "pageSize": 24,
   "source": "https://github.com/madbrolab/diancup-go/tree/main/store"
 }

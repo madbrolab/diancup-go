@@ -4,15 +4,17 @@
 
 ## 索引与加载
 
-`index.json → 板块 index → 开发者分页 → 项目仓库分页 → 卡片分页 → 单模板 manifest → 配置文件`。
+`index.json → 板块 index → 全部或用途分类分页 → 卡片 → 单模板 manifest → 配置文件`。
 
-分类浏览使用独立的分页索引。每个模板源维护自己的索引树，只读取已展开的源、开发者和仓库，不预取关闭分支。
+分类浏览使用独立的分页索引，商店直接显示模板卡片，不需要逐层展开开发者和仓库。每个模板源维护自己的索引，切换来源时只读取当前源。
+
+`categories.json` 定义用途分类及顺序：工具（`tools`）、影音（`media`）、游戏（`games`）、网站（`web`）、下载（`download`）、存储（`storage`）、网络（`network`）、监控（`monitoring`）、开发（`development`）、数据库（`database`）、AI（`ai`）、其他（`other`）。普通模板和 Compose 模板使用同一套分类，空分类也保留索引并显示数量 0；分类与关键词搜索共同筛选结果。分类索引中的数量以对应板块为准。
 
 每页至多 24 项，每个 JSON 文件不超过 64KiB。目录通过下一页地址衔接，索引引用包含 SHA-256。`all/pages` 同样分页，不能改成完整应用总表。搜索按规范化关键词的单字、双字建立独立散列分片，只读取匹配词的必要分页和卡片摘要，不扫描全部分类。
 
 执行 `node scripts/build-template-store.mjs` 重建派生索引。生成器只在开发阶段遍历模板；运行时不得遍历目录、递归预取索引或下载仓库归档。
 
-服务自带不可变的离线快照，首次打开立即显示。商店中的“同步仓库”从 GitHub 读取最新修订，并把后续请求固定到同一个提交；失败时保留当前快照。默认仓库为 `madbrolab/diancup-go`，可通过 `DIANCUP_TEMPLATE_STORE_REPOSITORY=owner/repository` 和 `DIANCUP_TEMPLATE_STORE_REF=branch-or-tag` 指定公共数据仓库。同步不会修改已安装项目。
+服务不内置模板或离线样例，只读取公共配置中已启用的 GitHub 仓库。首次访问当前源时自动同步，后续请求固定到同一个提交；“同步仓库”成功后切换到新修订，失败时保留当前已同步的仓库索引，没有成功同步记录时显示错误，不回退到内置模板。仓库读取遵循系统代理。默认仓库为 `madbrolab/diancup-go`，首次配置前可通过 `DIANCUP_TEMPLATE_STORE_REPOSITORY=owner/repository` 和 `DIANCUP_TEMPLATE_STORE_REF=branch-or-tag` 指定默认源。清空或停用来源后商店保持空状态，不会重新补入默认源；已有安装记录和项目仍可管理。
 
 ## 新增模板
 
@@ -54,7 +56,7 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 
 ## 只发布模板数据
 
-`node scripts/prepare-template-publication.mjs /path/to/public-checkout` 将数据白名单同步到指定公开仓库的 `store/`，校验所有索引摘要并更新 `SHA256SUMS`。不会复制 `embed.go`、Go / Vue / JavaScript 主程序源码、运行配置或真实 ENV。此命令只准备文件，不提交、不推送、不发布镜像。
+`node scripts/prepare-template-publication.mjs /path/to/public-checkout` 将数据白名单同步到指定公开仓库的 `store/`，校验所有索引摘要并更新 `SHA256SUMS`。不会复制 Go / Vue / JavaScript 主程序源码、运行配置或真实 ENV。此目录中的模板仅用作公开仓库发布数据及开发测试，Docker 构建只包含分类名称，主程序不嵌入模板内容。此命令只准备文件，不提交、不推送、不发布镜像。
 
 样例参考：
 

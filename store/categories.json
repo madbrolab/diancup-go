@@ -1,0 +1,14 @@
+[
+  { "id": "tools", "name": "工具" },
+  { "id": "media", "name": "影音" },
+  { "id": "games", "name": "游戏" },
+  { "id": "web", "name": "网站" },
+  { "id": "download", "name": "下载" },
+  { "id": "storage", "name": "存储" },
+  { "id": "network", "name": "网络" },
+  { "id": "monitoring", "name": "监控" },
+  { "id": "development", "name": "开发" },
+  { "id": "database", "name": "数据库" },
+  { "id": "ai", "name": "AI" },
+  { "id": "other", "name": "其他" }
+]

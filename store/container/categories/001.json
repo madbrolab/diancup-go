@@ -2,17 +2,17 @@
   "schemaVersion": 1,
   "items": [
     {
-      "id": "web",
-      "name": "网站与代理",
-      "count": 1,
+      "id": "tools",
+      "name": "工具",
+      "count": 0,
       "index": {
-        "path": "container/web/index.json",
-        "sha256": "15a06375b8a96aea7d3153e809b83c47238112ef93f330690622b6a97dfabe61"
+        "path": "container/tools/index.json",
+        "sha256": "6ebf1d1a91d0b3df1fc7599b3c01cc46a6c2edbe8e0637d4e25557d9b680e548"
       }
     },
     {
       "id": "media",
-      "name": "影音服务",
+      "name": "影音",
       "count": 1,
       "index": {
         "path": "container/media/index.json",
@@ -20,12 +20,66 @@
       }
     },
     {
+      "id": "games",
+      "name": "游戏",
+      "count": 0,
+      "index": {
+        "path": "container/games/index.json",
+        "sha256": "d26ff4e2211925677781fd7ea72ae9a0448a2d5cc99c58dfc73abd2d67df0e4a"
+      }
+    },
+    {
+      "id": "web",
+      "name": "网站",
+      "count": 1,
+      "index": {
+        "path": "container/web/index.json",
+        "sha256": "15a06375b8a96aea7d3153e809b83c47238112ef93f330690622b6a97dfabe61"
+      }
+    },
+    {
+      "id": "download",
+      "name": "下载",
+      "count": 0,
+      "index": {
+        "path": "container/download/index.json",
+        "sha256": "5abc5a3cb90f6f706a77ed554b562761782ff305a412b8c4c5c164dda1724d41"
+      }
+    },
+    {
+      "id": "storage",
+      "name": "存储",
+      "count": 0,
+      "index": {
+        "path": "container/storage/index.json",
+        "sha256": "41f149f45249319551544c87af99d789bbd8830add8aed31aabb943e975354f9"
+      }
+    },
+    {
+      "id": "network",
+      "name": "网络",
+      "count": 0,
+      "index": {
+        "path": "container/network/index.json",
+        "sha256": "8555b4bc6bcf6b8b9aff0e31fbf243cf26e529b898168363b295e046253b258a"
+      }
+    },
+    {
       "id": "monitoring",
-      "name": "监控工具",
+      "name": "监控",
       "count": 1,
       "index": {
         "path": "container/monitoring/index.json",
         "sha256": "2db950d576805ed932413eeee31ab3f06a7cbddaba87564bc4d0d9037e9fcfcd"
+      }
+    },
+    {
+      "id": "development",
+      "name": "开发",
+      "count": 0,
+      "index": {
+        "path": "container/development/index.json",
+        "sha256": "3fd4958a53d0dc71cb7ac48c12985ff1fe46787a68fdc2b4ca8dabc336eb2f0f"
       }
     },
     {
@@ -35,6 +89,24 @@
       "index": {
         "path": "container/database/index.json",
         "sha256": "a05a68ee43df7cafa12f5784bd0ee846510cd62bc16ae4853d6e962f92d7d7a4"
+      }
+    },
+    {
+      "id": "ai",
+      "name": "AI",
+      "count": 0,
+      "index": {
+        "path": "container/ai/index.json",
+        "sha256": "ec69cb34b4994fce56e242d383a4e57b6506bb3f36da5341935fb1ab0e52170d"
+      }
+    },
+    {
+      "id": "other",
+      "name": "其他",
+      "count": 0,
+      "index": {
+        "path": "container/other/index.json",
+        "sha256": "925ef82fee80a786c9a8c122d897eccd68773e29a59c203d06a84c8237fcab0b"
       }
     }
   ],
