@@ -154,6 +154,6 @@ Dify 使用前需要准备 Nginx 站点配置并修改相应挂载；DeepTutor�
 | [梨园 Liyuan](https://github.com/weidu12123/Liyuan/blob/21fd38cb10e915fbf9c1f25fcbabe92f06a8993d/README.md) | 2026-11-01 | PolyForm Noncommercial 1.0.0 | README 未明确 / 待确认 | amd64 |
 | [So Novel](https://github.com/freeok/so-novel/blob/88acec6ee489ca1c2489c624cedd1ef417d3f3ee/README.md) | 2026-10-26 | AGPL-3.0 | 自建无付费密钥要求 | amd64 |
 
-## 第三方许可
+## 图标许可
 
-版权与许可证声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+图标版权与许可声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。

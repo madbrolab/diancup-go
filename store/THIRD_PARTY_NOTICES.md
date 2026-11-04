@@ -1,34 +1,8 @@
-# 第三方许可声明
+# 图标许可声明
 
-## 部署模板
+## Lucide 图标
 
-部署参数参考 [coracoo/tradis_templates](https://github.com/coracoo/tradis_templates)。按其 MIT 许可保留以下声明；应用本身、图标和商标仍遵循各自上游条款。
-
-```text
-MIT License
-
-Copyright (c) 2025 cgakki
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-PanSou 与 WorkBuddy2API 的语义图标来自 Lucide，保留其许可声明：
+PanSou 与 WorkBuddy2API 使用 Lucide 语义图标。
 
 ```text
 ISC License
