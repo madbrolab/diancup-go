@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/home-assistant/home-assistant/summary.json",
+      "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
+    },
+    {
       "path": "templates/sysadminsmedia/homebox/summary.json",
       "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
     }

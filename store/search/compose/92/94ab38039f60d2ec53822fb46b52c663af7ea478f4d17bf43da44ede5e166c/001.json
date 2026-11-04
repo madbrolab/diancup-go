@@ -10,12 +10,12 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
-      "path": "templates/dockers-x/cfui/summary.json",
-      "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
-    },
-    {
       "path": "templates/ellite/wallos/summary.json",
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+    },
+    {
+      "path": "templates/hargata/lubelogger/summary.json",
+      "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
@@ -26,12 +26,8 @@
       "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
     },
     {
-      "path": "templates/louislam/dockge/summary.json",
-      "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
-    },
-    {
-      "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
+      "path": "templates/nextcloud/nextcloud/summary.json",
+      "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
     }
   ],
   "next": null

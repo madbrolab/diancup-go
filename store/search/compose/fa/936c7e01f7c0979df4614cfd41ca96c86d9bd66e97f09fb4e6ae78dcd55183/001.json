@@ -4,10 +4,6 @@
     {
       "path": "templates/babybuddy/babybuddy/summary.json",
       "sha256": "67fe68b50147273197420eff811d15eb46e7ed243e62a3ffaa10c63f22a2b045"
-    },
-    {
-      "path": "templates/langgenius/dify/summary.json",
-      "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
     }
   ],
   "next": null

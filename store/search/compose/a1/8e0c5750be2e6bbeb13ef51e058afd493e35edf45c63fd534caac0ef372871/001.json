@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/home-assistant/home-assistant/summary.json",
+      "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
+    }
+  ],
+  "next": null
+}

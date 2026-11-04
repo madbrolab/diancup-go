@@ -2,16 +2,8 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/bubka/2fauth/summary.json",
-      "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
-    },
-    {
       "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
-    },
-    {
-      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     }
   ],
   "next": null

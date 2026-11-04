@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "hargata/lubelogger",
+  "kind": "compose",
+  "name": "LubeLogger",
+  "description": "记录家用车辆的保养、维修、加油、里程与费用，保存相关凭证，设置保养计划，并与家人共同维护车辆档案。",
+  "developer": "hargata",
+  "projectUrl": "https://github.com/hargata/lubelog",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "lubelogger",
+    "LubeLogger",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/lubelogger.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.lubelogger.com/Installation/Getting%20Started/",
+  "applications": [
+    {
+      "id": "lubelogger",
+      "name": "LubeLogger",
+      "developer": "hargata",
+      "projectUrl": "https://github.com/hargata/lubelog",
+      "icon": "icons/lubelogger.svg",
+      "services": [
+        "lubelogger"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "compose.services.lubelogger",
+      "title": "首次使用",
+      "reason": "应用默认未启用认证；在 Settings 中启用 Enable Authentication 并设置自己的根用户账号和密码。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.lubelogger.volumes",
+      "title": "车辆资料",
+      "reason": "数据库与上传凭证保存在 ./data，加密密钥保存在 ./keys；两个目录均需保留。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.lubelogger.environment",
+      "title": "地区格式",
+      "reason": "日期、货币和语言可在应用内的 Server Settings Configurator 中设置。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-10-14T17:21:18Z",
+    "lastCommit": "63fa5cd267497ba01c29f4888c65efbbdd4b94bf",
+    "readmeSHA256": "8c53209e8aa988aa25a3cfb24e2f4b18bdee5eab9be1947132b3b00503873396",
+    "iconSource": "https://raw.githubusercontent.com/hargata/lubelog/63fa5cd267497ba01c29f4888c65efbbdd4b94bf/wwwroot/defaults/lubelogger_icon_192.png",
+    "iconSHA256": "97bb684ee05c89b78618a73def7481ba02e0c5ffb81bd9adaeab2b8d3fc34c9d",
+    "images": [
+      {
+        "image": "ghcr.io/hargata/lubelogger:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "483a9d7582c4e6258615fd822b3de4193b4fcc4230d0a92432c6d407faf75af2"
+      }
+    ]
+  }
+}

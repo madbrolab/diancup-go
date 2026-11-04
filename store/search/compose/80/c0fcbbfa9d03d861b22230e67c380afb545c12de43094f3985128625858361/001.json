@@ -4,6 +4,10 @@
     {
       "path": "templates/59799517/simple-sq-music-plus/summary.json",
       "sha256": "1b28183a57d88c355769998a0b3801a8445938d90c55db05a18529ef80dfd28a"
+    },
+    {
+      "path": "templates/hargata/lubelogger/summary.json",
+      "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
     }
   ],
   "next": null

@@ -2,28 +2,12 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/bubka/2fauth/summary.json",
-      "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
-    },
-    {
       "path": "templates/chaitin/pandawiki/summary.json",
       "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/cloudnas/clouddrive2-basic/summary.json",
       "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
-    },
-    {
-      "path": "templates/dockers-x/cfui/summary.json",
-      "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
-    },
-    {
-      "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-      "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
-    },
-    {
-      "path": "templates/henrygd/beszel/summary.json",
-      "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     },
     {
       "path": "templates/hkuds/deeptutor/summary.json",
@@ -34,28 +18,16 @@
       "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
-      "path": "templates/netdata/netdata/summary.json",
-      "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
-    },
-    {
       "path": "templates/official/wordpress-mariadb/summary.json",
-      "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
+      "sha256": "820cc0b2e97829251d66c4f2c61a4d5b021eae852e6344eb91d6d2175cae7fc8"
     },
     {
       "path": "templates/openlistteam/openlist/summary.json",
       "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     },
     {
-      "path": "templates/qbittorrent/qbittorrent/summary.json",
-      "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
-    },
-    {
       "path": "templates/taksssss/iptv-tool/summary.json",
       "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
-    },
-    {
-      "path": "templates/umami-software/umami/summary.json",
-      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     }
   ],
   "next": null

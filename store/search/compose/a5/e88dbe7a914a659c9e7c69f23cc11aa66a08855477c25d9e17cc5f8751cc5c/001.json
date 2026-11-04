@@ -6,10 +6,6 @@
       "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
     {
-      "path": "templates/louislam/dockge/summary.json",
-      "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
-    },
-    {
       "path": "templates/n8n-io/n8n/summary.json",
       "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     },

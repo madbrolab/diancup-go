@@ -1,0 +1,29 @@
+services:
+  prepare:
+    image: syncthing/syncthing:2.1.7
+    restart: no
+    user: 0:0
+    entrypoint:
+      - /bin/sh
+      - -ec
+    command:
+      - chown "$$PUID:$$PGID" /var/syncthing /sync
+    environment:
+      PUID: ${PUID:-1000}
+      PGID: ${PGID:-1000}
+    volumes: &a1
+      - ./config:/var/syncthing
+      - ${SYNC_DIR:-./sync}:/sync
+  syncthing:
+    image: syncthing/syncthing:2.1.7
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      PUID: ${PUID:-1000}
+      PGID: ${PGID:-1000}
+      STGUIADDRESS: 0.0.0.0:${GUI_PORT:-8384}
+    volumes: *a1
+    depends_on:
+      prepare:
+        condition: service_completed_successfully

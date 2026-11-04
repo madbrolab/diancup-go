@@ -6,6 +6,10 @@
       "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
     },
     {
+      "path": "templates/home-assistant/home-assistant/summary.json",
+      "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
+    },
+    {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
       "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },

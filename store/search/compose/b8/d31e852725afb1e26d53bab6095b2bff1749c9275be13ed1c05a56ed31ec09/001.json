@@ -6,16 +6,16 @@
       "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
-      "path": "templates/fccview/cronmaster/summary.json",
-      "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
-    },
-    {
       "path": "templates/freeok/so-novel/summary.json",
       "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     },
     {
       "path": "templates/gotson/komga/summary.json",
       "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
+      "path": "templates/home-assistant/home-assistant/summary.json",
+      "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
     },
     {
       "path": "templates/jeffvli/feishin/summary.json",
@@ -28,10 +28,6 @@
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
       "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
-    },
-    {
-      "path": "templates/transmission/transmission/summary.json",
-      "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
     },
     {
       "path": "templates/xhongc/music-tag-web/summary.json",

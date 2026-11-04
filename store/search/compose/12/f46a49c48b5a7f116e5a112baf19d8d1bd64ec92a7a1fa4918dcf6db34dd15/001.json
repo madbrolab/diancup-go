@@ -10,12 +10,20 @@
       "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
     },
     {
+      "path": "templates/home-assistant/home-assistant/summary.json",
+      "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
+    },
+    {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
       "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
     {
       "path": "templates/madbrolab/dian115-basic/summary.json",
       "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
+    },
+    {
+      "path": "templates/nextcloud/nextcloud/summary.json",
+      "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
     }
   ],
   "next": null

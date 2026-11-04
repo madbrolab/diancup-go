@@ -6,14 +6,6 @@
       "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
-      "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
-    },
-    {
-      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
-    },
-    {
       "path": "templates/rommapp/romm/summary.json",
       "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
     }

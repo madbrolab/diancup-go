@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/hargata/lubelogger/summary.json",
+      "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
+    },
+    {
       "path": "templates/seerr-team/seerr/summary.json",
       "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
     }

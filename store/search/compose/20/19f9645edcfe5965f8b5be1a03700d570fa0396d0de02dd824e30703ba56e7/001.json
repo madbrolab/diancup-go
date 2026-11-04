@@ -4,10 +4,6 @@
     {
       "path": "templates/chaitin/pandawiki/summary.json",
       "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
-    },
-    {
-      "path": "templates/transmission/transmission/summary.json",
-      "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
     }
   ],
   "next": null

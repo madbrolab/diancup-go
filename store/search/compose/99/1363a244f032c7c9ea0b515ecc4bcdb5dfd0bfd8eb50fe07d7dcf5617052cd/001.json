@@ -3,7 +3,7 @@
   "items": [
     {
       "path": "templates/gitea/gitea-postgresql/summary.json",
-      "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
+      "sha256": "e99a9462042abc8aa227cd260ecf438433f0b618f9ba3de424882f6cfce26a77"
     },
     {
       "path": "templates/taksssss/iptv-tool/summary.json",

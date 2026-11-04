@@ -10,12 +10,8 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
-      "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
-    },
-    {
-      "path": "templates/umami-software/umami/summary.json",
-      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
+      "path": "templates/triliumnext/trilium/summary.json",
+      "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
     }
   ],
   "next": null

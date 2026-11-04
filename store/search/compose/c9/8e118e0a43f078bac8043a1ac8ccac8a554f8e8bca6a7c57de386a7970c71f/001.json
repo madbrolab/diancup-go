@@ -2,20 +2,12 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
-    },
-    {
       "path": "templates/chaitin/pandawiki/summary.json",
       "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
       "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
-    },
-    {
-      "path": "templates/langgenius/dify/summary.json",
-      "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
     },
     {
       "path": "templates/n8n-io/n8n/summary.json",

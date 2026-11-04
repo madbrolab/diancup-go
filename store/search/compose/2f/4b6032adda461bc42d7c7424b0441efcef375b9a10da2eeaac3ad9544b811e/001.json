@@ -18,14 +18,6 @@
       "sha256": "67fe68b50147273197420eff811d15eb46e7ed243e62a3ffaa10c63f22a2b045"
     },
     {
-      "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
-    },
-    {
-      "path": "templates/bubka/2fauth/summary.json",
-      "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
-    },
-    {
       "path": "templates/chaitin/pandawiki/summary.json",
       "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
@@ -42,20 +34,12 @@
       "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
-      "path": "templates/dockers-x/cfui/summary.json",
-      "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
-    },
-    {
       "path": "templates/ellite/wallos/summary.json",
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
     },
     {
       "path": "templates/emby/embyserver-basic/summary.json",
       "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
-    },
-    {
-      "path": "templates/fccview/cronmaster/summary.json",
-      "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
     },
     {
       "path": "templates/fccview/jotty/summary.json",
@@ -74,32 +58,48 @@
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
-      "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
-    },
-    {
       "path": "templates/gotify/server/summary.json",
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
-      "path": "templates/langgenius/dify/summary.json",
-      "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
+      "path": "templates/hargata/lubelogger/summary.json",
+      "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
     },
     {
-      "path": "templates/louislam/dockge/summary.json",
-      "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
+      "path": "templates/mealie-recipes/mealie/summary.json",
+      "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
     },
     {
-      "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
+      "path": "templates/nextcloud/nextcloud/summary.json",
+      "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
+    },
+    {
+      "path": "templates/paperless-ngx/paperless-ngx/summary.json",
+      "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
     },
     {
       "path": "templates/rommapp/romm/summary.json",
       "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
+    },
+    {
+      "path": "templates/stirling-tools/stirling-pdf/summary.json",
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
+    },
+    {
+      "path": "templates/taksssss/iptv-tool/summary.json",
+      "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
+    },
+    {
+      "path": "templates/triliumnext/trilium/summary.json",
+      "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
+    },
+    {
+      "path": "templates/usememos/memos/summary.json",
+      "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
     }
   ],
   "next": {
     "path": "search/compose/2f/4b6032adda461bc42d7c7424b0441efcef375b9a10da2eeaac3ad9544b811e/002.json",
-    "sha256": "caf0baa50485c6ce47fea5261c45907497e46b03f2b65ea64b26c31ae24a2377"
+    "sha256": "e365f50358549d0cd24a8b31a6ff00f122fa49259112f5ae9166171ea032112a"
   }
 }

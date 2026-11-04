@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "triliumnext/trilium",
+  "kind": "compose",
+  "name": "Trilium",
+  "description": "用树状层级、标签和链接组织个人笔记，支持富文本、附件、画布与脚本扩展，并可与兼容版本的桌面客户端同步。",
+  "developer": "TriliumNext",
+  "projectUrl": "https://github.com/TriliumNext/Trilium",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "trilium",
+    "Trilium",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/trilium.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.triliumnotes.org/",
+  "applications": [
+    {
+      "id": "trilium",
+      "name": "Trilium",
+      "developer": "TriliumNext",
+      "projectUrl": "https://github.com/TriliumNext/Trilium",
+      "icon": "icons/trilium.svg",
+      "services": [
+        "trilium"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "compose.services.trilium",
+      "title": "首次设置",
+      "reason": "首次打开网页时完成新建笔记库和密码设置；已有笔记库可按官方流程同步。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.trilium.image",
+      "title": "同步版本",
+      "reason": "默认固定 v0.106.1；连接桌面客户端时核对双方同步协议兼容性。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.trilium.volumes",
+      "title": "笔记数据",
+      "reason": "数据库、附件和应用设置位于 ./data，应使用本地可写磁盘并一并保留。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-04T15:35:15Z",
+    "lastCommit": "da05a554deef4a68fe3e832fe9cac20e7e53e56e",
+    "readmeSHA256": "087906667d44cbca6a47a4e198713c7b068c1766c8fe9a80daa9b4e7480eae95",
+    "iconSource": "https://raw.githubusercontent.com/TriliumNext/Trilium/da05a554deef4a68fe3e832fe9cac20e7e53e56e/apps/client/src/assets/icon-color.svg",
+    "iconSHA256": "a9109bd81433fbc51d34ce3e558af1284d5092c2d5596232d833e1f330d0d1be",
+    "images": [
+      {
+        "image": "triliumnext/trilium:v0.106.1",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "d87d810fdcb549db65710a40933acaa16bc75c9426a9164c547f7ba95592941b"
+      }
+    ]
+  }
+}

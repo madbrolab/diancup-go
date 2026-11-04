@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "348f2da76de8b9a08f19b63d",
+      "name": "https://github.com/home-assistant/core",
+      "projectUrl": "https://github.com/home-assistant/core",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/0bcd728f4324a803a8a8fa7a/repositories/348f2da76de8b9a08f19b63d/pages/001.json",
+        "sha256": "21cd9703d8e7cd62f5c5c88c7d64e59814bb9dddd21bd3b0064b5a61955ee9da"
+      }
+    }
+  ],
+  "next": null
+}

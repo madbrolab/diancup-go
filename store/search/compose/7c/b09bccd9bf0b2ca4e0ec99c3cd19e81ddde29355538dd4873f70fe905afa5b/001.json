@@ -4,10 +4,6 @@
     {
       "path": "templates/toeverything/affine/summary.json",
       "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
-    },
-    {
-      "path": "templates/umami-software/umami/summary.json",
-      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     }
   ],
   "next": null

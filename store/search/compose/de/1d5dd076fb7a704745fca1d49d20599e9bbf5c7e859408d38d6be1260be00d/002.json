@@ -2,28 +2,8 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/jeffvli/feishin/summary.json",
-      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
-    },
-    {
-      "path": "templates/jiangrui1994/cloudsaver/summary.json",
-      "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
-    },
-    {
-      "path": "templates/jxxghp/moviepilot-basic/summary.json",
-      "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
-    },
-    {
-      "path": "templates/langgenius/dify/summary.json",
-      "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
-    },
-    {
       "path": "templates/laurent22/joplin-server-basic/summary.json",
       "sha256": "5ee4755c13b454086da1de7ee3332190adcb0482a96757707b8a25c4a848fb8c"
-    },
-    {
-      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     },
     {
       "path": "templates/linuxserver/qbittorrent-basic/summary.json",
@@ -34,6 +14,10 @@
       "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
     },
     {
+      "path": "templates/mealie-recipes/mealie/summary.json",
+      "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
+    },
+    {
       "path": "templates/n8n-io/n8n/summary.json",
       "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     },
@@ -42,20 +26,16 @@
       "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
-      "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
-    },
-    {
-      "path": "templates/netdata/netdata/summary.json",
-      "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
-    },
-    {
-      "path": "templates/nginx/nginx/summary.json",
-      "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
+      "path": "templates/nextcloud/nextcloud/summary.json",
+      "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
     },
     {
       "path": "templates/open-webui/open-webui/summary.json",
       "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
+    },
+    {
+      "path": "templates/paperless-ngx/paperless-ngx/summary.json",
+      "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
     },
     {
       "path": "templates/penpot/penpot/summary.json",
@@ -70,6 +50,10 @@
       "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
     },
     {
+      "path": "templates/syncthing/syncthing/summary.json",
+      "sha256": "44158113e797b1faea4b92f1ba6fa4b99878c60e4d93c12d729445d07361ea59"
+    },
+    {
       "path": "templates/sysadminsmedia/homebox/summary.json",
       "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
     },
@@ -82,12 +66,8 @@
       "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
     },
     {
-      "path": "templates/transmission/transmission/summary.json",
-      "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
-    },
-    {
-      "path": "templates/umami-software/umami/summary.json",
-      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
+      "path": "templates/triliumnext/trilium/summary.json",
+      "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
     },
     {
       "path": "templates/xhongc/music-tag-web/summary.json",

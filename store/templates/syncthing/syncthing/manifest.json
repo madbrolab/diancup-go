@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 1,
+  "id": "syncthing/syncthing",
+  "kind": "compose",
+  "name": "Syncthing",
+  "description": "在自己的电脑、手机和 NAS 之间持续同步文件，可逐个目录选择设备与同步方式，支持文件版本保留和局域网发现。",
+  "developer": "syncthing",
+  "projectUrl": "https://github.com/syncthing/syncthing",
+  "source": "open",
+  "license": "MPL-2.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "storage",
+  "tags": [
+    "syncthing",
+    "Syncthing",
+    "storage",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/syncthing.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/syncthing/syncthing/blob/main/README-Docker.md",
+  "applications": [
+    {
+      "id": "syncthing",
+      "name": "Syncthing",
+      "developer": "syncthing",
+      "projectUrl": "https://github.com/syncthing/syncthing",
+      "icon": "icons/syncthing.svg",
+      "services": [
+        "prepare",
+        "syncthing"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.SYNC_DIR",
+      "title": "同步目录",
+      "reason": "默认 ./sync；首次进入网页后添加容器内 /sync 作为同步文件夹。更改为已有目录时，准备服务会修改该目录本身的属主，不递归更改已有文件。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.PUID",
+      "title": "同步用户",
+      "reason": "PUID/PGID 默认 1000，必须具有已有同步文件的读写权限。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.syncthing.network_mode",
+      "title": "局域网发现",
+      "reason": "使用 Host 网络；网页默认 8384，同步默认 22000 TCP/UDP，局域网发现使用 21027 UDP。端口冲突时需在应用设置中调整。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.syncthing.environment",
+      "title": "首次配置",
+      "reason": "首次在网页设置管理账号、密码和 HTTPS，再添加自己的设备与同步目录；STGUIADDRESS 决定网页监听地址。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-02T03:47:41Z",
+    "lastCommit": "b34734376128492fa4e1b01412193de033e20613",
+    "readmeSHA256": "42b3725bed4bbefe15dc3284f3246333a721818722752fe69f61478b3b8eba15",
+    "iconSource": "https://raw.githubusercontent.com/syncthing/syncthing/b34734376128492fa4e1b01412193de033e20613/assets/logo-only.svg",
+    "iconSHA256": "32a59ba5e16eea315c533d38358107984049d54c8130122cd0a63480fffa80dd",
+    "images": [
+      {
+        "image": "syncthing/syncthing:2.1.7",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "2b71da7c0d0a91a6ae5285ad079226fecc0a365d08b27720e1f7037b018f7546"
+      }
+    ]
+  }
+}

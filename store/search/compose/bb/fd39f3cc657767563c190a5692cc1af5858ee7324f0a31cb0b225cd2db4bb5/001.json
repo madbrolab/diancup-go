@@ -2,20 +2,12 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/bubka/2fauth/summary.json",
-      "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
-    },
-    {
       "path": "templates/chaitin/pandawiki/summary.json",
       "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
       "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
-    },
-    {
-      "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
     },
     {
       "path": "templates/fccview/jotty/summary.json",
@@ -38,8 +30,12 @@
       "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
     },
     {
-      "path": "templates/langgenius/dify/summary.json",
-      "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
+      "path": "templates/home-assistant/home-assistant/summary.json",
+      "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
+    },
+    {
+      "path": "templates/nextcloud/nextcloud/summary.json",
+      "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
     },
     {
       "path": "templates/open-webui/open-webui/summary.json",

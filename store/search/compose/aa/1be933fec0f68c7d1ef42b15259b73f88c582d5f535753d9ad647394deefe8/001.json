@@ -4,10 +4,6 @@
     {
       "path": "templates/babybuddy/babybuddy/summary.json",
       "sha256": "67fe68b50147273197420eff811d15eb46e7ed243e62a3ffaa10c63f22a2b045"
-    },
-    {
-      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     }
   ],
   "next": null

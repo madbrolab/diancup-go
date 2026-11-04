@@ -8,6 +8,10 @@
     {
       "path": "templates/grocy/grocy/summary.json",
       "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
+      "path": "templates/mealie-recipes/mealie/summary.json",
+      "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
     }
   ],
   "next": null

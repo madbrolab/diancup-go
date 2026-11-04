@@ -26,20 +26,12 @@
       "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
-      "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
-    },
-    {
       "path": "templates/bookstackapp/bookstack/summary.json",
       "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
     {
       "path": "templates/brave/brave-browser/summary.json",
       "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
-    },
-    {
-      "path": "templates/bubka/2fauth/summary.json",
-      "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
     },
     {
       "path": "templates/chaitin/pandawiki/summary.json",
@@ -58,20 +50,8 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
-      "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
-    },
-    {
-      "path": "templates/dockers-x/cfui/summary.json",
-      "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
-    },
-    {
       "path": "templates/ellite/wallos/summary.json",
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
-    },
-    {
-      "path": "templates/fccview/cronmaster/summary.json",
-      "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
     },
     {
       "path": "templates/fccview/jotty/summary.json",
@@ -86,20 +66,40 @@
       "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
     },
     {
-      "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-      "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
-    },
-    {
       "path": "templates/freshrss/freshrss/summary.json",
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
-      "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
+      "path": "templates/gitea/gitea-postgresql/summary.json",
+      "sha256": "e99a9462042abc8aa227cd260ecf438433f0b618f9ba3de424882f6cfce26a77"
+    },
+    {
+      "path": "templates/go-vikunja/vikunja/summary.json",
+      "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
+    },
+    {
+      "path": "templates/gotify/server/summary.json",
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
+    },
+    {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
+      "path": "templates/hargata/lubelogger/summary.json",
+      "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
+    },
+    {
+      "path": "templates/home-assistant/home-assistant/summary.json",
+      "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
     }
   ],
   "next": {
     "path": "search/compose/ca/978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb/002.json",
-    "sha256": "d31044b6654ee5951e06f2e1d5a2e700539193c0df7853824ee93129590986da"
+    "sha256": "0f36bebe93a2105fe582d8137df2df6a15396158abe36e38918f2be63b8829b3"
   }
 }

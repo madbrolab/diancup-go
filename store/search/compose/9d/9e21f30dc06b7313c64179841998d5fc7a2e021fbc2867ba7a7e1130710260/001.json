@@ -10,10 +10,6 @@
       "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
     {
-      "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
-    },
-    {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
       "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
     },
@@ -24,6 +20,10 @@
     {
       "path": "templates/toeverything/affine/summary.json",
       "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
+    },
+    {
+      "path": "templates/triliumnext/trilium/summary.json",
+      "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
     }
   ],
   "next": null

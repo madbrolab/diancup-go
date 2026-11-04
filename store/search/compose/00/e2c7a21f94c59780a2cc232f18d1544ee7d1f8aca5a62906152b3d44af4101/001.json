@@ -4,10 +4,6 @@
     {
       "path": "templates/emby/embyserver-basic/summary.json",
       "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
-    },
-    {
-      "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
     }
   ],
   "next": null

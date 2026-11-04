@@ -22,8 +22,12 @@
       "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
     {
-      "path": "templates/umami-software/umami/summary.json",
-      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
+      "path": "templates/home-assistant/home-assistant/summary.json",
+      "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
+    },
+    {
+      "path": "templates/iib0011/omni-tools/summary.json",
+      "sha256": "27cda096dcc1b104f1f8a9f2826aa7276b7f92231506f2e0006aa2d096112a3d"
     },
     {
       "path": "templates/vastsa/filecodebox/summary.json",

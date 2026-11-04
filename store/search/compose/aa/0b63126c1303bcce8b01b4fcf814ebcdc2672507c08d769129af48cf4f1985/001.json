@@ -18,8 +18,8 @@
       "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
     {
-      "path": "templates/langgenius/dify/summary.json",
-      "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
+      "path": "templates/paperless-ngx/paperless-ngx/summary.json",
+      "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
     }
   ],
   "next": null

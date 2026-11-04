@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "home-assistant/home-assistant",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Home Assistant",
+      "description": "连接家中的智能设备、传感器与服务，建立自动化场景和家庭仪表盘。此模板部署 Home Assistant Container，配置保存在自己的 NAS。",
+      "developer": "home-assistant",
+      "projectUrl": "https://github.com/home-assistant/core",
+      "source": "open",
+      "license": "Apache-2.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/home-assistant.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "home-assistant",
+        "Home Assistant",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/home-assistant/home-assistant/manifest.json",
+        "sha256": "cb653c054fd64dc4b37da9006d694cb9953cf9a7d89aceef1b4933aa4b90bc83"
+      },
+      "summary": {
+        "path": "templates/home-assistant/home-assistant/summary.json",
+        "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
+      }
+    }
+  ],
+  "next": null
+}

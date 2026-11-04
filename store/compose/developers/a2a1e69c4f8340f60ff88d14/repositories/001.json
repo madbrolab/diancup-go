@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "d9372ad3c72e297215a7744a",
+      "name": "https://github.com/nextcloud/server",
+      "projectUrl": "https://github.com/nextcloud/server",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/a2a1e69c4f8340f60ff88d14/repositories/d9372ad3c72e297215a7744a/pages/001.json",
+        "sha256": "c9c7dc9cc5275c1fe71a65cadbd2dddc53e66431524e224e713c8d15b571585d"
+      }
+    }
+  ],
+  "next": null
+}

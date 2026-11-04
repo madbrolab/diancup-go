@@ -6,6 +6,10 @@
       "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
+      "path": "templates/iib0011/omni-tools/summary.json",
+      "sha256": "27cda096dcc1b104f1f8a9f2826aa7276b7f92231506f2e0006aa2d096112a3d"
+    },
+    {
       "path": "templates/jeffvli/feishin/summary.json",
       "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     },
@@ -14,12 +18,16 @@
       "sha256": "059854e25edcc6efa665e6cce8d268926888524a39336f558acdc98a8f215921"
     },
     {
-      "path": "templates/louislam/dockge/summary.json",
-      "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
+      "path": "templates/nextcloud/nextcloud/summary.json",
+      "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
     },
     {
       "path": "templates/openlistteam/openlist/summary.json",
       "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
+    },
+    {
+      "path": "templates/syncthing/syncthing/summary.json",
+      "sha256": "44158113e797b1faea4b92f1ba6fa4b99878c60e4d93c12d729445d07361ea59"
     },
     {
       "path": "templates/vastsa/filecodebox/summary.json",

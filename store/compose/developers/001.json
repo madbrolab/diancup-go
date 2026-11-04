@@ -29,15 +29,6 @@
       }
     },
     {
-      "id": "092b51e418fdc041a2cb00dd",
-      "name": "Bubka",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/092b51e418fdc041a2cb00dd/repositories/001.json",
-        "sha256": "0a5cb913e2d2e2f0f0a6c0ba7c09c4c9b319133202bf6b838f58b0eb7afacfed"
-      }
-    },
-    {
       "id": "01c6de4ad601e1bebaa4d621",
       "name": "ChatGPTNextWeb",
       "count": 1,
@@ -83,15 +74,6 @@
       }
     },
     {
-      "id": "fdf54770bf04c7f8396616fb",
-      "name": "FlareSolverr",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/fdf54770bf04c7f8396616fb/repositories/001.json",
-        "sha256": "005da3bf4886d7703b0e62bb5846d181947f2d3a59e641d59ee9ea29598706ac"
-      }
-    },
-    {
       "id": "54dfcf4316d540b849f44adb",
       "name": "FreshRSS",
       "count": 1,
@@ -106,7 +88,7 @@
       "count": 1,
       "first": {
         "path": "compose/developers/94cb57646c54a297c9807697/repositories/001.json",
-        "sha256": "39c7f040f00545bcafa723a9573fc1f043bda2789b6017b4c9d229ef70443f80"
+        "sha256": "6fd8ec39f47a3bbaa2fad5b6c97d7a3543b6876992c560ff7d72c2a205a12b1e"
       }
     },
     {
@@ -164,6 +146,15 @@
       }
     },
     {
+      "id": "0a817c90b6411e8f5b7085bc",
+      "name": "TriliumNext",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/0a817c90b6411e8f5b7085bc/repositories/001.json",
+        "sha256": "add12cbff6c81a22951e6e787095b5c71c55d4d7023f90516fc405e29b09c579"
+      }
+    },
+    {
       "id": "aeded68edeb3a485e7adf385",
       "name": "VERT-sh",
       "count": 1,
@@ -178,7 +169,7 @@
       "count": 1,
       "first": {
         "path": "compose/developers/a674f6b5c1c92f1b7546f836/repositories/001.json",
-        "sha256": "5a5b85f304105141f5c72d4be6e178733c027215be99ee6f1f77e5a65719960c"
+        "sha256": "d26d036f845698f86d5ad605a3b519449070bc93634ec6dad1fa2fc6f3f8b2f6"
       }
     },
     {
@@ -216,10 +207,19 @@
         "path": "compose/developers/fc17dad5cb96a35787685b70/repositories/001.json",
         "sha256": "4720bc80894dbecb9060eddd51b50d326cee28e0440a8b7f611d9a2ce49a51a8"
       }
+    },
+    {
+      "id": "a1bb216b2bbb7eb30b25960e",
+      "name": "brave",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/a1bb216b2bbb7eb30b25960e/repositories/001.json",
+        "sha256": "f75c85eb8d067b57a4ec4d56129bd9e657056795fae0f6ae0b005eb8c45e9753"
+      }
     }
   ],
   "next": {
     "path": "compose/developers/002.json",
-    "sha256": "94c4fa8e9d04d360485004193c030b6a847326ced7b3d67b7f1599e482f340f2"
+    "sha256": "8742ef94e1f5e30aaf753d5f9f1fca83e22c7187ec9b1dfe1667d053c88795f0"
   }
 }

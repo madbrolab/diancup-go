@@ -10,10 +10,6 @@
       "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
-      "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
-    },
-    {
       "path": "templates/emby/embyserver-basic/summary.json",
       "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
@@ -38,16 +34,16 @@
       "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
-      "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
-    },
-    {
       "path": "templates/official/wordpress-mariadb/summary.json",
-      "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
+      "sha256": "820cc0b2e97829251d66c4f2c61a4d5b021eae852e6344eb91d6d2175cae7fc8"
     },
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
       "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
+    },
+    {
+      "path": "templates/triliumnext/trilium/summary.json",
+      "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
     },
     {
       "path": "templates/wallabag/wallabag/summary.json",

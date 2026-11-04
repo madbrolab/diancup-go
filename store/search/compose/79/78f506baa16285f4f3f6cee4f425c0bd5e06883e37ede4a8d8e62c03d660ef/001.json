@@ -6,10 +6,6 @@
       "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
-      "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
-    },
-    {
       "path": "templates/bookstackapp/bookstack/summary.json",
       "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
@@ -22,12 +18,12 @@
       "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
     },
     {
-      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
-    },
-    {
       "path": "templates/open-webui/open-webui/summary.json",
       "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
+    },
+    {
+      "path": "templates/paperless-ngx/paperless-ngx/summary.json",
+      "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
     },
     {
       "path": "templates/rommapp/romm/summary.json",

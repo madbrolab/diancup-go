@@ -10,6 +10,10 @@
       "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
     },
     {
+      "path": "templates/mealie-recipes/mealie/summary.json",
+      "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
+    },
+    {
       "path": "templates/sysadminsmedia/homebox/summary.json",
       "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
     }

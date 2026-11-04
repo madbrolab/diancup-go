@@ -10,8 +10,8 @@
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
     },
     {
-      "path": "templates/netdata/netdata/summary.json",
-      "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
+      "path": "templates/syncthing/syncthing/summary.json",
+      "sha256": "44158113e797b1faea4b92f1ba6fa4b99878c60e4d93c12d729445d07361ea59"
     },
     {
       "path": "templates/wallabag/wallabag/summary.json",

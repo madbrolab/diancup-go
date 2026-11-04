@@ -9,7 +9,7 @@
   "source": "open",
   "license": "GPL-2.0",
   "paidKey": "none",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "media",
   "tags": [
     "jellyfin",
@@ -53,5 +53,12 @@
       "example": "1000"
     }
   ],
-  "documentation": "https://docs.linuxserver.io/images/docker-jellyfin/"
+  "documentation": "https://docs.linuxserver.io/images/docker-jellyfin/",
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-03T20:17:11Z",
+    "lastCommit": "804eb747827add0c27d438cbdbb9a3f909f2a4b6",
+    "readmeSHA256": "e0dd3c334d03239315300b2bbc45610b16cb9ce841cd603dadb84571b281c5d8",
+    "readmeURL": "https://github.com/jellyfin/jellyfin/blob/master/README.md"
+  }
 }

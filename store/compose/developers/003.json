@@ -2,60 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "id": "06eb80c10d6089876042f48d",
-      "name": "n8n-io",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/06eb80c10d6089876042f48d/repositories/001.json",
-        "sha256": "2e3157a6ee15884e0e550818ec4705d330dc81e08063187e12b6b82c2134959b"
-      }
-    },
-    {
-      "id": "d579097b3c57f0d8757d3fad",
-      "name": "navidrome",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/d579097b3c57f0d8757d3fad/repositories/001.json",
-        "sha256": "3ca9fd796a6d6c0ede2a13dfe9c803b2b283946839706aff9dd47664366e7ffd"
-      }
-    },
-    {
-      "id": "474cb35097bb51195a63f8d8",
-      "name": "netdata",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/474cb35097bb51195a63f8d8/repositories/001.json",
-        "sha256": "250cdd7584d3e271c1153c2d44641d956c745f954c0378dd2ad84501f05516e3"
-      }
-    },
-    {
-      "id": "5be1ecc7935f1dd85635d4fe",
-      "name": "nginx",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/5be1ecc7935f1dd85635d4fe/repositories/001.json",
-        "sha256": "c1605cc743e876d56c25caec5ce90e9e6bfef5a91ca9efe7c0f5ba1a91762195"
-      }
-    },
-    {
-      "id": "d496c82198e4f3360f2a8433",
-      "name": "open-webui",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/d496c82198e4f3360f2a8433/repositories/001.json",
-        "sha256": "e83592048bebbbd4cd9f5e1f9867a25c08dd0a03647f35023cd72eb511b9f967"
-      }
-    },
-    {
-      "id": "6e6670a9af20b60cb9ff8163",
-      "name": "penpot",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/6e6670a9af20b60cb9ff8163/repositories/001.json",
-        "sha256": "a1b6364363d2f9cfacaa24b1ba498178908ef4d33b03a629052595f204d03b53"
-      }
-    },
-    {
       "id": "42d1cf784744ddc3ebd2fbc9",
       "name": "plankanban",
       "count": 1,
@@ -74,15 +20,6 @@
       }
     },
     {
-      "id": "e851219b75c97d1a161ad6b2",
-      "name": "qbittorrent",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/e851219b75c97d1a161ad6b2/repositories/001.json",
-        "sha256": "2d468acc491c67b54de5ab61c82ec93d182fac5c2cd9ed19839586cfaf52e832"
-      }
-    },
-    {
       "id": "28d9bf7ed4a68d7e1e424c86",
       "name": "rommapp",
       "count": 1,
@@ -98,6 +35,15 @@
       "first": {
         "path": "compose/developers/044d5bec622db344b31062c6/repositories/001.json",
         "sha256": "d64d30b5dfa33b47143f96aafa762f33c80424d383be26386bd2662cb3d9e7c2"
+      }
+    },
+    {
+      "id": "dfcac9a8586bd9d4dbd28fa1",
+      "name": "syncthing",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/dfcac9a8586bd9d4dbd28fa1/repositories/001.json",
+        "sha256": "083aa6770d1cd18e31665722580696924b4ce499aa5428e6e761c88cbd067956"
       }
     },
     {
@@ -125,24 +71,6 @@
       "first": {
         "path": "compose/developers/06fab5438eed2bd10204890d/repositories/001.json",
         "sha256": "bdc7db1e54c391cb98e33e475e6d9899294674e568e57d1a1bd1a421a6b10ad6"
-      }
-    },
-    {
-      "id": "1d2cafdb2fbaa2b86fe4565d",
-      "name": "transmission",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/1d2cafdb2fbaa2b86fe4565d/repositories/001.json",
-        "sha256": "856e5eaab0143912c9166f4ff437f32ff859fd237cc589746be420196a9eb8c4"
-      }
-    },
-    {
-      "id": "923e8616bd8b4425571df2d4",
-      "name": "umami-software",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/923e8616bd8b4425571df2d4/repositories/001.json",
-        "sha256": "b30eb704a30c1e081ae46208b527d2d69f44deabe7f3bdb2fa0b18d75e7c4a0c"
       }
     },
     {

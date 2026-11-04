@@ -9,7 +9,7 @@
   "source": "open",
   "license": "GPL-2.0-or-later",
   "paidKey": "none",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "category": "web",
   "tags": [
     "wordpress",
@@ -69,5 +69,12 @@
         "db"
       ]
     }
-  ]
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-04T16:00:07Z",
+    "lastCommit": "32592cbe40ae0575742449beea082c17843e797d",
+    "readmeSHA256": "f6f4c1c8f625aba6317bc3d2f7d1fa4ccfcbbaa7ad086475c6e9da99528632ec",
+    "readmeURL": "https://github.com/WordPress/WordPress/blob/master/readme.html"
+  }
 }

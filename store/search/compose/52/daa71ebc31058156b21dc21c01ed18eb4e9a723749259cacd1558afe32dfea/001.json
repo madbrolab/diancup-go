@@ -18,8 +18,8 @@
       "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
-      "path": "templates/transmission/transmission/summary.json",
-      "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
+      "path": "templates/syncthing/syncthing/summary.json",
+      "sha256": "44158113e797b1faea4b92f1ba6fa4b99878c60e4d93c12d729445d07361ea59"
     }
   ],
   "next": null

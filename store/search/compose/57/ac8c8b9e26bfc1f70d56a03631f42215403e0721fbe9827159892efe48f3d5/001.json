@@ -10,20 +10,16 @@
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
-      "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
-    },
-    {
-      "path": "templates/henrygd/beszel/summary.json",
-      "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
-    },
-    {
-      "path": "templates/netdata/netdata/summary.json",
-      "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
+      "path": "templates/paperless-ngx/paperless-ngx/summary.json",
+      "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
     },
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
       "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
+    },
+    {
+      "path": "templates/triliumnext/trilium/summary.json",
+      "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
     },
     {
       "path": "templates/usememos/memos/summary.json",

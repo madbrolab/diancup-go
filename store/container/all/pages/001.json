@@ -12,7 +12,7 @@
       "source": "open",
       "license": "GPL-2.0",
       "paidKey": "none",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "icon": "icons/jellyfin.svg",
       "architectures": [
         "amd64",
@@ -26,107 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/linuxserver/jellyfin/manifest.json",
-        "sha256": "52a3d29ce2aaec9fa1ea879b430eba02ed4d1b2ca490420e821dda922d502b2b"
+        "sha256": "8f71bbfcd4a2f4cc55d96fe0c8c0d54f54b8cccc99e5a3811b0723e695d1c822"
       },
       "summary": {
         "path": "templates/linuxserver/jellyfin/summary.json",
-        "sha256": "4cddf7bad032ddb85692ef12af0195b130d264985b7f2276dd8a87475880f3bc"
-      }
-    },
-    {
-      "id": "louislam/uptime-kuma",
-      "kind": "container",
-      "category": "monitoring",
-      "name": "Uptime Kuma",
-      "description": "自托管服务可用性监控，支持 HTTP、TCP 等探测。",
-      "developer": "Louis Lam",
-      "projectUrl": "https://github.com/louislam/uptime-kuma",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/uptime-kuma.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "uptime",
-        "kuma",
-        "监控"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/louislam/uptime-kuma/manifest.json",
-        "sha256": "06871eca490404c97f6d32474ca341ae078837cc44af901b60a8fd75c83432d4"
-      },
-      "summary": {
-        "path": "templates/louislam/uptime-kuma/summary.json",
-        "sha256": "af30601ce677d8e72bbda5efc6007fdaf26ff90568e84339b5eef3b87f408b23"
-      }
-    },
-    {
-      "id": "official/nginx",
-      "kind": "container",
-      "category": "web",
-      "name": "Nginx",
-      "description": "轻量 Web 服务与反向代理，网站目录以只读方式挂载。",
-      "developer": "NGINX",
-      "projectUrl": "https://github.com/nginx/nginx",
-      "source": "open",
-      "license": "BSD-2-Clause",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/nginx.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "nginx",
-        "网站",
-        "反向代理"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/official/nginx/manifest.json",
-        "sha256": "75c9e5e9d3f6665b83935b53adeee1bbf04894406cd9381d7a430fcbaa7b55b4"
-      },
-      "summary": {
-        "path": "templates/official/nginx/summary.json",
-        "sha256": "138a0bb0896888cca060e7b2337652bdb5b3ecccbcb40f6886ba1c58c0b3e385"
-      }
-    },
-    {
-      "id": "official/postgresql",
-      "kind": "container",
-      "category": "database",
-      "name": "PostgreSQL",
-      "description": "关系型数据库，默认仅在本机回环地址暴露端口。",
-      "developer": "PostgreSQL",
-      "projectUrl": "https://github.com/postgres/postgres",
-      "source": "open",
-      "license": "PostgreSQL",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/postgresql.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "postgres",
-        "postgresql",
-        "数据库"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/official/postgresql/manifest.json",
-        "sha256": "4b231696c5905138165cc2aa8759bf52ba86c435a869cb57838666702cd47de1"
-      },
-      "summary": {
-        "path": "templates/official/postgresql/summary.json",
-        "sha256": "0dace94fbee2df811acbf1f5cbe32383b20250ae5d658d88a8d24a76c29d3af0"
+        "sha256": "ddbd159686cf51a6e5e3124d2da0d1433aad969a29b3937e4522150a18ecd86d"
       }
     }
   ],

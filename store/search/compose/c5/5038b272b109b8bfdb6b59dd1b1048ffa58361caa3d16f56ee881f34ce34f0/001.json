@@ -8,6 +8,14 @@
     {
       "path": "templates/fccview/jotty/summary.json",
       "sha256": "9b917fdcf6265d0cc8ff36ed9d01b328aceff49b097dca2de9e9090a58a77ff6"
+    },
+    {
+      "path": "templates/iib0011/omni-tools/summary.json",
+      "sha256": "27cda096dcc1b104f1f8a9f2826aa7276b7f92231506f2e0006aa2d096112a3d"
+    },
+    {
+      "path": "templates/paperless-ngx/paperless-ngx/summary.json",
+      "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
     }
   ],
   "next": null

@@ -8,6 +8,14 @@
     {
       "path": "templates/immich-app/immich/summary.json",
       "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+    },
+    {
+      "path": "templates/nextcloud/nextcloud/summary.json",
+      "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
+    },
+    {
+      "path": "templates/syncthing/syncthing/summary.json",
+      "sha256": "44158113e797b1faea4b92f1ba6fa4b99878c60e4d93c12d729445d07361ea59"
     }
   ],
   "next": null

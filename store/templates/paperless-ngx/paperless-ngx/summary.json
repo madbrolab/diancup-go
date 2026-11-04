@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "paperless-ngx/paperless-ngx",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Paperless-ngx",
+  "description": "归档扫描件、账单和家庭文档，通过 OCR 提取文字，按标签、联系人和文档类型整理并全文检索。默认启用简体中文与英文识别。",
+  "developer": "paperless-ngx",
+  "projectUrl": "https://github.com/paperless-ngx/paperless-ngx",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/paperless.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "paperless",
+    "Paperless-ngx",
+    "tools",
+    "compose"
+  ],
+  "applicationCount": 3,
+  "manifest": {
+    "path": "templates/paperless-ngx/paperless-ngx/manifest.json",
+    "sha256": "79bb041542cacac409ca9cd5a9588f6d7276c73df0dcade2e390f506f64a96d7"
+  }
+}

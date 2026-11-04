@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/iib0011/omni-tools/summary.json",
+      "sha256": "27cda096dcc1b104f1f8a9f2826aa7276b7f92231506f2e0006aa2d096112a3d"
+    },
+    {
+      "path": "templates/triliumnext/trilium/summary.json",
+      "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
+    }
+  ],
+  "next": null
+}

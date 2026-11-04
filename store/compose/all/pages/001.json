@@ -193,38 +193,6 @@
       }
     },
     {
-      "id": "bestruirui/octopus",
-      "kind": "compose",
-      "category": "ai",
-      "name": "Octopus",
-      "description": "汇集多个模型渠道，转换常见 API 协议，并记录用量、费用和请求状态；上游不可用时可切换其他渠道。",
-      "developer": "bestruirui",
-      "projectUrl": "https://github.com/bestruirui/octopus",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/octopus.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "octopus",
-        "Octopus",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/bestruirui/octopus/manifest.json",
-        "sha256": "c2f0dff47318dfac7c0df30a54c249381760718494a9c9b1bf77256baf38699b"
-      },
-      "summary": {
-        "path": "templates/bestruirui/octopus/summary.json",
-        "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
-      }
-    },
-    {
       "id": "bookstackapp/bookstack",
       "kind": "compose",
       "category": "tools",
@@ -286,38 +254,6 @@
       "summary": {
         "path": "templates/brave/brave-browser/summary.json",
         "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
-      }
-    },
-    {
-      "id": "bubka/2fauth",
-      "kind": "compose",
-      "category": "tools",
-      "name": "2FAuth",
-      "description": "在自建网页中保存双重验证账号并生成动态验证码，支持二维码录入、分组以及多用户访问。",
-      "developer": "Bubka",
-      "projectUrl": "https://github.com/Bubka/2FAuth",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/2fauth.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "2fauth",
-        "2FAuth",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/bubka/2fauth/manifest.json",
-        "sha256": "b5501c4be598cdc7c4b805b829f9c50cbd784892af9c210533c52759aeaafea5"
-      },
-      "summary": {
-        "path": "templates/bubka/2fauth/summary.json",
-        "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
       }
     },
     {
@@ -481,70 +417,6 @@
       }
     },
     {
-      "id": "dani-garcia/vaultwarden",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Vaultwarden",
-      "description": "提供兼容 Bitwarden 客户端的自建密码库服务，集中保存个人条目、附件和共享组织数据。",
-      "developer": "dani-garcia",
-      "projectUrl": "https://github.com/dani-garcia/vaultwarden",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/vaultwarden.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "vaultwarden",
-        "Vaultwarden",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/dani-garcia/vaultwarden/manifest.json",
-        "sha256": "a7d47d580184bccceaf1bf8951a5c11e6baac30295d6c890ac7675aebe2a4cdf"
-      },
-      "summary": {
-        "path": "templates/dani-garcia/vaultwarden/summary.json",
-        "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
-      }
-    },
-    {
-      "id": "dockers-x/cfui",
-      "kind": "compose",
-      "category": "network",
-      "name": "cfui",
-      "description": "通过网页管理 Cloudflare Tunnel 进程与入口规则，并提供 DNS 更新、DDNS 和存储访问等辅助功能。",
-      "developer": "dockers-x",
-      "projectUrl": "https://github.com/dockers-x/cfui",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/cfui.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "cfui",
-        "cfui",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/dockers-x/cfui/manifest.json",
-        "sha256": "cf73f539226d60bfd46678db457cc1244676635c646a0a629c7c288a2e081120"
-      },
-      "summary": {
-        "path": "templates/dockers-x/cfui/summary.json",
-        "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
-      }
-    },
-    {
       "id": "ellite/wallos",
       "kind": "compose",
       "category": "tools",
@@ -607,38 +479,6 @@
       "summary": {
         "path": "templates/emby/embyserver-basic/summary.json",
         "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
-      }
-    },
-    {
-      "id": "fccview/cronmaster",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Cronmaster",
-      "description": "将服务器定时任务、脚本与执行日志集中到网页中管理，并查看系统运行信息。",
-      "developer": "fccview",
-      "projectUrl": "https://github.com/fccview/cronmaster",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/cronmaster.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "cronmaster",
-        "Cronmaster",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/fccview/cronmaster/manifest.json",
-        "sha256": "f1407ae221d79dd0b0c51cbd9499536e256861121ea75b72e7650887f214df95"
-      },
-      "summary": {
-        "path": "templates/fccview/cronmaster/summary.json",
-        "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
       }
     },
     {
@@ -738,40 +578,201 @@
       }
     },
     {
-      "id": "flaresolverr/flaresolverr-basic",
+      "id": "freeok/so-novel",
       "kind": "compose",
-      "category": "network",
-      "name": "FlareSolverr 基础版",
-      "description": "为其他程序提供浏览器请求接口，返回页面内容与会话 Cookie，可用于需要浏览器环境的网页访问流程。",
-      "developer": "FlareSolverr",
-      "projectUrl": "https://github.com/FlareSolverr/FlareSolverr",
+      "category": "tools",
+      "name": "So Novel",
+      "description": "从网页提取并整理内容，导出 EPUB、TXT 或 PDF 等文档，也提供便于服务器使用的网页操作入口。",
+      "developer": "freeok",
+      "projectUrl": "https://github.com/freeok/so-novel",
       "source": "open",
-      "license": "MIT",
+      "license": "AGPL-3.0",
       "paidKey": "none",
       "version": "1.0.0",
-      "icon": "icons/basic-flaresolverr.svg",
+      "icon": "icons/sonovel.svg",
+      "architectures": [
+        "amd64"
+      ],
+      "tags": [
+        "sonovel",
+        "So Novel",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/freeok/so-novel/manifest.json",
+        "sha256": "d4ecd3c733d2f7ef6503fd8a603a8f5a5e425b6cd5edc5320c8f52afc4158600"
+      },
+      "summary": {
+        "path": "templates/freeok/so-novel/summary.json",
+        "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
+      }
+    },
+    {
+      "id": "freshrss/freshrss",
+      "kind": "compose",
+      "category": "tools",
+      "name": "FreshRSS",
+      "description": "集中订阅与阅读 RSS、Atom 等内容源，按用户保存标签和阅读状态，并能对接移动客户端或扩展插件。",
+      "developer": "FreshRSS",
+      "projectUrl": "https://github.com/FreshRSS/FreshRSS",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/freshrss.svg",
       "architectures": [
         "amd64",
         "arm64"
       ],
       "tags": [
-        "flaresolverr",
-        "基础模板",
+        "freshrss",
+        "FreshRSS",
         "compose"
       ],
       "applicationCount": 1,
       "manifest": {
-        "path": "templates/flaresolverr/flaresolverr-basic/manifest.json",
-        "sha256": "1ecca404c53f416035f057466009ad6f0add0e5813ba5ea37a3290fab31e1ba4"
+        "path": "templates/freshrss/freshrss/manifest.json",
+        "sha256": "38eb2e571e430ba67a336863114d9019ead73359fd31a6484c3a87969cd1cc0b"
       },
       "summary": {
-        "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-        "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
+        "path": "templates/freshrss/freshrss/summary.json",
+        "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
+      }
+    },
+    {
+      "id": "gitea/gitea-postgresql",
+      "kind": "compose",
+      "category": "development",
+      "name": "Gitea + PostgreSQL",
+      "description": "轻量 Git 托管平台，搭配 PostgreSQL 数据库。",
+      "developer": "Gitea",
+      "projectUrl": "https://github.com/go-gitea/gitea",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.1.1",
+      "icon": "icons/gitea-postgresql.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "gitea",
+        "git",
+        "postgresql",
+        "代码托管"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/gitea/gitea-postgresql/manifest.json",
+        "sha256": "bd083f2f3d564aca35e19bb8868720823468393c86fdb91da818c420083a23e0"
+      },
+      "summary": {
+        "path": "templates/gitea/gitea-postgresql/summary.json",
+        "sha256": "e99a9462042abc8aa227cd260ecf438433f0b618f9ba3de424882f6cfce26a77"
+      }
+    },
+    {
+      "id": "go-vikunja/vikunja",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Vikunja",
+      "description": "自建任务与项目管理空间，安排待办事项和协作计划；另提供托管版，以及包含管理和审计能力的 Pro 版本。",
+      "developer": "go-vikunja",
+      "projectUrl": "https://github.com/go-vikunja/vikunja",
+      "source": "open",
+      "license": "AGPL-3.0-or-later",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/vikunja.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "vikunja",
+        "Vikunja",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/go-vikunja/vikunja/manifest.json",
+        "sha256": "3be38f115e8d20ebb669769be77a284b8e65fb05f55501e9803c02515f2f2e93"
+      },
+      "summary": {
+        "path": "templates/go-vikunja/vikunja/summary.json",
+        "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
+      }
+    },
+    {
+      "id": "gotify/server",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Gotify",
+      "description": "搭建自己的消息推送服务，通过 REST API 发送通知，并使用网页、WebSocket 或 Android 客户端接收消息。",
+      "developer": "gotify",
+      "projectUrl": "https://github.com/gotify/server",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/gotify.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "gotify",
+        "Gotify",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/gotify/server/manifest.json",
+        "sha256": "9f5983b4c7a0029ebc42adc057c36b4f972577d31e60e8b5e7be0e753ecc5307"
+      },
+      "summary": {
+        "path": "templates/gotify/server/summary.json",
+        "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
+      }
+    },
+    {
+      "id": "gotson/komga",
+      "kind": "compose",
+      "category": "media",
+      "name": "Komga",
+      "description": "把漫画、杂志和电子书目录整理为个人阅读库，提供网页阅读、合集、阅读进度以及 OPDS 和阅读器同步。",
+      "developer": "gotson",
+      "projectUrl": "https://github.com/gotson/komga",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/komga.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "komga",
+        "Komga",
+        "media",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/gotson/komga/manifest.json",
+        "sha256": "50f020c21e7ce7f798ec28474ab73cb13059e3a51d6fa46e809efaca68a9801e"
+      },
+      "summary": {
+        "path": "templates/gotson/komga/summary.json",
+        "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
       }
     }
   ],
   "next": {
     "path": "compose/all/pages/002.json",
-    "sha256": "3e3f1d28221ec4c408f0ce21ce1c1977799ed92e762ffef1157991ab48b88cf4"
+    "sha256": "10fee80e804b75c6f99ed184b23323925dc94d04452e4910521d5e0513ad275c"
   }
 }

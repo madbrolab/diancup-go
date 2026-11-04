@@ -10,10 +10,6 @@
       "sha256": "16cea6af5d7dea97af15b35ea4ede65ff1f23e89be1803c69dc759dfc3028252"
     },
     {
-      "path": "templates/nginx/nginx/summary.json",
-      "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
-    },
-    {
       "path": "templates/wallabag/wallabag/summary.json",
       "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
     }

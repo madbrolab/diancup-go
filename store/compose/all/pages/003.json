@@ -2,329 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "id": "navidrome/navidrome",
-      "kind": "compose",
-      "category": "media",
-      "name": "Navidrome",
-      "description": "把服务器中的音乐收藏提供给浏览器和兼容客户端播放，可维护曲库、用户与个人播放记录；另有第三方托管选择。",
-      "developer": "navidrome",
-      "projectUrl": "https://github.com/navidrome/navidrome",
-      "source": "open",
-      "license": "GPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/navidrome.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "navidrome",
-        "Navidrome",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/navidrome/navidrome/manifest.json",
-        "sha256": "b85af2d5d1507c65c22e9ae7aacd5a5a02894d937f80c7c6adfa63f6b432fe2f"
-      },
-      "summary": {
-        "path": "templates/navidrome/navidrome/summary.json",
-        "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
-      }
-    },
-    {
-      "id": "netdata/netdata",
-      "kind": "compose",
-      "category": "monitoring",
-      "name": "Netdata",
-      "description": "持续采集主机和容器的运行指标，以图表、告警与异常检测定位问题；Agent 开源，云端与界面另有许可及付费选项。",
-      "developer": "netdata",
-      "projectUrl": "https://github.com/netdata/netdata",
-      "source": "open",
-      "license": "GPL-3.0-or-later (Agent); NCUL1 (UI)",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/netdata.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "netdata",
-        "Netdata",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/netdata/netdata/manifest.json",
-        "sha256": "394a572a2049269ca45e90eed7f110671e77e49e5cf3368ad23a98905ea19a6b"
-      },
-      "summary": {
-        "path": "templates/netdata/netdata/summary.json",
-        "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
-      }
-    },
-    {
-      "id": "nginx/nginx",
-      "kind": "compose",
-      "category": "web",
-      "name": "NGINX",
-      "description": "用于发布网站、转发 HTTP 请求和分发后端流量的 Web 服务，适合静态站点与反向代理。另有可选商业支持。",
-      "developer": "nginx",
-      "projectUrl": "https://github.com/nginx/nginx",
-      "source": "open",
-      "license": "BSD-2-Clause",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/nginx.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "nginx",
-        "NGINX",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/nginx/nginx/manifest.json",
-        "sha256": "ddd3d228a419a6910732cf3170b918512acfc3391b3add9c8851d1b81bcd8aac"
-      },
-      "summary": {
-        "path": "templates/nginx/nginx/summary.json",
-        "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
-      }
-    },
-    {
-      "id": "official/wordpress-mariadb",
-      "kind": "compose",
-      "category": "web",
-      "name": "WordPress + MariaDB",
-      "description": "博客网站和独立数据库，数据库仅在项目网络中访问。",
-      "developer": "WordPress / MariaDB",
-      "projectUrl": "https://github.com/WordPress/WordPress",
-      "source": "open",
-      "license": "GPL-2.0-or-later",
-      "paidKey": "none",
-      "version": "1.1.0",
-      "icon": "icons/wordpress-mariadb.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "wordpress",
-        "mariadb",
-        "博客",
-        "网站"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/official/wordpress-mariadb/manifest.json",
-        "sha256": "e194bc27dbfd24adf17b7cec0266b23bc2f7d58b647e1e2df1f909205b9385ef"
-      },
-      "summary": {
-        "path": "templates/official/wordpress-mariadb/summary.json",
-        "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
-      }
-    },
-    {
-      "id": "open-webui/open-webui",
-      "kind": "compose",
-      "category": "ai",
-      "name": "Open WebUI",
-      "description": "为本地与兼容 API 的模型提供统一对话入口，可在自建环境管理资料和交互；许可要求保留品牌，另有企业服务。",
-      "developer": "open-webui",
-      "projectUrl": "https://github.com/open-webui/open-webui",
-      "source": "unknown",
-      "license": "Open WebUI License with branding requirements",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/open-webui.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "open-webui",
-        "Open WebUI",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/open-webui/open-webui/manifest.json",
-        "sha256": "2f17b33103dda645c8674966dc144f108c34bc0b3944a7e4e9bbb33b046fea7c"
-      },
-      "summary": {
-        "path": "templates/open-webui/open-webui/summary.json",
-        "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
-      }
-    },
-    {
-      "id": "openlistteam/openlist",
-      "kind": "compose",
-      "category": "storage",
-      "name": "OpenList",
-      "description": "将多个存储服务组织成统一的文件列表，通过网页访问和管理内容。项目声明现有功能免费提供。",
-      "developer": "OpenListTeam",
-      "projectUrl": "https://github.com/OpenListTeam/OpenList",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/openlist.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "openlist",
-        "OpenList",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/openlistteam/openlist/manifest.json",
-        "sha256": "93101ffa4e9ee15c064fb46b5e22c0a93cf213482f46198c0050aeb5a78ff48b"
-      },
-      "summary": {
-        "path": "templates/openlistteam/openlist/summary.json",
-        "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
-      }
-    },
-    {
-      "id": "penpot/penpot",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Penpot",
-      "description": "在浏览器里协作设计界面、制作交互原型和维护设计系统，可与开发流程配合使用。项目提供可自建的开源版本和付费企业方案。",
-      "developer": "penpot",
-      "projectUrl": "https://github.com/penpot/penpot",
-      "source": "open",
-      "license": "MPL-2.0",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/penpot.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "penpot",
-        "Penpot",
-        "tools",
-        "compose"
-      ],
-      "applicationCount": 3,
-      "manifest": {
-        "path": "templates/penpot/penpot/manifest.json",
-        "sha256": "819bc18db073455808d1f0c96d62705b92c689650bd7658dba11a712e48ce45d"
-      },
-      "summary": {
-        "path": "templates/penpot/penpot/summary.json",
-        "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
-      }
-    },
-    {
-      "id": "plankanban/planka",
-      "kind": "compose",
-      "category": "tools",
-      "name": "PLANKA",
-      "description": "用看板、列表和卡片协作管理项目，记录评论、附件与到期时间。社区版可自建，Pro 和企业功能另行授权。",
-      "developer": "plankanban",
-      "projectUrl": "https://github.com/plankanban/planka",
-      "source": "unknown",
-      "license": "PLANKA Community Fair Use License / Commercial License",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/planka.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "planka",
-        "PLANKA",
-        "compose"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/plankanban/planka/manifest.json",
-        "sha256": "8e6519fdba15968a16acfa33492f785728dcc0a8b72535c5da0effe556965ef8"
-      },
-      "summary": {
-        "path": "templates/plankanban/planka/summary.json",
-        "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
-      }
-    },
-    {
-      "id": "qbittorrent/qbittorrent",
-      "kind": "compose",
-      "category": "download",
-      "name": "qBittorrent",
-      "description": "提供可远程访问的 BitTorrent 下载服务，用网页管理任务、连接和传输速度；此模板使用 LinuxServer.io 镜像。",
-      "developer": "qbittorrent",
-      "projectUrl": "https://github.com/qbittorrent/qBittorrent",
-      "source": "open",
-      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/qbittorrent.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "qbittorrent",
-        "qBittorrent",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/qbittorrent/qbittorrent/manifest.json",
-        "sha256": "c26606d87b4e1f7fb16542b21c816283f3f8fc39b5965dc6ac12584fe3427873"
-      },
-      "summary": {
-        "path": "templates/qbittorrent/qbittorrent/summary.json",
-        "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
-      }
-    },
-    {
-      "id": "rommapp/romm",
-      "kind": "compose",
-      "category": "games",
-      "name": "RomM",
-      "description": "为自己的游戏 ROM 建立带封面和元数据的资料库，支持网页游玩、存档与状态管理，并可对接多种游戏资料服务。",
-      "developer": "rommapp",
-      "projectUrl": "https://github.com/rommapp/romm",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/romm.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "romm",
-        "RomM",
-        "games",
-        "compose"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/rommapp/romm/manifest.json",
-        "sha256": "cbb12ce20c52cbe9feac1f04d1f4dd78afffe91e0c75a4388fcd61118ff6b694"
-      },
-      "summary": {
-        "path": "templates/rommapp/romm/summary.json",
-        "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
-      }
-    },
-    {
       "id": "seerr-team/seerr",
       "kind": "compose",
       "category": "media",
@@ -386,6 +63,39 @@
       "summary": {
         "path": "templates/stirling-tools/stirling-pdf/summary.json",
         "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
+      }
+    },
+    {
+      "id": "syncthing/syncthing",
+      "kind": "compose",
+      "category": "storage",
+      "name": "Syncthing",
+      "description": "在自己的电脑、手机和 NAS 之间持续同步文件，可逐个目录选择设备与同步方式，支持文件版本保留和局域网发现。",
+      "developer": "syncthing",
+      "projectUrl": "https://github.com/syncthing/syncthing",
+      "source": "open",
+      "license": "MPL-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/syncthing.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "syncthing",
+        "Syncthing",
+        "storage",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/syncthing/syncthing/manifest.json",
+        "sha256": "cd52d75af48001c71b6f89337c10e75d597bf7854b9275b1554b232f9bb0a148"
+      },
+      "summary": {
+        "path": "templates/syncthing/syncthing/summary.json",
+        "sha256": "44158113e797b1faea4b92f1ba6fa4b99878c60e4d93c12d729445d07361ea59"
       }
     },
     {
@@ -487,67 +197,36 @@
       }
     },
     {
-      "id": "transmission/transmission",
+      "id": "triliumnext/trilium",
       "kind": "compose",
-      "category": "download",
-      "name": "Transmission",
-      "description": "运行面向服务器的 BT 下载守护进程，通过网页管理磁力链接和种子，并保留下载、配置与监视目录。",
-      "developer": "transmission",
-      "projectUrl": "https://github.com/transmission/transmission",
+      "category": "tools",
+      "name": "Trilium",
+      "description": "用树状层级、标签和链接组织个人笔记，支持富文本、附件、画布与脚本扩展，并可与兼容版本的桌面客户端同步。",
+      "developer": "TriliumNext",
+      "projectUrl": "https://github.com/TriliumNext/Trilium",
       "source": "open",
-      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
+      "license": "AGPL-3.0",
       "paidKey": "none",
       "version": "1.0.0",
-      "icon": "icons/transmission.svg",
+      "icon": "icons/trilium.svg",
       "architectures": [
         "amd64",
         "arm64"
       ],
       "tags": [
-        "transmission",
-        "Transmission",
+        "trilium",
+        "Trilium",
+        "tools",
         "compose"
       ],
       "applicationCount": 1,
       "manifest": {
-        "path": "templates/transmission/transmission/manifest.json",
-        "sha256": "feb63d5e2db452a717d5ef15e8b9123e63c9e4f0b85986190e539c44243c0dc6"
+        "path": "templates/triliumnext/trilium/manifest.json",
+        "sha256": "9fb217147a2e7b620fd0d6ca33c1031cba33481660800dd93b5c6a1065890530"
       },
       "summary": {
-        "path": "templates/transmission/transmission/summary.json",
-        "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
-      }
-    },
-    {
-      "id": "umami-software/umami",
-      "kind": "compose",
-      "category": "monitoring",
-      "name": "Umami",
-      "description": "统计网站访问、活动来源与转化情况，使用注重隐私的分析方式。可自行部署，README 提到云端服务但未列价格。",
-      "developer": "umami-software",
-      "projectUrl": "https://github.com/umami-software/umami",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "unknown",
-      "version": "1.0.0",
-      "icon": "icons/umami.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "umami",
-        "Umami",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/umami-software/umami/manifest.json",
-        "sha256": "d25548f6b9974831e7af5ca9370873534b8529ff85911a8d832b6ac6dffc3e97"
-      },
-      "summary": {
-        "path": "templates/umami-software/umami/summary.json",
-        "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
+        "path": "templates/triliumnext/trilium/summary.json",
+        "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
       }
     },
     {

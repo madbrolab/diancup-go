@@ -130,38 +130,6 @@
       }
     },
     {
-      "id": "bubka/2fauth",
-      "kind": "compose",
-      "category": "tools",
-      "name": "2FAuth",
-      "description": "在自建网页中保存双重验证账号并生成动态验证码，支持二维码录入、分组以及多用户访问。",
-      "developer": "Bubka",
-      "projectUrl": "https://github.com/Bubka/2FAuth",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/2fauth.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "2fauth",
-        "2FAuth",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/bubka/2fauth/manifest.json",
-        "sha256": "b5501c4be598cdc7c4b805b829f9c50cbd784892af9c210533c52759aeaafea5"
-      },
-      "summary": {
-        "path": "templates/bubka/2fauth/summary.json",
-        "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
-      }
-    },
-    {
       "id": "chaitin/pandawiki",
       "kind": "compose",
       "category": "tools",
@@ -191,38 +159,6 @@
       "summary": {
         "path": "templates/chaitin/pandawiki/summary.json",
         "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
-      }
-    },
-    {
-      "id": "dani-garcia/vaultwarden",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Vaultwarden",
-      "description": "提供兼容 Bitwarden 客户端的自建密码库服务，集中保存个人条目、附件和共享组织数据。",
-      "developer": "dani-garcia",
-      "projectUrl": "https://github.com/dani-garcia/vaultwarden",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/vaultwarden.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "vaultwarden",
-        "Vaultwarden",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/dani-garcia/vaultwarden/manifest.json",
-        "sha256": "a7d47d580184bccceaf1bf8951a5c11e6baac30295d6c890ac7675aebe2a4cdf"
-      },
-      "summary": {
-        "path": "templates/dani-garcia/vaultwarden/summary.json",
-        "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
       }
     },
     {
@@ -256,38 +192,6 @@
       "summary": {
         "path": "templates/ellite/wallos/summary.json",
         "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
-      }
-    },
-    {
-      "id": "fccview/cronmaster",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Cronmaster",
-      "description": "将服务器定时任务、脚本与执行日志集中到网页中管理，并查看系统运行信息。",
-      "developer": "fccview",
-      "projectUrl": "https://github.com/fccview/cronmaster",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/cronmaster.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "cronmaster",
-        "Cronmaster",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/fccview/cronmaster/manifest.json",
-        "sha256": "f1407ae221d79dd0b0c51cbd9499536e256861121ea75b72e7650887f214df95"
-      },
-      "summary": {
-        "path": "templates/fccview/cronmaster/summary.json",
-        "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
       }
     },
     {
@@ -515,6 +419,105 @@
       }
     },
     {
+      "id": "hargata/lubelogger",
+      "kind": "compose",
+      "category": "tools",
+      "name": "LubeLogger",
+      "description": "记录家用车辆的保养、维修、加油、里程与费用，保存相关凭证，设置保养计划，并与家人共同维护车辆档案。",
+      "developer": "hargata",
+      "projectUrl": "https://github.com/hargata/lubelog",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/lubelogger.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "lubelogger",
+        "LubeLogger",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/hargata/lubelogger/manifest.json",
+        "sha256": "1f108232411af19d3ffa5df6f2a986be14327d3dbf0661b2e48d58d83a2c52e1"
+      },
+      "summary": {
+        "path": "templates/hargata/lubelogger/summary.json",
+        "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
+      }
+    },
+    {
+      "id": "home-assistant/home-assistant",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Home Assistant",
+      "description": "连接家中的智能设备、传感器与服务，建立自动化场景和家庭仪表盘。此模板部署 Home Assistant Container，配置保存在自己的 NAS。",
+      "developer": "home-assistant",
+      "projectUrl": "https://github.com/home-assistant/core",
+      "source": "open",
+      "license": "Apache-2.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/home-assistant.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "home-assistant",
+        "Home Assistant",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/home-assistant/home-assistant/manifest.json",
+        "sha256": "cb653c054fd64dc4b37da9006d694cb9953cf9a7d89aceef1b4933aa4b90bc83"
+      },
+      "summary": {
+        "path": "templates/home-assistant/home-assistant/summary.json",
+        "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
+      }
+    },
+    {
+      "id": "iib0011/omni-tools",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Omni-tools",
+      "description": "把图片、文本、数字、日期和文件处理工具放进一个网页，日常格式处理可在浏览器本地完成，无需上传到外部工具站。",
+      "developer": "iib0011",
+      "projectUrl": "https://github.com/iib0011/omni-tools",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/omni-tools.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "omni-tools",
+        "Omni-tools",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/iib0011/omni-tools/manifest.json",
+        "sha256": "4d1b235f96d98674c00b93a822bd87f67a847c66fe156597c3e61d3415ebf441"
+      },
+      "summary": {
+        "path": "templates/iib0011/omni-tools/summary.json",
+        "sha256": "27cda096dcc1b104f1f8a9f2826aa7276b7f92231506f2e0006aa2d096112a3d"
+      }
+    },
+    {
       "id": "laurent22/joplin-server-basic",
       "kind": "compose",
       "category": "tools",
@@ -547,35 +550,36 @@
       }
     },
     {
-      "id": "louislam/dockge",
+      "id": "mealie-recipes/mealie",
       "kind": "compose",
       "category": "tools",
-      "name": "Dockge",
-      "description": "围绕 Compose 文件管理容器应用栈，在网页中编辑配置、查看终端并执行启停或镜像更新。",
-      "developer": "louislam",
-      "projectUrl": "https://github.com/louislam/dockge",
+      "name": "Mealie",
+      "description": "保存网页食谱与自制菜谱，安排每周餐单并生成购物清单，适合个人和家庭共同整理饮食计划。",
+      "developer": "mealie-recipes",
+      "projectUrl": "https://github.com/mealie-recipes/mealie",
       "source": "open",
-      "license": "MIT",
+      "license": "AGPL-3.0",
       "paidKey": "none",
       "version": "1.0.0",
-      "icon": "icons/dockge.svg",
+      "icon": "icons/mealie.svg",
       "architectures": [
         "amd64",
         "arm64"
       ],
       "tags": [
-        "dockge",
-        "Dockge",
+        "mealie",
+        "Mealie",
+        "tools",
         "compose"
       ],
-      "applicationCount": 1,
+      "applicationCount": 2,
       "manifest": {
-        "path": "templates/louislam/dockge/manifest.json",
-        "sha256": "da1025260dc6c07fe61c2ee4b163e187148d0cc801157ca5d41ecd6986ea9474"
+        "path": "templates/mealie-recipes/mealie/manifest.json",
+        "sha256": "0e3457be87965daafc62f76bebe2e9322a6b7c1ecb9f18f22b32928e3df02d9c"
       },
       "summary": {
-        "path": "templates/louislam/dockge/summary.json",
-        "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
+        "path": "templates/mealie-recipes/mealie/summary.json",
+        "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
       }
     },
     {
@@ -608,6 +612,39 @@
       "summary": {
         "path": "templates/n8n-io/n8n/summary.json",
         "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
+      }
+    },
+    {
+      "id": "paperless-ngx/paperless-ngx",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Paperless-ngx",
+      "description": "归档扫描件、账单和家庭文档，通过 OCR 提取文字，按标签、联系人和文档类型整理并全文检索。默认启用简体中文与英文识别。",
+      "developer": "paperless-ngx",
+      "projectUrl": "https://github.com/paperless-ngx/paperless-ngx",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/paperless.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "paperless",
+        "Paperless-ngx",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/paperless-ngx/paperless-ngx/manifest.json",
+        "sha256": "79bb041542cacac409ca9cd5a9588f6d7276c73df0dcade2e390f506f64a96d7"
+      },
+      "summary": {
+        "path": "templates/paperless-ngx/paperless-ngx/summary.json",
+        "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
       }
     },
     {
@@ -739,43 +776,10 @@
         "path": "templates/sysadminsmedia/homebox/summary.json",
         "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
       }
-    },
-    {
-      "id": "toeverything/affine",
-      "kind": "compose",
-      "category": "tools",
-      "name": "AFFiNE",
-      "description": "把文档、白板和知识组织放在同一个协作工作区，支持自由排版与多人编辑。社区版可免费自建，其他版本和云端服务另有方案。",
-      "developer": "toeverything",
-      "projectUrl": "https://github.com/toeverything/AFFiNE",
-      "source": "open",
-      "license": "MIT (Community Edition); separate terms for other editions",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/affine.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "affine",
-        "AFFiNE",
-        "tools",
-        "compose"
-      ],
-      "applicationCount": 3,
-      "manifest": {
-        "path": "templates/toeverything/affine/manifest.json",
-        "sha256": "aafe38dfc2d7951ca2d372dd11a8e67c34b8f53b580a0b8795c8fefe40eb5e37"
-      },
-      "summary": {
-        "path": "templates/toeverything/affine/summary.json",
-        "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
-      }
     }
   ],
   "next": {
     "path": "compose/tools/pages/002.json",
-    "sha256": "9c794a68c9210aa5fc6fe59aa24a136b9f058a4dd068a478463fdd2f68590911"
+    "sha256": "0bc7cfc05c47e7333f01b6e73ef9483691d11f15745e3e041e7cb016a308dbce"
   }
 }

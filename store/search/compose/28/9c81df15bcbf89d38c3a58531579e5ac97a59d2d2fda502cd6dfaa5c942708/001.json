@@ -2,10 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
-    },
-    {
       "path": "templates/linuxserver/transmission-basic/summary.json",
       "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     }

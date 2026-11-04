@@ -6,28 +6,16 @@
       "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
-      "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
-    },
-    {
-      "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-      "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
-    },
-    {
       "path": "templates/freshrss/freshrss/summary.json",
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
       "path": "templates/gitea/gitea-postgresql/summary.json",
-      "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
+      "sha256": "e99a9462042abc8aa227cd260ecf438433f0b618f9ba3de424882f6cfce26a77"
     },
     {
       "path": "templates/gotify/server/summary.json",
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
-    },
-    {
-      "path": "templates/henrygd/beszel/summary.json",
-      "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     },
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
@@ -42,8 +30,16 @@
       "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
     },
     {
+      "path": "templates/mealie-recipes/mealie/summary.json",
+      "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
+    },
+    {
       "path": "templates/official/wordpress-mariadb/summary.json",
-      "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
+      "sha256": "820cc0b2e97829251d66c4f2c61a4d5b021eae852e6344eb91d6d2175cae7fc8"
+    },
+    {
+      "path": "templates/paperless-ngx/paperless-ngx/summary.json",
+      "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
     },
     {
       "path": "templates/rommapp/romm/summary.json",

@@ -3,7 +3,7 @@
   "items": [
     {
       "path": "templates/official/wordpress-mariadb/summary.json",
-      "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
+      "sha256": "820cc0b2e97829251d66c4f2c61a4d5b021eae852e6344eb91d6d2175cae7fc8"
     },
     {
       "path": "templates/vert-sh/vert/summary.json",

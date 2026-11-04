@@ -8,6 +8,10 @@
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
       "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
+    },
+    {
+      "path": "templates/hargata/lubelogger/summary.json",
+      "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
     }
   ],
   "next": null

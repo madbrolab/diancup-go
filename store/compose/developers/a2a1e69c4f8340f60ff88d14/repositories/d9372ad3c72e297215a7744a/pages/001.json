@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "nextcloud/nextcloud",
+      "kind": "compose",
+      "category": "storage",
+      "name": "Nextcloud",
+      "description": "建立个人和家庭文件云盘，通过网页、桌面与手机同步文件，分享资料，并按需安装日历、通讯录等应用。社区版可自建，企业支持另有方案。",
+      "developer": "nextcloud",
+      "projectUrl": "https://github.com/nextcloud/server",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/nextcloud.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "nextcloud",
+        "Nextcloud",
+        "storage",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/nextcloud/nextcloud/manifest.json",
+        "sha256": "b78fbf0dc723a5c47f30d6092787c6de9fe2295484bf3690b44aac16f6493049"
+      },
+      "summary": {
+        "path": "templates/nextcloud/nextcloud/summary.json",
+        "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
+      }
+    }
+  ],
+  "next": null
+}

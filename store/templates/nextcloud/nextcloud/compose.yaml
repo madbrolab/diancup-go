@@ -1,0 +1,77 @@
+services:
+  nextcloud:
+    image: nextcloud:35.0.2-apache
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-8088}:80
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      MYSQL_HOST: db
+      MYSQL_DATABASE: nextcloud
+      MYSQL_USER: nextcloud
+      MYSQL_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      REDIS_HOST: redis
+      REDIS_HOST_PORT: "6379"
+      NEXTCLOUD_ADMIN_USER: ${ADMIN_USER:-admin}
+      NEXTCLOUD_ADMIN_PASSWORD: ${ADMIN_PASSWORD:?请填写 ADMIN_PASSWORD}
+      NEXTCLOUD_TRUSTED_DOMAINS: ${TRUSTED_DOMAINS:?请填写 TRUSTED_DOMAINS}
+    volumes:
+      - ./nextcloud:/var/www/html
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+  cron:
+    image: nextcloud:35.0.2-apache
+    restart: unless-stopped
+    entrypoint: /cron.sh
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      MYSQL_HOST: db
+      MYSQL_DATABASE: nextcloud
+      MYSQL_USER: nextcloud
+      MYSQL_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      REDIS_HOST: redis
+      REDIS_HOST_PORT: "6379"
+    volumes:
+      - ./nextcloud:/var/www/html
+    depends_on:
+      nextcloud:
+        condition: service_started
+  db:
+    image: mariadb:11.4
+    restart: unless-stopped
+    command:
+      - --transaction-isolation=READ-COMMITTED
+      - --binlog-format=ROW
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?请填写 DB_ROOT_PASSWORD}
+      MARIADB_DATABASE: nextcloud
+      MARIADB_USER: nextcloud
+      MARIADB_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+    volumes:
+      - ./database:/var/lib/mysql
+    healthcheck:
+      test:
+        - CMD
+        - healthcheck.sh
+        - --connect
+        - --innodb_initialized
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+  redis:
+    image: redis:8-alpine
+    restart: unless-stopped
+    volumes:
+      - ./cache:/data
+    healthcheck:
+      test:
+        - CMD
+        - redis-cli
+        - ping
+      interval: 10s
+      timeout: 5s
+      retries: 10

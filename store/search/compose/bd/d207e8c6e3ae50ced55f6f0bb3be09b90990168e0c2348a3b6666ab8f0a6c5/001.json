@@ -2,10 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-      "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
-    },
-    {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
       "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
     },

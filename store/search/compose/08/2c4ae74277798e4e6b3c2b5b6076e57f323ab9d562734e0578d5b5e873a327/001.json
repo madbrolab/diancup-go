@@ -4,10 +4,6 @@
     {
       "path": "templates/actualbudget/actual-budget/summary.json",
       "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
-    },
-    {
-      "path": "templates/henrygd/beszel/summary.json",
-      "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     }
   ],
   "next": null

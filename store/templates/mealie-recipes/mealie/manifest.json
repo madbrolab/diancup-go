@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "mealie-recipes/mealie",
+  "kind": "compose",
+  "name": "Mealie",
+  "description": "保存网页食谱与自制菜谱，安排每周餐单并生成购物清单，适合个人和家庭共同整理饮食计划。",
+  "developer": "mealie-recipes",
+  "projectUrl": "https://github.com/mealie-recipes/mealie",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "mealie",
+    "Mealie",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/mealie.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.mealie.io/documentation/getting-started/installation/postgres/",
+  "applications": [
+    {
+      "id": "mealie",
+      "name": "Mealie",
+      "developer": "mealie-recipes",
+      "projectUrl": "https://github.com/mealie-recipes/mealie",
+      "icon": "icons/mealie.svg",
+      "services": [
+        "mealie"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "developer": "PostgreSQL Global Development Group",
+      "projectUrl": "https://www.postgresql.org/",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "postgres"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.PUBLIC_URL",
+      "title": "实际访问地址",
+      "reason": "填写浏览器使用的完整地址，与 HTTP_PORT 或反向代理保持一致。",
+      "required": true,
+      "example": "https://recipes.example.com"
+    },
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "为新实例填写独立数据库密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.mealie",
+      "title": "首次登录",
+      "reason": "官方初始账号为 changeme@example.com，密码 MyPassword；首次登录后立即修改邮箱和密码。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.mealie.mem_limit",
+      "title": "内存上限",
+      "reason": "默认限制为 1000m，与官方部署建议一致；可按主机容量调整。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.PUID",
+      "title": "文件属主",
+      "reason": "默认 PUID/PGID 为 1000，可按宿主机实际用户与组调整。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-03T22:18:45Z",
+    "lastCommit": "5dbe1f339aed2658151a50390423cc3a4c6bb43e",
+    "readmeSHA256": "7a87d6463aba4d2050b89eb4e069b18e5b25ba268372234edbd8d6e8b34650fc",
+    "iconSource": "https://raw.githubusercontent.com/mealie-recipes/mealie/5dbe1f339aed2658151a50390423cc3a4c6bb43e/frontend/public/icons/android-chrome-512x512.png",
+    "iconSHA256": "fef84e79d69c8e4eb0f99d46a4d4ebb252b7e3f3a6dd0ccc35fe1be4795d60cb",
+    "images": [
+      {
+        "image": "ghcr.io/mealie-recipes/mealie:v3.30.0",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "90f83da6f3ab0a421efc827118a556168573930105f13fa3321768f42163d784"
+      },
+      {
+        "image": "postgres:17",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "3b0cda93be7c8dba2ed484d19393d93845dc3dafb88973e248ba8e6d99d784e1"
+      }
+    ]
+  }
+}

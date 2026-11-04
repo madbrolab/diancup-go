@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "iib0011/omni-tools",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Omni-tools",
+      "description": "把图片、文本、数字、日期和文件处理工具放进一个网页，日常格式处理可在浏览器本地完成，无需上传到外部工具站。",
+      "developer": "iib0011",
+      "projectUrl": "https://github.com/iib0011/omni-tools",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/omni-tools.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "omni-tools",
+        "Omni-tools",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/iib0011/omni-tools/manifest.json",
+        "sha256": "4d1b235f96d98674c00b93a822bd87f67a847c66fe156597c3e61d3415ebf441"
+      },
+      "summary": {
+        "path": "templates/iib0011/omni-tools/summary.json",
+        "sha256": "27cda096dcc1b104f1f8a9f2826aa7276b7f92231506f2e0006aa2d096112a3d"
+      }
+    }
+  ],
+  "next": null
+}

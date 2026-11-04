@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "mealie-recipes/mealie",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Mealie",
+      "description": "保存网页食谱与自制菜谱，安排每周餐单并生成购物清单，适合个人和家庭共同整理饮食计划。",
+      "developer": "mealie-recipes",
+      "projectUrl": "https://github.com/mealie-recipes/mealie",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/mealie.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "mealie",
+        "Mealie",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/mealie-recipes/mealie/manifest.json",
+        "sha256": "0e3457be87965daafc62f76bebe2e9322a6b7c1ecb9f18f22b32928e3df02d9c"
+      },
+      "summary": {
+        "path": "templates/mealie-recipes/mealie/summary.json",
+        "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
+      }
+    }
+  ],
+  "next": null
+}

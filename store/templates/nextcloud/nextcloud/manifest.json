@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "nextcloud/nextcloud",
+  "kind": "compose",
+  "name": "Nextcloud",
+  "description": "建立个人和家庭文件云盘，通过网页、桌面与手机同步文件，分享资料，并按需安装日历、通讯录等应用。社区版可自建，企业支持另有方案。",
+  "developer": "nextcloud",
+  "projectUrl": "https://github.com/nextcloud/server",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "storage",
+  "tags": [
+    "nextcloud",
+    "Nextcloud",
+    "storage",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/nextcloud.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/nextcloud/docker/blob/master/README.md",
+  "applications": [
+    {
+      "id": "nextcloud",
+      "name": "Nextcloud",
+      "developer": "nextcloud",
+      "projectUrl": "https://github.com/nextcloud/server",
+      "icon": "icons/nextcloud.svg",
+      "services": [
+        "nextcloud",
+        "cron"
+      ]
+    },
+    {
+      "id": "mariadb",
+      "name": "MariaDB",
+      "developer": "MariaDB",
+      "projectUrl": "https://github.com/MariaDB/server",
+      "icon": "icons/infra-mariadb.svg",
+      "services": [
+        "db"
+      ]
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "developer": "Redis",
+      "projectUrl": "https://github.com/redis/redis",
+      "icon": "icons/infra-redis.svg",
+      "services": [
+        "redis"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.TRUSTED_DOMAINS",
+      "title": "允许访问的地址",
+      "reason": "填写实际 NAS IP 或域名，多个值以空格分隔，不包含 http:// 或路径。",
+      "required": true,
+      "example": "nas.example.com 192.168.1.10"
+    },
+    {
+      "target": "env.ADMIN_PASSWORD",
+      "title": "初始管理员密码",
+      "reason": "首次启动创建管理员；更改此变量不会重置已有账号密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "应用数据库密码",
+      "reason": "为 Nextcloud 数据库账号填写独立密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.DB_ROOT_PASSWORD",
+      "title": "数据库管理密码",
+      "reason": "使用不同于应用密码的独立管理密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.nextcloud.volumes",
+      "title": "云盘数据",
+      "reason": "应用、配置和用户文件在 ./nextcloud，数据库在 ./database；部署包含同版本的 cron 后台任务服务。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.nextcloud.environment",
+      "title": "域名与代理",
+      "reason": "通过 HTTPS 反向代理访问时，按官方文档补充受信任代理和覆盖协议等设置；本模板默认使用 HTTP 内网入口。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-04T15:36:49Z",
+    "lastCommit": "90ae15e452d213b55b91242e0a0c05603a176dd9",
+    "readmeSHA256": "694e8653a25b8f50d3bc772bd84b088e72ac56b2477f38134996189f8ab26a2c",
+    "iconSource": "https://github.com/nextcloud.png?size=256",
+    "iconSHA256": "325738e733a9446c4177a6eddba50546b6557315db2b9107aae84339136552a3",
+    "images": [
+      {
+        "image": "nextcloud:35.0.2-apache",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "6b015097ca6c30f97d172365f886c27f865e16f8e6ac2d1e80bc1433bc2580da"
+      },
+      {
+        "image": "mariadb:11.4",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "d1891ede5a559f1086f55053bb8cc1569b0298338c4d72d71725a7f74f6ba620"
+      },
+      {
+        "image": "redis:8-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "21090af93f8324db2f0f0f4f38a7c60369d47d917e000c3423d89d2ae2883537"
+      }
+    ]
+  }
+}

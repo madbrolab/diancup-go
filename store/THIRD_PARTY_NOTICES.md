@@ -2,7 +2,7 @@
 
 ## Lucide 图标
 
-PanSou 与 WorkBuddy2API 使用 Lucide 语义图标。
+PanSou 使用 Lucide 语义图标。
 
 ```text
 ISC License

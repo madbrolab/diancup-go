@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "syncthing/syncthing",
+  "kind": "compose",
+  "category": "storage",
+  "name": "Syncthing",
+  "description": "在自己的电脑、手机和 NAS 之间持续同步文件，可逐个目录选择设备与同步方式，支持文件版本保留和局域网发现。",
+  "developer": "syncthing",
+  "projectUrl": "https://github.com/syncthing/syncthing",
+  "source": "open",
+  "license": "MPL-2.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/syncthing.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "syncthing",
+    "Syncthing",
+    "storage",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/syncthing/syncthing/manifest.json",
+    "sha256": "cd52d75af48001c71b6f89337c10e75d597bf7854b9275b1554b232f9bb0a148"
+  }
+}

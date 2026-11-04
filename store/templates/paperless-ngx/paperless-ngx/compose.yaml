@@ -1,0 +1,64 @@
+services:
+  paperless:
+    image: ghcr.io/paperless-ngx/paperless-ngx:3.4.2
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-8000}:8000
+    environment:
+      PAPERLESS_TIME_ZONE: ${TZ:-Asia/Shanghai}
+      PAPERLESS_URL: ${PUBLIC_URL:?请填写 PUBLIC_URL}
+      PAPERLESS_REDIS: redis://broker:6379
+      PAPERLESS_DBHOST: db
+      PAPERLESS_DBENGINE: postgresql
+      PAPERLESS_DBNAME: paperless
+      PAPERLESS_DBUSER: paperless
+      PAPERLESS_DBPASS: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      PAPERLESS_SECRET_KEY: ${SECRET_KEY:?请填写 SECRET_KEY}
+      PAPERLESS_ADMIN_USER: ${ADMIN_USER:-admin}
+      PAPERLESS_ADMIN_PASSWORD: ${ADMIN_PASSWORD:?请填写 ADMIN_PASSWORD}
+      PAPERLESS_OCR_LANGUAGE: chi_sim+eng
+      PAPERLESS_OCR_LANGUAGES: chi-sim
+    volumes:
+      - ./data:/usr/src/paperless/data
+      - ./media:/usr/src/paperless/media
+      - ./export:/usr/src/paperless/export
+      - ${CONSUME_DIR:-./consume}:/usr/src/paperless/consume
+    depends_on:
+      db:
+        condition: service_healthy
+      broker:
+        condition: service_healthy
+  db:
+    image: postgres:18
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: paperless
+      POSTGRES_DB: paperless
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+    volumes:
+      - ./postgres:/var/lib/postgresql
+    healthcheck:
+      test:
+        - CMD
+        - pg_isready
+        - -U
+        - paperless
+        - -d
+        - paperless
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+  broker:
+    image: valkey/valkey:9-alpine
+    restart: unless-stopped
+    volumes:
+      - ./cache:/data
+    healthcheck:
+      test:
+        - CMD
+        - valkey-cli
+        - ping
+      interval: 10s
+      timeout: 5s
+      retries: 10

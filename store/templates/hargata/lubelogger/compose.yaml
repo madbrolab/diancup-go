@@ -1,0 +1,11 @@
+services:
+  lubelogger:
+    image: ghcr.io/hargata/lubelogger:latest
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-8086}:8080
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+    volumes:
+      - ./data:/App/data
+      - ./keys:/root/.aspnet/DataProtection-Keys

@@ -1,6 +1,6 @@
 # DIANCUP 模板商店
 
-此目录是可单独发布的商店数据源。普通模板和 Compose 模板分别维护，主程序源码不属于模板发布内容。
+面向个人与家庭 NAS 的应用模板。普通模板和 Compose 模板分别维护，主程序源码不属于模板发布内容。
 
 ## 索引与加载
 
@@ -58,124 +58,125 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 
 `node scripts/prepare-template-publication.mjs /path/to/public-checkout` 将数据白名单同步到指定公开仓库的 `store/`，校验所有索引摘要并更新 `SHA256SUMS`。不会复制 Go / Vue / JavaScript 主程序源码、运行配置或真实 ENV。此目录中的模板仅用作公开仓库发布数据及开发测试，Docker 构建只包含分类名称，主程序不嵌入模板内容。此命令只准备文件，不提交、不推送、不发布镜像。
 
-样例参考：
+## 应用目录
 
-- [Nginx](https://hub.docker.com/_/nginx)
-- [Uptime Kuma](https://github.com/louislam/uptime-kuma/blob/master/compose.yaml)
-- [Jellyfin / LinuxServer.io](https://docs.linuxserver.io/images/docker-jellyfin/)
-- [PostgreSQL](https://hub.docker.com/_/postgres)
-- [WordPress](https://hub.docker.com/_/wordpress)
-- [Gitea](https://docs.gitea.com/installation/install-with-docker/)
+当前共 61 项模板（1 项普通模板、60 项 Compose 模板）。维护记录于 2026-11-04 至 2026-11-05 核对，各项目最近均有三个月内的上游活动。项目介绍、源码状态和收费说明以项目 README 为依据；未明确的收费情况保留为未知。点击应用查看模板，点击“项目”打开对应主页。
 
-## 基础 Compose 模板
+### 工具
 
-提供 10 项可独立部署的基础模板，使用通用默认端口和数据目录创建新实例。模板使用独立的 `-basic` ID 和“基础版”名称，其他模板继续保留各自的部署参数。
+| 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
+| --- | --- | --- | --- | --- | --- |
+| [Actual Budget](templates/actualbudget/actual-budget/manifest.json) · [项目](https://github.com/actualbudget/actual) | 以本地数据为中心管理个人收支与预算，并在设备之间同步记录。软件免费开源，可自行部署或选择外部托管。 | 2026-11-03 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [AFFiNE](templates/toeverything/affine/manifest.json) · [项目](https://github.com/toeverything/AFFiNE) | 把文档、白板和知识组织放在同一个协作工作区，支持自由排版与多人编辑。社区版可免费自建，其他版本和云端服务另有方案。 | 2026-11-04 | 公开源码；MIT (Community Edition); separate terms for other editions | 可选付费服务或功能 | amd64, arm64 |
+| [Baby Buddy](templates/babybuddy/babybuddy/manifest.json) · [项目](https://github.com/babybuddy/babybuddy) | 记录婴儿喂养、睡眠、换尿布及日常照护活动，让照护者共享记录并观察生活规律。 | 2026-10-28 | 公开源码；BSD-2-Clause | 自建无必需付费密钥 | amd64, arm64 |
+| [Bark Server](templates/finb/bark-server/manifest.json) · [项目](https://github.com/Finb/bark-server) | 为 Bark iOS 客户端提供自建推送后端，让脚本和其他应用把自定义通知发送到自己的设备。 | 2026-10-10 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [BookStack](templates/bookstackapp/bookstack/manifest.json) · [项目](https://github.com/BookStackApp/BookStack) | 把团队资料整理成书籍、章节和页面，提供易上手的文档编辑与组织方式，适合维护内部知识和操作手册。 | 2026-11-02 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [Brave 浏览器](templates/brave/brave-browser/manifest.json) · [项目](https://github.com/brave/brave-browser) | 通过网页远程使用容器内的 Brave 浏览器，浏览器的运行配置保存在宿主机。项目入口与源码仓库在 README 中分别列出。 | 2026-11-04 | 公开源码；MPL-2.0 | README 未明确 | amd64, arm64 |
+| [FreshRSS](templates/freshrss/freshrss/manifest.json) · [项目](https://github.com/FreshRSS/FreshRSS) | 集中订阅与阅读 RSS、Atom 等内容源，按用户保存标签和阅读状态，并能对接移动客户端或扩展插件。 | 2026-11-02 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Gotify](templates/gotify/server/manifest.json) · [项目](https://github.com/gotify/server) | 搭建自己的消息推送服务，通过 REST API 发送通知，并使用网页、WebSocket 或 Android 客户端接收消息。 | 2026-10-25 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [Grocy](templates/grocy/grocy/manifest.json) · [项目](https://github.com/grocy/grocy) | 管理食品库存、保质期、购物清单和家务安排，也可记录家庭设备与电池消耗，适合日常采购和减少食物浪费。 | 2026-09-16 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [Home Assistant](templates/home-assistant/home-assistant/manifest.json) · [项目](https://github.com/home-assistant/core) | 连接家中的智能设备、传感器与服务，建立自动化场景和家庭仪表盘。此模板部署 Home Assistant Container，配置保存在自己的 NAS。 | 2026-11-04 | 公开源码；Apache-2.0 | README 未明确 | amd64, arm64 |
+| [Homebox](templates/sysadminsmedia/homebox/manifest.json) · [项目](https://github.com/sysadminsmedia/homebox) | 为家中物品建立可搜索的档案，记录存放位置、照片、购买凭证与保修信息，便于查找和整理家庭资产。 | 2026-10-31 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Joplin Server + PostgreSQL 基础版](templates/laurent22/joplin-server-basic/manifest.json) · [项目](https://github.com/laurent22/joplin) | 为 Joplin 客户端提供笔记同步与共享服务，数据保存在配套 PostgreSQL 中。服务端源码可查看，个人用途与商业用途适用不同授权。 | 2026-11-04 | 源码状态未知；Joplin Server Personal Use License / commercial license | 可选付费服务或功能 | amd64, arm64 |
+| [jotty·page](templates/fccview/jotty/manifest.json) · [项目](https://github.com/fccview/jotty) | 自建清单与笔记空间，保存日常任务和文字记录，并可为个人笔记启用加密。 | 2026-10-25 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [LubeLogger](templates/hargata/lubelogger/manifest.json) · [项目](https://github.com/hargata/lubelog) | 记录家用车辆的保养、维修、加油、里程与费用，保存相关凭证，设置保养计划，并与家人共同维护车辆档案。 | 2026-10-14 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [Mealie](templates/mealie-recipes/mealie/manifest.json) · [项目](https://github.com/mealie-recipes/mealie) | 保存网页食谱与自制菜谱，安排每周餐单并生成购物清单，适合个人和家庭共同整理饮食计划。 | 2026-11-03 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Memos](templates/usememos/memos/manifest.json) · [项目](https://github.com/usememos/memos) | 按时间记录零散想法和日常笔记，通过标签整理内容，并为每条记录选择私密保存或公开分享。 | 2026-11-01 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [n8n](templates/n8n-io/n8n/manifest.json) · [项目](https://github.com/n8n-io/n8n) | 用可视化节点连接应用与模型服务，编排自动化任务，也能加入脚本。采用 fair-code 授权，额外企业功能需商业许可。 | 2026-11-04 | 源码状态未知；Sustainable Use License / n8n Enterprise License | 可选付费服务或功能 | amd64, arm64 |
+| [Omni-tools](templates/iib0011/omni-tools/manifest.json) · [项目](https://github.com/iib0011/omni-tools) | 把图片、文本、数字、日期和文件处理工具放进一个网页，日常格式处理可在浏览器本地完成，无需上传到外部工具站。 | 2026-10-24 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [PandaWiki](templates/chaitin/pandawiki/manifest.json) · [项目](https://github.com/chaitin/PandaWiki) | 搭建面向读者的知识站点，管理文档并导入外部内容，配置模型后可进行知识问答与辅助写作；README 另列托管服务但未说明价格。 | 2026-10-21 | 公开源码；AGPL-3.0 | README 未明确 | amd64, arm64 |
+| [Paperless-ngx](templates/paperless-ngx/paperless-ngx/manifest.json) · [项目](https://github.com/paperless-ngx/paperless-ngx) | 归档扫描件、账单和家庭文档，通过 OCR 提取文字，按标签、联系人和文档类型整理并全文检索。默认启用简体中文与英文识别。 | 2026-11-04 | 公开源码；GPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Penpot](templates/penpot/penpot/manifest.json) · [项目](https://github.com/penpot/penpot) | 在浏览器里协作设计界面、制作交互原型和维护设计系统，可与开发流程配合使用。项目提供可自建的开源版本和付费企业方案。 | 2026-11-04 | 公开源码；MPL-2.0 | 可选付费服务或功能 | amd64, arm64 |
+| [PLANKA](templates/plankanban/planka/manifest.json) · [项目](https://github.com/plankanban/planka) | 用看板、列表和卡片协作管理项目，记录评论、附件与到期时间。社区版可自建，Pro 和企业功能另行授权。 | 2026-11-02 | 源码状态未知；PLANKA Community Fair Use License / Commercial License | 可选付费服务或功能 | amd64, arm64 |
+| [So Novel](templates/freeok/so-novel/manifest.json) · [项目](https://github.com/freeok/so-novel) | 从网页提取并整理内容，导出 EPUB、TXT 或 PDF 等文档，也提供便于服务器使用的网页操作入口。 | 2026-10-26 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64 |
+| [Stirling PDF](templates/stirling-tools/stirling-pdf/manifest.json) · [项目](https://github.com/Stirling-Tools/Stirling-PDF) | 在本地服务器处理 PDF 的合并、拆分、转换、OCR 和签署，也可通过 API 编排任务；提供可选付费服务器及企业功能。 | 2026-11-04 | 公开源码；Open-core; see upstream LICENSE | 可选付费服务或功能 | amd64, arm64 |
+| [Trilium](templates/triliumnext/trilium/manifest.json) · [项目](https://github.com/TriliumNext/Trilium) | 用树状层级、标签和链接组织个人笔记，支持富文本、附件、画布与脚本扩展，并可与兼容版本的桌面客户端同步。 | 2026-11-04 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [VERT](templates/vert-sh/vert/manifest.json) · [项目](https://github.com/VERT-sh/VERT) | 提供图像、音频、文档和视频格式转换界面，多数转换在浏览器本地执行；部分视频操作可对接独立转换服务。 | 2026-10-20 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Vikunja](templates/go-vikunja/vikunja/manifest.json) · [项目](https://github.com/go-vikunja/vikunja) | 自建任务与项目管理空间，安排待办事项和协作计划；另提供托管版，以及包含管理和审计能力的 Pro 版本。 | 2026-11-04 | 公开源码；AGPL-3.0-or-later | 可选付费服务或功能 | amd64, arm64 |
+| [wallabag](templates/wallabag/wallabag/manifest.json) · [项目](https://github.com/wallabag/wallabag) | 将网页正文保存到个人稍后读列表，过滤阅读干扰，并通过浏览器扩展和移动客户端继续阅读。 | 2026-11-03 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [Wallos](templates/ellite/wallos/manifest.json) · [项目](https://github.com/ellite/Wallos) | 集中记录会员、订阅和其他周期性支出，按币种与分类查看费用，并在续费或取消日期前接收提醒。 | 2026-11-01 | 公开源码；GPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
 
-数据默认绑定到各自项目目录下的 `config`、`data`、`media`、`downloads`、`music`、`cloud` 等目录；使用已有数据时可选择宿主机任意实际目录。相对路径以各模板的 Compose 所在目录为基准，共享数据需要选择同一个宿主机目录。
+### 影音
 
-| 基础模板 | 默认入口 | 项目与授权 | 配置要点 |
-| --- | --- | --- | --- |
-| [DIAN115 + PostgreSQL](templates/madbrolab/dian115-basic/manifest.json) | Host 网络，8095 | [官方 README](https://github.com/madbrolab/dian115)，2026-11-04；主程序私有授权，需激活密钥 | 独立 PostgreSQL 18，数据绑定 /var/lib/postgresql，数据库仅绑定回环地址 15432；配置、AI、媒体和云盘目录分别持久化；Docker socket 与 GPU 按功能另加 |
-| [Joplin Server + PostgreSQL](templates/laurent22/joplin-server-basic/manifest.json) | 22300 | [Server README](https://github.com/laurent22/joplin/blob/dev/packages/server/README.md)，2026-11-04；个人用途许可证，可选商业授权 | 数据库不发布端口；内部连接固定 5432；实际访问地址必须与 APP_BASE_URL 一致 |
-| [Navidrome](templates/navidrome/navidrome-basic/manifest.json) | 4533 | [官方 README](https://github.com/navidrome/navidrome)，2026-11-03；GPL-3.0，无付费密钥要求 | 音乐只读，默认每小时扫描，使用当前 ND_SCANNER_SCHEDULE 参数 |
-| [WorkBuddy2API Panel](templates/linguo2625469/workbuddy2api-basic/manifest.json) | 7863 | [官方 README](https://github.com/linguo2625469/workbuddy2api-panel)，2026-10-21；MIT，项目免费 | 从成品镜像初始化配置目录和属主，显式设置配置路径；API 访问密钥必填 |
-| [CloudDrive2](templates/cloudnas/clouddrive2-basic/manifest.json) | Host 网络，19798 | [官方发布](https://github.com/cloud-fs/cloud-fs.github.io/releases)，2026-10-17；闭源，有付费会员 | 配置、云盘发布目录及本地备份目录采用通用默认值；保留官方要求的 FUSE、Host PID、特权和共享传播 |
-| [MoviePilot + PostgreSQL + Redis](templates/jxxghp/moviepilot-basic/manifest.json) | 3000、3001 | [官方 README](https://github.com/jxxghp/MoviePilot)，2026-11-04；GPL-3.0 与 README 非商业条款，项目声明不收费 | PostgreSQL 16 与 Redis 7 仅供项目内访问；支持认证健康检查和启动依赖；配置、下载与媒体分别持久化 |
-| [qBittorrent](templates/linuxserver/qbittorrent-basic/manifest.json) | 8080；BT 6881 TCP/UDP | [项目 README](https://github.com/qbittorrent/qBittorrent) 与 [镜像文档](https://docs.linuxserver.io/images/docker-qbittorrent/)，2026-11-03；GPL，无付费密钥要求 | 使用 LinuxServer.io 镜像，监听端口与映射共用变量；配置和下载目录分开持久化 |
-| [FlareSolverr](templates/flaresolverr/flaresolverr-basic/manifest.json) | 127.0.0.1:8191 | [官方 README](https://github.com/FlareSolverr/FlareSolverr)，2026-10-24；MIT，无付费密钥要求 | 默认回环监听，可填写内网 IP；显式绑定镜像声明的配置卷，浏览器临时文件使用 tmpfs |
-| [Emby Server](templates/emby/embyserver-basic/manifest.json) | 8096 | [当前官方发布](https://github.com/MediaBrowser/Emby.Releases/releases)，2026-10-31；当前服务端闭源，可选 Premiere | 官方镜像，媒体默认只读，UID/GID 可配置；GPU 与 DLNA 按需配置 |
-| [Transmission](templates/linuxserver/transmission-basic/manifest.json) | 9091；BT 51413 TCP/UDP | [项目 README](https://github.com/transmission/transmission) 与 [镜像文档](https://docs.linuxserver.io/images/docker-transmission/)，2026-11-02；GPL，无付费密钥要求 | 使用 LinuxServer.io 镜像，管理密码必填；配置、下载与监视目录分别持久化 |
+| 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
+| --- | --- | --- | --- | --- | --- |
+| [Audiobookshelf](templates/advplyr/audiobookshelf/manifest.json) · [项目](https://github.com/advplyr/audiobookshelf) | 管理有声书和播客，补充媒体信息并在多个设备之间同步播放进度，也可订阅节目并自动下载新内容。 | 2026-11-01 | 公开源码；GPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [DIAN115 + PostgreSQL 基础版](templates/madbrolab/dian115-basic/manifest.json) · [项目](https://github.com/madbrolab/dian115) | 管理 115 网盘资源、媒体整理、STRM 与影音服务接入。主程序采用私有授权，需要激活密钥；此基础配置配套 PostgreSQL 18。 | 2026-11-04 | 闭源；Proprietary / private activation license | 需要付费授权 | amd64, arm64 |
+| [Emby Server 基础版](templates/emby/embyserver-basic/manifest.json) · [项目](https://emby.media/) | 整理并串流自己的影视与音乐收藏，向浏览器和客户端提供媒体库。此模板采用官方镜像，部分客户端和高级功能需要 Emby Premiere。 | 2026-10-31 | 闭源；Proprietary (current Emby Server) | 可选付费服务或功能 | amd64, arm64 |
+| [Feishin](templates/jeffvli/feishin/manifest.json) · [项目](https://github.com/jeffvli/feishin) | 为已有 Navidrome、Jellyfin 或 Subsonic 音乐服务提供网页播放器，支持歌词、收藏与播放列表；音乐文件由所连接的服务管理。 | 2026-11-03 | 公开源码；GPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Immich](templates/immich-app/immich/manifest.json) · [项目](https://github.com/immich-app/immich) | 备份和浏览自己的照片、视频，支持手机上传、相册分享、地图与人物检索；模板包含 CPU 机器学习服务和配套数据库。 | 2026-11-04 | 公开源码；AGPL-3.0 | README 未明确 | amd64, arm64 |
+| [IPTV 工具箱](templates/taksssss/iptv-tool/manifest.json) · [项目](https://github.com/taksssss/iptv-tool) | 统一整理节目单、频道台标与直播列表，按播放客户端需要输出不同格式，并支持频道匹配、定时更新和访问控制。 | 2026-10-22 | 公开源码；GPL-2.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Jellyfin](templates/linuxserver/jellyfin/manifest.json) · [项目](https://github.com/jellyfin/jellyfin) | 媒体库管理与播放，配置目录和媒体目录分开挂载。 | 2026-11-03 | 公开源码；GPL-2.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Komga](templates/gotson/komga/manifest.json) · [项目](https://github.com/gotson/komga) | 把漫画、杂志和电子书目录整理为个人阅读库，提供网页阅读、合集、阅读进度以及 OPDS 和阅读器同步。 | 2026-11-04 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [MoviePilot v2 + PostgreSQL + Redis 基础版](templates/jxxghp/moviepilot-basic/manifest.json) · [项目](https://github.com/jxxghp/MoviePilot) | 组织影视订阅、搜索、下载和入库流程，可接入下载器、媒体服务与插件。项目声明不收费；此基础配置包含 PostgreSQL 与 Redis。 | 2026-11-04 | 源码状态未知；GPL-3.0 with noncommercial README terms | 自建无必需付费密钥 | amd64, arm64 |
+| [Music Tag Web](templates/xhongc/music-tag-web/manifest.json) · [项目](https://github.com/xhongc/music-tag-web) | 在浏览器中整理服务器曲库，批量修改歌曲标签、匹配封面与歌词，并按音乐信息归档文件。README 附有非商业使用限制。 | 2026-10-08 | 源码状态未知；GPL-3.0 with additional README restrictions | README 未明确 | amd64, arm64 |
+| [Navidrome 基础版](templates/navidrome/navidrome-basic/manifest.json) · [项目](https://github.com/navidrome/navidrome) | 把本地音乐目录整理为可在浏览器和 Subsonic 客户端访问的个人曲库，支持用户、歌单与播放记录。模板默认每小时扫描一次。 | 2026-11-03 | 公开源码；GPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [QM-Music](templates/chenqimiao/qm-music/manifest.json) · [项目](https://github.com/chenqimiao/qm-music) | 将本地曲库作为兼容 Subsonic 客户端的私有音乐服务，可连接元数据服务并维护媒体缓存。README 同时写有非商业限制。 | 2026-09-10 | 源码状态未知；Apache-2.0 with noncommercial README terms | README 未明确 | amd64, arm64 |
+| [Seerr](templates/seerr-team/seerr/manifest.json) · [项目](https://github.com/seerr-team/seerr) | 为家庭媒体库收集电影和剧集申请，关联媒体服务器及自动整理工具，集中处理申请审批、权限和通知。 | 2026-11-04 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [Simple SQ Music Plus](templates/59799517/simple-sq-music-plus/manifest.json) · [项目](https://github.com/59799517/simple_sq_music_plus) | 管理音乐搜索与下载任务，将歌曲、歌词和标签按媒体库需要组织到本地目录。README 限定学习用途，未明确通用开源许可。 | 2026-10-30 | 源码状态未知；Unspecified; noncommercial README terms | README 未明确 | amd64 |
 
-以上基础模板支持 `amd64` 和 `arm64`。应用许可证及付费功能以各自项目说明为准；Joplin Server 和 MoviePilot 另有用途条款。
+### 游戏
 
-数据库密码、Redis 密码、API 密钥和 Transmission 管理密码在部署前填写，空值会阻止部署。DIAN115 数据库连接串与 MoviePilot Redis URL 中的密码建议使用至少 32 位随机十六进制字符，避免 URL 特殊字符。数据库仅服务本项目：Joplin 和 MoviePilot 不发布数据库端口，Host 网络的 DIAN115 通过回环映射连接。
+| 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
+| --- | --- | --- | --- | --- | --- |
+| [BeiDou Server](templates/beidoums/beidou-server/manifest.json) · [项目](https://github.com/BeiDouMS/BeiDou-Server) | 基于 Cosmic 持续开发的游戏服务端及管理界面，包含数据库初始化、多语言资源支持与管理 API。 | 2026-10-29 | 公开源码；AGPL-3.0 | README 未明确 | amd64, arm64 |
+| [RomM](templates/rommapp/romm/manifest.json) · [项目](https://github.com/rommapp/romm) | 为自己的游戏 ROM 建立带封面和元数据的资料库，支持网页游玩、存档与状态管理，并可对接多种游戏资料服务。 | 2026-11-04 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
 
-MoviePilot 和下载器分别安装时，需要手动选取同一个宿主机下载目录，并保持容器内 `/downloads` 一致。不同基础模板中的 `./downloads` 默认属于各自项目。CloudDrive2 的发布目录必须支持 shared 挂载传播；消费者应选择同一个宿主机目录，使用 rslave 接收。
+### 网站
 
-DIAN115 基础模板使用 PostgreSQL 18，数据挂载至 `/var/lib/postgresql`。此模板用于新装；已有 PG16 数据应先按 PostgreSQL 跨大版本流程迁移，不能直接更换镜像复用旧目录。
+| 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
+| --- | --- | --- | --- | --- | --- |
+| [WordPress + MariaDB](templates/official/wordpress-mariadb/manifest.json) · [项目](https://github.com/WordPress/WordPress) | 博客网站和独立数据库，数据库仅在项目网络中访问。 | 2026-11-04 | 公开源码；GPL-2.0-or-later | 自建无必需付费密钥 | amd64, arm64 |
 
-## 应用模板
+### 下载
 
-以下应用提供独立的 Compose 模板，数据默认保存在项目目录中。已有资料库可通过路径变量选择实际宿主机目录；密码、实例密钥和必要访问地址在部署前填写。
+| 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
+| --- | --- | --- | --- | --- | --- |
+| [MeTube](templates/alexta69/metube/manifest.json) · [项目](https://github.com/alexta69/metube) | 为 yt-dlp 提供网页任务界面，将视频、音频、字幕或播放列表下载到服务器，并按任务选择格式与保存位置。 | 2026-11-01 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [qBittorrent 基础版](templates/linuxserver/qbittorrent-basic/manifest.json) · [项目](https://github.com/qbittorrent/qBittorrent) | 通过网页管理 BitTorrent 下载任务、队列与做种。此模板采用 LinuxServer.io 镜像，分别持久化设置和下载文件。 | 2026-11-03 | 公开源码；GPL-2.0-or-later | 自建无必需付费密钥 | amd64, arm64 |
+| [Transmission 基础版](templates/linuxserver/transmission-basic/manifest.json) · [项目](https://github.com/transmission/transmission) | 提供网页和 RPC 入口的 BitTorrent 下载服务，可管理下载、做种及自动监视目录。模板采用 LinuxServer.io 镜像。 | 2026-11-02 | 公开源码；GPL-2.0-or-later | 自建无必需付费密钥 | amd64, arm64 |
 
-| 应用 | 用途 | 默认端口 | 最近提交 | 授权与收费 |
-| --- | --- | --- | --- | --- |
-| [Immich](templates/immich-app/immich/manifest.json) | 照片视频备份、相册与人物检索 | 2283 | 2026-11-04 | AGPL-3.0；README 未明确收费授权 |
-| [Homebox](templates/sysadminsmedia/homebox/manifest.json) | 家庭物品、位置、凭证与保修档案 | 3100 | 2026-10-31 | AGPL-3.0；自建未要求付费密钥 |
-| [Grocy](templates/grocy/grocy/manifest.json) | 食品库存、购物清单与家务安排 | 9283 | 2026-09-16 | MIT；自建未要求付费密钥 |
-| [Wallos](templates/ellite/wallos/manifest.json) | 订阅、周期账单与续费提醒 | 8282 | 2026-11-01 | GPL-3.0；自建未要求付费密钥 |
-| [Komga](templates/gotson/komga/manifest.json) | 漫画、杂志与电子书阅读库 | 25600 | 2026-11-04 | MIT；自建未要求付费密钥 |
-| [RomM](templates/rommapp/romm/manifest.json) | 游戏 ROM、封面、网页游玩与存档 | 8085 | 2026-11-04 | AGPL-3.0；项目声明无付费功能 |
-| [Penpot](templates/penpot/penpot/manifest.json) | 界面设计、原型与协作设计系统 | 9001 | 2026-11-04 | MPL-2.0；可选付费企业方案 |
-| [AFFiNE](templates/toeverything/affine/manifest.json) | 文档、白板与协作知识工作区 | 3010 | 2026-11-04 | 社区版 MIT、可免费自建；其他版本另有方案 |
-| [Feishin](templates/jeffvli/feishin/manifest.json) | 连接已有音乐服务的网页播放器 | 9180 | 2026-11-03 | GPL-3.0；自建未要求付费密钥 |
-| [FileCodeBox](templates/vastsa/filecodebox/manifest.json) | 取件码分享文件和文本 | 12345 | 2026-10-27 | LGPL-3.0；自建未要求付费密钥 |
+### 存储
 
-这些模板支持 `amd64` 和 `arm64`。图标使用各项目的官方资源，项目链接、维护时间与镜像架构信息保存在对应 manifest 中。
+| 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
+| --- | --- | --- | --- | --- | --- |
+| [CloudDrive2 基础版](templates/cloudnas/clouddrive2-basic/manifest.json) · [项目](https://www.clouddrive2.com/) | 将多个云盘接入服务器并以本地文件系统挂载，供媒体服务或文件工具访问。产品提供基础能力与付费会员功能。 | 2026-10-17 | 闭源；Proprietary | 可选付费服务或功能 | amd64, arm64 |
+| [CloudSaver](templates/jiangrui1994/cloudsaver/manifest.json) · [项目](https://github.com/jiangrui1994/CloudSaver) | 把资源检索、分享链接解析和网盘转存放在同一界面操作。公开源码与较新 Docker 版本存在差异，镜像授权及收费情况需另行确认。 | 2026-10-15 | 源码状态未知；MIT applies to published source only | README 未明确 | amd64, arm64 |
+| [FileCodeBox](templates/vastsa/filecodebox/manifest.json) · [项目](https://github.com/vastsa/FileCodeBox) | 通过取件码分享文件和文本，可设置有效期、下载次数并自动清理过期内容，支持本地存储及多种外部存储接入。 | 2026-10-27 | 公开源码；LGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Nextcloud](templates/nextcloud/nextcloud/manifest.json) · [项目](https://github.com/nextcloud/server) | 建立个人和家庭文件云盘，通过网页、桌面与手机同步文件，分享资料，并按需安装日历、通讯录等应用。社区版可自建，企业支持另有方案。 | 2026-11-04 | 公开源码；AGPL-3.0 | 可选付费服务或功能 | amd64, arm64 |
+| [OpenList](templates/openlistteam/openlist/manifest.json) · [项目](https://github.com/OpenListTeam/OpenList) | 将多个存储服务组织成统一的文件列表，通过网页访问和管理内容。项目声明现有功能免费提供。 | 2026-11-04 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [PanSou](templates/fish2018/pansou/manifest.json) · [项目](https://github.com/fish2018/pansou) | 按网盘类型汇集频道和插件的搜索结果，通过并发检索与缓存减少等待，并提供网页操作入口。 | 2026-10-12 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [Syncthing](templates/syncthing/syncthing/manifest.json) · [项目](https://github.com/syncthing/syncthing) | 在自己的电脑、手机和 NAS 之间持续同步文件，可逐个目录选择设备与同步方式，支持文件版本保留和局域网发现。 | 2026-11-02 | 公开源码；MPL-2.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Xiaomi Album Syncer](templates/coooolfan/xiaomi-album-syncer/manifest.json) · [项目](https://github.com/Coooolfan/XiaomiAlbumSyncer) | 把小米云相册及 iCloud 照片保存到本地，支持多账号、增量同步与定时下载，便于集中管理云端影像。 | 2026-11-02 | 公开源码；GPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
 
-Immich 默认使用稳定版 v3.3.5 及其配套向量数据库镜像，机器学习模型保存在 `./model-cache`；数据库目录应使用本机磁盘。Homebox 的 `API_KEY_PEPPER`、RomM 的会话密钥以及 Penpot 的实例密钥需要填写随机值并长期保留。Grocy 首次使用 `admin / admin` 登录后修改密码，其他需要账户的应用按首次使用向导初始化。
+### 开发
 
-Penpot 的设计资源在 `./assets` 中持久化；AFFiNE 的工作区内容、配置和数据库分别保存在 `./storage`、`./config`、`./postgres`。两者的准备任务成功后才启动主服务。Feishin 需要连接自己的 Navidrome、Jellyfin 或 Subsonic 服务，服务地址须能从播放器所在浏览器访问。
+| 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
+| --- | --- | --- | --- | --- | --- |
+| [Gitea + PostgreSQL](templates/gitea/gitea-postgresql/manifest.json) · [项目](https://github.com/go-gitea/gitea) | 轻量 Git 托管平台，搭配 PostgreSQL 数据库。 | 2026-11-04 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
 
-## 其他应用信息
+### AI
 
-以下信息于 2026-11-04 核对，项目介绍、公开源码状态和收费要求以对应项目 README 为依据；没有明确说明的情况标为未知。具体部署参数以各模板的 Compose 和 ENV 为准。
+| 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
+| --- | --- | --- | --- | --- | --- |
+| [DeepTutor](templates/hkuds/deeptutor/manifest.json) · [项目](https://github.com/HKUDS/DeepTutor) | 围绕个人资料构建学习工作区，结合知识库检索、辅导问答与学习任务辅助理解内容。项目声明没有付费在线产品。 | 2026-10-31 | 公开源码；Apache-2.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [NextChat](templates/chatgptnextweb/nextchat/manifest.json) · [项目](https://github.com/ChatGPTNextWeb/NextChat) | 提供可自建的多模型对话界面，支持常见模型渠道及桌面使用方式，并提供可选企业定制与私有部署服务。 | 2026-10-20 | 公开源码；MIT | 可选付费服务或功能 | amd64, arm64 |
+| [Open WebUI](templates/open-webui/open-webui/manifest.json) · [项目](https://github.com/open-webui/open-webui) | 为本地与兼容 API 的模型提供统一对话入口，可在自建环境管理资料和交互；许可要求保留品牌，另有企业服务。 | 2026-11-03 | 源码状态未知；Open WebUI License with branding requirements | 可选付费服务或功能 | amd64, arm64 |
 
-模板使用项目独立的实例名称和明确的数据绑定，按应用需要配置网络别名、系统挂载和宿主机路径。
+## 部署提示
 
-Dify 使用前需要准备 Nginx 站点配置并修改相应挂载；DeepTutor、n8n、PanSou 中的服务地址、模型凭据或代理示例需要按目标环境填写。
+项目数据默认使用模板中的通用目录。以 `./` 开头的路径属于当前 Compose 所在目录；多个应用需要共享资料时，应选择同一个宿主机实际目录。数据库密码和实例密钥留空时，必须填写后才能部署；模板不会替用户生成真实凭据。
 
-| 项目 README | 最近提交 | 许可证 / 说明 | 收费授权 | 架构 |
-| --- | --- | --- | --- | --- |
-| [NGINX](https://github.com/nginx/nginx/blob/67290bfea61c81347464539f5e6d0a7cebec1fc8/README.md) | 2026-10-28 | BSD-2-Clause | 可选商业服务或授权 | amd64, arm64 |
-| [Cronmaster](https://github.com/fccview/cronmaster/blob/2a323087ae124ff1e0e605eae6bb1b356a123eb7/README.md) | 2026-10-25 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [Music Tag Web](https://github.com/xhongc/music-tag-web/blob/6105d8eba4535c04e0b1c0b09802949ba27445a9/README.md) | 2026-10-08 | GPL-3.0 with additional README restrictions | README 未明确 / 待确认 | amd64, arm64 |
-| [CloudSaver](https://github.com/jiangrui1994/CloudSaver/blob/672cc48ab656973de2675383c966a5336d9de372/README.md) | 2026-10-15 | MIT applies to published source only | README 未明确 / 待确认 | amd64, arm64 |
-| [OpenList](https://github.com/OpenListTeam/OpenList/blob/ef5d8c8d41ce3b300f7d7c47803e9d5082c9f64f/README.md) | 2026-11-04 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF/blob/ea922397fac247d7181b58e9e86a222a767cebde/README.md) | 2026-11-04 | Open-core; see upstream LICENSE | 可选商业服务或授权 | amd64, arm64 |
-| [Xiaomi Album Syncer](https://github.com/Coooolfan/XiaomiAlbumSyncer/blob/ccbbf798cffcca6c402b109d519c06a5575aaa86/README.md) | 2026-11-02 | GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [cfui](https://github.com/dockers-x/cfui/blob/95b5d15167817c0491f070ad52147dfadf2ec6c5/README.md) | 2026-10-31 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [Octopus](https://github.com/bestruirui/octopus/blob/8aa58b0340ba2de58ce74fbfacd32597c44842a2/README.md) | 2026-10-23 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [Seerr](https://github.com/seerr-team/seerr/blob/886adac27597b45cd901099cd02a0b46d9d3cb7f/README.md) | 2026-11-04 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [QM-Music](https://github.com/chenqimiao/qm-music/blob/a33e9e1a1e4d444b5148ae8b45ed056a49a54914/README.md) | 2026-09-10 | Apache-2.0 with noncommercial README terms | README 未明确 / 待确认 | amd64, arm64 |
-| [Brave 浏览器](https://github.com/brave/brave-browser/blob/a33113d6035df5897fba3029507b2024616616a3/README.md) | 2026-11-04 | MPL-2.0 | README 未明确 / 待确认 | amd64, arm64 |
-| [PandaWiki](https://github.com/chaitin/PandaWiki/blob/0b26db72ceb2f0f053a5c48b44546d7a342caacb/README.md) | 2026-10-21 | AGPL-3.0 | README 未明确 / 待确认 | amd64, arm64 |
-| [IPTV 工具箱](https://github.com/taksssss/iptv-tool/blob/10d7a35e15a799e607cbb2236c3a4ea349f61199/README.md) | 2026-10-22 | GPL-2.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [PanSou](https://github.com/fish2018/pansou/blob/221665fb2c9279f22af4684ea2d8c0c331eac1cc/README.md) | 2026-10-12 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [VERT](https://github.com/VERT-sh/VERT/blob/257bcb3b2bb6a501bae0faf9ffb05060ee00c3f7/README.md) | 2026-10-20 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [n8n](https://github.com/n8n-io/n8n/blob/ca3e5129e58c2b6907cd8e94addb167c28b58692/README.md) | 2026-11-04 | Sustainable Use License / n8n Enterprise License | 可选商业服务或授权 | amd64, arm64 |
-| [BeiDou Server](https://github.com/BeiDouMS/BeiDou-Server/blob/71d77515d62c2843cb6d41119eb669915ee15889/README.md) | 2026-10-29 | AGPL-3.0 | README 未明确 / 待确认 | amd64, arm64 |
-| [Simple SQ Music Plus](https://github.com/59799517/simple_sq_music_plus/blob/3c2599d47a7c82b85607a7d1d063fd03e546bbf6/README.md) | 2026-10-30 | Unspecified; noncommercial README terms | README 未明确 / 待确认 | amd64 |
-| [jotty·page](https://github.com/fccview/jotty/blob/30bbbaea4675d2adb6f2e5ff113f1994be2fb8e2/README.md) | 2026-10-25 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [DeepTutor](https://github.com/HKUDS/DeepTutor/blob/f7aed0744c36c5afef16a4261c31ebee1208cac2/README.md) | 2026-10-31 | Apache-2.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [Dockge](https://github.com/louislam/dockge/blob/0329dabb5003f206d4fd9f7403a6af26d7138497/README.md) | 2026-10-23 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [Uptime Kuma Compose](https://github.com/louislam/uptime-kuma/blob/41194cb3d6e2bb8b9ae6c8a0fe59ce577c3f3928/README.md) | 2026-11-03 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [Netdata](https://github.com/netdata/netdata/blob/ca1035ac5fc5e69d7f55779344ed87962e42a401/README.md) | 2026-11-04 | GPL-3.0-or-later (Agent); NCUL1 (UI) | 可选商业服务或授权 | amd64, arm64 |
-| [Homepage](https://github.com/gethomepage/homepage/blob/97135eaf8747e8d673ed57f7df328ef5a7e65a4e/README.md) | 2026-11-02 | GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [Vaultwarden](https://github.com/dani-garcia/vaultwarden/blob/82fc47e83e39c5d09e85a6f259c8ab51166735d1/README.md) | 2026-11-02 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [2FAuth](https://github.com/Bubka/2FAuth/blob/2a19734a178846f4b59c1b52504b8d8e1036623c/README.md) | 2026-11-02 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [Navidrome](https://github.com/navidrome/navidrome/blob/7c1e68a1e4e68e7257affba4f25cd9cb545c7016/README.md) | 2026-11-03 | GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [Audiobookshelf](https://github.com/advplyr/audiobookshelf/blob/ce41ce489cebaf00e008919f6f2901b428acfd56/readme.md) | 2026-11-01 | GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [qBittorrent](https://github.com/qbittorrent/qBittorrent/blob/0d6f6a008ed3c192b3eda25552a369b51da11c4d/README.md) | 2026-11-03 | See upstream COPYING; LinuxServer image GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [Transmission](https://github.com/transmission/transmission/blob/c1a0dbebd55add20efa0bc40d8ad3c57152e5635/README.md) | 2026-11-02 | See upstream COPYING; LinuxServer image GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [MeTube](https://github.com/alexta69/metube/blob/7e73766238f3fc491b2aeba0c3c8b415c408eaaa/README.md) | 2026-11-01 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [Memos](https://github.com/usememos/memos/blob/b40d8a7b573774c52b022c8d6537d6baf2129dc0/README.md) | 2026-11-01 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [BookStack](https://github.com/BookStackApp/BookStack/blob/0b6b667e0d84ebb3406de6de9fadbf4230c29c0b/readme.md) | 2026-11-02 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [FreshRSS](https://github.com/FreshRSS/FreshRSS/blob/4e8a258b011aad190597d7953b7122fc43f4658f/README.md) | 2026-11-02 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
-| [wallabag](https://github.com/wallabag/wallabag/blob/17be63dee2a14f5a49b49dd12c9daf81b9754991/README.md) | 2026-11-03 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [Open WebUI](https://github.com/open-webui/open-webui/blob/c38885a1a737da4968f157092f304f3b5481d0bf/README.md) | 2026-11-03 | Open WebUI License with branding requirements | 可选商业服务或授权 | amd64, arm64 |
-| [Dify](https://github.com/langgenius/dify/blob/ca01a69f87baaf31709b8cedea8ba3a97ecc3518/README.md) | 2026-11-04 | Dify Open Source License; see upstream LICENSE | 可选商业服务或授权 | amd64, arm64 |
-| [NextChat](https://github.com/ChatGPTNextWeb/NextChat/blob/1d3dc331512929a4b1d3e82354e72acce33b5c7a/README.md) | 2026-10-20 | MIT | 可选商业服务或授权 | amd64, arm64 |
-| [Beszel](https://github.com/henrygd/beszel/blob/27af11c5e04f03c1fa6cc067a1251631e2e8996e/readme.md) | 2026-10-30 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [Actual Budget](https://github.com/actualbudget/actual/blob/a3a1c7fc41f891dc91936a488ef08f695c982580/README.md) | 2026-11-03 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [Baby Buddy](https://github.com/babybuddy/babybuddy/blob/2bd0461f5a7e407147bcfef363eb79dce6c9708d/README.md) | 2026-10-28 | BSD-2-Clause | 自建无付费密钥要求 | amd64, arm64 |
-| [PLANKA](https://github.com/plankanban/planka/blob/98c1ef216bcf47fc873f5b92cbb334711fc92162/README.md) | 2026-11-02 | PLANKA Community Fair Use License / Commercial License | 可选商业服务或授权 | amd64, arm64 |
-| [Vikunja](https://github.com/go-vikunja/vikunja/blob/2a4a28dcf78451f3d2fceb091f322612f83f6d8a/README.md) | 2026-11-04 | AGPL-3.0-or-later | 可选商业服务或授权 | amd64, arm64 |
-| [Umami](https://github.com/umami-software/umami/blob/559e3c607c23d2c72d9bd4f6481bda428255323c/README.md) | 2026-10-23 | MIT | README 未明确 / 待确认 | amd64, arm64 |
-| [Gotify](https://github.com/gotify/server/blob/dd06dc77190696e93d3297b9a733711516fb17d9/README.md) | 2026-10-25 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [Bark Server](https://github.com/Finb/bark-server/blob/640deaa151ddf79193202927b35ca2f14f65ee1d/README.md) | 2026-10-10 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [So Novel](https://github.com/freeok/so-novel/blob/88acec6ee489ca1c2489c624cedd1ef417d3f3ee/README.md) | 2026-10-26 | AGPL-3.0 | 自建无付费密钥要求 | amd64 |
+- Paperless-ngx 包含 PostgreSQL 18 与 Valkey，默认识别简体中文和英文。首次启动安装中文 OCR 包，导入目录用于自动消费文档，应与原始资料库区分。
+- Mealie 包含 PostgreSQL 17，默认入口 9925。首次使用 `changeme@example.com / MyPassword` 登录，再修改邮箱与密码。
+- Syncthing 使用 Host 网络，网页默认 8384。首次设置网页认证，再添加设备和容器内 `/sync` 目录；准备服务只设置挂载目录本身的属主。
+- Trilium 默认固定 v0.106.1，网页默认 8084；桌面同步前核对版本兼容性。Omni-tools 默认 8089，无需数据库和持久化目录。
+- LubeLogger 默认 8086；首次进入 Settings，启用 Enable Authentication 并设置自己的账号。`./data` 和 `./keys` 均需保留。
+- Nextcloud 使用 Apache 镜像、MariaDB、Redis 及同版本 cron 服务，默认 8088。填写真实 IP/域名为受信任地址；域名不带协议，多个地址以空格分隔。
+- Home Assistant 使用 Container 版与 Host 网络，默认 8123，首次访问创建账号。它不含 Supervisor 与应用商店；蓝牙依赖宿主 D-Bus，USB 网关按实际硬件配置。
+- Immich 默认稳定版 v3.3.5，配套向量数据库和 CPU 机器学习服务；照片、数据库与模型缓存分别持久化，数据库应放在本机磁盘。
+- DIAN115 基础版使用 PostgreSQL 18，数据库绑定 `/var/lib/postgresql`，通过回环端口 15432 连接。模板用于新装；已有低版本数据库按官方跨版本流程迁移。
+- MoviePilot 与下载器分别安装时，选择相同的宿主机下载目录并保持容器内 `/downloads` 一致。CloudDrive2 发布目录需支持 shared 挂载传播，其他消费者使用同一宿主目录接收。
+- Homebox、RomM、Penpot 等实例的随机密钥应长期保留。Grocy 首次使用 `admin / admin` 登录后修改密码。Feishin 需要连接已有音乐服务，其地址须能从用户浏览器访问。
 
-## 图标许可
-
-图标版权与许可声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
+图标使用各项目的官方资源或适合其用途的语义图标，许可声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。项目维护时间、资源校验值及已核对的镜像架构保存在对应 manifest 中。应用许可证、用途条款与可选付费功能以各自项目说明为准。

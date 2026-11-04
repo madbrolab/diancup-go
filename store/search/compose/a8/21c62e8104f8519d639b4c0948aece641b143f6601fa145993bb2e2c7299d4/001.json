@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
+      "path": "templates/home-assistant/home-assistant/summary.json",
+      "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
     },
     {
       "path": "templates/sysadminsmedia/homebox/summary.json",

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "iib0011/omni-tools",
+  "kind": "compose",
+  "name": "Omni-tools",
+  "description": "把图片、文本、数字、日期和文件处理工具放进一个网页，日常格式处理可在浏览器本地完成，无需上传到外部工具站。",
+  "developer": "iib0011",
+  "projectUrl": "https://github.com/iib0011/omni-tools",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "omni-tools",
+    "Omni-tools",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/omni-tools.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/iib0011/omni-tools/blob/main/README.md",
+  "applications": [
+    {
+      "id": "omni-tools",
+      "name": "Omni-tools",
+      "developer": "iib0011",
+      "projectUrl": "https://github.com/iib0011/omni-tools",
+      "icon": "icons/omni-tools.svg",
+      "services": [
+        "omni-tools"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "compose.services.omni-tools",
+      "title": "浏览器工具",
+      "reason": "提供静态网页工具，无需数据库和数据挂载；文件处理在浏览器内进行，较大文件取决于客户端性能。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-10-24T12:13:04Z",
+    "lastCommit": "9244e02923d99cde143ddd5b8d761d9ed0997da4",
+    "readmeSHA256": "f0bf8afecc7297404b09b2d7278c5435823fd7293cba739f6760ff031ee16008",
+    "iconSource": "https://raw.githubusercontent.com/iib0011/omni-tools/9244e02923d99cde143ddd5b8d761d9ed0997da4/public/favicon.svg",
+    "iconSHA256": "df63c7b3b6e2b06b27eaf0bcce66ca7a0066a184d48a85f9dd18cd4cb3a9049a",
+    "images": [
+      {
+        "image": "iib0011/omni-tools:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "99e21d937dbe5ff86f00ac06ce17b5507a81911fa8d781f9b244b4067350e1a7"
+      }
+    ]
+  }
+}

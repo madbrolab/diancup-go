@@ -3,15 +3,7 @@
   "items": [
     {
       "path": "templates/linuxserver/jellyfin/summary.json",
-      "sha256": "4cddf7bad032ddb85692ef12af0195b130d264985b7f2276dd8a87475880f3bc"
-    },
-    {
-      "path": "templates/louislam/uptime-kuma/summary.json",
-      "sha256": "af30601ce677d8e72bbda5efc6007fdaf26ff90568e84339b5eef3b87f408b23"
-    },
-    {
-      "path": "templates/official/nginx/summary.json",
-      "sha256": "138a0bb0896888cca060e7b2337652bdb5b3ecccbcb40f6886ba1c58c0b3e385"
+      "sha256": "ddbd159686cf51a6e5e3124d2da0d1433aad969a29b3937e4522150a18ecd86d"
     }
   ],
   "next": null

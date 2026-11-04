@@ -2,24 +2,6 @@
   "schemaVersion": 1,
   "items": [
     {
-      "id": "bace37ebeea6ae7072b2d9e7",
-      "name": "bestruirui",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/bace37ebeea6ae7072b2d9e7/repositories/001.json",
-        "sha256": "117567f7a54c12f2a677378a57fb21f7f7fe9a9d74a3fd88123dc89f7e10bcc4"
-      }
-    },
-    {
-      "id": "a1bb216b2bbb7eb30b25960e",
-      "name": "brave",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/a1bb216b2bbb7eb30b25960e/repositories/001.json",
-        "sha256": "f75c85eb8d067b57a4ec4d56129bd9e657056795fae0f6ae0b005eb8c45e9753"
-      }
-    },
-    {
       "id": "3afe7712b5e78c2ddd951361",
       "name": "chaitin",
       "count": 1,
@@ -38,24 +20,6 @@
       }
     },
     {
-      "id": "55a57854fc1b33f21ce8403b",
-      "name": "dani-garcia",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/55a57854fc1b33f21ce8403b/repositories/001.json",
-        "sha256": "a8815d9ce2ef6559775edf8d4b3f7320816a3af88fc18672b3360f93daf72a48"
-      }
-    },
-    {
-      "id": "028f30897d14f647fb799623",
-      "name": "dockers-x",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/028f30897d14f647fb799623/repositories/001.json",
-        "sha256": "3786b666e7e53d5d8daea81c23f095ebae2b254a69c3f6931609b8fbc0a2b842"
-      }
-    },
-    {
       "id": "5637bca4786d239304646349",
       "name": "ellite",
       "count": 1,
@@ -67,10 +31,10 @@
     {
       "id": "99a6dc8ff8d63841a88238de",
       "name": "fccview",
-      "count": 2,
+      "count": 1,
       "first": {
         "path": "compose/developers/99a6dc8ff8d63841a88238de/repositories/001.json",
-        "sha256": "c9bacd7d64b68faf23798688e5a43ce79374a1f17afb9032e1d9986e844f9425"
+        "sha256": "ff7b442ec035632b0f927c26552021ed7a4063770a613ded4c87f38c74ae2f14"
       }
     },
     {
@@ -89,15 +53,6 @@
       "first": {
         "path": "compose/developers/64aed6535e57a766562975a3/repositories/001.json",
         "sha256": "a38d9b869828fd2739c3fb2937519b41cc3fa61f09afe55d48a0d9eff1a62fff"
-      }
-    },
-    {
-      "id": "5887cd0e9367788106eb1899",
-      "name": "gethomepage",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/5887cd0e9367788106eb1899/repositories/001.json",
-        "sha256": "616c47019b05a38afc32c58a9128bf4b90f71e1282ee775fdbb841bb13eaa177"
       }
     },
     {
@@ -137,12 +92,30 @@
       }
     },
     {
-      "id": "b99ef71ac76646f97402890a",
-      "name": "henrygd",
+      "id": "697fbaeb90dfc7862bb0b162",
+      "name": "hargata",
       "count": 1,
       "first": {
-        "path": "compose/developers/b99ef71ac76646f97402890a/repositories/001.json",
-        "sha256": "e76dcedf46356c038c0ba6df700b563fde0f1d645085587072b9f7885eccd53f"
+        "path": "compose/developers/697fbaeb90dfc7862bb0b162/repositories/001.json",
+        "sha256": "80109481f4a30e2ee1b2ace8e92318d88092e7817d70f361a2230259f10e422c"
+      }
+    },
+    {
+      "id": "0bcd728f4324a803a8a8fa7a",
+      "name": "home-assistant",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/0bcd728f4324a803a8a8fa7a/repositories/001.json",
+        "sha256": "6a05d3222ba42534ed58e6674e94e0a78e012404f71f33b35e88ed61ae6a1e55"
+      }
+    },
+    {
+      "id": "34b796e387c61dc356e2fcee",
+      "name": "iib0011",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/34b796e387c61dc356e2fcee/repositories/001.json",
+        "sha256": "2bb51c127477a5b3eadb58f19cd0a552fdfae46e1376a810f0c1a1a02bd7a565"
       }
     },
     {
@@ -182,33 +155,6 @@
       }
     },
     {
-      "id": "159e5c3b5782c094abff235a",
-      "name": "langgenius",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/159e5c3b5782c094abff235a/repositories/001.json",
-        "sha256": "de83725b56dce4bf8ecd35f9f17b5425336bb70a906383251f4cc27229468fc4"
-      }
-    },
-    {
-      "id": "9004922afdcc804b229ace5b",
-      "name": "linguo2625469",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/9004922afdcc804b229ace5b/repositories/001.json",
-        "sha256": "b466a624c2613f2dedf58ae3bd04fb8b57d97f411954ae27064f79e4093e08b9"
-      }
-    },
-    {
-      "id": "31b7604dd03993cb427cd6e9",
-      "name": "louislam",
-      "count": 2,
-      "first": {
-        "path": "compose/developers/31b7604dd03993cb427cd6e9/repositories/001.json",
-        "sha256": "15d049ec6c52ca6d01382febef6145a938f33367c65774c3d1053d4a94e18279"
-      }
-    },
-    {
       "id": "c073df3f8fa20c9a11e1bc77",
       "name": "madbrolab",
       "count": 1,
@@ -216,10 +162,64 @@
         "path": "compose/developers/c073df3f8fa20c9a11e1bc77/repositories/001.json",
         "sha256": "e23057011f8a2d15140d98b5c6ca5fa35fa5f2130955dd0f983676c30c2f03a6"
       }
+    },
+    {
+      "id": "9be9ed9b27e13e3c59cd3495",
+      "name": "mealie-recipes",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/9be9ed9b27e13e3c59cd3495/repositories/001.json",
+        "sha256": "00901d942c957dab1523e23efceccd0130d822464a4d19935c8e5af7cdadf9db"
+      }
+    },
+    {
+      "id": "06eb80c10d6089876042f48d",
+      "name": "n8n-io",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/06eb80c10d6089876042f48d/repositories/001.json",
+        "sha256": "2e3157a6ee15884e0e550818ec4705d330dc81e08063187e12b6b82c2134959b"
+      }
+    },
+    {
+      "id": "a2a1e69c4f8340f60ff88d14",
+      "name": "nextcloud",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/a2a1e69c4f8340f60ff88d14/repositories/001.json",
+        "sha256": "1728f9500c4c6db596209ffaaa62d11659b5b9e43a18d6360ff8ea39f64aee10"
+      }
+    },
+    {
+      "id": "d496c82198e4f3360f2a8433",
+      "name": "open-webui",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/d496c82198e4f3360f2a8433/repositories/001.json",
+        "sha256": "e83592048bebbbd4cd9f5e1f9867a25c08dd0a03647f35023cd72eb511b9f967"
+      }
+    },
+    {
+      "id": "d98970309b28f0e6e7d7922e",
+      "name": "paperless-ngx",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/d98970309b28f0e6e7d7922e/repositories/001.json",
+        "sha256": "98caf57e1f246918e038f6e972ab39d07e37a1137db3d122b89fa1401eeab3f9"
+      }
+    },
+    {
+      "id": "6e6670a9af20b60cb9ff8163",
+      "name": "penpot",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/6e6670a9af20b60cb9ff8163/repositories/001.json",
+        "sha256": "a1b6364363d2f9cfacaa24b1ba498178908ef4d33b03a629052595f204d03b53"
+      }
     }
   ],
   "next": {
     "path": "compose/developers/003.json",
-    "sha256": "24fc70d41a39a5a14d5cf8fe82947759f70ff33a905ab6b802eab5ed96a42817"
+    "sha256": "9e312553f4cfbfb17ddc7c757f15e7705332a49a3ce47beed130d116ec914dd5"
   }
 }

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "home-assistant/home-assistant",
+  "kind": "compose",
+  "name": "Home Assistant",
+  "description": "连接家中的智能设备、传感器与服务，建立自动化场景和家庭仪表盘。此模板部署 Home Assistant Container，配置保存在自己的 NAS。",
+  "developer": "home-assistant",
+  "projectUrl": "https://github.com/home-assistant/core",
+  "source": "open",
+  "license": "Apache-2.0",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "home-assistant",
+    "Home Assistant",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/home-assistant.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://www.home-assistant.io/installation/linux#install-home-assistant-container",
+  "applications": [
+    {
+      "id": "home-assistant",
+      "name": "Home Assistant",
+      "developer": "home-assistant",
+      "projectUrl": "https://github.com/home-assistant/core",
+      "icon": "icons/home-assistant.svg",
+      "services": [
+        "home-assistant"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "compose.services.home-assistant.network_mode",
+      "title": "家庭设备发现",
+      "reason": "使用官方 Container 部署方式及 Host 网络，默认入口为宿主机 8123；首次访问创建家庭和管理员账号。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.home-assistant.volumes",
+      "title": "设备与蓝牙",
+      "reason": "D-Bus 挂载用于蓝牙；宿主机没有该服务且不使用蓝牙时可移除此行。USB 网关等设备按实际硬件另行配置。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.home-assistant",
+      "title": "安装类型",
+      "reason": "Container 版不包含 Supervisor 和应用商店；相关配套服务需独立部署，家庭自动化配置保存在 ./config。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.home-assistant.privileged",
+      "title": "硬件访问",
+      "reason": "保留官方示例的特权模式以支持硬件接入，可按实际集成需求进一步收紧。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-04T15:54:22Z",
+    "lastCommit": "8400cb2474e2e4290c052a6a0b3b5d37b7f95e88",
+    "readmeSHA256": "7cd3c381536b6d26371f921d730242c6162fc3fa840bf8e9418409f8b482e7cb",
+    "iconSource": "https://brands.home-assistant.io/homeassistant/icon.png",
+    "iconSHA256": "b619da321cddf46b565aa64c5f1675f0ced1a445ebf23f6e29413061d6e925c0",
+    "images": [
+      {
+        "image": "ghcr.io/home-assistant/home-assistant:stable",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "23f4dfbb69ce76315dbc4de7915504f1c2dcecd7ca2648113a493a385972e133"
+      }
+    ]
+  }
+}

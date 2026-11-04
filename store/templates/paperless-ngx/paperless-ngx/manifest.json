@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "paperless-ngx/paperless-ngx",
+  "kind": "compose",
+  "name": "Paperless-ngx",
+  "description": "归档扫描件、账单和家庭文档，通过 OCR 提取文字，按标签、联系人和文档类型整理并全文检索。默认启用简体中文与英文识别。",
+  "developer": "paperless-ngx",
+  "projectUrl": "https://github.com/paperless-ngx/paperless-ngx",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "paperless",
+    "Paperless-ngx",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/paperless.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.paperless-ngx.com/setup/",
+  "applications": [
+    {
+      "id": "paperless",
+      "name": "Paperless-ngx",
+      "developer": "paperless-ngx",
+      "projectUrl": "https://github.com/paperless-ngx/paperless-ngx",
+      "icon": "icons/paperless.svg",
+      "services": [
+        "paperless"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "developer": "PostgreSQL Global Development Group",
+      "projectUrl": "https://www.postgresql.org/",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "db"
+      ]
+    },
+    {
+      "id": "valkey",
+      "name": "Valkey",
+      "developer": "Valkey",
+      "projectUrl": "https://github.com/valkey-io/valkey",
+      "icon": "icons/infra-valkey.svg",
+      "services": [
+        "broker"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.PUBLIC_URL",
+      "title": "实际访问地址",
+      "reason": "填写浏览器实际使用的完整地址，不带结尾斜杠；使用反向代理时填写外部地址。",
+      "required": true,
+      "example": "https://documents.example.com"
+    },
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "为新实例填写独立密码；数据库仅在项目网络内访问。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.SECRET_KEY",
+      "title": "实例密钥",
+      "reason": "填写至少 50 字符的随机值，初始化后长期保留。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.ADMIN_PASSWORD",
+      "title": "初始管理员密码",
+      "reason": "新实例首次启动自动创建管理员；修改此变量不会重置已有账号密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.CONSUME_DIR",
+      "title": "文档导入目录",
+      "reason": "应用自动处理该目录中的文件并移入文档库；请用独立投递目录，避免直接指向原件总库。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.paperless.environment",
+      "title": "中文文字识别",
+      "reason": "默认识别简体中文和英文，首次启动会安装中文 OCR 语言包，需要访问软件源。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.db.volumes",
+      "title": "数据库目录",
+      "reason": "PostgreSQL 18 绑定 /var/lib/postgresql；数据、媒体、导出和数据库目录均需保留。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-04T15:29:41Z",
+    "lastCommit": "137342c1f9df5e7296f5b5378228c20689a171e4",
+    "readmeSHA256": "57aadae7f68c77d36a3ed5b2954129e8675b7e63c2453bf16c93bce774cdb7ec",
+    "iconSource": "https://raw.githubusercontent.com/paperless-ngx/paperless-ngx/137342c1f9df5e7296f5b5378228c20689a171e4/docs/assets/logo_leaf.svg",
+    "iconSHA256": "27a6a4519fa481a1181a3b9b52513763740dce9d0eb073bc874a1a4ae3d7d759",
+    "images": [
+      {
+        "image": "ghcr.io/paperless-ngx/paperless-ngx:3.4.2",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "d704e84f88300eb6ab001ab15720a2330ff99169cf9f94d6b8fcc44b63a84c84"
+      },
+      {
+        "image": "postgres:18",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "3a4264520e121176619f54ff867d12774bc81e95e7b84db58d63bccdb6144b81"
+      },
+      {
+        "image": "valkey/valkey:9-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "bf09d58e96d6b4524a15396b65b242bbe18beebbcc15a04d8ee75ddac62fae0b"
+      }
+    ]
+  }
+}

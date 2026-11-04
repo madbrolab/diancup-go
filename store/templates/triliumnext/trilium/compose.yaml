@@ -1,0 +1,11 @@
+services:
+  trilium:
+    image: triliumnext/trilium:v0.106.1
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-8084}:8080
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+    volumes:
+      - ./data:/home/node/trilium-data
+      - /etc/localtime:/etc/localtime:ro

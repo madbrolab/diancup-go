@@ -12,7 +12,7 @@
       "source": "open",
       "license": "GPL-2.0",
       "paidKey": "none",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "icon": "icons/jellyfin.svg",
       "architectures": [
         "amd64",
@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/linuxserver/jellyfin/manifest.json",
-        "sha256": "52a3d29ce2aaec9fa1ea879b430eba02ed4d1b2ca490420e821dda922d502b2b"
+        "sha256": "8f71bbfcd4a2f4cc55d96fe0c8c0d54f54b8cccc99e5a3811b0723e695d1c822"
       },
       "summary": {
         "path": "templates/linuxserver/jellyfin/summary.json",
-        "sha256": "4cddf7bad032ddb85692ef12af0195b130d264985b7f2276dd8a87475880f3bc"
+        "sha256": "ddbd159686cf51a6e5e3124d2da0d1433aad969a29b3937e4522150a18ecd86d"
       }
     }
   ],

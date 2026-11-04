@@ -16,7 +16,7 @@
       "count": 1,
       "index": {
         "path": "container/media/index.json",
-        "sha256": "314ba83cce6d2abdb9029b7b5057bc190ace6ff0cb309e58b5b87dd839ad2ad2"
+        "sha256": "010085d30e0006ec6737b2eda3a83b5de151193f3bd08dc283f79a45aff0099d"
       }
     },
     {
@@ -31,10 +31,10 @@
     {
       "id": "web",
       "name": "网站",
-      "count": 1,
+      "count": 0,
       "index": {
         "path": "container/web/index.json",
-        "sha256": "15a06375b8a96aea7d3153e809b83c47238112ef93f330690622b6a97dfabe61"
+        "sha256": "3687dde36f23208324ce7034b08749f02d6237ca5a5025159bcfe1b04ba8f4c2"
       }
     },
     {
@@ -67,10 +67,10 @@
     {
       "id": "monitoring",
       "name": "监控",
-      "count": 1,
+      "count": 0,
       "index": {
         "path": "container/monitoring/index.json",
-        "sha256": "2db950d576805ed932413eeee31ab3f06a7cbddaba87564bc4d0d9037e9fcfcd"
+        "sha256": "36468f2b70c51ad44e0b88edb876e4044fe2cf05b2cd2e5b67a7aad233874314"
       }
     },
     {
@@ -85,10 +85,10 @@
     {
       "id": "database",
       "name": "数据库",
-      "count": 1,
+      "count": 0,
       "index": {
         "path": "container/database/index.json",
-        "sha256": "a05a68ee43df7cafa12f5784bd0ee846510cd62bc16ae4853d6e962f92d7d7a4"
+        "sha256": "b6061548bdf59706fa570df1e5ae079522b73c7f5cc474c57b67fc7e89612584"
       }
     },
     {

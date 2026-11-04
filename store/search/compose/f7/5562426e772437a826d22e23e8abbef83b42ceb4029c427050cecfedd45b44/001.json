@@ -4,6 +4,10 @@
     {
       "path": "templates/cloudnas/clouddrive2-basic/summary.json",
       "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
+    },
+    {
+      "path": "templates/nextcloud/nextcloud/summary.json",
+      "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
     }
   ],
   "next": null

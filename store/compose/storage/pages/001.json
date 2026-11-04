@@ -130,6 +130,39 @@
       }
     },
     {
+      "id": "nextcloud/nextcloud",
+      "kind": "compose",
+      "category": "storage",
+      "name": "Nextcloud",
+      "description": "建立个人和家庭文件云盘，通过网页、桌面与手机同步文件，分享资料，并按需安装日历、通讯录等应用。社区版可自建，企业支持另有方案。",
+      "developer": "nextcloud",
+      "projectUrl": "https://github.com/nextcloud/server",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/nextcloud.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "nextcloud",
+        "Nextcloud",
+        "storage",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/nextcloud/nextcloud/manifest.json",
+        "sha256": "b78fbf0dc723a5c47f30d6092787c6de9fe2295484bf3690b44aac16f6493049"
+      },
+      "summary": {
+        "path": "templates/nextcloud/nextcloud/summary.json",
+        "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
+      }
+    },
+    {
       "id": "openlistteam/openlist",
       "kind": "compose",
       "category": "storage",
@@ -159,6 +192,39 @@
       "summary": {
         "path": "templates/openlistteam/openlist/summary.json",
         "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
+      }
+    },
+    {
+      "id": "syncthing/syncthing",
+      "kind": "compose",
+      "category": "storage",
+      "name": "Syncthing",
+      "description": "在自己的电脑、手机和 NAS 之间持续同步文件，可逐个目录选择设备与同步方式，支持文件版本保留和局域网发现。",
+      "developer": "syncthing",
+      "projectUrl": "https://github.com/syncthing/syncthing",
+      "source": "open",
+      "license": "MPL-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/syncthing.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "syncthing",
+        "Syncthing",
+        "storage",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/syncthing/syncthing/manifest.json",
+        "sha256": "cd52d75af48001c71b6f89337c10e75d597bf7854b9275b1554b232f9bb0a148"
+      },
+      "summary": {
+        "path": "templates/syncthing/syncthing/summary.json",
+        "sha256": "44158113e797b1faea4b92f1ba6fa4b99878c60e4d93c12d729445d07361ea59"
       }
     },
     {

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "triliumnext/trilium",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Trilium",
+  "description": "用树状层级、标签和链接组织个人笔记，支持富文本、附件、画布与脚本扩展，并可与兼容版本的桌面客户端同步。",
+  "developer": "TriliumNext",
+  "projectUrl": "https://github.com/TriliumNext/Trilium",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/trilium.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "trilium",
+    "Trilium",
+    "tools",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/triliumnext/trilium/manifest.json",
+    "sha256": "9fb217147a2e7b620fd0d6ca33c1031cba33481660800dd93b5c6a1065890530"
+  }
+}

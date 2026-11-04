@@ -4,19 +4,19 @@
     {
       "id": "tools",
       "name": "工具",
-      "count": 27,
+      "count": 29,
       "index": {
         "path": "compose/tools/index.json",
-        "sha256": "9d7e01fab0a286da21b895cfd503ec47ed3548b98d20d8b19252c5ba09fb7950"
+        "sha256": "6b87bfd441ca62718048ca28c4e86b0307add45c3701fe9384270c46737c5367"
       }
     },
     {
       "id": "media",
       "name": "影音",
-      "count": 14,
+      "count": 13,
       "index": {
         "path": "compose/media/index.json",
-        "sha256": "8443d66cef4666b11a228918d7df022f059223838c3e62d81bd35bab182f6891"
+        "sha256": "b14b17642e5110e0b93965fa92273c1778560e4f06c13fc43aa839af29a8f14e"
       }
     },
     {
@@ -31,46 +31,46 @@
     {
       "id": "web",
       "name": "网站",
-      "count": 3,
+      "count": 1,
       "index": {
         "path": "compose/web/index.json",
-        "sha256": "6c8d80831d20495d407720ae01779c4a29352688637cd0bf71677ad7a8dc6c44"
+        "sha256": "885efeb5155dc22c8b5bfc9064425d9010d7da13873731e989969dab9d6fa82d"
       }
     },
     {
       "id": "download",
       "name": "下载",
-      "count": 5,
+      "count": 3,
       "index": {
         "path": "compose/download/index.json",
-        "sha256": "5b1724f7b71e1b0a6ebe62892bdc38d14dc565ee905dc38c9ebfe271128bd54b"
+        "sha256": "dbba8f0e33c677bec1a464a1b0b8bd1c481f6181efb80170a7d23d91a5527a58"
       }
     },
     {
       "id": "storage",
       "name": "存储",
-      "count": 6,
+      "count": 8,
       "index": {
         "path": "compose/storage/index.json",
-        "sha256": "c2a0dbc8bdf05f259c3180817f196d004d8e127ec5eab0a0aeb4c7e44f79bf67"
+        "sha256": "ba5148ea73f54b282d69ada5fb35b7f016ecd57c1c413ccd93e0ee7002e2a018"
       }
     },
     {
       "id": "network",
       "name": "网络",
-      "count": 2,
+      "count": 0,
       "index": {
         "path": "compose/network/index.json",
-        "sha256": "0869b5c93be404fec9bd923e44d123f4fd0303c1957d97735a0e3ea907d5caeb"
+        "sha256": "9a40a16afcc4ae053ce7c68715de1616ee404c69faddbf7dba8264243f984dab"
       }
     },
     {
       "id": "monitoring",
       "name": "监控",
-      "count": 4,
+      "count": 0,
       "index": {
         "path": "compose/monitoring/index.json",
-        "sha256": "53e4bacf0484d8545c5c96a282cfffa5f999c7bb58766bcc5147614a7fbc555b"
+        "sha256": "812ea505de9963bf853a4f5296bcc98bfc8bea5cfef394830f35141213671232"
       }
     },
     {
@@ -79,7 +79,7 @@
       "count": 1,
       "index": {
         "path": "compose/development/index.json",
-        "sha256": "26648a78e049250b0371ac9343a75a018537b98ce53a5fe3f38cac3b363006c1"
+        "sha256": "2361f90f9ca9a033dae618a673678c53acbf65583e46b026fd9af6ab3758f232"
       }
     },
     {
@@ -94,10 +94,10 @@
     {
       "id": "ai",
       "name": "AI",
-      "count": 6,
+      "count": 3,
       "index": {
         "path": "compose/ai/index.json",
-        "sha256": "f39eeec4eb1fd82de879f330d7ce4103588be0e01e7e6d08edf7a7deda7dab26"
+        "sha256": "99e759738d81af2455b7e8bcc07ac0141edb6ea2342d74fd0b4a5207e1028348"
       }
     },
     {

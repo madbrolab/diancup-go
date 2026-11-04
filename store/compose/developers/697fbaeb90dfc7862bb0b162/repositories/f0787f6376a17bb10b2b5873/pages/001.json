@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "hargata/lubelogger",
+      "kind": "compose",
+      "category": "tools",
+      "name": "LubeLogger",
+      "description": "记录家用车辆的保养、维修、加油、里程与费用，保存相关凭证，设置保养计划，并与家人共同维护车辆档案。",
+      "developer": "hargata",
+      "projectUrl": "https://github.com/hargata/lubelog",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/lubelogger.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "lubelogger",
+        "LubeLogger",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/hargata/lubelogger/manifest.json",
+        "sha256": "1f108232411af19d3ffa5df6f2a986be14327d3dbf0661b2e48d58d83a2c52e1"
+      },
+      "summary": {
+        "path": "templates/hargata/lubelogger/summary.json",
+        "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
+      }
+    }
+  ],
+  "next": null
+}

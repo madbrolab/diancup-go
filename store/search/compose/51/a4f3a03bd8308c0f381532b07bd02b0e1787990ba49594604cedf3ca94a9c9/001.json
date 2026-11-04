@@ -4,10 +4,6 @@
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
       "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
-    },
-    {
-      "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
     }
   ],
   "next": null

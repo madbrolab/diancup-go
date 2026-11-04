@@ -9,7 +9,7 @@
   "source": "open",
   "license": "MIT",
   "paidKey": "none",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "category": "development",
   "tags": [
     "gitea",
@@ -69,5 +69,12 @@
         "db"
       ]
     }
-  ]
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-04T05:51:12Z",
+    "lastCommit": "ab295e62e4c708d87600efa77fca44195bacfa17",
+    "readmeSHA256": "596511a44a8451c5ee3e38547ff19d8d23b8f7f80843ccebee15405b8c898497",
+    "readmeURL": "https://github.com/go-gitea/gitea/blob/main/README.md"
+  }
 }

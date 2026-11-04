@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "count": 6,
+  "count": 3,
   "first": {
     "path": "compose/ai/pages/001.json",
-    "sha256": "ce5649fd6f5e2d18ccabee0ca01487b0b75880c11cfcc874a29b005874bd47db"
+    "sha256": "ad2d35e6cfc3c5f407258df769b8177f22b089b6875789146abc27a42318b008"
   }
 }
