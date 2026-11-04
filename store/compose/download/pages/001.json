@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/alexta69/metube/manifest.json",
-        "sha256": "eef6261f6eb08588fa981a5c69f5ec02318bdbd728e7764b5079a3850f5baade"
+        "sha256": "b28eac5a94f1f6634e6fa57e3a0f22f5a014d45b96d2700ba57512191fca2011"
       },
       "summary": {
         "path": "templates/alexta69/metube/summary.json",
-        "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+        "sha256": "6dc63cd3fa1a5adb43aac8e379fd1b30bac4dc08ca13577b40dfaac6086412cc"
       }
     },
     {
@@ -58,11 +58,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/linuxserver/qbittorrent-basic/manifest.json",
-        "sha256": "25793fcc73944220cebbcfa2558427635e28d14779e98b4a65983475b0eaba49"
+        "sha256": "0acde56ddfb6f23d2055076618aa8149655e523603c0d70ee70c56ce70a48782"
       },
       "summary": {
         "path": "templates/linuxserver/qbittorrent-basic/summary.json",
-        "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+        "sha256": "059854e25edcc6efa665e6cce8d268926888524a39336f558acdc98a8f215921"
       }
     },
     {
@@ -90,11 +90,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/linuxserver/transmission-basic/manifest.json",
-        "sha256": "1826910c528be1acb9ba8c553b4d997ed037123fab003021dc14de15395dc122"
+        "sha256": "2d99c497aae96bffda84b8a9cdc019caee67315f82beccf27cce38158ee8fabc"
       },
       "summary": {
         "path": "templates/linuxserver/transmission-basic/summary.json",
-        "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
+        "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
       }
     },
     {
@@ -122,11 +122,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/qbittorrent/qbittorrent/manifest.json",
-        "sha256": "538b3ddb792eeaceb90774c7418b321bd8e520140cc484bb6b3567b9ae80f139"
+        "sha256": "c26606d87b4e1f7fb16542b21c816283f3f8fc39b5965dc6ac12584fe3427873"
       },
       "summary": {
         "path": "templates/qbittorrent/qbittorrent/summary.json",
-        "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+        "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
       }
     },
     {
@@ -154,11 +154,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/transmission/transmission/manifest.json",
-        "sha256": "92c3636d0f2794f2f86e298ff59841ced16f8262d70a54f716721aed84e4062e"
+        "sha256": "feb63d5e2db452a717d5ef15e8b9123e63c9e4f0b85986190e539c44243c0dc6"
       },
       "summary": {
         "path": "templates/transmission/transmission/summary.json",
-        "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+        "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
       }
     }
   ],

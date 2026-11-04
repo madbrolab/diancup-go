@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
     },
     {
       "path": "templates/nginx/nginx/summary.json",
-      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+      "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
     },
     {
       "path": "templates/official/wordpress-mariadb/summary.json",
@@ -15,7 +15,7 @@
     },
     {
       "path": "templates/umami-software/umami/summary.json",
-      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     }
   ],
   "next": null

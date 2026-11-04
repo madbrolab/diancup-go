@@ -3,23 +3,23 @@
   "items": [
     {
       "path": "templates/beidoums/beidou-server/summary.json",
-      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+      "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
       "path": "templates/hkuds/deeptutor/summary.json",
-      "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
+      "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
     },
     {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     },
     {
       "path": "templates/linuxserver/qbittorrent-basic/summary.json",
-      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+      "sha256": "059854e25edcc6efa665e6cce8d268926888524a39336f558acdc98a8f215921"
     },
     {
       "path": "templates/linuxserver/transmission-basic/summary.json",
-      "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
+      "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     },
     {
       "path": "templates/official/wordpress-mariadb/summary.json",
@@ -27,7 +27,7 @@
     },
     {
       "path": "templates/qbittorrent/qbittorrent/summary.json",
-      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+      "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
     }
   ],
   "next": null

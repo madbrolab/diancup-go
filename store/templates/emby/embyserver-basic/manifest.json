@@ -68,15 +68,8 @@
   ],
   "verification": {
     "checkedAt": "2026-11-04",
-    "origin": "reconstructed-basic-compose",
     "iconSource": "https://emby.media/android-chrome-192x192.png",
     "iconSHA256": "7c83066c7032c373bc036337bc98f72bb234a89962182b021bd73c64979623c1",
-    "adaptations": [
-      "将重复的两套 Emby 实例归并为一个基础模板",
-      "改为官方 emby/embyserver 镜像",
-      "删除特权、Host 网络、私人代理和重复 UID 变量",
-      "显卡转码改为按需添加，媒体默认只读"
-    ],
     "activitySource": "https://github.com/MediaBrowser/Emby.Releases/releases",
     "lastReleaseAt": "2026-10-31T06:31:35Z",
     "lastRelease": "4.11.0.13",

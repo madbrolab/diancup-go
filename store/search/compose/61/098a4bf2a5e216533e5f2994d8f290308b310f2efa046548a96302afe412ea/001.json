@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/59799517/simple-sq-music-plus/summary.json",
-      "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+      "sha256": "1b28183a57d88c355769998a0b3801a8445938d90c55db05a18529ef80dfd28a"
     },
     {
       "path": "templates/alexta69/metube/summary.json",
-      "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+      "sha256": "6dc63cd3fa1a5adb43aac8e379fd1b30bac4dc08ca13577b40dfaac6086412cc"
     },
     {
       "path": "templates/beidoums/beidou-server/summary.json",
-      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+      "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     }
   ],
   "next": null

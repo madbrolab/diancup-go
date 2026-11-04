@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-      "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+      "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
     },
     {
       "path": "templates/weidu12123/liyuan/summary.json",
-      "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+      "sha256": "99dfa72e9b2b2aa3bb99fd467d284ef508b50c768e2899b351e4f38ef7f9dac1"
     }
   ],
   "next": null

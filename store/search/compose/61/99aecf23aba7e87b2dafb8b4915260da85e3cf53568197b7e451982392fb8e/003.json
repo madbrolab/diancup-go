@@ -3,51 +3,51 @@
   "items": [
     {
       "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+      "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
     },
     {
       "path": "templates/qbittorrent/qbittorrent/summary.json",
-      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+      "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
     },
     {
       "path": "templates/seerr-team/seerr/summary.json",
-      "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+      "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     },
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
-      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+      "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
     },
     {
       "path": "templates/transmission/transmission/summary.json",
-      "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+      "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
     },
     {
       "path": "templates/umami-software/umami/summary.json",
-      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     },
     {
       "path": "templates/usememos/memos/summary.json",
-      "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+      "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
     },
     {
       "path": "templates/vert-sh/vert/summary.json",
-      "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+      "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
     },
     {
       "path": "templates/wallabag/wallabag/summary.json",
-      "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+      "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
     },
     {
       "path": "templates/weidu12123/liyuan/summary.json",
-      "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+      "sha256": "99dfa72e9b2b2aa3bb99fd467d284ef508b50c768e2899b351e4f38ef7f9dac1"
     },
     {
       "path": "templates/xhongc/music-tag-web/summary.json",
-      "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+      "sha256": "581a9b6291b0b17a887fbe6b79c423ed169ac68cd166064a1765f8c331317577"
     }
   ],
   "next": null

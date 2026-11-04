@@ -34,7 +34,7 @@
     {
       "target": "compose.services.open-webui.ports",
       "title": "open-webui 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "3000:8080"
     },
@@ -64,14 +64,7 @@
     "lastCommitAt": "2026-11-03T12:21:21Z",
     "lastCommit": "c38885a1a737da4968f157092f304f3b5481d0bf",
     "readmeSHA256": "4441584beee58537e80339450b56617c00b33bf77786576d1599b0d9fe564668",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/open-webui.json",
-      "sha256": "c7f659b01fc36abf9963114314646fc1a3c71a4f5124548bcfc69237efe7db25"
-    },
     "iconSource": "https://raw.githubusercontent.com/open-webui/open-webui/c38885a1a737da4968f157092f304f3b5481d0bf/static/favicon.png",
-    "iconSHA256": "5698a3e39513e7b6304ec96c309373ab3af0f70fe794293461de395a94deaa65",
-    "adaptations": []
+    "iconSHA256": "5698a3e39513e7b6304ec96c309373ab3af0f70fe794293461de395a94deaa65"
   }
 }

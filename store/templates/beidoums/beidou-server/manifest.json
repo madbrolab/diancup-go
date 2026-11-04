@@ -34,7 +34,7 @@
     {
       "target": "compose.services.beidou-server.ports",
       "title": "beidou-server 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8484:8484、7575:7575、7576:7576、7577:7577"
     },
@@ -48,7 +48,7 @@
     {
       "target": "compose.services.beidou-ui.ports",
       "title": "beidou-ui 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8686:8686"
     },
@@ -89,19 +89,7 @@
     "lastCommitAt": "2026-10-29T14:54:10Z",
     "lastCommit": "71d77515d62c2843cb6d41119eb669915ee15889",
     "readmeSHA256": "75217a1aa9e5ac1b926bf1819bf66f9f4a49a06ab1bdb5612fe2b7bcbd9a3418",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/maplestory.json",
-      "sha256": "9002f239d6662bf5bb54f3907061478cc52a3dab9d029ddc248a32eaead9cece"
-    },
     "iconSource": "https://raw.githubusercontent.com/BeiDouMS/BeiDou-Server/71d77515d62c2843cb6d41119eb669915ee15889/gms-ui/src/assets/logo.png",
-    "iconSHA256": "7c7bb3abdaa72b01d50e8d671d8f7d2f3dbd18f95b2b2d89cafe37ca95cb266a",
-    "adaptations": [
-      "beidou-server 使用项目内实例名，原容器名保留为网络别名",
-      "beidou-ui 使用项目内实例名，原容器名保留为网络别名",
-      "beidou-db 使用项目内实例名，原容器名保留为网络别名",
-      "数据库健康检查使用容器现有 MYSQL_ROOT_PASSWORD，修复源配置密码不一致"
-    ]
+    "iconSHA256": "7c7bb3abdaa72b01d50e8d671d8f7d2f3dbd18f95b2b2d89cafe37ca95cb266a"
   }
 }

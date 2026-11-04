@@ -3,27 +3,27 @@
   "items": [
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/dockers-x/cfui/summary.json",
-      "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+      "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
     },
     {
       "path": "templates/gotify/server/summary.json",
-      "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
-      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+      "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
     {
       "path": "templates/louislam/dockge/summary.json",
-      "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
+      "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }
   ],
   "next": null

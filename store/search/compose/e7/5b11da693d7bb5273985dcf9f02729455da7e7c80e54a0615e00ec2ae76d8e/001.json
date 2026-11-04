@@ -3,19 +3,19 @@
   "items": [
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
-      "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
     },
     {
       "path": "templates/hkuds/deeptutor/summary.json",
-      "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
+      "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
     },
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
     },
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
-      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+      "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
     }
   ],
   "next": null

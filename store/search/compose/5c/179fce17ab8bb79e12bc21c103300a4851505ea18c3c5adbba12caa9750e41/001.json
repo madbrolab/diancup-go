@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/cloudnas/clouddrive2-basic/summary.json",
-      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+      "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
       "path": "templates/go-vikunja/vikunja/summary.json",
-      "sha256": "fca3a4305f64d1be95c6cc4d79e1958d5e51ac12d476bdad77d53a2f3e021058"
+      "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
     },
     {
       "path": "templates/transmission/transmission/summary.json",
-      "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+      "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
     }
   ],
   "next": null

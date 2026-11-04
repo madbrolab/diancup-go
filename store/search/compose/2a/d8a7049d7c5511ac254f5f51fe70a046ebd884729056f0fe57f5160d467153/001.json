@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/chaitin/pandawiki/summary.json",
-      "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
     },
     {
       "path": "templates/gitea/gitea-postgresql/summary.json",
@@ -15,15 +15,15 @@
     },
     {
       "path": "templates/linuxserver/qbittorrent-basic/summary.json",
-      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+      "sha256": "059854e25edcc6efa665e6cce8d268926888524a39336f558acdc98a8f215921"
     },
     {
       "path": "templates/linuxserver/transmission-basic/summary.json",
-      "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
+      "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     },
     {
       "path": "templates/qbittorrent/qbittorrent/summary.json",
-      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+      "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
     }
   ],
   "next": null

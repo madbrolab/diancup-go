@@ -27,7 +27,7 @@
     {
       "target": "compose.services.uptime-kuma.ports",
       "title": "uptime-kuma 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "3001:3001"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-11-03T08:55:32Z",
     "lastCommit": "41194cb3d6e2bb8b9ae6c8a0fe59ce577c3f3928",
     "readmeSHA256": "00ba16e6df299b20daec2a627fd72175ee52a65554c705d63a7b9eeb9d234a9a",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/uptime-kuma.json",
-      "sha256": "9c2a8db63ea5ae08d448f1ab8e96049f84da5a2a00084a646b2e8d958b54e4d5"
-    },
     "iconSource": "https://raw.githubusercontent.com/louislam/uptime-kuma/41194cb3d6e2bb8b9ae6c8a0fe59ce577c3f3928/public/icon.svg",
-    "iconSHA256": "1f7b4df28ef01c74e334382dab159d96b2ff145ac835b5d2febbbc4166857831",
-    "adaptations": []
+    "iconSHA256": "1f7b4df28ef01c74e334382dab159d96b2ff145ac835b5d2febbbc4166857831"
   }
 }

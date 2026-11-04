@@ -3,103 +3,103 @@
   "items": [
     {
       "path": "templates/alexta69/metube/summary.json",
-      "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+      "sha256": "6dc63cd3fa1a5adb43aac8e379fd1b30bac4dc08ca13577b40dfaac6086412cc"
     },
     {
       "path": "templates/beidoums/beidou-server/summary.json",
-      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+      "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
       "path": "templates/chaitin/pandawiki/summary.json",
-      "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
-      "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
     },
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
-      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
       "path": "templates/cloudnas/clouddrive2-basic/summary.json",
-      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+      "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
       "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
     },
     {
       "path": "templates/fccview/cronmaster/summary.json",
-      "sha256": "774694640b31b58942d81731dc9ed8c56157443de8359b2c0ac25cdafe6fe0d6"
+      "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
     },
     {
       "path": "templates/freeok/so-novel/summary.json",
-      "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+      "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     },
     {
       "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
     },
     {
       "path": "templates/gotify/server/summary.json",
-      "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
-      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+      "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
     },
     {
       "path": "templates/langgenius/dify/summary.json",
-      "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+      "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
     },
     {
       "path": "templates/laurent22/joplin-server-basic/summary.json",
-      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+      "sha256": "5ee4755c13b454086da1de7ee3332190adcb0482a96757707b8a25c4a848fb8c"
     },
     {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     },
     {
       "path": "templates/linuxserver/transmission-basic/summary.json",
-      "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
+      "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     },
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
     },
     {
       "path": "templates/madbrolab/dian115-basic/summary.json",
-      "sha256": "d8bf6e67b2cb677efad9b20686b77ff918de55714911392db55f74a51cef5146"
+      "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
     },
     {
       "path": "templates/n8n-io/n8n/summary.json",
-      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+      "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     },
     {
       "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
     },
     {
       "path": "templates/nginx/nginx/summary.json",
-      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+      "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
     },
     {
       "path": "templates/open-webui/open-webui/summary.json",
-      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+      "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
     },
     {
       "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     },
     {
       "path": "templates/qbittorrent/qbittorrent/summary.json",
-      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+      "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
     }
   ],
   "next": {
     "path": "search/compose/4c/f80999c7ff0af59533a52996ab626379e50e37a3b099878a98fea78193ace8/002.json",
-    "sha256": "61775068d1e3ac938e6b18aca5bc49d9d03bb6c0e891af835a69c2dc848a1f74"
+    "sha256": "960b46745bd3d3022f342a47ea2497bd0a8117aacde1e316efeaa552a8828bec"
   }
 }

@@ -34,7 +34,7 @@
     {
       "target": "compose.services.vaultwarden.ports",
       "title": "vaultwarden 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8080:80"
     },
@@ -64,14 +64,7 @@
     "lastCommitAt": "2026-11-02T23:12:56Z",
     "lastCommit": "82fc47e83e39c5d09e85a6f259c8ab51166735d1",
     "readmeSHA256": "5c7e29e287f600fe1979d196d53f94cd8f87f9c0de1acf6481fde510fbfdd4fc",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/vaultwarden.json",
-      "sha256": "929da743222fb827edc7b12a4b7dd0155ac09cc662beac4382f1a6a7c889daef"
-    },
     "iconSource": "https://raw.githubusercontent.com/dani-garcia/vaultwarden/82fc47e83e39c5d09e85a6f259c8ab51166735d1/resources/vaultwarden-icon.svg",
-    "iconSHA256": "c58fe91554bda6e1be51bd0cf56ac84ab63f798d5173e41e71e1aa1de515c7ef",
-    "adaptations": []
+    "iconSHA256": "c58fe91554bda6e1be51bd0cf56ac84ab63f798d5173e41e71e1aa1de515c7ef"
   }
 }

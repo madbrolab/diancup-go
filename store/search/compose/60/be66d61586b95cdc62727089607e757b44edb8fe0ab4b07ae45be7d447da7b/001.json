@@ -3,19 +3,19 @@
   "items": [
     {
       "path": "templates/chaitin/pandawiki/summary.json",
-      "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/finb/bark-server/summary.json",
-      "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+      "sha256": "16cea6af5d7dea97af15b35ea4ede65ff1f23e89be1803c69dc759dfc3028252"
     },
     {
       "path": "templates/nginx/nginx/summary.json",
-      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+      "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
     },
     {
       "path": "templates/wallabag/wallabag/summary.json",
-      "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+      "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
     }
   ],
   "next": null

@@ -3,27 +3,27 @@
   "items": [
     {
       "path": "templates/59799517/simple-sq-music-plus/summary.json",
-      "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+      "sha256": "1b28183a57d88c355769998a0b3801a8445938d90c55db05a18529ef80dfd28a"
     },
     {
       "path": "templates/chaitin/pandawiki/summary.json",
-      "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/hkuds/deeptutor/summary.json",
-      "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
+      "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
     },
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
-      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+      "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
     },
     {
       "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     },
     {
       "path": "templates/weidu12123/liyuan/summary.json",
-      "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+      "sha256": "99dfa72e9b2b2aa3bb99fd467d284ef508b50c768e2899b351e4f38ef7f9dac1"
     }
   ],
   "next": null

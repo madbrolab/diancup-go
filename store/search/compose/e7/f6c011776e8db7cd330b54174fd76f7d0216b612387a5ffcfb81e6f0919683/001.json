@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/alexta69/metube/summary.json",
-      "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+      "sha256": "6dc63cd3fa1a5adb43aac8e379fd1b30bac4dc08ca13577b40dfaac6086412cc"
     },
     {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     }
   ],
   "next": null

@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
     },
     {
       "path": "templates/umami-software/umami/summary.json",
-      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     },
     {
       "path": "templates/wallabag/wallabag/summary.json",
-      "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+      "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
     }
   ],
   "next": null

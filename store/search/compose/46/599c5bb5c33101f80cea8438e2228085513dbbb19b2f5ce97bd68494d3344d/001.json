@@ -3,19 +3,19 @@
   "items": [
     {
       "path": "templates/alexta69/metube/summary.json",
-      "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+      "sha256": "6dc63cd3fa1a5adb43aac8e379fd1b30bac4dc08ca13577b40dfaac6086412cc"
     },
     {
       "path": "templates/beidoums/beidou-server/summary.json",
-      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+      "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/henrygd/beszel/summary.json",
-      "sha256": "156f67009458ce65125cab092e84f13ed260dd410d19c919902398e5fae99a72"
+      "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     }
   ],
   "next": null

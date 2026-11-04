@@ -3,35 +3,35 @@
   "items": [
     {
       "path": "templates/actualbudget/actual-budget/summary.json",
-      "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+      "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
     },
     {
       "path": "templates/emby/embyserver-basic/summary.json",
-      "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+      "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
     {
       "path": "templates/gotify/server/summary.json",
-      "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
-      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+      "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
-      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+      "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
     },
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
     },
     {
       "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
     },
     {
       "path": "templates/seerr-team/seerr/summary.json",
-      "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+      "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
     }
   ],
   "next": null

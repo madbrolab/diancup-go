@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/gethomepage/homepage/manifest.json",
-        "sha256": "8c9f933a5cf2a88b038e98977eb3094df9093846855ad2b761f0ebfba820a9c9"
+        "sha256": "01f5f634c1621e9e90e6bc3fd8892ab8c75e992581617c23fd8b36e95ff44409"
       },
       "summary": {
         "path": "templates/gethomepage/homepage/summary.json",
-        "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+        "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
       }
     },
     {
@@ -58,11 +58,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/nginx/nginx/manifest.json",
-        "sha256": "d47ee4ccb8ee6107d7c5428ef40278546b1425808e0edd1620b6e2ef6a7138e9"
+        "sha256": "ddd3d228a419a6910732cf3170b918512acfc3391b3add9c8851d1b81bcd8aac"
       },
       "summary": {
         "path": "templates/nginx/nginx/summary.json",
-        "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+        "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
       }
     },
     {

@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/bookstackapp/bookstack/summary.json",
-      "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+      "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
     {
       "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     }
   ],
   "next": null

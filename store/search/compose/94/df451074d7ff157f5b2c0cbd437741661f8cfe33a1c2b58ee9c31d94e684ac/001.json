@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
-      "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
     },
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
-      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
       "path": "templates/madbrolab/dian115-basic/summary.json",
-      "sha256": "d8bf6e67b2cb677efad9b20686b77ff918de55714911392db55f74a51cef5146"
+      "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
     }
   ],
   "next": null

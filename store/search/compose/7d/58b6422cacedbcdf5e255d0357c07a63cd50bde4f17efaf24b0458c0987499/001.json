@@ -3,39 +3,39 @@
   "items": [
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
-      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
       "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
-      "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+      "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
       "path": "templates/fccview/cronmaster/summary.json",
-      "sha256": "774694640b31b58942d81731dc9ed8c56157443de8359b2c0ac25cdafe6fe0d6"
+      "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
     },
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
     },
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
-      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+      "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
       "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+      "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
     },
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
-      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+      "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
     },
     {
       "path": "templates/usememos/memos/summary.json",
-      "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+      "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
     }
   ],
   "next": null

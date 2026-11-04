@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-      "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+      "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
     },
     {
       "path": "templates/freeok/so-novel/summary.json",
-      "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+      "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     }
   ],
   "next": null

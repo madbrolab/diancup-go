@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
-      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
       "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
-      "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+      "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     }
   ],
   "next": null

@@ -3,23 +3,23 @@
   "items": [
     {
       "path": "templates/bubka/2fauth/summary.json",
-      "sha256": "bd581f750c76d70ff001c9f6093b4f242bcf120e08fa52f9bbb0b0a66a1319fe"
+      "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
     },
     {
       "path": "templates/freshrss/freshrss/summary.json",
-      "sha256": "d4a4596d075b954df98783c5cd4259f2abe24a5d0ccb87c19d74c9ea4e8b5f46"
+      "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
       "path": "templates/henrygd/beszel/summary.json",
-      "sha256": "156f67009458ce65125cab092e84f13ed260dd410d19c919902398e5fae99a72"
+      "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     },
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
-      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+      "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
       "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
     }
   ],
   "next": null

@@ -3,31 +3,31 @@
   "items": [
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
-      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
       "path": "templates/fish2018/pansou/summary.json",
-      "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+      "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
     },
     {
       "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-      "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+      "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
     },
     {
       "path": "templates/freeok/so-novel/summary.json",
-      "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+      "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     },
     {
       "path": "templates/gotify/server/summary.json",
-      "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
-      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+      "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
       "path": "templates/umami-software/umami/summary.json",
-      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     }
   ],
   "next": null

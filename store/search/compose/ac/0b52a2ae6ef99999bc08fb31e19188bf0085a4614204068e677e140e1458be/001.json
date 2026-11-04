@@ -3,19 +3,19 @@
   "items": [
     {
       "path": "templates/beidoums/beidou-server/summary.json",
-      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+      "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
       "path": "templates/dockers-x/cfui/summary.json",
-      "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+      "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
-      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+      "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
     {
       "path": "templates/louislam/dockge/summary.json",
-      "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
+      "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
     }
   ],
   "next": null

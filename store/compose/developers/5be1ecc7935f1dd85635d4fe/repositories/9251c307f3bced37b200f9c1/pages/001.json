@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/nginx/nginx/manifest.json",
-        "sha256": "d47ee4ccb8ee6107d7c5428ef40278546b1425808e0edd1620b6e2ef6a7138e9"
+        "sha256": "ddd3d228a419a6910732cf3170b918512acfc3391b3add9c8851d1b81bcd8aac"
       },
       "summary": {
         "path": "templates/nginx/nginx/summary.json",
-        "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+        "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
       }
     }
   ],

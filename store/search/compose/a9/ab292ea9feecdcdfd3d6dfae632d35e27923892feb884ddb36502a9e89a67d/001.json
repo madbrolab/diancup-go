@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     }
   ],
   "next": null

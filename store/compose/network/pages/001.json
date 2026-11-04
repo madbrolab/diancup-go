@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/dockers-x/cfui/manifest.json",
-        "sha256": "382dff53ab670a69660f07299a0a512e00ef573a84f4dcc63e2483ad1f2c1b1d"
+        "sha256": "cf73f539226d60bfd46678db457cc1244676635c646a0a629c7c288a2e081120"
       },
       "summary": {
         "path": "templates/dockers-x/cfui/summary.json",
-        "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+        "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
       }
     },
     {
@@ -58,11 +58,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/flaresolverr/flaresolverr-basic/manifest.json",
-        "sha256": "08e88eb732ae72376e8cc870db1edc1ef320bcf8e27f690183b61314648540b5"
+        "sha256": "1ecca404c53f416035f057466009ad6f0add0e5813ba5ea37a3290fab31e1ba4"
       },
       "summary": {
         "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-        "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+        "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
       }
     }
   ],

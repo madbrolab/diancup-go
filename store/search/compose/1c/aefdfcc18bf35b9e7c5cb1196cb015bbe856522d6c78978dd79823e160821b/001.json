@@ -3,19 +3,19 @@
   "items": [
     {
       "path": "templates/actualbudget/actual-budget/summary.json",
-      "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+      "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
     },
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
-      "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
     },
     {
       "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+      "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
     },
     {
       "path": "templates/umami-software/umami/summary.json",
-      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     }
   ],
   "next": null

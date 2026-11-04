@@ -3,55 +3,55 @@
   "items": [
     {
       "path": "templates/brave/brave-browser/summary.json",
-      "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+      "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
     },
     {
       "path": "templates/dockers-x/cfui/summary.json",
-      "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+      "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
     },
     {
       "path": "templates/fish2018/pansou/summary.json",
-      "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+      "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
     },
     {
       "path": "templates/gotify/server/summary.json",
-      "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
       "path": "templates/henrygd/beszel/summary.json",
-      "sha256": "156f67009458ce65125cab092e84f13ed260dd410d19c919902398e5fae99a72"
+      "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     },
     {
       "path": "templates/linuxserver/qbittorrent-basic/summary.json",
-      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+      "sha256": "059854e25edcc6efa665e6cce8d268926888524a39336f558acdc98a8f215921"
     },
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
     },
     {
       "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     },
     {
       "path": "templates/transmission/transmission/summary.json",
-      "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+      "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
     },
     {
       "path": "templates/usememos/memos/summary.json",
-      "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+      "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
     },
     {
       "path": "templates/wallabag/wallabag/summary.json",
-      "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+      "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
     },
     {
       "path": "templates/weidu12123/liyuan/summary.json",
-      "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+      "sha256": "99dfa72e9b2b2aa3bb99fd467d284ef508b50c768e2899b351e4f38ef7f9dac1"
     }
   ],
   "next": null

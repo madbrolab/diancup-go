@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/fccview/cronmaster/manifest.json",
-    "sha256": "d889c2ba18a8924b83b2fdc2b6c65bbe3810f6a8ff546ecfdf994e4d95a7f519"
+    "sha256": "f1407ae221d79dd0b0c51cbd9499536e256861121ea75b72e7650887f214df95"
   }
 }

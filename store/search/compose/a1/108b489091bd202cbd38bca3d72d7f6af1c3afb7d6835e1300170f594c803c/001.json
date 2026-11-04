@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/open-webui/open-webui/summary.json",
-      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+      "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
     },
     {
       "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     },
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
-      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+      "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
     }
   ],
   "next": null

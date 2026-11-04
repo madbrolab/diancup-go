@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/chatgptnextweb/nextchat/manifest.json",
-    "sha256": "cc2f5167abbd4d3c52fb55619bfbac3a06c7506c9e8f718209b8785839b03e35"
+    "sha256": "b93c5bdee19dd3446c1888b65129183d4490fe6f28cd18fe9a3765abd0b48e03"
   }
 }

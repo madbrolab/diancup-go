@@ -48,7 +48,7 @@
     {
       "target": "compose.services.qm-music.ports",
       "title": "qm-music 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "6688:6688"
     },
@@ -78,18 +78,7 @@
     "lastCommitAt": "2026-09-10T07:50:07Z",
     "lastCommit": "a33e9e1a1e4d444b5148ae8b45ed056a49a54914",
     "readmeSHA256": "f6a7dd1b306f469765f5e1e64d2c2b8702c7a509b3ebfbc718959b5912d84d8a",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/qm-music.json",
-      "sha256": "5b757a7924c8afd2846e28e6d4dc03295eb4856d65cd5dbfc8353f4a79b815fe"
-    },
     "iconSource": "https://raw.githubusercontent.com/chenqimiao/qm-music/a33e9e1a1e4d444b5148ae8b45ed056a49a54914/qm-music-parent/qm-music-app/src/main/resources/static/favicon/android-chrome-192x192.png",
-    "iconSHA256": "9216e590e95535bc819114c641e424acf8a0a2f5031d3f879963c15536f50463",
-    "adaptations": [
-      "将 QM_SPOTIFY_CLIENT_ID 的方括号占位符改为标准 Compose 变量引用",
-      "将 QM_SPOTIFY_CLIENT_SECRET 的方括号占位符改为标准 Compose 变量引用",
-      "将 QM_LASTFM_API_KEY 的方括号占位符改为标准 Compose 变量引用"
-    ]
+    "iconSHA256": "9216e590e95535bc819114c641e424acf8a0a2f5031d3f879963c15536f50463"
   }
 }

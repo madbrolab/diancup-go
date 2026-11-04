@@ -3,23 +3,23 @@
   "items": [
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/freshrss/freshrss/summary.json",
-      "sha256": "d4a4596d075b954df98783c5cd4259f2abe24a5d0ccb87c19d74c9ea4e8b5f46"
+      "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
       "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
     },
     {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     },
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
     }
   ],
   "next": null

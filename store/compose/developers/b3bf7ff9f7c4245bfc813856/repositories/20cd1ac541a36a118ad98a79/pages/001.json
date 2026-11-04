@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/emby/embyserver-basic/manifest.json",
-        "sha256": "80018570ebd0cfbb58a803fa5640ebb9be9b8daba52c9da45d47d516eac546ca"
+        "sha256": "49534014f776a663f105b1d79c818359a34eef004d582baea7592462a1c35bac"
       },
       "summary": {
         "path": "templates/emby/embyserver-basic/summary.json",
-        "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+        "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
       }
     }
   ],

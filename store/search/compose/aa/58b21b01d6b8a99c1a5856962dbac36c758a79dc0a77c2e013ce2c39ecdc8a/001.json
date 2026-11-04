@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/chaitin/pandawiki/summary.json",
-      "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
     },
     {
       "path": "templates/netdata/netdata/summary.json",
-      "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
+      "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
     }
   ],
   "next": null

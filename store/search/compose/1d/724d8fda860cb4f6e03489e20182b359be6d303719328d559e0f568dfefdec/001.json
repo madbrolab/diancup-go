@@ -3,35 +3,35 @@
   "items": [
     {
       "path": "templates/brave/brave-browser/summary.json",
-      "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+      "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
     },
     {
       "path": "templates/emby/embyserver-basic/summary.json",
-      "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+      "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
     {
       "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-      "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+      "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
     },
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
-      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+      "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
       "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
     },
     {
       "path": "templates/vert-sh/vert/summary.json",
-      "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+      "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
     },
     {
       "path": "templates/wallabag/wallabag/summary.json",
-      "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+      "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
     },
     {
       "path": "templates/xhongc/music-tag-web/summary.json",
-      "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+      "sha256": "581a9b6291b0b17a887fbe6b79c423ed169ac68cd166064a1765f8c331317577"
     }
   ],
   "next": null

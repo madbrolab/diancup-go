@@ -3,19 +3,19 @@
   "items": [
     {
       "path": "templates/advplyr/audiobookshelf/summary.json",
-      "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+      "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
     },
     {
       "path": "templates/freeok/so-novel/summary.json",
-      "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+      "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     },
     {
       "path": "templates/n8n-io/n8n/summary.json",
-      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+      "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }
   ],
   "next": null

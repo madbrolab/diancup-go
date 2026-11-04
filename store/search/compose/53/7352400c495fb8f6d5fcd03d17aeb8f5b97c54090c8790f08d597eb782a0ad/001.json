@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
-      "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
     },
     {
       "path": "templates/nginx/nginx/summary.json",
-      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+      "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }
   ],
   "next": null

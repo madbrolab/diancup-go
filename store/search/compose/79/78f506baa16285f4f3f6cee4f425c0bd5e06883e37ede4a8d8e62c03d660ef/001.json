@@ -3,31 +3,31 @@
   "items": [
     {
       "path": "templates/beidoums/beidou-server/summary.json",
-      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+      "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/bookstackapp/bookstack/summary.json",
-      "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+      "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
     {
       "path": "templates/gotify/server/summary.json",
-      "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
-      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+      "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     },
     {
       "path": "templates/open-webui/open-webui/summary.json",
-      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+      "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }
   ],
   "next": null

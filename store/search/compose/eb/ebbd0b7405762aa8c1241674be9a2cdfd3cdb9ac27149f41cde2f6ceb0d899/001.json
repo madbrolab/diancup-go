@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
     },
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
     }
   ],
   "next": null

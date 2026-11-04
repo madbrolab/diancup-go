@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/finb/bark-server/summary.json",
-      "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+      "sha256": "16cea6af5d7dea97af15b35ea4ede65ff1f23e89be1803c69dc759dfc3028252"
     },
     {
       "path": "templates/fish2018/pansou/summary.json",
-      "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+      "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
     }
   ],
   "next": null

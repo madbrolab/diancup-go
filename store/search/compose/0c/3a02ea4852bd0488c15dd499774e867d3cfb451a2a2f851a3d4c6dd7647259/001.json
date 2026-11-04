@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/59799517/simple-sq-music-plus/summary.json",
-      "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+      "sha256": "1b28183a57d88c355769998a0b3801a8445938d90c55db05a18529ef80dfd28a"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
-      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+      "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     }
   ],
   "next": null

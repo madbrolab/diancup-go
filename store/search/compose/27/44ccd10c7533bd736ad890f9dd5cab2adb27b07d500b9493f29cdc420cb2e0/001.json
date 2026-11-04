@@ -3,51 +3,51 @@
   "items": [
     {
       "path": "templates/59799517/simple-sq-music-plus/summary.json",
-      "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+      "sha256": "1b28183a57d88c355769998a0b3801a8445938d90c55db05a18529ef80dfd28a"
     },
     {
       "path": "templates/alexta69/metube/summary.json",
-      "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+      "sha256": "6dc63cd3fa1a5adb43aac8e379fd1b30bac4dc08ca13577b40dfaac6086412cc"
     },
     {
       "path": "templates/brave/brave-browser/summary.json",
-      "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+      "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
     },
     {
       "path": "templates/chaitin/pandawiki/summary.json",
-      "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
-      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
       "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
     },
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
     },
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
-      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+      "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
       "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
     },
     {
       "path": "templates/umami-software/umami/summary.json",
-      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     },
     {
       "path": "templates/usememos/memos/summary.json",
-      "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+      "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
     },
     {
       "path": "templates/xhongc/music-tag-web/summary.json",
-      "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+      "sha256": "581a9b6291b0b17a887fbe6b79c423ed169ac68cd166064a1765f8c331317577"
     }
   ],
   "next": null

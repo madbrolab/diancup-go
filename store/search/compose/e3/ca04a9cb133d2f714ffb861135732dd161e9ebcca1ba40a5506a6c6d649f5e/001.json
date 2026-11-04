@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
-      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
       "path": "templates/fish2018/pansou/summary.json",
-      "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+      "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
     }
   ],
   "next": null

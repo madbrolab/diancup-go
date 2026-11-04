@@ -3,31 +3,31 @@
   "items": [
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/chaitin/pandawiki/summary.json",
-      "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
-      "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
     },
     {
       "path": "templates/fish2018/pansou/summary.json",
-      "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+      "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
     },
     {
       "path": "templates/langgenius/dify/summary.json",
-      "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+      "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
     },
     {
       "path": "templates/n8n-io/n8n/summary.json",
-      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+      "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     },
     {
       "path": "templates/open-webui/open-webui/summary.json",
-      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+      "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
     }
   ],
   "next": null

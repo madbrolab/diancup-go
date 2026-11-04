@@ -34,7 +34,7 @@
     {
       "target": "compose.services.transmission.ports",
       "title": "transmission 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "9091:9091、51413:51413、51413:51413/udp"
     },
@@ -64,14 +64,7 @@
     "lastCommitAt": "2026-11-02T03:04:02Z",
     "lastCommit": "c1a0dbebd55add20efa0bc40d8ad3c57152e5635",
     "readmeSHA256": "af5fa8b1d4a7cea0580c999c9e7bc8d7250bb4dfc242a108241c9c0294fb988b",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/transmission.json",
-      "sha256": "d0040eca6740dca57a00a7afb66f4d7f9d98b498cb68583ccdc11755dfa801f2"
-    },
     "iconSource": "https://raw.githubusercontent.com/transmission/transmission/c1a0dbebd55add20efa0bc40d8ad3c57152e5635/web/public_html/images/favicon.svg",
-    "iconSHA256": "3e4d67e348c5f99498bcdfdd7608ec3e4a6d42a57a7418ca25c4b6348a21093a",
-    "adaptations": []
+    "iconSHA256": "3e4d67e348c5f99498bcdfdd7608ec3e4a6d42a57a7418ca25c4b6348a21093a"
   }
 }

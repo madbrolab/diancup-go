@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/bookstackapp/bookstack/summary.json",
-      "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+      "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
     {
       "path": "templates/louislam/dockge/summary.json",
-      "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
+      "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
     }
   ],
   "next": null

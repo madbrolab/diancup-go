@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
-      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+      "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
     {
       "path": "templates/netdata/netdata/summary.json",
-      "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
+      "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
     }
   ],
   "next": null

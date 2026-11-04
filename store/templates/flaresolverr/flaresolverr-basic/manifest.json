@@ -54,17 +54,11 @@
   ],
   "verification": {
     "checkedAt": "2026-11-04",
-    "origin": "reconstructed-basic-compose",
     "lastCommitAt": "2026-10-24T17:06:37Z",
     "lastCommit": "cc2224b21e31c09a713eb25690a8e8dcdf50d8d8",
     "readmeSHA256": "74cb2cd82318af4148bc3b21c922747dff7baea98cf0c1a4ba9d0d42d49f3dee",
     "iconSource": "https://raw.githubusercontent.com/FlareSolverr/FlareSolverr/cc2224b21e31c09a713eb25690a8e8dcdf50d8d8/resources/flaresolverr_logo.svg",
     "iconSHA256": "63eaecd7daa122f1cf43d6d169daf23d4356105b0e1bf1bab14a999f042aa2f5",
-    "adaptations": [
-      "去除 Unraid 标签及无用语言和验证码参数",
-      "按官方示例默认绑定回环地址",
-      "浏览器临时文件使用 tmpfs"
-    ],
     "images": [
       {
         "image": "ghcr.io/flaresolverr/flaresolverr:latest",

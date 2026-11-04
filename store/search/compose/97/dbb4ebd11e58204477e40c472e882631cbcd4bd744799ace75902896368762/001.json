@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/emby/embyserver-basic/summary.json",
-      "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+      "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
     {
       "path": "templates/finb/bark-server/summary.json",
-      "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+      "sha256": "16cea6af5d7dea97af15b35ea4ede65ff1f23e89be1803c69dc759dfc3028252"
     },
     {
       "path": "templates/laurent22/joplin-server-basic/summary.json",
-      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+      "sha256": "5ee4755c13b454086da1de7ee3332190adcb0482a96757707b8a25c4a848fb8c"
     }
   ],
   "next": null

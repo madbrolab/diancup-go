@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/go-vikunja/vikunja/summary.json",
-      "sha256": "fca3a4305f64d1be95c6cc4d79e1958d5e51ac12d476bdad77d53a2f3e021058"
+      "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
     },
     {
       "path": "templates/n8n-io/n8n/summary.json",
-      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+      "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }
   ],
   "next": null

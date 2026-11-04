@@ -27,7 +27,7 @@
     {
       "target": "compose.services.qbittorrent.ports",
       "title": "qbittorrent 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8080:8080、6881:6881、6881:6881/udp"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-11-03T13:24:47Z",
     "lastCommit": "0d6f6a008ed3c192b3eda25552a369b51da11c4d",
     "readmeSHA256": "7f2daf5b927840c7b9cb990205bb2d17357b8ea73f26a3b58c685e21d5e97a47",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/qbittorrent.json",
-      "sha256": "2caf51a440f2130d187bfaa2792364e8184ff2bd03487b04ec45936041523a53"
-    },
     "iconSource": "https://raw.githubusercontent.com/qbittorrent/qBittorrent/0d6f6a008ed3c192b3eda25552a369b51da11c4d/dist/unix/menuicons/192x192/apps/qbittorrent.png",
-    "iconSHA256": "19f74839525b7848912ccfa653f9ede3f0d83ff9bff6dfc9685137e31912c5e8",
-    "adaptations": []
+    "iconSHA256": "19f74839525b7848912ccfa653f9ede3f0d83ff9bff6dfc9685137e31912c5e8"
   }
 }

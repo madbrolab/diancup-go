@@ -27,7 +27,7 @@
     {
       "target": "compose.services.cfui.ports",
       "title": "cfui 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "14333:14333"
     },
@@ -57,16 +57,7 @@
     "lastCommitAt": "2026-10-31T03:53:11Z",
     "lastCommit": "95b5d15167817c0491f070ad52147dfadf2ec6c5",
     "readmeSHA256": "9ecf4ebdf1aed23c517a853ac22a9e428c2012331d71609fc5bbea381cc73a8f",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/cfui.json",
-      "sha256": "f0a8d6e235df422fe586a5d25360c65bfdfbd20b353f9b887804ac551181dca7"
-    },
     "iconSource": "https://raw.githubusercontent.com/dockers-x/cfui/95b5d15167817c0491f070ad52147dfadf2ec6c5/web/dist/favicon.svg",
-    "iconSHA256": "852854d7bb6f73321a765f13b3c6a2f7321130dc694bdae78d2b1d50880a32c7",
-    "adaptations": [
-      "cfui 的命名卷 cloudflared-data 改为项目数据绑定 ./data/cloudflared-data"
-    ]
+    "iconSHA256": "852854d7bb6f73321a765f13b3c6a2f7321130dc694bdae78d2b1d50880a32c7"
   }
 }

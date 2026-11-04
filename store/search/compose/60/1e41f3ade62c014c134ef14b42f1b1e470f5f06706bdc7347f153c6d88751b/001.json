@@ -3,27 +3,27 @@
   "items": [
     {
       "path": "templates/emby/embyserver-basic/summary.json",
-      "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+      "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
-      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+      "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
     {
       "path": "templates/linuxserver/qbittorrent-basic/summary.json",
-      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+      "sha256": "059854e25edcc6efa665e6cce8d268926888524a39336f558acdc98a8f215921"
     },
     {
       "path": "templates/linuxserver/transmission-basic/summary.json",
-      "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
+      "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     },
     {
       "path": "templates/louislam/dockge/summary.json",
-      "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
+      "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
     },
     {
       "path": "templates/qbittorrent/qbittorrent/summary.json",
-      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+      "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
     }
   ],
   "next": null

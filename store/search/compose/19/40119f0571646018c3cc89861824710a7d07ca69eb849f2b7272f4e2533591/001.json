@@ -3,39 +3,39 @@
   "items": [
     {
       "path": "templates/advplyr/audiobookshelf/summary.json",
-      "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+      "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
     },
     {
       "path": "templates/beidoums/beidou-server/summary.json",
-      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+      "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
     },
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/bubka/2fauth/summary.json",
-      "sha256": "bd581f750c76d70ff001c9f6093b4f242bcf120e08fa52f9bbb0b0a66a1319fe"
+      "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
     },
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
-      "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
     },
     {
       "path": "templates/cloudnas/clouddrive2-basic/summary.json",
-      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+      "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
       "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
-      "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+      "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
       "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     },
     {
       "path": "templates/vert-sh/vert/summary.json",
-      "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+      "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
     }
   ],
   "next": null

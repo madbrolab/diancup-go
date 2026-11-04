@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/actualbudget/actual-budget/summary.json",
-      "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+      "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
     },
     {
       "path": "templates/chaitin/pandawiki/summary.json",
-      "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     },
     {
       "path": "templates/n8n-io/n8n/summary.json",
-      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+      "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     }
   ],
   "next": null

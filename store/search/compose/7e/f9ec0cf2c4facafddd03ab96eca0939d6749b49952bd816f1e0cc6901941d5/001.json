@@ -3,31 +3,31 @@
   "items": [
     {
       "path": "templates/fccview/cronmaster/summary.json",
-      "sha256": "774694640b31b58942d81731dc9ed8c56157443de8359b2c0ac25cdafe6fe0d6"
+      "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
     },
     {
       "path": "templates/go-vikunja/vikunja/summary.json",
-      "sha256": "fca3a4305f64d1be95c6cc4d79e1958d5e51ac12d476bdad77d53a2f3e021058"
+      "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
     },
     {
       "path": "templates/gotify/server/summary.json",
-      "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
       "path": "templates/madbrolab/dian115-basic/summary.json",
-      "sha256": "d8bf6e67b2cb677efad9b20686b77ff918de55714911392db55f74a51cef5146"
+      "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
     },
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
-      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+      "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     },
     {
       "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
     },
     {
       "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+      "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
     }
   ],
   "next": null

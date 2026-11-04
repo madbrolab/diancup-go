@@ -28,7 +28,7 @@
     {
       "target": "env.API_KEY",
       "title": "API 访问密钥",
-      "reason": "设置自己使用的访问密钥，不沿用镜像示例值。",
+      "reason": "为当前实例设置独立的访问密钥。",
       "required": true,
       "example": ""
     },
@@ -62,18 +62,11 @@
   ],
   "verification": {
     "checkedAt": "2026-11-04",
-    "origin": "reconstructed-basic-compose",
     "lastCommitAt": "2026-10-21T03:05:03Z",
     "lastCommit": "73a7560efc7a88ebd9865db4c71ae7f6d85859f8",
     "readmeSHA256": "cd49d5493b332aee0ca476808f88bf996d6b7421009a0eaaf59df91e0e65d405",
     "iconSource": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/bot.svg",
     "iconSHA256": "e46fe72fc5b33d7a17b0112df85da9ded851860312e8353f4fe23d87a4ce77f5",
-    "adaptations": [
-      "改为目录持久化配置，避免缺失 config.json 被挂载成目录",
-      "准备服务从成品镜像复制默认配置并修正本项目目录属主",
-      "通过已核对的程序入口显式指定配置路径",
-      "访问密钥必须单独填写"
-    ],
     "images": [
       {
         "image": "ghcr.io/linguo2625469/workbuddy2api-panel:latest",

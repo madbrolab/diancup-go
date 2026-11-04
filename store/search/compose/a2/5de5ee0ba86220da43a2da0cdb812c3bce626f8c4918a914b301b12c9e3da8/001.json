@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/advplyr/audiobookshelf/summary.json",
-      "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+      "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }
   ],
   "next": null

@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/henrygd/beszel/manifest.json",
-        "sha256": "db338a92700e21bc9d937a87604c8c469f9121c98829c5fce88c4286113bdf26"
+        "sha256": "22ec8841e332169a6e52af847caf7911fc38551c9715fa2a8fa3767dbb308c95"
       },
       "summary": {
         "path": "templates/henrygd/beszel/summary.json",
-        "sha256": "156f67009458ce65125cab092e84f13ed260dd410d19c919902398e5fae99a72"
+        "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
       }
     },
     {
@@ -58,11 +58,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/louislam/uptime-kuma-compose/manifest.json",
-        "sha256": "6588379a1fb031ed35b681f70f19eb42f43d1e2845825978cf6b8a319a0481dc"
+        "sha256": "69b39dec4d362f460844490d509683073ebaa36618ebf8a65a919df4963b2949"
       },
       "summary": {
         "path": "templates/louislam/uptime-kuma-compose/summary.json",
-        "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+        "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
       }
     },
     {
@@ -90,11 +90,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/netdata/netdata/manifest.json",
-        "sha256": "20ef33ede2caf771f914cd3b7ad04250c1c8d437ffe08f9ce4ceed4b4b770763"
+        "sha256": "394a572a2049269ca45e90eed7f110671e77e49e5cf3368ad23a98905ea19a6b"
       },
       "summary": {
         "path": "templates/netdata/netdata/summary.json",
-        "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
+        "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
       }
     },
     {
@@ -122,11 +122,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/umami-software/umami/manifest.json",
-        "sha256": "57feb1405b1011da2ff05634348184b4ebb3f622151e8b78752d383cc45cc1ac"
+        "sha256": "d25548f6b9974831e7af5ca9370873534b8529ff85911a8d832b6ac6dffc3e97"
       },
       "summary": {
         "path": "templates/umami-software/umami/summary.json",
-        "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+        "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
       }
     }
   ],

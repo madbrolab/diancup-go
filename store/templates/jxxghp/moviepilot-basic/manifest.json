@@ -102,19 +102,11 @@
   ],
   "verification": {
     "checkedAt": "2026-11-04",
-    "origin": "reconstructed-basic-compose",
     "lastCommitAt": "2026-11-04T11:37:12Z",
     "lastCommit": "e99f6bb5722905014c81e9bbc966493a0223cdd4",
     "readmeSHA256": "ce76bc540442081133baa5153aefe7d933beb72c05390d2b270079ee5e0c846f",
     "iconSource": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Frontend/v3.2.4/public/apple-touch-icon.png",
     "iconSHA256": "0bcd868b0214f2bb4f4eec9d0f919c730ac0cadecc5b5cd0d420e65e3f6ed372",
-    "adaptations": [
-      "删除 Unraid 标签、固定容器和网络名、私人代理及下载器配置挂载",
-      "移除重复的 3009→3001 映射",
-      "PostgreSQL 固定 16 系列并使用正确的数据目录",
-      "Redis 固定 7 系列并改为带认证的 PING 健康检查",
-      "数据库和缓存仅通过项目网络连接，密码均由新实例填写"
-    ],
     "images": [
       {
         "image": "jxxghp/moviepilot-v2:latest",

@@ -3,19 +3,19 @@
   "items": [
     {
       "path": "templates/actualbudget/actual-budget/summary.json",
-      "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+      "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
     },
     {
       "path": "templates/alexta69/metube/summary.json",
-      "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+      "sha256": "6dc63cd3fa1a5adb43aac8e379fd1b30bac4dc08ca13577b40dfaac6086412cc"
     },
     {
       "path": "templates/dockers-x/cfui/summary.json",
-      "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+      "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
     },
     {
       "path": "templates/hkuds/deeptutor/summary.json",
-      "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
+      "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
     }
   ],
   "next": null

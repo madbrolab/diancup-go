@@ -3,23 +3,23 @@
   "items": [
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
-      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
       "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
-      "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+      "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
       "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
-      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+      "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
     {
       "path": "templates/madbrolab/dian115-basic/summary.json",
-      "sha256": "d8bf6e67b2cb677efad9b20686b77ff918de55714911392db55f74a51cef5146"
+      "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
     },
     {
       "path": "templates/official/wordpress-mariadb/summary.json",

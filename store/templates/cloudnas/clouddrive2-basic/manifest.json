@@ -61,15 +61,8 @@
   ],
   "verification": {
     "checkedAt": "2026-11-04",
-    "origin": "reconstructed-basic-compose",
     "iconSource": "https://www.clouddrive2.com/img/clouddrive-h.svg",
     "iconSHA256": "615753698c9d90d102cee50a9b80b6fb4e788dc0969f1dd2b3e58eafe4c13181",
-    "adaptations": [
-      "去除 Unraid 缓存池、用户共享和个人备份路径",
-      "改用项目内 config、cloud、backup 默认目录",
-      "采用官方 Host 网络及 FUSE 部署要求",
-      "删除官方示例未使用的 PUID/PGID/UMASK 参数"
-    ],
     "activitySource": "https://github.com/cloud-fs/cloud-fs.github.io/releases",
     "lastReleaseAt": "2026-10-17T11:24:06Z",
     "lastRelease": "v1.1.3",

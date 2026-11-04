@@ -3,35 +3,35 @@
   "items": [
     {
       "path": "templates/59799517/simple-sq-music-plus/summary.json",
-      "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+      "sha256": "1b28183a57d88c355769998a0b3801a8445938d90c55db05a18529ef80dfd28a"
     },
     {
       "path": "templates/bookstackapp/bookstack/summary.json",
-      "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+      "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
     {
       "path": "templates/bubka/2fauth/summary.json",
-      "sha256": "bd581f750c76d70ff001c9f6093b4f242bcf120e08fa52f9bbb0b0a66a1319fe"
+      "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
     },
     {
       "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
     },
     {
       "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
     },
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
-      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+      "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
     },
     {
       "path": "templates/langgenius/dify/summary.json",
-      "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+      "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
     },
     {
       "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     }
   ],
   "next": null

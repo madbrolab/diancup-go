@@ -27,7 +27,7 @@
     {
       "target": "compose.services.beszel.ports",
       "title": "beszel 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8090:8090"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-10-30T23:02:08Z",
     "lastCommit": "27af11c5e04f03c1fa6cc067a1251631e2e8996e",
     "readmeSHA256": "6ea91526c45ed9e64cb01b9365a60bf1d75f7354b78938f408cfadc6c6d166ae",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/beszel.json",
-      "sha256": "77b54ce02213f082ec726e855a2f6796779bca2fbf3de0fb0d71f2278cf53cfb"
-    },
     "iconSource": "https://raw.githubusercontent.com/henrygd/beszel/27af11c5e04f03c1fa6cc067a1251631e2e8996e/internal/site/public/static/icon.svg",
-    "iconSHA256": "a090f702f29ac4dd84567af1c119cc6833f8ad960594493f7565f6458906b4d3",
-    "adaptations": []
+    "iconSHA256": "a090f702f29ac4dd84567af1c119cc6833f8ad960594493f7565f6458906b4d3"
   }
 }

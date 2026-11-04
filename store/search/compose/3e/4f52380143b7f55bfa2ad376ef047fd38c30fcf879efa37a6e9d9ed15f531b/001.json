@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/cloudnas/clouddrive2-basic/summary.json",
-      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+      "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
-      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+      "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
     },
     {
       "path": "templates/seerr-team/seerr/summary.json",
-      "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+      "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
     }
   ],
   "next": null

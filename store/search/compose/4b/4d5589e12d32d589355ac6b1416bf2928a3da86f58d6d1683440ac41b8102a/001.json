@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/freeok/so-novel/summary.json",
-      "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+      "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     }
   ],
   "next": null

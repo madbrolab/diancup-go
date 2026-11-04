@@ -61,17 +61,11 @@
   ],
   "verification": {
     "checkedAt": "2026-11-04",
-    "origin": "reconstructed-basic-compose",
     "lastCommitAt": "2026-11-03T13:24:47Z",
     "lastCommit": "0d6f6a008ed3c192b3eda25552a369b51da11c4d",
     "readmeSHA256": "7f2daf5b927840c7b9cb990205bb2d17357b8ea73f26a3b58c685e21d5e97a47",
     "iconSource": "https://raw.githubusercontent.com/qbittorrent/qBittorrent/0d6f6a008ed3c192b3eda25552a369b51da11c4d/dist/unix/menuicons/192x192/apps/qbittorrent.png",
     "iconSHA256": "19f74839525b7848912ccfa653f9ede3f0d83ff9bff6dfc9685137e31912c5e8",
-    "adaptations": [
-      "去除 Unraid 标签、Host 网络及个人媒体路径",
-      "恢复 8080 管理端口和 6881 TCP/UDP 下载端口",
-      "容器监听端口与端口映射共用变量"
-    ],
     "images": [
       {
         "image": "lscr.io/linuxserver/qbittorrent:latest",

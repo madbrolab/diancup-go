@@ -26,11 +26,11 @@
       "applicationCount": 5,
       "manifest": {
         "path": "templates/langgenius/dify/manifest.json",
-        "sha256": "1074fb0bb81a69abe7641b0bd69bf41c2d617d270cb475ff00a4ffe86df918c7"
+        "sha256": "80c3933b358f0aa064ed9f394c02449220dacbfee69d080bb7d64ce415387169"
       },
       "summary": {
         "path": "templates/langgenius/dify/summary.json",
-        "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+        "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
       }
     }
   ],

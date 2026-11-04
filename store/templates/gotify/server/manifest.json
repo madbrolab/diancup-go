@@ -27,7 +27,7 @@
     {
       "target": "compose.services.gotify.ports",
       "title": "gotify 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8380:80"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-10-25T18:10:33Z",
     "lastCommit": "dd06dc77190696e93d3297b9a733711516fb17d9",
     "readmeSHA256": "d599461d213af6634dd8b7e57282e794eabbbcee66c3fe6eaa298c4654953a03",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/gotify.json",
-      "sha256": "3d39e754c8d16634f425e86e71f8e6184384c3864d7df91c874b4d7aad6a08dc"
-    },
     "iconSource": "https://raw.githubusercontent.com/gotify/server/dd06dc77190696e93d3297b9a733711516fb17d9/ui/public/static/favicon-196x196.png",
-    "iconSHA256": "1f854444a9087c0497a597e999f4e80fc27f4139f44c5d1c24c046541ffb1004",
-    "adaptations": []
+    "iconSHA256": "1f854444a9087c0497a597e999f4e80fc27f4139f44c5d1c24c046541ffb1004"
   }
 }

@@ -41,7 +41,7 @@
     {
       "target": "compose.services.nginx.ports",
       "title": "nginx 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "80:80"
     },
@@ -83,7 +83,7 @@
     {
       "target": "compose.services.nginx.volumes",
       "title": "Nginx 站点配置",
-      "reason": "部署源仅声明站点配置目录，请映射已准备的配置目录后使用。",
+      "reason": "部署前准备 Nginx 站点配置，并映射对应目录。",
       "required": true,
       "example": ""
     }
@@ -148,14 +148,7 @@
     "lastCommitAt": "2026-11-04T12:49:19Z",
     "lastCommit": "ca01a69f87baaf31709b8cedea8ba3a97ecc3518",
     "readmeSHA256": "81a960f6d59aeffa60a319dfe84ebb6d2372679d7343c4a0a60cf86d7faf8146",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/dify.json",
-      "sha256": "681fdb3ba5cb7e275f1905b44e4bceeca598aadffd50aee6dd89bff0eb8b0a52"
-    },
     "iconSource": "https://raw.githubusercontent.com/langgenius/dify/ca01a69f87baaf31709b8cedea8ba3a97ecc3518/web/public/logo/logo.svg",
-    "iconSHA256": "aae2ea0fa921287fa53cb080aca6c6e64ba6704d9056bf8524db6cdee22b631b",
-    "adaptations": []
+    "iconSHA256": "aae2ea0fa921287fa53cb080aca6c6e64ba6704d9056bf8524db6cdee22b631b"
   }
 }

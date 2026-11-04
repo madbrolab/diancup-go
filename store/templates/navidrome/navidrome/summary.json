@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/navidrome/navidrome/manifest.json",
-    "sha256": "85758d870818fd2eff6b126d0e6301370fa986d58a749d91f39d87ebf414b121"
+    "sha256": "b85af2d5d1507c65c22e9ae7aacd5a5a02894d937f80c7c6adfa63f6b432fe2f"
   }
 }

@@ -71,18 +71,11 @@
   ],
   "verification": {
     "checkedAt": "2026-11-04",
-    "origin": "reconstructed-basic-compose",
     "lastCommitAt": "2026-11-04T11:27:30Z",
     "lastCommit": "efa2614e389b4d8d1055d865576cad425979dc2f",
     "readmeSHA256": "b9444e9a16aa4d8b87124a368605847ce9ad368e603e5f6116c34f3121a86f69",
     "iconSource": "https://raw.githubusercontent.com/laurent22/joplin/efa2614e389b4d8d1055d865576cad425979dc2f/Assets/ImageSources/JoplinServerIcon.svg",
     "iconSHA256": "2fe163358bf72a54c40cb69ff1523de1a1f26ded888c08136b1eda1c56a890b9",
-    "adaptations": [
-      "应用恢复标准端口 22300",
-      "PostgreSQL 仅通过项目网络连接，固定内部端口 5432",
-      "统一数据库名和用户变量，添加健康依赖",
-      "移除禁用时间漂移检查的个人参数"
-    ],
     "images": [
       {
         "image": "postgres:16-alpine",

@@ -3,19 +3,19 @@
   "items": [
     {
       "path": "templates/actualbudget/actual-budget/summary.json",
-      "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+      "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
     },
     {
       "path": "templates/advplyr/audiobookshelf/summary.json",
-      "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+      "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
     },
     {
       "path": "templates/finb/bark-server/summary.json",
-      "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+      "sha256": "16cea6af5d7dea97af15b35ea4ede65ff1f23e89be1803c69dc759dfc3028252"
     },
     {
       "path": "templates/linuxserver/qbittorrent-basic/summary.json",
-      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+      "sha256": "059854e25edcc6efa665e6cce8d268926888524a39336f558acdc98a8f215921"
     }
   ],
   "next": null

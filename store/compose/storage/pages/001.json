@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/cloudnas/clouddrive2-basic/manifest.json",
-        "sha256": "52158cce7bda64be034068c718a1972734a2ab207a8f290bf32f9aece5a872eb"
+        "sha256": "5a1a91f0ed7d27809bacf0f4c12ee6e3903cdf97bb0f3072cf3d5d27ba57f1b3"
       },
       "summary": {
         "path": "templates/cloudnas/clouddrive2-basic/summary.json",
-        "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+        "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
       }
     },
     {
@@ -58,11 +58,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/coooolfan/xiaomi-album-syncer/manifest.json",
-        "sha256": "7f874628e1ffcf71437385091d7a7cc515fe6f78414f6e219c96609ac962a2dd"
+        "sha256": "c250adbe60b63d195710b7a48c44dd6f2ccb626aaf747fe30bb09b24fa0e0900"
       },
       "summary": {
         "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
-        "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+        "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
       }
     },
     {
@@ -90,11 +90,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/fish2018/pansou/manifest.json",
-        "sha256": "9e7ef5defcf1d4a57e72940d316db14b1a5b6fac0bcbbc829c6bbe967f14df3f"
+        "sha256": "8fc6edf40f8105d6e6e51efab0c1569949de7366e7baa10ff4c83d5cb1cc3faf"
       },
       "summary": {
         "path": "templates/fish2018/pansou/summary.json",
-        "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+        "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
       }
     },
     {
@@ -122,11 +122,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/jiangrui1994/cloudsaver/manifest.json",
-        "sha256": "5f329b15308415943bee3b6220cc6032a7f09b3a24eef4364ba4898904c256ca"
+        "sha256": "5e43ac5e94cf47c1a2c911b1b454ded352e9344af352b40e73c64f3efe3d8939"
       },
       "summary": {
         "path": "templates/jiangrui1994/cloudsaver/summary.json",
-        "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+        "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
       }
     },
     {
@@ -154,11 +154,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/openlistteam/openlist/manifest.json",
-        "sha256": "dce5e292f4d058c7742ba1cc36d9a55553f5a5354e16522c1a3fbc40d7616c6c"
+        "sha256": "93101ffa4e9ee15c064fb46b5e22c0a93cf213482f46198c0050aeb5a78ff48b"
       },
       "summary": {
         "path": "templates/openlistteam/openlist/summary.json",
-        "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+        "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
       }
     }
   ],

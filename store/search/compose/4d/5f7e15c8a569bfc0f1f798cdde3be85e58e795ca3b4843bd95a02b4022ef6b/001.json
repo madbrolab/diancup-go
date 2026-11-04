@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/brave/brave-browser/summary.json",
-      "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+      "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
     },
     {
       "path": "templates/freeok/so-novel/summary.json",
-      "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+      "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     },
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
-      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+      "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
     }
   ],
   "next": null

@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/fccview/jotty/summary.json",
-      "sha256": "8faab34e70c0df1a196898d3a1fadeba42cdb3b0c9ace91346e84bfe92a7f8d9"
+      "sha256": "9b917fdcf6265d0cc8ff36ed9d01b328aceff49b097dca2de9e9090a58a77ff6"
     },
     {
       "path": "templates/gethomepage/homepage/summary.json",
-      "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+      "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
     }
   ],
   "next": null

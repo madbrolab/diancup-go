@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/navidrome/navidrome-basic/manifest.json",
-        "sha256": "8185ef08d8e8829438214a781a10a9464db80bd93afd33e56cb8d4c3735d92d7"
+        "sha256": "9d577bc1eeab6c130373ca3eb9eb8a5c49aa8e006dca0dc6cc54aede40502488"
       },
       "summary": {
         "path": "templates/navidrome/navidrome-basic/summary.json",
-        "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+        "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
       }
     }
   ],

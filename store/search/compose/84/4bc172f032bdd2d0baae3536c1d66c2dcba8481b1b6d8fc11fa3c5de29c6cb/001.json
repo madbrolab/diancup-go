@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/actualbudget/actual-budget/summary.json",
-      "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+      "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
     },
     {
       "path": "templates/weidu12123/liyuan/summary.json",
-      "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+      "sha256": "99dfa72e9b2b2aa3bb99fd467d284ef508b50c768e2899b351e4f38ef7f9dac1"
     }
   ],
   "next": null

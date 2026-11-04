@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/bestruirui/octopus/summary.json",
-      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     },
     {
       "path": "templates/vert-sh/vert/summary.json",
-      "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+      "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
     }
   ],
   "next": null

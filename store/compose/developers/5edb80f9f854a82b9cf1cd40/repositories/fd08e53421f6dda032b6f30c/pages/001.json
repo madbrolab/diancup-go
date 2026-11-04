@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/fish2018/pansou/manifest.json",
-        "sha256": "9e7ef5defcf1d4a57e72940d316db14b1a5b6fac0bcbbc829c6bbe967f14df3f"
+        "sha256": "8fc6edf40f8105d6e6e51efab0c1569949de7366e7baa10ff4c83d5cb1cc3faf"
       },
       "summary": {
         "path": "templates/fish2018/pansou/summary.json",
-        "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+        "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
       }
     }
   ],

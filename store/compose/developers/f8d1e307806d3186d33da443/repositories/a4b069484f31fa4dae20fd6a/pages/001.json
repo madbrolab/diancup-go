@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/go-vikunja/vikunja/manifest.json",
-        "sha256": "343bf9814bec4d2236459a07c9a91ab217b2b893cbd5d97b06005522cba41957"
+        "sha256": "3be38f115e8d20ebb669769be77a284b8e65fb05f55501e9803c02515f2f2e93"
       },
       "summary": {
         "path": "templates/go-vikunja/vikunja/summary.json",
-        "sha256": "fca3a4305f64d1be95c6cc4d79e1958d5e51ac12d476bdad77d53a2f3e021058"
+        "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
       }
     }
   ],

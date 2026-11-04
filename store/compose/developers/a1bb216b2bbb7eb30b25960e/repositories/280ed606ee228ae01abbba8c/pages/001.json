@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/brave/brave-browser/manifest.json",
-        "sha256": "9b02830ed286ac605b0bb113e7376ff1629360565ec3fb9c6c432bb28ca5f502"
+        "sha256": "39adc53e6c1a0d8d1ea7d6c0df72d987b2f015965244f04ad862b17329ad1129"
       },
       "summary": {
         "path": "templates/brave/brave-browser/summary.json",
-        "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+        "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
       }
     }
   ],

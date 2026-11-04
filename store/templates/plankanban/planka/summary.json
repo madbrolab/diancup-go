@@ -24,6 +24,6 @@
   "applicationCount": 2,
   "manifest": {
     "path": "templates/plankanban/planka/manifest.json",
-    "sha256": "e648b30d35d7d25504a23cef42ef713d236baf7717c8cca9df4b7bf96b085460"
+    "sha256": "8e6519fdba15968a16acfa33492f785728dcc0a8b72535c5da0effe556965ef8"
   }
 }

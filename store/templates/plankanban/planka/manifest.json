@@ -41,7 +41,7 @@
     {
       "target": "compose.services.planka.ports",
       "title": "planka 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "1337:1337"
     },
@@ -88,14 +88,7 @@
     "lastCommitAt": "2026-11-02T19:36:48Z",
     "lastCommit": "98c1ef216bcf47fc873f5b92cbb334711fc92162",
     "readmeSHA256": "b28c061b21698b9016c846257308e151be31a2444fc0846d6b231c41b8e30df6",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/planka.json",
-      "sha256": "fbebe2a9559bfab71eb2a8474883243fd320f7c502ed7311f24121d8be9f7067"
-    },
     "iconSource": "https://raw.githubusercontent.com/plankanban/planka/98c1ef216bcf47fc873f5b92cbb334711fc92162/client/public/logo192.png",
-    "iconSHA256": "0ce042411c16e96f5f65cc7c2ab9ec822bb4f396c339cf09cabe7a84de38bdda",
-    "adaptations": []
+    "iconSHA256": "0ce042411c16e96f5f65cc7c2ab9ec822bb4f396c339cf09cabe7a84de38bdda"
   }
 }

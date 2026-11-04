@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/dockers-x/cfui/manifest.json",
-        "sha256": "382dff53ab670a69660f07299a0a512e00ef573a84f4dcc63e2483ad1f2c1b1d"
+        "sha256": "cf73f539226d60bfd46678db457cc1244676635c646a0a629c7c288a2e081120"
       },
       "summary": {
         "path": "templates/dockers-x/cfui/summary.json",
-        "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+        "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
       }
     }
   ],

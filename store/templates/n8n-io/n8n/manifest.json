@@ -27,7 +27,7 @@
     {
       "target": "compose.services.n8n.ports",
       "title": "n8n 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "35678:5678"
     },
@@ -64,16 +64,7 @@
     "lastCommitAt": "2026-11-04T12:51:43Z",
     "lastCommit": "ca3e5129e58c2b6907cd8e94addb167c28b58692",
     "readmeSHA256": "1b2642bc182969047627fc3568c785bad291fb9a2c7d655b19813608bf69ce27",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/n8n.json",
-      "sha256": "1f762abfcb171e7eae1cfff7fca8bb84b4d0c75fd8bb13dadaa13d0eca5d2d07"
-    },
     "iconSource": "https://raw.githubusercontent.com/n8n-io/n8n/ca3e5129e58c2b6907cd8e94addb167c28b58692/packages/frontend/@n8n/design-system/src/components/N8nLogo/logo-icon.svg",
-    "iconSHA256": "71c16fd5a7c5f1ba06a45b3a0d4c022bc88f43e7a58d5a9b3feb626c2ef00616",
-    "adaptations": [
-      "n8n 的命名卷 n8n_data 改为项目数据绑定 ./data/n8n_data"
-    ]
+    "iconSHA256": "71c16fd5a7c5f1ba06a45b3a0d4c022bc88f43e7a58d5a9b3feb626c2ef00616"
   }
 }

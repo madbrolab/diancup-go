@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/babybuddy/babybuddy/summary.json",
-      "sha256": "1183ea8eff73077de909ff8074ab2a4db7da07bb1d6794cd25a6114b18a3294c"
+      "sha256": "67fe68b50147273197420eff811d15eb46e7ed243e62a3ffaa10c63f22a2b045"
     },
     {
       "path": "templates/chaitin/pandawiki/summary.json",
-      "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
     }
   ],
   "next": null

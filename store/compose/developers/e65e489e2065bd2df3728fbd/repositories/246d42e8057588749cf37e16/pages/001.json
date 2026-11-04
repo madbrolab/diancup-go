@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/gotify/server/manifest.json",
-        "sha256": "aca2909dee8a236f454af1e6ba10a5b8529f2bae76fcda9b83ba0754a1d92c56"
+        "sha256": "9f5983b4c7a0029ebc42adc057c36b4f972577d31e60e8b5e7be0e753ecc5307"
       },
       "summary": {
         "path": "templates/gotify/server/summary.json",
-        "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+        "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
       }
     }
   ],

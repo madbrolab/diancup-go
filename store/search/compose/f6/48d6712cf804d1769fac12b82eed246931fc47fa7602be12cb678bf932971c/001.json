@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/babybuddy/babybuddy/summary.json",
-      "sha256": "1183ea8eff73077de909ff8074ab2a4db7da07bb1d6794cd25a6114b18a3294c"
+      "sha256": "67fe68b50147273197420eff811d15eb46e7ed243e62a3ffaa10c63f22a2b045"
     },
     {
       "path": "templates/fccview/jotty/summary.json",
-      "sha256": "8faab34e70c0df1a196898d3a1fadeba42cdb3b0c9ace91346e84bfe92a7f8d9"
+      "sha256": "9b917fdcf6265d0cc8ff36ed9d01b328aceff49b097dca2de9e9090a58a77ff6"
     },
     {
       "path": "templates/usememos/memos/summary.json",
-      "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+      "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
     }
   ],
   "next": null

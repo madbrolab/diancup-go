@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/louislam/uptime-kuma-compose/manifest.json",
-    "sha256": "6588379a1fb031ed35b681f70f19eb42f43d1e2845825978cf6b8a319a0481dc"
+    "sha256": "69b39dec4d362f460844490d509683073ebaa36618ebf8a65a919df4963b2949"
   }
 }

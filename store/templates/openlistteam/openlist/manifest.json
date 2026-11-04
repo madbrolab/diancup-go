@@ -27,7 +27,7 @@
     {
       "target": "compose.services.openlist.ports",
       "title": "openlist 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "5244:5244、5245:5245"
     },
@@ -57,16 +57,7 @@
     "lastCommitAt": "2026-11-04T05:23:35Z",
     "lastCommit": "ef5d8c8d41ce3b300f7d7c47803e9d5082c9f64f",
     "readmeSHA256": "5d0d31f2629a3a3b1c105c74765f1b6102f9c7c8d6b378bee03d11b6607f38a4",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/openlist.json",
-      "sha256": "8d83972954d7251ad47f9b399966138fa79f0dca091a30a682f7e172a3195298"
-    },
     "iconSource": "https://raw.githubusercontent.com/OpenListTeam/Logo/main/logo.svg",
-    "iconSHA256": "fe09f04c24101c9b4b8baada86cf77913bc50731082b102f61ad6260626b43db",
-    "adaptations": [
-      "openlist 使用项目内实例名，原容器名保留为网络别名"
-    ]
+    "iconSHA256": "fe09f04c24101c9b4b8baada86cf77913bc50731082b102f61ad6260626b43db"
   }
 }

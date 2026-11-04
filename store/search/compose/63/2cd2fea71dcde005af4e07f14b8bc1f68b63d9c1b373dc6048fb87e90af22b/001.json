@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/advplyr/audiobookshelf/summary.json",
-      "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+      "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
     },
     {
       "path": "templates/bubka/2fauth/summary.json",
-      "sha256": "bd581f750c76d70ff001c9f6093b4f242bcf120e08fa52f9bbb0b0a66a1319fe"
+      "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
     },
     {
       "path": "templates/dani-garcia/vaultwarden/summary.json",
-      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+      "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
     }
   ],
   "next": null

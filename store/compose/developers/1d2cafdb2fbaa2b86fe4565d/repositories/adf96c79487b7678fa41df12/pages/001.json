@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/transmission/transmission/manifest.json",
-        "sha256": "92c3636d0f2794f2f86e298ff59841ced16f8262d70a54f716721aed84e4062e"
+        "sha256": "feb63d5e2db452a717d5ef15e8b9123e63c9e4f0b85986190e539c44243c0dc6"
       },
       "summary": {
         "path": "templates/transmission/transmission/summary.json",
-        "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+        "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
       }
     }
   ],

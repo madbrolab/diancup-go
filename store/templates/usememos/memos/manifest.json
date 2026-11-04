@@ -27,7 +27,7 @@
     {
       "target": "compose.services.memos.ports",
       "title": "memos 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "5230:5230"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-11-01T13:48:49Z",
     "lastCommit": "b40d8a7b573774c52b022c8d6537d6baf2129dc0",
     "readmeSHA256": "441f879a482850273554612eb656bc10d25e85d565bb8b34fc1d4349cae56811",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/memos-cn.json",
-      "sha256": "99b94ab6ae6a2c9a904d85c0a44f8cb56b887e875e7613f6fe6b9030cda914c4"
-    },
     "iconSource": "https://raw.githubusercontent.com/usememos/memos/b40d8a7b573774c52b022c8d6537d6baf2129dc0/web/public/logo-small.svg",
-    "iconSHA256": "e76d40f358f5c98acc75c5898448bc9d0541eb405eb178916e0ad187dec2797d",
-    "adaptations": []
+    "iconSHA256": "e76d40f358f5c98acc75c5898448bc9d0541eb405eb178916e0ad187dec2797d"
   }
 }

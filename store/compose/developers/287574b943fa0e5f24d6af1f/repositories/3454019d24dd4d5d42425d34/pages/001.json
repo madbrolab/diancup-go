@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/chenqimiao/qm-music/manifest.json",
-        "sha256": "2efedccd7995037c6d0f536fa7e734afcba6cc51859e8137095ccb86b633bc80"
+        "sha256": "eeec94415c8e855e692a792d9acc2d80c7ee471218573660f4f53ca27c741f56"
       },
       "summary": {
         "path": "templates/chenqimiao/qm-music/summary.json",
-        "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+        "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
       }
     }
   ],

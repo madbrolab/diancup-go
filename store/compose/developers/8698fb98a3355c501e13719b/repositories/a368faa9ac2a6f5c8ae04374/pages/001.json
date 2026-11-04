@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/stirling-tools/stirling-pdf/manifest.json",
-        "sha256": "22d4ae545261eb815f5b697758804133553ee64907ce5d5086403571c1abe811"
+        "sha256": "911aae2b7e02df0f4f709b49383b47619d354fd7049d740f318c3d8ba08ffc5e"
       },
       "summary": {
         "path": "templates/stirling-tools/stirling-pdf/summary.json",
-        "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+        "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
       }
     }
   ],

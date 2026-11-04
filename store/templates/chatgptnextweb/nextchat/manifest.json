@@ -41,7 +41,7 @@
     {
       "target": "compose.services.chatgpt-next-web.ports",
       "title": "chatgpt-next-web 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "3001:3000"
     }
@@ -64,14 +64,7 @@
     "lastCommitAt": "2026-10-20T10:19:31Z",
     "lastCommit": "1d3dc331512929a4b1d3e82354e72acce33b5c7a",
     "readmeSHA256": "99b65bd305d6ad2e41befc5f4441b218e5a064b5673a5f3a1f2f8d5c86f7a450",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/chatgpt-next-web.json",
-      "sha256": "df8338857425755bdbfa3e10c64d229a1c3622c54c41208690e1b1c7b79e8bad"
-    },
     "iconSource": "https://raw.githubusercontent.com/ChatGPTNextWeb/NextChat/1d3dc331512929a4b1d3e82354e72acce33b5c7a/app/icons/logo.svg",
-    "iconSHA256": "ba79b49936eb0cb733ea536fe5f9323908ba215ea1886cdc9e5c3f59e3bf7859",
-    "adaptations": []
+    "iconSHA256": "ba79b49936eb0cb733ea536fe5f9323908ba215ea1886cdc9e5c3f59e3bf7859"
   }
 }

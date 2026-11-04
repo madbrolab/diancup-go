@@ -27,7 +27,7 @@
     {
       "target": "compose.services.stirling-pdf.ports",
       "title": "stirling-pdf 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8080:8080"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-11-04T13:24:12Z",
     "lastCommit": "ea922397fac247d7181b58e9e86a222a767cebde",
     "readmeSHA256": "0539da44759af7d1c3da8d76b00b892d9ebda4c82f9e161f01658f188a66ed86",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/stirling-pdf.json",
-      "sha256": "988bcae302bf710f46ac72ec1f8555a80d49f72dad3da4e9d2913e50a9b3d11d"
-    },
     "iconSource": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/ea922397fac247d7181b58e9e86a222a767cebde/frontend/public/favicon.png",
-    "iconSHA256": "69ac09c856cbb7428886749162b80924f8c8c2b618867220b48e819e6c5c85cf",
-    "adaptations": []
+    "iconSHA256": "69ac09c856cbb7428886749162b80924f8c8c2b618867220b48e819e6c5c85cf"
   }
 }

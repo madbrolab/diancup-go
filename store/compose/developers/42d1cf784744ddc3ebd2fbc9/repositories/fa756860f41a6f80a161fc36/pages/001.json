@@ -26,11 +26,11 @@
       "applicationCount": 2,
       "manifest": {
         "path": "templates/plankanban/planka/manifest.json",
-        "sha256": "e648b30d35d7d25504a23cef42ef713d236baf7717c8cca9df4b7bf96b085460"
+        "sha256": "8e6519fdba15968a16acfa33492f785728dcc0a8b72535c5da0effe556965ef8"
       },
       "summary": {
         "path": "templates/plankanban/planka/summary.json",
-        "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+        "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
       }
     }
   ],

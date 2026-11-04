@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/chatgptnextweb/nextchat/manifest.json",
-        "sha256": "cc2f5167abbd4d3c52fb55619bfbac3a06c7506c9e8f718209b8785839b03e35"
+        "sha256": "b93c5bdee19dd3446c1888b65129183d4490fe6f28cd18fe9a3765abd0b48e03"
       },
       "summary": {
         "path": "templates/chatgptnextweb/nextchat/summary.json",
-        "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+        "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
       }
     }
   ],

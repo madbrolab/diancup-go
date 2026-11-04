@@ -26,11 +26,11 @@
       "applicationCount": 3,
       "manifest": {
         "path": "templates/jxxghp/moviepilot-basic/manifest.json",
-        "sha256": "2ee254f3ebf77063756968c015dec2eb448b487e5b0f7296262cd03e8c379c94"
+        "sha256": "d99370bce7d1cd5f34910d4368f7329c0d0541ba9983066ecce02c6d1eef738d"
       },
       "summary": {
         "path": "templates/jxxghp/moviepilot-basic/summary.json",
-        "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+        "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
       }
     }
   ],

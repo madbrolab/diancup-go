@@ -27,7 +27,7 @@
     {
       "target": "compose.services.wallabag.ports",
       "title": "wallabag 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8284:80"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-11-03T16:57:41Z",
     "lastCommit": "17be63dee2a14f5a49b49dd12c9daf81b9754991",
     "readmeSHA256": "0dd89f0f2c9e197ae8ef1b5d9f650b3f11384eb951c1d9be38c724ffdc4df4f8",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/wallabag.json",
-      "sha256": "330c57832473f066401a4467f354806fbc988608969cf4b9d83f059124b6c8a0"
-    },
     "iconSource": "https://raw.githubusercontent.com/wallabag/wallabag/17be63dee2a14f5a49b49dd12c9daf81b9754991/web/img/logo-square.svg",
-    "iconSHA256": "77a39db470f4402e2bfe34d9068b7dbc561437ba26893e986771f06185a960a9",
-    "adaptations": []
+    "iconSHA256": "77a39db470f4402e2bfe34d9068b7dbc561437ba26893e986771f06185a960a9"
   }
 }

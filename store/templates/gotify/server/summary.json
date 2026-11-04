@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/gotify/server/manifest.json",
-    "sha256": "aca2909dee8a236f454af1e6ba10a5b8529f2bae76fcda9b83ba0754a1d92c56"
+    "sha256": "9f5983b4c7a0029ebc42adc057c36b4f972577d31e60e8b5e7be0e753ecc5307"
   }
 }

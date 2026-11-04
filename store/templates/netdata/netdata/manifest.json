@@ -27,7 +27,7 @@
     {
       "target": "compose.services.netdata.ports",
       "title": "netdata 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "19999:19999"
     },
@@ -41,7 +41,7 @@
     {
       "target": "compose.services.netdata",
       "title": "netdata 宿主机集成",
-      "reason": "此服务按原部署配置使用宿主机权限或系统信息挂载。",
+      "reason": "此服务使用宿主机权限或系统信息挂载。",
       "required": false,
       "example": ""
     }
@@ -64,18 +64,7 @@
     "lastCommitAt": "2026-11-04T12:08:17Z",
     "lastCommit": "ca1035ac5fc5e69d7f55779344ed87962e42a401",
     "readmeSHA256": "e78af62f9af72ef9a0fa0cf46a8b0252af185b5a7d94aeaf40325a8b213cd4c8",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/netdata.json",
-      "sha256": "884b570659b116b30ba7814a4fdcc601d880a18a3f5e1b5533d88480d7b3c44e"
-    },
     "iconSource": "https://github.com/netdata.png?size=256",
-    "iconSHA256": "b80dbe3653ea7742cec4434d60e7eea88cbc39b231fe4b32ab1b840d7fc6d301",
-    "adaptations": [
-      "netdata 的命名卷 netdataconfig 改为项目数据绑定 ./data/netdataconfig",
-      "netdata 的命名卷 netdatalib 改为项目数据绑定 ./data/netdatalib",
-      "netdata 的命名卷 netdatacache 改为项目数据绑定 ./data/netdatacache"
-    ]
+    "iconSHA256": "b80dbe3653ea7742cec4434d60e7eea88cbc39b231fe4b32ab1b840d7fc6d301"
   }
 }

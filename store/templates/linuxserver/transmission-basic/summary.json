@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/linuxserver/transmission-basic/manifest.json",
-    "sha256": "1826910c528be1acb9ba8c553b4d997ed037123fab003021dc14de15395dc122"
+    "sha256": "2d99c497aae96bffda84b8a9cdc019caee67315f82beccf27cce38158ee8fabc"
   }
 }

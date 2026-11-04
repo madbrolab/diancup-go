@@ -24,6 +24,6 @@
   "applicationCount": 2,
   "manifest": {
     "path": "templates/bookstackapp/bookstack/manifest.json",
-    "sha256": "19fcfd154e3555e744e5da50abf86c52b1cdf29b07e1447a2073136bb504e8f5"
+    "sha256": "10aea14ceddb6cc0ef4f0e6e7052faa8b14f08f6d70348ba3362e6442ae91590"
   }
 }

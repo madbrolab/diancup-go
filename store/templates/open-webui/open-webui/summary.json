@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/open-webui/open-webui/manifest.json",
-    "sha256": "65f760db081fa5c48372f89f3af1bccf8860c427ec83d796cbe98bc4f775778f"
+    "sha256": "2f17b33103dda645c8674966dc144f108c34bc0b3944a7e4e9bbb33b046fea7c"
   }
 }

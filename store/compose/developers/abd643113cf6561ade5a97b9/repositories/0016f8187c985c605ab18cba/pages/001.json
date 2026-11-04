@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/advplyr/audiobookshelf/manifest.json",
-        "sha256": "b036119894f337309dc5d65ce0e394792ae228bbe6120fa926043f9a07b79c3a"
+        "sha256": "6c5684c3b48dc70f6e5317f4e2d150790fcad7d86ce1bc784da78bc06ade4906"
       },
       "summary": {
         "path": "templates/advplyr/audiobookshelf/summary.json",
-        "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+        "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
       }
     }
   ],

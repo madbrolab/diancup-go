@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/seerr-team/seerr/manifest.json",
-        "sha256": "39c50db620f0559492db481396d15caea15791142cf1eb9328e8660579f62b29"
+        "sha256": "cd65b1a20e0bfe0d8cdec64b478fc3eca4ae9b375b0933843100baec0b323ca5"
       },
       "summary": {
         "path": "templates/seerr-team/seerr/summary.json",
-        "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+        "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
       }
     }
   ],

@@ -34,7 +34,7 @@
     {
       "target": "compose.services.2fauth.ports",
       "title": "2fauth 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8000:8000"
     },
@@ -64,14 +64,7 @@
     "lastCommitAt": "2026-11-02T07:54:05Z",
     "lastCommit": "2a19734a178846f4b59c1b52504b8d8e1036623c",
     "readmeSHA256": "296f70fd34fa9319acd9f597f4542eecbe1aa501227ea16fb8b0696a92b292f3",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/2fauth.json",
-      "sha256": "cb7dc6951397bae0867f5c1b728ab1e31513075306f96216080dced4817a9bbd"
-    },
     "iconSource": "https://raw.githubusercontent.com/Bubka/2FAuth/2a19734a178846f4b59c1b52504b8d8e1036623c/public/logo.svg",
-    "iconSHA256": "11c3a3fb1a688e8cdfde36fb117fc90fc652664398f62e12ffb6a923f19a392d",
-    "adaptations": []
+    "iconSHA256": "11c3a3fb1a688e8cdfde36fb117fc90fc652664398f62e12ffb6a923f19a392d"
   }
 }

@@ -27,7 +27,7 @@
     {
       "target": "compose.services.jotty.ports",
       "title": "jotty 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "3122:3000"
     },
@@ -57,16 +57,7 @@
     "lastCommitAt": "2026-10-25T13:55:23Z",
     "lastCommit": "30bbbaea4675d2adb6f2e5ff113f1994be2fb8e2",
     "readmeSHA256": "b448ce302490f99408b02e5aaf654a905ba9de7a1c461734fc40fe019f5ab5d8",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/jotty.json",
-      "sha256": "f7b8cfdeb552c1e1ae5574379406c6663301107e7cc110af729eebd844cd81dd"
-    },
     "iconSource": "https://raw.githubusercontent.com/fccview/jotty/30bbbaea4675d2adb6f2e5ff113f1994be2fb8e2/public/app-icons/logos/logo.svg",
-    "iconSHA256": "07848a6f45a49af61542deb7f270b07466289d882f0cc26da3e4e438b3442eef",
-    "adaptations": [
-      "jotty 使用项目内实例名，原容器名保留为网络别名"
-    ]
+    "iconSHA256": "07848a6f45a49af61542deb7f270b07466289d882f0cc26da3e4e438b3442eef"
   }
 }

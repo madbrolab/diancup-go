@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/open-webui/open-webui/manifest.json",
-        "sha256": "65f760db081fa5c48372f89f3af1bccf8860c427ec83d796cbe98bc4f775778f"
+        "sha256": "2f17b33103dda645c8674966dc144f108c34bc0b3944a7e4e9bbb33b046fea7c"
       },
       "summary": {
         "path": "templates/open-webui/open-webui/summary.json",
-        "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+        "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
       }
     }
   ],

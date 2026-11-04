@@ -24,6 +24,6 @@
   "applicationCount": 2,
   "manifest": {
     "path": "templates/beidoums/beidou-server/manifest.json",
-    "sha256": "7684ddde7c5566f520f1306d5f5e45c3fe297d006184d09cffe4c2d4ffd98c5a"
+    "sha256": "bce0da878f7b1233b93a9f407051103be761fdc27081583f157274ccda3c35b6"
   }
 }

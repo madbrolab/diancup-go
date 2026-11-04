@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/taksssss/iptv-tool/manifest.json",
-        "sha256": "873a683bb2cf2a761b305b58191a0798ce34169f0d9bd89b031c1862bc162a5f"
+        "sha256": "22306cd71baa32378b757332cc57d3bc91b90fe8eafb4464d6293aee611648b8"
       },
       "summary": {
         "path": "templates/taksssss/iptv-tool/summary.json",
-        "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+        "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
       }
     }
   ],

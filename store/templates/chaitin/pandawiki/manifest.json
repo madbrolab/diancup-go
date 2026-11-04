@@ -104,14 +104,14 @@
     {
       "target": "compose.services.caddy",
       "title": "caddy 宿主机集成",
-      "reason": "此服务按原部署配置使用宿主机权限或系统信息挂载。",
+      "reason": "此服务使用宿主机权限或系统信息挂载。",
       "required": false,
       "example": ""
     },
     {
       "target": "compose.services.nginx.ports",
       "title": "nginx 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8080:8080"
     },
@@ -264,27 +264,7 @@
     "lastCommitAt": "2026-10-21T03:49:12Z",
     "lastCommit": "0b26db72ceb2f0f053a5c48b44546d7a342caacb",
     "readmeSHA256": "d793fac229b9c7df076356a758668ba4a4c550e65adec6ebb592655c8f47d6e0",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/panda-wiki.json",
-      "sha256": "50964c92c2928cf9721134d91b9fe67d5090d5fc2801196038d3b26b2ec8d840"
-    },
     "iconSource": "https://raw.githubusercontent.com/chaitin/PandaWiki/0b26db72ceb2f0f053a5c48b44546d7a342caacb/web/admin/public/logo.png",
-    "iconSHA256": "35be159da0ef9d9822445cab50bdf79f4d2d2a93a420f17bef3a84d0acc7b44e",
-    "adaptations": [
-      "caddy 使用项目内实例名，原容器名保留为网络别名",
-      "nginx 使用项目内实例名，原容器名保留为网络别名",
-      "app 使用项目内实例名，原容器名保留为网络别名",
-      "api 使用项目内实例名，原容器名保留为网络别名",
-      "consumer 使用项目内实例名，原容器名保留为网络别名",
-      "postgres 使用项目内实例名，原容器名保留为网络别名",
-      "redis 使用项目内实例名，原容器名保留为网络别名",
-      "minio 使用项目内实例名，原容器名保留为网络别名",
-      "nats 使用项目内实例名，原容器名保留为网络别名",
-      "qdrant 使用项目内实例名，原容器名保留为网络别名",
-      "crawler 使用项目内实例名，原容器名保留为网络别名",
-      "raglite 使用项目内实例名，原容器名保留为网络别名"
-    ]
+    "iconSHA256": "35be159da0ef9d9822445cab50bdf79f4d2d2a93a420f17bef3a84d0acc7b44e"
   }
 }

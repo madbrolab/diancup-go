@@ -27,7 +27,7 @@
     {
       "target": "compose.services.pansou.ports",
       "title": "pansou 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "805:80"
     },
@@ -64,17 +64,7 @@
     "lastCommitAt": "2026-10-12T06:00:52Z",
     "lastCommit": "221665fb2c9279f22af4684ea2d8c0c331eac1cc",
     "readmeSHA256": "2a537879e061ee067ab26f99f5cb3f49805202ba85b98e4860992cd3a5345e42",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/pansou.json",
-      "sha256": "fed1e90f4d69be15a61c9031532fa3f8a1fa59c26b7fb5e6212511fee8e0e53a"
-    },
     "iconSource": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/folder-search.svg",
-    "iconSHA256": "ddcdf0c312320d13a9e327793e73c3a056309e91da1ca630fe1531db81aed247",
-    "adaptations": [
-      "pansou 使用项目内实例名，原容器名保留为网络别名",
-      "pansou 的命名卷 pansou-data 改为项目数据绑定 ./data/pansou-data"
-    ]
+    "iconSHA256": "ddcdf0c312320d13a9e327793e73c3a056309e91da1ca630fe1531db81aed247"
   }
 }

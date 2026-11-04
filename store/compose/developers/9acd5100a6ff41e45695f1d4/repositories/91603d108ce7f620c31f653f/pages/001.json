@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/wallabag/wallabag/manifest.json",
-        "sha256": "2e4f953e1fe0e99e56ea785203f47aa0a2158fa0b8d6596932cb59a123fc31db"
+        "sha256": "b2e6c4e593c06742bb38d2767c50fa3bdc8d1997394f1906d0a41ca82e401211"
       },
       "summary": {
         "path": "templates/wallabag/wallabag/summary.json",
-        "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+        "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
       }
     }
   ],

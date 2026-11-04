@@ -27,7 +27,7 @@
     {
       "target": "compose.services.jellyseerr.ports",
       "title": "jellyseerr 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "7688:7688"
     },
@@ -57,16 +57,7 @@
     "lastCommitAt": "2026-11-04T10:10:05Z",
     "lastCommit": "886adac27597b45cd901099cd02a0b46d9d3cb7f",
     "readmeSHA256": "3d53659af8983362cea9bb277f6179b4cbeec2171110992bee130093737f8e50",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/seerr.json",
-      "sha256": "17042d9e5cd5f2099d3b18781d4915ce7025c9d69f53f2fa47c428eb5e8c104d"
-    },
     "iconSource": "https://raw.githubusercontent.com/seerr-team/seerr/886adac27597b45cd901099cd02a0b46d9d3cb7f/public/apple-touch-icon.png",
-    "iconSHA256": "1d5aa07b8ff9b4bfb83d4c150edefbdaf4132be9375d5c3e162b49835120030f",
-    "adaptations": [
-      "jellyseerr 使用项目内实例名，原容器名保留为网络别名"
-    ]
+    "iconSHA256": "1d5aa07b8ff9b4bfb83d4c150edefbdaf4132be9375d5c3e162b49835120030f"
   }
 }

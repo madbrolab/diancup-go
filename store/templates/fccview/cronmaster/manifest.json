@@ -27,7 +27,7 @@
     {
       "target": "compose.services.cronmaster.ports",
       "title": "cronmaster 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "40123:3000"
     },
@@ -41,7 +41,7 @@
     {
       "target": "compose.services.cronmaster",
       "title": "cronmaster 宿主机集成",
-      "reason": "此服务按原部署配置使用宿主机权限或系统信息挂载。",
+      "reason": "此服务使用宿主机权限或系统信息挂载。",
       "required": false,
       "example": ""
     }
@@ -64,16 +64,7 @@
     "lastCommitAt": "2026-10-25T13:29:45Z",
     "lastCommit": "2a323087ae124ff1e0e605eae6bb1b356a123eb7",
     "readmeSHA256": "4e2e96f09b6a6f6ff58decb399c9d055f20cdb038070008243c356b54f760dcf",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/cronmaster.json",
-      "sha256": "7ce392b692d434f6461d31f6b10cf69fc429ba65b814f76b14a48cd306c8df30"
-    },
     "iconSource": "https://raw.githubusercontent.com/fccview/cronmaster/2a323087ae124ff1e0e605eae6bb1b356a123eb7/public/logo.png",
-    "iconSHA256": "e0f772e8b530dfe51a7d31be31ee595d259a6e0f5af3619eca1c78aacc23c444",
-    "adaptations": [
-      "cronmaster 使用项目内实例名，原容器名保留为网络别名"
-    ]
+    "iconSHA256": "e0f772e8b530dfe51a7d31be31ee595d259a6e0f5af3619eca1c78aacc23c444"
   }
 }

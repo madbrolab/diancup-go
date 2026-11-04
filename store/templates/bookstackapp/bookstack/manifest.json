@@ -34,7 +34,7 @@
     {
       "target": "compose.services.bookstack.ports",
       "title": "bookstack 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "6875:80"
     },
@@ -81,14 +81,7 @@
     "lastCommitAt": "2026-11-02T18:23:25Z",
     "lastCommit": "0b6b667e0d84ebb3406de6de9fadbf4230c29c0b",
     "readmeSHA256": "627585ac4c2e3c00c0f72ecfd1694c1b8084311c8dcee79c47feac795ebfd26b",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/bookstack.json",
-      "sha256": "b0dea96345081491b6c1eee3f2464eafa0d73bae9e7c5b36d726860ba7676bb3"
-    },
     "iconSource": "https://raw.githubusercontent.com/BookStackApp/BookStack/0b6b667e0d84ebb3406de6de9fadbf4230c29c0b/public/icon.png",
-    "iconSHA256": "7889fd2d558afc8d014b465bd5c200332bdedf028c488e383da8943b3e11eab5",
-    "adaptations": []
+    "iconSHA256": "7889fd2d558afc8d014b465bd5c200332bdedf028c488e383da8943b3e11eab5"
   }
 }

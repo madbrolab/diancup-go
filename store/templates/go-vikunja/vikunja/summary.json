@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/go-vikunja/vikunja/manifest.json",
-    "sha256": "343bf9814bec4d2236459a07c9a91ab217b2b893cbd5d97b06005522cba41957"
+    "sha256": "3be38f115e8d20ebb669769be77a284b8e65fb05f55501e9803c02515f2f2e93"
   }
 }

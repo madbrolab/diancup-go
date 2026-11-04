@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/umami-software/umami/manifest.json",
-        "sha256": "57feb1405b1011da2ff05634348184b4ebb3f622151e8b78752d383cc45cc1ac"
+        "sha256": "d25548f6b9974831e7af5ca9370873534b8529ff85911a8d832b6ac6dffc3e97"
       },
       "summary": {
         "path": "templates/umami-software/umami/summary.json",
-        "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+        "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
       }
     }
   ],

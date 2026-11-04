@@ -41,7 +41,7 @@
     {
       "target": "compose.services.umami.ports",
       "title": "umami 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "3001:3000"
     },
@@ -72,14 +72,7 @@
     "lastCommitAt": "2026-10-23T08:07:12Z",
     "lastCommit": "559e3c607c23d2c72d9bd4f6481bda428255323c",
     "readmeSHA256": "b992ed9a3196d612ef962bd2b5fefd3dcffa9aadf2c6accfd1eceeba8d80ac70",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/umami.json",
-      "sha256": "6eb74cfd01433bfc0d230949e29da2fe3f5781837a3a54afaf33e564670891a8"
-    },
     "iconSource": "https://raw.githubusercontent.com/umami-software/umami/559e3c607c23d2c72d9bd4f6481bda428255323c/src/assets/logo.svg",
-    "iconSHA256": "a1ad04285bf43d2ae366e6972de6178c026804f0af2491a03d2b8f32a099ba7f",
-    "adaptations": []
+    "iconSHA256": "a1ad04285bf43d2ae366e6972de6178c026804f0af2491a03d2b8f32a099ba7f"
   }
 }

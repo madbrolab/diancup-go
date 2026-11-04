@@ -27,7 +27,7 @@
     {
       "target": "compose.services.audiobookshelf.ports",
       "title": "audiobookshelf 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "13378:80"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-11-01T23:26:38Z",
     "lastCommit": "ce41ce489cebaf00e008919f6f2901b428acfd56",
     "readmeSHA256": "55fb2e82236a0bec478f2c53f39c4b57d8e762a5c5a89d255680909e785470be",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/audiobookshelf.json",
-      "sha256": "536d53ba87e62c911afe195bdac606d14c1310ddeadc59480793a3db39b73dd6"
-    },
     "iconSource": "https://raw.githubusercontent.com/advplyr/audiobookshelf/ce41ce489cebaf00e008919f6f2901b428acfd56/client/static/icon.svg",
-    "iconSHA256": "560baf46422e3ff516d249b449bd331d6b257f1099a130150e10845a8c922a69",
-    "adaptations": []
+    "iconSHA256": "560baf46422e3ff516d249b449bd331d6b257f1099a130150e10845a8c922a69"
   }
 }

@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/coooolfan/xiaomi-album-syncer/manifest.json",
-        "sha256": "7f874628e1ffcf71437385091d7a7cc515fe6f78414f6e219c96609ac962a2dd"
+        "sha256": "c250adbe60b63d195710b7a48c44dd6f2ccb626aaf747fe30bb09b24fa0e0900"
       },
       "summary": {
         "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
-        "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+        "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
       }
     }
   ],

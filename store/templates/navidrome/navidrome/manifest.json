@@ -27,7 +27,7 @@
     {
       "target": "compose.services.navidrome.ports",
       "title": "navidrome 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "4533:4533"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-11-03T16:26:14Z",
     "lastCommit": "7c1e68a1e4e68e7257affba4f25cd9cb545c7016",
     "readmeSHA256": "37ac0e6cca7ace6fc158c6aebed13c927ae966a2bbccf5cf3749e94d6e5d541a",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/navidrome.json",
-      "sha256": "4d8a69a81e74f378b120860d8d70a3a4b5199e06c23067fb96b9e43ee2e390ca"
-    },
     "iconSource": "https://raw.githubusercontent.com/navidrome/navidrome/7c1e68a1e4e68e7257affba4f25cd9cb545c7016/resources/logo-192x192.png",
-    "iconSHA256": "91d4a1d192bf18694a7c49b0966de9a83480492b5930e23e6a9d1e32ef0741a0",
-    "adaptations": []
+    "iconSHA256": "91d4a1d192bf18694a7c49b0966de9a83480492b5930e23e6a9d1e32ef0741a0"
   }
 }

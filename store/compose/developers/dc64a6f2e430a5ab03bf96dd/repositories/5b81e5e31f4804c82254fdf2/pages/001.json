@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/actualbudget/actual-budget/manifest.json",
-        "sha256": "a1a12f9c486ac97f73875916c9697708fedd4989017f87ac7feef1c9a1e2a132"
+        "sha256": "34370ee75094244b594530fe575d1bffa23e35aec22715bf0869bc368fd67e9b"
       },
       "summary": {
         "path": "templates/actualbudget/actual-budget/summary.json",
-        "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+        "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
       }
     }
   ],

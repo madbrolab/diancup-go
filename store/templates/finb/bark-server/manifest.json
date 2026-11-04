@@ -27,7 +27,7 @@
     {
       "target": "compose.services.bark-server.ports",
       "title": "bark-server 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8080:8080"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-10-10T00:42:38Z",
     "lastCommit": "640deaa151ddf79193202927b35ca2f14f65ee1d",
     "readmeSHA256": "1eabd94bd33321b6cb05b27eefab3c2f84928ae3f6a7ceba5b2dee8e2354b63c",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/bark-server.json",
-      "sha256": "3f7496282103a40b5caf1fc42a7c117663736abc9d7afc69db1e08d0f6d4efd0"
-    },
     "iconSource": "https://raw.githubusercontent.com/Finb/Bark/master/Bark/Assets.xcassets/AppIcon.appiconset/bark.png",
-    "iconSHA256": "7aa685cbe680b36b2f26a4394d1da79c24b400c74b9d1b9ab37cca5cfc833485",
-    "adaptations": []
+    "iconSHA256": "7aa685cbe680b36b2f26a4394d1da79c24b400c74b9d1b9ab37cca5cfc833485"
   }
 }

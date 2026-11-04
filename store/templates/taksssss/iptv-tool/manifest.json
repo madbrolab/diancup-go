@@ -27,7 +27,7 @@
     {
       "target": "compose.services.php-epg.ports",
       "title": "php-epg 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "5678:80"
     },
@@ -57,16 +57,7 @@
     "lastCommitAt": "2026-10-22T08:15:34Z",
     "lastCommit": "10d7a35e15a799e607cbb2236c3a4ea349f61199",
     "readmeSHA256": "b2dc23d4507ab6e24b78187917fbec7b78fb134d6d7ece9afd8d8659f9bd5e01",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/iptv-tool.json",
-      "sha256": "f3b0480acf11bd0b813dcb90a6fd8fca7a14c74ae4061e861fd9b1ae02ac070a"
-    },
     "iconSource": "https://raw.githubusercontent.com/taksssss/iptv-tool/10d7a35e15a799e607cbb2236c3a4ea349f61199/epg/assets/img/favicon.ico",
-    "iconSHA256": "585fa75d9a5a39fecca553e1aa1728706c69796f72b776bf62bf9b330e649821",
-    "adaptations": [
-      "php-epg 使用项目内实例名，原容器名保留为网络别名"
-    ]
+    "iconSHA256": "585fa75d9a5a39fecca553e1aa1728706c69796f72b776bf62bf9b330e649821"
   }
 }

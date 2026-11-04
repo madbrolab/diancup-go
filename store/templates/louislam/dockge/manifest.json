@@ -27,7 +27,7 @@
     {
       "target": "compose.services.dockge.ports",
       "title": "dockge 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "5001:5001"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-10-23T06:35:34Z",
     "lastCommit": "0329dabb5003f206d4fd9f7403a6af26d7138497",
     "readmeSHA256": "30189a5bc9d869934fcd34d11f44e1f9ac36387554d73fd318263ba014cbe32d",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/dockge.json",
-      "sha256": "32a0ea9cc5baba37e07414fd5afa9f12aa6760a7457b53182f836b58c03dfe52"
-    },
     "iconSource": "https://raw.githubusercontent.com/louislam/dockge/0329dabb5003f206d4fd9f7403a6af26d7138497/frontend/public/icon.svg",
-    "iconSHA256": "7a3efe93b10886916e97f0defa660369d9846b3ac2ff3dcf60e02053cecdbc21",
-    "adaptations": []
+    "iconSHA256": "7a3efe93b10886916e97f0defa660369d9846b3ac2ff3dcf60e02053cecdbc21"
   }
 }

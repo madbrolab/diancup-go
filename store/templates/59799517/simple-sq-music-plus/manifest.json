@@ -33,7 +33,7 @@
     {
       "target": "compose.services.sqmusic_web.ports",
       "title": "sqmusic_web 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8096:80"
     },
@@ -74,18 +74,7 @@
     "lastCommitAt": "2026-10-30T07:18:37Z",
     "lastCommit": "3c2599d47a7c82b85607a7d1d063fd03e546bbf6",
     "readmeSHA256": "3a9142d29d9c7ce681c2c3c76fc8e1337f2331327863a3994a444e123ac1b5ff",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/sqmusic.json",
-      "sha256": "4fd884b8f123ec205f187be5b6a7a4c80631386bf878a1570a27a3d5114dfa3f"
-    },
     "iconSource": "https://raw.githubusercontent.com/59799517/simple_sq_music_plus/3c2599d47a7c82b85607a7d1d063fd03e546bbf6/fnOS/ICON_256.PNG",
-    "iconSHA256": "8778c5b8af46eb6200f92ba4d1f7a49d6e92073a71f73cec5aa2c29d511ed83d",
-    "adaptations": [
-      "sqmusic_main 使用项目内实例名，原容器名保留为网络别名",
-      "sqmusic_web 使用项目内实例名，原容器名保留为网络别名",
-      "mysql 使用项目内实例名，原容器名保留为网络别名"
-    ]
+    "iconSHA256": "8778c5b8af46eb6200f92ba4d1f7a49d6e92073a71f73cec5aa2c29d511ed83d"
   }
 }

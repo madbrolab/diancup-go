@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/cloudnas/clouddrive2-basic/manifest.json",
-        "sha256": "52158cce7bda64be034068c718a1972734a2ab207a8f290bf32f9aece5a872eb"
+        "sha256": "5a1a91f0ed7d27809bacf0f4c12ee6e3903cdf97bb0f3072cf3d5d27ba57f1b3"
       },
       "summary": {
         "path": "templates/cloudnas/clouddrive2-basic/summary.json",
-        "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+        "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
       }
     }
   ],

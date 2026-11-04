@@ -34,7 +34,7 @@
     {
       "target": "compose.services.vikunja.ports",
       "title": "vikunja 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "3456:3456"
     },
@@ -64,14 +64,7 @@
     "lastCommitAt": "2026-11-04T08:08:29Z",
     "lastCommit": "2a4a28dcf78451f3d2fceb091f322612f83f6d8a",
     "readmeSHA256": "30ae2bf5983bce8c0c1f313e02028fe5bae967afb82fc21d8adb4a912de1559e",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/vikunja.json",
-      "sha256": "43fc356865a6dd211ab702d47242c356f2fccde88ee9e3d7949d7fd4805bfd65"
-    },
     "iconSource": "https://raw.githubusercontent.com/go-vikunja/vikunja/2a4a28dcf78451f3d2fceb091f322612f83f6d8a/frontend/src/assets/logo.svg",
-    "iconSHA256": "e9fb68e85ab8b5719594f24b94711c96d9c2345393219a6d857e81fa44e56b76",
-    "adaptations": []
+    "iconSHA256": "e9fb68e85ab8b5719594f24b94711c96d9c2345393219a6d857e81fa44e56b76"
   }
 }

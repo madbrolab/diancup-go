@@ -25,11 +25,11 @@
       "applicationCount": 2,
       "manifest": {
         "path": "templates/59799517/simple-sq-music-plus/manifest.json",
-        "sha256": "3afee2a8549c675c04c9213a9ed0fa6dff0113598e3bc6216139c810bfab498d"
+        "sha256": "51730042f11eef8f97c0ad1dc44cceaf9897e36e3870fc32a816dff358e33115"
       },
       "summary": {
         "path": "templates/59799517/simple-sq-music-plus/summary.json",
-        "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+        "sha256": "1b28183a57d88c355769998a0b3801a8445938d90c55db05a18529ef80dfd28a"
       }
     },
     {
@@ -57,11 +57,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/actualbudget/actual-budget/manifest.json",
-        "sha256": "a1a12f9c486ac97f73875916c9697708fedd4989017f87ac7feef1c9a1e2a132"
+        "sha256": "34370ee75094244b594530fe575d1bffa23e35aec22715bf0869bc368fd67e9b"
       },
       "summary": {
         "path": "templates/actualbudget/actual-budget/summary.json",
-        "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+        "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
       }
     },
     {
@@ -89,11 +89,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/advplyr/audiobookshelf/manifest.json",
-        "sha256": "b036119894f337309dc5d65ce0e394792ae228bbe6120fa926043f9a07b79c3a"
+        "sha256": "6c5684c3b48dc70f6e5317f4e2d150790fcad7d86ce1bc784da78bc06ade4906"
       },
       "summary": {
         "path": "templates/advplyr/audiobookshelf/summary.json",
-        "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+        "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
       }
     },
     {
@@ -121,11 +121,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/alexta69/metube/manifest.json",
-        "sha256": "eef6261f6eb08588fa981a5c69f5ec02318bdbd728e7764b5079a3850f5baade"
+        "sha256": "b28eac5a94f1f6634e6fa57e3a0f22f5a014d45b96d2700ba57512191fca2011"
       },
       "summary": {
         "path": "templates/alexta69/metube/summary.json",
-        "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+        "sha256": "6dc63cd3fa1a5adb43aac8e379fd1b30bac4dc08ca13577b40dfaac6086412cc"
       }
     },
     {
@@ -153,11 +153,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/babybuddy/babybuddy/manifest.json",
-        "sha256": "f318efb54f5cc03f5bf39af4f701e07f4c1ad7b57c3e1f33fb6c541d1a0e0b2f"
+        "sha256": "096d948fd7ccf7b3a4bedbc2cc7832e475947acdaae09b281cd607636288aa15"
       },
       "summary": {
         "path": "templates/babybuddy/babybuddy/summary.json",
-        "sha256": "1183ea8eff73077de909ff8074ab2a4db7da07bb1d6794cd25a6114b18a3294c"
+        "sha256": "67fe68b50147273197420eff811d15eb46e7ed243e62a3ffaa10c63f22a2b045"
       }
     },
     {
@@ -185,11 +185,11 @@
       "applicationCount": 2,
       "manifest": {
         "path": "templates/beidoums/beidou-server/manifest.json",
-        "sha256": "7684ddde7c5566f520f1306d5f5e45c3fe297d006184d09cffe4c2d4ffd98c5a"
+        "sha256": "bce0da878f7b1233b93a9f407051103be761fdc27081583f157274ccda3c35b6"
       },
       "summary": {
         "path": "templates/beidoums/beidou-server/summary.json",
-        "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+        "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
       }
     },
     {
@@ -217,11 +217,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/bestruirui/octopus/manifest.json",
-        "sha256": "b068e64edfa58dc9b6bad686b6802ba8e95c0a12c2a6bb40dcad8a8c488d96f6"
+        "sha256": "c2f0dff47318dfac7c0df30a54c249381760718494a9c9b1bf77256baf38699b"
       },
       "summary": {
         "path": "templates/bestruirui/octopus/summary.json",
-        "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+        "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
       }
     },
     {
@@ -249,11 +249,11 @@
       "applicationCount": 2,
       "manifest": {
         "path": "templates/bookstackapp/bookstack/manifest.json",
-        "sha256": "19fcfd154e3555e744e5da50abf86c52b1cdf29b07e1447a2073136bb504e8f5"
+        "sha256": "10aea14ceddb6cc0ef4f0e6e7052faa8b14f08f6d70348ba3362e6442ae91590"
       },
       "summary": {
         "path": "templates/bookstackapp/bookstack/summary.json",
-        "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+        "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
       }
     },
     {
@@ -281,11 +281,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/brave/brave-browser/manifest.json",
-        "sha256": "9b02830ed286ac605b0bb113e7376ff1629360565ec3fb9c6c432bb28ca5f502"
+        "sha256": "39adc53e6c1a0d8d1ea7d6c0df72d987b2f015965244f04ad862b17329ad1129"
       },
       "summary": {
         "path": "templates/brave/brave-browser/summary.json",
-        "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+        "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
       }
     },
     {
@@ -313,11 +313,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/bubka/2fauth/manifest.json",
-        "sha256": "b0e756a86b707936280b2b83803eb668a14e3e9a6e881c750c9e64ce3bdcfeea"
+        "sha256": "b5501c4be598cdc7c4b805b829f9c50cbd784892af9c210533c52759aeaafea5"
       },
       "summary": {
         "path": "templates/bubka/2fauth/summary.json",
-        "sha256": "bd581f750c76d70ff001c9f6093b4f242bcf120e08fa52f9bbb0b0a66a1319fe"
+        "sha256": "242de5a2d86cee788d7328e96f943a6dd152a3e752a6883f5bded152791537fb"
       }
     },
     {
@@ -345,11 +345,11 @@
       "applicationCount": 8,
       "manifest": {
         "path": "templates/chaitin/pandawiki/manifest.json",
-        "sha256": "6d20ee47a48f6036870584d14103e8ff70be179507fb90a8d6283891959f3c3b"
+        "sha256": "543482e481810e7b077a5dfb35618dc41db99986c3865fc805b37c485859e422"
       },
       "summary": {
         "path": "templates/chaitin/pandawiki/summary.json",
-        "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+        "sha256": "af77afc1006c3fcba8ac7b2145469429f6afde131cf4236a7d6062472164cd75"
       }
     },
     {
@@ -377,11 +377,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/chatgptnextweb/nextchat/manifest.json",
-        "sha256": "cc2f5167abbd4d3c52fb55619bfbac3a06c7506c9e8f718209b8785839b03e35"
+        "sha256": "b93c5bdee19dd3446c1888b65129183d4490fe6f28cd18fe9a3765abd0b48e03"
       },
       "summary": {
         "path": "templates/chatgptnextweb/nextchat/summary.json",
-        "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+        "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
       }
     },
     {
@@ -409,11 +409,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/chenqimiao/qm-music/manifest.json",
-        "sha256": "2efedccd7995037c6d0f536fa7e734afcba6cc51859e8137095ccb86b633bc80"
+        "sha256": "eeec94415c8e855e692a792d9acc2d80c7ee471218573660f4f53ca27c741f56"
       },
       "summary": {
         "path": "templates/chenqimiao/qm-music/summary.json",
-        "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+        "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
       }
     },
     {
@@ -441,11 +441,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/cloudnas/clouddrive2-basic/manifest.json",
-        "sha256": "52158cce7bda64be034068c718a1972734a2ab207a8f290bf32f9aece5a872eb"
+        "sha256": "5a1a91f0ed7d27809bacf0f4c12ee6e3903cdf97bb0f3072cf3d5d27ba57f1b3"
       },
       "summary": {
         "path": "templates/cloudnas/clouddrive2-basic/summary.json",
-        "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+        "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
       }
     },
     {
@@ -473,11 +473,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/coooolfan/xiaomi-album-syncer/manifest.json",
-        "sha256": "7f874628e1ffcf71437385091d7a7cc515fe6f78414f6e219c96609ac962a2dd"
+        "sha256": "c250adbe60b63d195710b7a48c44dd6f2ccb626aaf747fe30bb09b24fa0e0900"
       },
       "summary": {
         "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
-        "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+        "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
       }
     },
     {
@@ -505,11 +505,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/dani-garcia/vaultwarden/manifest.json",
-        "sha256": "7d30e49a968f4865468d0ed5992a1291a72f6a8eeb8ff51aeb953856b952d57f"
+        "sha256": "a7d47d580184bccceaf1bf8951a5c11e6baac30295d6c890ac7675aebe2a4cdf"
       },
       "summary": {
         "path": "templates/dani-garcia/vaultwarden/summary.json",
-        "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+        "sha256": "0d92745d221b23782f06689104d7079c608e2ce1e60d4305f3f069588a6ff0ba"
       }
     },
     {
@@ -537,11 +537,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/dockers-x/cfui/manifest.json",
-        "sha256": "382dff53ab670a69660f07299a0a512e00ef573a84f4dcc63e2483ad1f2c1b1d"
+        "sha256": "cf73f539226d60bfd46678db457cc1244676635c646a0a629c7c288a2e081120"
       },
       "summary": {
         "path": "templates/dockers-x/cfui/summary.json",
-        "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+        "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
       }
     },
     {
@@ -569,11 +569,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/emby/embyserver-basic/manifest.json",
-        "sha256": "80018570ebd0cfbb58a803fa5640ebb9be9b8daba52c9da45d47d516eac546ca"
+        "sha256": "49534014f776a663f105b1d79c818359a34eef004d582baea7592462a1c35bac"
       },
       "summary": {
         "path": "templates/emby/embyserver-basic/summary.json",
-        "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+        "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
       }
     },
     {
@@ -601,11 +601,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/fccview/cronmaster/manifest.json",
-        "sha256": "d889c2ba18a8924b83b2fdc2b6c65bbe3810f6a8ff546ecfdf994e4d95a7f519"
+        "sha256": "f1407ae221d79dd0b0c51cbd9499536e256861121ea75b72e7650887f214df95"
       },
       "summary": {
         "path": "templates/fccview/cronmaster/summary.json",
-        "sha256": "774694640b31b58942d81731dc9ed8c56157443de8359b2c0ac25cdafe6fe0d6"
+        "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
       }
     },
     {
@@ -633,11 +633,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/fccview/jotty/manifest.json",
-        "sha256": "23e5399e404ae8bbb857aa94b00277a7c37a016d22a98e656dd2327f8745df94"
+        "sha256": "eab5fdaeaab1422f8308162eaae6b170e8e18ad7d9b6f83bedc63e176dc3279b"
       },
       "summary": {
         "path": "templates/fccview/jotty/summary.json",
-        "sha256": "8faab34e70c0df1a196898d3a1fadeba42cdb3b0c9ace91346e84bfe92a7f8d9"
+        "sha256": "9b917fdcf6265d0cc8ff36ed9d01b328aceff49b097dca2de9e9090a58a77ff6"
       }
     },
     {
@@ -665,11 +665,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/finb/bark-server/manifest.json",
-        "sha256": "43bebc7add9367bcaae1c4dbdc0d1a20b57d795d14580f8065d6bdb401a0b7b6"
+        "sha256": "d014e3cae9de7c89e7ff4ee23db41f1362006b839b94ca6632e70c16d06f6204"
       },
       "summary": {
         "path": "templates/finb/bark-server/summary.json",
-        "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+        "sha256": "16cea6af5d7dea97af15b35ea4ede65ff1f23e89be1803c69dc759dfc3028252"
       }
     },
     {
@@ -697,11 +697,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/fish2018/pansou/manifest.json",
-        "sha256": "9e7ef5defcf1d4a57e72940d316db14b1a5b6fac0bcbbc829c6bbe967f14df3f"
+        "sha256": "8fc6edf40f8105d6e6e51efab0c1569949de7366e7baa10ff4c83d5cb1cc3faf"
       },
       "summary": {
         "path": "templates/fish2018/pansou/summary.json",
-        "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+        "sha256": "cb60bf56f9067bee4717d7ce1c6306f6b7cff9ebc654e8a649e328e64d98555b"
       }
     },
     {
@@ -729,11 +729,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/flaresolverr/flaresolverr-basic/manifest.json",
-        "sha256": "08e88eb732ae72376e8cc870db1edc1ef320bcf8e27f690183b61314648540b5"
+        "sha256": "1ecca404c53f416035f057466009ad6f0add0e5813ba5ea37a3290fab31e1ba4"
       },
       "summary": {
         "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
-        "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+        "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
       }
     },
     {
@@ -760,16 +760,16 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/freeok/so-novel/manifest.json",
-        "sha256": "519fbd21533a3ce9a0aa7314de5cb3dbb557477835590444bd9200049252f4fc"
+        "sha256": "d4ecd3c733d2f7ef6503fd8a603a8f5a5e425b6cd5edc5320c8f52afc4158600"
       },
       "summary": {
         "path": "templates/freeok/so-novel/summary.json",
-        "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+        "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
       }
     }
   ],
   "next": {
     "path": "compose/all/pages/002.json",
-    "sha256": "a7d97b63f1964fc14b1ac604b08e43b88504dc2d9374b5b8be2e254aeda45010"
+    "sha256": "d5f83a6fa89a3841b9aaf1cfa7b7e4df507c4635fcc68f2a225543dd950d08ab"
   }
 }

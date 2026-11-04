@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/hkuds/deeptutor/manifest.json",
-    "sha256": "c0dbb038fcfc370d47800eec094821b5bc132cbe7b26c96ceaf737f4d935ca68"
+    "sha256": "69ed254a807c33d2ef8d4aabd24530f9332a5598a682aff126913fc093bce77a"
   }
 }

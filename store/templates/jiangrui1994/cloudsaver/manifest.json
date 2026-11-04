@@ -27,7 +27,7 @@
     {
       "target": "compose.services.cloudsaver.ports",
       "title": "cloudsaver 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8008:8008"
     },
@@ -57,17 +57,7 @@
     "lastCommitAt": "2026-10-15T07:32:15Z",
     "lastCommit": "672cc48ab656973de2675383c966a5336d9de372",
     "readmeSHA256": "35f11ae1acb950baf61b553c919e2df82ab60ef2cebacc3682047cc313894683",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/cloudsaver.json",
-      "sha256": "51bdc971fe58ffbb8c48f460bc6718b21be0b194b7dcc2e8f4391c3a8861da8e"
-    },
     "iconSource": "https://raw.githubusercontent.com/jiangrui1994/CloudSaver/672cc48ab656973de2675383c966a5336d9de372/docs/logo.svg",
-    "iconSHA256": "532ff4db0324e75112098c1259dee2ed5ed641d6c7cfde9791a60d1dc6b7baa4",
-    "adaptations": [
-      "cloudsaver 使用项目内实例名，原容器名保留为网络别名",
-      "cloudsaver 补全数据绑定 ./data/cloudsaver/config:/app/config"
-    ]
+    "iconSHA256": "532ff4db0324e75112098c1259dee2ed5ed641d6c7cfde9791a60d1dc6b7baa4"
   }
 }

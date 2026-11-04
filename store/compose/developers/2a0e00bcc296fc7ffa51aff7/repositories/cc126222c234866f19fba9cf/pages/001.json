@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/xhongc/music-tag-web/manifest.json",
-        "sha256": "bfc1ee087ebc008d102468d0fe3cd22e814f48e22756ed832760dc53ea70b36c"
+        "sha256": "c1b328490fc74dae1a6aebc31e7a5c2f1cdc06463dff7d6743e0689398d336bc"
       },
       "summary": {
         "path": "templates/xhongc/music-tag-web/summary.json",
-        "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+        "sha256": "581a9b6291b0b17a887fbe6b79c423ed169ac68cd166064a1765f8c331317577"
       }
     }
   ],

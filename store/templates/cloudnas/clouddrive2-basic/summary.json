@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/cloudnas/clouddrive2-basic/manifest.json",
-    "sha256": "52158cce7bda64be034068c718a1972734a2ab207a8f290bf32f9aece5a872eb"
+    "sha256": "5a1a91f0ed7d27809bacf0f4c12ee6e3903cdf97bb0f3072cf3d5d27ba57f1b3"
   }
 }

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "e3aae6594862b49b492f076d",
+  "revision": "ffdd9bf4989b33aee4f15a19",
   "sections": [
     {
       "id": "container",
@@ -17,7 +17,7 @@
       "count": 61,
       "index": {
         "path": "compose/index.json",
-        "sha256": "e097dd500282b14455db77d655d5b2cbe177f79a859d6fb91d1d35f7b14ad286"
+        "sha256": "d9cbfa6932c8f45138bc4b06c7df646a12f289943ba0f98b26e14555706ff252"
       }
     }
   ],

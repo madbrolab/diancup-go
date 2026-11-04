@@ -92,19 +92,11 @@
   ],
   "verification": {
     "checkedAt": "2026-11-04",
-    "origin": "reconstructed-basic-compose",
     "lastCommitAt": "2026-11-04T06:44:54Z",
     "lastCommit": "e1f93cc5d4b9f03366ac91e8a1d5b86b863eedba",
     "readmeSHA256": "5b8235c58248e7c7e56ad4188519ce64e57e4302872c2cce2caba85555593bb1",
     "iconSource": "https://raw.githubusercontent.com/madbrolab/dian115/e1f93cc5d4b9f03366ac91e8a1d5b86b863eedba/frontend/public/logo.jpg",
     "iconSHA256": "b45998e77803b7255e2d473dc2d81a6837962ea685a02f52bd5df0a15044f9aa",
-    "adaptations": [
-      "移除外部数据库凭据，按 DIAN115 新装方案提供 PostgreSQL 18 和健康检查",
-      "数据挂载采用 PostgreSQL 18 的 /var/lib/postgresql 根目录",
-      "数据库仅绑定宿主机回环地址，保留应用 Host 网络",
-      "媒体及云盘路径改为通用默认目录",
-      "Docker socket 和 GPU 改为按功能手动添加"
-    ],
     "deploymentDocumentation": {
       "url": "https://madbrolab.github.io/dian115/docs/database-postgresql/",
       "sha256": "9a5fe9a1faa1cb3c7e77fef26f8689149bbce9f06884e294c34558f4bc6dee27"

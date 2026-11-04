@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/usememos/memos/manifest.json",
-        "sha256": "9513880d59d0d09c9fa437a411c53368580ce3a101adba606524def28df2cb11"
+        "sha256": "41bb4c2addc02577a0c9289854070e252966cf5b9b61c38b9b1d5902ad4db9ad"
       },
       "summary": {
         "path": "templates/usememos/memos/summary.json",
-        "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+        "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
       }
     }
   ],

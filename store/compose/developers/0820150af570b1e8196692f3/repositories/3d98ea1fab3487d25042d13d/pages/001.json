@@ -26,11 +26,11 @@
       "applicationCount": 2,
       "manifest": {
         "path": "templates/bookstackapp/bookstack/manifest.json",
-        "sha256": "19fcfd154e3555e744e5da50abf86c52b1cdf29b07e1447a2073136bb504e8f5"
+        "sha256": "10aea14ceddb6cc0ef4f0e6e7052faa8b14f08f6d70348ba3362e6442ae91590"
       },
       "summary": {
         "path": "templates/bookstackapp/bookstack/summary.json",
-        "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+        "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
       }
     }
   ],

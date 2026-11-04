@@ -27,7 +27,7 @@
     {
       "target": "compose.services.babybuddy.ports",
       "title": "babybuddy 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8000:8000"
     },
@@ -57,14 +57,7 @@
     "lastCommitAt": "2026-10-28T02:46:32Z",
     "lastCommit": "2bd0461f5a7e407147bcfef363eb79dce6c9708d",
     "readmeSHA256": "c3c5245908b1d964a22faeb4cb720b2a3d6536b5d7cff187e359cc968a5144cb",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/babybuddy.json",
-      "sha256": "96a8501b6d95cb70dee03792ad9223232a9c41541e28d59909609919391abf28"
-    },
     "iconSource": "https://raw.githubusercontent.com/babybuddy/babybuddy/2bd0461f5a7e407147bcfef363eb79dce6c9708d/babybuddy/static_src/logo_assets/favicon.svg",
-    "iconSHA256": "7669205f50b6c15736129aad54db119a8a4edec2897cc4544c63051caae546d1",
-    "adaptations": []
+    "iconSHA256": "7669205f50b6c15736129aad54db119a8a4edec2897cc4544c63051caae546d1"
   }
 }

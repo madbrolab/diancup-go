@@ -61,17 +61,11 @@
   ],
   "verification": {
     "checkedAt": "2026-11-04",
-    "origin": "reconstructed-basic-compose",
     "lastCommitAt": "2026-11-03T16:26:14Z",
     "lastCommit": "7c1e68a1e4e68e7257affba4f25cd9cb545c7016",
     "readmeSHA256": "37ac0e6cca7ace6fc158c6aebed13c927ae966a2bbccf5cf3749e94d6e5d541a",
     "iconSource": "https://raw.githubusercontent.com/navidrome/navidrome/7c1e68a1e4e68e7257affba4f25cd9cb545c7016/resources/logo-192x192.png",
     "iconSHA256": "91d4a1d192bf18694a7c49b0966de9a83480492b5930e23e6a9d1e32ef0741a0",
-    "adaptations": [
-      "移除个人欢迎语、固定全局网络及无关云盘挂载",
-      "数据与音乐分别采用 ./data 和 ./music",
-      "恢复定时扫描，使用当前扫描器参数"
-    ],
     "images": [
       {
         "image": "deluan/navidrome:latest",

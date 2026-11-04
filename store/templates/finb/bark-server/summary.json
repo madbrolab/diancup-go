@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/finb/bark-server/manifest.json",
-    "sha256": "43bebc7add9367bcaae1c4dbdc0d1a20b57d795d14580f8065d6bdb401a0b7b6"
+    "sha256": "d014e3cae9de7c89e7ff4ee23db41f1362006b839b94ca6632e70c16d06f6204"
   }
 }

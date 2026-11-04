@@ -24,6 +24,6 @@
   "applicationCount": 5,
   "manifest": {
     "path": "templates/langgenius/dify/manifest.json",
-    "sha256": "1074fb0bb81a69abe7641b0bd69bf41c2d617d270cb475ff00a4ffe86df918c7"
+    "sha256": "80c3933b358f0aa064ed9f394c02449220dacbfee69d080bb7d64ce415387169"
   }
 }

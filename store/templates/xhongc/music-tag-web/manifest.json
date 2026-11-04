@@ -27,7 +27,7 @@
     {
       "target": "compose.services.music-tag.ports",
       "title": "music-tag 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "8002:8002"
     },
@@ -57,16 +57,7 @@
     "lastCommitAt": "2026-10-08T03:26:37Z",
     "lastCommit": "6105d8eba4535c04e0b1c0b09802949ba27445a9",
     "readmeSHA256": "0cb7fab8c11b09ee4542db8f6f1c199c7d902cf4c3fac06d40cfa2f49518b0b7",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/music-tag-web.json",
-      "sha256": "50b0c438fa9a67d2d5ae56e6df2b6366b1347a10b43b49357716737d4f2e4c6c"
-    },
     "iconSource": "https://raw.githubusercontent.com/xhongc/music-tag-web/6105d8eba4535c04e0b1c0b09802949ba27445a9/logo.png",
-    "iconSHA256": "eb80ea73312144238bb433c463542a3eda7db3f19a5f1cdb9a495c0404c7e43d",
-    "adaptations": [
-      "music-tag 使用项目内实例名，原容器名保留为网络别名"
-    ]
+    "iconSHA256": "eb80ea73312144238bb433c463542a3eda7db3f19a5f1cdb9a495c0404c7e43d"
   }
 }

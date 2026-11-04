@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/n8n-io/n8n/manifest.json",
-    "sha256": "d7fca18597c59a8ebdb43e627f7d72c360fb119542e32289c45d65daae16eff2"
+    "sha256": "c54f0067529770c449ce10082dbbaf8bb65ca66f568c014e34556f2580771acb"
   }
 }

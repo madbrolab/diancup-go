@@ -27,7 +27,7 @@
     {
       "target": "compose.services.deeptutor.ports",
       "title": "deeptutor 端口映射",
-      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "reason": "请确认所选端口在目标服务器上可用。",
       "required": false,
       "example": "28001:28001、23782:23782"
     },
@@ -64,16 +64,7 @@
     "lastCommitAt": "2026-10-31T16:50:27Z",
     "lastCommit": "f7aed0744c36c5afef16a4261c31ebee1208cac2",
     "readmeSHA256": "f96523c52b9a589e9baa7988e470c0ce8a9a791fa6609416f42e1ae3f7f391d4",
-    "deploymentSource": {
-      "repository": "coracoo/tradis_templates",
-      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
-      "file": "templates/deeptutor.json",
-      "sha256": "1c05173989285129f1f2f69935d0b57ca935783c6911820b427de959202abc43"
-    },
     "iconSource": "https://raw.githubusercontent.com/HKUDS/DeepTutor/f7aed0744c36c5afef16a4261c31ebee1208cac2/web/public/apple-touch-icon.png",
-    "iconSHA256": "4308c588bb3bb864e3abc0cd459f33ee77abfa68f2aea488f02c21a18cb1fc1d",
-    "adaptations": [
-      "deeptutor 使用项目内实例名，原容器名保留为网络别名"
-    ]
+    "iconSHA256": "4308c588bb3bb864e3abc0cd459f33ee77abfa68f2aea488f02c21a18cb1fc1d"
   }
 }

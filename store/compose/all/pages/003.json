@@ -26,11 +26,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/openlistteam/openlist/manifest.json",
-        "sha256": "dce5e292f4d058c7742ba1cc36d9a55553f5a5354e16522c1a3fbc40d7616c6c"
+        "sha256": "93101ffa4e9ee15c064fb46b5e22c0a93cf213482f46198c0050aeb5a78ff48b"
       },
       "summary": {
         "path": "templates/openlistteam/openlist/summary.json",
-        "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+        "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
       }
     },
     {
@@ -58,11 +58,11 @@
       "applicationCount": 2,
       "manifest": {
         "path": "templates/plankanban/planka/manifest.json",
-        "sha256": "e648b30d35d7d25504a23cef42ef713d236baf7717c8cca9df4b7bf96b085460"
+        "sha256": "8e6519fdba15968a16acfa33492f785728dcc0a8b72535c5da0effe556965ef8"
       },
       "summary": {
         "path": "templates/plankanban/planka/summary.json",
-        "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+        "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
       }
     },
     {
@@ -90,11 +90,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/qbittorrent/qbittorrent/manifest.json",
-        "sha256": "538b3ddb792eeaceb90774c7418b321bd8e520140cc484bb6b3567b9ae80f139"
+        "sha256": "c26606d87b4e1f7fb16542b21c816283f3f8fc39b5965dc6ac12584fe3427873"
       },
       "summary": {
         "path": "templates/qbittorrent/qbittorrent/summary.json",
-        "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+        "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
       }
     },
     {
@@ -122,11 +122,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/seerr-team/seerr/manifest.json",
-        "sha256": "39c50db620f0559492db481396d15caea15791142cf1eb9328e8660579f62b29"
+        "sha256": "cd65b1a20e0bfe0d8cdec64b478fc3eca4ae9b375b0933843100baec0b323ca5"
       },
       "summary": {
         "path": "templates/seerr-team/seerr/summary.json",
-        "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+        "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
       }
     },
     {
@@ -154,11 +154,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/stirling-tools/stirling-pdf/manifest.json",
-        "sha256": "22d4ae545261eb815f5b697758804133553ee64907ce5d5086403571c1abe811"
+        "sha256": "911aae2b7e02df0f4f709b49383b47619d354fd7049d740f318c3d8ba08ffc5e"
       },
       "summary": {
         "path": "templates/stirling-tools/stirling-pdf/summary.json",
-        "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+        "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
       }
     },
     {
@@ -186,11 +186,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/taksssss/iptv-tool/manifest.json",
-        "sha256": "873a683bb2cf2a761b305b58191a0798ce34169f0d9bd89b031c1862bc162a5f"
+        "sha256": "22306cd71baa32378b757332cc57d3bc91b90fe8eafb4464d6293aee611648b8"
       },
       "summary": {
         "path": "templates/taksssss/iptv-tool/summary.json",
-        "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+        "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
       }
     },
     {
@@ -218,11 +218,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/transmission/transmission/manifest.json",
-        "sha256": "92c3636d0f2794f2f86e298ff59841ced16f8262d70a54f716721aed84e4062e"
+        "sha256": "feb63d5e2db452a717d5ef15e8b9123e63c9e4f0b85986190e539c44243c0dc6"
       },
       "summary": {
         "path": "templates/transmission/transmission/summary.json",
-        "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+        "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
       }
     },
     {
@@ -250,11 +250,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/umami-software/umami/manifest.json",
-        "sha256": "57feb1405b1011da2ff05634348184b4ebb3f622151e8b78752d383cc45cc1ac"
+        "sha256": "d25548f6b9974831e7af5ca9370873534b8529ff85911a8d832b6ac6dffc3e97"
       },
       "summary": {
         "path": "templates/umami-software/umami/summary.json",
-        "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+        "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
       }
     },
     {
@@ -282,11 +282,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/usememos/memos/manifest.json",
-        "sha256": "9513880d59d0d09c9fa437a411c53368580ce3a101adba606524def28df2cb11"
+        "sha256": "41bb4c2addc02577a0c9289854070e252966cf5b9b61c38b9b1d5902ad4db9ad"
       },
       "summary": {
         "path": "templates/usememos/memos/summary.json",
-        "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+        "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
       }
     },
     {
@@ -314,11 +314,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/vert-sh/vert/manifest.json",
-        "sha256": "143a1908a7e2725505c7e3dfc7de475dedc71ed8a83d80d6e9975c0a176f1d1b"
+        "sha256": "3de0faaca9088af4b28698e388e2c2a7c93919f42adeaaecdc6c7dd33f6e399a"
       },
       "summary": {
         "path": "templates/vert-sh/vert/summary.json",
-        "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+        "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
       }
     },
     {
@@ -346,11 +346,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/wallabag/wallabag/manifest.json",
-        "sha256": "2e4f953e1fe0e99e56ea785203f47aa0a2158fa0b8d6596932cb59a123fc31db"
+        "sha256": "b2e6c4e593c06742bb38d2767c50fa3bdc8d1997394f1906d0a41ca82e401211"
       },
       "summary": {
         "path": "templates/wallabag/wallabag/summary.json",
-        "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+        "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
       }
     },
     {
@@ -377,11 +377,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/weidu12123/liyuan/manifest.json",
-        "sha256": "b1900194c07a61dc8d9584cad4967bc9d7800e39d66b0b473c37f61b50afa6e5"
+        "sha256": "d7879b4a57566e3abe42dc48597c9c77626c6a7b41cf033bd1558bdf6c51e3e2"
       },
       "summary": {
         "path": "templates/weidu12123/liyuan/summary.json",
-        "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+        "sha256": "99dfa72e9b2b2aa3bb99fd467d284ef508b50c768e2899b351e4f38ef7f9dac1"
       }
     },
     {
@@ -409,11 +409,11 @@
       "applicationCount": 1,
       "manifest": {
         "path": "templates/xhongc/music-tag-web/manifest.json",
-        "sha256": "bfc1ee087ebc008d102468d0fe3cd22e814f48e22756ed832760dc53ea70b36c"
+        "sha256": "c1b328490fc74dae1a6aebc31e7a5c2f1cdc06463dff7d6743e0689398d336bc"
       },
       "summary": {
         "path": "templates/xhongc/music-tag-web/summary.json",
-        "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+        "sha256": "581a9b6291b0b17a887fbe6b79c423ed169ac68cd166064a1765f8c331317577"
       }
     }
   ],

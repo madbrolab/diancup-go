@@ -24,6 +24,6 @@
   "applicationCount": 1,
   "manifest": {
     "path": "templates/vert-sh/vert/manifest.json",
-    "sha256": "143a1908a7e2725505c7e3dfc7de475dedc71ed8a83d80d6e9975c0a176f1d1b"
+    "sha256": "3de0faaca9088af4b28698e388e2c2a7c93919f42adeaaecdc6c7dd33f6e399a"
   }
 }
