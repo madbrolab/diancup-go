@@ -26,7 +26,7 @@
 
 Compose 模板使用 `compose.yaml`，默认变量放在 `env.example`，必填密码留空并使用 `${PASSWORD:?请填写密码}`。数据库优先只在项目网络中开放；需要宿主机监听时明确绑定回环地址。避免使用没有用途说明的特权模式或 Docker socket 挂载。
 
-模板需要声明并核对 amd64、arm64 等实际架构支持。图标存放在 `icons/`。本轮导入重新从项目官方仓库或官网获取图标并保存为本地资源；上游没有独立品牌标识时使用有出处的语义图标。来源和摘要保存在对应 manifest 的 `verification` 字段。
+模板需要声明实际支持的 amd64、arm64 等架构。图标存放在 `icons/`，使用项目标识或适合应用用途的语义图标。资源信息和摘要保存在对应 manifest 的 `verification` 字段。
 
 ## 通用 ENV
 
@@ -67,42 +67,38 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 - [WordPress](https://hub.docker.com/_/wordpress)
 - [Gitea](https://docs.gitea.com/installation/install-with-docker/)
 
-## 2026-11-04 新建基础 Compose 模板
+## 基础 Compose 模板
 
 提供 10 项可独立部署的基础模板，使用通用默认端口和数据目录创建新实例。模板使用独立的 `-basic` ID 和“基础版”名称，其他模板继续保留各自的部署参数。
 
-去除了 Unraid 标签、缓存池与用户共享路径、个人代理、固定全局容器名与网络名、私人欢迎语和原密码。数据默认绑定到各自项目目录下的 `config`、`data`、`media`、`downloads`、`music`、`cloud` 等目录；使用已有数据时可选择宿主机任意实际目录。相对路径以各模板的 Compose 所在目录为基准，不代表这些应用会自动共用同一份数据。
+数据默认绑定到各自项目目录下的 `config`、`data`、`media`、`downloads`、`music`、`cloud` 等目录；使用已有数据时可选择宿主机任意实际目录。相对路径以各模板的 Compose 所在目录为基准，共享数据需要选择同一个宿主机目录。
 
-| 基础模板 | 默认入口 | 项目与授权核对 | 主要调整 |
+| 基础模板 | 默认入口 | 项目与授权 | 配置要点 |
 | --- | --- | --- | --- |
 | [DIAN115 + PostgreSQL](templates/madbrolab/dian115-basic/manifest.json) | Host 网络，8095 | [官方 README](https://github.com/madbrolab/dian115)，2026-11-04；主程序私有授权，需激活密钥 | 独立 PostgreSQL 18，数据绑定 /var/lib/postgresql，数据库仅绑定回环地址 15432；配置、AI、媒体和云盘目录分别持久化；Docker socket 与 GPU 按功能另加 |
 | [Joplin Server + PostgreSQL](templates/laurent22/joplin-server-basic/manifest.json) | 22300 | [Server README](https://github.com/laurent22/joplin/blob/dev/packages/server/README.md)，2026-11-04；个人用途许可证，可选商业授权 | 数据库不发布端口；内部连接固定 5432；实际访问地址必须与 APP_BASE_URL 一致 |
 | [Navidrome](templates/navidrome/navidrome-basic/manifest.json) | 4533 | [官方 README](https://github.com/navidrome/navidrome)，2026-11-03；GPL-3.0，无付费密钥要求 | 音乐只读，默认每小时扫描，使用当前 ND_SCANNER_SCHEDULE 参数 |
 | [WorkBuddy2API Panel](templates/linguo2625469/workbuddy2api-basic/manifest.json) | 7863 | [官方 README](https://github.com/linguo2625469/workbuddy2api-panel)，2026-10-21；MIT，项目免费 | 从成品镜像初始化配置目录和属主，显式设置配置路径；API 访问密钥必填 |
 | [CloudDrive2](templates/cloudnas/clouddrive2-basic/manifest.json) | Host 网络，19798 | [官方发布](https://github.com/cloud-fs/cloud-fs.github.io/releases)，2026-10-17；闭源，有付费会员 | 配置、云盘发布目录及本地备份目录采用通用默认值；保留官方要求的 FUSE、Host PID、特权和共享传播 |
-| [MoviePilot + PostgreSQL + Redis](templates/jxxghp/moviepilot-basic/manifest.json) | 3000、3001 | [官方 README](https://github.com/jxxghp/MoviePilot)，2026-11-04；GPL-3.0 与 README 非商业条款，项目声明不收费 | 移除重复端口和个人关联挂载；固定 PG16、Redis7；修复数据库路径、Redis 认证健康检查和启动依赖 |
+| [MoviePilot + PostgreSQL + Redis](templates/jxxghp/moviepilot-basic/manifest.json) | 3000、3001 | [官方 README](https://github.com/jxxghp/MoviePilot)，2026-11-04；GPL-3.0 与 README 非商业条款，项目声明不收费 | PostgreSQL 16 与 Redis 7 仅供项目内访问；支持认证健康检查和启动依赖；配置、下载与媒体分别持久化 |
 | [qBittorrent](templates/linuxserver/qbittorrent-basic/manifest.json) | 8080；BT 6881 TCP/UDP | [项目 README](https://github.com/qbittorrent/qBittorrent) 与 [镜像文档](https://docs.linuxserver.io/images/docker-qbittorrent/)，2026-11-03；GPL，无付费密钥要求 | 使用 LinuxServer.io 镜像，监听端口与映射共用变量；配置和下载目录分开持久化 |
 | [FlareSolverr](templates/flaresolverr/flaresolverr-basic/manifest.json) | 127.0.0.1:8191 | [官方 README](https://github.com/FlareSolverr/FlareSolverr)，2026-10-24；MIT，无付费密钥要求 | 默认回环监听，可填写内网 IP；显式绑定镜像声明的配置卷，浏览器临时文件使用 tmpfs |
-| [Emby Server](templates/emby/embyserver-basic/manifest.json) | 8096 | [当前官方发布](https://github.com/MediaBrowser/Emby.Releases/releases)，2026-10-31；当前服务端闭源，可选 Premiere | 合并重复实例，改用官方镜像，移除特权和私人代理；GPU 与 DLNA 按需配置 |
-| [Transmission](templates/linuxserver/transmission-basic/manifest.json) | 9091；BT 51413 TCP/UDP | [项目 README](https://github.com/transmission/transmission) 与 [镜像文档](https://docs.linuxserver.io/images/docker-transmission/)，2026-11-02；GPL，无付费密钥要求 | 使用 LinuxServer.io 当前镜像，管理密码必填；移除不存在的自定义 WebUI、Host 网络和特权 |
+| [Emby Server](templates/emby/embyserver-basic/manifest.json) | 8096 | [当前官方发布](https://github.com/MediaBrowser/Emby.Releases/releases)，2026-10-31；当前服务端闭源，可选 Premiere | 官方镜像，媒体默认只读，UID/GID 可配置；GPU 与 DLNA 按需配置 |
+| [Transmission](templates/linuxserver/transmission-basic/manifest.json) | 9091；BT 51413 TCP/UDP | [项目 README](https://github.com/transmission/transmission) 与 [镜像文档](https://docs.linuxserver.io/images/docker-transmission/)，2026-11-02；GPL，无付费密钥要求 | 使用 LinuxServer.io 镜像，管理密码必填；配置、下载与监视目录分别持久化 |
 
-以上均核对了成品镜像，支持 `amd64` 和 `arm64`。闭源产品按当前官方发布记录确认维护状态，不把已停止公开的旧源码仓库当作当前产品。Joplin Server 的用途限制和 MoviePilot README 的附加条款单独记录，没有仅凭主仓库许可证标签将其标为无条件开源。
+以上基础模板支持 `amd64` 和 `arm64`。应用许可证及付费功能以各自项目说明为准；Joplin Server 和 MoviePilot 另有用途条款。
 
-数据库密码、Redis 密码、API 密钥和 Transmission 管理密码没有预置真实值；空值通过 Compose 必填表达式阻止部署。DIAN115 数据库连接串与 MoviePilot Redis URL 中的密码建议使用至少 32 位随机十六进制字符，避免 URL 特殊字符。数据库仅服务本项目：Joplin 和 MoviePilot 不发布数据库端口，Host 网络的 DIAN115 通过回环映射连接。
+数据库密码、Redis 密码、API 密钥和 Transmission 管理密码在部署前填写，空值会阻止部署。DIAN115 数据库连接串与 MoviePilot Redis URL 中的密码建议使用至少 32 位随机十六进制字符，避免 URL 特殊字符。数据库仅服务本项目：Joplin 和 MoviePilot 不发布数据库端口，Host 网络的 DIAN115 通过回环映射连接。
 
-MoviePilot 和下载器分别安装时，需要手动选取同一个宿主机下载目录，并保持容器内 `/downloads` 一致。不同基础模板中的 `./downloads` 默认属于各自项目。CloudDrive2 的发布目录必须支持 shared 挂载传播；消费者应选择同一个宿主机目录，使用 rslave 接收。该挂载要求适用于普通 Linux，未附加 Unraid 专用处理。
+MoviePilot 和下载器分别安装时，需要手动选取同一个宿主机下载目录，并保持容器内 `/downloads` 一致。不同基础模板中的 `./downloads` 默认属于各自项目。CloudDrive2 的发布目录必须支持 shared 挂载传播；消费者应选择同一个宿主机目录，使用 rslave 接收。
 
-图标重新取自 DIAN115、Joplin、MoviePilot 前端、FlareSolverr 的官方仓库及 Emby、CloudDrive2 官网；CloudDrive2 使用官方矢量横标的标志区域。Navidrome、qBittorrent、Transmission 复用本轮独立核对的官方本地图标。WorkBuddy 没有独立图标，采用 [Lucide bot](https://github.com/lucide-icons/lucide/blob/main/icons/bot.svg)，沿用下方 ISC 许可声明；每项 manifest 均保留来源与摘要。
-
-DIAN115 基础模板已修正为 PostgreSQL 18（模板版本 1.0.1），数据挂载采用该版本的 `/var/lib/postgresql`。此模板用于新装；已有 PG16 数据应先按 PostgreSQL 跨大版本流程迁移，不能直接更换镜像复用旧目录。
-
-本批通过原生 `docker compose config`、变量声明与空必填校验、镜像卷显式绑定、依赖关系、架构和私人配置清除检查。没有批量启动这些应用。
+DIAN115 基础模板使用 PostgreSQL 18，数据挂载至 `/var/lib/postgresql`。此模板用于新装；已有 PG16 数据应先按 PostgreSQL 跨大版本流程迁移，不能直接更换镜像复用旧目录。
 
 ## 已收录应用信息
 
 以下信息于 2026-11-04 核对，项目介绍、公开源码状态和收费要求以对应项目 README 为依据；没有明确说明的情况标为未知。具体部署参数以各模板的 Compose 和 ENV 为准。
 
-模板使用项目独立的实例名称和明确的数据绑定，按应用需要保留网络别名、系统挂载和宿主机路径。图标从项目官方资源下载并本地化；PanSou 使用 [Lucide folder-search](https://github.com/lucide-icons/lucide/blob/main/icons/folder-search.svg) 语义图标。
+模板使用项目独立的实例名称和明确的数据绑定，按应用需要配置网络别名、系统挂载和宿主机路径。
 
 Dify 使用前需要准备 Nginx 站点配置并修改相应挂载；DeepTutor、n8n、PanSou 中的服务地址、模型凭据或代理示例需要按目标环境填写。
 
@@ -158,78 +154,6 @@ Dify 使用前需要准备 Nginx 站点配置并修改相应挂载；DeepTutor�
 | [梨园 Liyuan](https://github.com/weidu12123/Liyuan/blob/21fd38cb10e915fbf9c1f25fcbabe92f06a8993d/README.md) | 2026-11-01 | PolyForm Noncommercial 1.0.0 | README 未明确 / 待确认 | amd64 |
 | [So Novel](https://github.com/freeok/so-novel/blob/88acec6ee489ca1c2489c624cedd1ef417d3f3ee/README.md) | 2026-10-26 | AGPL-3.0 | 自建无付费密钥要求 | amd64 |
 
-### 部署模板来源许可
+## 第三方许可
 
-部署参数参考 [coracoo/tradis_templates](https://github.com/coracoo/tradis_templates)。按其 MIT 许可保留以下声明；应用本身、图标和商标仍遵循各自上游条款。
-
-```text
-MIT License
-
-Copyright (c) 2025 cgakki
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
-
-PanSou 语义图标来自 Lucide，保留其许可声明：
-
-```text
-ISC License
-
-Copyright (c) 2026 Lucide Icons and Contributors
-
-Permission to use, copy, modify, and/or distribute this software for any
-purpose with or without fee is hereby granted, provided that the above
-copyright notice and this permission notice appear in all copies.
-
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
-WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
-ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
-WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
-ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
-OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-
----
-
-The following Lucide icons are derived from the Feather project:
-
-airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
-
-The MIT License (MIT) (for the icons listed above)
-
-Copyright (c) 2013-present Cole Bemis
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-```
+版权与许可证声明见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。
