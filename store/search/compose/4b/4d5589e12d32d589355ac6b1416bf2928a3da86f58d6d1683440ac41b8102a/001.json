@@ -8,6 +8,10 @@
     {
       "path": "templates/freeok/so-novel/summary.json",
       "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
     }
   ],
   "next": null

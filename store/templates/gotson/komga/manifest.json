@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "gotson/komga",
+  "kind": "compose",
+  "name": "Komga",
+  "description": "把漫画、杂志和电子书目录整理为个人阅读库，提供网页阅读、合集、阅读进度以及 OPDS 和阅读器同步。",
+  "developer": "gotson",
+  "projectUrl": "https://github.com/gotson/komga",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "komga",
+    "Komga",
+    "media",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/komga.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://komga.org/docs/installation/docker/",
+  "applications": [
+    {
+      "id": "komga",
+      "name": "Komga",
+      "developer": "gotson",
+      "projectUrl": "https://github.com/gotson/komga",
+      "icon": "icons/komga.svg",
+      "services": [
+        "komga"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.BOOKS_DIR",
+      "title": "书库目录",
+      "reason": "默认 ./books，可选择已有漫画或电子书目录。默认只读，需要文件导入或整理时可改为可写。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.JAVA_MAX_HEAP",
+      "title": "Java 最大堆内存",
+      "reason": "默认 1024m，预留相应内存；大型书库可按主机容量增加。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.komga.volumes",
+      "title": "数据库目录",
+      "reason": "./config 应位于本机磁盘；首次访问创建管理员后，在应用内添加 /data 为书库。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T05:56:50Z",
+    "lastCommit": "ff800c21253793d4d3fd855651b82d4924915950",
+    "readmeSHA256": "5d3d41b10978369cca8c9f678dbda5f29232f2dc58027d0b5324a7d67e9a7314",
+    "iconSource": "https://raw.githubusercontent.com/gotson/komga/ff800c21253793d4d3fd855651b82d4924915950/komga-tray/src/main/resources/icons/komga-color.svg",
+    "iconSHA256": "f66ffa5bdfae683c61759b0c1d91cc39dd27c41204bab5e19a86749ff85dbb76",
+    "images": [
+      {
+        "image": "gotson/komga:1.30.0",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "3ae42f88511211e0ec2637d88f3df1b709d07cfb093427e58444ae200a62608e"
+      }
+    ]
+  }
+}

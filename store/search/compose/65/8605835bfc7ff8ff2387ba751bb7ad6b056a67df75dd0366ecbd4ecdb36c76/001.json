@@ -10,6 +10,10 @@
       "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     },
     {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/n8n-io/n8n/summary.json",
       "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     },

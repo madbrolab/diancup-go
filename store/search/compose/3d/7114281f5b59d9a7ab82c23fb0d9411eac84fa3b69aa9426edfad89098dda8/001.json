@@ -26,6 +26,10 @@
       "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
     },
     {
+      "path": "templates/ellite/wallos/summary.json",
+      "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+    },
+    {
       "path": "templates/emby/embyserver-basic/summary.json",
       "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
@@ -50,8 +54,20 @@
       "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
     },
     {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/henrygd/beszel/summary.json",
       "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
@@ -80,26 +96,10 @@
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
       "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
-    },
-    {
-      "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
-    },
-    {
-      "path": "templates/netdata/netdata/summary.json",
-      "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
-    },
-    {
-      "path": "templates/nginx/nginx/summary.json",
-      "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
-    },
-    {
-      "path": "templates/official/wordpress-mariadb/summary.json",
-      "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
     }
   ],
   "next": {
     "path": "search/compose/3d/7114281f5b59d9a7ab82c23fb0d9411eac84fa3b69aa9426edfad89098dda8/002.json",
-    "sha256": "abbf71191f272eecfe1a07ea093c143657c5e968f4ec9a1ce716d6cc03ba174f"
+    "sha256": "af0d4e5f047a30d0bf3409bad9181e8e74c5da39e98eb03cc94202b60bfb3ba5"
   }
 }

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/stirling-tools/stirling-pdf/summary.json",
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
+    },
+    {
+      "path": "templates/umami-software/umami/summary.json",
+      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
+    },
+    {
+      "path": "templates/vert-sh/vert/summary.json",
+      "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
+    }
+  ],
+  "next": null
+}

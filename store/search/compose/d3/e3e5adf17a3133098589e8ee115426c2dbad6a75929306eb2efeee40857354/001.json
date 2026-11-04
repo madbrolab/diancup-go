@@ -14,8 +14,16 @@
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+    },
+    {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
       "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
+    },
+    {
+      "path": "templates/rommapp/romm/summary.json",
+      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
     }
   ],
   "next": null

@@ -6,6 +6,10 @@
       "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
     },
     {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
       "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }

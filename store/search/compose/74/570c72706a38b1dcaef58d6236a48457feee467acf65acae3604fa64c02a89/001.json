@@ -18,6 +18,10 @@
       "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
     },
     {
+      "path": "templates/rommapp/romm/summary.json",
+      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
+    },
+    {
       "path": "templates/vert-sh/vert/summary.json",
       "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
     }

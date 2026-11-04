@@ -6,6 +6,10 @@
       "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
       "path": "templates/laurent22/joplin-server-basic/summary.json",
       "sha256": "5ee4755c13b454086da1de7ee3332190adcb0482a96757707b8a25c4a848fb8c"
     },

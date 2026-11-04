@@ -10,6 +10,10 @@
       "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
     },
     {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+    },
+    {
       "path": "templates/official/wordpress-mariadb/summary.json",
       "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
     }

@@ -18,6 +18,10 @@
       "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
+      "path": "templates/sysadminsmedia/homebox/summary.json",
+      "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
+    },
+    {
       "path": "templates/umami-software/umami/summary.json",
       "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     },

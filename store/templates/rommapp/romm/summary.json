@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "rommapp/romm",
+  "kind": "compose",
+  "category": "games",
+  "name": "RomM",
+  "description": "为自己的游戏 ROM 建立带封面和元数据的资料库，支持网页游玩、存档与状态管理，并可对接多种游戏资料服务。",
+  "developer": "rommapp",
+  "projectUrl": "https://github.com/rommapp/romm",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/romm.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "romm",
+    "RomM",
+    "games",
+    "compose"
+  ],
+  "applicationCount": 2,
+  "manifest": {
+    "path": "templates/rommapp/romm/manifest.json",
+    "sha256": "cbb12ce20c52cbe9feac1f04d1f4dd78afffe91e0c75a4388fcd61118ff6b694"
+  }
+}

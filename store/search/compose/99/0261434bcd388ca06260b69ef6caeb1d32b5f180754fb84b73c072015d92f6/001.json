@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/ellite/wallos/summary.json",
+      "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+    },
+    {
       "path": "templates/linuxserver/qbittorrent-basic/summary.json",
       "sha256": "059854e25edcc6efa665e6cce8d268926888524a39336f558acdc98a8f215921"
     },
@@ -10,8 +14,16 @@
       "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     },
     {
+      "path": "templates/rommapp/romm/summary.json",
+      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
+    },
+    {
       "path": "templates/transmission/transmission/summary.json",
       "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
+    },
+    {
+      "path": "templates/vastsa/filecodebox/summary.json",
+      "sha256": "b3386b10b362d1de35ad883383c264cbda57a1c8f894178a35220e8300780c26"
     }
   ],
   "next": null

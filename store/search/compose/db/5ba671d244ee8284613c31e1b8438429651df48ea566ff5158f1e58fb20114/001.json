@@ -10,6 +10,10 @@
       "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
     {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+    },
+    {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
       "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     }

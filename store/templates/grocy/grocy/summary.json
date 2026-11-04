@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "grocy/grocy",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Grocy",
+  "description": "管理食品库存、保质期、购物清单和家务安排，也可记录家庭设备与电池消耗，适合日常采购和减少食物浪费。",
+  "developer": "grocy",
+  "projectUrl": "https://github.com/grocy/grocy",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/grocy.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "grocy",
+    "Grocy",
+    "tools",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/grocy/grocy/manifest.json",
+    "sha256": "ba1fcbb0b684185b72956998255a8a470cc2c99da837c4261f76e787b45528bb"
+  }
+}

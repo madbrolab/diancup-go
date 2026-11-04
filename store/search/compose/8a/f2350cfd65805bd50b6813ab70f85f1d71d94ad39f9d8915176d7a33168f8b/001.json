@@ -62,6 +62,14 @@
       "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     },
     {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
+    },
+    {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
       "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     },
@@ -88,18 +96,10 @@
     {
       "path": "templates/nginx/nginx/summary.json",
       "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
-    },
-    {
-      "path": "templates/open-webui/open-webui/summary.json",
-      "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
-    },
-    {
-      "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     }
   ],
   "next": {
     "path": "search/compose/8a/f2350cfd65805bd50b6813ab70f85f1d71d94ad39f9d8915176d7a33168f8b/002.json",
-    "sha256": "eada8837b4d038878db477bef1664465c4e9cc1a45a439acb03e739e942d93ef"
+    "sha256": "97ab2732f35369cd8fc97ba7b5ef47783e5d0d2a5b221f1286c085851bd5707b"
   }
 }

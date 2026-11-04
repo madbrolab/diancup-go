@@ -4,6 +4,10 @@
     {
       "path": "templates/fccview/jotty/summary.json",
       "sha256": "9b917fdcf6265d0cc8ff36ed9d01b328aceff49b097dca2de9e9090a58a77ff6"
+    },
+    {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
     }
   ],
   "next": null

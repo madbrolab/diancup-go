@@ -10,12 +10,20 @@
       "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
     },
     {
+      "path": "templates/ellite/wallos/summary.json",
+      "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+    },
+    {
       "path": "templates/freeok/so-novel/summary.json",
       "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     },
     {
       "path": "templates/henrygd/beszel/summary.json",
       "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     },
     {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",

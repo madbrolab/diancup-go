@@ -30,8 +30,20 @@
       "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
     },
     {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/hkuds/deeptutor/summary.json",
       "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
     },
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
@@ -48,6 +60,10 @@
     {
       "path": "templates/official/wordpress-mariadb/summary.json",
       "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
+    },
+    {
+      "path": "templates/rommapp/romm/summary.json",
+      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
     },
     {
       "path": "templates/seerr-team/seerr/summary.json",

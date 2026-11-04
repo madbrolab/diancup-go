@@ -38,6 +38,14 @@
       "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
     },
     {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
+    },
+    {
       "path": "templates/langgenius/dify/summary.json",
       "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
     },
@@ -76,6 +84,10 @@
     {
       "path": "templates/qbittorrent/qbittorrent/summary.json",
       "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
+    },
+    {
+      "path": "templates/rommapp/romm/summary.json",
+      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
     },
     {
       "path": "templates/transmission/transmission/summary.json",

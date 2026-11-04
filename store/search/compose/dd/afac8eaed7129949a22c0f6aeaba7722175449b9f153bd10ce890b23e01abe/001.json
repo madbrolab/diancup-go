@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/rommapp/romm/summary.json",
+      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
+    }
+  ],
+  "next": null
+}

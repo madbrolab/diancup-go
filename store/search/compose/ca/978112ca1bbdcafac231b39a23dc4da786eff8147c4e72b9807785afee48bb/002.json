@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/gitea/gitea-postgresql/summary.json",
+      "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
+    },
+    {
       "path": "templates/go-vikunja/vikunja/summary.json",
       "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
     },
@@ -10,8 +14,20 @@
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
       "path": "templates/henrygd/beszel/summary.json",
       "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
@@ -74,32 +90,16 @@
       "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
     },
     {
+      "path": "templates/rommapp/romm/summary.json",
+      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
+    },
+    {
       "path": "templates/seerr-team/seerr/summary.json",
       "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
-    },
-    {
-      "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
-    },
-    {
-      "path": "templates/taksssss/iptv-tool/summary.json",
-      "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
-    },
-    {
-      "path": "templates/transmission/transmission/summary.json",
-      "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
-    },
-    {
-      "path": "templates/umami-software/umami/summary.json",
-      "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
-    },
-    {
-      "path": "templates/wallabag/wallabag/summary.json",
-      "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
     }
   ],
   "next": {
     "path": "search/compose/ca/978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb/003.json",
-    "sha256": "7682aee3626da86045c636e56696b120c3edc0763c31af395b0361fd44dabd11"
+    "sha256": "bf7797729cb13e32d165e6dd36620625133ebc0e954b6b2f4e7a664b0cb752ba"
   }
 }

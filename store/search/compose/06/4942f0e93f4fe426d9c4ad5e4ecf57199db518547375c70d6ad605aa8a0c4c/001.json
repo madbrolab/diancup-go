@@ -42,8 +42,16 @@
       "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
     },
     {
+      "path": "templates/sysadminsmedia/homebox/summary.json",
+      "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
+    },
+    {
       "path": "templates/transmission/transmission/summary.json",
       "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
+    },
+    {
+      "path": "templates/vastsa/filecodebox/summary.json",
+      "sha256": "b3386b10b362d1de35ad883383c264cbda57a1c8f894178a35220e8300780c26"
     }
   ],
   "next": null

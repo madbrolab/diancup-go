@@ -50,6 +50,10 @@
       "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
     },
     {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
+    },
+    {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
       "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
@@ -86,9 +90,16 @@
       "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
     },
     {
-      "path": "templates/vert-sh/vert/summary.json",
-      "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
+      "path": "templates/toeverything/affine/summary.json",
+      "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
+    },
+    {
+      "path": "templates/vastsa/filecodebox/summary.json",
+      "sha256": "b3386b10b362d1de35ad883383c264cbda57a1c8f894178a35220e8300780c26"
     }
   ],
-  "next": null
+  "next": {
+    "path": "search/compose/4c/94485e0c21ae6c41ce1dfe7b6bfaceea5ab68e40a2476f50208e526f506080/002.json",
+    "sha256": "df94cc6f8696e3adea96f5130713940a32e5030b074c133840d1ad5e7d936f88"
+  }
 }

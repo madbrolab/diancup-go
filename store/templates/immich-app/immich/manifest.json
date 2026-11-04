@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "immich-app/immich",
+  "kind": "compose",
+  "name": "Immich",
+  "description": "备份和浏览自己的照片、视频，支持手机上传、相册分享、地图与人物检索；模板包含 CPU 机器学习服务和配套数据库。",
+  "developer": "immich-app",
+  "projectUrl": "https://github.com/immich-app/immich",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "immich",
+    "Immich",
+    "media",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/immich.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.immich.app/install/docker-compose/",
+  "applications": [
+    {
+      "id": "immich",
+      "name": "Immich",
+      "developer": "immich-app",
+      "projectUrl": "https://github.com/immich-app/immich",
+      "icon": "icons/immich.svg",
+      "services": [
+        "immich-server",
+        "immich-machine-learning"
+      ]
+    },
+    {
+      "id": "valkey",
+      "name": "Valkey",
+      "developer": "Valkey",
+      "projectUrl": "https://github.com/valkey-io/valkey",
+      "icon": "icons/infra-valkey.svg",
+      "services": [
+        "redis"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "developer": "PostgreSQL Global Development Group",
+      "projectUrl": "https://www.postgresql.org/",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "database"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "为新实例填写独立密码，数据库仅在项目网络内提供服务。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.LIBRARY_DIR",
+      "title": "相册存储目录",
+      "reason": "新上传的原始照片、缩略图和转码文件保存在此目录；数据库 ./postgres 必须位于支持所需文件系统操作的本地磁盘。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.immich-machine-learning",
+      "title": "照片检索模型",
+      "reason": "默认使用 CPU 机器学习；首次运行需下载模型，为相册索引和检索预留内存。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.IMMICH_VERSION",
+      "title": "应用版本",
+      "reason": "默认使用已发布的 v3.3.5；应用、机器学习和数据库扩展的兼容性应按对应版本说明确认。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T14:51:29Z",
+    "lastCommit": "1fc5ee83f7a4d9b2437d4d2b7c37af6f8fcb6d76",
+    "readmeSHA256": "b37199a0b7b52d1a6a62c97d6ad1a4eea18f367b8f8dad378ac9a0926f351a34",
+    "iconSource": "https://raw.githubusercontent.com/immich-app/immich/1fc5ee83f7a4d9b2437d4d2b7c37af6f8fcb6d76/design/immich-logo.svg",
+    "iconSHA256": "dfa5ef704d07854914306c0c224173bda2710f8fc0dffeb7d78690f58f9811a6",
+    "images": [
+      {
+        "image": "ghcr.io/immich-app/immich-server:v3.3.5",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "485d546a2e31d6a8b4db8423fcba5c109de8c218d93410af115fd1ccfc4352a6"
+      },
+      {
+        "image": "ghcr.io/immich-app/immich-machine-learning:v3.3.5",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "5b28c9352c8374b8a1ed96fbdd8d6755fea6e43510ec43fdf6538aa02ea40f56"
+      },
+      {
+        "image": "docker.io/valkey/valkey:9@sha256:c123e3715db63d06d4ad6964884037aa0d5d4d703939b9929954112889708e1d",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "c123e3715db63d06d4ad6964884037aa0d5d4d703939b9929954112889708e1d"
+      },
+      {
+        "image": "ghcr.io/immich-app/postgres:14-vectorchord0.4.3-pgvectors0.2.0@sha256:bcf63357191b76a916ae5eb93464d65c07511da41e3bf7a8416db519b40b1c23",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "bcf63357191b76a916ae5eb93464d65c07511da41e3bf7a8416db519b40b1c23"
+      }
+    ]
+  }
+}

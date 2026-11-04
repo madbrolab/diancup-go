@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "jeffvli/feishin",
+      "kind": "compose",
+      "category": "media",
+      "name": "Feishin",
+      "description": "为已有 Navidrome、Jellyfin 或 Subsonic 音乐服务提供网页播放器，支持歌词、收藏与播放列表；音乐文件由所连接的服务管理。",
+      "developer": "jeffvli",
+      "projectUrl": "https://github.com/jeffvli/feishin",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/feishin.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "feishin",
+        "Feishin",
+        "media",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/jeffvli/feishin/manifest.json",
+        "sha256": "a52e58d33715a3e8910e9fbc969d8b9779b393b992d2f0de9b48f2f22ba4c019"
+      },
+      "summary": {
+        "path": "templates/jeffvli/feishin/summary.json",
+        "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
+      }
+    }
+  ],
+  "next": null
+}

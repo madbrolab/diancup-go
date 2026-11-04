@@ -22,6 +22,10 @@
       "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     },
     {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
+    },
+    {
       "path": "templates/linuxserver/qbittorrent-basic/summary.json",
       "sha256": "059854e25edcc6efa665e6cce8d268926888524a39336f558acdc98a8f215921"
     },
@@ -32,6 +36,14 @@
     {
       "path": "templates/openlistteam/openlist/summary.json",
       "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
+    },
+    {
+      "path": "templates/toeverything/affine/summary.json",
+      "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
+    },
+    {
+      "path": "templates/vastsa/filecodebox/summary.json",
+      "sha256": "b3386b10b362d1de35ad883383c264cbda57a1c8f894178a35220e8300780c26"
     },
     {
       "path": "templates/vert-sh/vert/summary.json",

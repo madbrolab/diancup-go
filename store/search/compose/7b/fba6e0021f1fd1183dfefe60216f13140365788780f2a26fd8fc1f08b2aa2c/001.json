@@ -14,6 +14,10 @@
       "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     },
     {
+      "path": "templates/sysadminsmedia/homebox/summary.json",
+      "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
+    },
+    {
       "path": "templates/transmission/transmission/summary.json",
       "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
     }

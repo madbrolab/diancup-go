@@ -20,10 +20,6 @@
     {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
       "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
-    },
-    {
-      "path": "templates/weidu12123/liyuan/summary.json",
-      "sha256": "99dfa72e9b2b2aa3bb99fd467d284ef508b50c768e2899b351e4f38ef7f9dac1"
     }
   ],
   "next": null

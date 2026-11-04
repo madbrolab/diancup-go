@@ -18,6 +18,10 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
       "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     },
@@ -28,6 +32,10 @@
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
       "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
+    },
+    {
+      "path": "templates/toeverything/affine/summary.json",
+      "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
     }
   ],
   "next": null

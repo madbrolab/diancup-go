@@ -34,8 +34,16 @@
       "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
     },
     {
+      "path": "templates/penpot/penpot/summary.json",
+      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
+    },
+    {
       "path": "templates/plankanban/planka/summary.json",
       "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
+    },
+    {
+      "path": "templates/toeverything/affine/summary.json",
+      "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
     }
   ],
   "next": null

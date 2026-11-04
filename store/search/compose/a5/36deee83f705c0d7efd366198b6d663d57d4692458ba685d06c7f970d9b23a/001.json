@@ -6,6 +6,14 @@
       "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
     },
     {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/hkuds/deeptutor/summary.json",
       "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
     },
@@ -16,6 +24,10 @@
     {
       "path": "templates/nginx/nginx/summary.json",
       "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
+    },
+    {
+      "path": "templates/penpot/penpot/summary.json",
+      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
     },
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",

@@ -14,6 +14,10 @@
       "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
+      "path": "templates/ellite/wallos/summary.json",
+      "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+    },
+    {
       "path": "templates/freeok/so-novel/summary.json",
       "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     },
@@ -24,6 +28,10 @@
     {
       "path": "templates/gotify/server/summary.json",
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     },
     {
       "path": "templates/louislam/dockge/summary.json",

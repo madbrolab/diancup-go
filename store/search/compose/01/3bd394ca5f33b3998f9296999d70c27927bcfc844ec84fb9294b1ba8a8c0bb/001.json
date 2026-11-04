@@ -4,6 +4,10 @@
     {
       "path": "templates/seerr-team/seerr/summary.json",
       "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
+    },
+    {
+      "path": "templates/sysadminsmedia/homebox/summary.json",
+      "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
     }
   ],
   "next": null

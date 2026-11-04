@@ -20,6 +20,10 @@
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
       "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
+    },
+    {
+      "path": "templates/toeverything/affine/summary.json",
+      "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
     }
   ],
   "next": null

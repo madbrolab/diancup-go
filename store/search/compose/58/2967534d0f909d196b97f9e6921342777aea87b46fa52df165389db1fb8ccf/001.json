@@ -10,6 +10,10 @@
       "sha256": "16cea6af5d7dea97af15b35ea4ede65ff1f23e89be1803c69dc759dfc3028252"
     },
     {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
+    },
+    {
       "path": "templates/laurent22/joplin-server-basic/summary.json",
       "sha256": "5ee4755c13b454086da1de7ee3332190adcb0482a96757707b8a25c4a848fb8c"
     },
@@ -36,6 +40,14 @@
     {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
       "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
+    },
+    {
+      "path": "templates/sysadminsmedia/homebox/summary.json",
+      "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
+    },
+    {
+      "path": "templates/toeverything/affine/summary.json",
+      "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
     }
   ],
   "next": null

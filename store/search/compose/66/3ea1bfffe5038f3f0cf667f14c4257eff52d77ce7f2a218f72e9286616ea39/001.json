@@ -10,8 +10,16 @@
       "sha256": "36f22521293373052e9507048d5c9db991ccac4ef94b85ef21b75d4aa89edde8"
     },
     {
+      "path": "templates/ellite/wallos/summary.json",
+      "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+    },
+    {
       "path": "templates/freshrss/freshrss/summary.json",
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
+    },
+    {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
     },
     {
       "path": "templates/hkuds/deeptutor/summary.json",
@@ -26,6 +34,10 @@
       "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     },
     {
+      "path": "templates/penpot/penpot/summary.json",
+      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
+    },
+    {
       "path": "templates/qbittorrent/qbittorrent/summary.json",
       "sha256": "ffd0f5fc0671a94504e6ee7c80c8677010b7aec0347573ad3f9a7c918b05fdce"
     },
@@ -34,8 +46,20 @@
       "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     },
     {
+      "path": "templates/sysadminsmedia/homebox/summary.json",
+      "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
+    },
+    {
       "path": "templates/taksssss/iptv-tool/summary.json",
       "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
+    },
+    {
+      "path": "templates/toeverything/affine/summary.json",
+      "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
+    },
+    {
+      "path": "templates/vastsa/filecodebox/summary.json",
+      "sha256": "b3386b10b362d1de35ad883383c264cbda57a1c8f894178a35220e8300780c26"
     }
   ],
   "next": null

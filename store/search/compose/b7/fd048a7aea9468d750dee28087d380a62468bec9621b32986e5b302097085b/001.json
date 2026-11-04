@@ -4,10 +4,6 @@
     {
       "path": "templates/langgenius/dify/summary.json",
       "sha256": "1cf808d3746c0923d1a633103e4fdb7a6102d96f886ace5f7828844ee8b429e7"
-    },
-    {
-      "path": "templates/weidu12123/liyuan/summary.json",
-      "sha256": "99dfa72e9b2b2aa3bb99fd467d284ef508b50c768e2899b351e4f38ef7f9dac1"
     }
   ],
   "next": null

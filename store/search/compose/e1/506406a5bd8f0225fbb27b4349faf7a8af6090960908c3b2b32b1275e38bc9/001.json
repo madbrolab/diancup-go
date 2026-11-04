@@ -12,6 +12,10 @@
     {
       "path": "templates/finb/bark-server/summary.json",
       "sha256": "16cea6af5d7dea97af15b35ea4ede65ff1f23e89be1803c69dc759dfc3028252"
+    },
+    {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
     }
   ],
   "next": null

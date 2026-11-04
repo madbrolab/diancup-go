@@ -1,0 +1,118 @@
+services:
+  penpot-frontend:
+    image: penpotapp/frontend:${PENPOT_VERSION:-2.18.5}
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-9001}:8080
+    volumes:
+      - ./assets:/opt/data/assets
+    depends_on:
+      - penpot-backend
+      - penpot-admin-console
+      - penpot-mcp
+      - penpot-exporter
+    environment:
+      PENPOT_FLAGS: disable-email-verification disable-secure-session-cookies enable-registration enable-login-with-password enable-mcp enable-admin-console
+      PENPOT_HTTP_SERVER_MAX_BODY_SIZE: 367001600
+      PENPOT_HTTP_SERVER_MAX_MULTIPART_BODY_SIZE: 367001600
+      PENPOT_PUBLIC_URI: ${PUBLIC_URL:?请填写 PUBLIC_URL}
+      PENPOT_ADMIN_CONSOLE_URI: http://penpot-admin-console:3000
+  penpot-backend:
+    image: penpotapp/backend:${PENPOT_VERSION:-2.18.5}
+    restart: unless-stopped
+    volumes:
+      - ./assets:/opt/data/assets
+    depends_on:
+      penpot-postgres:
+        condition: service_healthy
+      penpot-valkey:
+        condition: service_healthy
+      prepare:
+        condition: service_completed_successfully
+    environment:
+      PENPOT_FLAGS: disable-email-verification disable-secure-session-cookies enable-registration enable-login-with-password enable-mcp enable-admin-console
+      PENPOT_PUBLIC_URI: ${PUBLIC_URL:?请填写 PUBLIC_URL}
+      PENPOT_HTTP_SERVER_MAX_BODY_SIZE: 367001600
+      PENPOT_HTTP_SERVER_MAX_MULTIPART_BODY_SIZE: 367001600
+      PENPOT_SECRET_KEY: ${SECRET_KEY:?请填写 SECRET_KEY}
+      PENPOT_DATABASE_URI: postgresql://penpot-postgres/penpot
+      PENPOT_DATABASE_USERNAME: penpot
+      PENPOT_DATABASE_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      PENPOT_ADMIN_CONSOLE_URI: http://penpot-admin-console:3000
+      PENPOT_REDIS_URI: redis://penpot-valkey/0
+      PENPOT_OBJECTS_STORAGE_BACKEND: fs
+      PENPOT_OBJECTS_STORAGE_FS_DIRECTORY: /opt/data/assets
+      PENPOT_TELEMETRY_ENABLED: "false"
+  penpot-admin-console:
+    image: penpotapp/admin-console:${PENPOT_VERSION:-2.18.5}
+    restart: unless-stopped
+    depends_on:
+      penpot-postgres:
+        condition: service_healthy
+    environment:
+      PENPOT_PUBLIC_URI: ${PUBLIC_URL:?请填写 PUBLIC_URL}
+      PENPOT_SECRET_KEY: ${SECRET_KEY:?请填写 SECRET_KEY}
+      PENPOT_DATABASE_URI: postgresql://penpot-postgres/penpot
+      PENPOT_DATABASE_USERNAME: penpot
+      PENPOT_DATABASE_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      PENPOT_INTERNAL_URI: http://penpot-frontend:8080
+  penpot-mcp:
+    image: penpotapp/mcp:${PENPOT_VERSION:-2.18.5}
+    restart: unless-stopped
+  penpot-exporter:
+    image: penpotapp/exporter:${PENPOT_VERSION:-2.18.5}
+    restart: unless-stopped
+    depends_on:
+      penpot-valkey:
+        condition: service_healthy
+    environment:
+      PENPOT_FLAGS: disable-email-verification disable-secure-session-cookies enable-registration enable-login-with-password enable-mcp enable-admin-console
+      PENPOT_SECRET_KEY: ${SECRET_KEY:?请填写 SECRET_KEY}
+      PENPOT_PUBLIC_URI: ${PUBLIC_URL:?请填写 PUBLIC_URL}
+      PENPOT_INTERNAL_URI: http://penpot-frontend:8080
+      PENPOT_REDIS_URI: redis://penpot-valkey/0
+  penpot-postgres:
+    image: postgres:15
+    restart: unless-stopped
+    stop_signal: SIGINT
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U penpot -d penpot
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    environment:
+      POSTGRES_INITDB_ARGS: --data-checksums
+      POSTGRES_DB: penpot
+      POSTGRES_USER: penpot
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+  penpot-valkey:
+    image: valkey/valkey:8.1
+    restart: unless-stopped
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - valkey-cli ping | grep PONG
+      interval: 1s
+      timeout: 3s
+      retries: 5
+      start_period: 3s
+    environment:
+      VALKEY_EXTRA_FLAGS: --maxmemory 128mb --maxmemory-policy volatile-lfu
+    volumes:
+      - ./cache:/data
+  prepare:
+    image: penpotapp/backend:${PENPOT_VERSION:-2.18.5}
+    user: 0:0
+    restart: no
+    entrypoint:
+      - /bin/bash
+      - -ec
+    command:
+      - chown penpot:penpot /opt/data/assets
+    volumes:
+      - ./assets:/opt/data/assets

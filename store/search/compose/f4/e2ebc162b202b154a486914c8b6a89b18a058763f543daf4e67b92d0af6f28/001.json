@@ -38,6 +38,10 @@
       "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
     },
     {
+      "path": "templates/penpot/penpot/summary.json",
+      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
+    },
+    {
       "path": "templates/umami-software/umami/summary.json",
       "sha256": "a6e092244688e8d817d57e598bfcc9bd3bb8fac81380d9d937ec7d9752c8f8f5"
     }

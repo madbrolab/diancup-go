@@ -50,8 +50,16 @@
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
       "path": "templates/henrygd/beszel/summary.json",
       "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
@@ -88,18 +96,10 @@
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
       "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
-    },
-    {
-      "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
-    },
-    {
-      "path": "templates/netdata/netdata/summary.json",
-      "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
     }
   ],
   "next": {
     "path": "search/compose/1b/16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9/002.json",
-    "sha256": "67ae80573b498ffdd12c69a9b1b5a58839fb482b9e4799633fd264d76de2e97f"
+    "sha256": "fd8324bd2c59f8f29758fe745521327fb1698013e9d968f2f422788c39c2e8d8"
   }
 }

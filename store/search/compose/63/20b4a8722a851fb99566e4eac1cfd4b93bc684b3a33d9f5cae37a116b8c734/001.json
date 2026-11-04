@@ -20,6 +20,10 @@
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
       "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
+    },
+    {
+      "path": "templates/rommapp/romm/summary.json",
+      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
     }
   ],
   "next": null

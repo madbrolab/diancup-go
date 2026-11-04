@@ -4,6 +4,10 @@
     {
       "path": "templates/bookstackapp/bookstack/summary.json",
       "sha256": "5f52232a9bd1bd4c6005786287bd986815f4c5e4d1a93fdf0b2580d672c81e20"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
     }
   ],
   "next": null

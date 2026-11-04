@@ -1,0 +1,118 @@
+{
+  "schemaVersion": 1,
+  "id": "toeverything/affine",
+  "kind": "compose",
+  "name": "AFFiNE",
+  "description": "把文档、白板和知识组织放在同一个协作工作区，支持自由排版与多人编辑。社区版可免费自建，其他版本和云端服务另有方案。",
+  "developer": "toeverything",
+  "projectUrl": "https://github.com/toeverything/AFFiNE",
+  "source": "open",
+  "license": "MIT (Community Edition); separate terms for other editions",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "affine",
+    "AFFiNE",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/affine.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.affine.pro/self-host-affine",
+  "applications": [
+    {
+      "id": "affine",
+      "name": "AFFiNE",
+      "developer": "toeverything",
+      "projectUrl": "https://github.com/toeverything/AFFiNE",
+      "icon": "icons/affine.svg",
+      "services": [
+        "affine",
+        "affine_migration"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "developer": "PostgreSQL Global Development Group",
+      "projectUrl": "https://www.postgresql.org/",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "postgres"
+      ]
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "developer": "Redis",
+      "projectUrl": "https://github.com/redis/redis",
+      "icon": "icons/infra-redis.svg",
+      "services": [
+        "redis"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "连接 URL 使用此密码，建议填写至少 32 位随机十六进制字符，避免 URL 特殊字符。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.affine",
+      "title": "首次配置",
+      "reason": "准备任务成功后启动工作区，首次访问完成管理员和站点地址设置。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.affine.volumes",
+      "title": "工作区数据",
+      "reason": "./storage 保存上传内容，./config 保存实例配置，./postgres 保存数据库；需一并保留。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T14:32:21Z",
+    "lastCommit": "8bbbfcf07874078bcb37cf88c40b81002382d0ba",
+    "readmeSHA256": "8d5be20062755f5b1ecc26bca4cf6d590efa28de7c4a64d2732bf26f66f78ae0",
+    "iconSource": "https://raw.githubusercontent.com/toeverything/AFFiNE/8bbbfcf07874078bcb37cf88c40b81002382d0ba/packages/frontend/apps/electron/resources/icons/icon.png",
+    "iconSHA256": "ebe51d85be1c03afcaf1198676013bae7093b920199bcad04e5990a24667a7dc",
+    "images": [
+      {
+        "image": "ghcr.io/toeverything/affine:stable",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "b649f5ce2384ffdf13c23bccf81d759e15973d59d0b0058af65d895a84373099"
+      },
+      {
+        "image": "pgvector/pgvector:pg16",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "0dd3149a06e4579a0d70d8fef9945636cd514005e7237deb27f9b67886f8dc4f"
+      },
+      {
+        "image": "redis:8-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "21090af93f8324db2f0f0f4f38a7c60369d47d917e000c3423d89d2ae2883537"
+      }
+    ]
+  }
+}

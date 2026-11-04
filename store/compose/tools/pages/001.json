@@ -226,6 +226,39 @@
       }
     },
     {
+      "id": "ellite/wallos",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Wallos",
+      "description": "集中记录会员、订阅和其他周期性支出，按币种与分类查看费用，并在续费或取消日期前接收提醒。",
+      "developer": "ellite",
+      "projectUrl": "https://github.com/ellite/Wallos",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/wallos.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "wallos",
+        "Wallos",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/ellite/wallos/manifest.json",
+        "sha256": "25e7bd68c6fa5c1c7b168ec3372b4fb8183a9d3b5f45aec80f8de67fc0ab809e"
+      },
+      "summary": {
+        "path": "templates/ellite/wallos/summary.json",
+        "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+      }
+    },
+    {
       "id": "fccview/cronmaster",
       "kind": "compose",
       "category": "tools",
@@ -449,6 +482,39 @@
       }
     },
     {
+      "id": "grocy/grocy",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Grocy",
+      "description": "管理食品库存、保质期、购物清单和家务安排，也可记录家庭设备与电池消耗，适合日常采购和减少食物浪费。",
+      "developer": "grocy",
+      "projectUrl": "https://github.com/grocy/grocy",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/grocy.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "grocy",
+        "Grocy",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/grocy/grocy/manifest.json",
+        "sha256": "ba1fcbb0b684185b72956998255a8a470cc2c99da837c4261f76e787b45528bb"
+      },
+      "summary": {
+        "path": "templates/grocy/grocy/summary.json",
+        "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+      }
+    },
+    {
       "id": "laurent22/joplin-server-basic",
       "kind": "compose",
       "category": "tools",
@@ -545,6 +611,39 @@
       }
     },
     {
+      "id": "penpot/penpot",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Penpot",
+      "description": "在浏览器里协作设计界面、制作交互原型和维护设计系统，可与开发流程配合使用。项目提供可自建的开源版本和付费企业方案。",
+      "developer": "penpot",
+      "projectUrl": "https://github.com/penpot/penpot",
+      "source": "open",
+      "license": "MPL-2.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/penpot.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "penpot",
+        "Penpot",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/penpot/penpot/manifest.json",
+        "sha256": "819bc18db073455808d1f0c96d62705b92c689650bd7658dba11a712e48ce45d"
+      },
+      "summary": {
+        "path": "templates/penpot/penpot/summary.json",
+        "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
+      }
+    },
+    {
       "id": "plankanban/planka",
       "kind": "compose",
       "category": "tools",
@@ -609,101 +708,74 @@
       }
     },
     {
-      "id": "usememos/memos",
+      "id": "sysadminsmedia/homebox",
       "kind": "compose",
       "category": "tools",
-      "name": "Memos",
-      "description": "按时间记录零散想法和日常笔记，通过标签整理内容，并为每条记录选择私密保存或公开分享。",
-      "developer": "usememos",
-      "projectUrl": "https://github.com/usememos/memos",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/memos-cn.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "memos-cn",
-        "Memos",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/usememos/memos/manifest.json",
-        "sha256": "41bb4c2addc02577a0c9289854070e252966cf5b9b61c38b9b1d5902ad4db9ad"
-      },
-      "summary": {
-        "path": "templates/usememos/memos/summary.json",
-        "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
-      }
-    },
-    {
-      "id": "vert-sh/vert",
-      "kind": "compose",
-      "category": "tools",
-      "name": "VERT",
-      "description": "提供图像、音频、文档和视频格式转换界面，多数转换在浏览器本地执行；部分视频操作可对接独立转换服务。",
-      "developer": "VERT-sh",
-      "projectUrl": "https://github.com/VERT-sh/VERT",
+      "name": "Homebox",
+      "description": "为家中物品建立可搜索的档案，记录存放位置、照片、购买凭证与保修信息，便于查找和整理家庭资产。",
+      "developer": "sysadminsmedia",
+      "projectUrl": "https://github.com/sysadminsmedia/homebox",
       "source": "open",
       "license": "AGPL-3.0",
       "paidKey": "none",
       "version": "1.0.0",
-      "icon": "icons/vert.svg",
+      "icon": "icons/homebox.svg",
       "architectures": [
         "amd64",
         "arm64"
       ],
       "tags": [
-        "vert",
-        "VERT",
+        "homebox",
+        "Homebox",
+        "tools",
         "compose"
       ],
       "applicationCount": 1,
       "manifest": {
-        "path": "templates/vert-sh/vert/manifest.json",
-        "sha256": "3de0faaca9088af4b28698e388e2c2a7c93919f42adeaaecdc6c7dd33f6e399a"
+        "path": "templates/sysadminsmedia/homebox/manifest.json",
+        "sha256": "e9178e419c06c4b9bc562bcbddd2a434c0fcfc4bb534d9be29158044d815e12b"
       },
       "summary": {
-        "path": "templates/vert-sh/vert/summary.json",
-        "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
+        "path": "templates/sysadminsmedia/homebox/summary.json",
+        "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
       }
     },
     {
-      "id": "wallabag/wallabag",
+      "id": "toeverything/affine",
       "kind": "compose",
       "category": "tools",
-      "name": "wallabag",
-      "description": "将网页正文保存到个人稍后读列表，过滤阅读干扰，并通过浏览器扩展和移动客户端继续阅读。",
-      "developer": "wallabag",
-      "projectUrl": "https://github.com/wallabag/wallabag",
+      "name": "AFFiNE",
+      "description": "把文档、白板和知识组织放在同一个协作工作区，支持自由排版与多人编辑。社区版可免费自建，其他版本和云端服务另有方案。",
+      "developer": "toeverything",
+      "projectUrl": "https://github.com/toeverything/AFFiNE",
       "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
+      "license": "MIT (Community Edition); separate terms for other editions",
+      "paidKey": "optional",
       "version": "1.0.0",
-      "icon": "icons/wallabag.svg",
+      "icon": "icons/affine.svg",
       "architectures": [
         "amd64",
         "arm64"
       ],
       "tags": [
-        "wallabag",
-        "wallabag",
+        "affine",
+        "AFFiNE",
+        "tools",
         "compose"
       ],
-      "applicationCount": 1,
+      "applicationCount": 3,
       "manifest": {
-        "path": "templates/wallabag/wallabag/manifest.json",
-        "sha256": "b2e6c4e593c06742bb38d2767c50fa3bdc8d1997394f1906d0a41ca82e401211"
+        "path": "templates/toeverything/affine/manifest.json",
+        "sha256": "aafe38dfc2d7951ca2d372dd11a8e67c34b8f53b580a0b8795c8fefe40eb5e37"
       },
       "summary": {
-        "path": "templates/wallabag/wallabag/summary.json",
-        "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
+        "path": "templates/toeverything/affine/summary.json",
+        "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
       }
     }
   ],
-  "next": null
+  "next": {
+    "path": "compose/tools/pages/002.json",
+    "sha256": "9c794a68c9210aa5fc6fe59aa24a136b9f058a4dd068a478463fdd2f68590911"
+  }
 }

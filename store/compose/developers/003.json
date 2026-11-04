@@ -2,6 +2,60 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "06eb80c10d6089876042f48d",
+      "name": "n8n-io",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/06eb80c10d6089876042f48d/repositories/001.json",
+        "sha256": "2e3157a6ee15884e0e550818ec4705d330dc81e08063187e12b6b82c2134959b"
+      }
+    },
+    {
+      "id": "d579097b3c57f0d8757d3fad",
+      "name": "navidrome",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/d579097b3c57f0d8757d3fad/repositories/001.json",
+        "sha256": "3ca9fd796a6d6c0ede2a13dfe9c803b2b283946839706aff9dd47664366e7ffd"
+      }
+    },
+    {
+      "id": "474cb35097bb51195a63f8d8",
+      "name": "netdata",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/474cb35097bb51195a63f8d8/repositories/001.json",
+        "sha256": "250cdd7584d3e271c1153c2d44641d956c745f954c0378dd2ad84501f05516e3"
+      }
+    },
+    {
+      "id": "5be1ecc7935f1dd85635d4fe",
+      "name": "nginx",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/5be1ecc7935f1dd85635d4fe/repositories/001.json",
+        "sha256": "c1605cc743e876d56c25caec5ce90e9e6bfef5a91ca9efe7c0f5ba1a91762195"
+      }
+    },
+    {
+      "id": "d496c82198e4f3360f2a8433",
+      "name": "open-webui",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/d496c82198e4f3360f2a8433/repositories/001.json",
+        "sha256": "e83592048bebbbd4cd9f5e1f9867a25c08dd0a03647f35023cd72eb511b9f967"
+      }
+    },
+    {
+      "id": "6e6670a9af20b60cb9ff8163",
+      "name": "penpot",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/6e6670a9af20b60cb9ff8163/repositories/001.json",
+        "sha256": "a1b6364363d2f9cfacaa24b1ba498178908ef4d33b03a629052595f204d03b53"
+      }
+    },
+    {
       "id": "42d1cf784744ddc3ebd2fbc9",
       "name": "plankanban",
       "count": 1,
@@ -29,6 +83,15 @@
       }
     },
     {
+      "id": "28d9bf7ed4a68d7e1e424c86",
+      "name": "rommapp",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/28d9bf7ed4a68d7e1e424c86/repositories/001.json",
+        "sha256": "14a3485951a3354d02992e2cb6bc64692ac84bc9bdb5e9ab040ed3a71d9e3561"
+      }
+    },
+    {
       "id": "044d5bec622db344b31062c6",
       "name": "seerr-team",
       "count": 1,
@@ -38,12 +101,30 @@
       }
     },
     {
+      "id": "4321f81e59e6dffac692ca64",
+      "name": "sysadminsmedia",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/4321f81e59e6dffac692ca64/repositories/001.json",
+        "sha256": "e7c74ec97c3807f0828b41ba8b7bbbd6a33da62e74283b5765d4d6edff47fb6c"
+      }
+    },
+    {
       "id": "f52cfaa4e882b801210d8d1f",
       "name": "taksssss",
       "count": 1,
       "first": {
         "path": "compose/developers/f52cfaa4e882b801210d8d1f/repositories/001.json",
         "sha256": "804dd4ead012bd41912cabe742322fe6207c11eeba4900a13abe9046918301cc"
+      }
+    },
+    {
+      "id": "06fab5438eed2bd10204890d",
+      "name": "toeverything",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/06fab5438eed2bd10204890d/repositories/001.json",
+        "sha256": "bdc7db1e54c391cb98e33e475e6d9899294674e568e57d1a1bd1a421a6b10ad6"
       }
     },
     {
@@ -74,21 +155,21 @@
       }
     },
     {
+      "id": "79b3899311c93193f5172e64",
+      "name": "vastsa",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/79b3899311c93193f5172e64/repositories/001.json",
+        "sha256": "1ab301f53b50f4744cad21296c9a39968aaeaf8f75a2789f29017b3c1800df02"
+      }
+    },
+    {
       "id": "9acd5100a6ff41e45695f1d4",
       "name": "wallabag",
       "count": 1,
       "first": {
         "path": "compose/developers/9acd5100a6ff41e45695f1d4/repositories/001.json",
         "sha256": "d34cec4e1d5a65bb520a288b1d2ac2b4ce4b7d6772b839229a47d71b31b272f8"
-      }
-    },
-    {
-      "id": "a1b18565116908384a7552e6",
-      "name": "weidu12123",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/a1b18565116908384a7552e6/repositories/001.json",
-        "sha256": "4d9a68dafe3466fdc7996ddc02103fb24f8c51988a8e95f50abb1cc051c70138"
       }
     },
     {

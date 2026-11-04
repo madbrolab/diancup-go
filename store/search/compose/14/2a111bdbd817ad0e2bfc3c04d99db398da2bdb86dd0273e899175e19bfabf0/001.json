@@ -32,6 +32,10 @@
     {
       "path": "templates/seerr-team/seerr/summary.json",
       "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
+    },
+    {
+      "path": "templates/toeverything/affine/summary.json",
+      "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
     }
   ],
   "next": null

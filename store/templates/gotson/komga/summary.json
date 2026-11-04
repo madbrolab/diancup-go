@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "gotson/komga",
+  "kind": "compose",
+  "category": "media",
+  "name": "Komga",
+  "description": "把漫画、杂志和电子书目录整理为个人阅读库，提供网页阅读、合集、阅读进度以及 OPDS 和阅读器同步。",
+  "developer": "gotson",
+  "projectUrl": "https://github.com/gotson/komga",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/komga.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "komga",
+    "Komga",
+    "media",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/gotson/komga/manifest.json",
+    "sha256": "50f020c21e7ce7f798ec28474ab73cb13059e3a51d6fa46e809efaca68a9801e"
+  }
+}

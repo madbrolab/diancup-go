@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "count": 1,
+  "count": 2,
   "first": {
     "path": "compose/games/pages/001.json",
-    "sha256": "a38c893b0bed029ef038363ee4eea89e0fe2a916dafa6137b93df07cf6fc3f46"
+    "sha256": "53e0782e933d5360146e245244b0befd2a074b259c395433a7af3be228a5c9f4"
   }
 }

@@ -2,6 +2,37 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "freeok/so-novel",
+      "kind": "compose",
+      "category": "tools",
+      "name": "So Novel",
+      "description": "从网页提取并整理内容，导出 EPUB、TXT 或 PDF 等文档，也提供便于服务器使用的网页操作入口。",
+      "developer": "freeok",
+      "projectUrl": "https://github.com/freeok/so-novel",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/sonovel.svg",
+      "architectures": [
+        "amd64"
+      ],
+      "tags": [
+        "sonovel",
+        "So Novel",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/freeok/so-novel/manifest.json",
+        "sha256": "d4ecd3c733d2f7ef6503fd8a603a8f5a5e425b6cd5edc5320c8f52afc4158600"
+      },
+      "summary": {
+        "path": "templates/freeok/so-novel/summary.json",
+        "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
+      }
+    },
+    {
       "id": "freshrss/freshrss",
       "kind": "compose",
       "category": "tools",
@@ -163,6 +194,72 @@
       }
     },
     {
+      "id": "gotson/komga",
+      "kind": "compose",
+      "category": "media",
+      "name": "Komga",
+      "description": "把漫画、杂志和电子书目录整理为个人阅读库，提供网页阅读、合集、阅读进度以及 OPDS 和阅读器同步。",
+      "developer": "gotson",
+      "projectUrl": "https://github.com/gotson/komga",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/komga.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "komga",
+        "Komga",
+        "media",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/gotson/komga/manifest.json",
+        "sha256": "50f020c21e7ce7f798ec28474ab73cb13059e3a51d6fa46e809efaca68a9801e"
+      },
+      "summary": {
+        "path": "templates/gotson/komga/summary.json",
+        "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+      }
+    },
+    {
+      "id": "grocy/grocy",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Grocy",
+      "description": "管理食品库存、保质期、购物清单和家务安排，也可记录家庭设备与电池消耗，适合日常采购和减少食物浪费。",
+      "developer": "grocy",
+      "projectUrl": "https://github.com/grocy/grocy",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/grocy.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "grocy",
+        "Grocy",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/grocy/grocy/manifest.json",
+        "sha256": "ba1fcbb0b684185b72956998255a8a470cc2c99da837c4261f76e787b45528bb"
+      },
+      "summary": {
+        "path": "templates/grocy/grocy/summary.json",
+        "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+      }
+    },
+    {
       "id": "henrygd/beszel",
       "kind": "compose",
       "category": "monitoring",
@@ -224,6 +321,72 @@
       "summary": {
         "path": "templates/hkuds/deeptutor/summary.json",
         "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
+      }
+    },
+    {
+      "id": "immich-app/immich",
+      "kind": "compose",
+      "category": "media",
+      "name": "Immich",
+      "description": "备份和浏览自己的照片、视频，支持手机上传、相册分享、地图与人物检索；模板包含 CPU 机器学习服务和配套数据库。",
+      "developer": "immich-app",
+      "projectUrl": "https://github.com/immich-app/immich",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/immich.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "immich",
+        "Immich",
+        "media",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/immich-app/immich/manifest.json",
+        "sha256": "ff9ec5345eede5197382fb8a3aeed1ad5600966e1dd86852abc13d96e3face98"
+      },
+      "summary": {
+        "path": "templates/immich-app/immich/summary.json",
+        "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+      }
+    },
+    {
+      "id": "jeffvli/feishin",
+      "kind": "compose",
+      "category": "media",
+      "name": "Feishin",
+      "description": "为已有 Navidrome、Jellyfin 或 Subsonic 音乐服务提供网页播放器，支持歌词、收藏与播放列表；音乐文件由所连接的服务管理。",
+      "developer": "jeffvli",
+      "projectUrl": "https://github.com/jeffvli/feishin",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/feishin.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "feishin",
+        "Feishin",
+        "media",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/jeffvli/feishin/manifest.json",
+        "sha256": "a52e58d33715a3e8910e9fbc969d8b9779b393b992d2f0de9b48f2f22ba4c019"
+      },
+      "summary": {
+        "path": "templates/jeffvli/feishin/summary.json",
+        "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
       }
     },
     {
@@ -609,171 +772,10 @@
         "path": "templates/navidrome/navidrome-basic/summary.json",
         "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
       }
-    },
-    {
-      "id": "navidrome/navidrome",
-      "kind": "compose",
-      "category": "media",
-      "name": "Navidrome",
-      "description": "把服务器中的音乐收藏提供给浏览器和兼容客户端播放，可维护曲库、用户与个人播放记录；另有第三方托管选择。",
-      "developer": "navidrome",
-      "projectUrl": "https://github.com/navidrome/navidrome",
-      "source": "open",
-      "license": "GPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/navidrome.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "navidrome",
-        "Navidrome",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/navidrome/navidrome/manifest.json",
-        "sha256": "b85af2d5d1507c65c22e9ae7aacd5a5a02894d937f80c7c6adfa63f6b432fe2f"
-      },
-      "summary": {
-        "path": "templates/navidrome/navidrome/summary.json",
-        "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
-      }
-    },
-    {
-      "id": "netdata/netdata",
-      "kind": "compose",
-      "category": "monitoring",
-      "name": "Netdata",
-      "description": "持续采集主机和容器的运行指标，以图表、告警与异常检测定位问题；Agent 开源，云端与界面另有许可及付费选项。",
-      "developer": "netdata",
-      "projectUrl": "https://github.com/netdata/netdata",
-      "source": "open",
-      "license": "GPL-3.0-or-later (Agent); NCUL1 (UI)",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/netdata.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "netdata",
-        "Netdata",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/netdata/netdata/manifest.json",
-        "sha256": "394a572a2049269ca45e90eed7f110671e77e49e5cf3368ad23a98905ea19a6b"
-      },
-      "summary": {
-        "path": "templates/netdata/netdata/summary.json",
-        "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
-      }
-    },
-    {
-      "id": "nginx/nginx",
-      "kind": "compose",
-      "category": "web",
-      "name": "NGINX",
-      "description": "用于发布网站、转发 HTTP 请求和分发后端流量的 Web 服务，适合静态站点与反向代理。另有可选商业支持。",
-      "developer": "nginx",
-      "projectUrl": "https://github.com/nginx/nginx",
-      "source": "open",
-      "license": "BSD-2-Clause",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/nginx.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "nginx",
-        "NGINX",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/nginx/nginx/manifest.json",
-        "sha256": "ddd3d228a419a6910732cf3170b918512acfc3391b3add9c8851d1b81bcd8aac"
-      },
-      "summary": {
-        "path": "templates/nginx/nginx/summary.json",
-        "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
-      }
-    },
-    {
-      "id": "official/wordpress-mariadb",
-      "kind": "compose",
-      "category": "web",
-      "name": "WordPress + MariaDB",
-      "description": "博客网站和独立数据库，数据库仅在项目网络中访问。",
-      "developer": "WordPress / MariaDB",
-      "projectUrl": "https://github.com/WordPress/WordPress",
-      "source": "open",
-      "license": "GPL-2.0-or-later",
-      "paidKey": "none",
-      "version": "1.1.0",
-      "icon": "icons/wordpress-mariadb.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "wordpress",
-        "mariadb",
-        "博客",
-        "网站"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/official/wordpress-mariadb/manifest.json",
-        "sha256": "e194bc27dbfd24adf17b7cec0266b23bc2f7d58b647e1e2df1f909205b9385ef"
-      },
-      "summary": {
-        "path": "templates/official/wordpress-mariadb/summary.json",
-        "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
-      }
-    },
-    {
-      "id": "open-webui/open-webui",
-      "kind": "compose",
-      "category": "ai",
-      "name": "Open WebUI",
-      "description": "为本地与兼容 API 的模型提供统一对话入口，可在自建环境管理资料和交互；许可要求保留品牌，另有企业服务。",
-      "developer": "open-webui",
-      "projectUrl": "https://github.com/open-webui/open-webui",
-      "source": "unknown",
-      "license": "Open WebUI License with branding requirements",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/open-webui.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "open-webui",
-        "Open WebUI",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/open-webui/open-webui/manifest.json",
-        "sha256": "2f17b33103dda645c8674966dc144f108c34bc0b3944a7e4e9bbb33b046fea7c"
-      },
-      "summary": {
-        "path": "templates/open-webui/open-webui/summary.json",
-        "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
-      }
     }
   ],
   "next": {
     "path": "compose/all/pages/003.json",
-    "sha256": "f67e7ecd8d7990e11c4b3526325a4ea0246584c5d0b79ff18058f854504d15ec"
+    "sha256": "3eae729aa85d5d0f7a372d983d301b38a19e4b6868855008d5f0679afa3c334c"
   }
 }

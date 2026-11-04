@@ -82,6 +82,10 @@
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/henrygd/beszel/summary.json",
       "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     },
@@ -90,16 +94,12 @@
       "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
     },
     {
-      "path": "templates/jiangrui1994/cloudsaver/summary.json",
-      "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
-    },
-    {
-      "path": "templates/jxxghp/moviepilot-basic/summary.json",
-      "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     }
   ],
   "next": {
     "path": "search/compose/45/4349e422f05297191ead13e21d3db520e5abef52055e4964b82fb213f593a1/002.json",
-    "sha256": "7e4328cf2bd7f4b32ecec775ccaaf1d142025222e3acfeb34ff443569fec562c"
+    "sha256": "afafec12803fc2443e254b05d31a6eef73027f1a57ec01aaa45d340365345663"
   }
 }

@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "penpot/penpot",
+  "kind": "compose",
+  "name": "Penpot",
+  "description": "在浏览器里协作设计界面、制作交互原型和维护设计系统，可与开发流程配合使用。项目提供可自建的开源版本和付费企业方案。",
+  "developer": "penpot",
+  "projectUrl": "https://github.com/penpot/penpot",
+  "source": "open",
+  "license": "MPL-2.0",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "penpot",
+    "Penpot",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/penpot.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://help.penpot.app/technical-guide/getting-started/docker/",
+  "applications": [
+    {
+      "id": "penpot",
+      "name": "Penpot",
+      "developer": "penpot",
+      "projectUrl": "https://github.com/penpot/penpot",
+      "icon": "icons/penpot.svg",
+      "services": [
+        "penpot-frontend",
+        "penpot-backend",
+        "penpot-admin-console",
+        "penpot-mcp",
+        "penpot-exporter",
+        "prepare"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "developer": "PostgreSQL Global Development Group",
+      "projectUrl": "https://www.postgresql.org/",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "penpot-postgres"
+      ]
+    },
+    {
+      "id": "valkey",
+      "name": "Valkey",
+      "developer": "Valkey",
+      "projectUrl": "https://github.com/valkey-io/valkey",
+      "icon": "icons/infra-valkey.svg",
+      "services": [
+        "penpot-valkey"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.PUBLIC_URL",
+      "title": "实际访问地址",
+      "reason": "填写浏览器使用的完整服务器地址或域名，与 HTTP_PORT 保持一致。",
+      "required": true,
+      "example": "https://design.example.com"
+    },
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "数据库仅用于当前项目，请设置独立密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.SECRET_KEY",
+      "title": "实例密钥",
+      "reason": "建议使用 64 字节随机数据生成 URL 安全的 Base64 密钥，并在后续更新时保持不变。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.penpot-backend.environment",
+      "title": "注册和邮件",
+      "reason": "基础配置允许注册并关闭邮件验证；需要邮件邀请或找回密码时，按官方文档添加自己的 SMTP 配置。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.penpot-frontend.environment",
+      "title": "访问协议",
+      "reason": "默认适用于 HTTP 本地访问；使用 HTTPS 时按官方文档调整 secure-session-cookies 标志。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.prepare.volumes",
+      "title": "设计资源目录",
+      "reason": "./assets 保存设计资源，准备服务设置此目录属主供应用读写。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T14:50:13Z",
+    "lastCommit": "4be8df58778e056db8291006fa6ab2817923660b",
+    "readmeSHA256": "8c79712fea5fb2d98462817e65f5eba37ef66f652611da23bc64275ac008ad53",
+    "iconSource": "https://raw.githubusercontent.com/penpot/penpot/4be8df58778e056db8291006fa6ab2817923660b/frontend/resources/images/assets/penpot-logo-icon.svg",
+    "iconSHA256": "fd78bc6b5a9f49da0e8dc7020f1783ae3d7674740c86f707e97ab7cb4496f8c9",
+    "images": [
+      {
+        "image": "penpotapp/frontend:2.18.5",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "9bc0c288985d2d18a2c3e7b849d8edda317e1bfd99ec6dd494e5bfdcfe411f06"
+      },
+      {
+        "image": "penpotapp/backend:2.18.5",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "20d2325ec8e00f4be5f65e543d5618b585598facff404cf06446e91b5ead9036"
+      },
+      {
+        "image": "penpotapp/admin-console:2.18.5",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "5935b5adbf33eb7abaabfab657fe8f5d465cac08e62e340f932ddb35ce0f311f"
+      },
+      {
+        "image": "penpotapp/mcp:2.18.5",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "61fc7b2b727593670159966998fb197b2d282330ec7dbffc09a3e6374e0ce39d"
+      },
+      {
+        "image": "penpotapp/exporter:2.18.5",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "8c341d6d40f234d33e4272f87c6f53fdde839546e4c758872cebf175bddb8c71"
+      },
+      {
+        "image": "postgres:15",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "40e8c839f86c404f9bd1c456bb83f11b205f2cd95d753b34c2d074e89ecee786"
+      },
+      {
+        "image": "valkey/valkey:8.1",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "8f836008e0986c36adf50da714c7060cf689dbb335f61fe077939d90fa650809"
+      }
+    ]
+  }
+}

@@ -4,10 +4,6 @@
     {
       "path": "templates/go-vikunja/vikunja/summary.json",
       "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
-    },
-    {
-      "path": "templates/weidu12123/liyuan/summary.json",
-      "sha256": "99dfa72e9b2b2aa3bb99fd467d284ef508b50c768e2899b351e4f38ef7f9dac1"
     }
   ],
   "next": null

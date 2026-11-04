@@ -12,6 +12,10 @@
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
       "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
     }
   ],
   "next": null

@@ -1,0 +1,12 @@
+services:
+  komga:
+    image: gotson/komga:1.30.0
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-25600}:25600
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      JAVA_TOOL_OPTIONS: -Xmx${JAVA_MAX_HEAP:-1024m}
+    volumes:
+      - ./config:/config
+      - ${BOOKS_DIR:-./books}:/data:ro

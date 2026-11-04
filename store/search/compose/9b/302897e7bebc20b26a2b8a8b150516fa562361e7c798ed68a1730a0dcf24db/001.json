@@ -8,6 +8,10 @@
     {
       "path": "templates/advplyr/audiobookshelf/summary.json",
       "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
+    },
+    {
+      "path": "templates/ellite/wallos/summary.json",
+      "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
     }
   ],
   "next": null

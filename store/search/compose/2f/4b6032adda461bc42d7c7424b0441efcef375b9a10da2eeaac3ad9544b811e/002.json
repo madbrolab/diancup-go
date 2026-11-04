@@ -2,12 +2,24 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/stirling-tools/stirling-pdf/summary.json",
+      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
+    },
+    {
+      "path": "templates/taksssss/iptv-tool/summary.json",
+      "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
+    },
+    {
       "path": "templates/transmission/transmission/summary.json",
       "sha256": "2882442823e62ef31bf6da170163992fd2e7797cc89b7ad671c9c9124c6d5a79"
     },
     {
       "path": "templates/usememos/memos/summary.json",
       "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
+    },
+    {
+      "path": "templates/vastsa/filecodebox/summary.json",
+      "sha256": "b3386b10b362d1de35ad883383c264cbda57a1c8f894178a35220e8300780c26"
     },
     {
       "path": "templates/wallabag/wallabag/summary.json",

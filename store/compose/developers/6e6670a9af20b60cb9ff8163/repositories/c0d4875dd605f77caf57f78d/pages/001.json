@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "penpot/penpot",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Penpot",
+      "description": "在浏览器里协作设计界面、制作交互原型和维护设计系统，可与开发流程配合使用。项目提供可自建的开源版本和付费企业方案。",
+      "developer": "penpot",
+      "projectUrl": "https://github.com/penpot/penpot",
+      "source": "open",
+      "license": "MPL-2.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/penpot.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "penpot",
+        "Penpot",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/penpot/penpot/manifest.json",
+        "sha256": "819bc18db073455808d1f0c96d62705b92c689650bd7658dba11a712e48ce45d"
+      },
+      "summary": {
+        "path": "templates/penpot/penpot/summary.json",
+        "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
+      }
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "toeverything/affine",
+      "kind": "compose",
+      "category": "tools",
+      "name": "AFFiNE",
+      "description": "把文档、白板和知识组织放在同一个协作工作区，支持自由排版与多人编辑。社区版可免费自建，其他版本和云端服务另有方案。",
+      "developer": "toeverything",
+      "projectUrl": "https://github.com/toeverything/AFFiNE",
+      "source": "open",
+      "license": "MIT (Community Edition); separate terms for other editions",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/affine.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "affine",
+        "AFFiNE",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/toeverything/affine/manifest.json",
+        "sha256": "aafe38dfc2d7951ca2d372dd11a8e67c34b8f53b580a0b8795c8fefe40eb5e37"
+      },
+      "summary": {
+        "path": "templates/toeverything/affine/summary.json",
+        "sha256": "a27a6a74ec1a9578172bb999a13803fc59d8ecf44a3509fa5cfc78437987d017"
+      }
+    }
+  ],
+  "next": null
+}

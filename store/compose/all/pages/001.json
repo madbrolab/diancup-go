@@ -545,6 +545,39 @@
       }
     },
     {
+      "id": "ellite/wallos",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Wallos",
+      "description": "集中记录会员、订阅和其他周期性支出，按币种与分类查看费用，并在续费或取消日期前接收提醒。",
+      "developer": "ellite",
+      "projectUrl": "https://github.com/ellite/Wallos",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/wallos.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "wallos",
+        "Wallos",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/ellite/wallos/manifest.json",
+        "sha256": "25e7bd68c6fa5c1c7b168ec3372b4fb8183a9d3b5f45aec80f8de67fc0ab809e"
+      },
+      "summary": {
+        "path": "templates/ellite/wallos/summary.json",
+        "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+      }
+    },
+    {
       "id": "emby/embyserver-basic",
       "kind": "compose",
       "category": "media",
@@ -735,41 +768,10 @@
         "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
         "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
       }
-    },
-    {
-      "id": "freeok/so-novel",
-      "kind": "compose",
-      "category": "tools",
-      "name": "So Novel",
-      "description": "从网页提取并整理内容，导出 EPUB、TXT 或 PDF 等文档，也提供便于服务器使用的网页操作入口。",
-      "developer": "freeok",
-      "projectUrl": "https://github.com/freeok/so-novel",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/sonovel.svg",
-      "architectures": [
-        "amd64"
-      ],
-      "tags": [
-        "sonovel",
-        "So Novel",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/freeok/so-novel/manifest.json",
-        "sha256": "d4ecd3c733d2f7ef6503fd8a603a8f5a5e425b6cd5edc5320c8f52afc4158600"
-      },
-      "summary": {
-        "path": "templates/freeok/so-novel/summary.json",
-        "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
-      }
     }
   ],
   "next": {
     "path": "compose/all/pages/002.json",
-    "sha256": "d5f83a6fa89a3841b9aaf1cfa7b7e4df507c4635fcc68f2a225543dd950d08ab"
+    "sha256": "3e3f1d28221ec4c408f0ce21ce1c1977799ed92e762ffef1157991ab48b88cf4"
   }
 }

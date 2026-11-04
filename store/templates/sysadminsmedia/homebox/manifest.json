@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "sysadminsmedia/homebox",
+  "kind": "compose",
+  "name": "Homebox",
+  "description": "为家中物品建立可搜索的档案，记录存放位置、照片、购买凭证与保修信息，便于查找和整理家庭资产。",
+  "developer": "sysadminsmedia",
+  "projectUrl": "https://github.com/sysadminsmedia/homebox",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "homebox",
+    "Homebox",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/homebox.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://homebox.software/en/quick-start/",
+  "applications": [
+    {
+      "id": "homebox",
+      "name": "Homebox",
+      "developer": "sysadminsmedia",
+      "projectUrl": "https://github.com/sysadminsmedia/homebox",
+      "icon": "icons/homebox.svg",
+      "services": [
+        "homebox"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.API_KEY_PEPPER",
+      "title": "API 密钥保护值",
+      "reason": "填写至少 32 字符的随机值并长期保存；后续更改会使已有 API 密钥失效。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.homebox.volumes",
+      "title": "物品数据",
+      "reason": "物品、附件和数据库保存在项目 ./data；首次访问时创建自己的账号。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-31T23:19:06Z",
+    "lastCommit": "116a5f3aa7528fe57383a3b3a1e1f9e7b5018649",
+    "readmeSHA256": "eb3f4dc03dc36e3f8f08a31394db063ff5fc3c2bdeb9f18d2fdec030303e9b70",
+    "iconSource": "https://raw.githubusercontent.com/sysadminsmedia/homebox/116a5f3aa7528fe57383a3b3a1e1f9e7b5018649/docs/src/assets/lilbox.svg",
+    "iconSHA256": "504e7780c5b1f3de6b93df4fe697c62e1f0866c0864fff691bf2a97902f1dd18",
+    "images": [
+      {
+        "image": "ghcr.io/sysadminsmedia/homebox:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "9d0b64776c694f018c0ca06faf52105a33ca376024f46bb58e6ab0e2b728bb61"
+      }
+    ]
+  }
+}

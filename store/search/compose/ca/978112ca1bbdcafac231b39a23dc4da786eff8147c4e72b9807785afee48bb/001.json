@@ -66,6 +66,10 @@
       "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
     },
     {
+      "path": "templates/ellite/wallos/summary.json",
+      "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+    },
+    {
       "path": "templates/fccview/cronmaster/summary.json",
       "sha256": "cd8649a3ee90ad2def584a54f614995e43a93f86e04f14533c727cd83ada93f2"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/gethomepage/homepage/summary.json",
       "sha256": "1c672439ab602f26eb88082788a5f3b769298013194cba15231947c1fb74c35a"
-    },
-    {
-      "path": "templates/gitea/gitea-postgresql/summary.json",
-      "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
     }
   ],
   "next": {
     "path": "search/compose/ca/978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb/002.json",
-    "sha256": "a44b468587671a926e2a4631c1339954b83916aac72f826c3695ee05c1d35443"
+    "sha256": "d31044b6654ee5951e06f2e1d5a2e700539193c0df7853824ee93129590986da"
   }
 }

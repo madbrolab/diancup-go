@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "grocy/grocy",
+  "kind": "compose",
+  "name": "Grocy",
+  "description": "管理食品库存、保质期、购物清单和家务安排，也可记录家庭设备与电池消耗，适合日常采购和减少食物浪费。",
+  "developer": "grocy",
+  "projectUrl": "https://github.com/grocy/grocy",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "grocy",
+    "Grocy",
+    "tools",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/grocy.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.linuxserver.io/images/docker-grocy/",
+  "applications": [
+    {
+      "id": "grocy",
+      "name": "Grocy",
+      "developer": "grocy",
+      "projectUrl": "https://github.com/grocy/grocy",
+      "icon": "icons/grocy.svg",
+      "services": [
+        "grocy"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.PUID",
+      "title": "文件属主",
+      "reason": "PUID/PGID 默认 1000，可按宿主机目录的实际用户和组调整。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.grocy",
+      "title": "首次登录",
+      "reason": "首次使用 admin / admin 登录，然后修改管理员密码并设置自己的语言。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-09-16T20:14:31Z",
+    "lastCommit": "41206cb90154e0d17d3e108cc1f182b94fdb465d",
+    "readmeSHA256": "afec4a26b8386bf628a531166d2c7cfc5887c89fd146b17f3838f5bcac4da33b",
+    "iconSource": "https://raw.githubusercontent.com/grocy/grocy/41206cb90154e0d17d3e108cc1f182b94fdb465d/public/img/icon.svg",
+    "iconSHA256": "c7d853a2e531bdfbb0ae95313eaaba6f44a2320bebed73057c87287c763c35ec",
+    "images": [
+      {
+        "image": "lscr.io/linuxserver/grocy:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "055a930b0c556f4114408b7c145087ef362c01991446f6e20ad164d4eb4d9f0d"
+      }
+    ]
+  }
+}

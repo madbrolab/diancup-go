@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "id": "jeffvli/feishin",
+  "kind": "compose",
+  "name": "Feishin",
+  "description": "为已有 Navidrome、Jellyfin 或 Subsonic 音乐服务提供网页播放器，支持歌词、收藏与播放列表；音乐文件由所连接的服务管理。",
+  "developer": "jeffvli",
+  "projectUrl": "https://github.com/jeffvli/feishin",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "feishin",
+    "Feishin",
+    "media",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/feishin.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/jeffvli/feishin/blob/development/README.md",
+  "applications": [
+    {
+      "id": "feishin",
+      "name": "Feishin",
+      "developer": "jeffvli",
+      "projectUrl": "https://github.com/jeffvli/feishin",
+      "icon": "icons/feishin.svg",
+      "services": [
+        "feishin"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.SERVER_URL",
+      "title": "音乐服务地址",
+      "reason": "可预设服务地址，也可在首次打开播放器时添加；该地址必须能从用户的浏览器访问。",
+      "required": false,
+      "example": "http://music.example.com:4533"
+    },
+    {
+      "target": "env.SERVER_TYPE",
+      "title": "音乐服务类型",
+      "reason": "可选 navidrome、jellyfin 或 subsonic；使用对应服务的账号登录。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.feishin",
+      "title": "播放器设置",
+      "reason": "播放器设置保存在浏览器中；此模板提供网页播放，不包含桌面版 MPV 后端。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-03T03:32:30Z",
+    "lastCommit": "155e562138f39adaa985a01bc974936925518b46",
+    "readmeSHA256": "bbfe9a854fe0de23593455da8771364028ac23ef5d81b3d317ef3c108ac254e1",
+    "iconSource": "https://raw.githubusercontent.com/jeffvli/feishin/155e562138f39adaa985a01bc974936925518b46/assets/icons/icon.png",
+    "iconSHA256": "bf840967d93acf8264a8ec7c28f58a3a01440691f3e39219d64701087a1132ca",
+    "images": [
+      {
+        "image": "ghcr.io/jeffvli/feishin:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "6c75a4d3b99065ac245e2eb2b693fde3e5f2a6fe41c9e255da4fcb8948071965"
+      }
+    ]
+  }
+}

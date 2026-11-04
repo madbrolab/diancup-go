@@ -1,0 +1,11 @@
+services:
+  wallos:
+    image: bellamy/wallos:latest
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-8282}:80
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+    volumes:
+      - ./db:/var/www/html/db
+      - ./logos:/var/www/html/images/uploads/logos

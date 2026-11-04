@@ -58,8 +58,20 @@
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/hkuds/deeptutor/summary.json",
       "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     },
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
@@ -84,22 +96,10 @@
     {
       "path": "templates/linuxserver/transmission-basic/summary.json",
       "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
-    },
-    {
-      "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "34da2214ddefca04d4a1dea91ab0d8d047a2f18422a688209a0d1d57a7deb8d0"
-    },
-    {
-      "path": "templates/madbrolab/dian115-basic/summary.json",
-      "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
-    },
-    {
-      "path": "templates/n8n-io/n8n/summary.json",
-      "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     }
   ],
   "next": {
     "path": "search/compose/53/0000ec1a370af87e0e3ce42e5f48940c01d0a11bf47052f114a226d7c29a36/002.json",
-    "sha256": "d5647722af0925a92fdb339e3eb40ee20ae869ab1afe881034709451b4ed6c61"
+    "sha256": "a17d348dafa7a68a614dcac95dd4d9655d5247242e462893195359b0c22620c6"
   }
 }

@@ -22,6 +22,10 @@
       "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
     },
     {
+      "path": "templates/ellite/wallos/summary.json",
+      "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+    },
+    {
       "path": "templates/emby/embyserver-basic/summary.json",
       "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/n8n-io/n8n/summary.json",
       "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
-    },
-    {
-      "path": "templates/navidrome/navidrome-basic/summary.json",
-      "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
     }
   ],
   "next": {
     "path": "search/compose/04/e45efb3be890e7442f15332bb289be7246583bf05136a2d9491fb489d621ee/002.json",
-    "sha256": "0eab6b9ada768a9adf157f2024d4ebe753dadecfc92bcc4eaf48296931a93e63"
+    "sha256": "0fd9182ac9463b1ddb3c6b7e40e1d4c5ba9262a26f8e5ed40e344edc8310520c"
   }
 }

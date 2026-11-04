@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "55330fd50a262bd812d7eec9",
+      "name": "https://github.com/gotson/komga",
+      "projectUrl": "https://github.com/gotson/komga",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/fa2a3916aa450ea5246c8f80/repositories/55330fd50a262bd812d7eec9/pages/001.json",
+        "sha256": "f1fa242d4fdc9f853cff6583cdda6a24f8b02ca41cba049da708baf3a0f1e98e"
+      }
+    }
+  ],
+  "next": null
+}

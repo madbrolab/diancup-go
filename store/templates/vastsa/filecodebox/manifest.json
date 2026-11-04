@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "vastsa/filecodebox",
+  "kind": "compose",
+  "name": "FileCodeBox",
+  "description": "通过取件码分享文件和文本，可设置有效期、下载次数并自动清理过期内容，支持本地存储及多种外部存储接入。",
+  "developer": "vastsa",
+  "projectUrl": "https://github.com/vastsa/FileCodeBox",
+  "source": "open",
+  "license": "LGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "storage",
+  "tags": [
+    "filecodebox",
+    "FileCodeBox",
+    "storage",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/filecodebox.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://fcb-docs.aiuo.net/guide/getting-started",
+  "applications": [
+    {
+      "id": "filecodebox",
+      "name": "FileCodeBox",
+      "developer": "vastsa",
+      "projectUrl": "https://github.com/vastsa/FileCodeBox",
+      "icon": "icons/filecodebox.svg",
+      "services": [
+        "filecodebox"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "compose.services.filecodebox.volumes",
+      "title": "分享数据",
+      "reason": "数据和应用设置保存在 ./data；首次访问时完成管理员初始化。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.filecodebox",
+      "title": "分享设置",
+      "reason": "在应用内设置上传限制、保留时间和存储方式；可按使用场景关闭游客上传或配置接口 Token。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-27T08:09:02Z",
+    "lastCommit": "8d3e4ad904c289c1852f08c3424ae370642c58c3",
+    "readmeSHA256": "24043ed5c4bf014805fe6d0f5d464243b3197d04bdc576a31c2f1e5cf86c1654",
+    "iconSource": "https://raw.githubusercontent.com/vastsa/FileCodeBox/8d3e4ad904c289c1852f08c3424ae370642c58c3/docs/public/logo_small.png",
+    "iconSHA256": "5f59d46123f1d1a238fcc4078fcced3972b6406c4e72651034c05ead69259e28",
+    "images": [
+      {
+        "image": "lanol/filecodebox:2.8.5",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "f9186d44437004544f15bbaf784415895779a36ae3f5eb32d23886af8053bf7d"
+      }
+    ]
+  }
+}

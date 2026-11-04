@@ -28,6 +28,10 @@
     {
       "path": "templates/open-webui/open-webui/summary.json",
       "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
+    },
+    {
+      "path": "templates/penpot/penpot/summary.json",
+      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
     }
   ],
   "next": null

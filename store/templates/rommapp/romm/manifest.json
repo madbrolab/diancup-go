@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "rommapp/romm",
+  "kind": "compose",
+  "name": "RomM",
+  "description": "为自己的游戏 ROM 建立带封面和元数据的资料库，支持网页游玩、存档与状态管理，并可对接多种游戏资料服务。",
+  "developer": "rommapp",
+  "projectUrl": "https://github.com/rommapp/romm",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "games",
+  "tags": [
+    "romm",
+    "RomM",
+    "games",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/romm.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.romm.app/",
+  "applications": [
+    {
+      "id": "romm",
+      "name": "RomM",
+      "developer": "rommapp",
+      "projectUrl": "https://github.com/rommapp/romm",
+      "icon": "icons/romm.svg",
+      "services": [
+        "romm"
+      ]
+    },
+    {
+      "id": "mariadb",
+      "name": "MariaDB",
+      "developer": "MariaDB",
+      "projectUrl": "https://github.com/MariaDB/server",
+      "icon": "icons/infra-mariadb.svg",
+      "services": [
+        "romm-db"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "应用数据库密码",
+      "reason": "为 RomM 数据库账号设置独立密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.DB_ROOT_PASSWORD",
+      "title": "数据库管理密码",
+      "reason": "为 MariaDB 管理账号设置不同的独立密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.AUTH_SECRET",
+      "title": "会话密钥",
+      "reason": "填写至少 64 位随机十六进制字符，并在后续更新时保持不变。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.LIBRARY_DIR",
+      "title": "游戏资料库",
+      "reason": "按应用文档组织自己的平台与 ROM 目录；存档保存在 ./assets，封面等资料保存在 ./resources。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.romm.environment",
+      "title": "游戏元数据",
+      "reason": "默认启用无需密钥的 Hasheous；其他资料服务的账号和 API 密钥在使用时按官方说明添加。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T13:57:51Z",
+    "lastCommit": "e923ced4f0417823784c7ce01fb89962dc60a08f",
+    "readmeSHA256": "a9b01cc0ffed585542f3b6280f091160164cb48cace28f343fc30a20be8fd949",
+    "iconSource": "https://raw.githubusercontent.com/rommapp/romm/e923ced4f0417823784c7ce01fb89962dc60a08f/.github/resources/isotipo.svg",
+    "iconSHA256": "68443255875b12a6db3e0b42b82480ec5440797f2ebc3a5d3ae6e5da16a2a13f",
+    "images": [
+      {
+        "image": "rommapp/romm:5.4.1",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "8677fb7b81b1d3db20b849e989a1dadc2a11159e51eb34a2acdcb01102274edf"
+      },
+      {
+        "image": "mariadb:11.8",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "c4124d1afa875e47f2892edf26b482fa54f796e2f342d3717a04ca091a22a9bd"
+      }
+    ]
+  }
+}

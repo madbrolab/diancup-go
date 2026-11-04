@@ -1,0 +1,46 @@
+services:
+  romm:
+    image: rommapp/romm:5.4.1
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-8085}:8080
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      DB_HOST: romm-db
+      DB_NAME: romm
+      DB_USER: romm
+      DB_PASSWD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      ROMM_AUTH_SECRET_KEY: ${AUTH_SECRET:?请填写 AUTH_SECRET}
+      HASHEOUS_API_ENABLED: "true"
+      SCAN_WORKERS: "4"
+      WEB_SERVER_CONCURRENCY: "4"
+    volumes:
+      - ./data:/romm
+      - ./resources:/romm/resources
+      - ./cache:/redis-data
+      - ${LIBRARY_DIR:-./library}:/romm/library
+      - ./assets:/romm/assets
+      - ./config:/romm/config
+    depends_on:
+      romm-db:
+        condition: service_healthy
+  romm-db:
+    image: mariadb:11.8
+    restart: unless-stopped
+    environment:
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?请填写 DB_ROOT_PASSWORD}
+      MARIADB_DATABASE: romm
+      MARIADB_USER: romm
+      MARIADB_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+    volumes:
+      - ./database:/var/lib/mysql
+    healthcheck:
+      test:
+        - CMD
+        - healthcheck.sh
+        - --connect
+        - --innodb_initialized
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s

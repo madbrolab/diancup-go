@@ -74,6 +74,10 @@
       "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     },
     {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
+    },
+    {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
       "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
       "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
-    },
-    {
-      "path": "templates/nginx/nginx/summary.json",
-      "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
     }
   ],
   "next": {
     "path": "search/compose/3e/23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d/002.json",
-    "sha256": "dd96f46e1bd13b9bc7cfa6c1f7b83b4643f3265dacc23cc03bbc764a8c70d162"
+    "sha256": "b93b1fa1ddaba2ea34ef273c965ef5ea229ffb6b41bb7e708727c5fbee03ede1"
   }
 }

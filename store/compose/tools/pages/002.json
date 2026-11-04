@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "usememos/memos",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Memos",
+      "description": "按时间记录零散想法和日常笔记，通过标签整理内容，并为每条记录选择私密保存或公开分享。",
+      "developer": "usememos",
+      "projectUrl": "https://github.com/usememos/memos",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/memos-cn.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "memos-cn",
+        "Memos",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/usememos/memos/manifest.json",
+        "sha256": "41bb4c2addc02577a0c9289854070e252966cf5b9b61c38b9b1d5902ad4db9ad"
+      },
+      "summary": {
+        "path": "templates/usememos/memos/summary.json",
+        "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
+      }
+    },
+    {
+      "id": "vert-sh/vert",
+      "kind": "compose",
+      "category": "tools",
+      "name": "VERT",
+      "description": "提供图像、音频、文档和视频格式转换界面，多数转换在浏览器本地执行；部分视频操作可对接独立转换服务。",
+      "developer": "VERT-sh",
+      "projectUrl": "https://github.com/VERT-sh/VERT",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/vert.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "vert",
+        "VERT",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/vert-sh/vert/manifest.json",
+        "sha256": "3de0faaca9088af4b28698e388e2c2a7c93919f42adeaaecdc6c7dd33f6e399a"
+      },
+      "summary": {
+        "path": "templates/vert-sh/vert/summary.json",
+        "sha256": "ddc50d46fefa413dfbe89723d68d93854960901bbe2694a29f09be6a04fc8157"
+      }
+    },
+    {
+      "id": "wallabag/wallabag",
+      "kind": "compose",
+      "category": "tools",
+      "name": "wallabag",
+      "description": "将网页正文保存到个人稍后读列表，过滤阅读干扰，并通过浏览器扩展和移动客户端继续阅读。",
+      "developer": "wallabag",
+      "projectUrl": "https://github.com/wallabag/wallabag",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/wallabag.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "wallabag",
+        "wallabag",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/wallabag/wallabag/manifest.json",
+        "sha256": "b2e6c4e593c06742bb38d2767c50fa3bdc8d1997394f1906d0a41ca82e401211"
+      },
+      "summary": {
+        "path": "templates/wallabag/wallabag/summary.json",
+        "sha256": "73e24638fd811160db753d992c78b56deb54f7e87f0794f25fa4ae401ef91a0c"
+      }
+    }
+  ],
+  "next": null
+}

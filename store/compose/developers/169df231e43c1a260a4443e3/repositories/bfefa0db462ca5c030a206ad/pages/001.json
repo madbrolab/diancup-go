@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "immich-app/immich",
+      "kind": "compose",
+      "category": "media",
+      "name": "Immich",
+      "description": "备份和浏览自己的照片、视频，支持手机上传、相册分享、地图与人物检索；模板包含 CPU 机器学习服务和配套数据库。",
+      "developer": "immich-app",
+      "projectUrl": "https://github.com/immich-app/immich",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/immich.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "immich",
+        "Immich",
+        "media",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/immich-app/immich/manifest.json",
+        "sha256": "ff9ec5345eede5197382fb8a3aeed1ad5600966e1dd86852abc13d96e3face98"
+      },
+      "summary": {
+        "path": "templates/immich-app/immich/summary.json",
+        "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+      }
+    }
+  ],
+  "next": null
+}

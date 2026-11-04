@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/freeok/so-novel/summary.json",
+      "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
+    },
+    {
       "path": "templates/freshrss/freshrss/summary.json",
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
@@ -18,12 +22,28 @@
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/henrygd/beszel/summary.json",
       "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     },
     {
       "path": "templates/hkuds/deeptutor/summary.json",
       "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
@@ -76,30 +96,10 @@
     {
       "path": "templates/navidrome/navidrome/summary.json",
       "sha256": "abfd8e744e61d93ae9620b5df0e3db99394b4961fd522013e813140f9519b115"
-    },
-    {
-      "path": "templates/netdata/netdata/summary.json",
-      "sha256": "9b37bd4922263c9b3e561ab896aa426a426cbb2119e45b0ad66c826a386607da"
-    },
-    {
-      "path": "templates/nginx/nginx/summary.json",
-      "sha256": "048cf0157d3109445183cb63310ead78f7cd9cf3b0fe09491cd14afbf63c6b05"
-    },
-    {
-      "path": "templates/open-webui/open-webui/summary.json",
-      "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
-    },
-    {
-      "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
-    },
-    {
-      "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
     }
   ],
   "next": {
     "path": "search/compose/68/dbf73d03d3a5107edad3b05676eee240e68c280296e52b6986873c54cef3cb/003.json",
-    "sha256": "a316525599e16c639ec6f8385e8393a768d0dc8828ea152b29b2c9cf9330459b"
+    "sha256": "ccbed86a0e8a1ed23311240f5763eedcd306ecb06d109baedb73511f77333dd5"
   }
 }

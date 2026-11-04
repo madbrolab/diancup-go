@@ -62,12 +62,24 @@
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
     },
     {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
       "path": "templates/henrygd/beszel/summary.json",
       "sha256": "d800512a5fb5b14760e688e5808501206b9c45da732c66c6dd7abc384d68d4c4"
     },
     {
       "path": "templates/hkuds/deeptutor/summary.json",
       "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
+    },
+    {
+      "path": "templates/immich-app/immich/summary.json",
+      "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     },
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
@@ -84,22 +96,10 @@
     {
       "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
       "sha256": "b00224452fe649240e56348d95b9aa3bb826ee0f41346540bfbfbea24ba620b4"
-    },
-    {
-      "path": "templates/louislam/dockge/summary.json",
-      "sha256": "904d358e1072f22e23e3172cd3d0999da7eb66cbdfa01eb2b8bddbb28bc4eeab"
-    },
-    {
-      "path": "templates/madbrolab/dian115-basic/summary.json",
-      "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
-    },
-    {
-      "path": "templates/n8n-io/n8n/summary.json",
-      "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     }
   ],
   "next": {
     "path": "search/compose/18/ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4/002.json",
-    "sha256": "dfe56221972cb0fc392545f9b4957d3dad669680ca88f9bb77047285ac2a683c"
+    "sha256": "91993972d9a518c89eb5ae3623219e4c21f33a6a67dcd6e3dee17857956121c7"
   }
 }

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "vastsa/filecodebox",
+  "kind": "compose",
+  "category": "storage",
+  "name": "FileCodeBox",
+  "description": "通过取件码分享文件和文本，可设置有效期、下载次数并自动清理过期内容，支持本地存储及多种外部存储接入。",
+  "developer": "vastsa",
+  "projectUrl": "https://github.com/vastsa/FileCodeBox",
+  "source": "open",
+  "license": "LGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/filecodebox.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "filecodebox",
+    "FileCodeBox",
+    "storage",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/vastsa/filecodebox/manifest.json",
+    "sha256": "4154818bfcaee1411152b0b9221df2ca336bfe83c8905a8709343d645782d7f3"
+  }
+}

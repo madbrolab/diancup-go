@@ -4,6 +4,10 @@
     {
       "path": "templates/advplyr/audiobookshelf/summary.json",
       "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
+    },
+    {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
     }
   ],
   "next": null

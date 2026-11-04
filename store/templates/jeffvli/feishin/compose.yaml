@@ -1,0 +1,12 @@
+services:
+  feishin:
+    image: ghcr.io/jeffvli/feishin:latest
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-9180}:9180
+    environment:
+      SERVER_NAME: ${SERVER_NAME}
+      SERVER_TYPE: ${SERVER_TYPE:-navidrome}
+      SERVER_URL: ${SERVER_URL}
+      SERVER_LOCK: "false"
+      ANALYTICS_DISABLED: "true"

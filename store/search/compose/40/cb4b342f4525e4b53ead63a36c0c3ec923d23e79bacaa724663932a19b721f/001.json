@@ -4,6 +4,10 @@
     {
       "path": "templates/advplyr/audiobookshelf/summary.json",
       "sha256": "26aa52de0e9788fadc3371b4bf012ff2c7ee8abca33ed7ace9ffc8b5666a1d65"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     }
   ],
   "next": null

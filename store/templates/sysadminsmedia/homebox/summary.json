@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sysadminsmedia/homebox",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Homebox",
+  "description": "为家中物品建立可搜索的档案，记录存放位置、照片、购买凭证与保修信息，便于查找和整理家庭资产。",
+  "developer": "sysadminsmedia",
+  "projectUrl": "https://github.com/sysadminsmedia/homebox",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/homebox.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "homebox",
+    "Homebox",
+    "tools",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/sysadminsmedia/homebox/manifest.json",
+    "sha256": "e9178e419c06c4b9bc562bcbddd2a434c0fcfc4bb534d9be29158044d815e12b"
+  }
+}

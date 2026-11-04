@@ -4,6 +4,10 @@
     {
       "path": "templates/beidoums/beidou-server/summary.json",
       "sha256": "cdf69c3afb19d0bb67d9454e5ffa187a6f67a2787e79a461872e985712a0c898"
+    },
+    {
+      "path": "templates/penpot/penpot/summary.json",
+      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
     }
   ],
   "next": null

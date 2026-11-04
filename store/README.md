@@ -94,7 +94,30 @@ MoviePilot 和下载器分别安装时，需要手动选取同一个宿主机下
 
 DIAN115 基础模板使用 PostgreSQL 18，数据挂载至 `/var/lib/postgresql`。此模板用于新装；已有 PG16 数据应先按 PostgreSQL 跨大版本流程迁移，不能直接更换镜像复用旧目录。
 
-## 已收录应用信息
+## 应用模板
+
+以下应用提供独立的 Compose 模板，数据默认保存在项目目录中。已有资料库可通过路径变量选择实际宿主机目录；密码、实例密钥和必要访问地址在部署前填写。
+
+| 应用 | 用途 | 默认端口 | 最近提交 | 授权与收费 |
+| --- | --- | --- | --- | --- |
+| [Immich](templates/immich-app/immich/manifest.json) | 照片视频备份、相册与人物检索 | 2283 | 2026-11-04 | AGPL-3.0；README 未明确收费授权 |
+| [Homebox](templates/sysadminsmedia/homebox/manifest.json) | 家庭物品、位置、凭证与保修档案 | 3100 | 2026-10-31 | AGPL-3.0；自建未要求付费密钥 |
+| [Grocy](templates/grocy/grocy/manifest.json) | 食品库存、购物清单与家务安排 | 9283 | 2026-09-16 | MIT；自建未要求付费密钥 |
+| [Wallos](templates/ellite/wallos/manifest.json) | 订阅、周期账单与续费提醒 | 8282 | 2026-11-01 | GPL-3.0；自建未要求付费密钥 |
+| [Komga](templates/gotson/komga/manifest.json) | 漫画、杂志与电子书阅读库 | 25600 | 2026-11-04 | MIT；自建未要求付费密钥 |
+| [RomM](templates/rommapp/romm/manifest.json) | 游戏 ROM、封面、网页游玩与存档 | 8085 | 2026-11-04 | AGPL-3.0；项目声明无付费功能 |
+| [Penpot](templates/penpot/penpot/manifest.json) | 界面设计、原型与协作设计系统 | 9001 | 2026-11-04 | MPL-2.0；可选付费企业方案 |
+| [AFFiNE](templates/toeverything/affine/manifest.json) | 文档、白板与协作知识工作区 | 3010 | 2026-11-04 | 社区版 MIT、可免费自建；其他版本另有方案 |
+| [Feishin](templates/jeffvli/feishin/manifest.json) | 连接已有音乐服务的网页播放器 | 9180 | 2026-11-03 | GPL-3.0；自建未要求付费密钥 |
+| [FileCodeBox](templates/vastsa/filecodebox/manifest.json) | 取件码分享文件和文本 | 12345 | 2026-10-27 | LGPL-3.0；自建未要求付费密钥 |
+
+这些模板支持 `amd64` 和 `arm64`。图标使用各项目的官方资源，项目链接、维护时间与镜像架构信息保存在对应 manifest 中。
+
+Immich 默认使用稳定版 v3.3.5 及其配套向量数据库镜像，机器学习模型保存在 `./model-cache`；数据库目录应使用本机磁盘。Homebox 的 `API_KEY_PEPPER`、RomM 的会话密钥以及 Penpot 的实例密钥需要填写随机值并长期保留。Grocy 首次使用 `admin / admin` 登录后修改密码，其他需要账户的应用按首次使用向导初始化。
+
+Penpot 的设计资源在 `./assets` 中持久化；AFFiNE 的工作区内容、配置和数据库分别保存在 `./storage`、`./config`、`./postgres`。两者的准备任务成功后才启动主服务。Feishin 需要连接自己的 Navidrome、Jellyfin 或 Subsonic 服务，服务地址须能从播放器所在浏览器访问。
+
+## 其他应用信息
 
 以下信息于 2026-11-04 核对，项目介绍、公开源码状态和收费要求以对应项目 README 为依据；没有明确说明的情况标为未知。具体部署参数以各模板的 Compose 和 ENV 为准。
 
@@ -151,7 +174,6 @@ Dify 使用前需要准备 Nginx 站点配置并修改相应挂载；DeepTutor�
 | [Umami](https://github.com/umami-software/umami/blob/559e3c607c23d2c72d9bd4f6481bda428255323c/README.md) | 2026-10-23 | MIT | README 未明确 / 待确认 | amd64, arm64 |
 | [Gotify](https://github.com/gotify/server/blob/dd06dc77190696e93d3297b9a733711516fb17d9/README.md) | 2026-10-25 | MIT | 自建无付费密钥要求 | amd64, arm64 |
 | [Bark Server](https://github.com/Finb/bark-server/blob/640deaa151ddf79193202927b35ca2f14f65ee1d/README.md) | 2026-10-10 | MIT | 自建无付费密钥要求 | amd64, arm64 |
-| [梨园 Liyuan](https://github.com/weidu12123/Liyuan/blob/21fd38cb10e915fbf9c1f25fcbabe92f06a8993d/README.md) | 2026-11-01 | PolyForm Noncommercial 1.0.0 | README 未明确 / 待确认 | amd64 |
 | [So Novel](https://github.com/freeok/so-novel/blob/88acec6ee489ca1c2489c624cedd1ef417d3f3ee/README.md) | 2026-10-26 | AGPL-3.0 | 自建无付费密钥要求 | amd64 |
 
 ## 图标许可

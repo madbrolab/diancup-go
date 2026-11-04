@@ -56,6 +56,15 @@
       }
     },
     {
+      "id": "5637bca4786d239304646349",
+      "name": "ellite",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/5637bca4786d239304646349/repositories/001.json",
+        "sha256": "d2aedc5cab8152df812eae9900fe5c0de57de397c2894969093572660f5bc48f"
+      }
+    },
+    {
       "id": "99a6dc8ff8d63841a88238de",
       "name": "fccview",
       "count": 2,
@@ -110,12 +119,48 @@
       }
     },
     {
+      "id": "fa2a3916aa450ea5246c8f80",
+      "name": "gotson",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/fa2a3916aa450ea5246c8f80/repositories/001.json",
+        "sha256": "cf8f03a1383249be99bc45169044ec5d7533470c797e6eb3b38dd6ca01111d05"
+      }
+    },
+    {
+      "id": "480ad81f693bd59a188b85a4",
+      "name": "grocy",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/480ad81f693bd59a188b85a4/repositories/001.json",
+        "sha256": "8b21b54eecabe511d73c12e6e7e80109215f773d34ec245b1d343e9d299f1fe2"
+      }
+    },
+    {
       "id": "b99ef71ac76646f97402890a",
       "name": "henrygd",
       "count": 1,
       "first": {
         "path": "compose/developers/b99ef71ac76646f97402890a/repositories/001.json",
         "sha256": "e76dcedf46356c038c0ba6df700b563fde0f1d645085587072b9f7885eccd53f"
+      }
+    },
+    {
+      "id": "169df231e43c1a260a4443e3",
+      "name": "immich-app",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/169df231e43c1a260a4443e3/repositories/001.json",
+        "sha256": "01f7055d5c70ba85289d888d41c6a9fb9da92cadd69e34ea24b62e0fae97d4fb"
+      }
+    },
+    {
+      "id": "5b6dcc8b81811c12d423d0da",
+      "name": "jeffvli",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/5b6dcc8b81811c12d423d0da/repositories/001.json",
+        "sha256": "7ab6959a3aa608bf3b3232ee8430e8c8240892186edb73edea827a16439a5c1d"
       }
     },
     {
@@ -171,55 +216,10 @@
         "path": "compose/developers/c073df3f8fa20c9a11e1bc77/repositories/001.json",
         "sha256": "e23057011f8a2d15140d98b5c6ca5fa35fa5f2130955dd0f983676c30c2f03a6"
       }
-    },
-    {
-      "id": "06eb80c10d6089876042f48d",
-      "name": "n8n-io",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/06eb80c10d6089876042f48d/repositories/001.json",
-        "sha256": "2e3157a6ee15884e0e550818ec4705d330dc81e08063187e12b6b82c2134959b"
-      }
-    },
-    {
-      "id": "d579097b3c57f0d8757d3fad",
-      "name": "navidrome",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/d579097b3c57f0d8757d3fad/repositories/001.json",
-        "sha256": "3ca9fd796a6d6c0ede2a13dfe9c803b2b283946839706aff9dd47664366e7ffd"
-      }
-    },
-    {
-      "id": "474cb35097bb51195a63f8d8",
-      "name": "netdata",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/474cb35097bb51195a63f8d8/repositories/001.json",
-        "sha256": "250cdd7584d3e271c1153c2d44641d956c745f954c0378dd2ad84501f05516e3"
-      }
-    },
-    {
-      "id": "5be1ecc7935f1dd85635d4fe",
-      "name": "nginx",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/5be1ecc7935f1dd85635d4fe/repositories/001.json",
-        "sha256": "c1605cc743e876d56c25caec5ce90e9e6bfef5a91ca9efe7c0f5ba1a91762195"
-      }
-    },
-    {
-      "id": "d496c82198e4f3360f2a8433",
-      "name": "open-webui",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/d496c82198e4f3360f2a8433/repositories/001.json",
-        "sha256": "e83592048bebbbd4cd9f5e1f9867a25c08dd0a03647f35023cd72eb511b9f967"
-      }
     }
   ],
   "next": {
     "path": "compose/developers/003.json",
-    "sha256": "7c352db5018f543c0608d1c4a901feac6408f133053fdb2d11c3e2bb9682fac6"
+    "sha256": "24fc70d41a39a5a14d5cf8fe82947759f70ff33a905ab6b802eab5ed96a42817"
   }
 }

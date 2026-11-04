@@ -4,6 +4,10 @@
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
       "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
+    },
+    {
+      "path": "templates/penpot/penpot/summary.json",
+      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
     }
   ],
   "next": null

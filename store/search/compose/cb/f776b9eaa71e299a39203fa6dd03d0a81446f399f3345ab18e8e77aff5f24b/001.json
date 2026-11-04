@@ -4,6 +4,10 @@
     {
       "path": "templates/chenqimiao/qm-music/summary.json",
       "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
+    },
+    {
+      "path": "templates/jeffvli/feishin/summary.json",
+      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     }
   ],
   "next": null

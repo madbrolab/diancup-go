@@ -70,6 +70,10 @@
       "sha256": "61f23d99c0422c10124b866beb3c10f5ff42e45a845fb3d6eca08f306c0715ab"
     },
     {
+      "path": "templates/ellite/wallos/summary.json",
+      "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
+    },
+    {
       "path": "templates/emby/embyserver-basic/summary.json",
       "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
       "sha256": "ed98b081caf8af2770b0fa26dc984b1dcb6fab9166249403c691fb3315f362a5"
-    },
-    {
-      "path": "templates/freeok/so-novel/summary.json",
-      "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
     }
   ],
   "next": {
     "path": "search/compose/61/99aecf23aba7e87b2dafb8b4915260da85e3cf53568197b7e451982392fb8e/002.json",
-    "sha256": "f803301a052df48963308398e70e8c4743443c0152e2fb8e03f40d693e8ac0c3"
+    "sha256": "27a94d35503393a685b19b43636f985c2914f16280dd64dc2e0a6761ec625fa1"
   }
 }

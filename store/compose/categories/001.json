@@ -4,28 +4,28 @@
     {
       "id": "tools",
       "name": "工具",
-      "count": 22,
+      "count": 27,
       "index": {
         "path": "compose/tools/index.json",
-        "sha256": "b40a324adb16e725203ce6ca1d43a03d4e85c07478ece60f266e50786a1fc946"
+        "sha256": "9d7e01fab0a286da21b895cfd503ec47ed3548b98d20d8b19252c5ba09fb7950"
       }
     },
     {
       "id": "media",
       "name": "影音",
-      "count": 11,
+      "count": 14,
       "index": {
         "path": "compose/media/index.json",
-        "sha256": "fb86843f54ca23c2c54aeb7d6252c374ced004b7c7307f9660ce4df7c466cbe2"
+        "sha256": "8443d66cef4666b11a228918d7df022f059223838c3e62d81bd35bab182f6891"
       }
     },
     {
       "id": "games",
       "name": "游戏",
-      "count": 1,
+      "count": 2,
       "index": {
         "path": "compose/games/index.json",
-        "sha256": "4c5ebc3219c4caad1187813b7006a0ea55df9074654764d5e89f408338d6beef"
+        "sha256": "6c4e737a20364010af8e468875941c425ebd06109ef2a1bdc2520673e2e9d037"
       }
     },
     {
@@ -49,10 +49,10 @@
     {
       "id": "storage",
       "name": "存储",
-      "count": 5,
+      "count": 6,
       "index": {
         "path": "compose/storage/index.json",
-        "sha256": "4d4b65dfef74cf0dca7fa85b7f99a3f4b76277d6c9753e66e6470a9390dfc1fd"
+        "sha256": "c2a0dbc8bdf05f259c3180817f196d004d8e127ec5eab0a0aeb4c7e44f79bf67"
       }
     },
     {
@@ -94,10 +94,10 @@
     {
       "id": "ai",
       "name": "AI",
-      "count": 7,
+      "count": 6,
       "index": {
         "path": "compose/ai/index.json",
-        "sha256": "48e3d7a422e0e3ef6a83dca36d286edb095caf972781d56c573f4950a6816b2b"
+        "sha256": "f39eeec4eb1fd82de879f330d7ce4103588be0e01e7e6d08edf7a7deda7dab26"
       }
     },
     {

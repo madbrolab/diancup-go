@@ -8,6 +8,10 @@
     {
       "path": "templates/go-vikunja/vikunja/summary.json",
       "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
+    },
+    {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
     }
   ],
   "next": null
