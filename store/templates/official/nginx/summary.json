@@ -21,6 +21,7 @@
     "网站",
     "反向代理"
   ],
+  "applicationCount": 1,
   "manifest": {
     "path": "templates/official/nginx/manifest.json",
     "sha256": "75c9e5e9d3f6665b83935b53adeee1bbf04894406cd9381d7a430fcbaa7b55b4"

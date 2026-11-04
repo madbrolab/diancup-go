@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "53cabb87a5a53709eb3780aa990d1f149e3c2221f4b8048c88f276db5d4a0821"
+      "sha256": "3e5a1a9c8c7c0bec9cb9c586ed00c76246e1aa80e3a78ab9f48fca31c4a95f8a"
     },
     {
       "path": "templates/official/wordpress-mariadb/summary.json",
-      "sha256": "097b37b56274cb6e1899a02b9f17217ef3d24294f06c0d4a3f2d7566e717d2b1"
+      "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
     }
   ],
   "next": null

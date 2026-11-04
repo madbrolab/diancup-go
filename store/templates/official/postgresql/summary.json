@@ -21,6 +21,7 @@
     "postgresql",
     "数据库"
   ],
+  "applicationCount": 1,
   "manifest": {
     "path": "templates/official/postgresql/manifest.json",
     "sha256": "4b231696c5905138165cc2aa8759bf52ba86c435a869cb57838666702cd47de1"

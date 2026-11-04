@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "gitea/gitea-postgresql",
+      "kind": "compose",
+      "category": "development",
+      "name": "Gitea + PostgreSQL",
+      "description": "轻量 Git 托管平台，搭配 PostgreSQL 数据库。",
+      "developer": "Gitea",
+      "projectUrl": "https://github.com/go-gitea/gitea",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.1.0",
+      "icon": "icons/gitea-postgresql.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "gitea",
+        "git",
+        "postgresql",
+        "代码托管"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/gitea/gitea-postgresql/manifest.json",
+        "sha256": "9e74bc30a273110b9f00dc966bc3b44a5f05516bffa30c8edcca40d510c9cbfb"
+      },
+      "summary": {
+        "path": "templates/gitea/gitea-postgresql/summary.json",
+        "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
+      }
+    }
+  ],
+  "next": null
+}

@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/gitea/gitea-postgresql/summary.json",
-      "sha256": "8f07935d3be6fef4d463f77c04ce4e97ec1bb2828acb711d9c3a41fb8c524ee4"
+      "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
     },
     {
       "path": "templates/official/wordpress-mariadb/summary.json",
-      "sha256": "097b37b56274cb6e1899a02b9f17217ef3d24294f06c0d4a3f2d7566e717d2b1"
+      "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
     }
   ],
   "next": null

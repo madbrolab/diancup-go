@@ -9,7 +9,7 @@
   "source": "open",
   "license": "MIT",
   "paidKey": "none",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "monitoring",
   "tags": [
     "uptime",
@@ -33,5 +33,17 @@
       "example": "3001"
     }
   ],
-  "documentation": "https://github.com/louislam/uptime-kuma/blob/master/compose.yaml"
+  "documentation": "https://github.com/louislam/uptime-kuma/blob/master/compose.yaml",
+  "applications": [
+    {
+      "id": "uptime-kuma",
+      "name": "Uptime Kuma",
+      "icon": "icons/uptime-kuma.svg",
+      "developer": "Louis Lam",
+      "projectUrl": "https://github.com/louislam/uptime-kuma",
+      "services": [
+        "uptime-kuma"
+      ]
+    }
+  ]
 }

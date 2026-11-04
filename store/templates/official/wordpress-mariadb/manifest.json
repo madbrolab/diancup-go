@@ -9,7 +9,7 @@
   "source": "open",
   "license": "GPL-2.0-or-later",
   "paidKey": "none",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "web",
   "tags": [
     "wordpress",
@@ -47,5 +47,27 @@
       "example": ""
     }
   ],
-  "documentation": "https://hub.docker.com/_/wordpress"
+  "documentation": "https://hub.docker.com/_/wordpress",
+  "applications": [
+    {
+      "id": "wordpress",
+      "name": "WordPress",
+      "icon": "icons/wordpress.svg",
+      "developer": "WordPress",
+      "projectUrl": "https://github.com/WordPress/WordPress",
+      "services": [
+        "wordpress"
+      ]
+    },
+    {
+      "id": "mariadb",
+      "name": "MariaDB",
+      "icon": "icons/mariadb.svg",
+      "developer": "MariaDB",
+      "projectUrl": "https://github.com/MariaDB/server",
+      "services": [
+        "db"
+      ]
+    }
+  ]
 }

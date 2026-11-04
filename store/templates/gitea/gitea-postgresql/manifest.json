@@ -9,7 +9,7 @@
   "source": "open",
   "license": "MIT",
   "paidKey": "none",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "category": "development",
   "tags": [
     "gitea",
@@ -47,5 +47,27 @@
       "example": ""
     }
   ],
-  "documentation": "https://docs.gitea.com/installation/install-with-docker/"
+  "documentation": "https://docs.gitea.com/installation/install-with-docker/",
+  "applications": [
+    {
+      "id": "gitea",
+      "name": "Gitea",
+      "icon": "icons/gitea.svg",
+      "developer": "Gitea",
+      "projectUrl": "https://github.com/go-gitea/gitea",
+      "services": [
+        "gitea"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "icon": "icons/postgresql.svg",
+      "developer": "PostgreSQL",
+      "projectUrl": "https://github.com/postgres/postgres",
+      "services": [
+        "db"
+      ]
+    }
+  ]
 }

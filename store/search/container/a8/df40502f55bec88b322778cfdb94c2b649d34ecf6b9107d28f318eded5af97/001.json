@@ -3,7 +3,7 @@
   "items": [
     {
       "path": "templates/official/postgresql/summary.json",
-      "sha256": "a52791a091c9e13e54e3af02a25d4278ea22313fdda1806dd283044461d176b0"
+      "sha256": "0dace94fbee2df811acbf1f5cbe32383b20250ae5d658d88a8d24a76c29d3af0"
     }
   ],
   "next": null

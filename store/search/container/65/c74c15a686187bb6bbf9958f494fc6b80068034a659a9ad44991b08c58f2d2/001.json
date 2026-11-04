@@ -3,15 +3,15 @@
   "items": [
     {
       "path": "templates/linuxserver/jellyfin/summary.json",
-      "sha256": "744e6a88a2a60da64518d93a73d22984519dc2f7b68aeab28d1583d3d7ab1ab8"
+      "sha256": "4cddf7bad032ddb85692ef12af0195b130d264985b7f2276dd8a87475880f3bc"
     },
     {
       "path": "templates/louislam/uptime-kuma/summary.json",
-      "sha256": "18bb2135c12b771d9df00c6e31888553166a0ac13a6717e4016dbe601a2980f2"
+      "sha256": "af30601ce677d8e72bbda5efc6007fdaf26ff90568e84339b5eef3b87f408b23"
     },
     {
       "path": "templates/official/postgresql/summary.json",
-      "sha256": "a52791a091c9e13e54e3af02a25d4278ea22313fdda1806dd283044461d176b0"
+      "sha256": "0dace94fbee2df811acbf1f5cbe32383b20250ae5d658d88a8d24a76c29d3af0"
     }
   ],
   "next": null

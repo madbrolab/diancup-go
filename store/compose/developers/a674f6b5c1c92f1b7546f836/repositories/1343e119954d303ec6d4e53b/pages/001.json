@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "official/wordpress-mariadb",
+      "kind": "compose",
+      "category": "web",
+      "name": "WordPress + MariaDB",
+      "description": "博客网站和独立数据库，数据库仅在项目网络中访问。",
+      "developer": "WordPress / MariaDB",
+      "projectUrl": "https://github.com/WordPress/WordPress",
+      "source": "open",
+      "license": "GPL-2.0-or-later",
+      "paidKey": "none",
+      "version": "1.1.0",
+      "icon": "icons/wordpress-mariadb.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "wordpress",
+        "mariadb",
+        "博客",
+        "网站"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/official/wordpress-mariadb/manifest.json",
+        "sha256": "e194bc27dbfd24adf17b7cec0266b23bc2f7d58b647e1e2df1f909205b9385ef"
+      },
+      "summary": {
+        "path": "templates/official/wordpress-mariadb/summary.json",
+        "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
+      }
+    }
+  ],
+  "next": null
+}

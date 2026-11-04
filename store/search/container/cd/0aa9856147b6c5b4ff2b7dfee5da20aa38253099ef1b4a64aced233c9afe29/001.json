@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/official/nginx/summary.json",
-      "sha256": "0e19357e45a3c0af214578bd77556ea62d8c80867253a5d3d4299dd23f7d02e4"
+      "sha256": "138a0bb0896888cca060e7b2337652bdb5b3ecccbcb40f6886ba1c58c0b3e385"
     },
     {
       "path": "templates/official/postgresql/summary.json",
-      "sha256": "a52791a091c9e13e54e3af02a25d4278ea22313fdda1806dd283044461d176b0"
+      "sha256": "0dace94fbee2df811acbf1f5cbe32383b20250ae5d658d88a8d24a76c29d3af0"
     }
   ],
   "next": null

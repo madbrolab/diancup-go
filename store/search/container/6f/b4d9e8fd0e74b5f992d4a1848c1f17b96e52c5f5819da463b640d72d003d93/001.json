@@ -3,7 +3,7 @@
   "items": [
     {
       "path": "templates/linuxserver/jellyfin/summary.json",
-      "sha256": "744e6a88a2a60da64518d93a73d22984519dc2f7b68aeab28d1583d3d7ab1ab8"
+      "sha256": "4cddf7bad032ddb85692ef12af0195b130d264985b7f2276dd8a87475880f3bc"
     }
   ],
   "next": null

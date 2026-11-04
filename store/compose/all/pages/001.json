@@ -12,7 +12,7 @@
       "source": "open",
       "license": "MIT",
       "paidKey": "none",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "icon": "icons/gitea-postgresql.svg",
       "architectures": [
         "amd64",
@@ -24,13 +24,14 @@
         "postgresql",
         "代码托管"
       ],
+      "applicationCount": 2,
       "manifest": {
         "path": "templates/gitea/gitea-postgresql/manifest.json",
-        "sha256": "5598588bd2ec0d78bfb4d527bcdf3506f8d6e782fa111738e1f0ce8b2348af98"
+        "sha256": "9e74bc30a273110b9f00dc966bc3b44a5f05516bffa30c8edcca40d510c9cbfb"
       },
       "summary": {
         "path": "templates/gitea/gitea-postgresql/summary.json",
-        "sha256": "8f07935d3be6fef4d463f77c04ce4e97ec1bb2828acb711d9c3a41fb8c524ee4"
+        "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
       }
     },
     {
@@ -44,7 +45,7 @@
       "source": "open",
       "license": "MIT",
       "paidKey": "none",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "icon": "icons/uptime-kuma-compose.svg",
       "architectures": [
         "amd64",
@@ -56,13 +57,14 @@
         "监控",
         "compose"
       ],
+      "applicationCount": 1,
       "manifest": {
         "path": "templates/louislam/uptime-kuma-compose/manifest.json",
-        "sha256": "e51be1f27f0e8c22528b2cadfddf5ce5dffe844b09c33b7573bb05f0cb2976cd"
+        "sha256": "fc9501d65a6ff779db09d2ce20798a6d82f253cf8dc1784ecef3ff3f211a36e6"
       },
       "summary": {
         "path": "templates/louislam/uptime-kuma-compose/summary.json",
-        "sha256": "53cabb87a5a53709eb3780aa990d1f149e3c2221f4b8048c88f276db5d4a0821"
+        "sha256": "3e5a1a9c8c7c0bec9cb9c586ed00c76246e1aa80e3a78ab9f48fca31c4a95f8a"
       }
     },
     {
@@ -76,7 +78,7 @@
       "source": "open",
       "license": "GPL-2.0-or-later",
       "paidKey": "none",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "icon": "icons/wordpress-mariadb.svg",
       "architectures": [
         "amd64",
@@ -88,13 +90,14 @@
         "博客",
         "网站"
       ],
+      "applicationCount": 2,
       "manifest": {
         "path": "templates/official/wordpress-mariadb/manifest.json",
-        "sha256": "f499d9f29cef4578d781d40e6278a8dc8fd184aeebf35914bb28a3f64ea03b22"
+        "sha256": "e194bc27dbfd24adf17b7cec0266b23bc2f7d58b647e1e2df1f909205b9385ef"
       },
       "summary": {
         "path": "templates/official/wordpress-mariadb/summary.json",
-        "sha256": "097b37b56274cb6e1899a02b9f17217ef3d24294f06c0d4a3f2d7566e717d2b1"
+        "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
       }
     }
   ],

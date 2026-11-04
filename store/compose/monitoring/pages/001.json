@@ -12,7 +12,7 @@
       "source": "open",
       "license": "MIT",
       "paidKey": "none",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "icon": "icons/uptime-kuma-compose.svg",
       "architectures": [
         "amd64",
@@ -24,13 +24,14 @@
         "监控",
         "compose"
       ],
+      "applicationCount": 1,
       "manifest": {
         "path": "templates/louislam/uptime-kuma-compose/manifest.json",
-        "sha256": "e51be1f27f0e8c22528b2cadfddf5ce5dffe844b09c33b7573bb05f0cb2976cd"
+        "sha256": "fc9501d65a6ff779db09d2ce20798a6d82f253cf8dc1784ecef3ff3f211a36e6"
       },
       "summary": {
         "path": "templates/louislam/uptime-kuma-compose/summary.json",
-        "sha256": "53cabb87a5a53709eb3780aa990d1f149e3c2221f4b8048c88f276db5d4a0821"
+        "sha256": "3e5a1a9c8c7c0bec9cb9c586ed00c76246e1aa80e3a78ab9f48fca31c4a95f8a"
       }
     }
   ],

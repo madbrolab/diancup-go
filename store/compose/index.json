@@ -3,10 +3,14 @@
   "count": 3,
   "all": {
     "path": "compose/all/index.json",
-    "sha256": "07c241c2d42e592a3efb1f1e2f142983544e5387dc4a08a3af420d8b3a30c73f"
+    "sha256": "0e482bd467a1e1d788d86d9fa30aaab62465372b1252b3e85ee64595df3b9f4e"
+  },
+  "developersFirst": {
+    "path": "compose/developers/001.json",
+    "sha256": "e9958eada77f1207cc8c5eec972030c326546c4e44db7e698f6e1b6b0097a225"
   },
   "first": {
     "path": "compose/categories/001.json",
-    "sha256": "49dc005c8cd6e79267e58b39da153513c01c33eaacbd91b77d69ed9eab030bd0"
+    "sha256": "cebf51b347d588ff3d00218abc3e910296710420fee7dceb3bb100e8fe0c306f"
   }
 }

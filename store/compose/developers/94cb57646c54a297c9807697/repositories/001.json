@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "a07cdc31f367a52bf9e337d4",
+      "name": "https://github.com/go-gitea/gitea",
+      "projectUrl": "https://github.com/go-gitea/gitea",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/94cb57646c54a297c9807697/repositories/a07cdc31f367a52bf9e337d4/pages/001.json",
+        "sha256": "1b269f12320eae5c6da4ccbc1ebc58236034640e9830888fdad2db36571f0349"
+      }
+    }
+  ],
+  "next": null
+}

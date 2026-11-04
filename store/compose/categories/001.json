@@ -7,7 +7,7 @@
       "count": 1,
       "index": {
         "path": "compose/web/index.json",
-        "sha256": "65f68b1ebdec62473a9e640b116d6899eeb2e6f812efba521ba8632f1add3ecd"
+        "sha256": "24b1c8642e3839f8d9eafed1e69bfe60145214d303529b26d3d0c29c976cc1a9"
       }
     },
     {
@@ -16,7 +16,7 @@
       "count": 1,
       "index": {
         "path": "compose/monitoring/index.json",
-        "sha256": "bbe97d3ead0d747e80c44403819e3b15afa04efd11df669f7610fd8ffffe0840"
+        "sha256": "8c4c21fd3cd9a16018d7b3ed71f4b99ab37a6a138d0c6c4f4ea12939c12451e1"
       }
     },
     {
@@ -25,7 +25,7 @@
       "count": 1,
       "index": {
         "path": "compose/development/index.json",
-        "sha256": "58f8640a4f7bbb8f1d0287a5e4fdf2d064ab5bfbc813f4a3271960c501590505"
+        "sha256": "26648a78e049250b0371ac9343a75a018537b98ce53a5fe3f38cac3b363006c1"
       }
     }
   ],

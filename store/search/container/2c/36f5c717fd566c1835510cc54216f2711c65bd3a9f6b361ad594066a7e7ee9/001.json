@@ -3,11 +3,11 @@
   "items": [
     {
       "path": "templates/linuxserver/jellyfin/summary.json",
-      "sha256": "744e6a88a2a60da64518d93a73d22984519dc2f7b68aeab28d1583d3d7ab1ab8"
+      "sha256": "4cddf7bad032ddb85692ef12af0195b130d264985b7f2276dd8a87475880f3bc"
     },
     {
       "path": "templates/official/postgresql/summary.json",
-      "sha256": "a52791a091c9e13e54e3af02a25d4278ea22313fdda1806dd283044461d176b0"
+      "sha256": "0dace94fbee2df811acbf1f5cbe32383b20250ae5d658d88a8d24a76c29d3af0"
     }
   ],
   "next": null

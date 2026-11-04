@@ -23,13 +23,14 @@
         "kuma",
         "监控"
       ],
+      "applicationCount": 1,
       "manifest": {
         "path": "templates/louislam/uptime-kuma/manifest.json",
         "sha256": "06871eca490404c97f6d32474ca341ae078837cc44af901b60a8fd75c83432d4"
       },
       "summary": {
         "path": "templates/louislam/uptime-kuma/summary.json",
-        "sha256": "18bb2135c12b771d9df00c6e31888553166a0ac13a6717e4016dbe601a2980f2"
+        "sha256": "af30601ce677d8e72bbda5efc6007fdaf26ff90568e84339b5eef3b87f408b23"
       }
     }
   ],

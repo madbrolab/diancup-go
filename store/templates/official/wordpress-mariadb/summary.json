@@ -10,7 +10,7 @@
   "source": "open",
   "license": "GPL-2.0-or-later",
   "paidKey": "none",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "icons/wordpress-mariadb.svg",
   "architectures": [
     "amd64",
@@ -22,8 +22,9 @@
     "博客",
     "网站"
   ],
+  "applicationCount": 2,
   "manifest": {
     "path": "templates/official/wordpress-mariadb/manifest.json",
-    "sha256": "f499d9f29cef4578d781d40e6278a8dc8fd184aeebf35914bb28a3f64ea03b22"
+    "sha256": "e194bc27dbfd24adf17b7cec0266b23bc2f7d58b647e1e2df1f909205b9385ef"
   }
 }

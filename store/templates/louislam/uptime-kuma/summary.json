@@ -21,6 +21,7 @@
     "kuma",
     "监控"
   ],
+  "applicationCount": 1,
   "manifest": {
     "path": "templates/louislam/uptime-kuma/manifest.json",
     "sha256": "06871eca490404c97f6d32474ca341ae078837cc44af901b60a8fd75c83432d4"

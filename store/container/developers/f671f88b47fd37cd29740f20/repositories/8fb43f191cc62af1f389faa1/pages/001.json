@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "linuxserver/jellyfin",
+      "kind": "container",
+      "category": "media",
+      "name": "Jellyfin",
+      "description": "媒体库管理与播放，配置目录和媒体目录分开挂载。",
+      "developer": "Jellyfin / LinuxServer.io",
+      "projectUrl": "https://github.com/jellyfin/jellyfin",
+      "source": "open",
+      "license": "GPL-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/jellyfin.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "jellyfin",
+        "影音",
+        "媒体"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/linuxserver/jellyfin/manifest.json",
+        "sha256": "52a3d29ce2aaec9fa1ea879b430eba02ed4d1b2ca490420e821dda922d502b2b"
+      },
+      "summary": {
+        "path": "templates/linuxserver/jellyfin/summary.json",
+        "sha256": "4cddf7bad032ddb85692ef12af0195b130d264985b7f2276dd8a87475880f3bc"
+      }
+    }
+  ],
+  "next": null
+}

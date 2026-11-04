@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "94cb57646c54a297c9807697",
+      "name": "Gitea",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/94cb57646c54a297c9807697/repositories/001.json",
+        "sha256": "39c7f040f00545bcafa723a9573fc1f043bda2789b6017b4c9d229ef70443f80"
+      }
+    },
+    {
+      "id": "ad484c389986728f8462c30d",
+      "name": "Louis Lam",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/ad484c389986728f8462c30d/repositories/001.json",
+        "sha256": "e856fd56b56415329b2aafb7a7480671e4abde61aba8481c06eb69a0caabd90e"
+      }
+    },
+    {
+      "id": "a674f6b5c1c92f1b7546f836",
+      "name": "WordPress / MariaDB",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/a674f6b5c1c92f1b7546f836/repositories/001.json",
+        "sha256": "5a5b85f304105141f5c72d4be6e178733c027215be99ee6f1f77e5a65719960c"
+      }
+    }
+  ],
+  "next": null
+}

@@ -10,7 +10,7 @@
   "source": "open",
   "license": "MIT",
   "paidKey": "none",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "icon": "icons/gitea-postgresql.svg",
   "architectures": [
     "amd64",
@@ -22,8 +22,9 @@
     "postgresql",
     "代码托管"
   ],
+  "applicationCount": 2,
   "manifest": {
     "path": "templates/gitea/gitea-postgresql/manifest.json",
-    "sha256": "5598588bd2ec0d78bfb4d527bcdf3506f8d6e782fa111738e1f0ce8b2348af98"
+    "sha256": "9e74bc30a273110b9f00dc966bc3b44a5f05516bffa30c8edcca40d510c9cbfb"
   }
 }
