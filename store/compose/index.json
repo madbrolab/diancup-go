@@ -3,14 +3,14 @@
   "count": 61,
   "all": {
     "path": "compose/all/index.json",
-    "sha256": "beb3e61e6dfe379303a2491e86ad0292c19cfa630912eb620ffda6e8c966643e"
+    "sha256": "851c4b615ba44747bd8468f67ffee28d63e0f6f1be56dde1c0d512fa9646c282"
   },
   "developersFirst": {
     "path": "compose/developers/001.json",
-    "sha256": "ab1fd6a7ae4a52024904b8be0e94f1b0b78e7fe284094fe7f222328deb6ba534"
+    "sha256": "8a4ddcac345d2b8f4125559a21f18c5dc5979bff2e0b275d40df993762aedadc"
   },
   "first": {
     "path": "compose/categories/001.json",
-    "sha256": "f7698347846a8f6788b9d4e5d1ac3e6562f40fdd6e7b71936d39f582dd8418f2"
+    "sha256": "3bb39010b7a67fa01f7d0d5acee589e8e2e95104573a8e48dc0a70eae570d2d5"
   }
 }

@@ -4,6 +4,10 @@
     {
       "path": "templates/fish2018/pansou/summary.json",
       "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+    },
+    {
+      "path": "templates/madbrolab/dian115-basic/summary.json",
+      "sha256": "d8bf6e67b2cb677efad9b20686b77ff918de55714911392db55f74a51cef5146"
     }
   ],
   "next": null

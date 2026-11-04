@@ -3,13 +3,13 @@
   "id": "madbrolab/dian115-basic",
   "kind": "compose",
   "name": "DIAN115 + PostgreSQL 基础版",
-  "description": "管理 115 网盘资源、媒体整理、STRM 与影音服务接入。主程序采用私有授权，需要激活密钥；此基础配置配套 PostgreSQL。",
+  "description": "管理 115 网盘资源、媒体整理、STRM 与影音服务接入。主程序采用私有授权，需要激活密钥；此基础配置配套 PostgreSQL 18。",
   "developer": "madbrolab",
   "projectUrl": "https://github.com/madbrolab/dian115",
   "source": "closed",
   "license": "Proprietary / private activation license",
   "paidKey": "required",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "category": "media",
   "tags": [
     "dian115",
@@ -23,7 +23,7 @@
   "icon": "icons/basic-dian115.svg",
   "payload": "compose.yaml",
   "env": "env.example",
-  "documentation": "https://github.com/madbrolab/dian115/blob/main/README.md",
+  "documentation": "https://madbrolab.github.io/dian115/docs/database-postgresql/",
   "recommendations": [
     {
       "target": "env.DB_PASSWORD",
@@ -59,6 +59,13 @@
       "reason": "适用于 Linux；后台端口默认 8095，Emby 代理和音乐端口在应用内配置，避免与已有服务冲突。",
       "required": false,
       "example": ""
+    },
+    {
+      "target": "compose.services.postgres.volumes",
+      "title": "PostgreSQL 18 数据目录",
+      "reason": "新装数据保存在 ./postgres，挂载至 /var/lib/postgresql；已有 PG16 数据需要先迁移，不能仅修改镜像复用原目录。",
+      "required": false,
+      "example": ""
     }
   ],
   "applications": [
@@ -92,11 +99,16 @@
     "iconSource": "https://raw.githubusercontent.com/madbrolab/dian115/e1f93cc5d4b9f03366ac91e8a1d5b86b863eedba/frontend/public/logo.jpg",
     "iconSHA256": "b45998e77803b7255e2d473dc2d81a6837962ea685a02f52bd5df0a15044f9aa",
     "adaptations": [
-      "移除外部数据库凭据，提供项目独立 PostgreSQL 16 和健康检查",
+      "移除外部数据库凭据，按 DIAN115 新装方案提供 PostgreSQL 18 和健康检查",
+      "数据挂载采用 PostgreSQL 18 的 /var/lib/postgresql 根目录",
       "数据库仅绑定宿主机回环地址，保留应用 Host 网络",
       "媒体及云盘路径改为通用默认目录",
       "Docker socket 和 GPU 改为按功能手动添加"
     ],
+    "deploymentDocumentation": {
+      "url": "https://madbrolab.github.io/dian115/docs/database-postgresql/",
+      "sha256": "9a5fe9a1faa1cb3c7e77fef26f8689149bbce9f06884e294c34558f4bc6dee27"
+    },
     "images": [
       {
         "image": "madbrolab/dian115:latest",
@@ -107,12 +119,12 @@
         "manifestSHA256": "b53ee7216ffcf11df5534c8d5ed95223d69beed9228b7c9373bf785eb2789605"
       },
       {
-        "image": "postgres:16-alpine",
+        "image": "postgres:18",
         "architectures": [
           "amd64",
           "arm64"
         ],
-        "manifestSHA256": "0cefaabd882e42bcb2a2f3dc56d3ce4770560ba62fd7f197f1a2e008fd5731ab"
+        "manifestSHA256": "3a4264520e121176619f54ff867d12774bc81e95e7b84db58d63bccdb6144b81"
       }
     ]
   }

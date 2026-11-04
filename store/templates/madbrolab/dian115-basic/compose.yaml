@@ -17,14 +17,14 @@ services:
       - ${MEDIA_DIR:-./media}:/媒体库
       - ${CLOUD_MOUNT_DIR:-./cloud}:/CloudNAS:rslave
   postgres:
-    image: postgres:16-alpine
+    image: postgres:18
     restart: unless-stopped
     environment:
       POSTGRES_DB: DIAN115
       POSTGRES_USER: dian115
       POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
     volumes:
-      - ./postgres:/var/lib/postgresql/data
+      - ./postgres:/var/lib/postgresql
     healthcheck:
       test:
         - CMD-SHELL

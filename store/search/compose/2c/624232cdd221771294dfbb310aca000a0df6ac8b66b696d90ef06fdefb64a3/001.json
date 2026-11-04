@@ -6,6 +6,10 @@
       "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
     },
     {
+      "path": "templates/madbrolab/dian115-basic/summary.json",
+      "sha256": "d8bf6e67b2cb677efad9b20686b77ff918de55714911392db55f74a51cef5146"
+    },
+    {
       "path": "templates/n8n-io/n8n/summary.json",
       "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
     }

@@ -519,13 +519,13 @@
       "kind": "compose",
       "category": "media",
       "name": "DIAN115 + PostgreSQL 基础版",
-      "description": "管理 115 网盘资源、媒体整理、STRM 与影音服务接入。主程序采用私有授权，需要激活密钥；此基础配置配套 PostgreSQL。",
+      "description": "管理 115 网盘资源、媒体整理、STRM 与影音服务接入。主程序采用私有授权，需要激活密钥；此基础配置配套 PostgreSQL 18。",
       "developer": "madbrolab",
       "projectUrl": "https://github.com/madbrolab/dian115",
       "source": "closed",
       "license": "Proprietary / private activation license",
       "paidKey": "required",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "icon": "icons/basic-dian115.svg",
       "architectures": [
         "amd64",
@@ -539,11 +539,11 @@
       "applicationCount": 2,
       "manifest": {
         "path": "templates/madbrolab/dian115-basic/manifest.json",
-        "sha256": "c2779a6cec70c9618f5ab4560157fbfac76696c5aadee2d57d83e5fa744f3beb"
+        "sha256": "5489018adbd6bb95ac9aacb6cdd6e0f66482f8ee48fe1a80c98f1f1116b2cf70"
       },
       "summary": {
         "path": "templates/madbrolab/dian115-basic/summary.json",
-        "sha256": "0b41a4c23c812bb0284e9524945c48b4a64f342d7c31a73aacfb218bbe0a9ef0"
+        "sha256": "d8bf6e67b2cb677efad9b20686b77ff918de55714911392db55f74a51cef5146"
       }
     },
     {
