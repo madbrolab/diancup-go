@@ -36,7 +36,7 @@
 
 ## Docker Compose 部署
 
-安装 Docker Engine 和 Compose 插件，创建 `compose.yaml`，将 `DOCKER_DIR` 改为宿主机实际的项目目录：
+安装 Docker Engine 和 Compose 插件，创建 `compose.yaml`：
 
 ```yaml
 services:
@@ -53,7 +53,6 @@ services:
     environment:
       TZ: Asia/Shanghai
       WEB_PORT: "9520"
-      DOCKER_DIR: /mnt/cache/docker # 必须改为实际目录
 ```
 
 启动或更新：
