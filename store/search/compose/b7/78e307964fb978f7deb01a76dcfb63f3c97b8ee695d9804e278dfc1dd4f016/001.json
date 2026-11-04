@@ -6,6 +6,10 @@
       "sha256": "8faab34e70c0df1a196898d3a1fadeba42cdb3b0c9ace91346e84bfe92a7f8d9"
     },
     {
+      "path": "templates/laurent22/joplin-server-basic/summary.json",
+      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+    },
+    {
       "path": "templates/usememos/memos/summary.json",
       "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
     }

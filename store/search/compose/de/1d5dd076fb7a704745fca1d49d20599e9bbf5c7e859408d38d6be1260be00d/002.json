@@ -2,6 +2,42 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/laurent22/joplin-server-basic/summary.json",
+      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+    },
+    {
+      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
+      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+    },
+    {
+      "path": "templates/linuxserver/qbittorrent-basic/summary.json",
+      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+    },
+    {
+      "path": "templates/madbrolab/dian115-basic/summary.json",
+      "sha256": "0b41a4c23c812bb0284e9524945c48b4a64f342d7c31a73aacfb218bbe0a9ef0"
+    },
+    {
+      "path": "templates/n8n-io/n8n/summary.json",
+      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+    },
+    {
+      "path": "templates/navidrome/navidrome-basic/summary.json",
+      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+    },
+    {
+      "path": "templates/navidrome/navidrome/summary.json",
+      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+    },
+    {
+      "path": "templates/netdata/netdata/summary.json",
+      "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
+    },
+    {
+      "path": "templates/nginx/nginx/summary.json",
+      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+    },
+    {
       "path": "templates/open-webui/open-webui/summary.json",
       "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
     },

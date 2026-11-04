@@ -6,6 +6,10 @@
       "sha256": "1183ea8eff73077de909ff8074ab2a4db7da07bb1d6794cd25a6114b18a3294c"
     },
     {
+      "path": "templates/madbrolab/dian115-basic/summary.json",
+      "sha256": "0b41a4c23c812bb0284e9524945c48b4a64f342d7c31a73aacfb218bbe0a9ef0"
+    },
+    {
       "path": "templates/umami-software/umami/summary.json",
       "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
     }

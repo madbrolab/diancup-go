@@ -6,6 +6,10 @@
       "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
     },
     {
+      "path": "templates/navidrome/navidrome-basic/summary.json",
+      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+    },
+    {
       "path": "templates/open-webui/open-webui/summary.json",
       "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
     },

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/linuxserver/qbittorrent-basic/summary.json",
+      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+    }
+  ],
+  "next": null
+}

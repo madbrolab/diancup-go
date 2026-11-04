@@ -2,6 +2,326 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "openlistteam/openlist",
+      "kind": "compose",
+      "category": "storage",
+      "name": "OpenList",
+      "description": "将多个存储服务组织成统一的文件列表，通过网页访问和管理内容。项目声明现有功能免费提供。",
+      "developer": "OpenListTeam",
+      "projectUrl": "https://github.com/OpenListTeam/OpenList",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/openlist.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "openlist",
+        "OpenList",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/openlistteam/openlist/manifest.json",
+        "sha256": "dce5e292f4d058c7742ba1cc36d9a55553f5a5354e16522c1a3fbc40d7616c6c"
+      },
+      "summary": {
+        "path": "templates/openlistteam/openlist/summary.json",
+        "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      }
+    },
+    {
+      "id": "plankanban/planka",
+      "kind": "compose",
+      "category": "tools",
+      "name": "PLANKA",
+      "description": "用看板、列表和卡片协作管理项目，记录评论、附件与到期时间。社区版可自建，Pro 和企业功能另行授权。",
+      "developer": "plankanban",
+      "projectUrl": "https://github.com/plankanban/planka",
+      "source": "unknown",
+      "license": "PLANKA Community Fair Use License / Commercial License",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/planka.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "planka",
+        "PLANKA",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/plankanban/planka/manifest.json",
+        "sha256": "e648b30d35d7d25504a23cef42ef713d236baf7717c8cca9df4b7bf96b085460"
+      },
+      "summary": {
+        "path": "templates/plankanban/planka/summary.json",
+        "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+      }
+    },
+    {
+      "id": "qbittorrent/qbittorrent",
+      "kind": "compose",
+      "category": "download",
+      "name": "qBittorrent",
+      "description": "提供可远程访问的 BitTorrent 下载服务，用网页管理任务、连接和传输速度；此模板使用 LinuxServer.io 镜像。",
+      "developer": "qbittorrent",
+      "projectUrl": "https://github.com/qbittorrent/qBittorrent",
+      "source": "open",
+      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/qbittorrent.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "qbittorrent",
+        "qBittorrent",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/qbittorrent/qbittorrent/manifest.json",
+        "sha256": "538b3ddb792eeaceb90774c7418b321bd8e520140cc484bb6b3567b9ae80f139"
+      },
+      "summary": {
+        "path": "templates/qbittorrent/qbittorrent/summary.json",
+        "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+      }
+    },
+    {
+      "id": "seerr-team/seerr",
+      "kind": "compose",
+      "category": "media",
+      "name": "Seerr",
+      "description": "为家庭媒体库收集电影和剧集申请，关联媒体服务器及自动整理工具，集中处理申请审批、权限和通知。",
+      "developer": "seerr-team",
+      "projectUrl": "https://github.com/seerr-team/seerr",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/seerr.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "seerr",
+        "Seerr",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/seerr-team/seerr/manifest.json",
+        "sha256": "39c50db620f0559492db481396d15caea15791142cf1eb9328e8660579f62b29"
+      },
+      "summary": {
+        "path": "templates/seerr-team/seerr/summary.json",
+        "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+      }
+    },
+    {
+      "id": "stirling-tools/stirling-pdf",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Stirling PDF",
+      "description": "在本地服务器处理 PDF 的合并、拆分、转换、OCR 和签署，也可通过 API 编排任务；提供可选付费服务器及企业功能。",
+      "developer": "Stirling-Tools",
+      "projectUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "source": "open",
+      "license": "Open-core; see upstream LICENSE",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/stirling-pdf.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "stirling-pdf",
+        "Stirling PDF",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/stirling-tools/stirling-pdf/manifest.json",
+        "sha256": "22d4ae545261eb815f5b697758804133553ee64907ce5d5086403571c1abe811"
+      },
+      "summary": {
+        "path": "templates/stirling-tools/stirling-pdf/summary.json",
+        "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      }
+    },
+    {
+      "id": "taksssss/iptv-tool",
+      "kind": "compose",
+      "category": "media",
+      "name": "IPTV 工具箱",
+      "description": "统一整理节目单、频道台标与直播列表，按播放客户端需要输出不同格式，并支持频道匹配、定时更新和访问控制。",
+      "developer": "taksssss",
+      "projectUrl": "https://github.com/taksssss/iptv-tool",
+      "source": "open",
+      "license": "GPL-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/iptv-tool.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "iptv-tool",
+        "IPTV 工具箱",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/taksssss/iptv-tool/manifest.json",
+        "sha256": "873a683bb2cf2a761b305b58191a0798ce34169f0d9bd89b031c1862bc162a5f"
+      },
+      "summary": {
+        "path": "templates/taksssss/iptv-tool/summary.json",
+        "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+      }
+    },
+    {
+      "id": "transmission/transmission",
+      "kind": "compose",
+      "category": "download",
+      "name": "Transmission",
+      "description": "运行面向服务器的 BT 下载守护进程，通过网页管理磁力链接和种子，并保留下载、配置与监视目录。",
+      "developer": "transmission",
+      "projectUrl": "https://github.com/transmission/transmission",
+      "source": "open",
+      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/transmission.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "transmission",
+        "Transmission",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/transmission/transmission/manifest.json",
+        "sha256": "92c3636d0f2794f2f86e298ff59841ced16f8262d70a54f716721aed84e4062e"
+      },
+      "summary": {
+        "path": "templates/transmission/transmission/summary.json",
+        "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+      }
+    },
+    {
+      "id": "umami-software/umami",
+      "kind": "compose",
+      "category": "monitoring",
+      "name": "Umami",
+      "description": "统计网站访问、活动来源与转化情况，使用注重隐私的分析方式。可自行部署，README 提到云端服务但未列价格。",
+      "developer": "umami-software",
+      "projectUrl": "https://github.com/umami-software/umami",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/umami.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "umami",
+        "Umami",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/umami-software/umami/manifest.json",
+        "sha256": "57feb1405b1011da2ff05634348184b4ebb3f622151e8b78752d383cc45cc1ac"
+      },
+      "summary": {
+        "path": "templates/umami-software/umami/summary.json",
+        "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+      }
+    },
+    {
+      "id": "usememos/memos",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Memos",
+      "description": "按时间记录零散想法和日常笔记，通过标签整理内容，并为每条记录选择私密保存或公开分享。",
+      "developer": "usememos",
+      "projectUrl": "https://github.com/usememos/memos",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/memos-cn.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "memos-cn",
+        "Memos",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/usememos/memos/manifest.json",
+        "sha256": "9513880d59d0d09c9fa437a411c53368580ce3a101adba606524def28df2cb11"
+      },
+      "summary": {
+        "path": "templates/usememos/memos/summary.json",
+        "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+      }
+    },
+    {
+      "id": "vert-sh/vert",
+      "kind": "compose",
+      "category": "tools",
+      "name": "VERT",
+      "description": "提供图像、音频、文档和视频格式转换界面，多数转换在浏览器本地执行；部分视频操作可对接独立转换服务。",
+      "developer": "VERT-sh",
+      "projectUrl": "https://github.com/VERT-sh/VERT",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/vert.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "vert",
+        "VERT",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/vert-sh/vert/manifest.json",
+        "sha256": "143a1908a7e2725505c7e3dfc7de475dedc71ed8a83d80d6e9975c0a176f1d1b"
+      },
+      "summary": {
+        "path": "templates/vert-sh/vert/summary.json",
+        "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+      }
+    },
+    {
       "id": "wallabag/wallabag",
       "kind": "compose",
       "category": "tools",

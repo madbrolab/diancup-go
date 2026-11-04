@@ -47,6 +47,15 @@
       }
     },
     {
+      "id": "549186ff750e1810a9d0107c",
+      "name": "CloudDrive2",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/549186ff750e1810a9d0107c/repositories/001.json",
+        "sha256": "203f3d2c26f0a72a7c82c9149dfbc5586d41783d4d1c5c0012f63c1b2aa979e0"
+      }
+    },
+    {
       "id": "be3f56515f25f00b10e05e13",
       "name": "Coooolfan",
       "count": 1,
@@ -56,12 +65,30 @@
       }
     },
     {
+      "id": "b3bf7ff9f7c4245bfc813856",
+      "name": "Emby LLC",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/b3bf7ff9f7c4245bfc813856/repositories/001.json",
+        "sha256": "f165b4b69b44de5a88e1f9f4568405fc2647d0903701810acaadd3fca55bcda5"
+      }
+    },
+    {
       "id": "d291a8abad330659bcf7b135",
       "name": "Finb",
       "count": 1,
       "first": {
         "path": "compose/developers/d291a8abad330659bcf7b135/repositories/001.json",
         "sha256": "99716cc9b7017e8159b21ece6728dce417b842a6fb6b7157d8f1dd9ab6950c4b"
+      }
+    },
+    {
+      "id": "fdf54770bf04c7f8396616fb",
+      "name": "FlareSolverr",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/fdf54770bf04c7f8396616fb/repositories/001.json",
+        "sha256": "16172d4f08826cccb80146589929c2a741d50d2e128d17a236772b38afb4b458"
       }
     },
     {
@@ -92,6 +119,24 @@
       }
     },
     {
+      "id": "191c3b35fdde623365228fff",
+      "name": "Joplin",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/191c3b35fdde623365228fff/repositories/001.json",
+        "sha256": "9260e5a956c2abe0a0fc0fe34ad24f633bdd38d69cc3ce6a43c344e6de2d131c"
+      }
+    },
+    {
+      "id": "247ec43d223a9f708743d604",
+      "name": "Navidrome",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/247ec43d223a9f708743d604/repositories/001.json",
+        "sha256": "bc6ee72df1e93d297401d02013231249bec2d9c60b90a8fc927c9c3d8deab139"
+      }
+    },
+    {
       "id": "ca77b3ea7116b478997136e4",
       "name": "OpenListTeam",
       "count": 1,
@@ -107,6 +152,15 @@
       "first": {
         "path": "compose/developers/8698fb98a3355c501e13719b/repositories/001.json",
         "sha256": "acb927f6d789687cf6a388963ca9a11f32d53fb0fc2de9a6ec269226bf5d2de7"
+      }
+    },
+    {
+      "id": "6f355ce6e42dddbcc93b74db",
+      "name": "Transmission / LinuxServer.io",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/6f355ce6e42dddbcc93b74db/repositories/001.json",
+        "sha256": "fdf5700201a719cf0d3dfe9877c293b3c87f6171f978654c3a39101ffd4a2786"
       }
     },
     {
@@ -162,64 +216,10 @@
         "path": "compose/developers/fc17dad5cb96a35787685b70/repositories/001.json",
         "sha256": "ed6c3703588e19eae6c0e1acba0821313b4ee40944c98b56005fcc394829f926"
       }
-    },
-    {
-      "id": "bace37ebeea6ae7072b2d9e7",
-      "name": "bestruirui",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/bace37ebeea6ae7072b2d9e7/repositories/001.json",
-        "sha256": "6868d259fe83357a9457753d00ce4b4c507123f9c2d4b260daef1a953cdb0f0e"
-      }
-    },
-    {
-      "id": "a1bb216b2bbb7eb30b25960e",
-      "name": "brave",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/a1bb216b2bbb7eb30b25960e/repositories/001.json",
-        "sha256": "c35158a59ffad4f0edd1afc680b842e41e8b9e709c29460973830e8c67906bf1"
-      }
-    },
-    {
-      "id": "3afe7712b5e78c2ddd951361",
-      "name": "chaitin",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/3afe7712b5e78c2ddd951361/repositories/001.json",
-        "sha256": "346b8001b2a38c39881192329f5e68eeed2418b01c35826fe181f8857666ca94"
-      }
-    },
-    {
-      "id": "287574b943fa0e5f24d6af1f",
-      "name": "chenqimiao",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/287574b943fa0e5f24d6af1f/repositories/001.json",
-        "sha256": "8362003fb3505d85f83236f2cefd737d2824c264c1a84a16426d1242ed3c5dbc"
-      }
-    },
-    {
-      "id": "55a57854fc1b33f21ce8403b",
-      "name": "dani-garcia",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/55a57854fc1b33f21ce8403b/repositories/001.json",
-        "sha256": "c202bff09a286a93ca67527a966caa08dd34b1f223e1fe391279cacfc3f351dc"
-      }
-    },
-    {
-      "id": "028f30897d14f647fb799623",
-      "name": "dockers-x",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/028f30897d14f647fb799623/repositories/001.json",
-        "sha256": "7777156d85e74c752a0e4e37e6268bf5333139dfe4760b1a9312ef0dd193aa5c"
-      }
     }
   ],
   "next": {
     "path": "compose/developers/002.json",
-    "sha256": "a4d8f74ba3f041f16eb7be9239eb622d3eeea6dafbd15976b2c1f90d2669cbcd"
+    "sha256": "bb36c9241f5c0a0c019a951fcb7c95d6f6a4533d9a6c4819b81aba9eb98d417f"
   }
 }

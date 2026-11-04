@@ -62,8 +62,32 @@
       "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
     },
     {
+      "path": "templates/laurent22/joplin-server-basic/summary.json",
+      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+    },
+    {
+      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
+      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+    },
+    {
+      "path": "templates/linuxserver/qbittorrent-basic/summary.json",
+      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+    },
+    {
+      "path": "templates/linuxserver/transmission-basic/summary.json",
+      "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
+    },
+    {
+      "path": "templates/madbrolab/dian115-basic/summary.json",
+      "sha256": "0b41a4c23c812bb0284e9524945c48b4a64f342d7c31a73aacfb218bbe0a9ef0"
+    },
+    {
       "path": "templates/n8n-io/n8n/summary.json",
       "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+    },
+    {
+      "path": "templates/navidrome/navidrome-basic/summary.json",
+      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
     },
     {
       "path": "templates/navidrome/navidrome/summary.json",
@@ -72,34 +96,10 @@
     {
       "path": "templates/netdata/netdata/summary.json",
       "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
-    },
-    {
-      "path": "templates/nginx/nginx/summary.json",
-      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
-    },
-    {
-      "path": "templates/open-webui/open-webui/summary.json",
-      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
-    },
-    {
-      "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
-    },
-    {
-      "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
-    },
-    {
-      "path": "templates/qbittorrent/qbittorrent/summary.json",
-      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
-    },
-    {
-      "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
     }
   ],
   "next": {
     "path": "search/compose/1b/16b1df538ba12dc3f97edbb85caa7050d46c148134290feba80f8236c83db9/002.json",
-    "sha256": "1650fc82ce23c67da2b696853650a66927aefc280e1ea50bf4b66c834721f4e2"
+    "sha256": "cfe4ba3c02491c58a45f46f4feb3ec53a92607e30072bf54230a06a06623afea"
   }
 }

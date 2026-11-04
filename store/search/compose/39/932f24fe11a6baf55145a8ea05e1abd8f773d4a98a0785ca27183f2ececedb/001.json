@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/cloudnas/clouddrive2-basic/summary.json",
+      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+    },
+    {
+      "path": "templates/linuxserver/qbittorrent-basic/summary.json",
+      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+    },
+    {
       "path": "templates/louislam/dockge/summary.json",
       "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
     },

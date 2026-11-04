@@ -4,6 +4,10 @@
     {
       "path": "templates/freeok/so-novel/summary.json",
       "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+    },
+    {
+      "path": "templates/jxxghp/moviepilot-basic/summary.json",
+      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
     }
   ],
   "next": null

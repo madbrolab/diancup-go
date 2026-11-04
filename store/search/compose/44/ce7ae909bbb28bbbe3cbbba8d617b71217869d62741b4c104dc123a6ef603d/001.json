@@ -8,6 +8,10 @@
     {
       "path": "templates/fish2018/pansou/summary.json",
       "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+    },
+    {
+      "path": "templates/jxxghp/moviepilot-basic/summary.json",
+      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
     }
   ],
   "next": null

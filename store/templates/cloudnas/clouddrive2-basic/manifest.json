@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "cloudnas/clouddrive2-basic",
+  "kind": "compose",
+  "name": "CloudDrive2 基础版",
+  "description": "将多个云盘接入服务器并以本地文件系统挂载，供媒体服务或文件工具访问。产品提供基础能力与付费会员功能。",
+  "developer": "CloudDrive2",
+  "projectUrl": "https://www.clouddrive2.com/",
+  "source": "closed",
+  "license": "Proprietary",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "storage",
+  "tags": [
+    "clouddrive2",
+    "基础模板",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/basic-clouddrive2.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://www.clouddrive2.com/docker.html",
+  "recommendations": [
+    {
+      "target": "env.MOUNT_DIR",
+      "title": "云盘挂载根目录",
+      "reason": "默认项目内 ./cloud，可选择宿主机任意实际目录；该目录所在挂载点须支持 shared 传播。其他容器使用同一宿主机目录并以 rslave 接收挂载。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.clouddrive",
+      "title": "Linux FUSE 环境",
+      "reason": "遵循官方部署要求保留 /dev/fuse、Host PID 与特权模式；需要宿主机支持 FUSE 和共享挂载传播。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.clouddrive.network_mode",
+      "title": "管理入口",
+      "reason": "Host 网络下访问 http://服务器IP:19798；不使用 Docker 端口映射。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "applications": [
+    {
+      "id": "clouddrive2",
+      "name": "CloudDrive2",
+      "developer": "CloudDrive2",
+      "projectUrl": "https://www.clouddrive2.com/",
+      "icon": "icons/basic-clouddrive2.svg",
+      "services": [
+        "clouddrive"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "origin": "reconstructed-basic-compose",
+    "iconSource": "https://www.clouddrive2.com/img/clouddrive-h.svg",
+    "iconSHA256": "615753698c9d90d102cee50a9b80b6fb4e788dc0969f1dd2b3e58eafe4c13181",
+    "adaptations": [
+      "去除 Unraid 缓存池、用户共享和个人备份路径",
+      "改用项目内 config、cloud、backup 默认目录",
+      "采用官方 Host 网络及 FUSE 部署要求",
+      "删除官方示例未使用的 PUID/PGID/UMASK 参数"
+    ],
+    "activitySource": "https://github.com/cloud-fs/cloud-fs.github.io/releases",
+    "lastReleaseAt": "2026-10-17T11:24:06Z",
+    "lastRelease": "v1.1.3",
+    "readmeScope": "Current proprietary product verified against official website and release repository; legacy source repository does not describe the shipped binary.",
+    "images": [
+      {
+        "image": "cloudnas/clouddrive2:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "12984fd22925d45b56027dea0ecff8655fe4b8d53eb631e779df5b534be9bc7d"
+      }
+    ]
+  }
+}

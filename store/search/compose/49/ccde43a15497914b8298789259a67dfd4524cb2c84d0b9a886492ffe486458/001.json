@@ -14,6 +14,14 @@
       "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
     },
     {
+      "path": "templates/jxxghp/moviepilot-basic/summary.json",
+      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+    },
+    {
+      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
+      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+    },
+    {
       "path": "templates/netdata/netdata/summary.json",
       "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
     },

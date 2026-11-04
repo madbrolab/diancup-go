@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "jxxghp/moviepilot-basic",
+  "kind": "compose",
+  "name": "MoviePilot v2 + PostgreSQL + Redis 基础版",
+  "description": "组织影视订阅、搜索、下载和入库流程，可接入下载器、媒体服务与插件。项目声明不收费；此基础配置包含 PostgreSQL 与 Redis。",
+  "developer": "jxxghp",
+  "projectUrl": "https://github.com/jxxghp/MoviePilot",
+  "source": "unknown",
+  "license": "GPL-3.0 with noncommercial README terms",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "moviepilot",
+    "基础模板",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/basic-moviepilot.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://wiki.movie-pilot.org/",
+  "recommendations": [
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "为当前新实例设置独立密码；数据库仅供项目内服务连接。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.REDIS_PASSWORD",
+      "title": "缓存密码",
+      "reason": "连接 URL 使用此密码，建议填写至少 32 位随机十六进制字符，避免 URL 特殊字符。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.DOWNLOADS_DIR",
+      "title": "下载目录",
+      "reason": "与下载器映射同一个宿主机目录，并在各容器中统一使用 /downloads。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.MEDIA_DIR",
+      "title": "媒体目录",
+      "reason": "默认 ./media；如需跨下载目录硬链接，应将下载与媒体的共同父目录统一挂载到 /data，并相应修改两端路径。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.moviepilot",
+      "title": "首次初始化",
+      "reason": "通过容器日志获取首次管理员密码；下载器、媒体服务器和站点在应用内单独配置。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.moviepilot.volumes",
+      "title": "按需启用扩展",
+      "reason": "基础部署不挂载 Docker socket 或其他容器配置；需要容器管理或辅种时再添加对应目录。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "applications": [
+    {
+      "id": "moviepilot",
+      "name": "MoviePilot v2",
+      "developer": "jxxghp",
+      "projectUrl": "https://github.com/jxxghp/MoviePilot",
+      "icon": "icons/basic-moviepilot.svg",
+      "services": [
+        "moviepilot"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "developer": "PostgreSQL Global Development Group",
+      "projectUrl": "https://www.postgresql.org/",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "postgres"
+      ]
+    },
+    {
+      "id": "redis",
+      "name": "Redis",
+      "developer": "Redis",
+      "projectUrl": "https://github.com/redis/redis",
+      "icon": "icons/infra-redis.svg",
+      "services": [
+        "redis"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "origin": "reconstructed-basic-compose",
+    "lastCommitAt": "2026-11-04T11:37:12Z",
+    "lastCommit": "e99f6bb5722905014c81e9bbc966493a0223cdd4",
+    "readmeSHA256": "ce76bc540442081133baa5153aefe7d933beb72c05390d2b270079ee5e0c846f",
+    "iconSource": "https://raw.githubusercontent.com/jxxghp/MoviePilot-Frontend/v3.2.4/public/apple-touch-icon.png",
+    "iconSHA256": "0bcd868b0214f2bb4f4eec9d0f919c730ac0cadecc5b5cd0d420e65e3f6ed372",
+    "adaptations": [
+      "删除 Unraid 标签、固定容器和网络名、私人代理及下载器配置挂载",
+      "移除重复的 3009→3001 映射",
+      "PostgreSQL 固定 16 系列并使用正确的数据目录",
+      "Redis 固定 7 系列并改为带认证的 PING 健康检查",
+      "数据库和缓存仅通过项目网络连接，密码均由新实例填写"
+    ],
+    "images": [
+      {
+        "image": "jxxghp/moviepilot-v2:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "30b4de2a4e23da504f4a90ece710ed9f0787570063877bcc48e49febd340e3e8"
+      },
+      {
+        "image": "postgres:16-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "0cefaabd882e42bcb2a2f3dc56d3ce4770560ba62fd7f197f1a2e008fd5731ab"
+      },
+      {
+        "image": "redis:7-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "8da19c7399dca900c6822a1cf30f9d2285585e2c4b457ff4095b0f4500054d3f"
+      }
+    ]
+  }
+}

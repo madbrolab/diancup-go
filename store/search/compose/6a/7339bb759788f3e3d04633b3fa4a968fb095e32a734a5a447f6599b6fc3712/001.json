@@ -4,6 +4,10 @@
     {
       "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
       "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+    },
+    {
+      "path": "templates/navidrome/navidrome-basic/summary.json",
+      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
     }
   ],
   "next": null

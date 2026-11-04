@@ -78,28 +78,28 @@
       "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
     },
     {
+      "path": "templates/jxxghp/moviepilot-basic/summary.json",
+      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+    },
+    {
+      "path": "templates/laurent22/joplin-server-basic/summary.json",
+      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+    },
+    {
+      "path": "templates/linuxserver/qbittorrent-basic/summary.json",
+      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+    },
+    {
+      "path": "templates/linuxserver/transmission-basic/summary.json",
+      "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
+    },
+    {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
       "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
-    },
-    {
-      "path": "templates/netdata/netdata/summary.json",
-      "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
-    },
-    {
-      "path": "templates/nginx/nginx/summary.json",
-      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
-    },
-    {
-      "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
-    },
-    {
-      "path": "templates/qbittorrent/qbittorrent/summary.json",
-      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
     }
   ],
   "next": {
     "path": "search/compose/e3/b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8/002.json",
-    "sha256": "6cbb1b9bd03837171e3f1ab31e5632ffa4d09ababbff6b0d75facb739898a4b2"
+    "sha256": "fd11917b8cfa101f9fc2f741087c3f15fa3162e69e36929f25089b06c09d069a"
   }
 }

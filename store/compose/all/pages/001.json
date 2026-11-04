@@ -417,6 +417,38 @@
       }
     },
     {
+      "id": "cloudnas/clouddrive2-basic",
+      "kind": "compose",
+      "category": "storage",
+      "name": "CloudDrive2 基础版",
+      "description": "将多个云盘接入服务器并以本地文件系统挂载，供媒体服务或文件工具访问。产品提供基础能力与付费会员功能。",
+      "developer": "CloudDrive2",
+      "projectUrl": "https://www.clouddrive2.com/",
+      "source": "closed",
+      "license": "Proprietary",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/basic-clouddrive2.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "clouddrive2",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/cloudnas/clouddrive2-basic/manifest.json",
+        "sha256": "52158cce7bda64be034068c718a1972734a2ab207a8f290bf32f9aece5a872eb"
+      },
+      "summary": {
+        "path": "templates/cloudnas/clouddrive2-basic/summary.json",
+        "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+      }
+    },
+    {
       "id": "coooolfan/xiaomi-album-syncer",
       "kind": "compose",
       "category": "storage",
@@ -510,6 +542,38 @@
       "summary": {
         "path": "templates/dockers-x/cfui/summary.json",
         "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+      }
+    },
+    {
+      "id": "emby/embyserver-basic",
+      "kind": "compose",
+      "category": "media",
+      "name": "Emby Server 基础版",
+      "description": "整理并串流自己的影视与音乐收藏，向浏览器和客户端提供媒体库。此模板采用官方镜像，部分客户端和高级功能需要 Emby Premiere。",
+      "developer": "Emby LLC",
+      "projectUrl": "https://emby.media/",
+      "source": "closed",
+      "license": "Proprietary (current Emby Server)",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/basic-emby.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "emby",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/emby/embyserver-basic/manifest.json",
+        "sha256": "80018570ebd0cfbb58a803fa5640ebb9be9b8daba52c9da45d47d516eac546ca"
+      },
+      "summary": {
+        "path": "templates/emby/embyserver-basic/summary.json",
+        "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
       }
     },
     {
@@ -641,6 +705,38 @@
       }
     },
     {
+      "id": "flaresolverr/flaresolverr-basic",
+      "kind": "compose",
+      "category": "network",
+      "name": "FlareSolverr 基础版",
+      "description": "为其他程序提供浏览器请求接口，返回页面内容与会话 Cookie，可用于需要浏览器环境的网页访问流程。",
+      "developer": "FlareSolverr",
+      "projectUrl": "https://github.com/FlareSolverr/FlareSolverr",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/basic-flaresolverr.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "flaresolverr",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/flaresolverr/flaresolverr-basic/manifest.json",
+        "sha256": "08e88eb732ae72376e8cc870db1edc1ef320bcf8e27f690183b61314648540b5"
+      },
+      "summary": {
+        "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
+        "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+      }
+    },
+    {
       "id": "freeok/so-novel",
       "kind": "compose",
       "category": "tools",
@@ -670,107 +766,10 @@
         "path": "templates/freeok/so-novel/summary.json",
         "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
       }
-    },
-    {
-      "id": "freshrss/freshrss",
-      "kind": "compose",
-      "category": "tools",
-      "name": "FreshRSS",
-      "description": "集中订阅与阅读 RSS、Atom 等内容源，按用户保存标签和阅读状态，并能对接移动客户端或扩展插件。",
-      "developer": "FreshRSS",
-      "projectUrl": "https://github.com/FreshRSS/FreshRSS",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/freshrss.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "freshrss",
-        "FreshRSS",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/freshrss/freshrss/manifest.json",
-        "sha256": "e886c168887482fb632abf8d22f06a799644b71c66ec2ec75ab2f6801db9de46"
-      },
-      "summary": {
-        "path": "templates/freshrss/freshrss/summary.json",
-        "sha256": "d4a4596d075b954df98783c5cd4259f2abe24a5d0ccb87c19d74c9ea4e8b5f46"
-      }
-    },
-    {
-      "id": "gethomepage/homepage",
-      "kind": "compose",
-      "category": "web",
-      "name": "Homepage",
-      "description": "把常用应用、书签与服务状态整理成个人入口页面，利用 YAML 配置组件，并可读取容器标签实现服务发现。",
-      "developer": "gethomepage",
-      "projectUrl": "https://github.com/gethomepage/homepage",
-      "source": "open",
-      "license": "GPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/homepage.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "homepage",
-        "Homepage",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/gethomepage/homepage/manifest.json",
-        "sha256": "8c9f933a5cf2a88b038e98977eb3094df9093846855ad2b761f0ebfba820a9c9"
-      },
-      "summary": {
-        "path": "templates/gethomepage/homepage/summary.json",
-        "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
-      }
-    },
-    {
-      "id": "gitea/gitea-postgresql",
-      "kind": "compose",
-      "category": "development",
-      "name": "Gitea + PostgreSQL",
-      "description": "轻量 Git 托管平台，搭配 PostgreSQL 数据库。",
-      "developer": "Gitea",
-      "projectUrl": "https://github.com/go-gitea/gitea",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
-      "version": "1.1.0",
-      "icon": "icons/gitea-postgresql.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "gitea",
-        "git",
-        "postgresql",
-        "代码托管"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/gitea/gitea-postgresql/manifest.json",
-        "sha256": "9e74bc30a273110b9f00dc966bc3b44a5f05516bffa30c8edcca40d510c9cbfb"
-      },
-      "summary": {
-        "path": "templates/gitea/gitea-postgresql/summary.json",
-        "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
-      }
     }
   ],
   "next": {
     "path": "compose/all/pages/002.json",
-    "sha256": "6b38852c60ebae2e09a121ef904abbfaaf092ac7aaa03e2f75f6d0bc108ea111"
+    "sha256": "cefa3ab58a78027416a3e8e4e53cd660346dc7bdaf6ad9083f501aa56daf3f9a"
   }
 }

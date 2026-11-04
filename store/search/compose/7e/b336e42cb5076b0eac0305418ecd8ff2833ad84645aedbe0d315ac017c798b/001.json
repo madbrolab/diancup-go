@@ -6,6 +6,10 @@
       "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
     },
     {
+      "path": "templates/linuxserver/transmission-basic/summary.json",
+      "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
+    },
+    {
       "path": "templates/n8n-io/n8n/summary.json",
       "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
     },

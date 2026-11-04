@@ -26,6 +26,14 @@
       "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
     },
     {
+      "path": "templates/laurent22/joplin-server-basic/summary.json",
+      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+    },
+    {
+      "path": "templates/madbrolab/dian115-basic/summary.json",
+      "sha256": "0b41a4c23c812bb0284e9524945c48b4a64f342d7c31a73aacfb218bbe0a9ef0"
+    },
+    {
       "path": "templates/netdata/netdata/summary.json",
       "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
     },

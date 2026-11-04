@@ -1,0 +1,15 @@
+services:
+  emby:
+    image: emby/embyserver:latest
+    restart: unless-stopped
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      UID: ${PUID:-1000}
+      GID: ${PGID:-1000}
+      GIDLIST: ${GIDLIST:-1000}
+    ports:
+      - ${HTTP_PORT:-8096}:8096
+    volumes:
+      - ./config:/config
+      - ${MEDIA_DIR:-./media}:/媒体库:ro
+      - ${CLOUD_MOUNT_DIR:-./cloud}:/CloudNAS:ro,rslave

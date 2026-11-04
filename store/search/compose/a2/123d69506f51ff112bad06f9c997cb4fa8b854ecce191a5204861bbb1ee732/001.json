@@ -10,6 +10,10 @@
       "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
     },
     {
+      "path": "templates/cloudnas/clouddrive2-basic/summary.json",
+      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+    },
+    {
       "path": "templates/freeok/so-novel/summary.json",
       "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
     },

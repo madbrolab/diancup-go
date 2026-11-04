@@ -8,6 +8,10 @@
     {
       "path": "templates/dani-garcia/vaultwarden/summary.json",
       "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+    },
+    {
+      "path": "templates/laurent22/joplin-server-basic/summary.json",
+      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
     }
   ],
   "next": null

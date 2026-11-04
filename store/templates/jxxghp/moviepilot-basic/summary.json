@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "jxxghp/moviepilot-basic",
+  "kind": "compose",
+  "category": "media",
+  "name": "MoviePilot v2 + PostgreSQL + Redis 基础版",
+  "description": "组织影视订阅、搜索、下载和入库流程，可接入下载器、媒体服务与插件。项目声明不收费；此基础配置包含 PostgreSQL 与 Redis。",
+  "developer": "jxxghp",
+  "projectUrl": "https://github.com/jxxghp/MoviePilot",
+  "source": "unknown",
+  "license": "GPL-3.0 with noncommercial README terms",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/basic-moviepilot.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "moviepilot",
+    "基础模板",
+    "compose"
+  ],
+  "applicationCount": 3,
+  "manifest": {
+    "path": "templates/jxxghp/moviepilot-basic/manifest.json",
+    "sha256": "2ee254f3ebf77063756968c015dec2eb448b487e5b0f7296262cd03e8c379c94"
+  }
+}

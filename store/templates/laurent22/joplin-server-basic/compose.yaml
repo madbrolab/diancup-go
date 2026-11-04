@@ -1,0 +1,36 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: joplin
+      POSTGRES_USER: joplin
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U "$$POSTGRES_USER" -d "$$POSTGRES_DB"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+  app:
+    image: joplin/server:latest
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-22300}:22300
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      APP_PORT: "22300"
+      APP_BASE_URL: ${APP_BASE_URL:?请填写实际访问地址}
+      DB_CLIENT: pg
+      TZ: ${TZ:-Asia/Shanghai}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      POSTGRES_DATABASE: joplin
+      POSTGRES_USER: joplin
+      POSTGRES_PORT: "5432"
+      POSTGRES_HOST: db

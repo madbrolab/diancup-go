@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "linuxserver/transmission-basic",
+  "kind": "compose",
+  "category": "download",
+  "name": "Transmission 基础版",
+  "description": "提供网页和 RPC 入口的 BitTorrent 下载服务，可管理下载、做种及自动监视目录。模板采用 LinuxServer.io 镜像。",
+  "developer": "Transmission / LinuxServer.io",
+  "projectUrl": "https://github.com/transmission/transmission",
+  "source": "open",
+  "license": "GPL-2.0-or-later",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/transmission.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "transmission",
+    "基础模板",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/linuxserver/transmission-basic/manifest.json",
+    "sha256": "1826910c528be1acb9ba8c553b4d997ed037123fab003021dc14de15395dc122"
+  }
+}

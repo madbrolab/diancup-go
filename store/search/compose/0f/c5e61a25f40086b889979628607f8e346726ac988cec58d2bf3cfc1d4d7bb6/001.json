@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/emby/embyserver-basic/summary.json",
+      "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+    },
+    {
+      "path": "templates/navidrome/navidrome-basic/summary.json",
+      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+    },
+    {
       "path": "templates/navidrome/navidrome/summary.json",
       "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
     }

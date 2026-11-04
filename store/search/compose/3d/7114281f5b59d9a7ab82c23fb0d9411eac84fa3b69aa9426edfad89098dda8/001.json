@@ -26,6 +26,10 @@
       "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
     },
     {
+      "path": "templates/emby/embyserver-basic/summary.json",
+      "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+    },
+    {
       "path": "templates/fccview/jotty/summary.json",
       "sha256": "8faab34e70c0df1a196898d3a1fadeba42cdb3b0c9ace91346e84bfe92a7f8d9"
     },
@@ -54,12 +58,28 @@
       "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
     },
     {
+      "path": "templates/jxxghp/moviepilot-basic/summary.json",
+      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+    },
+    {
       "path": "templates/langgenius/dify/summary.json",
       "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
     },
     {
+      "path": "templates/linuxserver/qbittorrent-basic/summary.json",
+      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+    },
+    {
+      "path": "templates/linuxserver/transmission-basic/summary.json",
+      "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
+    },
+    {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
       "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+    },
+    {
+      "path": "templates/navidrome/navidrome-basic/summary.json",
+      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
     },
     {
       "path": "templates/navidrome/navidrome/summary.json",
@@ -76,30 +96,10 @@
     {
       "path": "templates/official/wordpress-mariadb/summary.json",
       "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
-    },
-    {
-      "path": "templates/open-webui/open-webui/summary.json",
-      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
-    },
-    {
-      "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
-    },
-    {
-      "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
-    },
-    {
-      "path": "templates/qbittorrent/qbittorrent/summary.json",
-      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
-    },
-    {
-      "path": "templates/seerr-team/seerr/summary.json",
-      "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
     }
   ],
   "next": {
     "path": "search/compose/3d/7114281f5b59d9a7ab82c23fb0d9411eac84fa3b69aa9426edfad89098dda8/002.json",
-    "sha256": "227e41e1b34e37a0cbbb2684842a105e5652ba839bd43fad845f09f9bfda6a12"
+    "sha256": "4d87dd4a3afc5af8f3c2b4af2fb81ce1a2ca068a572ea4145de4ebb8791211f1"
   }
 }

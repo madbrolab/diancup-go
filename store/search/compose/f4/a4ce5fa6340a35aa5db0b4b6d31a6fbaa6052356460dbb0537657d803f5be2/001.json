@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/jxxghp/moviepilot-basic/summary.json",
+      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+    },
+    {
       "path": "templates/usememos/memos/summary.json",
       "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
     }

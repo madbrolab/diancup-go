@@ -10,6 +10,10 @@
       "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
     },
     {
+      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
+      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+    },
+    {
       "path": "templates/netdata/netdata/summary.json",
       "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
     }

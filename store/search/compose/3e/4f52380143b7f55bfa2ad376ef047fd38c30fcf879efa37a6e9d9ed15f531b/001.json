@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/cloudnas/clouddrive2-basic/summary.json",
+      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+    },
+    {
+      "path": "templates/jxxghp/moviepilot-basic/summary.json",
+      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+    },
+    {
       "path": "templates/seerr-team/seerr/summary.json",
       "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
     }

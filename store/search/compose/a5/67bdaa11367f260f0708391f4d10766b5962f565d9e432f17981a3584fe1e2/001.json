@@ -34,6 +34,10 @@
       "sha256": "156f67009458ce65125cab092e84f13ed260dd410d19c919902398e5fae99a72"
     },
     {
+      "path": "templates/laurent22/joplin-server-basic/summary.json",
+      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+    },
+    {
       "path": "templates/louislam/dockge/summary.json",
       "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
     },

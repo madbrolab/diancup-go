@@ -67,6 +67,35 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 - [WordPress](https://hub.docker.com/_/wordpress)
 - [Gitea](https://docs.gitea.com/installation/install-with-docker/)
 
+## 2026-11-04 新建基础 Compose 模板
+
+根据补充的部署配置重新整理 10 项基础模板，包含附件中的全部独立应用，重复的两套 Emby 合并为一项。以下模板使用独立的 `-basic` ID 和“基础版”名称，不覆盖另行保留的 Tradis 部署默认值。
+
+去除了 Unraid 标签、缓存池与用户共享路径、个人代理、固定全局容器名与网络名、私人欢迎语和原密码。数据默认绑定到各自项目目录下的 `config`、`data`、`media`、`downloads`、`music`、`cloud` 等目录；使用已有数据时可选择宿主机任意实际目录。相对路径以各模板的 Compose 所在目录为基准，不代表这些应用会自动共用同一份数据。
+
+| 基础模板 | 默认入口 | 项目与授权核对 | 主要调整 |
+| --- | --- | --- | --- |
+| [DIAN115 + PostgreSQL](templates/madbrolab/dian115-basic/manifest.json) | Host 网络，8095 | [官方 README](https://github.com/madbrolab/dian115)，2026-11-04；主程序私有授权，需激活密钥 | 独立 PostgreSQL 16，数据库仅绑定回环地址 15432；配置、AI、媒体和云盘目录分别持久化；Docker socket 与 GPU 按功能另加 |
+| [Joplin Server + PostgreSQL](templates/laurent22/joplin-server-basic/manifest.json) | 22300 | [Server README](https://github.com/laurent22/joplin/blob/dev/packages/server/README.md)，2026-11-04；个人用途许可证，可选商业授权 | 数据库不发布端口；内部连接固定 5432；实际访问地址必须与 APP_BASE_URL 一致 |
+| [Navidrome](templates/navidrome/navidrome-basic/manifest.json) | 4533 | [官方 README](https://github.com/navidrome/navidrome)，2026-11-03；GPL-3.0，无付费密钥要求 | 音乐只读，默认每小时扫描，使用当前 ND_SCANNER_SCHEDULE 参数 |
+| [WorkBuddy2API Panel](templates/linguo2625469/workbuddy2api-basic/manifest.json) | 7863 | [官方 README](https://github.com/linguo2625469/workbuddy2api-panel)，2026-10-21；MIT，项目免费 | 从成品镜像初始化配置目录和属主，显式设置配置路径；API 访问密钥必填 |
+| [CloudDrive2](templates/cloudnas/clouddrive2-basic/manifest.json) | Host 网络，19798 | [官方发布](https://github.com/cloud-fs/cloud-fs.github.io/releases)，2026-10-17；闭源，有付费会员 | 配置、云盘发布目录及本地备份目录采用通用默认值；保留官方要求的 FUSE、Host PID、特权和共享传播 |
+| [MoviePilot + PostgreSQL + Redis](templates/jxxghp/moviepilot-basic/manifest.json) | 3000、3001 | [官方 README](https://github.com/jxxghp/MoviePilot)，2026-11-04；GPL-3.0 与 README 非商业条款，项目声明不收费 | 移除重复端口和个人关联挂载；固定 PG16、Redis7；修复数据库路径、Redis 认证健康检查和启动依赖 |
+| [qBittorrent](templates/linuxserver/qbittorrent-basic/manifest.json) | 8080；BT 6881 TCP/UDP | [项目 README](https://github.com/qbittorrent/qBittorrent) 与 [镜像文档](https://docs.linuxserver.io/images/docker-qbittorrent/)，2026-11-03；GPL，无付费密钥要求 | 使用 LinuxServer.io 镜像，监听端口与映射共用变量；配置和下载目录分开持久化 |
+| [FlareSolverr](templates/flaresolverr/flaresolverr-basic/manifest.json) | 127.0.0.1:8191 | [官方 README](https://github.com/FlareSolverr/FlareSolverr)，2026-10-24；MIT，无付费密钥要求 | 默认回环监听，可填写内网 IP；显式绑定镜像声明的配置卷，浏览器临时文件使用 tmpfs |
+| [Emby Server](templates/emby/embyserver-basic/manifest.json) | 8096 | [当前官方发布](https://github.com/MediaBrowser/Emby.Releases/releases)，2026-10-31；当前服务端闭源，可选 Premiere | 合并重复实例，改用官方镜像，移除特权和私人代理；GPU 与 DLNA 按需配置 |
+| [Transmission](templates/linuxserver/transmission-basic/manifest.json) | 9091；BT 51413 TCP/UDP | [项目 README](https://github.com/transmission/transmission) 与 [镜像文档](https://docs.linuxserver.io/images/docker-transmission/)，2026-11-02；GPL，无付费密钥要求 | 使用 LinuxServer.io 当前镜像，管理密码必填；移除不存在的自定义 WebUI、Host 网络和特权 |
+
+以上均核对了成品镜像，支持 `amd64` 和 `arm64`。闭源产品按当前官方发布记录确认维护状态，不把已停止公开的旧源码仓库当作当前产品。Joplin Server 的用途限制和 MoviePilot README 的附加条款单独记录，没有仅凭主仓库许可证标签将其标为无条件开源。
+
+数据库密码、Redis 密码、API 密钥和 Transmission 管理密码没有预置真实值；空值通过 Compose 必填表达式阻止部署。DIAN115 数据库连接串与 MoviePilot Redis URL 中的密码建议使用至少 32 位随机十六进制字符，避免 URL 特殊字符。数据库仅服务本项目：Joplin 和 MoviePilot 不发布数据库端口，Host 网络的 DIAN115 通过回环映射连接。
+
+MoviePilot 和下载器分别安装时，需要手动选取同一个宿主机下载目录，并保持容器内 `/downloads` 一致。不同基础模板中的 `./downloads` 默认属于各自项目。CloudDrive2 的发布目录必须支持 shared 挂载传播；消费者应选择同一个宿主机目录，使用 rslave 接收。该挂载要求适用于普通 Linux，未附加 Unraid 专用处理。
+
+图标重新取自 DIAN115、Joplin、MoviePilot 前端、FlareSolverr 的官方仓库及 Emby、CloudDrive2 官网；CloudDrive2 使用官方矢量横标的标志区域。Navidrome、qBittorrent、Transmission 复用本轮独立核对的官方本地图标。WorkBuddy 没有独立图标，采用 [Lucide bot](https://github.com/lucide-icons/lucide/blob/main/icons/bot.svg)，沿用下方 ISC 许可声明；每项 manifest 均保留来源与摘要。
+
+本批通过原生 `docker compose config`、变量声明与空必填校验、镜像卷显式绑定、依赖关系、架构和私人配置清除检查。没有批量启动这些应用。
+
 <!-- reviewed-tradis:2026-11-04 -->
 
 ## 2026-11-04 模板核对记录

@@ -4,6 +4,10 @@
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
       "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+    },
+    {
+      "path": "templates/jxxghp/moviepilot-basic/summary.json",
+      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
     }
   ],
   "next": null

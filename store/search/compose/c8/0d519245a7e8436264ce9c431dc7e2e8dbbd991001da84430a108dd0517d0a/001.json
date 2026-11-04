@@ -2,8 +2,16 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
+      "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+    },
+    {
       "path": "templates/langgenius/dify/summary.json",
       "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+    },
+    {
+      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
+      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
     }
   ],
   "next": null

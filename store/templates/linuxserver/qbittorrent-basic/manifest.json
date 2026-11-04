@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "linuxserver/qbittorrent-basic",
+  "kind": "compose",
+  "name": "qBittorrent 基础版",
+  "description": "通过网页管理 BitTorrent 下载任务、队列与做种。此模板采用 LinuxServer.io 镜像，分别持久化设置和下载文件。",
+  "developer": "qBittorrent / LinuxServer.io",
+  "projectUrl": "https://github.com/qbittorrent/qBittorrent",
+  "source": "open",
+  "license": "GPL-2.0-or-later",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "download",
+  "tags": [
+    "qbittorrent",
+    "基础模板",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/qbittorrent.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.linuxserver.io/images/docker-qbittorrent/",
+  "recommendations": [
+    {
+      "target": "env.DOWNLOADS_DIR",
+      "title": "下载目录",
+      "reason": "默认 ./downloads；与 MoviePilot 共享时选择同一个宿主机目录，保持容器内路径 /downloads 一致。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.PUID",
+      "title": "文件属主",
+      "reason": "PUID/PGID 默认 1000；请填写有权限访问下载目录的实际 UID/GID。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.qbittorrent",
+      "title": "首次登录",
+      "reason": "用户名 admin；首次临时密码从容器日志获取，登录后修改密码。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "applications": [
+    {
+      "id": "qbittorrent",
+      "name": "qBittorrent",
+      "developer": "qBittorrent / LinuxServer.io",
+      "projectUrl": "https://github.com/qbittorrent/qBittorrent",
+      "icon": "icons/qbittorrent.svg",
+      "services": [
+        "qbittorrent"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "origin": "reconstructed-basic-compose",
+    "lastCommitAt": "2026-11-03T13:24:47Z",
+    "lastCommit": "0d6f6a008ed3c192b3eda25552a369b51da11c4d",
+    "readmeSHA256": "7f2daf5b927840c7b9cb990205bb2d17357b8ea73f26a3b58c685e21d5e97a47",
+    "iconSource": "https://raw.githubusercontent.com/qbittorrent/qBittorrent/0d6f6a008ed3c192b3eda25552a369b51da11c4d/dist/unix/menuicons/192x192/apps/qbittorrent.png",
+    "iconSHA256": "19f74839525b7848912ccfa653f9ede3f0d83ff9bff6dfc9685137e31912c5e8",
+    "adaptations": [
+      "去除 Unraid 标签、Host 网络及个人媒体路径",
+      "恢复 8080 管理端口和 6881 TCP/UDP 下载端口",
+      "容器监听端口与端口映射共用变量"
+    ],
+    "images": [
+      {
+        "image": "lscr.io/linuxserver/qbittorrent:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "05c1454f9a32967affc1f34f67f8cc0cc57dd805dca45489fe797095a6286556"
+      }
+    ]
+  }
+}

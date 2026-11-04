@@ -6,8 +6,16 @@
       "sha256": "1183ea8eff73077de909ff8074ab2a4db7da07bb1d6794cd25a6114b18a3294c"
     },
     {
+      "path": "templates/cloudnas/clouddrive2-basic/summary.json",
+      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+    },
+    {
       "path": "templates/dockers-x/cfui/summary.json",
       "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+    },
+    {
+      "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
+      "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
     }
   ],
   "next": null

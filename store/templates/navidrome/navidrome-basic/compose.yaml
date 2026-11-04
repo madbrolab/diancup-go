@@ -1,0 +1,13 @@
+services:
+  navidrome:
+    image: deluan/navidrome:latest
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-4533}:4533
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      ND_DEFAULTLANGUAGE: zh-Hans
+      ND_SCANNER_SCHEDULE: ${SCAN_SCHEDULE:-@every 1h}
+    volumes:
+      - ./data:/data
+      - ${MUSIC_DIR:-./music}:/music:ro

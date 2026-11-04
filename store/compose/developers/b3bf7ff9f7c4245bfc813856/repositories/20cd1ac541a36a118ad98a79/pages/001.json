@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "emby/embyserver-basic",
+      "kind": "compose",
+      "category": "media",
+      "name": "Emby Server 基础版",
+      "description": "整理并串流自己的影视与音乐收藏，向浏览器和客户端提供媒体库。此模板采用官方镜像，部分客户端和高级功能需要 Emby Premiere。",
+      "developer": "Emby LLC",
+      "projectUrl": "https://emby.media/",
+      "source": "closed",
+      "license": "Proprietary (current Emby Server)",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/basic-emby.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "emby",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/emby/embyserver-basic/manifest.json",
+        "sha256": "80018570ebd0cfbb58a803fa5640ebb9be9b8daba52c9da45d47d516eac546ca"
+      },
+      "summary": {
+        "path": "templates/emby/embyserver-basic/summary.json",
+        "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+      }
+    }
+  ],
+  "next": null
+}

@@ -6,6 +6,14 @@
       "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
     },
     {
+      "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
+      "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+    },
+    {
+      "path": "templates/madbrolab/dian115-basic/summary.json",
+      "sha256": "0b41a4c23c812bb0284e9524945c48b4a64f342d7c31a73aacfb218bbe0a9ef0"
+    },
+    {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
       "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
     },

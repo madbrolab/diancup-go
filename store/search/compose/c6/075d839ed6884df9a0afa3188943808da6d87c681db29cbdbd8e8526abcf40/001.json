@@ -4,6 +4,10 @@
     {
       "path": "templates/brave/brave-browser/summary.json",
       "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+    },
+    {
+      "path": "templates/linuxserver/qbittorrent-basic/summary.json",
+      "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
     }
   ],
   "next": null

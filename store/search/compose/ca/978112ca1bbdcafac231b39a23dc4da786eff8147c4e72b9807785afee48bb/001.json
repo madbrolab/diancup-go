@@ -82,6 +82,10 @@
       "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
     },
     {
+      "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
+      "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
+    },
+    {
       "path": "templates/freshrss/freshrss/summary.json",
       "sha256": "d4a4596d075b954df98783c5cd4259f2abe24a5d0ccb87c19d74c9ea4e8b5f46"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/gitea/gitea-postgresql/summary.json",
       "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
-    },
-    {
-      "path": "templates/go-vikunja/vikunja/summary.json",
-      "sha256": "fca3a4305f64d1be95c6cc4d79e1958d5e51ac12d476bdad77d53a2f3e021058"
     }
   ],
   "next": {
     "path": "search/compose/ca/978112ca1bbdcafac231b39a23dc4da786eff8147c4e72b9807785afee48bb/002.json",
-    "sha256": "f6f90d9afa57ea11aea86a4e15d4c5bc350eb8caa3762a359cfeefd0be12e0a5"
+    "sha256": "f042c0970d77eb38634b655a0c63c81028ad4ac083fbe1fbd2d76751eb2945a0"
   }
 }

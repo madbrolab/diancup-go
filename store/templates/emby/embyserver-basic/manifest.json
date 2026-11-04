@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "emby/embyserver-basic",
+  "kind": "compose",
+  "name": "Emby Server 基础版",
+  "description": "整理并串流自己的影视与音乐收藏，向浏览器和客户端提供媒体库。此模板采用官方镜像，部分客户端和高级功能需要 Emby Premiere。",
+  "developer": "Emby LLC",
+  "projectUrl": "https://emby.media/",
+  "source": "closed",
+  "license": "Proprietary (current Emby Server)",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "emby",
+    "基础模板",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/basic-emby.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://hub.docker.com/r/emby/embyserver",
+  "recommendations": [
+    {
+      "target": "env.MEDIA_DIR",
+      "title": "媒体目录",
+      "reason": "默认 ./media，容器内 /媒体库；与 DIAN115 配置一致时可直接读取生成的 STRM。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.CLOUD_MOUNT_DIR",
+      "title": "可选云盘目录",
+      "reason": "默认 ./cloud，可选择 CloudDrive2 的实际宿主机挂载目录；不使用云盘时可移除此行。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.GIDLIST",
+      "title": "补充用户组",
+      "reason": "填写对媒体目录或显卡设备有权限的 GID，多个 GID 以逗号分隔。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.emby",
+      "title": "硬件转码与局域网发现",
+      "reason": "需要 Intel/AMD 转码时再添加 /dev/dri 设备并设置对应组；DLNA 需要按官方说明切换 Host 网络。基础模板不要求显卡。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "applications": [
+    {
+      "id": "emby",
+      "name": "Emby Server",
+      "developer": "Emby LLC",
+      "projectUrl": "https://emby.media/",
+      "icon": "icons/basic-emby.svg",
+      "services": [
+        "emby"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "origin": "reconstructed-basic-compose",
+    "iconSource": "https://emby.media/android-chrome-192x192.png",
+    "iconSHA256": "7c83066c7032c373bc036337bc98f72bb234a89962182b021bd73c64979623c1",
+    "adaptations": [
+      "将重复的两套 Emby 实例归并为一个基础模板",
+      "改为官方 emby/embyserver 镜像",
+      "删除特权、Host 网络、私人代理和重复 UID 变量",
+      "显卡转码改为按需添加，媒体默认只读"
+    ],
+    "activitySource": "https://github.com/MediaBrowser/Emby.Releases/releases",
+    "lastReleaseAt": "2026-10-31T06:31:35Z",
+    "lastRelease": "4.11.0.13",
+    "readmeScope": "Current proprietary product verified against official website and release repository; legacy source repository does not describe the shipped binary.",
+    "images": [
+      {
+        "image": "emby/embyserver:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "7082c63b10a2fcb3805a7eaebba407d5723bc57c085c9f0b29b7d0a702765cc1"
+      }
+    ]
+  }
+}

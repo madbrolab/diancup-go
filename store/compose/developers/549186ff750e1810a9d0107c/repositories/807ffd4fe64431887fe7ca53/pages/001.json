@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "cloudnas/clouddrive2-basic",
+      "kind": "compose",
+      "category": "storage",
+      "name": "CloudDrive2 基础版",
+      "description": "将多个云盘接入服务器并以本地文件系统挂载，供媒体服务或文件工具访问。产品提供基础能力与付费会员功能。",
+      "developer": "CloudDrive2",
+      "projectUrl": "https://www.clouddrive2.com/",
+      "source": "closed",
+      "license": "Proprietary",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/basic-clouddrive2.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "clouddrive2",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/cloudnas/clouddrive2-basic/manifest.json",
+        "sha256": "52158cce7bda64be034068c718a1972734a2ab207a8f290bf32f9aece5a872eb"
+      },
+      "summary": {
+        "path": "templates/cloudnas/clouddrive2-basic/summary.json",
+        "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+      }
+    }
+  ],
+  "next": null
+}

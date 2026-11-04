@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/cloudnas/clouddrive2-basic/summary.json",
+      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+    },
+    {
       "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
       "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
     },

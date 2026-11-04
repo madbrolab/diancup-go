@@ -1,0 +1,37 @@
+services:
+  dian115:
+    image: madbrolab/dian115:latest
+    restart: unless-stopped
+    network_mode: host
+    environment:
+      PORT: ${HTTP_PORT:-8095}
+      TZ: ${TZ:-Asia/Shanghai}
+      DIAN115_DB_DRIVER: pgsql
+      DIAN115_PG_DSN: postgresql://dian115:${DB_PASSWORD:?请填写 DB_PASSWORD}@127.0.0.1:${DB_PORT:-15432}/DIAN115?sslmode=disable
+    depends_on:
+      postgres:
+        condition: service_healthy
+    volumes:
+      - ./config:/config
+      - ./dian115AI:/dian115AI
+      - ${MEDIA_DIR:-./media}:/媒体库
+      - ${CLOUD_MOUNT_DIR:-./cloud}:/CloudNAS:rslave
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: DIAN115
+      POSTGRES_USER: dian115
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U "$$POSTGRES_USER" -d "$$POSTGRES_DB"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+    ports:
+      - 127.0.0.1:${DB_PORT:-15432}:5432

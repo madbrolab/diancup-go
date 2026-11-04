@@ -4,6 +4,10 @@
     {
       "path": "templates/beidoums/beidou-server/summary.json",
       "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+    },
+    {
+      "path": "templates/laurent22/joplin-server-basic/summary.json",
+      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
     }
   ],
   "next": null

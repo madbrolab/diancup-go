@@ -2,6 +2,103 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "freshrss/freshrss",
+      "kind": "compose",
+      "category": "tools",
+      "name": "FreshRSS",
+      "description": "集中订阅与阅读 RSS、Atom 等内容源，按用户保存标签和阅读状态，并能对接移动客户端或扩展插件。",
+      "developer": "FreshRSS",
+      "projectUrl": "https://github.com/FreshRSS/FreshRSS",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/freshrss.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "freshrss",
+        "FreshRSS",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/freshrss/freshrss/manifest.json",
+        "sha256": "e886c168887482fb632abf8d22f06a799644b71c66ec2ec75ab2f6801db9de46"
+      },
+      "summary": {
+        "path": "templates/freshrss/freshrss/summary.json",
+        "sha256": "d4a4596d075b954df98783c5cd4259f2abe24a5d0ccb87c19d74c9ea4e8b5f46"
+      }
+    },
+    {
+      "id": "gethomepage/homepage",
+      "kind": "compose",
+      "category": "web",
+      "name": "Homepage",
+      "description": "把常用应用、书签与服务状态整理成个人入口页面，利用 YAML 配置组件，并可读取容器标签实现服务发现。",
+      "developer": "gethomepage",
+      "projectUrl": "https://github.com/gethomepage/homepage",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/homepage.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "homepage",
+        "Homepage",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/gethomepage/homepage/manifest.json",
+        "sha256": "8c9f933a5cf2a88b038e98977eb3094df9093846855ad2b761f0ebfba820a9c9"
+      },
+      "summary": {
+        "path": "templates/gethomepage/homepage/summary.json",
+        "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+      }
+    },
+    {
+      "id": "gitea/gitea-postgresql",
+      "kind": "compose",
+      "category": "development",
+      "name": "Gitea + PostgreSQL",
+      "description": "轻量 Git 托管平台，搭配 PostgreSQL 数据库。",
+      "developer": "Gitea",
+      "projectUrl": "https://github.com/go-gitea/gitea",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.1.0",
+      "icon": "icons/gitea-postgresql.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "gitea",
+        "git",
+        "postgresql",
+        "代码托管"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/gitea/gitea-postgresql/manifest.json",
+        "sha256": "9e74bc30a273110b9f00dc966bc3b44a5f05516bffa30c8edcca40d510c9cbfb"
+      },
+      "summary": {
+        "path": "templates/gitea/gitea-postgresql/summary.json",
+        "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
+      }
+    },
+    {
       "id": "go-vikunja/vikunja",
       "kind": "compose",
       "category": "tools",
@@ -162,6 +259,38 @@
       }
     },
     {
+      "id": "jxxghp/moviepilot-basic",
+      "kind": "compose",
+      "category": "media",
+      "name": "MoviePilot v2 + PostgreSQL + Redis 基础版",
+      "description": "组织影视订阅、搜索、下载和入库流程，可接入下载器、媒体服务与插件。项目声明不收费；此基础配置包含 PostgreSQL 与 Redis。",
+      "developer": "jxxghp",
+      "projectUrl": "https://github.com/jxxghp/MoviePilot",
+      "source": "unknown",
+      "license": "GPL-3.0 with noncommercial README terms",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/basic-moviepilot.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "moviepilot",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/jxxghp/moviepilot-basic/manifest.json",
+        "sha256": "2ee254f3ebf77063756968c015dec2eb448b487e5b0f7296262cd03e8c379c94"
+      },
+      "summary": {
+        "path": "templates/jxxghp/moviepilot-basic/summary.json",
+        "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+      }
+    },
+    {
       "id": "langgenius/dify",
       "kind": "compose",
       "category": "ai",
@@ -191,6 +320,134 @@
       "summary": {
         "path": "templates/langgenius/dify/summary.json",
         "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+      }
+    },
+    {
+      "id": "laurent22/joplin-server-basic",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Joplin Server + PostgreSQL 基础版",
+      "description": "为 Joplin 客户端提供笔记同步与共享服务，数据保存在配套 PostgreSQL 中。服务端源码可查看，个人用途与商业用途适用不同授权。",
+      "developer": "Joplin",
+      "projectUrl": "https://github.com/laurent22/joplin",
+      "source": "unknown",
+      "license": "Joplin Server Personal Use License / commercial license",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/basic-joplin.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "joplin",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/laurent22/joplin-server-basic/manifest.json",
+        "sha256": "cbd5e56c430b0a38ec72db1d8efbf9b937d5af125dcbff7d92a838c795a1dd39"
+      },
+      "summary": {
+        "path": "templates/laurent22/joplin-server-basic/summary.json",
+        "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+      }
+    },
+    {
+      "id": "linguo2625469/workbuddy2api-basic",
+      "kind": "compose",
+      "category": "ai",
+      "name": "WorkBuddy2API Panel 基础版",
+      "description": "为自己的 WorkBuddy 账号提供 OpenAI 兼容接口及网页管理入口，可管理账号状态、任务与接口配置。项目本身免费，上游服务按对应账号规则使用。",
+      "developer": "linguo2625469",
+      "projectUrl": "https://github.com/linguo2625469/workbuddy2api-panel",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/basic-workbuddy2api.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "workbuddy2api",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/linguo2625469/workbuddy2api-basic/manifest.json",
+        "sha256": "901269012a21384fad3ca70799f34a9a4e7ca8bcb62eea73533be7145167dbd1"
+      },
+      "summary": {
+        "path": "templates/linguo2625469/workbuddy2api-basic/summary.json",
+        "sha256": "ba041e0b0ad834cbfb143b506d373c7e789c435cf79f9284fb55a84d860ace69"
+      }
+    },
+    {
+      "id": "linuxserver/qbittorrent-basic",
+      "kind": "compose",
+      "category": "download",
+      "name": "qBittorrent 基础版",
+      "description": "通过网页管理 BitTorrent 下载任务、队列与做种。此模板采用 LinuxServer.io 镜像，分别持久化设置和下载文件。",
+      "developer": "qBittorrent / LinuxServer.io",
+      "projectUrl": "https://github.com/qbittorrent/qBittorrent",
+      "source": "open",
+      "license": "GPL-2.0-or-later",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/qbittorrent.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "qbittorrent",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/linuxserver/qbittorrent-basic/manifest.json",
+        "sha256": "25793fcc73944220cebbcfa2558427635e28d14779e98b4a65983475b0eaba49"
+      },
+      "summary": {
+        "path": "templates/linuxserver/qbittorrent-basic/summary.json",
+        "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+      }
+    },
+    {
+      "id": "linuxserver/transmission-basic",
+      "kind": "compose",
+      "category": "download",
+      "name": "Transmission 基础版",
+      "description": "提供网页和 RPC 入口的 BitTorrent 下载服务，可管理下载、做种及自动监视目录。模板采用 LinuxServer.io 镜像。",
+      "developer": "Transmission / LinuxServer.io",
+      "projectUrl": "https://github.com/transmission/transmission",
+      "source": "open",
+      "license": "GPL-2.0-or-later",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/transmission.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "transmission",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/linuxserver/transmission-basic/manifest.json",
+        "sha256": "1826910c528be1acb9ba8c553b4d997ed037123fab003021dc14de15395dc122"
+      },
+      "summary": {
+        "path": "templates/linuxserver/transmission-basic/summary.json",
+        "sha256": "551dc3ae097f5d73044d2a757feccbff0b87a0e2d84a30c5bc26bafbeb1c8452"
       }
     },
     {
@@ -258,6 +515,38 @@
       }
     },
     {
+      "id": "madbrolab/dian115-basic",
+      "kind": "compose",
+      "category": "media",
+      "name": "DIAN115 + PostgreSQL 基础版",
+      "description": "管理 115 网盘资源、媒体整理、STRM 与影音服务接入。主程序采用私有授权，需要激活密钥；此基础配置配套 PostgreSQL。",
+      "developer": "madbrolab",
+      "projectUrl": "https://github.com/madbrolab/dian115",
+      "source": "closed",
+      "license": "Proprietary / private activation license",
+      "paidKey": "required",
+      "version": "1.0.0",
+      "icon": "icons/basic-dian115.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "dian115",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/madbrolab/dian115-basic/manifest.json",
+        "sha256": "c2779a6cec70c9618f5ab4560157fbfac76696c5aadee2d57d83e5fa744f3beb"
+      },
+      "summary": {
+        "path": "templates/madbrolab/dian115-basic/summary.json",
+        "sha256": "0b41a4c23c812bb0284e9524945c48b4a64f342d7c31a73aacfb218bbe0a9ef0"
+      }
+    },
+    {
       "id": "n8n-io/n8n",
       "kind": "compose",
       "category": "tools",
@@ -287,6 +576,38 @@
       "summary": {
         "path": "templates/n8n-io/n8n/summary.json",
         "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+      }
+    },
+    {
+      "id": "navidrome/navidrome-basic",
+      "kind": "compose",
+      "category": "media",
+      "name": "Navidrome 基础版",
+      "description": "把本地音乐目录整理为可在浏览器和 Subsonic 客户端访问的个人曲库，支持用户、歌单与播放记录。模板默认每小时扫描一次。",
+      "developer": "Navidrome",
+      "projectUrl": "https://github.com/navidrome/navidrome",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/navidrome.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "navidrome",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/navidrome/navidrome-basic/manifest.json",
+        "sha256": "8185ef08d8e8829438214a781a10a9464db80bd93afd33e56cb8d4c3735d92d7"
+      },
+      "summary": {
+        "path": "templates/navidrome/navidrome-basic/summary.json",
+        "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
       }
     },
     {
@@ -449,330 +770,10 @@
         "path": "templates/open-webui/open-webui/summary.json",
         "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
       }
-    },
-    {
-      "id": "openlistteam/openlist",
-      "kind": "compose",
-      "category": "storage",
-      "name": "OpenList",
-      "description": "将多个存储服务组织成统一的文件列表，通过网页访问和管理内容。项目声明现有功能免费提供。",
-      "developer": "OpenListTeam",
-      "projectUrl": "https://github.com/OpenListTeam/OpenList",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/openlist.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "openlist",
-        "OpenList",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/openlistteam/openlist/manifest.json",
-        "sha256": "dce5e292f4d058c7742ba1cc36d9a55553f5a5354e16522c1a3fbc40d7616c6c"
-      },
-      "summary": {
-        "path": "templates/openlistteam/openlist/summary.json",
-        "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
-      }
-    },
-    {
-      "id": "plankanban/planka",
-      "kind": "compose",
-      "category": "tools",
-      "name": "PLANKA",
-      "description": "用看板、列表和卡片协作管理项目，记录评论、附件与到期时间。社区版可自建，Pro 和企业功能另行授权。",
-      "developer": "plankanban",
-      "projectUrl": "https://github.com/plankanban/planka",
-      "source": "unknown",
-      "license": "PLANKA Community Fair Use License / Commercial License",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/planka.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "planka",
-        "PLANKA",
-        "compose"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/plankanban/planka/manifest.json",
-        "sha256": "e648b30d35d7d25504a23cef42ef713d236baf7717c8cca9df4b7bf96b085460"
-      },
-      "summary": {
-        "path": "templates/plankanban/planka/summary.json",
-        "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
-      }
-    },
-    {
-      "id": "qbittorrent/qbittorrent",
-      "kind": "compose",
-      "category": "download",
-      "name": "qBittorrent",
-      "description": "提供可远程访问的 BitTorrent 下载服务，用网页管理任务、连接和传输速度；此模板使用 LinuxServer.io 镜像。",
-      "developer": "qbittorrent",
-      "projectUrl": "https://github.com/qbittorrent/qBittorrent",
-      "source": "open",
-      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/qbittorrent.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "qbittorrent",
-        "qBittorrent",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/qbittorrent/qbittorrent/manifest.json",
-        "sha256": "538b3ddb792eeaceb90774c7418b321bd8e520140cc484bb6b3567b9ae80f139"
-      },
-      "summary": {
-        "path": "templates/qbittorrent/qbittorrent/summary.json",
-        "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
-      }
-    },
-    {
-      "id": "seerr-team/seerr",
-      "kind": "compose",
-      "category": "media",
-      "name": "Seerr",
-      "description": "为家庭媒体库收集电影和剧集申请，关联媒体服务器及自动整理工具，集中处理申请审批、权限和通知。",
-      "developer": "seerr-team",
-      "projectUrl": "https://github.com/seerr-team/seerr",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/seerr.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "seerr",
-        "Seerr",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/seerr-team/seerr/manifest.json",
-        "sha256": "39c50db620f0559492db481396d15caea15791142cf1eb9328e8660579f62b29"
-      },
-      "summary": {
-        "path": "templates/seerr-team/seerr/summary.json",
-        "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
-      }
-    },
-    {
-      "id": "stirling-tools/stirling-pdf",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Stirling PDF",
-      "description": "在本地服务器处理 PDF 的合并、拆分、转换、OCR 和签署，也可通过 API 编排任务；提供可选付费服务器及企业功能。",
-      "developer": "Stirling-Tools",
-      "projectUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
-      "source": "open",
-      "license": "Open-core; see upstream LICENSE",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/stirling-pdf.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "stirling-pdf",
-        "Stirling PDF",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/stirling-tools/stirling-pdf/manifest.json",
-        "sha256": "22d4ae545261eb815f5b697758804133553ee64907ce5d5086403571c1abe811"
-      },
-      "summary": {
-        "path": "templates/stirling-tools/stirling-pdf/summary.json",
-        "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
-      }
-    },
-    {
-      "id": "taksssss/iptv-tool",
-      "kind": "compose",
-      "category": "media",
-      "name": "IPTV 工具箱",
-      "description": "统一整理节目单、频道台标与直播列表，按播放客户端需要输出不同格式，并支持频道匹配、定时更新和访问控制。",
-      "developer": "taksssss",
-      "projectUrl": "https://github.com/taksssss/iptv-tool",
-      "source": "open",
-      "license": "GPL-2.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/iptv-tool.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "iptv-tool",
-        "IPTV 工具箱",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/taksssss/iptv-tool/manifest.json",
-        "sha256": "873a683bb2cf2a761b305b58191a0798ce34169f0d9bd89b031c1862bc162a5f"
-      },
-      "summary": {
-        "path": "templates/taksssss/iptv-tool/summary.json",
-        "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
-      }
-    },
-    {
-      "id": "transmission/transmission",
-      "kind": "compose",
-      "category": "download",
-      "name": "Transmission",
-      "description": "运行面向服务器的 BT 下载守护进程，通过网页管理磁力链接和种子，并保留下载、配置与监视目录。",
-      "developer": "transmission",
-      "projectUrl": "https://github.com/transmission/transmission",
-      "source": "open",
-      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/transmission.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "transmission",
-        "Transmission",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/transmission/transmission/manifest.json",
-        "sha256": "92c3636d0f2794f2f86e298ff59841ced16f8262d70a54f716721aed84e4062e"
-      },
-      "summary": {
-        "path": "templates/transmission/transmission/summary.json",
-        "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
-      }
-    },
-    {
-      "id": "umami-software/umami",
-      "kind": "compose",
-      "category": "monitoring",
-      "name": "Umami",
-      "description": "统计网站访问、活动来源与转化情况，使用注重隐私的分析方式。可自行部署，README 提到云端服务但未列价格。",
-      "developer": "umami-software",
-      "projectUrl": "https://github.com/umami-software/umami",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "unknown",
-      "version": "1.0.0",
-      "icon": "icons/umami.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "umami",
-        "Umami",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/umami-software/umami/manifest.json",
-        "sha256": "57feb1405b1011da2ff05634348184b4ebb3f622151e8b78752d383cc45cc1ac"
-      },
-      "summary": {
-        "path": "templates/umami-software/umami/summary.json",
-        "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
-      }
-    },
-    {
-      "id": "usememos/memos",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Memos",
-      "description": "按时间记录零散想法和日常笔记，通过标签整理内容，并为每条记录选择私密保存或公开分享。",
-      "developer": "usememos",
-      "projectUrl": "https://github.com/usememos/memos",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/memos-cn.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "memos-cn",
-        "Memos",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/usememos/memos/manifest.json",
-        "sha256": "9513880d59d0d09c9fa437a411c53368580ce3a101adba606524def28df2cb11"
-      },
-      "summary": {
-        "path": "templates/usememos/memos/summary.json",
-        "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
-      }
-    },
-    {
-      "id": "vert-sh/vert",
-      "kind": "compose",
-      "category": "tools",
-      "name": "VERT",
-      "description": "提供图像、音频、文档和视频格式转换界面，多数转换在浏览器本地执行；部分视频操作可对接独立转换服务。",
-      "developer": "VERT-sh",
-      "projectUrl": "https://github.com/VERT-sh/VERT",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/vert.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "vert",
-        "VERT",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/vert-sh/vert/manifest.json",
-        "sha256": "143a1908a7e2725505c7e3dfc7de475dedc71ed8a83d80d6e9975c0a176f1d1b"
-      },
-      "summary": {
-        "path": "templates/vert-sh/vert/summary.json",
-        "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
-      }
     }
   ],
   "next": {
     "path": "compose/all/pages/003.json",
-    "sha256": "1908f5acc77ff203bcdba0cf3a3229fb678ae2668200f676906c399a3313d023"
+    "sha256": "1ab3fac84018937afec36e0fe684b01f8d376e556d98e18911a8ca05e058b311"
   }
 }

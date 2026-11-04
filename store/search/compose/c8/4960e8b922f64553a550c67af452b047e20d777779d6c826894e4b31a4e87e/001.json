@@ -4,6 +4,10 @@
     {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
       "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+    },
+    {
+      "path": "templates/navidrome/navidrome-basic/summary.json",
+      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
     }
   ],
   "next": null

@@ -1,0 +1,16 @@
+services:
+  clouddrive:
+    image: cloudnas/clouddrive2:latest
+    restart: unless-stopped
+    network_mode: host
+    pid: host
+    privileged: true
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      CLOUDDRIVE_HOME: /Config
+    volumes:
+      - ./config:/Config
+      - ${MOUNT_DIR:-./cloud}:/CloudNAS:shared
+      - ./backup:/backup
+    devices:
+      - /dev/fuse:/dev/fuse

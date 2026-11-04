@@ -1,0 +1,72 @@
+services:
+  moviepilot:
+    image: jxxghp/moviepilot-v2:latest
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    ports:
+      - ${WEB_PORT:-3000}:3000
+      - ${API_PORT:-3001}:3001
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      PUID: ${PUID:-1000}
+      PGID: ${PGID:-1000}
+      UMASK: ${UMASK:-022}
+      NGINX_PORT: "3000"
+      PORT: "3001"
+      SUPERUSER: admin
+      DB_TYPE: postgresql
+      DB_POSTGRESQL_HOST: postgres
+      DB_POSTGRESQL_PORT: "5432"
+      DB_POSTGRESQL_DATABASE: moviepilot
+      DB_POSTGRESQL_USERNAME: moviepilot
+      DB_POSTGRESQL_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      CACHE_BACKEND_TYPE: redis
+      CACHE_BACKEND_URL: redis://:${REDIS_PASSWORD:?请填写 REDIS_PASSWORD}@redis:6379/0
+    volumes:
+      - ./config:/config
+      - ./browser-cache:/moviepilot/.cache/ms-playwright
+      - ${MEDIA_DIR:-./media}:/media
+      - ${DOWNLOADS_DIR:-./downloads}:/downloads
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: moviepilot
+      POSTGRES_USER: moviepilot
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U "$$POSTGRES_USER" -d "$$POSTGRES_DB"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?请填写 REDIS_PASSWORD}
+    entrypoint:
+      - /bin/sh
+      - -ec
+    command:
+      - exec /usr/local/bin/docker-entrypoint.sh redis-server --appendonly yes --requirepass "$$REDIS_PASSWORD"
+    volumes:
+      - ./redis:/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - REDISCLI_AUTH="$$REDIS_PASSWORD" redis-cli ping | grep -q PONG
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s

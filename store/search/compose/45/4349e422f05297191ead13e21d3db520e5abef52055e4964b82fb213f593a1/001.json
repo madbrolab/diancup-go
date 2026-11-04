@@ -30,6 +30,10 @@
       "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
     },
     {
+      "path": "templates/cloudnas/clouddrive2-basic/summary.json",
+      "sha256": "256e32d9492047cc60f5b3d2b07a9ad8e00d1337f8436b273600e2ab484462c5"
+    },
+    {
       "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
       "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
     },
@@ -42,12 +46,20 @@
       "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
     },
     {
+      "path": "templates/emby/embyserver-basic/summary.json",
+      "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+    },
+    {
       "path": "templates/fccview/cronmaster/summary.json",
       "sha256": "774694640b31b58942d81731dc9ed8c56157443de8359b2c0ac25cdafe6fe0d6"
     },
     {
       "path": "templates/finb/bark-server/summary.json",
       "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+    },
+    {
+      "path": "templates/flaresolverr/flaresolverr-basic/summary.json",
+      "sha256": "088f02011475baf5386f155a22c337445109bdb3d0d8149141c33942c1a537ac"
     },
     {
       "path": "templates/freeok/so-novel/summary.json",
@@ -82,24 +94,12 @@
       "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
     },
     {
-      "path": "templates/n8n-io/n8n/summary.json",
-      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
-    },
-    {
-      "path": "templates/navidrome/navidrome/summary.json",
-      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
-    },
-    {
-      "path": "templates/official/wordpress-mariadb/summary.json",
-      "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
-    },
-    {
-      "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+      "path": "templates/jxxghp/moviepilot-basic/summary.json",
+      "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
     }
   ],
   "next": {
     "path": "search/compose/45/4349e422f05297191ead13e21d3db520e5abef52055e4964b82fb213f593a1/002.json",
-    "sha256": "f3d13d14b95f4c2c0305fd751031cd62b9eae5adb14aa0a803e0fccb5dbc4245"
+    "sha256": "b98afc7ca8655074efe0327f14e89dd3a7c963c56325b29f44ddcd8efd25e158"
   }
 }

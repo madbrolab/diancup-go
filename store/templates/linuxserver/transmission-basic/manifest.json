@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "id": "linuxserver/transmission-basic",
+  "kind": "compose",
+  "name": "Transmission 基础版",
+  "description": "提供网页和 RPC 入口的 BitTorrent 下载服务，可管理下载、做种及自动监视目录。模板采用 LinuxServer.io 镜像。",
+  "developer": "Transmission / LinuxServer.io",
+  "projectUrl": "https://github.com/transmission/transmission",
+  "source": "open",
+  "license": "GPL-2.0-or-later",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "download",
+  "tags": [
+    "transmission",
+    "基础模板",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/transmission.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.linuxserver.io/images/docker-transmission/",
+  "recommendations": [
+    {
+      "target": "env.RPC_PASSWORD",
+      "title": "管理界面密码",
+      "reason": "部署前为当前实例填写独立密码，用户名默认 admin。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.DOWNLOADS_DIR",
+      "title": "下载目录",
+      "reason": "默认 ./downloads；与其他应用共享时保持宿主机目录及容器内 /downloads 路径一致。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.PUID",
+      "title": "文件属主",
+      "reason": "PUID/PGID 默认 1000，请按下载目录权限调整。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "applications": [
+    {
+      "id": "transmission",
+      "name": "Transmission",
+      "developer": "Transmission / LinuxServer.io",
+      "projectUrl": "https://github.com/transmission/transmission",
+      "icon": "icons/transmission.svg",
+      "services": [
+        "transmission"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "origin": "reconstructed-basic-compose",
+    "lastCommitAt": "2026-11-02T03:04:02Z",
+    "lastCommit": "c1a0dbebd55add20efa0bc40d8ad3c57152e5635",
+    "readmeSHA256": "af5fa8b1d4a7cea0580c999c9e7bc8d7250bb4dfc242a108241c9c0294fb988b",
+    "iconSource": "https://raw.githubusercontent.com/transmission/transmission/c1a0dbebd55add20efa0bc40d8ad3c57152e5635/web/public_html/images/favicon.svg",
+    "iconSHA256": "3e4d67e348c5f99498bcdfdd7608ec3e4a6d42a57a7418ca25c4b6348a21093a",
+    "adaptations": [
+      "去除 Unraid 标签、Host 网络和不必要的特权模式",
+      "移除私人密码及不存在的自定义 WebUI 路径",
+      "使用稳定维护的 latest 标签替代个人固定旧版",
+      "映射标准 Web、TCP 和 UDP 端口"
+    ],
+    "images": [
+      {
+        "image": "lscr.io/linuxserver/transmission:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "fb8fe625941cf15eb69aba4e5c0a678e035ddb11605fd85af4516a4e641f2687"
+      }
+    ]
+  }
+}

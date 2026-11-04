@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "id": "laurent22/joplin-server-basic",
+  "kind": "compose",
+  "name": "Joplin Server + PostgreSQL 基础版",
+  "description": "为 Joplin 客户端提供笔记同步与共享服务，数据保存在配套 PostgreSQL 中。服务端源码可查看，个人用途与商业用途适用不同授权。",
+  "developer": "Joplin",
+  "projectUrl": "https://github.com/laurent22/joplin",
+  "source": "unknown",
+  "license": "Joplin Server Personal Use License / commercial license",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "joplin",
+    "基础模板",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/basic-joplin.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/laurent22/joplin/blob/dev/packages/server/README.md",
+  "recommendations": [
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "为当前新实例设置独立密码；数据库仅供项目内服务连接。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.APP_BASE_URL",
+      "title": "实际访问地址",
+      "reason": "必须与浏览器和客户端使用的地址一致；使用服务器 IP 或正式域名，修改端口时同步修改此处。",
+      "required": true,
+      "example": "https://notes.example.com"
+    },
+    {
+      "target": "compose.services.app",
+      "title": "首次登录",
+      "reason": "默认管理员为 admin@localhost / admin；首次登录后修改管理员资料，并新建用于同步的用户。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "applications": [
+    {
+      "id": "joplin",
+      "name": "Joplin Server",
+      "developer": "Joplin",
+      "projectUrl": "https://github.com/laurent22/joplin",
+      "icon": "icons/basic-joplin.svg",
+      "services": [
+        "app"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "developer": "PostgreSQL Global Development Group",
+      "projectUrl": "https://www.postgresql.org/",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "db"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "origin": "reconstructed-basic-compose",
+    "lastCommitAt": "2026-11-04T11:27:30Z",
+    "lastCommit": "efa2614e389b4d8d1055d865576cad425979dc2f",
+    "readmeSHA256": "b9444e9a16aa4d8b87124a368605847ce9ad368e603e5f6116c34f3121a86f69",
+    "iconSource": "https://raw.githubusercontent.com/laurent22/joplin/efa2614e389b4d8d1055d865576cad425979dc2f/Assets/ImageSources/JoplinServerIcon.svg",
+    "iconSHA256": "2fe163358bf72a54c40cb69ff1523de1a1f26ded888c08136b1eda1c56a890b9",
+    "adaptations": [
+      "应用恢复标准端口 22300",
+      "PostgreSQL 仅通过项目网络连接，固定内部端口 5432",
+      "统一数据库名和用户变量，添加健康依赖",
+      "移除禁用时间漂移检查的个人参数"
+    ],
+    "images": [
+      {
+        "image": "postgres:16-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "0cefaabd882e42bcb2a2f3dc56d3ce4770560ba62fd7f197f1a2e008fd5731ab"
+      },
+      {
+        "image": "joplin/server:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "d951ce50b6d3d542393ebc4d08bd62d9a4fb0a6f6827abb861726c83560ecf97"
+      }
+    ]
+  }
+}

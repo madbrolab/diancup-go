@@ -2,6 +2,96 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "42d1cf784744ddc3ebd2fbc9",
+      "name": "plankanban",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/42d1cf784744ddc3ebd2fbc9/repositories/001.json",
+        "sha256": "57d6a655d7541c46ad3e81f1c989a89649fa23a5dd93e5a9626c943ea9e92a92"
+      }
+    },
+    {
+      "id": "fb469641a6f9c35f3e10b5be",
+      "name": "qBittorrent / LinuxServer.io",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/fb469641a6f9c35f3e10b5be/repositories/001.json",
+        "sha256": "c7c83558a7abae9b671592593cc8fbc40d7cadeb7dd8e6473582ad122dd60899"
+      }
+    },
+    {
+      "id": "e851219b75c97d1a161ad6b2",
+      "name": "qbittorrent",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/e851219b75c97d1a161ad6b2/repositories/001.json",
+        "sha256": "cf2a1668fd393b937ea14998ec9c8adb63ca80b9ecd0e3cf9e1e921ccec7680b"
+      }
+    },
+    {
+      "id": "044d5bec622db344b31062c6",
+      "name": "seerr-team",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/044d5bec622db344b31062c6/repositories/001.json",
+        "sha256": "4615816df5bdcf72203143c878851229c79a8496f21d2499e8781441ed8d359a"
+      }
+    },
+    {
+      "id": "f52cfaa4e882b801210d8d1f",
+      "name": "taksssss",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/f52cfaa4e882b801210d8d1f/repositories/001.json",
+        "sha256": "cd781cf294a72e0ad04676ec8587a8db070db21406cec28fd5a4932b02f86313"
+      }
+    },
+    {
+      "id": "1d2cafdb2fbaa2b86fe4565d",
+      "name": "transmission",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/1d2cafdb2fbaa2b86fe4565d/repositories/001.json",
+        "sha256": "7267e70ace307ba0f8c545fbd9d7b9128cd58fa9dad25585cc792c0da3b39b51"
+      }
+    },
+    {
+      "id": "923e8616bd8b4425571df2d4",
+      "name": "umami-software",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/923e8616bd8b4425571df2d4/repositories/001.json",
+        "sha256": "32a0eb99c612a313057893a07654f5a49ffc93295595d369dbc97c0a81e8c551"
+      }
+    },
+    {
+      "id": "676711df77cdc14c3162e716",
+      "name": "usememos",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/676711df77cdc14c3162e716/repositories/001.json",
+        "sha256": "ac098a1993a898dcbe2ed687d204ba63fc88ba10e01d0e648b5a645a4a34162b"
+      }
+    },
+    {
+      "id": "9acd5100a6ff41e45695f1d4",
+      "name": "wallabag",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/9acd5100a6ff41e45695f1d4/repositories/001.json",
+        "sha256": "33f3dd64988f36133a86c14795800a8d048f3e1fe5d0c6a8d29befdbcdbd46e0"
+      }
+    },
+    {
+      "id": "a1b18565116908384a7552e6",
+      "name": "weidu12123",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/a1b18565116908384a7552e6/repositories/001.json",
+        "sha256": "c7a2c7151da337a02a6188f80d7257669d183c6202b2232678992ba93d5cd1ce"
+      }
+    },
+    {
       "id": "2a0e00bcc296fc7ffa51aff7",
       "name": "xhongc",
       "count": 1,

@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/navidrome/navidrome-basic/summary.json",
+      "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+    },
+    {
       "path": "templates/usememos/memos/summary.json",
       "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
     }

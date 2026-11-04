@@ -4,6 +4,10 @@
     {
       "path": "templates/59799517/simple-sq-music-plus/summary.json",
       "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+    },
+    {
+      "path": "templates/laurent22/joplin-server-basic/summary.json",
+      "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
     }
   ],
   "next": null

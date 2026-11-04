@@ -97,6 +97,134 @@
       }
     },
     {
+      "id": "emby/embyserver-basic",
+      "kind": "compose",
+      "category": "media",
+      "name": "Emby Server 基础版",
+      "description": "整理并串流自己的影视与音乐收藏，向浏览器和客户端提供媒体库。此模板采用官方镜像，部分客户端和高级功能需要 Emby Premiere。",
+      "developer": "Emby LLC",
+      "projectUrl": "https://emby.media/",
+      "source": "closed",
+      "license": "Proprietary (current Emby Server)",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/basic-emby.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "emby",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/emby/embyserver-basic/manifest.json",
+        "sha256": "80018570ebd0cfbb58a803fa5640ebb9be9b8daba52c9da45d47d516eac546ca"
+      },
+      "summary": {
+        "path": "templates/emby/embyserver-basic/summary.json",
+        "sha256": "0e810c64a58e82e043b5fcad004e1fe016e62a32a3d5ce1c4dfcd9c1c294ee8a"
+      }
+    },
+    {
+      "id": "jxxghp/moviepilot-basic",
+      "kind": "compose",
+      "category": "media",
+      "name": "MoviePilot v2 + PostgreSQL + Redis 基础版",
+      "description": "组织影视订阅、搜索、下载和入库流程，可接入下载器、媒体服务与插件。项目声明不收费；此基础配置包含 PostgreSQL 与 Redis。",
+      "developer": "jxxghp",
+      "projectUrl": "https://github.com/jxxghp/MoviePilot",
+      "source": "unknown",
+      "license": "GPL-3.0 with noncommercial README terms",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/basic-moviepilot.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "moviepilot",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/jxxghp/moviepilot-basic/manifest.json",
+        "sha256": "2ee254f3ebf77063756968c015dec2eb448b487e5b0f7296262cd03e8c379c94"
+      },
+      "summary": {
+        "path": "templates/jxxghp/moviepilot-basic/summary.json",
+        "sha256": "13b796782d18c7156f5777345076cb090dbd9966f79f6ee092184319962d12b8"
+      }
+    },
+    {
+      "id": "madbrolab/dian115-basic",
+      "kind": "compose",
+      "category": "media",
+      "name": "DIAN115 + PostgreSQL 基础版",
+      "description": "管理 115 网盘资源、媒体整理、STRM 与影音服务接入。主程序采用私有授权，需要激活密钥；此基础配置配套 PostgreSQL。",
+      "developer": "madbrolab",
+      "projectUrl": "https://github.com/madbrolab/dian115",
+      "source": "closed",
+      "license": "Proprietary / private activation license",
+      "paidKey": "required",
+      "version": "1.0.0",
+      "icon": "icons/basic-dian115.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "dian115",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/madbrolab/dian115-basic/manifest.json",
+        "sha256": "c2779a6cec70c9618f5ab4560157fbfac76696c5aadee2d57d83e5fa744f3beb"
+      },
+      "summary": {
+        "path": "templates/madbrolab/dian115-basic/summary.json",
+        "sha256": "0b41a4c23c812bb0284e9524945c48b4a64f342d7c31a73aacfb218bbe0a9ef0"
+      }
+    },
+    {
+      "id": "navidrome/navidrome-basic",
+      "kind": "compose",
+      "category": "media",
+      "name": "Navidrome 基础版",
+      "description": "把本地音乐目录整理为可在浏览器和 Subsonic 客户端访问的个人曲库，支持用户、歌单与播放记录。模板默认每小时扫描一次。",
+      "developer": "Navidrome",
+      "projectUrl": "https://github.com/navidrome/navidrome",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/navidrome.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "navidrome",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/navidrome/navidrome-basic/manifest.json",
+        "sha256": "8185ef08d8e8829438214a781a10a9464db80bd93afd33e56cb8d4c3735d92d7"
+      },
+      "summary": {
+        "path": "templates/navidrome/navidrome-basic/summary.json",
+        "sha256": "ae052fa210eb8ea27e54eba6c8851091b936f76f1f2260459b0ad79ecb0e11d5"
+      }
+    },
+    {
       "id": "navidrome/navidrome",
       "kind": "compose",
       "category": "media",

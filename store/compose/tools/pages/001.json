@@ -449,6 +449,38 @@
       }
     },
     {
+      "id": "laurent22/joplin-server-basic",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Joplin Server + PostgreSQL 基础版",
+      "description": "为 Joplin 客户端提供笔记同步与共享服务，数据保存在配套 PostgreSQL 中。服务端源码可查看，个人用途与商业用途适用不同授权。",
+      "developer": "Joplin",
+      "projectUrl": "https://github.com/laurent22/joplin",
+      "source": "unknown",
+      "license": "Joplin Server Personal Use License / commercial license",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/basic-joplin.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "joplin",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/laurent22/joplin-server-basic/manifest.json",
+        "sha256": "cbd5e56c430b0a38ec72db1d8efbf9b937d5af125dcbff7d92a838c795a1dd39"
+      },
+      "summary": {
+        "path": "templates/laurent22/joplin-server-basic/summary.json",
+        "sha256": "45376f2abd471e3ebb2e6a51480e3a3b20312487b9031ef25a45f044e0f30d66"
+      }
+    },
+    {
       "id": "louislam/dockge",
       "kind": "compose",
       "category": "tools",

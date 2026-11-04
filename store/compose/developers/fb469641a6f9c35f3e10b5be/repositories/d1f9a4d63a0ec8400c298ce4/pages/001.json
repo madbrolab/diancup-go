@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "linuxserver/qbittorrent-basic",
+      "kind": "compose",
+      "category": "download",
+      "name": "qBittorrent 基础版",
+      "description": "通过网页管理 BitTorrent 下载任务、队列与做种。此模板采用 LinuxServer.io 镜像，分别持久化设置和下载文件。",
+      "developer": "qBittorrent / LinuxServer.io",
+      "projectUrl": "https://github.com/qbittorrent/qBittorrent",
+      "source": "open",
+      "license": "GPL-2.0-or-later",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/qbittorrent.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "qbittorrent",
+        "基础模板",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/linuxserver/qbittorrent-basic/manifest.json",
+        "sha256": "25793fcc73944220cebbcfa2558427635e28d14779e98b4a65983475b0eaba49"
+      },
+      "summary": {
+        "path": "templates/linuxserver/qbittorrent-basic/summary.json",
+        "sha256": "2db266cde259562559946df7a517a1332184a009cce4f19b08104c4140102f54"
+      }
+    }
+  ],
+  "next": null
+}

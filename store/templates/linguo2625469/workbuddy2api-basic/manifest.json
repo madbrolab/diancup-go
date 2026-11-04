@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "id": "linguo2625469/workbuddy2api-basic",
+  "kind": "compose",
+  "name": "WorkBuddy2API Panel 基础版",
+  "description": "为自己的 WorkBuddy 账号提供 OpenAI 兼容接口及网页管理入口，可管理账号状态、任务与接口配置。项目本身免费，上游服务按对应账号规则使用。",
+  "developer": "linguo2625469",
+  "projectUrl": "https://github.com/linguo2625469/workbuddy2api-panel",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "ai",
+  "tags": [
+    "workbuddy2api",
+    "基础模板",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/basic-workbuddy2api.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/linguo2625469/workbuddy2api-panel/blob/main/README.md",
+  "recommendations": [
+    {
+      "target": "env.API_KEY",
+      "title": "API 访问密钥",
+      "reason": "设置自己使用的访问密钥，不沿用镜像示例值。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.PUID",
+      "title": "数据目录用户",
+      "reason": "默认 UID/GID 均为 10001；prepare 会初始化并调整本项目 config、auths、data 的属主。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.wb2api",
+      "title": "首次使用",
+      "reason": "启动后在面板登录自己的上游账号；尚未加入可用账号时 /healthz 返回 503 属于未就绪状态。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "applications": [
+    {
+      "id": "workbuddy2api",
+      "name": "WorkBuddy2API Panel",
+      "developer": "linguo2625469",
+      "projectUrl": "https://github.com/linguo2625469/workbuddy2api-panel",
+      "icon": "icons/basic-workbuddy2api.svg",
+      "services": [
+        "prepare",
+        "wb2api"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "origin": "reconstructed-basic-compose",
+    "lastCommitAt": "2026-10-21T03:05:03Z",
+    "lastCommit": "73a7560efc7a88ebd9865db4c71ae7f6d85859f8",
+    "readmeSHA256": "cd49d5493b332aee0ca476808f88bf996d6b7421009a0eaaf59df91e0e65d405",
+    "iconSource": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/bot.svg",
+    "iconSHA256": "e46fe72fc5b33d7a17b0112df85da9ded851860312e8353f4fe23d87a4ce77f5",
+    "adaptations": [
+      "改为目录持久化配置，避免缺失 config.json 被挂载成目录",
+      "准备服务从成品镜像复制默认配置并修正本项目目录属主",
+      "通过已核对的程序入口显式指定配置路径",
+      "访问密钥必须单独填写"
+    ],
+    "images": [
+      {
+        "image": "ghcr.io/linguo2625469/workbuddy2api-panel:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "ec3ab17515d5d3a5d866f5b28750dbc874985c18d984af8e889805d163eca424"
+      }
+    ]
+  }
+}
