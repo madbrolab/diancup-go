@@ -1,0 +1,66 @@
+services:
+  beidou-server:
+    image: ghcr.io/beidoums/beidou-server:nightly
+    environment:
+      - TZ=Asia/Shanghai
+    ports:
+      - 8484:8484
+      - 7575:7575
+      - 7576:7576
+      - 7577:7577
+    volumes:
+      - ./beidou-server-nightly:/opt/server
+    command:
+      - --mybatis-flex.datasource.mysql.url=jdbc:mysql://beidou-db:3306/beidou?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+      - --mybatis-flex.datasource.mysql.username=root
+      - --mybatis-flex.datasource.mysql.password=root_password
+      - --gms.service.wan-host=${NASIP}
+      - --gms.service.lan-host=${NASIP}
+      - --gms.service.localhost=${NASIP}
+    healthcheck:
+      test:
+        - CMD
+        - sh
+        - -c
+        - netstat -tunlp | grep 0.0.0.0:8484 || exit 1
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    depends_on:
+      beidou-db:
+        condition: service_healthy
+    networks:
+      beidou-network:
+        aliases:
+          - beidou-server
+  beidou-ui:
+    image: ghcr.io/beidoums/beidou-ui:nightly
+    ports:
+      - 8686:8686
+    depends_on:
+      - beidou-server
+    networks:
+      beidou-network:
+        aliases:
+          - beidou-ui
+  beidou-db:
+    image: mysql:8.4.0
+    environment:
+      - MYSQL_ROOT_PASSWORD=root_password
+    volumes:
+      - ./docker-db-data:/var/lib/mysql
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - mysqladmin ping -h localhost -uroot -p"$$MYSQL_ROOT_PASSWORD"
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    networks:
+      beidou-network:
+        aliases:
+          - beidou-db
+networks:
+  beidou-network:
+    driver: bridge

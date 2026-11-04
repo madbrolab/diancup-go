@@ -2,9 +2,104 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/actualbudget/actual-budget/summary.json",
+      "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+    },
+    {
+      "path": "templates/advplyr/audiobookshelf/summary.json",
+      "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+    },
+    {
+      "path": "templates/alexta69/metube/summary.json",
+      "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+    },
+    {
+      "path": "templates/babybuddy/babybuddy/summary.json",
+      "sha256": "1183ea8eff73077de909ff8074ab2a4db7da07bb1d6794cd25a6114b18a3294c"
+    },
+    {
+      "path": "templates/beidoums/beidou-server/summary.json",
+      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+    },
+    {
+      "path": "templates/bestruirui/octopus/summary.json",
+      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+    },
+    {
+      "path": "templates/bookstackapp/bookstack/summary.json",
+      "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+    },
+    {
+      "path": "templates/brave/brave-browser/summary.json",
+      "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+    },
+    {
+      "path": "templates/bubka/2fauth/summary.json",
+      "sha256": "bd581f750c76d70ff001c9f6093b4f242bcf120e08fa52f9bbb0b0a66a1319fe"
+    },
+    {
+      "path": "templates/chatgptnextweb/nextchat/summary.json",
+      "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+    },
+    {
+      "path": "templates/chenqimiao/qm-music/summary.json",
+      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+    },
+    {
+      "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
+      "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+    },
+    {
+      "path": "templates/dani-garcia/vaultwarden/summary.json",
+      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+    },
+    {
+      "path": "templates/finb/bark-server/summary.json",
+      "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+    },
+    {
+      "path": "templates/freeok/so-novel/summary.json",
+      "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+    },
+    {
+      "path": "templates/gotify/server/summary.json",
+      "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+    },
+    {
+      "path": "templates/henrygd/beszel/summary.json",
+      "sha256": "156f67009458ce65125cab092e84f13ed260dd410d19c919902398e5fae99a72"
+    },
+    {
+      "path": "templates/nginx/nginx/summary.json",
+      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+    },
+    {
       "path": "templates/official/wordpress-mariadb/summary.json",
       "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
+    },
+    {
+      "path": "templates/open-webui/open-webui/summary.json",
+      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+    },
+    {
+      "path": "templates/plankanban/planka/summary.json",
+      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+    },
+    {
+      "path": "templates/qbittorrent/qbittorrent/summary.json",
+      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+    },
+    {
+      "path": "templates/transmission/transmission/summary.json",
+      "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+    },
+    {
+      "path": "templates/wallabag/wallabag/summary.json",
+      "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
     }
   ],
-  "next": null
+  "next": {
+    "path": "search/compose/3e/23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d/002.json",
+    "sha256": "8ea0b2b2a853bc4cf800df73a0971c870485f4a0ef5a753f66f68b143ac3656c"
+  }
 }

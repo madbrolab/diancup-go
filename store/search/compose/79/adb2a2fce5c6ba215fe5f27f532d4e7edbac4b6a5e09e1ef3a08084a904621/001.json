@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/59799517/simple-sq-music-plus/summary.json",
+      "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+    },
+    {
+      "path": "templates/bestruirui/octopus/summary.json",
+      "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+    },
+    {
+      "path": "templates/chenqimiao/qm-music/summary.json",
+      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+    },
+    {
+      "path": "templates/langgenius/dify/summary.json",
+      "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+    },
+    {
+      "path": "templates/usememos/memos/summary.json",
+      "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+    },
+    {
+      "path": "templates/xhongc/music-tag-web/summary.json",
+      "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+    }
+  ],
+  "next": null
+}

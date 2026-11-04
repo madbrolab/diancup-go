@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "xhongc/music-tag-web",
+  "kind": "compose",
+  "category": "media",
+  "name": "Music Tag Web",
+  "description": "在浏览器中整理服务器曲库，批量修改歌曲标签、匹配封面与歌词，并按音乐信息归档文件。README 附有非商业使用限制。",
+  "developer": "xhongc",
+  "projectUrl": "https://github.com/xhongc/music-tag-web",
+  "source": "unknown",
+  "license": "GPL-3.0 with additional README restrictions",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "icon": "icons/music-tag-web.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "music-tag-web",
+    "Music Tag Web",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/xhongc/music-tag-web/manifest.json",
+    "sha256": "bfc1ee087ebc008d102468d0fe3cd22e814f48e22756ed832760dc53ea70b36c"
+  }
+}

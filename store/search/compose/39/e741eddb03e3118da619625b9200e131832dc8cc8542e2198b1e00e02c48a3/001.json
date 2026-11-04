@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/advplyr/audiobookshelf/summary.json",
+      "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+    },
+    {
+      "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
+      "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/taksssss/iptv-tool/summary.json",
+      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+    },
+    {
+      "path": "templates/xhongc/music-tag-web/summary.json",
+      "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+    }
+  ],
+  "next": null
+}

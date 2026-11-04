@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/brave/brave-browser/summary.json",
+      "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+    },
+    {
+      "path": "templates/transmission/transmission/summary.json",
+      "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+    }
+  ],
+  "next": null
+}

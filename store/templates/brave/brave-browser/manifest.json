@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "brave/brave-browser",
+  "kind": "compose",
+  "name": "Brave 浏览器",
+  "description": "通过网页远程使用容器内的 Brave 浏览器，浏览器的运行配置保存在宿主机。项目入口与源码仓库在 README 中分别列出。",
+  "developer": "brave",
+  "projectUrl": "https://github.com/brave/brave-browser",
+  "source": "open",
+  "license": "MPL-2.0",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "brave",
+    "Brave 浏览器",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/brave.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.brave.ports",
+      "title": "brave 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "3000:3000、3001:3001"
+    },
+    {
+      "target": "compose.services.brave.volumes",
+      "title": "brave 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/brave/brave-browser/blob/a33113d6035df5897fba3029507b2024616616a3/README.md",
+  "applications": [
+    {
+      "id": "brave-browser",
+      "name": "Brave 浏览器",
+      "icon": "icons/brave.svg",
+      "developer": "brave",
+      "projectUrl": "https://github.com/brave/brave-browser",
+      "services": [
+        "brave"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T12:33:34Z",
+    "lastCommit": "a33113d6035df5897fba3029507b2024616616a3",
+    "readmeSHA256": "7ab3f3c7c0b0dd3aa6ce16a9b338d54f4558c7e024d74bf83418c1a4df8010a9",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/brave.json",
+      "sha256": "ba7dd8fafc59e49d1b0cd4a68fcaf849becf485c424ea0ca695ff89478e3f014"
+    },
+    "iconSource": "https://github.com/brave.png?size=256",
+    "iconSHA256": "6ba00e0c5b201eb45f77f219899c6dac935aeb30d00ec901aa5f28e2bd57f8da",
+    "adaptations": []
+  }
+}

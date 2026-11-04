@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "bookstackapp/bookstack",
+  "kind": "compose",
+  "name": "BookStack",
+  "description": "把团队资料整理成书籍、章节和页面，提供易上手的文档编辑与组织方式，适合维护内部知识和操作手册。",
+  "developer": "BookStackApp",
+  "projectUrl": "https://github.com/BookStackApp/BookStack",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "bookstack",
+    "BookStack",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/bookstack.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "env.DB_PASS",
+      "title": "DB_PASS",
+      "reason": "部署前填写当前应用所需的值。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.bookstack.ports",
+      "title": "bookstack 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "6875:80"
+    },
+    {
+      "target": "compose.services.bookstack.volumes",
+      "title": "bookstack 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.bookstack_db.volumes",
+      "title": "bookstack_db 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/BookStackApp/BookStack/blob/0b6b667e0d84ebb3406de6de9fadbf4230c29c0b/readme.md",
+  "applications": [
+    {
+      "id": "bookstack",
+      "name": "BookStack",
+      "icon": "icons/bookstack.svg",
+      "developer": "BookStackApp",
+      "projectUrl": "https://github.com/BookStackApp/BookStack",
+      "services": [
+        "bookstack"
+      ]
+    },
+    {
+      "id": "mariadb",
+      "name": "MariaDB",
+      "icon": "icons/infra-mariadb.svg",
+      "developer": "MariaDB",
+      "projectUrl": "https://github.com/MariaDB/server",
+      "services": [
+        "bookstack_db"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-02T18:23:25Z",
+    "lastCommit": "0b6b667e0d84ebb3406de6de9fadbf4230c29c0b",
+    "readmeSHA256": "627585ac4c2e3c00c0f72ecfd1694c1b8084311c8dcee79c47feac795ebfd26b",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/bookstack.json",
+      "sha256": "b0dea96345081491b6c1eee3f2464eafa0d73bae9e7c5b36d726860ba7676bb3"
+    },
+    "iconSource": "https://raw.githubusercontent.com/BookStackApp/BookStack/0b6b667e0d84ebb3406de6de9fadbf4230c29c0b/public/icon.png",
+    "iconSHA256": "7889fd2d558afc8d014b465bd5c200332bdedf028c488e383da8943b3e11eab5",
+    "adaptations": []
+  }
+}

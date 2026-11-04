@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "id": "plankanban/planka",
+  "kind": "compose",
+  "name": "PLANKA",
+  "description": "用看板、列表和卡片协作管理项目，记录评论、附件与到期时间。社区版可自建，Pro 和企业功能另行授权。",
+  "developer": "plankanban",
+  "projectUrl": "https://github.com/plankanban/planka",
+  "source": "unknown",
+  "license": "PLANKA Community Fair Use License / Commercial License",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "planka",
+    "PLANKA",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/planka.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "env.SECRET_KEY",
+      "title": "SECRET_KEY",
+      "reason": "部署前填写当前应用所需的值。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "DB_PASSWORD",
+      "reason": "部署前填写当前应用所需的值。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.planka.ports",
+      "title": "planka 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "1337:1337"
+    },
+    {
+      "target": "compose.services.planka.volumes",
+      "title": "planka 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.db.volumes",
+      "title": "db 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/plankanban/planka/blob/98c1ef216bcf47fc873f5b92cbb334711fc92162/README.md",
+  "applications": [
+    {
+      "id": "planka",
+      "name": "PLANKA",
+      "icon": "icons/planka.svg",
+      "developer": "plankanban",
+      "projectUrl": "https://github.com/plankanban/planka",
+      "services": [
+        "planka"
+      ]
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL",
+      "icon": "icons/infra-postgresql.svg",
+      "developer": "PostgreSQL Global Development Group",
+      "projectUrl": "https://www.postgresql.org/",
+      "services": [
+        "db"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-02T19:36:48Z",
+    "lastCommit": "98c1ef216bcf47fc873f5b92cbb334711fc92162",
+    "readmeSHA256": "b28c061b21698b9016c846257308e151be31a2444fc0846d6b231c41b8e30df6",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/planka.json",
+      "sha256": "fbebe2a9559bfab71eb2a8474883243fd320f7c502ed7311f24121d8be9f7067"
+    },
+    "iconSource": "https://raw.githubusercontent.com/plankanban/planka/98c1ef216bcf47fc873f5b92cbb334711fc92162/client/public/logo192.png",
+    "iconSHA256": "0ce042411c16e96f5f65cc7c2ab9ec822bb4f396c339cf09cabe7a84de38bdda",
+    "adaptations": []
+  }
+}

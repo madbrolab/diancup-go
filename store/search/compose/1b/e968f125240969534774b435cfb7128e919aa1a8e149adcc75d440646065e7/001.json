@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/advplyr/audiobookshelf/summary.json",
+      "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+    },
+    {
+      "path": "templates/bookstackapp/bookstack/summary.json",
+      "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+    },
+    {
+      "path": "templates/gethomepage/homepage/summary.json",
+      "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+    }
+  ],
+  "next": null
+}

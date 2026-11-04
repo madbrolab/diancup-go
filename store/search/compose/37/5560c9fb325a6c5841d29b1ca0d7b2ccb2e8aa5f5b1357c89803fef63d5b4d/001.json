@@ -2,12 +2,24 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/gitea/gitea-postgresql/summary.json",
-      "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
+      "path": "templates/actualbudget/actual-budget/summary.json",
+      "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
     },
     {
-      "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "3e5a1a9c8c7c0bec9cb9c586ed00c76246e1aa80e3a78ab9f48fca31c4a95f8a"
+      "path": "templates/beidoums/beidou-server/summary.json",
+      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+    },
+    {
+      "path": "templates/chenqimiao/qm-music/summary.json",
+      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+    },
+    {
+      "path": "templates/dani-garcia/vaultwarden/summary.json",
+      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+    },
+    {
+      "path": "templates/gitea/gitea-postgresql/summary.json",
+      "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
     },
     {
       "path": "templates/official/wordpress-mariadb/summary.json",

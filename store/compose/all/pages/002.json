@@ -1,0 +1,778 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "go-vikunja/vikunja",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Vikunja",
+      "description": "自建任务与项目管理空间，安排待办事项和协作计划；另提供托管版，以及包含管理和审计能力的 Pro 版本。",
+      "developer": "go-vikunja",
+      "projectUrl": "https://github.com/go-vikunja/vikunja",
+      "source": "open",
+      "license": "AGPL-3.0-or-later",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/vikunja.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "vikunja",
+        "Vikunja",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/go-vikunja/vikunja/manifest.json",
+        "sha256": "343bf9814bec4d2236459a07c9a91ab217b2b893cbd5d97b06005522cba41957"
+      },
+      "summary": {
+        "path": "templates/go-vikunja/vikunja/summary.json",
+        "sha256": "fca3a4305f64d1be95c6cc4d79e1958d5e51ac12d476bdad77d53a2f3e021058"
+      }
+    },
+    {
+      "id": "gotify/server",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Gotify",
+      "description": "搭建自己的消息推送服务，通过 REST API 发送通知，并使用网页、WebSocket 或 Android 客户端接收消息。",
+      "developer": "gotify",
+      "projectUrl": "https://github.com/gotify/server",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/gotify.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "gotify",
+        "Gotify",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/gotify/server/manifest.json",
+        "sha256": "aca2909dee8a236f454af1e6ba10a5b8529f2bae76fcda9b83ba0754a1d92c56"
+      },
+      "summary": {
+        "path": "templates/gotify/server/summary.json",
+        "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+      }
+    },
+    {
+      "id": "henrygd/beszel",
+      "kind": "compose",
+      "category": "monitoring",
+      "name": "Beszel",
+      "description": "通过轻量监控中心查看主机与容器的历史指标，配置告警、用户访问和备份；各被监控主机另行连接 Agent。",
+      "developer": "henrygd",
+      "projectUrl": "https://github.com/henrygd/beszel",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/beszel.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "beszel",
+        "Beszel",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/henrygd/beszel/manifest.json",
+        "sha256": "db338a92700e21bc9d937a87604c8c469f9121c98829c5fce88c4286113bdf26"
+      },
+      "summary": {
+        "path": "templates/henrygd/beszel/summary.json",
+        "sha256": "156f67009458ce65125cab092e84f13ed260dd410d19c919902398e5fae99a72"
+      }
+    },
+    {
+      "id": "hkuds/deeptutor",
+      "kind": "compose",
+      "category": "ai",
+      "name": "DeepTutor",
+      "description": "围绕个人资料构建学习工作区，结合知识库检索、辅导问答与学习任务辅助理解内容。项目声明没有付费在线产品。",
+      "developer": "HKUDS",
+      "projectUrl": "https://github.com/HKUDS/DeepTutor",
+      "source": "open",
+      "license": "Apache-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/deeptutor.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "deeptutor",
+        "DeepTutor",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/hkuds/deeptutor/manifest.json",
+        "sha256": "c0dbb038fcfc370d47800eec094821b5bc132cbe7b26c96ceaf737f4d935ca68"
+      },
+      "summary": {
+        "path": "templates/hkuds/deeptutor/summary.json",
+        "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
+      }
+    },
+    {
+      "id": "jiangrui1994/cloudsaver",
+      "kind": "compose",
+      "category": "storage",
+      "name": "CloudSaver",
+      "description": "把资源检索、分享链接解析和网盘转存放在同一界面操作。公开源码与较新 Docker 版本存在差异，镜像授权及收费情况需另行确认。",
+      "developer": "jiangrui1994",
+      "projectUrl": "https://github.com/jiangrui1994/CloudSaver",
+      "source": "unknown",
+      "license": "MIT applies to published source only",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/cloudsaver.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "cloudsaver",
+        "CloudSaver",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/jiangrui1994/cloudsaver/manifest.json",
+        "sha256": "5f329b15308415943bee3b6220cc6032a7f09b3a24eef4364ba4898904c256ca"
+      },
+      "summary": {
+        "path": "templates/jiangrui1994/cloudsaver/summary.json",
+        "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+      }
+    },
+    {
+      "id": "langgenius/dify",
+      "kind": "compose",
+      "category": "ai",
+      "name": "Dify",
+      "description": "把模型、知识检索和工作流组合成 AI 应用，并提供运行观测与接口管理。支持自建，另有云端套餐及企业服务。",
+      "developer": "langgenius",
+      "projectUrl": "https://github.com/langgenius/dify",
+      "source": "open",
+      "license": "Dify Open Source License; see upstream LICENSE",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/dify.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "dify",
+        "Dify",
+        "compose"
+      ],
+      "applicationCount": 5,
+      "manifest": {
+        "path": "templates/langgenius/dify/manifest.json",
+        "sha256": "1074fb0bb81a69abe7641b0bd69bf41c2d617d270cb475ff00a4ffe86df918c7"
+      },
+      "summary": {
+        "path": "templates/langgenius/dify/summary.json",
+        "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+      }
+    },
+    {
+      "id": "louislam/dockge",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Dockge",
+      "description": "围绕 Compose 文件管理容器应用栈，在网页中编辑配置、查看终端并执行启停或镜像更新。",
+      "developer": "louislam",
+      "projectUrl": "https://github.com/louislam/dockge",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/dockge.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "dockge",
+        "Dockge",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/louislam/dockge/manifest.json",
+        "sha256": "9796e44efcc480937582ba9435f632dd5b73000d1ba302f2f3e756e1218240b1"
+      },
+      "summary": {
+        "path": "templates/louislam/dockge/summary.json",
+        "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
+      }
+    },
+    {
+      "id": "louislam/uptime-kuma-compose",
+      "kind": "compose",
+      "category": "monitoring",
+      "name": "Uptime Kuma Compose",
+      "description": "定时检测网站、端口和其他服务的可用性，查看延迟记录，通过通知渠道接收告警，并发布服务状态页面。",
+      "developer": "louislam",
+      "projectUrl": "https://github.com/louislam/uptime-kuma",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.2.0",
+      "icon": "icons/uptime-kuma.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "uptime-kuma",
+        "Uptime Kuma Compose",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/louislam/uptime-kuma-compose/manifest.json",
+        "sha256": "6588379a1fb031ed35b681f70f19eb42f43d1e2845825978cf6b8a319a0481dc"
+      },
+      "summary": {
+        "path": "templates/louislam/uptime-kuma-compose/summary.json",
+        "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+      }
+    },
+    {
+      "id": "n8n-io/n8n",
+      "kind": "compose",
+      "category": "tools",
+      "name": "n8n",
+      "description": "用可视化节点连接应用与模型服务，编排自动化任务，也能加入脚本。采用 fair-code 授权，额外企业功能需商业许可。",
+      "developer": "n8n-io",
+      "projectUrl": "https://github.com/n8n-io/n8n",
+      "source": "unknown",
+      "license": "Sustainable Use License / n8n Enterprise License",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/n8n.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "n8n",
+        "n8n",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/n8n-io/n8n/manifest.json",
+        "sha256": "d7fca18597c59a8ebdb43e627f7d72c360fb119542e32289c45d65daae16eff2"
+      },
+      "summary": {
+        "path": "templates/n8n-io/n8n/summary.json",
+        "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+      }
+    },
+    {
+      "id": "navidrome/navidrome",
+      "kind": "compose",
+      "category": "media",
+      "name": "Navidrome",
+      "description": "把服务器中的音乐收藏提供给浏览器和兼容客户端播放，可维护曲库、用户与个人播放记录；另有第三方托管选择。",
+      "developer": "navidrome",
+      "projectUrl": "https://github.com/navidrome/navidrome",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/navidrome.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "navidrome",
+        "Navidrome",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/navidrome/navidrome/manifest.json",
+        "sha256": "85758d870818fd2eff6b126d0e6301370fa986d58a749d91f39d87ebf414b121"
+      },
+      "summary": {
+        "path": "templates/navidrome/navidrome/summary.json",
+        "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+      }
+    },
+    {
+      "id": "netdata/netdata",
+      "kind": "compose",
+      "category": "monitoring",
+      "name": "Netdata",
+      "description": "持续采集主机和容器的运行指标，以图表、告警与异常检测定位问题；Agent 开源，云端与界面另有许可及付费选项。",
+      "developer": "netdata",
+      "projectUrl": "https://github.com/netdata/netdata",
+      "source": "open",
+      "license": "GPL-3.0-or-later (Agent); NCUL1 (UI)",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/netdata.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "netdata",
+        "Netdata",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/netdata/netdata/manifest.json",
+        "sha256": "20ef33ede2caf771f914cd3b7ad04250c1c8d437ffe08f9ce4ceed4b4b770763"
+      },
+      "summary": {
+        "path": "templates/netdata/netdata/summary.json",
+        "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
+      }
+    },
+    {
+      "id": "nginx/nginx",
+      "kind": "compose",
+      "category": "web",
+      "name": "NGINX",
+      "description": "用于发布网站、转发 HTTP 请求和分发后端流量的 Web 服务，适合静态站点与反向代理。另有可选商业支持。",
+      "developer": "nginx",
+      "projectUrl": "https://github.com/nginx/nginx",
+      "source": "open",
+      "license": "BSD-2-Clause",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/nginx.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "nginx",
+        "NGINX",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/nginx/nginx/manifest.json",
+        "sha256": "d47ee4ccb8ee6107d7c5428ef40278546b1425808e0edd1620b6e2ef6a7138e9"
+      },
+      "summary": {
+        "path": "templates/nginx/nginx/summary.json",
+        "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+      }
+    },
+    {
+      "id": "official/wordpress-mariadb",
+      "kind": "compose",
+      "category": "web",
+      "name": "WordPress + MariaDB",
+      "description": "博客网站和独立数据库，数据库仅在项目网络中访问。",
+      "developer": "WordPress / MariaDB",
+      "projectUrl": "https://github.com/WordPress/WordPress",
+      "source": "open",
+      "license": "GPL-2.0-or-later",
+      "paidKey": "none",
+      "version": "1.1.0",
+      "icon": "icons/wordpress-mariadb.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "wordpress",
+        "mariadb",
+        "博客",
+        "网站"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/official/wordpress-mariadb/manifest.json",
+        "sha256": "e194bc27dbfd24adf17b7cec0266b23bc2f7d58b647e1e2df1f909205b9385ef"
+      },
+      "summary": {
+        "path": "templates/official/wordpress-mariadb/summary.json",
+        "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
+      }
+    },
+    {
+      "id": "open-webui/open-webui",
+      "kind": "compose",
+      "category": "ai",
+      "name": "Open WebUI",
+      "description": "为本地与兼容 API 的模型提供统一对话入口，可在自建环境管理资料和交互；许可要求保留品牌，另有企业服务。",
+      "developer": "open-webui",
+      "projectUrl": "https://github.com/open-webui/open-webui",
+      "source": "unknown",
+      "license": "Open WebUI License with branding requirements",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/open-webui.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "open-webui",
+        "Open WebUI",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/open-webui/open-webui/manifest.json",
+        "sha256": "65f760db081fa5c48372f89f3af1bccf8860c427ec83d796cbe98bc4f775778f"
+      },
+      "summary": {
+        "path": "templates/open-webui/open-webui/summary.json",
+        "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+      }
+    },
+    {
+      "id": "openlistteam/openlist",
+      "kind": "compose",
+      "category": "storage",
+      "name": "OpenList",
+      "description": "将多个存储服务组织成统一的文件列表，通过网页访问和管理内容。项目声明现有功能免费提供。",
+      "developer": "OpenListTeam",
+      "projectUrl": "https://github.com/OpenListTeam/OpenList",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/openlist.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "openlist",
+        "OpenList",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/openlistteam/openlist/manifest.json",
+        "sha256": "dce5e292f4d058c7742ba1cc36d9a55553f5a5354e16522c1a3fbc40d7616c6c"
+      },
+      "summary": {
+        "path": "templates/openlistteam/openlist/summary.json",
+        "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      }
+    },
+    {
+      "id": "plankanban/planka",
+      "kind": "compose",
+      "category": "tools",
+      "name": "PLANKA",
+      "description": "用看板、列表和卡片协作管理项目，记录评论、附件与到期时间。社区版可自建，Pro 和企业功能另行授权。",
+      "developer": "plankanban",
+      "projectUrl": "https://github.com/plankanban/planka",
+      "source": "unknown",
+      "license": "PLANKA Community Fair Use License / Commercial License",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/planka.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "planka",
+        "PLANKA",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/plankanban/planka/manifest.json",
+        "sha256": "e648b30d35d7d25504a23cef42ef713d236baf7717c8cca9df4b7bf96b085460"
+      },
+      "summary": {
+        "path": "templates/plankanban/planka/summary.json",
+        "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+      }
+    },
+    {
+      "id": "qbittorrent/qbittorrent",
+      "kind": "compose",
+      "category": "download",
+      "name": "qBittorrent",
+      "description": "提供可远程访问的 BitTorrent 下载服务，用网页管理任务、连接和传输速度；此模板使用 LinuxServer.io 镜像。",
+      "developer": "qbittorrent",
+      "projectUrl": "https://github.com/qbittorrent/qBittorrent",
+      "source": "open",
+      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/qbittorrent.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "qbittorrent",
+        "qBittorrent",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/qbittorrent/qbittorrent/manifest.json",
+        "sha256": "538b3ddb792eeaceb90774c7418b321bd8e520140cc484bb6b3567b9ae80f139"
+      },
+      "summary": {
+        "path": "templates/qbittorrent/qbittorrent/summary.json",
+        "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+      }
+    },
+    {
+      "id": "seerr-team/seerr",
+      "kind": "compose",
+      "category": "media",
+      "name": "Seerr",
+      "description": "为家庭媒体库收集电影和剧集申请，关联媒体服务器及自动整理工具，集中处理申请审批、权限和通知。",
+      "developer": "seerr-team",
+      "projectUrl": "https://github.com/seerr-team/seerr",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/seerr.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "seerr",
+        "Seerr",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/seerr-team/seerr/manifest.json",
+        "sha256": "39c50db620f0559492db481396d15caea15791142cf1eb9328e8660579f62b29"
+      },
+      "summary": {
+        "path": "templates/seerr-team/seerr/summary.json",
+        "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+      }
+    },
+    {
+      "id": "stirling-tools/stirling-pdf",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Stirling PDF",
+      "description": "在本地服务器处理 PDF 的合并、拆分、转换、OCR 和签署，也可通过 API 编排任务；提供可选付费服务器及企业功能。",
+      "developer": "Stirling-Tools",
+      "projectUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "source": "open",
+      "license": "Open-core; see upstream LICENSE",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/stirling-pdf.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "stirling-pdf",
+        "Stirling PDF",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/stirling-tools/stirling-pdf/manifest.json",
+        "sha256": "22d4ae545261eb815f5b697758804133553ee64907ce5d5086403571c1abe811"
+      },
+      "summary": {
+        "path": "templates/stirling-tools/stirling-pdf/summary.json",
+        "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      }
+    },
+    {
+      "id": "taksssss/iptv-tool",
+      "kind": "compose",
+      "category": "media",
+      "name": "IPTV 工具箱",
+      "description": "统一整理节目单、频道台标与直播列表，按播放客户端需要输出不同格式，并支持频道匹配、定时更新和访问控制。",
+      "developer": "taksssss",
+      "projectUrl": "https://github.com/taksssss/iptv-tool",
+      "source": "open",
+      "license": "GPL-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/iptv-tool.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "iptv-tool",
+        "IPTV 工具箱",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/taksssss/iptv-tool/manifest.json",
+        "sha256": "873a683bb2cf2a761b305b58191a0798ce34169f0d9bd89b031c1862bc162a5f"
+      },
+      "summary": {
+        "path": "templates/taksssss/iptv-tool/summary.json",
+        "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+      }
+    },
+    {
+      "id": "transmission/transmission",
+      "kind": "compose",
+      "category": "download",
+      "name": "Transmission",
+      "description": "运行面向服务器的 BT 下载守护进程，通过网页管理磁力链接和种子，并保留下载、配置与监视目录。",
+      "developer": "transmission",
+      "projectUrl": "https://github.com/transmission/transmission",
+      "source": "open",
+      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/transmission.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "transmission",
+        "Transmission",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/transmission/transmission/manifest.json",
+        "sha256": "92c3636d0f2794f2f86e298ff59841ced16f8262d70a54f716721aed84e4062e"
+      },
+      "summary": {
+        "path": "templates/transmission/transmission/summary.json",
+        "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+      }
+    },
+    {
+      "id": "umami-software/umami",
+      "kind": "compose",
+      "category": "monitoring",
+      "name": "Umami",
+      "description": "统计网站访问、活动来源与转化情况，使用注重隐私的分析方式。可自行部署，README 提到云端服务但未列价格。",
+      "developer": "umami-software",
+      "projectUrl": "https://github.com/umami-software/umami",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/umami.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "umami",
+        "Umami",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/umami-software/umami/manifest.json",
+        "sha256": "57feb1405b1011da2ff05634348184b4ebb3f622151e8b78752d383cc45cc1ac"
+      },
+      "summary": {
+        "path": "templates/umami-software/umami/summary.json",
+        "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+      }
+    },
+    {
+      "id": "usememos/memos",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Memos",
+      "description": "按时间记录零散想法和日常笔记，通过标签整理内容，并为每条记录选择私密保存或公开分享。",
+      "developer": "usememos",
+      "projectUrl": "https://github.com/usememos/memos",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/memos-cn.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "memos-cn",
+        "Memos",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/usememos/memos/manifest.json",
+        "sha256": "9513880d59d0d09c9fa437a411c53368580ce3a101adba606524def28df2cb11"
+      },
+      "summary": {
+        "path": "templates/usememos/memos/summary.json",
+        "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+      }
+    },
+    {
+      "id": "vert-sh/vert",
+      "kind": "compose",
+      "category": "tools",
+      "name": "VERT",
+      "description": "提供图像、音频、文档和视频格式转换界面，多数转换在浏览器本地执行；部分视频操作可对接独立转换服务。",
+      "developer": "VERT-sh",
+      "projectUrl": "https://github.com/VERT-sh/VERT",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/vert.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "vert",
+        "VERT",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/vert-sh/vert/manifest.json",
+        "sha256": "143a1908a7e2725505c7e3dfc7de475dedc71ed8a83d80d6e9975c0a176f1d1b"
+      },
+      "summary": {
+        "path": "templates/vert-sh/vert/summary.json",
+        "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+      }
+    }
+  ],
+  "next": {
+    "path": "compose/all/pages/003.json",
+    "sha256": "1908f5acc77ff203bcdba0cf3a3229fb678ae2668200f676906c399a3313d023"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/open-webui/open-webui/summary.json",
+      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+    },
+    {
+      "path": "templates/openlistteam/openlist/summary.json",
+      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+    },
+    {
+      "path": "templates/taksssss/iptv-tool/summary.json",
+      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/actualbudget/actual-budget/summary.json",
+      "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+    },
+    {
+      "path": "templates/advplyr/audiobookshelf/summary.json",
+      "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+    },
+    {
+      "path": "templates/finb/bark-server/summary.json",
+      "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+    }
+  ],
+  "next": null
+}

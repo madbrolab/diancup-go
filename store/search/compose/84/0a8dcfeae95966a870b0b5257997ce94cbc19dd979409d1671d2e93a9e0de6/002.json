@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/go-vikunja/vikunja/summary.json",
+      "sha256": "fca3a4305f64d1be95c6cc4d79e1958d5e51ac12d476bdad77d53a2f3e021058"
+    },
+    {
+      "path": "templates/gotify/server/summary.json",
+      "sha256": "d1eab56b085a1b4ad6f51194e33c66b42302860b8bd04c2612c98cd6c37d11b0"
+    },
+    {
+      "path": "templates/henrygd/beszel/summary.json",
+      "sha256": "156f67009458ce65125cab092e84f13ed260dd410d19c919902398e5fae99a72"
+    },
+    {
+      "path": "templates/hkuds/deeptutor/summary.json",
+      "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
+    },
+    {
+      "path": "templates/jiangrui1994/cloudsaver/summary.json",
+      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+    },
+    {
+      "path": "templates/langgenius/dify/summary.json",
+      "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+    },
+    {
+      "path": "templates/louislam/dockge/summary.json",
+      "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
+    },
+    {
+      "path": "templates/louislam/uptime-kuma-compose/summary.json",
+      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+    },
+    {
+      "path": "templates/n8n-io/n8n/summary.json",
+      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+    },
+    {
+      "path": "templates/navidrome/navidrome/summary.json",
+      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+    },
+    {
+      "path": "templates/netdata/netdata/summary.json",
+      "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
+    },
+    {
+      "path": "templates/nginx/nginx/summary.json",
+      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+    },
+    {
+      "path": "templates/open-webui/open-webui/summary.json",
+      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+    },
+    {
+      "path": "templates/openlistteam/openlist/summary.json",
+      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+    },
+    {
+      "path": "templates/plankanban/planka/summary.json",
+      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+    },
+    {
+      "path": "templates/qbittorrent/qbittorrent/summary.json",
+      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+    },
+    {
+      "path": "templates/seerr-team/seerr/summary.json",
+      "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+    },
+    {
+      "path": "templates/stirling-tools/stirling-pdf/summary.json",
+      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+    },
+    {
+      "path": "templates/taksssss/iptv-tool/summary.json",
+      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+    },
+    {
+      "path": "templates/transmission/transmission/summary.json",
+      "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+    },
+    {
+      "path": "templates/umami-software/umami/summary.json",
+      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+    },
+    {
+      "path": "templates/usememos/memos/summary.json",
+      "sha256": "347e8676995eaa80f7631033f92c555f53919183a1a26737bdf47bf857cae437"
+    },
+    {
+      "path": "templates/vert-sh/vert/summary.json",
+      "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+    },
+    {
+      "path": "templates/wallabag/wallabag/summary.json",
+      "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+    }
+  ],
+  "next": {
+    "path": "search/compose/84/0a8dcfeae95966a870b0b5257997ce94cbc19dd979409d1671d2e93a9e0de6/003.json",
+    "sha256": "32936b7cdd189432645abc1070e1ffd85a771348ae5709e11d013f05269c17c5"
+  }
+}

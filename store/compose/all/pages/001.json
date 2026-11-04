@@ -2,6 +2,740 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "59799517/simple-sq-music-plus",
+      "kind": "compose",
+      "category": "media",
+      "name": "Simple SQ Music Plus",
+      "description": "管理音乐搜索与下载任务，将歌曲、歌词和标签按媒体库需要组织到本地目录。README 限定学习用途，未明确通用开源许可。",
+      "developer": "59799517",
+      "projectUrl": "https://github.com/59799517/simple_sq_music_plus",
+      "source": "unknown",
+      "license": "Unspecified; noncommercial README terms",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/sqmusic.svg",
+      "architectures": [
+        "amd64"
+      ],
+      "tags": [
+        "sqmusic",
+        "Simple SQ Music Plus",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/59799517/simple-sq-music-plus/manifest.json",
+        "sha256": "3afee2a8549c675c04c9213a9ed0fa6dff0113598e3bc6216139c810bfab498d"
+      },
+      "summary": {
+        "path": "templates/59799517/simple-sq-music-plus/summary.json",
+        "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+      }
+    },
+    {
+      "id": "actualbudget/actual-budget",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Actual Budget",
+      "description": "以本地数据为中心管理个人收支与预算，并在设备之间同步记录。软件免费开源，可自行部署或选择外部托管。",
+      "developer": "actualbudget",
+      "projectUrl": "https://github.com/actualbudget/actual",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/actual-budget.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "actual-budget",
+        "Actual Budget",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/actualbudget/actual-budget/manifest.json",
+        "sha256": "a1a12f9c486ac97f73875916c9697708fedd4989017f87ac7feef1c9a1e2a132"
+      },
+      "summary": {
+        "path": "templates/actualbudget/actual-budget/summary.json",
+        "sha256": "1d1e81c0c99dd10c46bc0107a3dca28efff191a96573e183f378e21dc9c21af8"
+      }
+    },
+    {
+      "id": "advplyr/audiobookshelf",
+      "kind": "compose",
+      "category": "media",
+      "name": "Audiobookshelf",
+      "description": "管理有声书和播客，补充媒体信息并在多个设备之间同步播放进度，也可订阅节目并自动下载新内容。",
+      "developer": "advplyr",
+      "projectUrl": "https://github.com/advplyr/audiobookshelf",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/audiobookshelf.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "audiobookshelf",
+        "Audiobookshelf",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/advplyr/audiobookshelf/manifest.json",
+        "sha256": "b036119894f337309dc5d65ce0e394792ae228bbe6120fa926043f9a07b79c3a"
+      },
+      "summary": {
+        "path": "templates/advplyr/audiobookshelf/summary.json",
+        "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+      }
+    },
+    {
+      "id": "alexta69/metube",
+      "kind": "compose",
+      "category": "download",
+      "name": "MeTube",
+      "description": "为 yt-dlp 提供网页任务界面，将视频、音频、字幕或播放列表下载到服务器，并按任务选择格式与保存位置。",
+      "developer": "alexta69",
+      "projectUrl": "https://github.com/alexta69/metube",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/metube.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "metube",
+        "MeTube",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/alexta69/metube/manifest.json",
+        "sha256": "eef6261f6eb08588fa981a5c69f5ec02318bdbd728e7764b5079a3850f5baade"
+      },
+      "summary": {
+        "path": "templates/alexta69/metube/summary.json",
+        "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+      }
+    },
+    {
+      "id": "babybuddy/babybuddy",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Baby Buddy",
+      "description": "记录婴儿喂养、睡眠、换尿布及日常照护活动，让照护者共享记录并观察生活规律。",
+      "developer": "babybuddy",
+      "projectUrl": "https://github.com/babybuddy/babybuddy",
+      "source": "open",
+      "license": "BSD-2-Clause",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/babybuddy.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "babybuddy",
+        "Baby Buddy",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/babybuddy/babybuddy/manifest.json",
+        "sha256": "f318efb54f5cc03f5bf39af4f701e07f4c1ad7b57c3e1f33fb6c541d1a0e0b2f"
+      },
+      "summary": {
+        "path": "templates/babybuddy/babybuddy/summary.json",
+        "sha256": "1183ea8eff73077de909ff8074ab2a4db7da07bb1d6794cd25a6114b18a3294c"
+      }
+    },
+    {
+      "id": "beidoums/beidou-server",
+      "kind": "compose",
+      "category": "games",
+      "name": "BeiDou Server",
+      "description": "基于 Cosmic 持续开发的游戏服务端及管理界面，包含数据库初始化、多语言资源支持与管理 API。",
+      "developer": "BeiDouMS",
+      "projectUrl": "https://github.com/BeiDouMS/BeiDou-Server",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/maplestory.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "maplestory",
+        "BeiDou Server",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/beidoums/beidou-server/manifest.json",
+        "sha256": "7684ddde7c5566f520f1306d5f5e45c3fe297d006184d09cffe4c2d4ffd98c5a"
+      },
+      "summary": {
+        "path": "templates/beidoums/beidou-server/summary.json",
+        "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+      }
+    },
+    {
+      "id": "bestruirui/octopus",
+      "kind": "compose",
+      "category": "ai",
+      "name": "Octopus",
+      "description": "汇集多个模型渠道，转换常见 API 协议，并记录用量、费用和请求状态；上游不可用时可切换其他渠道。",
+      "developer": "bestruirui",
+      "projectUrl": "https://github.com/bestruirui/octopus",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/octopus.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "octopus",
+        "Octopus",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/bestruirui/octopus/manifest.json",
+        "sha256": "b068e64edfa58dc9b6bad686b6802ba8e95c0a12c2a6bb40dcad8a8c488d96f6"
+      },
+      "summary": {
+        "path": "templates/bestruirui/octopus/summary.json",
+        "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      }
+    },
+    {
+      "id": "bookstackapp/bookstack",
+      "kind": "compose",
+      "category": "tools",
+      "name": "BookStack",
+      "description": "把团队资料整理成书籍、章节和页面，提供易上手的文档编辑与组织方式，适合维护内部知识和操作手册。",
+      "developer": "BookStackApp",
+      "projectUrl": "https://github.com/BookStackApp/BookStack",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/bookstack.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "bookstack",
+        "BookStack",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/bookstackapp/bookstack/manifest.json",
+        "sha256": "19fcfd154e3555e744e5da50abf86c52b1cdf29b07e1447a2073136bb504e8f5"
+      },
+      "summary": {
+        "path": "templates/bookstackapp/bookstack/summary.json",
+        "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+      }
+    },
+    {
+      "id": "brave/brave-browser",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Brave 浏览器",
+      "description": "通过网页远程使用容器内的 Brave 浏览器，浏览器的运行配置保存在宿主机。项目入口与源码仓库在 README 中分别列出。",
+      "developer": "brave",
+      "projectUrl": "https://github.com/brave/brave-browser",
+      "source": "open",
+      "license": "MPL-2.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/brave.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "brave",
+        "Brave 浏览器",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/brave/brave-browser/manifest.json",
+        "sha256": "9b02830ed286ac605b0bb113e7376ff1629360565ec3fb9c6c432bb28ca5f502"
+      },
+      "summary": {
+        "path": "templates/brave/brave-browser/summary.json",
+        "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+      }
+    },
+    {
+      "id": "bubka/2fauth",
+      "kind": "compose",
+      "category": "tools",
+      "name": "2FAuth",
+      "description": "在自建网页中保存双重验证账号并生成动态验证码，支持二维码录入、分组以及多用户访问。",
+      "developer": "Bubka",
+      "projectUrl": "https://github.com/Bubka/2FAuth",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/2fauth.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "2fauth",
+        "2FAuth",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/bubka/2fauth/manifest.json",
+        "sha256": "b0e756a86b707936280b2b83803eb668a14e3e9a6e881c750c9e64ce3bdcfeea"
+      },
+      "summary": {
+        "path": "templates/bubka/2fauth/summary.json",
+        "sha256": "bd581f750c76d70ff001c9f6093b4f242bcf120e08fa52f9bbb0b0a66a1319fe"
+      }
+    },
+    {
+      "id": "chaitin/pandawiki",
+      "kind": "compose",
+      "category": "tools",
+      "name": "PandaWiki",
+      "description": "搭建面向读者的知识站点，管理文档并导入外部内容，配置模型后可进行知识问答与辅助写作；README 另列托管服务但未说明价格。",
+      "developer": "chaitin",
+      "projectUrl": "https://github.com/chaitin/PandaWiki",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/panda-wiki.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "panda-wiki",
+        "PandaWiki",
+        "compose"
+      ],
+      "applicationCount": 8,
+      "manifest": {
+        "path": "templates/chaitin/pandawiki/manifest.json",
+        "sha256": "6d20ee47a48f6036870584d14103e8ff70be179507fb90a8d6283891959f3c3b"
+      },
+      "summary": {
+        "path": "templates/chaitin/pandawiki/summary.json",
+        "sha256": "1f95a22944a162786659f8df63aabedda6d7e492263ecedd64d3afd757d94d69"
+      }
+    },
+    {
+      "id": "chatgptnextweb/nextchat",
+      "kind": "compose",
+      "category": "ai",
+      "name": "NextChat",
+      "description": "提供可自建的多模型对话界面，支持常见模型渠道及桌面使用方式，并提供可选企业定制与私有部署服务。",
+      "developer": "ChatGPTNextWeb",
+      "projectUrl": "https://github.com/ChatGPTNextWeb/NextChat",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/chatgpt-next-web.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "chatgpt-next-web",
+        "NextChat",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/chatgptnextweb/nextchat/manifest.json",
+        "sha256": "cc2f5167abbd4d3c52fb55619bfbac3a06c7506c9e8f718209b8785839b03e35"
+      },
+      "summary": {
+        "path": "templates/chatgptnextweb/nextchat/summary.json",
+        "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      }
+    },
+    {
+      "id": "chenqimiao/qm-music",
+      "kind": "compose",
+      "category": "media",
+      "name": "QM-Music",
+      "description": "将本地曲库作为兼容 Subsonic 客户端的私有音乐服务，可连接元数据服务并维护媒体缓存。README 同时写有非商业限制。",
+      "developer": "chenqimiao",
+      "projectUrl": "https://github.com/chenqimiao/qm-music",
+      "source": "unknown",
+      "license": "Apache-2.0 with noncommercial README terms",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/qm-music.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "qm-music",
+        "QM-Music",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/chenqimiao/qm-music/manifest.json",
+        "sha256": "2efedccd7995037c6d0f536fa7e734afcba6cc51859e8137095ccb86b633bc80"
+      },
+      "summary": {
+        "path": "templates/chenqimiao/qm-music/summary.json",
+        "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      }
+    },
+    {
+      "id": "coooolfan/xiaomi-album-syncer",
+      "kind": "compose",
+      "category": "storage",
+      "name": "Xiaomi Album Syncer",
+      "description": "把小米云相册及 iCloud 照片保存到本地，支持多账号、增量同步与定时下载，便于集中管理云端影像。",
+      "developer": "Coooolfan",
+      "projectUrl": "https://github.com/Coooolfan/XiaomiAlbumSyncer",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/xiaomialbumsyncer.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "xiaomialbumsyncer",
+        "Xiaomi Album Syncer",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/coooolfan/xiaomi-album-syncer/manifest.json",
+        "sha256": "7f874628e1ffcf71437385091d7a7cc515fe6f78414f6e219c96609ac962a2dd"
+      },
+      "summary": {
+        "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
+        "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+      }
+    },
+    {
+      "id": "dani-garcia/vaultwarden",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Vaultwarden",
+      "description": "提供兼容 Bitwarden 客户端的自建密码库服务，集中保存个人条目、附件和共享组织数据。",
+      "developer": "dani-garcia",
+      "projectUrl": "https://github.com/dani-garcia/vaultwarden",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/vaultwarden.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "vaultwarden",
+        "Vaultwarden",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/dani-garcia/vaultwarden/manifest.json",
+        "sha256": "7d30e49a968f4865468d0ed5992a1291a72f6a8eeb8ff51aeb953856b952d57f"
+      },
+      "summary": {
+        "path": "templates/dani-garcia/vaultwarden/summary.json",
+        "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+      }
+    },
+    {
+      "id": "dockers-x/cfui",
+      "kind": "compose",
+      "category": "network",
+      "name": "cfui",
+      "description": "通过网页管理 Cloudflare Tunnel 进程与入口规则，并提供 DNS 更新、DDNS 和存储访问等辅助功能。",
+      "developer": "dockers-x",
+      "projectUrl": "https://github.com/dockers-x/cfui",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/cfui.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "cfui",
+        "cfui",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/dockers-x/cfui/manifest.json",
+        "sha256": "382dff53ab670a69660f07299a0a512e00ef573a84f4dcc63e2483ad1f2c1b1d"
+      },
+      "summary": {
+        "path": "templates/dockers-x/cfui/summary.json",
+        "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+      }
+    },
+    {
+      "id": "fccview/cronmaster",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Cronmaster",
+      "description": "将服务器定时任务、脚本与执行日志集中到网页中管理，并查看系统运行信息。",
+      "developer": "fccview",
+      "projectUrl": "https://github.com/fccview/cronmaster",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/cronmaster.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "cronmaster",
+        "Cronmaster",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/fccview/cronmaster/manifest.json",
+        "sha256": "d889c2ba18a8924b83b2fdc2b6c65bbe3810f6a8ff546ecfdf994e4d95a7f519"
+      },
+      "summary": {
+        "path": "templates/fccview/cronmaster/summary.json",
+        "sha256": "774694640b31b58942d81731dc9ed8c56157443de8359b2c0ac25cdafe6fe0d6"
+      }
+    },
+    {
+      "id": "fccview/jotty",
+      "kind": "compose",
+      "category": "tools",
+      "name": "jotty·page",
+      "description": "自建清单与笔记空间，保存日常任务和文字记录，并可为个人笔记启用加密。",
+      "developer": "fccview",
+      "projectUrl": "https://github.com/fccview/jotty",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/jotty.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "jotty",
+        "jotty·page",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/fccview/jotty/manifest.json",
+        "sha256": "23e5399e404ae8bbb857aa94b00277a7c37a016d22a98e656dd2327f8745df94"
+      },
+      "summary": {
+        "path": "templates/fccview/jotty/summary.json",
+        "sha256": "8faab34e70c0df1a196898d3a1fadeba42cdb3b0c9ace91346e84bfe92a7f8d9"
+      }
+    },
+    {
+      "id": "finb/bark-server",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Bark Server",
+      "description": "为 Bark iOS 客户端提供自建推送后端，让脚本和其他应用把自定义通知发送到自己的设备。",
+      "developer": "Finb",
+      "projectUrl": "https://github.com/Finb/bark-server",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/bark-server.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "bark-server",
+        "Bark Server",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/finb/bark-server/manifest.json",
+        "sha256": "43bebc7add9367bcaae1c4dbdc0d1a20b57d795d14580f8065d6bdb401a0b7b6"
+      },
+      "summary": {
+        "path": "templates/finb/bark-server/summary.json",
+        "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+      }
+    },
+    {
+      "id": "fish2018/pansou",
+      "kind": "compose",
+      "category": "storage",
+      "name": "PanSou",
+      "description": "按网盘类型汇集频道和插件的搜索结果，通过并发检索与缓存减少等待，并提供网页操作入口。",
+      "developer": "fish2018",
+      "projectUrl": "https://github.com/fish2018/pansou",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/pansou.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "pansou",
+        "PanSou",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/fish2018/pansou/manifest.json",
+        "sha256": "9e7ef5defcf1d4a57e72940d316db14b1a5b6fac0bcbbc829c6bbe967f14df3f"
+      },
+      "summary": {
+        "path": "templates/fish2018/pansou/summary.json",
+        "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+      }
+    },
+    {
+      "id": "freeok/so-novel",
+      "kind": "compose",
+      "category": "tools",
+      "name": "So Novel",
+      "description": "从网页提取并整理内容，导出 EPUB、TXT 或 PDF 等文档，也提供便于服务器使用的网页操作入口。",
+      "developer": "freeok",
+      "projectUrl": "https://github.com/freeok/so-novel",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/sonovel.svg",
+      "architectures": [
+        "amd64"
+      ],
+      "tags": [
+        "sonovel",
+        "So Novel",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/freeok/so-novel/manifest.json",
+        "sha256": "519fbd21533a3ce9a0aa7314de5cb3dbb557477835590444bd9200049252f4fc"
+      },
+      "summary": {
+        "path": "templates/freeok/so-novel/summary.json",
+        "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+      }
+    },
+    {
+      "id": "freshrss/freshrss",
+      "kind": "compose",
+      "category": "tools",
+      "name": "FreshRSS",
+      "description": "集中订阅与阅读 RSS、Atom 等内容源，按用户保存标签和阅读状态，并能对接移动客户端或扩展插件。",
+      "developer": "FreshRSS",
+      "projectUrl": "https://github.com/FreshRSS/FreshRSS",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/freshrss.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "freshrss",
+        "FreshRSS",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/freshrss/freshrss/manifest.json",
+        "sha256": "e886c168887482fb632abf8d22f06a799644b71c66ec2ec75ab2f6801db9de46"
+      },
+      "summary": {
+        "path": "templates/freshrss/freshrss/summary.json",
+        "sha256": "d4a4596d075b954df98783c5cd4259f2abe24a5d0ccb87c19d74c9ea4e8b5f46"
+      }
+    },
+    {
+      "id": "gethomepage/homepage",
+      "kind": "compose",
+      "category": "web",
+      "name": "Homepage",
+      "description": "把常用应用、书签与服务状态整理成个人入口页面，利用 YAML 配置组件，并可读取容器标签实现服务发现。",
+      "developer": "gethomepage",
+      "projectUrl": "https://github.com/gethomepage/homepage",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/homepage.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "homepage",
+        "Homepage",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/gethomepage/homepage/manifest.json",
+        "sha256": "8c9f933a5cf2a88b038e98977eb3094df9093846855ad2b761f0ebfba820a9c9"
+      },
+      "summary": {
+        "path": "templates/gethomepage/homepage/summary.json",
+        "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+      }
+    },
+    {
       "id": "gitea/gitea-postgresql",
       "kind": "compose",
       "category": "development",
@@ -33,73 +767,10 @@
         "path": "templates/gitea/gitea-postgresql/summary.json",
         "sha256": "6fa617937ec9b4078b7547d2dc2429719d4ae827ba6959309be33ea3e9a0b4e0"
       }
-    },
-    {
-      "id": "louislam/uptime-kuma-compose",
-      "kind": "compose",
-      "category": "monitoring",
-      "name": "Uptime Kuma Compose",
-      "description": "通过 Compose 部署服务监控，数据保存在项目独立目录。",
-      "developer": "Louis Lam",
-      "projectUrl": "https://github.com/louislam/uptime-kuma",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
-      "version": "1.1.0",
-      "icon": "icons/uptime-kuma-compose.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "uptime",
-        "kuma",
-        "监控",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/louislam/uptime-kuma-compose/manifest.json",
-        "sha256": "fc9501d65a6ff779db09d2ce20798a6d82f253cf8dc1784ecef3ff3f211a36e6"
-      },
-      "summary": {
-        "path": "templates/louislam/uptime-kuma-compose/summary.json",
-        "sha256": "3e5a1a9c8c7c0bec9cb9c586ed00c76246e1aa80e3a78ab9f48fca31c4a95f8a"
-      }
-    },
-    {
-      "id": "official/wordpress-mariadb",
-      "kind": "compose",
-      "category": "web",
-      "name": "WordPress + MariaDB",
-      "description": "博客网站和独立数据库，数据库仅在项目网络中访问。",
-      "developer": "WordPress / MariaDB",
-      "projectUrl": "https://github.com/WordPress/WordPress",
-      "source": "open",
-      "license": "GPL-2.0-or-later",
-      "paidKey": "none",
-      "version": "1.1.0",
-      "icon": "icons/wordpress-mariadb.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "wordpress",
-        "mariadb",
-        "博客",
-        "网站"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/official/wordpress-mariadb/manifest.json",
-        "sha256": "e194bc27dbfd24adf17b7cec0266b23bc2f7d58b647e1e2df1f909205b9385ef"
-      },
-      "summary": {
-        "path": "templates/official/wordpress-mariadb/summary.json",
-        "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
-      }
     }
   ],
-  "next": null
+  "next": {
+    "path": "compose/all/pages/002.json",
+    "sha256": "6b38852c60ebae2e09a121ef904abbfaaf092ac7aaa03e2f75f6d0bc108ea111"
+  }
 }

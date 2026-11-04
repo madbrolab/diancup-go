@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "go-vikunja/vikunja",
+  "kind": "compose",
+  "name": "Vikunja",
+  "description": "自建任务与项目管理空间，安排待办事项和协作计划；另提供托管版，以及包含管理和审计能力的 Pro 版本。",
+  "developer": "go-vikunja",
+  "projectUrl": "https://github.com/go-vikunja/vikunja",
+  "source": "open",
+  "license": "AGPL-3.0-or-later",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "vikunja",
+    "Vikunja",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/vikunja.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "env.JWTSECRET",
+      "title": "JWTSECRET",
+      "reason": "部署前填写当前应用所需的值。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.vikunja.ports",
+      "title": "vikunja 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "3456:3456"
+    },
+    {
+      "target": "compose.services.vikunja.volumes",
+      "title": "vikunja 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/go-vikunja/vikunja/blob/2a4a28dcf78451f3d2fceb091f322612f83f6d8a/README.md",
+  "applications": [
+    {
+      "id": "vikunja",
+      "name": "Vikunja",
+      "icon": "icons/vikunja.svg",
+      "developer": "go-vikunja",
+      "projectUrl": "https://github.com/go-vikunja/vikunja",
+      "services": [
+        "vikunja"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T08:08:29Z",
+    "lastCommit": "2a4a28dcf78451f3d2fceb091f322612f83f6d8a",
+    "readmeSHA256": "30ae2bf5983bce8c0c1f313e02028fe5bae967afb82fc21d8adb4a912de1559e",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/vikunja.json",
+      "sha256": "43fc356865a6dd211ab702d47242c356f2fccde88ee9e3d7949d7fd4805bfd65"
+    },
+    "iconSource": "https://raw.githubusercontent.com/go-vikunja/vikunja/2a4a28dcf78451f3d2fceb091f322612f83f6d8a/frontend/src/assets/logo.svg",
+    "iconSHA256": "e9fb68e85ab8b5719594f24b94711c96d9c2345393219a6d857e81fa44e56b76",
+    "adaptations": []
+  }
+}

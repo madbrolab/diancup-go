@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "henrygd/beszel",
+  "kind": "compose",
+  "category": "monitoring",
+  "name": "Beszel",
+  "description": "通过轻量监控中心查看主机与容器的历史指标，配置告警、用户访问和备份；各被监控主机另行连接 Agent。",
+  "developer": "henrygd",
+  "projectUrl": "https://github.com/henrygd/beszel",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/beszel.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "beszel",
+    "Beszel",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/henrygd/beszel/manifest.json",
+    "sha256": "db338a92700e21bc9d937a87604c8c469f9121c98829c5fce88c4286113bdf26"
+  }
+}

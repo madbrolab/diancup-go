@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/jiangrui1994/cloudsaver/summary.json",
+      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+    },
+    {
+      "path": "templates/n8n-io/n8n/summary.json",
+      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+    },
+    {
+      "path": "templates/plankanban/planka/summary.json",
+      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+    },
+    {
+      "path": "templates/weidu12123/liyuan/summary.json",
+      "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+    }
+  ],
+  "next": null
+}

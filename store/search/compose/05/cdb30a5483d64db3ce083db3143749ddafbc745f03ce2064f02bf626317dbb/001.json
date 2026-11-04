@@ -2,12 +2,12 @@
   "schemaVersion": 1,
   "items": [
     {
-      "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "3e5a1a9c8c7c0bec9cb9c586ed00c76246e1aa80e3a78ab9f48fca31c4a95f8a"
-    },
-    {
       "path": "templates/official/wordpress-mariadb/summary.json",
       "sha256": "faa6e76bd3bc8b90c70f955b3d2223d0fbff5258e2a017fbd320363a700d6094"
+    },
+    {
+      "path": "templates/vert-sh/vert/summary.json",
+      "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
     }
   ],
   "next": null

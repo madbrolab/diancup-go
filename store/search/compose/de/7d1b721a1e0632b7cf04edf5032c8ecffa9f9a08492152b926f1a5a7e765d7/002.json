@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/open-webui/open-webui/summary.json",
+      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+    },
+    {
+      "path": "templates/openlistteam/openlist/summary.json",
+      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+    },
+    {
+      "path": "templates/qbittorrent/qbittorrent/summary.json",
+      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+    },
+    {
+      "path": "templates/stirling-tools/stirling-pdf/summary.json",
+      "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+    },
+    {
+      "path": "templates/taksssss/iptv-tool/summary.json",
+      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+    },
+    {
+      "path": "templates/transmission/transmission/summary.json",
+      "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+    },
+    {
+      "path": "templates/umami-software/umami/summary.json",
+      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+    },
+    {
+      "path": "templates/weidu12123/liyuan/summary.json",
+      "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+    },
+    {
+      "path": "templates/xhongc/music-tag-web/summary.json",
+      "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+    }
+  ],
+  "next": null
+}

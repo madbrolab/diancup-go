@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/go-vikunja/vikunja/summary.json",
+      "sha256": "fca3a4305f64d1be95c6cc4d79e1958d5e51ac12d476bdad77d53a2f3e021058"
+    },
+    {
+      "path": "templates/umami-software/umami/summary.json",
+      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,25 @@
+services:
+  planka:
+    image: ghcr.io/plankanban/planka:latest
+    restart: unless-stopped
+    depends_on:
+      - db
+    ports:
+      - 1337:1337
+    volumes:
+      - ./user-avatars:/app/public/user-avatars
+      - ./project-background-images:/app/public/project-background-images
+      - ./attachments:/app/private/attachments
+    environment:
+      - BASE_URL=http://localhost:1337
+      - SECRET_KEY=${SECRET_KEY:?请填写 SECRET_KEY}
+      - DATABASE_URL=postgresql://postgres:${DB_PASSWORD:?请填写 DB_PASSWORD}@db:5432/planka
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    volumes:
+      - ./db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=planka
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=${DB_PASSWORD:?请填写 DB_PASSWORD}

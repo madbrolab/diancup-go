@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/fccview/cronmaster/summary.json",
+      "sha256": "774694640b31b58942d81731dc9ed8c56157443de8359b2c0ac25cdafe6fe0d6"
+    },
+    {
+      "path": "templates/open-webui/open-webui/summary.json",
+      "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+    },
+    {
+      "path": "templates/openlistteam/openlist/summary.json",
+      "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+    },
+    {
+      "path": "templates/taksssss/iptv-tool/summary.json",
+      "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+    },
+    {
+      "path": "templates/umami-software/umami/summary.json",
+      "sha256": "c5642ceb3035ab7e59c20bff8e683adf4020043c5d48c42aae111eaa83e48ac6"
+    }
+  ],
+  "next": null
+}

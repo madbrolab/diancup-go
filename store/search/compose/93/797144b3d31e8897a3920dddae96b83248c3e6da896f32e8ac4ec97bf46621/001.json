@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/henrygd/beszel/summary.json",
+      "sha256": "156f67009458ce65125cab092e84f13ed260dd410d19c919902398e5fae99a72"
+    },
+    {
+      "path": "templates/netdata/netdata/summary.json",
+      "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
+    },
+    {
+      "path": "templates/qbittorrent/qbittorrent/summary.json",
+      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+    },
+    {
+      "path": "templates/weidu12123/liyuan/summary.json",
+      "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/beidoums/beidou-server/summary.json",
+      "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+    },
+    {
+      "path": "templates/brave/brave-browser/summary.json",
+      "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+    },
+    {
+      "path": "templates/finb/bark-server/summary.json",
+      "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+    },
+    {
+      "path": "templates/freeok/so-novel/summary.json",
+      "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+    },
+    {
+      "path": "templates/jiangrui1994/cloudsaver/summary.json",
+      "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+    },
+    {
+      "path": "templates/qbittorrent/qbittorrent/summary.json",
+      "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+    },
+    {
+      "path": "templates/vert-sh/vert/summary.json",
+      "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,31 @@
+services:
+  deeptutor:
+    image: ghcr.io/hkuds/deeptutor:latest
+    restart: unless-stopped
+    ports:
+      - 28001:28001
+      - 23782:23782
+    environment:
+      - LLM_BINDING=openai
+      - LLM_MODEL=deepseek/deepseek-r1-0528-qwen3-8b
+      - LLM_API_KEY=ollama
+      - LLM_HOST=https://api.deepseek.com/v1
+      - DISABLE_SSL_VERIFY=false
+      - EMBEDDING_MODEL=text-embedding-bge-m3
+      - EMBEDDING_API_KEY=sk-sadjadkljas
+      - EMBEDDING_HOST=https://api.siliconflow.cn/v1
+      - EMBEDDING_DIM=3072
+      - EMBEDDING_MAX_TOKENS=8192
+      - RAG_TOOL_MODULE_LOG_LEVEL=INFO
+      - BACKEND_PORT=28001
+      - FRONTEND_PORT=23782
+      - NEXT_PUBLIC_API_BASE_EXTERNAL=http://你的域名:28001
+      - NEXT_PUBLIC_API_BASE=http://NAS IP:28001
+    volumes:
+      - ./config:/app/config
+      - ./data/user:/app/data/user
+      - ./data/knowledge_bases:/app/data/knowledge_bases
+    networks:
+      default:
+        aliases:
+          - deeptutor1

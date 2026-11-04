@@ -2,8 +2,28 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/dockers-x/cfui/summary.json",
+      "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+    },
+    {
+      "path": "templates/langgenius/dify/summary.json",
+      "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+    },
+    {
+      "path": "templates/louislam/dockge/summary.json",
+      "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
+    },
+    {
       "path": "templates/louislam/uptime-kuma-compose/summary.json",
-      "sha256": "3e5a1a9c8c7c0bec9cb9c586ed00c76246e1aa80e3a78ab9f48fca31c4a95f8a"
+      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+    },
+    {
+      "path": "templates/plankanban/planka/summary.json",
+      "sha256": "6d736c1244740b7ad40a7e587e4930fea0e525c4de191df024dc3c625d15e735"
+    },
+    {
+      "path": "templates/wallabag/wallabag/summary.json",
+      "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
     }
   ],
   "next": null

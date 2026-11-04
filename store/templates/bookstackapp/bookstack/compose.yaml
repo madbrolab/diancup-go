@@ -1,0 +1,26 @@
+services:
+  bookstack:
+    image: lscr.io/linuxserver/bookstack:latest
+    restart: unless-stopped
+    depends_on:
+      - bookstack_db
+    ports:
+      - 6875:80
+    volumes:
+      - ./bookstack-data:/config
+    environment:
+      - DB_HOST=bookstack_db
+      - DB_USER=bookstack
+      - DB_PASS=${DB_PASS:?请填写 DB_PASS}
+      - DB_DATABASE=bookstackapp
+      - APP_URL=http://localhost:6875
+  bookstack_db:
+    image: lscr.io/linuxserver/mariadb:latest
+    restart: unless-stopped
+    volumes:
+      - ./bookstack-db:/config
+    environment:
+      - MYSQL_ROOT_PASSWORD=${DB_PASS:?请填写 DB_PASS}
+      - MYSQL_DATABASE=bookstackapp
+      - MYSQL_USER=bookstack
+      - MYSQL_PASSWORD=${DB_PASS:?请填写 DB_PASS}

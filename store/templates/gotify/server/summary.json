@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "gotify/server",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Gotify",
+  "description": "搭建自己的消息推送服务，通过 REST API 发送通知，并使用网页、WebSocket 或 Android 客户端接收消息。",
+  "developer": "gotify",
+  "projectUrl": "https://github.com/gotify/server",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/gotify.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "gotify",
+    "Gotify",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/gotify/server/manifest.json",
+    "sha256": "aca2909dee8a236f454af1e6ba10a5b8529f2bae76fcda9b83ba0754a1d92c56"
+  }
+}

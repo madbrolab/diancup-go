@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/59799517/simple-sq-music-plus/summary.json",
+      "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+    },
+    {
+      "path": "templates/xhongc/music-tag-web/summary.json",
+      "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/bubka/2fauth/summary.json",
+      "sha256": "bd581f750c76d70ff001c9f6093b4f242bcf120e08fa52f9bbb0b0a66a1319fe"
+    },
+    {
+      "path": "templates/fish2018/pansou/summary.json",
+      "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+    },
+    {
+      "path": "templates/weidu12123/liyuan/summary.json",
+      "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+    }
+  ],
+  "next": null
+}

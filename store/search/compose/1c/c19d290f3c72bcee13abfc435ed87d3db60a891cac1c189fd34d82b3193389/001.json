@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
+      "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+    },
+    {
+      "path": "templates/seerr-team/seerr/summary.json",
+      "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+    }
+  ],
+  "next": null
+}

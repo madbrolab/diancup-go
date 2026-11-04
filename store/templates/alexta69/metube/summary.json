@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "alexta69/metube",
+  "kind": "compose",
+  "category": "download",
+  "name": "MeTube",
+  "description": "为 yt-dlp 提供网页任务界面，将视频、音频、字幕或播放列表下载到服务器，并按任务选择格式与保存位置。",
+  "developer": "alexta69",
+  "projectUrl": "https://github.com/alexta69/metube",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/metube.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "metube",
+    "MeTube",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/alexta69/metube/manifest.json",
+    "sha256": "eef6261f6eb08588fa981a5c69f5ec02318bdbd728e7764b5079a3850f5baade"
+  }
+}

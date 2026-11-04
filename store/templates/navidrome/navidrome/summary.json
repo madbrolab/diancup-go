@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "navidrome/navidrome",
+  "kind": "compose",
+  "category": "media",
+  "name": "Navidrome",
+  "description": "把服务器中的音乐收藏提供给浏览器和兼容客户端播放，可维护曲库、用户与个人播放记录；另有第三方托管选择。",
+  "developer": "navidrome",
+  "projectUrl": "https://github.com/navidrome/navidrome",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/navidrome.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "navidrome",
+    "Navidrome",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/navidrome/navidrome/manifest.json",
+    "sha256": "85758d870818fd2eff6b126d0e6301370fa986d58a749d91f39d87ebf414b121"
+  }
+}

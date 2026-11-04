@@ -1,0 +1,12 @@
+services:
+  freshrss:
+    image: freshrss/freshrss:latest
+    restart: unless-stopped
+    ports:
+      - 8282:80
+    volumes:
+      - ./data:/var/www/FreshRSS/data
+      - ./extensions:/var/www/FreshRSS/extensions
+    environment:
+      - CRON_MIN=*/10
+      - TZ=Asia/Shanghai

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "bestruirui/octopus",
+      "kind": "compose",
+      "category": "ai",
+      "name": "Octopus",
+      "description": "汇集多个模型渠道，转换常见 API 协议，并记录用量、费用和请求状态；上游不可用时可切换其他渠道。",
+      "developer": "bestruirui",
+      "projectUrl": "https://github.com/bestruirui/octopus",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/octopus.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "octopus",
+        "Octopus",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/bestruirui/octopus/manifest.json",
+        "sha256": "b068e64edfa58dc9b6bad686b6802ba8e95c0a12c2a6bb40dcad8a8c488d96f6"
+      },
+      "summary": {
+        "path": "templates/bestruirui/octopus/summary.json",
+        "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      }
+    }
+  ],
+  "next": null
+}

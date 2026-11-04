@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/chenqimiao/qm-music/summary.json",
+      "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+    },
+    {
+      "path": "templates/dani-garcia/vaultwarden/summary.json",
+      "sha256": "adc5811c40aa62b5e222051bcc286dff0e1bc61454eb3b9cd364863ffa049ad0"
+    }
+  ],
+  "next": null
+}

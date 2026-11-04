@@ -1,0 +1,95 @@
+{
+  "schemaVersion": 1,
+  "id": "chenqimiao/qm-music",
+  "kind": "compose",
+  "name": "QM-Music",
+  "description": "将本地曲库作为兼容 Subsonic 客户端的私有音乐服务，可连接元数据服务并维护媒体缓存。README 同时写有非商业限制。",
+  "developer": "chenqimiao",
+  "projectUrl": "https://github.com/chenqimiao/qm-music",
+  "source": "unknown",
+  "license": "Apache-2.0 with noncommercial README terms",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "qm-music",
+    "QM-Music",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/qm-music.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "env.QM_SPOTIFY_CLIENT_ID",
+      "title": "QM_SPOTIFY_CLIENT_ID",
+      "reason": "按使用的功能填写；未启用相关功能时可保持空值。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.QM_SPOTIFY_CLIENT_SECRET",
+      "title": "QM_SPOTIFY_CLIENT_SECRET",
+      "reason": "按使用的功能填写；未启用相关功能时可保持空值。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "env.QM_LASTFM_API_KEY",
+      "title": "QM_LASTFM_API_KEY",
+      "reason": "按使用的功能填写；未启用相关功能时可保持空值。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.qm-music.ports",
+      "title": "qm-music 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "6688:6688"
+    },
+    {
+      "target": "compose.services.qm-music.volumes",
+      "title": "qm-music 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/chenqimiao/qm-music/blob/a33e9e1a1e4d444b5148ae8b45ed056a49a54914/README.md",
+  "applications": [
+    {
+      "id": "qm-music",
+      "name": "QM-Music",
+      "icon": "icons/qm-music.svg",
+      "developer": "chenqimiao",
+      "projectUrl": "https://github.com/chenqimiao/qm-music",
+      "services": [
+        "qm-music"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-09-10T07:50:07Z",
+    "lastCommit": "a33e9e1a1e4d444b5148ae8b45ed056a49a54914",
+    "readmeSHA256": "f6a7dd1b306f469765f5e1e64d2c2b8702c7a509b3ebfbc718959b5912d84d8a",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/qm-music.json",
+      "sha256": "5b757a7924c8afd2846e28e6d4dc03295eb4856d65cd5dbfc8353f4a79b815fe"
+    },
+    "iconSource": "https://raw.githubusercontent.com/chenqimiao/qm-music/a33e9e1a1e4d444b5148ae8b45ed056a49a54914/qm-music-parent/qm-music-app/src/main/resources/static/favicon/android-chrome-192x192.png",
+    "iconSHA256": "9216e590e95535bc819114c641e424acf8a0a2f5031d3f879963c15536f50463",
+    "adaptations": [
+      "将 QM_SPOTIFY_CLIENT_ID 的方括号占位符改为标准 Compose 变量引用",
+      "将 QM_SPOTIFY_CLIENT_SECRET 的方括号占位符改为标准 Compose 变量引用",
+      "将 QM_LASTFM_API_KEY 的方括号占位符改为标准 Compose 变量引用"
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "brave/brave-browser",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Brave 浏览器",
+  "description": "通过网页远程使用容器内的 Brave 浏览器，浏览器的运行配置保存在宿主机。项目入口与源码仓库在 README 中分别列出。",
+  "developer": "brave",
+  "projectUrl": "https://github.com/brave/brave-browser",
+  "source": "open",
+  "license": "MPL-2.0",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "icon": "icons/brave.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "brave",
+    "Brave 浏览器",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/brave/brave-browser/manifest.json",
+    "sha256": "9b02830ed286ac605b0bb113e7376ff1629360565ec3fb9c6c432bb28ca5f502"
+  }
+}

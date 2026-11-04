@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/fccview/cronmaster/summary.json",
+      "sha256": "774694640b31b58942d81731dc9ed8c56157443de8359b2c0ac25cdafe6fe0d6"
+    },
+    {
+      "path": "templates/louislam/dockge/summary.json",
+      "sha256": "6bca8fa66a3b22688421977eb224c3cc6b3765d23928e2b6a80a8c6694dfeb48"
+    },
+    {
+      "path": "templates/vert-sh/vert/summary.json",
+      "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+    }
+  ],
+  "next": null
+}

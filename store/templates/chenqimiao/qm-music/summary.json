@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "chenqimiao/qm-music",
+  "kind": "compose",
+  "category": "media",
+  "name": "QM-Music",
+  "description": "将本地曲库作为兼容 Subsonic 客户端的私有音乐服务，可连接元数据服务并维护媒体缓存。README 同时写有非商业限制。",
+  "developer": "chenqimiao",
+  "projectUrl": "https://github.com/chenqimiao/qm-music",
+  "source": "unknown",
+  "license": "Apache-2.0 with noncommercial README terms",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "icon": "icons/qm-music.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "qm-music",
+    "QM-Music",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/chenqimiao/qm-music/manifest.json",
+    "sha256": "2efedccd7995037c6d0f536fa7e734afcba6cc51859e8137095ccb86b633bc80"
+  }
+}

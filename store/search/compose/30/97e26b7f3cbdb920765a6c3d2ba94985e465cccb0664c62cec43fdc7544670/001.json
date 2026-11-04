@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/bubka/2fauth/summary.json",
+      "sha256": "bd581f750c76d70ff001c9f6093b4f242bcf120e08fa52f9bbb0b0a66a1319fe"
+    },
+    {
+      "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
+      "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+    },
+    {
+      "path": "templates/n8n-io/n8n/summary.json",
+      "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "freeok/so-novel",
+  "kind": "compose",
+  "category": "tools",
+  "name": "So Novel",
+  "description": "从网页提取并整理内容，导出 EPUB、TXT 或 PDF 等文档，也提供便于服务器使用的网页操作入口。",
+  "developer": "freeok",
+  "projectUrl": "https://github.com/freeok/so-novel",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/sonovel.svg",
+  "architectures": [
+    "amd64"
+  ],
+  "tags": [
+    "sonovel",
+    "So Novel",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/freeok/so-novel/manifest.json",
+    "sha256": "519fbd21533a3ce9a0aa7314de5cb3dbb557477835590444bd9200049252f4fc"
+  }
+}

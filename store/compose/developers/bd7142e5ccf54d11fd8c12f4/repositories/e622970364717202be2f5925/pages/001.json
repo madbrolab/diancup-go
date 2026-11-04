@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "hkuds/deeptutor",
+      "kind": "compose",
+      "category": "ai",
+      "name": "DeepTutor",
+      "description": "围绕个人资料构建学习工作区，结合知识库检索、辅导问答与学习任务辅助理解内容。项目声明没有付费在线产品。",
+      "developer": "HKUDS",
+      "projectUrl": "https://github.com/HKUDS/DeepTutor",
+      "source": "open",
+      "license": "Apache-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/deeptutor.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "deeptutor",
+        "DeepTutor",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/hkuds/deeptutor/manifest.json",
+        "sha256": "c0dbb038fcfc370d47800eec094821b5bc132cbe7b26c96ceaf737f4d935ca68"
+      },
+      "summary": {
+        "path": "templates/hkuds/deeptutor/summary.json",
+        "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
+      }
+    }
+  ],
+  "next": null
+}

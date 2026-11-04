@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "id": "vert-sh/vert",
+  "kind": "compose",
+  "name": "VERT",
+  "description": "提供图像、音频、文档和视频格式转换界面，多数转换在浏览器本地执行；部分视频操作可对接独立转换服务。",
+  "developer": "VERT-sh",
+  "projectUrl": "https://github.com/VERT-sh/VERT",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "vert",
+    "VERT",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/vert.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.vert.ports",
+      "title": "vert 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "3000:80"
+    }
+  ],
+  "documentation": "https://github.com/VERT-sh/VERT/blob/257bcb3b2bb6a501bae0faf9ffb05060ee00c3f7/README.md",
+  "applications": [
+    {
+      "id": "vert",
+      "name": "VERT",
+      "icon": "icons/vert.svg",
+      "developer": "VERT-sh",
+      "projectUrl": "https://github.com/VERT-sh/VERT",
+      "services": [
+        "vert"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-20T16:31:52Z",
+    "lastCommit": "257bcb3b2bb6a501bae0faf9ffb05060ee00c3f7",
+    "readmeSHA256": "75b4faf25ff7cd2d121f6955053e247ee1f8e10f9677d12e19c56c34d72d92c7",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/vert.json",
+      "sha256": "41629f4f11ee5bba14f7095a4907912d71bff7c9372997670ee723a72b9283a0"
+    },
+    "iconSource": "https://raw.githubusercontent.com/VERT-sh/VERT/257bcb3b2bb6a501bae0faf9ffb05060ee00c3f7/static/favicon.png",
+    "iconSHA256": "f0d82f01c177658038adff50b1af638c86d18f58e30e53fadc2f305263185888",
+    "adaptations": []
+  }
+}

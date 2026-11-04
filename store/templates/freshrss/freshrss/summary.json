@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "freshrss/freshrss",
+  "kind": "compose",
+  "category": "tools",
+  "name": "FreshRSS",
+  "description": "集中订阅与阅读 RSS、Atom 等内容源，按用户保存标签和阅读状态，并能对接移动客户端或扩展插件。",
+  "developer": "FreshRSS",
+  "projectUrl": "https://github.com/FreshRSS/FreshRSS",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/freshrss.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "freshrss",
+    "FreshRSS",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/freshrss/freshrss/manifest.json",
+    "sha256": "e886c168887482fb632abf8d22f06a799644b71c66ec2ec75ab2f6801db9de46"
+  }
+}

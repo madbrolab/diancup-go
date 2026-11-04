@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "weidu12123/liyuan",
+      "kind": "compose",
+      "category": "ai",
+      "name": "梨园 Liyuan",
+      "description": "面向角色扮演和故事创作的 Agent 工作区，通过角色空间、记忆检索和分支回退维护叙事。个人非商业使用免费，商业授权费用未说明。",
+      "developer": "weidu12123",
+      "projectUrl": "https://github.com/weidu12123/Liyuan",
+      "source": "unknown",
+      "license": "PolyForm Noncommercial 1.0.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/liyuan.svg",
+      "architectures": [
+        "amd64"
+      ],
+      "tags": [
+        "liyuan",
+        "梨园 Liyuan",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/weidu12123/liyuan/manifest.json",
+        "sha256": "b1900194c07a61dc8d9584cad4967bc9d7800e39d66b0b473c37f61b50afa6e5"
+      },
+      "summary": {
+        "path": "templates/weidu12123/liyuan/summary.json",
+        "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+      }
+    }
+  ],
+  "next": null
+}

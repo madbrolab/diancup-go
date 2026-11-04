@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/alexta69/metube/summary.json",
+      "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+    },
+    {
+      "path": "templates/chatgptnextweb/nextchat/summary.json",
+      "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+    },
+    {
+      "path": "templates/freeok/so-novel/summary.json",
+      "sha256": "f9b85e5955abbec6a94760d516201e46b2bb8a1bdafd484b04796de27dd8ab76"
+    }
+  ],
+  "next": null
+}

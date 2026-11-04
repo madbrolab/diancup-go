@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "vert-sh/vert",
+  "kind": "compose",
+  "category": "tools",
+  "name": "VERT",
+  "description": "提供图像、音频、文档和视频格式转换界面，多数转换在浏览器本地执行；部分视频操作可对接独立转换服务。",
+  "developer": "VERT-sh",
+  "projectUrl": "https://github.com/VERT-sh/VERT",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/vert.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "vert",
+    "VERT",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/vert-sh/vert/manifest.json",
+    "sha256": "143a1908a7e2725505c7e3dfc7de475dedc71ed8a83d80d6e9975c0a176f1d1b"
+  }
+}

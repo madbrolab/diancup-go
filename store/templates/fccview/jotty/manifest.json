@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "fccview/jotty",
+  "kind": "compose",
+  "name": "jotty·page",
+  "description": "自建清单与笔记空间，保存日常任务和文字记录，并可为个人笔记启用加密。",
+  "developer": "fccview",
+  "projectUrl": "https://github.com/fccview/jotty",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "jotty",
+    "jotty·page",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/jotty.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.jotty.ports",
+      "title": "jotty 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "3122:3000"
+    },
+    {
+      "target": "compose.services.jotty.volumes",
+      "title": "jotty 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/fccview/jotty/blob/30bbbaea4675d2adb6f2e5ff113f1994be2fb8e2/README.md",
+  "applications": [
+    {
+      "id": "jotty",
+      "name": "jotty·page",
+      "icon": "icons/jotty.svg",
+      "developer": "fccview",
+      "projectUrl": "https://github.com/fccview/jotty",
+      "services": [
+        "jotty"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-25T13:55:23Z",
+    "lastCommit": "30bbbaea4675d2adb6f2e5ff113f1994be2fb8e2",
+    "readmeSHA256": "b448ce302490f99408b02e5aaf654a905ba9de7a1c461734fc40fe019f5ab5d8",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/jotty.json",
+      "sha256": "f7b8cfdeb552c1e1ae5574379406c6663301107e7cc110af729eebd844cd81dd"
+    },
+    "iconSource": "https://raw.githubusercontent.com/fccview/jotty/30bbbaea4675d2adb6f2e5ff113f1994be2fb8e2/public/app-icons/logos/logo.svg",
+    "iconSHA256": "07848a6f45a49af61542deb7f270b07466289d882f0cc26da3e4e438b3442eef",
+    "adaptations": [
+      "jotty 使用项目内实例名，原容器名保留为网络别名"
+    ]
+  }
+}

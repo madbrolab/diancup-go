@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/brave/brave-browser/summary.json",
+      "sha256": "bb35b68db64f994150d9bd915fb4ad940429cc43ff57ca2877a001567878651b"
+    },
+    {
+      "path": "templates/navidrome/navidrome/summary.json",
+      "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+    },
+    {
+      "path": "templates/vert-sh/vert/summary.json",
+      "sha256": "83adb6c9a2f156f327f51aed23a5ddc6d7daf427e341d42e217a988fecdc3b8c"
+    },
+    {
+      "path": "templates/wallabag/wallabag/summary.json",
+      "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+    },
+    {
+      "path": "templates/xhongc/music-tag-web/summary.json",
+      "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+    }
+  ],
+  "next": null
+}

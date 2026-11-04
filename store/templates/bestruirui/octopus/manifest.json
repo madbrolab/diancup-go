@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "bestruirui/octopus",
+  "kind": "compose",
+  "name": "Octopus",
+  "description": "汇集多个模型渠道，转换常见 API 协议，并记录用量、费用和请求状态；上游不可用时可切换其他渠道。",
+  "developer": "bestruirui",
+  "projectUrl": "https://github.com/bestruirui/octopus",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "ai",
+  "tags": [
+    "octopus",
+    "Octopus",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/octopus.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.octopus.ports",
+      "title": "octopus 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "8080:8080"
+    },
+    {
+      "target": "compose.services.octopus.volumes",
+      "title": "octopus 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/bestruirui/octopus/blob/8aa58b0340ba2de58ce74fbfacd32597c44842a2/README.md",
+  "applications": [
+    {
+      "id": "octopus",
+      "name": "Octopus",
+      "icon": "icons/octopus.svg",
+      "developer": "bestruirui",
+      "projectUrl": "https://github.com/bestruirui/octopus",
+      "services": [
+        "octopus"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-23T00:49:11Z",
+    "lastCommit": "8aa58b0340ba2de58ce74fbfacd32597c44842a2",
+    "readmeSHA256": "bf29c77d47413333f36aeb18ea17903ec51030deb451c40e45601ee5a1d84f46",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/octopus.json",
+      "sha256": "8161384d95aad4ff10bbe39536406cc95c728b01b8cd3ffa5eee1d12011eab38"
+    },
+    "iconSource": "https://raw.githubusercontent.com/bestruirui/octopus/8aa58b0340ba2de58ce74fbfacd32597c44842a2/web/public/logo.svg",
+    "iconSHA256": "01265176ed068615bdf6a792cf480440f40354454f6fb18d67b302b517f3f28e",
+    "adaptations": [
+      "octopus 使用项目内实例名，原容器名保留为网络别名"
+    ]
+  }
+}

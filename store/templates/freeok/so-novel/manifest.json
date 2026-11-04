@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "freeok/so-novel",
+  "kind": "compose",
+  "name": "So Novel",
+  "description": "从网页提取并整理内容，导出 EPUB、TXT 或 PDF 等文档，也提供便于服务器使用的网页操作入口。",
+  "developer": "freeok",
+  "projectUrl": "https://github.com/freeok/so-novel",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "sonovel",
+    "So Novel",
+    "compose"
+  ],
+  "architectures": [
+    "amd64"
+  ],
+  "icon": "icons/sonovel.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.sonovel.ports",
+      "title": "sonovel 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "7765:7765"
+    },
+    {
+      "target": "compose.services.sonovel.volumes",
+      "title": "sonovel 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/freeok/so-novel/blob/88acec6ee489ca1c2489c624cedd1ef417d3f3ee/README.md",
+  "applications": [
+    {
+      "id": "so-novel",
+      "name": "So Novel",
+      "icon": "icons/sonovel.svg",
+      "developer": "freeok",
+      "projectUrl": "https://github.com/freeok/so-novel",
+      "services": [
+        "sonovel"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-26T15:29:55Z",
+    "lastCommit": "88acec6ee489ca1c2489c624cedd1ef417d3f3ee",
+    "readmeSHA256": "50f4af217e241097bed0138356b8cbf49c58e027c35e6f92a88191acb2cb9ad3",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/sonovel.json",
+      "sha256": "4fa7e9fbc57c266c66844d94a7a11585ac565d3c4c03126b689cc7f959f8c91e"
+    },
+    "iconSource": "https://raw.githubusercontent.com/freeok/so-novel/88acec6ee489ca1c2489c624cedd1ef417d3f3ee/assets/logo.png",
+    "iconSHA256": "cd9e11e950973cd104cc07256d382df3a4987492c32f57335758f56670a6529a",
+    "adaptations": [
+      "sonovel 使用项目内实例名，原容器名保留为网络别名"
+    ]
+  }
+}

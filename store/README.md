@@ -26,7 +26,7 @@
 
 Compose 模板使用 `compose.yaml`，默认变量放在 `env.example`，必填密码留空并使用 `${PASSWORD:?请填写密码}`。数据库优先只在项目网络中开放；需要宿主机监听时明确绑定回环地址。避免使用没有用途说明的特权模式或 Docker socket 挂载。
 
-模板需要声明并核对 amd64、arm64 等实际架构支持。图标存放在 `icons/`；当前样例为本地字母图标，非上游官方商标。
+模板需要声明并核对 amd64、arm64 等实际架构支持。图标存放在 `icons/`。本轮导入重新从项目官方仓库或官网获取图标并保存为本地资源；上游没有独立品牌标识时使用有出处的语义图标。来源和摘要保存在对应 manifest 的 `verification` 字段。
 
 ## 通用 ENV
 
@@ -40,9 +40,9 @@ Compose 模板使用 `compose.yaml`，默认变量放在 `env.example`，必填�
 
 Compose 项目页和模板商店均提供“默认安装位置”入口，两处共用独立设置，只影响以后从模板新建的项目。它不修改 `DOCKER_DIR` 或已有项目路径，项目浏览也不受默认位置限制。
 
-部署前需选择已存在的应用专用父目录，例如 `/mnt/docker`。系统目录、Docker 自身的数据目录、公共父目录本身（例如 `/mnt`、`/home`）和符号链接路径禁止选择。后端对手动输入和 API 请求同样检查。
+普通项目和模板安装时，存放 Compose 文件的项目目录均跟随文件管理器已配置的可见范围。模板中的挂载路径和其他路径选择可浏览宿主机全部路径；实际 Docker 绑定挂载使用配置中的真实宿主机路径，不受项目目录可见范围限制。
 
-每个新模板项目只创建在 `默认安装位置/实例名/`。配置、`.env`、注入 ENV 文件和绑定数据子目录集中在实例目录内；不创建其他临时项目目录、命名卷或匿名卷，镜像声明的持久化挂载必须显式绑定。镜像和容器运行元数据由 Docker 自身管理。
+每个新模板项目的配置、`.env` 和注入 ENV 文件创建在 `默认安装位置/实例名/`。相对绑定路径以此目录为基准，也支持挂载项目外的已有数据目录、Docker socket 和宿主机系统路径，保持配置中的宿主机真实路径与读写模式。不创建其他临时项目目录、命名卷或匿名卷，镜像声明的持久化挂载必须显式绑定。镜像和容器运行元数据由 Docker 自身管理。
 
 实例内的 `.diancup-template.json` 标记安装者为 `DIANCUP-template-store`，保存实例 ID、模板版本、来源仓库和提交信息，不包含变量值。数据库与实际容器身份共同确认归属，复制来源标记不会取得卸载权限。
 
@@ -66,3 +66,167 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 - [PostgreSQL](https://hub.docker.com/_/postgres)
 - [WordPress](https://hub.docker.com/_/wordpress)
 - [Gitea](https://docs.gitea.com/installation/install-with-docker/)
+
+<!-- reviewed-tradis:2026-11-04 -->
+
+## 2026-11-04 模板核对记录
+
+本轮检查 Tradis 的 63 项模板，部署参数固定参考提交 `2d3d7221a724a31f8b90729a29be6ecf604bc8e6`。以 2026-11-04 为核对日，默认分支最后提交早于 2026-08-04 的项目不收录。项目简介、公开源码状态和收费信息重新阅读项目首页 README，部署镜像、端口和环境默认值保持 Tradis 的配置；没有明确说明的情况标为未知。
+
+已转换并收录 49 项（新增 48 项，更新已有 Uptime Kuma Compose 1 项），保留原有其他模板。介绍重新撰写，未复制 Tradis 教程、截图或图标链接；图标从独立核对的上游资源下载并本地化。PanSou 使用 [Lucide folder-search](https://github.com/lucide-icons/lucide/blob/main/icons/folder-search.svg) 语义图标。
+
+格式适配包括移除全局固定容器名并保留网络 DNS 别名、把命名卷及匿名数据挂载改为明确的项目相对绑定、将旧方括号变量引用转成标准 Compose 语法，以及修正 BeiDou 数据库健康检查与密码不一致的问题。系统挂载和宿主机绝对路径保持原值。
+
+Dify 原模板只声明了 Nginx 配置目录，使用时需要准备站点配置并修改该挂载；DeepTutor、n8n、PanSou 中的服务地址、模型凭据或代理示例需要按目标环境填写。此轮执行了配置解析校验，没有批量启动这些应用。
+
+| 项目 README | 最近提交 | 许可证 / 说明 | 收费授权 | 架构 |
+| --- | --- | --- | --- | --- |
+| [NGINX](https://github.com/nginx/nginx/blob/67290bfea61c81347464539f5e6d0a7cebec1fc8/README.md) | 2026-10-28 | BSD-2-Clause | 可选商业服务或授权 | amd64, arm64 |
+| [Cronmaster](https://github.com/fccview/cronmaster/blob/2a323087ae124ff1e0e605eae6bb1b356a123eb7/README.md) | 2026-10-25 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [Music Tag Web](https://github.com/xhongc/music-tag-web/blob/6105d8eba4535c04e0b1c0b09802949ba27445a9/README.md) | 2026-10-08 | GPL-3.0 with additional README restrictions | README 未明确 / 待确认 | amd64, arm64 |
+| [CloudSaver](https://github.com/jiangrui1994/CloudSaver/blob/672cc48ab656973de2675383c966a5336d9de372/README.md) | 2026-10-15 | MIT applies to published source only | README 未明确 / 待确认 | amd64, arm64 |
+| [OpenList](https://github.com/OpenListTeam/OpenList/blob/ef5d8c8d41ce3b300f7d7c47803e9d5082c9f64f/README.md) | 2026-11-04 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF/blob/ea922397fac247d7181b58e9e86a222a767cebde/README.md) | 2026-11-04 | Open-core; see upstream LICENSE | 可选商业服务或授权 | amd64, arm64 |
+| [Xiaomi Album Syncer](https://github.com/Coooolfan/XiaomiAlbumSyncer/blob/ccbbf798cffcca6c402b109d519c06a5575aaa86/README.md) | 2026-11-02 | GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [cfui](https://github.com/dockers-x/cfui/blob/95b5d15167817c0491f070ad52147dfadf2ec6c5/README.md) | 2026-10-31 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [Octopus](https://github.com/bestruirui/octopus/blob/8aa58b0340ba2de58ce74fbfacd32597c44842a2/README.md) | 2026-10-23 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [Seerr](https://github.com/seerr-team/seerr/blob/886adac27597b45cd901099cd02a0b46d9d3cb7f/README.md) | 2026-11-04 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [QM-Music](https://github.com/chenqimiao/qm-music/blob/a33e9e1a1e4d444b5148ae8b45ed056a49a54914/README.md) | 2026-09-10 | Apache-2.0 with noncommercial README terms | README 未明确 / 待确认 | amd64, arm64 |
+| [Brave 浏览器](https://github.com/brave/brave-browser/blob/a33113d6035df5897fba3029507b2024616616a3/README.md) | 2026-11-04 | MPL-2.0 | README 未明确 / 待确认 | amd64, arm64 |
+| [PandaWiki](https://github.com/chaitin/PandaWiki/blob/0b26db72ceb2f0f053a5c48b44546d7a342caacb/README.md) | 2026-10-21 | AGPL-3.0 | README 未明确 / 待确认 | amd64, arm64 |
+| [IPTV 工具箱](https://github.com/taksssss/iptv-tool/blob/10d7a35e15a799e607cbb2236c3a4ea349f61199/README.md) | 2026-10-22 | GPL-2.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [PanSou](https://github.com/fish2018/pansou/blob/221665fb2c9279f22af4684ea2d8c0c331eac1cc/README.md) | 2026-10-12 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [VERT](https://github.com/VERT-sh/VERT/blob/257bcb3b2bb6a501bae0faf9ffb05060ee00c3f7/README.md) | 2026-10-20 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [n8n](https://github.com/n8n-io/n8n/blob/ca3e5129e58c2b6907cd8e94addb167c28b58692/README.md) | 2026-11-04 | Sustainable Use License / n8n Enterprise License | 可选商业服务或授权 | amd64, arm64 |
+| [BeiDou Server](https://github.com/BeiDouMS/BeiDou-Server/blob/71d77515d62c2843cb6d41119eb669915ee15889/README.md) | 2026-10-29 | AGPL-3.0 | README 未明确 / 待确认 | amd64, arm64 |
+| [Simple SQ Music Plus](https://github.com/59799517/simple_sq_music_plus/blob/3c2599d47a7c82b85607a7d1d063fd03e546bbf6/README.md) | 2026-10-30 | Unspecified; noncommercial README terms | README 未明确 / 待确认 | amd64 |
+| [jotty·page](https://github.com/fccview/jotty/blob/30bbbaea4675d2adb6f2e5ff113f1994be2fb8e2/README.md) | 2026-10-25 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [DeepTutor](https://github.com/HKUDS/DeepTutor/blob/f7aed0744c36c5afef16a4261c31ebee1208cac2/README.md) | 2026-10-31 | Apache-2.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [Dockge](https://github.com/louislam/dockge/blob/0329dabb5003f206d4fd9f7403a6af26d7138497/README.md) | 2026-10-23 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [Uptime Kuma Compose](https://github.com/louislam/uptime-kuma/blob/41194cb3d6e2bb8b9ae6c8a0fe59ce577c3f3928/README.md) | 2026-11-03 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [Netdata](https://github.com/netdata/netdata/blob/ca1035ac5fc5e69d7f55779344ed87962e42a401/README.md) | 2026-11-04 | GPL-3.0-or-later (Agent); NCUL1 (UI) | 可选商业服务或授权 | amd64, arm64 |
+| [Homepage](https://github.com/gethomepage/homepage/blob/97135eaf8747e8d673ed57f7df328ef5a7e65a4e/README.md) | 2026-11-02 | GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [Vaultwarden](https://github.com/dani-garcia/vaultwarden/blob/82fc47e83e39c5d09e85a6f259c8ab51166735d1/README.md) | 2026-11-02 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [2FAuth](https://github.com/Bubka/2FAuth/blob/2a19734a178846f4b59c1b52504b8d8e1036623c/README.md) | 2026-11-02 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [Navidrome](https://github.com/navidrome/navidrome/blob/7c1e68a1e4e68e7257affba4f25cd9cb545c7016/README.md) | 2026-11-03 | GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [Audiobookshelf](https://github.com/advplyr/audiobookshelf/blob/ce41ce489cebaf00e008919f6f2901b428acfd56/readme.md) | 2026-11-01 | GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [qBittorrent](https://github.com/qbittorrent/qBittorrent/blob/0d6f6a008ed3c192b3eda25552a369b51da11c4d/README.md) | 2026-11-03 | See upstream COPYING; LinuxServer image GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [Transmission](https://github.com/transmission/transmission/blob/c1a0dbebd55add20efa0bc40d8ad3c57152e5635/README.md) | 2026-11-02 | See upstream COPYING; LinuxServer image GPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [MeTube](https://github.com/alexta69/metube/blob/7e73766238f3fc491b2aeba0c3c8b415c408eaaa/README.md) | 2026-11-01 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [Memos](https://github.com/usememos/memos/blob/b40d8a7b573774c52b022c8d6537d6baf2129dc0/README.md) | 2026-11-01 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [BookStack](https://github.com/BookStackApp/BookStack/blob/0b6b667e0d84ebb3406de6de9fadbf4230c29c0b/readme.md) | 2026-11-02 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [FreshRSS](https://github.com/FreshRSS/FreshRSS/blob/4e8a258b011aad190597d7953b7122fc43f4658f/README.md) | 2026-11-02 | AGPL-3.0 | 自建无付费密钥要求 | amd64, arm64 |
+| [wallabag](https://github.com/wallabag/wallabag/blob/17be63dee2a14f5a49b49dd12c9daf81b9754991/README.md) | 2026-11-03 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [Open WebUI](https://github.com/open-webui/open-webui/blob/c38885a1a737da4968f157092f304f3b5481d0bf/README.md) | 2026-11-03 | Open WebUI License with branding requirements | 可选商业服务或授权 | amd64, arm64 |
+| [Dify](https://github.com/langgenius/dify/blob/ca01a69f87baaf31709b8cedea8ba3a97ecc3518/README.md) | 2026-11-04 | Dify Open Source License; see upstream LICENSE | 可选商业服务或授权 | amd64, arm64 |
+| [NextChat](https://github.com/ChatGPTNextWeb/NextChat/blob/1d3dc331512929a4b1d3e82354e72acce33b5c7a/README.md) | 2026-10-20 | MIT | 可选商业服务或授权 | amd64, arm64 |
+| [Beszel](https://github.com/henrygd/beszel/blob/27af11c5e04f03c1fa6cc067a1251631e2e8996e/readme.md) | 2026-10-30 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [Actual Budget](https://github.com/actualbudget/actual/blob/a3a1c7fc41f891dc91936a488ef08f695c982580/README.md) | 2026-11-03 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [Baby Buddy](https://github.com/babybuddy/babybuddy/blob/2bd0461f5a7e407147bcfef363eb79dce6c9708d/README.md) | 2026-10-28 | BSD-2-Clause | 自建无付费密钥要求 | amd64, arm64 |
+| [PLANKA](https://github.com/plankanban/planka/blob/98c1ef216bcf47fc873f5b92cbb334711fc92162/README.md) | 2026-11-02 | PLANKA Community Fair Use License / Commercial License | 可选商业服务或授权 | amd64, arm64 |
+| [Vikunja](https://github.com/go-vikunja/vikunja/blob/2a4a28dcf78451f3d2fceb091f322612f83f6d8a/README.md) | 2026-11-04 | AGPL-3.0-or-later | 可选商业服务或授权 | amd64, arm64 |
+| [Umami](https://github.com/umami-software/umami/blob/559e3c607c23d2c72d9bd4f6481bda428255323c/README.md) | 2026-10-23 | MIT | README 未明确 / 待确认 | amd64, arm64 |
+| [Gotify](https://github.com/gotify/server/blob/dd06dc77190696e93d3297b9a733711516fb17d9/README.md) | 2026-10-25 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [Bark Server](https://github.com/Finb/bark-server/blob/640deaa151ddf79193202927b35ca2f14f65ee1d/README.md) | 2026-10-10 | MIT | 自建无付费密钥要求 | amd64, arm64 |
+| [梨园 Liyuan](https://github.com/weidu12123/Liyuan/blob/21fd38cb10e915fbf9c1f25fcbabe92f06a8993d/README.md) | 2026-11-01 | PolyForm Noncommercial 1.0.0 | README 未明确 / 待确认 | amd64 |
+| [So Novel](https://github.com/freeok/so-novel/blob/88acec6ee489ca1c2489c624cedd1ef417d3f3ee/README.md) | 2026-10-26 | AGPL-3.0 | 自建无付费密钥要求 | amd64 |
+
+### 未收录项目
+
+| 项目 | 最近提交 | 原因 |
+| --- | --- | --- |
+| mi-note-export | 2026-06-28 | 最近默认分支提交早于 2026-08-04 |
+| omnibox | 未核实 | 源链接仅为 Docker Hub，未找到可核对更新时间和 README 的对应官方仓库 |
+| dailyhot | 2026-03-11 | 最近默认分支提交早于 2026-08-04 |
+| wizserver | 2021-06-23 | 源链接为 Docker Hub；WizNoteLite 的旧仓库无法证明当前 wizserver 服务端的维护状态 |
+| musicn | 2025-08-25 | 最近默认分支提交早于 2026-08-04 |
+| pancheck | 2026-06-25 | 最近默认分支提交早于 2026-08-04 |
+| anynote | 2026-04-03 | 最近默认分支提交早于 2026-08-04 |
+| d2c | 2026-02-12 | 最近默认分支提交早于 2026-08-04 |
+| musicscraper | 2026-01-24 | 最近默认分支提交早于 2026-08-04 |
+| watchtower | 2025-12-17 | 最近默认分支提交早于 2026-08-04 |
+| filebrowser | 2026-07-28 | 最近默认分支提交早于 2026-08-04 |
+| it-tools | 2026-02-12 | 最近默认分支提交早于 2026-08-04 |
+
+### 保留为待修复草稿
+
+- **daoliyu**：Tradis 指定的 msmkls/daoliyu-backend:0.1.9 与 msmkls/daoliyu-frontend:0.1.9 均无法从公共仓库读取；按要求保留默认镜像，不擅自替换。
+- **immich**：Tradis 指定的数据库镜像 tensorchord/pgvecto-rs:pg16 已不存在；保留默认镜像形成待修复草稿，不擅自改成其他数据库版本。
+
+这两项已在开发工作区转换为同一模板格式的草稿，未加入公开商店索引；保留原镜像参数，避免未经确认替换其部署版本。
+
+### 部署模板来源许可
+
+部署参数参考 [coracoo/tradis_templates](https://github.com/coracoo/tradis_templates)。按其 MIT 许可保留以下声明；应用本身、图标和商标仍遵循各自上游条款。
+
+```text
+MIT License
+
+Copyright (c) 2025 cgakki
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+PanSou 语义图标来自 Lucide，保留其许可声明：
+
+```text
+ISC License
+
+Copyright (c) 2026 Lucide Icons and Contributors
+
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
+
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+---
+
+The following Lucide icons are derived from the Feather project:
+
+airplay, alert-circle, alert-octagon, alert-triangle, aperture, arrow-down-circle, arrow-down-left, arrow-down-right, arrow-down, arrow-left-circle, arrow-left, arrow-right-circle, arrow-right, arrow-up-circle, arrow-up-left, arrow-up-right, arrow-up, at-sign, calendar, cast, check, chevron-down, chevron-left, chevron-right, chevron-up, chevrons-down, chevrons-left, chevrons-right, chevrons-up, circle, clipboard, clock, code, columns, command, compass, corner-down-left, corner-down-right, corner-left-down, corner-left-up, corner-right-down, corner-right-up, corner-up-left, corner-up-right, crosshair, database, divide-circle, divide-square, dollar-sign, download, external-link, feather, frown, hash, headphones, help-circle, info, italic, key, layout, life-buoy, link-2, link, loader, lock, log-in, log-out, maximize, meh, minimize, minimize-2, minus-circle, minus-square, minus, monitor, moon, more-horizontal, more-vertical, move, music, navigation-2, navigation, octagon, pause-circle, percent, plus-circle, plus-square, plus, power, radio, rss, search, server, share, shopping-bag, sidebar, smartphone, smile, square, table-2, tablet, target, terminal, trash-2, trash, triangle, tv, type, upload, x-circle, x-octagon, x-square, x, zoom-in, zoom-out
+
+The MIT License (MIT) (for the icons listed above)
+
+Copyright (c) 2013-present Cole Bemis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```

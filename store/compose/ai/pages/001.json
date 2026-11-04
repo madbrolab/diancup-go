@@ -1,5 +1,197 @@
 {
   "schemaVersion": 1,
-  "items": [],
+  "items": [
+    {
+      "id": "bestruirui/octopus",
+      "kind": "compose",
+      "category": "ai",
+      "name": "Octopus",
+      "description": "汇集多个模型渠道，转换常见 API 协议，并记录用量、费用和请求状态；上游不可用时可切换其他渠道。",
+      "developer": "bestruirui",
+      "projectUrl": "https://github.com/bestruirui/octopus",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/octopus.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "octopus",
+        "Octopus",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/bestruirui/octopus/manifest.json",
+        "sha256": "b068e64edfa58dc9b6bad686b6802ba8e95c0a12c2a6bb40dcad8a8c488d96f6"
+      },
+      "summary": {
+        "path": "templates/bestruirui/octopus/summary.json",
+        "sha256": "fa13d28c92ef5d1ed1e9a4c5bf31c216c8608f3180b8d925719286260f330bec"
+      }
+    },
+    {
+      "id": "chatgptnextweb/nextchat",
+      "kind": "compose",
+      "category": "ai",
+      "name": "NextChat",
+      "description": "提供可自建的多模型对话界面，支持常见模型渠道及桌面使用方式，并提供可选企业定制与私有部署服务。",
+      "developer": "ChatGPTNextWeb",
+      "projectUrl": "https://github.com/ChatGPTNextWeb/NextChat",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/chatgpt-next-web.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "chatgpt-next-web",
+        "NextChat",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/chatgptnextweb/nextchat/manifest.json",
+        "sha256": "cc2f5167abbd4d3c52fb55619bfbac3a06c7506c9e8f718209b8785839b03e35"
+      },
+      "summary": {
+        "path": "templates/chatgptnextweb/nextchat/summary.json",
+        "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      }
+    },
+    {
+      "id": "hkuds/deeptutor",
+      "kind": "compose",
+      "category": "ai",
+      "name": "DeepTutor",
+      "description": "围绕个人资料构建学习工作区，结合知识库检索、辅导问答与学习任务辅助理解内容。项目声明没有付费在线产品。",
+      "developer": "HKUDS",
+      "projectUrl": "https://github.com/HKUDS/DeepTutor",
+      "source": "open",
+      "license": "Apache-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/deeptutor.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "deeptutor",
+        "DeepTutor",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/hkuds/deeptutor/manifest.json",
+        "sha256": "c0dbb038fcfc370d47800eec094821b5bc132cbe7b26c96ceaf737f4d935ca68"
+      },
+      "summary": {
+        "path": "templates/hkuds/deeptutor/summary.json",
+        "sha256": "d4d8cdc60920106e9d6af2190aa20ffb6d41cbf16698d2876fb7c72130166adf"
+      }
+    },
+    {
+      "id": "langgenius/dify",
+      "kind": "compose",
+      "category": "ai",
+      "name": "Dify",
+      "description": "把模型、知识检索和工作流组合成 AI 应用，并提供运行观测与接口管理。支持自建，另有云端套餐及企业服务。",
+      "developer": "langgenius",
+      "projectUrl": "https://github.com/langgenius/dify",
+      "source": "open",
+      "license": "Dify Open Source License; see upstream LICENSE",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/dify.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "dify",
+        "Dify",
+        "compose"
+      ],
+      "applicationCount": 5,
+      "manifest": {
+        "path": "templates/langgenius/dify/manifest.json",
+        "sha256": "1074fb0bb81a69abe7641b0bd69bf41c2d617d270cb475ff00a4ffe86df918c7"
+      },
+      "summary": {
+        "path": "templates/langgenius/dify/summary.json",
+        "sha256": "a848a796e887917f298a7c20a64dacd38469b0ca3aa80c600941eca22e4f27e1"
+      }
+    },
+    {
+      "id": "open-webui/open-webui",
+      "kind": "compose",
+      "category": "ai",
+      "name": "Open WebUI",
+      "description": "为本地与兼容 API 的模型提供统一对话入口，可在自建环境管理资料和交互；许可要求保留品牌，另有企业服务。",
+      "developer": "open-webui",
+      "projectUrl": "https://github.com/open-webui/open-webui",
+      "source": "unknown",
+      "license": "Open WebUI License with branding requirements",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/open-webui.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "open-webui",
+        "Open WebUI",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/open-webui/open-webui/manifest.json",
+        "sha256": "65f760db081fa5c48372f89f3af1bccf8860c427ec83d796cbe98bc4f775778f"
+      },
+      "summary": {
+        "path": "templates/open-webui/open-webui/summary.json",
+        "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+      }
+    },
+    {
+      "id": "weidu12123/liyuan",
+      "kind": "compose",
+      "category": "ai",
+      "name": "梨园 Liyuan",
+      "description": "面向角色扮演和故事创作的 Agent 工作区，通过角色空间、记忆检索和分支回退维护叙事。个人非商业使用免费，商业授权费用未说明。",
+      "developer": "weidu12123",
+      "projectUrl": "https://github.com/weidu12123/Liyuan",
+      "source": "unknown",
+      "license": "PolyForm Noncommercial 1.0.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/liyuan.svg",
+      "architectures": [
+        "amd64"
+      ],
+      "tags": [
+        "liyuan",
+        "梨园 Liyuan",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/weidu12123/liyuan/manifest.json",
+        "sha256": "b1900194c07a61dc8d9584cad4967bc9d7800e39d66b0b473c37f61b50afa6e5"
+      },
+      "summary": {
+        "path": "templates/weidu12123/liyuan/summary.json",
+        "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+      }
+    }
+  ],
   "next": null
 }

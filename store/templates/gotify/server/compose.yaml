@@ -1,0 +1,8 @@
+services:
+  gotify:
+    image: gotify/server
+    restart: unless-stopped
+    ports:
+      - 8380:80
+    volumes:
+      - ./gotify-data:/app/data

@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "advplyr/audiobookshelf",
+  "kind": "compose",
+  "name": "Audiobookshelf",
+  "description": "管理有声书和播客，补充媒体信息并在多个设备之间同步播放进度，也可订阅节目并自动下载新内容。",
+  "developer": "advplyr",
+  "projectUrl": "https://github.com/advplyr/audiobookshelf",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "audiobookshelf",
+    "Audiobookshelf",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/audiobookshelf.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.audiobookshelf.ports",
+      "title": "audiobookshelf 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "13378:80"
+    },
+    {
+      "target": "compose.services.audiobookshelf.volumes",
+      "title": "audiobookshelf 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/advplyr/audiobookshelf/blob/ce41ce489cebaf00e008919f6f2901b428acfd56/readme.md",
+  "applications": [
+    {
+      "id": "audiobookshelf",
+      "name": "Audiobookshelf",
+      "icon": "icons/audiobookshelf.svg",
+      "developer": "advplyr",
+      "projectUrl": "https://github.com/advplyr/audiobookshelf",
+      "services": [
+        "audiobookshelf"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-01T23:26:38Z",
+    "lastCommit": "ce41ce489cebaf00e008919f6f2901b428acfd56",
+    "readmeSHA256": "55fb2e82236a0bec478f2c53f39c4b57d8e762a5c5a89d255680909e785470be",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/audiobookshelf.json",
+      "sha256": "536d53ba87e62c911afe195bdac606d14c1310ddeadc59480793a3db39b73dd6"
+    },
+    "iconSource": "https://raw.githubusercontent.com/advplyr/audiobookshelf/ce41ce489cebaf00e008919f6f2901b428acfd56/client/static/icon.svg",
+    "iconSHA256": "560baf46422e3ff516d249b449bd331d6b257f1099a130150e10845a8c922a69",
+    "adaptations": []
+  }
+}

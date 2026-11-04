@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/dockers-x/cfui/summary.json",
+      "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+    }
+  ],
+  "next": null
+}

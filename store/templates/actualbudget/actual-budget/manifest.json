@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "actualbudget/actual-budget",
+  "kind": "compose",
+  "name": "Actual Budget",
+  "description": "以本地数据为中心管理个人收支与预算，并在设备之间同步记录。软件免费开源，可自行部署或选择外部托管。",
+  "developer": "actualbudget",
+  "projectUrl": "https://github.com/actualbudget/actual",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "actual-budget",
+    "Actual Budget",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/actual-budget.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.actual-server.ports",
+      "title": "actual-server 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "5006:5006"
+    },
+    {
+      "target": "compose.services.actual-server.volumes",
+      "title": "actual-server 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/actualbudget/actual/blob/a3a1c7fc41f891dc91936a488ef08f695c982580/README.md",
+  "applications": [
+    {
+      "id": "actual-budget",
+      "name": "Actual Budget",
+      "icon": "icons/actual-budget.svg",
+      "developer": "actualbudget",
+      "projectUrl": "https://github.com/actualbudget/actual",
+      "services": [
+        "actual-server"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-03T22:15:02Z",
+    "lastCommit": "a3a1c7fc41f891dc91936a488ef08f695c982580",
+    "readmeSHA256": "fd174335284daa65ef6345dc139649fb3f4926fd57f26b0cbf98f5bfaab4485d",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/actual-budget.json",
+      "sha256": "58bc6be21bd5b19e2d1ad602fb5edc3d8c098fc651ab063305fbe791800a2ea7"
+    },
+    "iconSource": "https://raw.githubusercontent.com/actualbudget/actual/a3a1c7fc41f891dc91936a488ef08f695c982580/packages/desktop-client/public/apple-touch-icon.png",
+    "iconSHA256": "be4ec41e9fe6ddaf61311005060f25038654ee540cda6a2847782ec0ad863164",
+    "adaptations": []
+  }
+}

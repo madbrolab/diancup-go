@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "freshrss/freshrss",
+  "kind": "compose",
+  "name": "FreshRSS",
+  "description": "集中订阅与阅读 RSS、Atom 等内容源，按用户保存标签和阅读状态，并能对接移动客户端或扩展插件。",
+  "developer": "FreshRSS",
+  "projectUrl": "https://github.com/FreshRSS/FreshRSS",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "freshrss",
+    "FreshRSS",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/freshrss.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.freshrss.ports",
+      "title": "freshrss 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "8282:80"
+    },
+    {
+      "target": "compose.services.freshrss.volumes",
+      "title": "freshrss 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/FreshRSS/FreshRSS/blob/4e8a258b011aad190597d7953b7122fc43f4658f/README.md",
+  "applications": [
+    {
+      "id": "freshrss",
+      "name": "FreshRSS",
+      "icon": "icons/freshrss.svg",
+      "developer": "FreshRSS",
+      "projectUrl": "https://github.com/FreshRSS/FreshRSS",
+      "services": [
+        "freshrss"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-02T20:43:05Z",
+    "lastCommit": "4e8a258b011aad190597d7953b7122fc43f4658f",
+    "readmeSHA256": "91df464fa602ed6f5f5b0d84b7de0130e71396aeefab2824aaef0762d2d5626a",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/freshrss.json",
+      "sha256": "5e20c40dc0144b2db22454a17e6fa729bdaaba6f3c4749607ca4a0c49056f8a9"
+    },
+    "iconSource": "https://raw.githubusercontent.com/FreshRSS/FreshRSS/4e8a258b011aad190597d7953b7122fc43f4658f/p/themes/icons/icon.svg",
+    "iconSHA256": "06511a1eeab257806b51515e261cabf6ea825f14f8a11d120cdee7a2614c63b0",
+    "adaptations": []
+  }
+}

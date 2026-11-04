@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "id": "fish2018/pansou",
+  "kind": "compose",
+  "name": "PanSou",
+  "description": "按网盘类型汇集频道和插件的搜索结果，通过并发检索与缓存减少等待，并提供网页操作入口。",
+  "developer": "fish2018",
+  "projectUrl": "https://github.com/fish2018/pansou",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "storage",
+  "tags": [
+    "pansou",
+    "PanSou",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/pansou.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.pansou.ports",
+      "title": "pansou 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "805:80"
+    },
+    {
+      "target": "compose.services.pansou.volumes",
+      "title": "pansou 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services",
+      "title": "代理地址",
+      "reason": "模板保留了代理示例地址，请填写可达的代理，或在直连环境移除对应项。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/fish2018/pansou/blob/221665fb2c9279f22af4684ea2d8c0c331eac1cc/README.md",
+  "applications": [
+    {
+      "id": "pansou",
+      "name": "PanSou",
+      "icon": "icons/pansou.svg",
+      "developer": "fish2018",
+      "projectUrl": "https://github.com/fish2018/pansou",
+      "services": [
+        "pansou"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-12T06:00:52Z",
+    "lastCommit": "221665fb2c9279f22af4684ea2d8c0c331eac1cc",
+    "readmeSHA256": "2a537879e061ee067ab26f99f5cb3f49805202ba85b98e4860992cd3a5345e42",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/pansou.json",
+      "sha256": "fed1e90f4d69be15a61c9031532fa3f8a1fa59c26b7fb5e6212511fee8e0e53a"
+    },
+    "iconSource": "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/folder-search.svg",
+    "iconSHA256": "ddcdf0c312320d13a9e327793e73c3a056309e91da1ca630fe1531db81aed247",
+    "adaptations": [
+      "pansou 使用项目内实例名，原容器名保留为网络别名",
+      "pansou 的命名卷 pansou-data 改为项目数据绑定 ./data/pansou-data"
+    ]
+  }
+}

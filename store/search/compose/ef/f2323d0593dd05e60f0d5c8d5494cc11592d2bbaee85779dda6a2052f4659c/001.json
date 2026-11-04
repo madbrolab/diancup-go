@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/babybuddy/babybuddy/summary.json",
+      "sha256": "1183ea8eff73077de909ff8074ab2a4db7da07bb1d6794cd25a6114b18a3294c"
+    },
+    {
+      "path": "templates/louislam/uptime-kuma-compose/summary.json",
+      "sha256": "f64e9cd4ea66160074c0c15a7245f2df7f4dde369bf0ec95eeec5c45325d6413"
+    },
+    {
+      "path": "templates/nginx/nginx/summary.json",
+      "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+    }
+  ],
+  "next": null
+}

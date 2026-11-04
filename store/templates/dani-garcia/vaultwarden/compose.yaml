@@ -1,0 +1,13 @@
+services:
+  vaultwarden:
+    image: vaultwarden/server:latest
+    restart: unless-stopped
+    ports:
+      - 8080:80
+    volumes:
+      - ./vw-data:/data
+    environment:
+      - DOMAIN=https://bw.example.com
+      - SIGNUPS_ALLOWED=true
+      - ADMIN_TOKEN=${ADMIN_TOKEN}
+      - WEBSOCKET_ENABLED=true

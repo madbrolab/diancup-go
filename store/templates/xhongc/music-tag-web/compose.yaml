@@ -1,0 +1,13 @@
+services:
+  music-tag:
+    image: xhongc/music_tag_web:latest
+    ports:
+      - 8002:8002
+    volumes:
+      - ./music:/app/media:rw
+      - ./config:/app/data
+    restart: unless-stopped
+    networks:
+      default:
+        aliases:
+          - music-tag-web

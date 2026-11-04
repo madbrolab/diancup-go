@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "actualbudget/actual-budget",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Actual Budget",
+  "description": "以本地数据为中心管理个人收支与预算，并在设备之间同步记录。软件免费开源，可自行部署或选择外部托管。",
+  "developer": "actualbudget",
+  "projectUrl": "https://github.com/actualbudget/actual",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/actual-budget.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "actual-budget",
+    "Actual Budget",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/actualbudget/actual-budget/manifest.json",
+    "sha256": "a1a12f9c486ac97f73875916c9697708fedd4989017f87ac7feef1c9a1e2a132"
+  }
+}

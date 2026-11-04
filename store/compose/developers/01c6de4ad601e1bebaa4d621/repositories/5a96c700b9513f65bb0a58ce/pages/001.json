@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "chatgptnextweb/nextchat",
+      "kind": "compose",
+      "category": "ai",
+      "name": "NextChat",
+      "description": "提供可自建的多模型对话界面，支持常见模型渠道及桌面使用方式，并提供可选企业定制与私有部署服务。",
+      "developer": "ChatGPTNextWeb",
+      "projectUrl": "https://github.com/ChatGPTNextWeb/NextChat",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/chatgpt-next-web.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "chatgpt-next-web",
+        "NextChat",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/chatgptnextweb/nextchat/manifest.json",
+        "sha256": "cc2f5167abbd4d3c52fb55619bfbac3a06c7506c9e8f718209b8785839b03e35"
+      },
+      "summary": {
+        "path": "templates/chatgptnextweb/nextchat/summary.json",
+        "sha256": "87116ae478c2895da9027af1fa7ac461aa756e14d3d5e6be4ffdb73600393746"
+      }
+    }
+  ],
+  "next": null
+}

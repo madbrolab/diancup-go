@@ -1,0 +1,15 @@
+services:
+  php-epg:
+    ports:
+      - 5678:80
+    volumes:
+      - ./epg:/htdocs/data
+    environment:
+      - PHP_MEMORY_LIMIT=512M
+      - ENABLE_FFMPEG=true
+    restart: unless-stopped
+    image: taksss/php-epg:latest
+    networks:
+      default:
+        aliases:
+          - php-epg

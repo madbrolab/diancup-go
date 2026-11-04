@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "59799517/simple-sq-music-plus",
+  "kind": "compose",
+  "category": "media",
+  "name": "Simple SQ Music Plus",
+  "description": "管理音乐搜索与下载任务，将歌曲、歌词和标签按媒体库需要组织到本地目录。README 限定学习用途，未明确通用开源许可。",
+  "developer": "59799517",
+  "projectUrl": "https://github.com/59799517/simple_sq_music_plus",
+  "source": "unknown",
+  "license": "Unspecified; noncommercial README terms",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "icon": "icons/sqmusic.svg",
+  "architectures": [
+    "amd64"
+  ],
+  "tags": [
+    "sqmusic",
+    "Simple SQ Music Plus",
+    "compose"
+  ],
+  "applicationCount": 2,
+  "manifest": {
+    "path": "templates/59799517/simple-sq-music-plus/manifest.json",
+    "sha256": "3afee2a8549c675c04c9213a9ed0fa6dff0113598e3bc6216139c810bfab498d"
+  }
+}

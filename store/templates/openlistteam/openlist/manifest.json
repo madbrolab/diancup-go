@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "openlistteam/openlist",
+  "kind": "compose",
+  "name": "OpenList",
+  "description": "将多个存储服务组织成统一的文件列表，通过网页访问和管理内容。项目声明现有功能免费提供。",
+  "developer": "OpenListTeam",
+  "projectUrl": "https://github.com/OpenListTeam/OpenList",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "storage",
+  "tags": [
+    "openlist",
+    "OpenList",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/openlist.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.openlist.ports",
+      "title": "openlist 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "5244:5244、5245:5245"
+    },
+    {
+      "target": "compose.services.openlist.volumes",
+      "title": "openlist 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/OpenListTeam/OpenList/blob/ef5d8c8d41ce3b300f7d7c47803e9d5082c9f64f/README.md",
+  "applications": [
+    {
+      "id": "openlist",
+      "name": "OpenList",
+      "icon": "icons/openlist.svg",
+      "developer": "OpenListTeam",
+      "projectUrl": "https://github.com/OpenListTeam/OpenList",
+      "services": [
+        "openlist"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T05:23:35Z",
+    "lastCommit": "ef5d8c8d41ce3b300f7d7c47803e9d5082c9f64f",
+    "readmeSHA256": "5d0d31f2629a3a3b1c105c74765f1b6102f9c7c8d6b378bee03d11b6607f38a4",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/openlist.json",
+      "sha256": "8d83972954d7251ad47f9b399966138fa79f0dca091a30a682f7e172a3195298"
+    },
+    "iconSource": "https://raw.githubusercontent.com/OpenListTeam/Logo/main/logo.svg",
+    "iconSHA256": "fe09f04c24101c9b4b8baada86cf77913bc50731082b102f61ad6260626b43db",
+    "adaptations": [
+      "openlist 使用项目内实例名，原容器名保留为网络别名"
+    ]
+  }
+}

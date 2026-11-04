@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "hkuds/deeptutor",
+  "kind": "compose",
+  "name": "DeepTutor",
+  "description": "围绕个人资料构建学习工作区，结合知识库检索、辅导问答与学习任务辅助理解内容。项目声明没有付费在线产品。",
+  "developer": "HKUDS",
+  "projectUrl": "https://github.com/HKUDS/DeepTutor",
+  "source": "open",
+  "license": "Apache-2.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "ai",
+  "tags": [
+    "deeptutor",
+    "DeepTutor",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/deeptutor.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.deeptutor.ports",
+      "title": "deeptutor 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "28001:28001、23782:23782"
+    },
+    {
+      "target": "compose.services.deeptutor.volumes",
+      "title": "deeptutor 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.deeptutor.environment",
+      "title": "模型服务与访问地址",
+      "reason": "模板中的模型凭据和 NAS 地址是占位值，请替换为自己的服务配置。",
+      "required": true,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/HKUDS/DeepTutor/blob/f7aed0744c36c5afef16a4261c31ebee1208cac2/README.md",
+  "applications": [
+    {
+      "id": "deeptutor",
+      "name": "DeepTutor",
+      "icon": "icons/deeptutor.svg",
+      "developer": "HKUDS",
+      "projectUrl": "https://github.com/HKUDS/DeepTutor",
+      "services": [
+        "deeptutor"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-31T16:50:27Z",
+    "lastCommit": "f7aed0744c36c5afef16a4261c31ebee1208cac2",
+    "readmeSHA256": "f96523c52b9a589e9baa7988e470c0ce8a9a791fa6609416f42e1ae3f7f391d4",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/deeptutor.json",
+      "sha256": "1c05173989285129f1f2f69935d0b57ca935783c6911820b427de959202abc43"
+    },
+    "iconSource": "https://raw.githubusercontent.com/HKUDS/DeepTutor/f7aed0744c36c5afef16a4261c31ebee1208cac2/web/public/apple-touch-icon.png",
+    "iconSHA256": "4308c588bb3bb864e3abc0cd459f33ee77abfa68f2aea488f02c21a18cb1fc1d",
+    "adaptations": [
+      "deeptutor 使用项目内实例名，原容器名保留为网络别名"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "fccview/jotty",
+      "kind": "compose",
+      "category": "tools",
+      "name": "jotty·page",
+      "description": "自建清单与笔记空间，保存日常任务和文字记录，并可为个人笔记启用加密。",
+      "developer": "fccview",
+      "projectUrl": "https://github.com/fccview/jotty",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/jotty.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "jotty",
+        "jotty·page",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/fccview/jotty/manifest.json",
+        "sha256": "23e5399e404ae8bbb857aa94b00277a7c37a016d22a98e656dd2327f8745df94"
+      },
+      "summary": {
+        "path": "templates/fccview/jotty/summary.json",
+        "sha256": "8faab34e70c0df1a196898d3a1fadeba42cdb3b0c9ace91346e84bfe92a7f8d9"
+      }
+    }
+  ],
+  "next": null
+}

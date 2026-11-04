@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "jiangrui1994/cloudsaver",
+  "kind": "compose",
+  "name": "CloudSaver",
+  "description": "把资源检索、分享链接解析和网盘转存放在同一界面操作。公开源码与较新 Docker 版本存在差异，镜像授权及收费情况需另行确认。",
+  "developer": "jiangrui1994",
+  "projectUrl": "https://github.com/jiangrui1994/CloudSaver",
+  "source": "unknown",
+  "license": "MIT applies to published source only",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "storage",
+  "tags": [
+    "cloudsaver",
+    "CloudSaver",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/cloudsaver.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.cloudsaver.ports",
+      "title": "cloudsaver 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "8008:8008"
+    },
+    {
+      "target": "compose.services.cloudsaver.volumes",
+      "title": "cloudsaver 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/jiangrui1994/CloudSaver/blob/672cc48ab656973de2675383c966a5336d9de372/README.md",
+  "applications": [
+    {
+      "id": "cloudsaver",
+      "name": "CloudSaver",
+      "icon": "icons/cloudsaver.svg",
+      "developer": "jiangrui1994",
+      "projectUrl": "https://github.com/jiangrui1994/CloudSaver",
+      "services": [
+        "cloudsaver"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-15T07:32:15Z",
+    "lastCommit": "672cc48ab656973de2675383c966a5336d9de372",
+    "readmeSHA256": "35f11ae1acb950baf61b553c919e2df82ab60ef2cebacc3682047cc313894683",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/cloudsaver.json",
+      "sha256": "51bdc971fe58ffbb8c48f460bc6718b21be0b194b7dcc2e8f4391c3a8861da8e"
+    },
+    "iconSource": "https://raw.githubusercontent.com/jiangrui1994/CloudSaver/672cc48ab656973de2675383c966a5336d9de372/docs/logo.svg",
+    "iconSHA256": "532ff4db0324e75112098c1259dee2ed5ed641d6c7cfde9791a60d1dc6b7baa4",
+    "adaptations": [
+      "cloudsaver 使用项目内实例名，原容器名保留为网络别名",
+      "cloudsaver 补全数据绑定 ./data/cloudsaver/config:/app/config"
+    ]
+  }
+}

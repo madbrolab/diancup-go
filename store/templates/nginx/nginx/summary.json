@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "nginx/nginx",
+  "kind": "compose",
+  "category": "web",
+  "name": "NGINX",
+  "description": "用于发布网站、转发 HTTP 请求和分发后端流量的 Web 服务，适合静态站点与反向代理。另有可选商业支持。",
+  "developer": "nginx",
+  "projectUrl": "https://github.com/nginx/nginx",
+  "source": "open",
+  "license": "BSD-2-Clause",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "icon": "icons/nginx.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "nginx",
+    "NGINX",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/nginx/nginx/manifest.json",
+    "sha256": "d47ee4ccb8ee6107d7c5428ef40278546b1425808e0edd1620b6e2ef6a7138e9"
+  }
+}

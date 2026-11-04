@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "beidoums/beidou-server",
+      "kind": "compose",
+      "category": "games",
+      "name": "BeiDou Server",
+      "description": "基于 Cosmic 持续开发的游戏服务端及管理界面，包含数据库初始化、多语言资源支持与管理 API。",
+      "developer": "BeiDouMS",
+      "projectUrl": "https://github.com/BeiDouMS/BeiDou-Server",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/maplestory.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "maplestory",
+        "BeiDou Server",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/beidoums/beidou-server/manifest.json",
+        "sha256": "7684ddde7c5566f520f1306d5f5e45c3fe297d006184d09cffe4c2d4ffd98c5a"
+      },
+      "summary": {
+        "path": "templates/beidoums/beidou-server/summary.json",
+        "sha256": "c1dbf006a69d5051eab8223b76f93b1627ee78162213783077c353571ca2aa6a"
+      }
+    }
+  ],
+  "next": null
+}

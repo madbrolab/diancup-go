@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "louislam/dockge",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Dockge",
+  "description": "围绕 Compose 文件管理容器应用栈，在网页中编辑配置、查看终端并执行启停或镜像更新。",
+  "developer": "louislam",
+  "projectUrl": "https://github.com/louislam/dockge",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/dockge.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "dockge",
+    "Dockge",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/louislam/dockge/manifest.json",
+    "sha256": "9796e44efcc480937582ba9435f632dd5b73000d1ba302f2f3e756e1218240b1"
+  }
+}

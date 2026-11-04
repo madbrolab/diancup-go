@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "count": 0,
+  "count": 4,
   "first": {
     "path": "compose/storage/pages/001.json",
-    "sha256": "a442d90dbc231342fa75d8e16b04f8ed7bd35e3fe7fa0084cd9bb70cc4861eb3"
+    "sha256": "8a1708a10e8e2dfc872bc13995e174eef5b1ff6a817f6fffb0b28981711efc88"
   }
 }

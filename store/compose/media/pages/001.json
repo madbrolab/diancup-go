@@ -1,5 +1,229 @@
 {
   "schemaVersion": 1,
-  "items": [],
+  "items": [
+    {
+      "id": "59799517/simple-sq-music-plus",
+      "kind": "compose",
+      "category": "media",
+      "name": "Simple SQ Music Plus",
+      "description": "管理音乐搜索与下载任务，将歌曲、歌词和标签按媒体库需要组织到本地目录。README 限定学习用途，未明确通用开源许可。",
+      "developer": "59799517",
+      "projectUrl": "https://github.com/59799517/simple_sq_music_plus",
+      "source": "unknown",
+      "license": "Unspecified; noncommercial README terms",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/sqmusic.svg",
+      "architectures": [
+        "amd64"
+      ],
+      "tags": [
+        "sqmusic",
+        "Simple SQ Music Plus",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/59799517/simple-sq-music-plus/manifest.json",
+        "sha256": "3afee2a8549c675c04c9213a9ed0fa6dff0113598e3bc6216139c810bfab498d"
+      },
+      "summary": {
+        "path": "templates/59799517/simple-sq-music-plus/summary.json",
+        "sha256": "e1cfe265b093edc79466f6684e0b07dc539888df33d05124e4ed1354550d0218"
+      }
+    },
+    {
+      "id": "advplyr/audiobookshelf",
+      "kind": "compose",
+      "category": "media",
+      "name": "Audiobookshelf",
+      "description": "管理有声书和播客，补充媒体信息并在多个设备之间同步播放进度，也可订阅节目并自动下载新内容。",
+      "developer": "advplyr",
+      "projectUrl": "https://github.com/advplyr/audiobookshelf",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/audiobookshelf.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "audiobookshelf",
+        "Audiobookshelf",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/advplyr/audiobookshelf/manifest.json",
+        "sha256": "b036119894f337309dc5d65ce0e394792ae228bbe6120fa926043f9a07b79c3a"
+      },
+      "summary": {
+        "path": "templates/advplyr/audiobookshelf/summary.json",
+        "sha256": "7840c647865f708f1a84fe412da077eeb000440e0e44b1cb114773bd64323cbc"
+      }
+    },
+    {
+      "id": "chenqimiao/qm-music",
+      "kind": "compose",
+      "category": "media",
+      "name": "QM-Music",
+      "description": "将本地曲库作为兼容 Subsonic 客户端的私有音乐服务，可连接元数据服务并维护媒体缓存。README 同时写有非商业限制。",
+      "developer": "chenqimiao",
+      "projectUrl": "https://github.com/chenqimiao/qm-music",
+      "source": "unknown",
+      "license": "Apache-2.0 with noncommercial README terms",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/qm-music.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "qm-music",
+        "QM-Music",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/chenqimiao/qm-music/manifest.json",
+        "sha256": "2efedccd7995037c6d0f536fa7e734afcba6cc51859e8137095ccb86b633bc80"
+      },
+      "summary": {
+        "path": "templates/chenqimiao/qm-music/summary.json",
+        "sha256": "4b5bd470802223d3d00d22068ee4044347e9ef28db52f799de01d803ae2138eb"
+      }
+    },
+    {
+      "id": "navidrome/navidrome",
+      "kind": "compose",
+      "category": "media",
+      "name": "Navidrome",
+      "description": "把服务器中的音乐收藏提供给浏览器和兼容客户端播放，可维护曲库、用户与个人播放记录；另有第三方托管选择。",
+      "developer": "navidrome",
+      "projectUrl": "https://github.com/navidrome/navidrome",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/navidrome.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "navidrome",
+        "Navidrome",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/navidrome/navidrome/manifest.json",
+        "sha256": "85758d870818fd2eff6b126d0e6301370fa986d58a749d91f39d87ebf414b121"
+      },
+      "summary": {
+        "path": "templates/navidrome/navidrome/summary.json",
+        "sha256": "e023b959f604a2fd015c23eb7c9c4d6993c024bf10fbc34ccbb798da35b01616"
+      }
+    },
+    {
+      "id": "seerr-team/seerr",
+      "kind": "compose",
+      "category": "media",
+      "name": "Seerr",
+      "description": "为家庭媒体库收集电影和剧集申请，关联媒体服务器及自动整理工具，集中处理申请审批、权限和通知。",
+      "developer": "seerr-team",
+      "projectUrl": "https://github.com/seerr-team/seerr",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/seerr.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "seerr",
+        "Seerr",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/seerr-team/seerr/manifest.json",
+        "sha256": "39c50db620f0559492db481396d15caea15791142cf1eb9328e8660579f62b29"
+      },
+      "summary": {
+        "path": "templates/seerr-team/seerr/summary.json",
+        "sha256": "aa4faa509a6b6c70931726ffb477989f164b37379c45704b737fa7d471f41d9f"
+      }
+    },
+    {
+      "id": "taksssss/iptv-tool",
+      "kind": "compose",
+      "category": "media",
+      "name": "IPTV 工具箱",
+      "description": "统一整理节目单、频道台标与直播列表，按播放客户端需要输出不同格式，并支持频道匹配、定时更新和访问控制。",
+      "developer": "taksssss",
+      "projectUrl": "https://github.com/taksssss/iptv-tool",
+      "source": "open",
+      "license": "GPL-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/iptv-tool.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "iptv-tool",
+        "IPTV 工具箱",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/taksssss/iptv-tool/manifest.json",
+        "sha256": "873a683bb2cf2a761b305b58191a0798ce34169f0d9bd89b031c1862bc162a5f"
+      },
+      "summary": {
+        "path": "templates/taksssss/iptv-tool/summary.json",
+        "sha256": "d410a372e471eb12de6df9b97cc2f6669e33483606e32214f94f8bb977c7eff9"
+      }
+    },
+    {
+      "id": "xhongc/music-tag-web",
+      "kind": "compose",
+      "category": "media",
+      "name": "Music Tag Web",
+      "description": "在浏览器中整理服务器曲库，批量修改歌曲标签、匹配封面与歌词，并按音乐信息归档文件。README 附有非商业使用限制。",
+      "developer": "xhongc",
+      "projectUrl": "https://github.com/xhongc/music-tag-web",
+      "source": "unknown",
+      "license": "GPL-3.0 with additional README restrictions",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/music-tag-web.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "music-tag-web",
+        "Music Tag Web",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/xhongc/music-tag-web/manifest.json",
+        "sha256": "bfc1ee087ebc008d102468d0fe3cd22e814f48e22756ed832760dc53ea70b36c"
+      },
+      "summary": {
+        "path": "templates/xhongc/music-tag-web/summary.json",
+        "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+      }
+    }
+  ],
   "next": null
 }

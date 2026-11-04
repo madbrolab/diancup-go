@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "finb/bark-server",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Bark Server",
+      "description": "为 Bark iOS 客户端提供自建推送后端，让脚本和其他应用把自定义通知发送到自己的设备。",
+      "developer": "Finb",
+      "projectUrl": "https://github.com/Finb/bark-server",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/bark-server.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "bark-server",
+        "Bark Server",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/finb/bark-server/manifest.json",
+        "sha256": "43bebc7add9367bcaae1c4dbdc0d1a20b57d795d14580f8065d6bdb401a0b7b6"
+      },
+      "summary": {
+        "path": "templates/finb/bark-server/summary.json",
+        "sha256": "bae995656dad49bb9e9f20453788e785c89b813a0a1437005ba3df393ef94283"
+      }
+    }
+  ],
+  "next": null
+}

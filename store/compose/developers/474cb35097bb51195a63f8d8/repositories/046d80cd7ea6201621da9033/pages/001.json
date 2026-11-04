@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "netdata/netdata",
+      "kind": "compose",
+      "category": "monitoring",
+      "name": "Netdata",
+      "description": "持续采集主机和容器的运行指标，以图表、告警与异常检测定位问题；Agent 开源，云端与界面另有许可及付费选项。",
+      "developer": "netdata",
+      "projectUrl": "https://github.com/netdata/netdata",
+      "source": "open",
+      "license": "GPL-3.0-or-later (Agent); NCUL1 (UI)",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/netdata.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "netdata",
+        "Netdata",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/netdata/netdata/manifest.json",
+        "sha256": "20ef33ede2caf771f914cd3b7ad04250c1c8d437ffe08f9ce4ceed4b4b770763"
+      },
+      "summary": {
+        "path": "templates/netdata/netdata/summary.json",
+        "sha256": "b615cf311e532a6a7881de17f3256b92c605646da6af278bde3fcf70e85f8153"
+      }
+    }
+  ],
+  "next": null
+}

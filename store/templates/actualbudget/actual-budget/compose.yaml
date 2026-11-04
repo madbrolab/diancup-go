@@ -1,0 +1,8 @@
+services:
+  actual-server:
+    image: actualbudget/actual-server:latest
+    restart: unless-stopped
+    ports:
+      - 5006:5006
+    volumes:
+      - ./actual-data:/data

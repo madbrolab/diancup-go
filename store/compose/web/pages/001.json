@@ -2,6 +2,70 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "gethomepage/homepage",
+      "kind": "compose",
+      "category": "web",
+      "name": "Homepage",
+      "description": "把常用应用、书签与服务状态整理成个人入口页面，利用 YAML 配置组件，并可读取容器标签实现服务发现。",
+      "developer": "gethomepage",
+      "projectUrl": "https://github.com/gethomepage/homepage",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/homepage.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "homepage",
+        "Homepage",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/gethomepage/homepage/manifest.json",
+        "sha256": "8c9f933a5cf2a88b038e98977eb3094df9093846855ad2b761f0ebfba820a9c9"
+      },
+      "summary": {
+        "path": "templates/gethomepage/homepage/summary.json",
+        "sha256": "a2371245fa69a66a0867eb65080a1fc3a804451dd16ea8697e91e3e5c147dade"
+      }
+    },
+    {
+      "id": "nginx/nginx",
+      "kind": "compose",
+      "category": "web",
+      "name": "NGINX",
+      "description": "用于发布网站、转发 HTTP 请求和分发后端流量的 Web 服务，适合静态站点与反向代理。另有可选商业支持。",
+      "developer": "nginx",
+      "projectUrl": "https://github.com/nginx/nginx",
+      "source": "open",
+      "license": "BSD-2-Clause",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/nginx.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "nginx",
+        "NGINX",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/nginx/nginx/manifest.json",
+        "sha256": "d47ee4ccb8ee6107d7c5428ef40278546b1425808e0edd1620b6e2ef6a7138e9"
+      },
+      "summary": {
+        "path": "templates/nginx/nginx/summary.json",
+        "sha256": "6eb46044e1a46122462906e90afa339b16e9a35515c5967a87f7f5b91f2f22a7"
+      }
+    },
+    {
       "id": "official/wordpress-mariadb",
       "kind": "compose",
       "category": "web",

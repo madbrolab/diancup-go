@@ -1,0 +1,17 @@
+services:
+  openlist:
+    restart: always
+    volumes:
+      - ./openlist:/opt/openlist/data
+    ports:
+      - 5244:5244
+      - 5245:5245
+    user: 0:0
+    environment:
+      - UMASK=022
+      - TZ=Asia/Shanghai
+    image: openlistteam/openlist:latest
+    networks:
+      default:
+        aliases:
+          - openlist

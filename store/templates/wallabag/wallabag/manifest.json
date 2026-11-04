@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "wallabag/wallabag",
+  "kind": "compose",
+  "name": "wallabag",
+  "description": "将网页正文保存到个人稍后读列表，过滤阅读干扰，并通过浏览器扩展和移动客户端继续阅读。",
+  "developer": "wallabag",
+  "projectUrl": "https://github.com/wallabag/wallabag",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "wallabag",
+    "wallabag",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/wallabag.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.wallabag.ports",
+      "title": "wallabag 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "8284:80"
+    },
+    {
+      "target": "compose.services.wallabag.volumes",
+      "title": "wallabag 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/wallabag/wallabag/blob/17be63dee2a14f5a49b49dd12c9daf81b9754991/README.md",
+  "applications": [
+    {
+      "id": "wallabag",
+      "name": "wallabag",
+      "icon": "icons/wallabag.svg",
+      "developer": "wallabag",
+      "projectUrl": "https://github.com/wallabag/wallabag",
+      "services": [
+        "wallabag"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-03T16:57:41Z",
+    "lastCommit": "17be63dee2a14f5a49b49dd12c9daf81b9754991",
+    "readmeSHA256": "0dd89f0f2c9e197ae8ef1b5d9f650b3f11384eb951c1d9be38c724ffdc4df4f8",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/wallabag.json",
+      "sha256": "330c57832473f066401a4467f354806fbc988608969cf4b9d83f059124b6c8a0"
+    },
+    "iconSource": "https://raw.githubusercontent.com/wallabag/wallabag/17be63dee2a14f5a49b49dd12c9daf81b9754991/web/img/logo-square.svg",
+    "iconSHA256": "77a39db470f4402e2bfe34d9068b7dbc561437ba26893e986771f06185a960a9",
+    "adaptations": []
+  }
+}

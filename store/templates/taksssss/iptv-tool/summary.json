@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "taksssss/iptv-tool",
+  "kind": "compose",
+  "category": "media",
+  "name": "IPTV 工具箱",
+  "description": "统一整理节目单、频道台标与直播列表，按播放客户端需要输出不同格式，并支持频道匹配、定时更新和访问控制。",
+  "developer": "taksssss",
+  "projectUrl": "https://github.com/taksssss/iptv-tool",
+  "source": "open",
+  "license": "GPL-2.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/iptv-tool.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "iptv-tool",
+    "IPTV 工具箱",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/taksssss/iptv-tool/manifest.json",
+    "sha256": "873a683bb2cf2a761b305b58191a0798ce34169f0d9bd89b031c1862bc162a5f"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "dockers-x/cfui",
+      "kind": "compose",
+      "category": "network",
+      "name": "cfui",
+      "description": "通过网页管理 Cloudflare Tunnel 进程与入口规则，并提供 DNS 更新、DDNS 和存储访问等辅助功能。",
+      "developer": "dockers-x",
+      "projectUrl": "https://github.com/dockers-x/cfui",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/cfui.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "cfui",
+        "cfui",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/dockers-x/cfui/manifest.json",
+        "sha256": "382dff53ab670a69660f07299a0a512e00ef573a84f4dcc63e2483ad1f2c1b1d"
+      },
+      "summary": {
+        "path": "templates/dockers-x/cfui/summary.json",
+        "sha256": "5f378a2da773577b9a583762f525155de643827b563e6b928546891ec845db9c"
+      }
+    }
+  ],
+  "next": null
+}

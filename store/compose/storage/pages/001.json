@@ -1,5 +1,134 @@
 {
   "schemaVersion": 1,
-  "items": [],
+  "items": [
+    {
+      "id": "coooolfan/xiaomi-album-syncer",
+      "kind": "compose",
+      "category": "storage",
+      "name": "Xiaomi Album Syncer",
+      "description": "把小米云相册及 iCloud 照片保存到本地，支持多账号、增量同步与定时下载，便于集中管理云端影像。",
+      "developer": "Coooolfan",
+      "projectUrl": "https://github.com/Coooolfan/XiaomiAlbumSyncer",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/xiaomialbumsyncer.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "xiaomialbumsyncer",
+        "Xiaomi Album Syncer",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/coooolfan/xiaomi-album-syncer/manifest.json",
+        "sha256": "7f874628e1ffcf71437385091d7a7cc515fe6f78414f6e219c96609ac962a2dd"
+      },
+      "summary": {
+        "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
+        "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+      }
+    },
+    {
+      "id": "fish2018/pansou",
+      "kind": "compose",
+      "category": "storage",
+      "name": "PanSou",
+      "description": "按网盘类型汇集频道和插件的搜索结果，通过并发检索与缓存减少等待，并提供网页操作入口。",
+      "developer": "fish2018",
+      "projectUrl": "https://github.com/fish2018/pansou",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/pansou.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "pansou",
+        "PanSou",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/fish2018/pansou/manifest.json",
+        "sha256": "9e7ef5defcf1d4a57e72940d316db14b1a5b6fac0bcbbc829c6bbe967f14df3f"
+      },
+      "summary": {
+        "path": "templates/fish2018/pansou/summary.json",
+        "sha256": "27aed697fef86b6d4a83ef67ef24a5e393a03a20a0acea1fd2001e3935e6f201"
+      }
+    },
+    {
+      "id": "jiangrui1994/cloudsaver",
+      "kind": "compose",
+      "category": "storage",
+      "name": "CloudSaver",
+      "description": "把资源检索、分享链接解析和网盘转存放在同一界面操作。公开源码与较新 Docker 版本存在差异，镜像授权及收费情况需另行确认。",
+      "developer": "jiangrui1994",
+      "projectUrl": "https://github.com/jiangrui1994/CloudSaver",
+      "source": "unknown",
+      "license": "MIT applies to published source only",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/cloudsaver.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "cloudsaver",
+        "CloudSaver",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/jiangrui1994/cloudsaver/manifest.json",
+        "sha256": "5f329b15308415943bee3b6220cc6032a7f09b3a24eef4364ba4898904c256ca"
+      },
+      "summary": {
+        "path": "templates/jiangrui1994/cloudsaver/summary.json",
+        "sha256": "f4135f77fec5eb7fd6eef5a9d6907884261040283a1b0f2b710780615f030920"
+      }
+    },
+    {
+      "id": "openlistteam/openlist",
+      "kind": "compose",
+      "category": "storage",
+      "name": "OpenList",
+      "description": "将多个存储服务组织成统一的文件列表，通过网页访问和管理内容。项目声明现有功能免费提供。",
+      "developer": "OpenListTeam",
+      "projectUrl": "https://github.com/OpenListTeam/OpenList",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/openlist.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "openlist",
+        "OpenList",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/openlistteam/openlist/manifest.json",
+        "sha256": "dce5e292f4d058c7742ba1cc36d9a55553f5a5354e16522c1a3fbc40d7616c6c"
+      },
+      "summary": {
+        "path": "templates/openlistteam/openlist/summary.json",
+        "sha256": "b4728ac94ec81518975317ea90c798baabc14a7752c75c7b829efa2068107cd5"
+      }
+    }
+  ],
   "next": null
 }

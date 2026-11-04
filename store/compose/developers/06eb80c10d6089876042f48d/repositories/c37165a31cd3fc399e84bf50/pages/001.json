@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "n8n-io/n8n",
+      "kind": "compose",
+      "category": "tools",
+      "name": "n8n",
+      "description": "用可视化节点连接应用与模型服务，编排自动化任务，也能加入脚本。采用 fair-code 授权，额外企业功能需商业许可。",
+      "developer": "n8n-io",
+      "projectUrl": "https://github.com/n8n-io/n8n",
+      "source": "unknown",
+      "license": "Sustainable Use License / n8n Enterprise License",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/n8n.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "n8n",
+        "n8n",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/n8n-io/n8n/manifest.json",
+        "sha256": "d7fca18597c59a8ebdb43e627f7d72c360fb119542e32289c45d65daae16eff2"
+      },
+      "summary": {
+        "path": "templates/n8n-io/n8n/summary.json",
+        "sha256": "c9af3641ee68a2a78b203e47fdf015183fce24205537a54442969f9ac82b4c40"
+      }
+    }
+  ],
+  "next": null
+}

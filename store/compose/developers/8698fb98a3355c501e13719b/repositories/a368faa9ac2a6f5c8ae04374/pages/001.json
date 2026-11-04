@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "stirling-tools/stirling-pdf",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Stirling PDF",
+      "description": "在本地服务器处理 PDF 的合并、拆分、转换、OCR 和签署，也可通过 API 编排任务；提供可选付费服务器及企业功能。",
+      "developer": "Stirling-Tools",
+      "projectUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "source": "open",
+      "license": "Open-core; see upstream LICENSE",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/stirling-pdf.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "stirling-pdf",
+        "Stirling PDF",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/stirling-tools/stirling-pdf/manifest.json",
+        "sha256": "22d4ae545261eb815f5b697758804133553ee64907ce5d5086403571c1abe811"
+      },
+      "summary": {
+        "path": "templates/stirling-tools/stirling-pdf/summary.json",
+        "sha256": "c66547cfc53e4e39f7da16ab542e57fea44dd12a22999d90d8c3f62f5e5a85ef"
+      }
+    }
+  ],
+  "next": null
+}

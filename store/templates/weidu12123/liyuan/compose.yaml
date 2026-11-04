@@ -1,0 +1,15 @@
+services:
+  liyuan:
+    image: coracoo/cherry:liyuan_1.0
+    ports:
+      - 50000:7620
+    restart: unless-stopped
+    volumes:
+      - ./data/liyuan-agent:/root/.liyuan
+      - ./data/liyuan-state:/app/.liyuan-state
+      - ./data/liyuan-uploads:/app/.liyuan-uploads
+      - ./data/liyuan-media:/app/.liyuan-media
+      - ./data/liyuan-audio:/app/.liyuan-audio
+      - ./data/liyuan-artifacts:/app/.liyuan-artifacts
+      - ./data/liyuan-codex:/app/.liyuan-codex
+      - ./data/liyuan-lore:/app/.liyuan-lore

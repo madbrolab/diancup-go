@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "wallabag/wallabag",
+      "kind": "compose",
+      "category": "tools",
+      "name": "wallabag",
+      "description": "将网页正文保存到个人稍后读列表，过滤阅读干扰，并通过浏览器扩展和移动客户端继续阅读。",
+      "developer": "wallabag",
+      "projectUrl": "https://github.com/wallabag/wallabag",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/wallabag.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "wallabag",
+        "wallabag",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/wallabag/wallabag/manifest.json",
+        "sha256": "2e4f953e1fe0e99e56ea785203f47aa0a2158fa0b8d6596932cb59a123fc31db"
+      },
+      "summary": {
+        "path": "templates/wallabag/wallabag/summary.json",
+        "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+      }
+    }
+  ],
+  "next": null
+}

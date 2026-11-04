@@ -1,0 +1,14 @@
+services:
+  stirling-pdf:
+    image: stirlingtools/stirling-pdf:latest
+    ports:
+      - 8080:8080
+    volumes:
+      - ./tessdata:/usr/share/tessdata
+      - ./extraConfigs:/configs
+      - ./customFiles:/customFiles/
+      - ./logs:/logs/
+      - ./pipeline:/pipeline/
+    environment:
+      - DOCKER_ENABLE_SECURITY=false
+      - LANGS=zh_CN

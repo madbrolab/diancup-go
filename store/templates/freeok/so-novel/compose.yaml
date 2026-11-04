@@ -1,0 +1,14 @@
+services:
+  sonovel:
+    image: ghcr.io/freeok/sonovel:latest
+    ports:
+      - 7765:7765
+    environment:
+      JAVA_OPTS: -Dmode=web
+    volumes:
+      - ./sonovel_data:/sonovel
+    restart: unless-stopped
+    networks:
+      default:
+        aliases:
+          - sonovel

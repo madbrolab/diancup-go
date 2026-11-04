@@ -1,0 +1,6 @@
+services:
+  vert:
+    image: ghcr.io/vert-sh/vert:latest
+    restart: unless-stopped
+    ports:
+      - 3000:80

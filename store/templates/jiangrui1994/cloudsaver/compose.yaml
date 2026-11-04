@@ -1,0 +1,13 @@
+services:
+  cloudsaver:
+    image: jiangrui1994/cloudsaver:latest
+    ports:
+      - 8008:8008
+    volumes:
+      - ./data:/app/data
+      - ./data/cloudsaver/config:/app/config
+    restart: unless-stopped
+    networks:
+      default:
+        aliases:
+          - cloud-saver

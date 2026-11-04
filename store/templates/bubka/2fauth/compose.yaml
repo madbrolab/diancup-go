@@ -1,0 +1,14 @@
+services:
+  2fauth:
+    image: 2fauth/2fauth:latest
+    restart: unless-stopped
+    ports:
+      - 8000:8000
+    volumes:
+      - ./2fauth:/2fauth
+    environment:
+      - APP_URL=http://localhost:8000
+      - APPLICATION_KEY=${APPLICATION_KEY:?请填写 APPLICATION_KEY}
+      - SITE_NAME=2FAuth
+      - AUTHENTICATION_GUARD=web-guard
+      - DB_DATABASE=/2fauth/database/database.sqlite

@@ -1,0 +1,13 @@
+services:
+  app:
+    image: coolfan1024/xiaomi-album-syncer:latest
+    ports:
+      - 38232:8080
+    volumes:
+      - ./download:/app/download
+      - ./db:/app/db
+    restart: unless-stopped
+    networks:
+      default:
+        aliases:
+          - xiaomi-album-syncer

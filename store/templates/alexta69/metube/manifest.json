@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "alexta69/metube",
+  "kind": "compose",
+  "name": "MeTube",
+  "description": "为 yt-dlp 提供网页任务界面，将视频、音频、字幕或播放列表下载到服务器，并按任务选择格式与保存位置。",
+  "developer": "alexta69",
+  "projectUrl": "https://github.com/alexta69/metube",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "download",
+  "tags": [
+    "metube",
+    "MeTube",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/metube.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.metube.ports",
+      "title": "metube 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "8081:8081"
+    },
+    {
+      "target": "compose.services.metube.volumes",
+      "title": "metube 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/alexta69/metube/blob/7e73766238f3fc491b2aeba0c3c8b415c408eaaa/README.md",
+  "applications": [
+    {
+      "id": "metube",
+      "name": "MeTube",
+      "icon": "icons/metube.svg",
+      "developer": "alexta69",
+      "projectUrl": "https://github.com/alexta69/metube",
+      "services": [
+        "metube"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-01T15:02:05Z",
+    "lastCommit": "7e73766238f3fc491b2aeba0c3c8b415c408eaaa",
+    "readmeSHA256": "ea2fbfd2fceac61ea1f6706175c9f70242144747fcdafb9b35cddd9eb1c0b7ed",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/metube.json",
+      "sha256": "fad05fee7854c9b335c304872921b7f5d74fb69ae14ce013fd340176e3ce0656"
+    },
+    "iconSource": "https://raw.githubusercontent.com/alexta69/metube/7e73766238f3fc491b2aeba0c3c8b415c408eaaa/ui/src/assets/icons/apple-touch-icon.png",
+    "iconSHA256": "3c329f3502566981a1e55903982de76b07065d67f7d3439ffd3c77d9e664816f",
+    "adaptations": []
+  }
+}

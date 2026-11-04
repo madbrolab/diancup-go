@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "gethomepage/homepage",
+  "kind": "compose",
+  "name": "Homepage",
+  "description": "把常用应用、书签与服务状态整理成个人入口页面，利用 YAML 配置组件，并可读取容器标签实现服务发现。",
+  "developer": "gethomepage",
+  "projectUrl": "https://github.com/gethomepage/homepage",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "web",
+  "tags": [
+    "homepage",
+    "Homepage",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/homepage.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.homepage.ports",
+      "title": "homepage 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "3000:3000"
+    },
+    {
+      "target": "compose.services.homepage.volumes",
+      "title": "homepage 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/gethomepage/homepage/blob/97135eaf8747e8d673ed57f7df328ef5a7e65a4e/README.md",
+  "applications": [
+    {
+      "id": "homepage",
+      "name": "Homepage",
+      "icon": "icons/homepage.svg",
+      "developer": "gethomepage",
+      "projectUrl": "https://github.com/gethomepage/homepage",
+      "services": [
+        "homepage"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-02T05:37:24Z",
+    "lastCommit": "97135eaf8747e8d673ed57f7df328ef5a7e65a4e",
+    "readmeSHA256": "324b4d0b303d6b37c201424690340c698f92393acee484fed1a9c2c680115f3f",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/homepage.json",
+      "sha256": "e245d18edcf7c816f6aa60647872b4cfbb065a43a025fc98d3cc75b8a40f2010"
+    },
+    "iconSource": "https://raw.githubusercontent.com/gethomepage/homepage/97135eaf8747e8d673ed57f7df328ef5a7e65a4e/public/apple-touch-icon.png",
+    "iconSHA256": "e1feb712b750b4888bdc75510d48ea7724fc628e8ce006c735c00ca3150f27cc",
+    "adaptations": []
+  }
+}

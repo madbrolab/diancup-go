@@ -2,6 +2,78 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "045efe83bfbad7e09859bb9d",
+      "name": "59799517",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/045efe83bfbad7e09859bb9d/repositories/001.json",
+        "sha256": "5c5c9960ddc3b02632813f61ac4ac2269f7ba453d8f7db7c9523c4ed8bd9a449"
+      }
+    },
+    {
+      "id": "9cce1b3e62f69b1cc28adb99",
+      "name": "BeiDouMS",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/9cce1b3e62f69b1cc28adb99/repositories/001.json",
+        "sha256": "c74f2738f47e919d5e5c7fe7f7731718d02bbd3c352c119ecbdf1359e9441167"
+      }
+    },
+    {
+      "id": "0820150af570b1e8196692f3",
+      "name": "BookStackApp",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/0820150af570b1e8196692f3/repositories/001.json",
+        "sha256": "8529126b0bfa265df6ad65dfc08a2ca36b6e262d55ac66ffccff68efa3611518"
+      }
+    },
+    {
+      "id": "092b51e418fdc041a2cb00dd",
+      "name": "Bubka",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/092b51e418fdc041a2cb00dd/repositories/001.json",
+        "sha256": "ad088be7a54f2a6449fde9ed76a1c3ce40a28cf28e76fa4305795edf6782d1c7"
+      }
+    },
+    {
+      "id": "01c6de4ad601e1bebaa4d621",
+      "name": "ChatGPTNextWeb",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/01c6de4ad601e1bebaa4d621/repositories/001.json",
+        "sha256": "07092758f8d30e6d4fff7e5654471d81cd03d540f73bff746bdf3397d9b5f802"
+      }
+    },
+    {
+      "id": "be3f56515f25f00b10e05e13",
+      "name": "Coooolfan",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/be3f56515f25f00b10e05e13/repositories/001.json",
+        "sha256": "d53d9bc0784104f13bd44b04546945c3c9485d2a442cecf2f559935d5a8f9b0a"
+      }
+    },
+    {
+      "id": "d291a8abad330659bcf7b135",
+      "name": "Finb",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/d291a8abad330659bcf7b135/repositories/001.json",
+        "sha256": "99716cc9b7017e8159b21ece6728dce417b842a6fb6b7157d8f1dd9ab6950c4b"
+      }
+    },
+    {
+      "id": "54dfcf4316d540b849f44adb",
+      "name": "FreshRSS",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/54dfcf4316d540b849f44adb/repositories/001.json",
+        "sha256": "756a106d40b920872e0363af54666a63e76cf8b748a142faa9eeedf0b3311041"
+      }
+    },
+    {
       "id": "94cb57646c54a297c9807697",
       "name": "Gitea",
       "count": 1,
@@ -11,12 +83,39 @@
       }
     },
     {
-      "id": "ad484c389986728f8462c30d",
-      "name": "Louis Lam",
+      "id": "bd7142e5ccf54d11fd8c12f4",
+      "name": "HKUDS",
       "count": 1,
       "first": {
-        "path": "compose/developers/ad484c389986728f8462c30d/repositories/001.json",
-        "sha256": "e856fd56b56415329b2aafb7a7480671e4abde61aba8481c06eb69a0caabd90e"
+        "path": "compose/developers/bd7142e5ccf54d11fd8c12f4/repositories/001.json",
+        "sha256": "751f07921ba18b5a76f7821cdaf7c114fd2479826e6f8c88745ccca3660f42b2"
+      }
+    },
+    {
+      "id": "ca77b3ea7116b478997136e4",
+      "name": "OpenListTeam",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/ca77b3ea7116b478997136e4/repositories/001.json",
+        "sha256": "b7efe23fd89e816e8cb9b83dc285c2f190d8e18edbed5446768f2b957bfaef75"
+      }
+    },
+    {
+      "id": "8698fb98a3355c501e13719b",
+      "name": "Stirling-Tools",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/8698fb98a3355c501e13719b/repositories/001.json",
+        "sha256": "acb927f6d789687cf6a388963ca9a11f32d53fb0fc2de9a6ec269226bf5d2de7"
+      }
+    },
+    {
+      "id": "aeded68edeb3a485e7adf385",
+      "name": "VERT-sh",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/aeded68edeb3a485e7adf385/repositories/001.json",
+        "sha256": "6f5f5b35c9295447be1dab649543ea3572a065bdf427a1f413b0c677147c3ea2"
       }
     },
     {
@@ -27,7 +126,100 @@
         "path": "compose/developers/a674f6b5c1c92f1b7546f836/repositories/001.json",
         "sha256": "5a5b85f304105141f5c72d4be6e178733c027215be99ee6f1f77e5a65719960c"
       }
+    },
+    {
+      "id": "dc64a6f2e430a5ab03bf96dd",
+      "name": "actualbudget",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/dc64a6f2e430a5ab03bf96dd/repositories/001.json",
+        "sha256": "e4e15c6982fbae3be1687848f8c5d0a7fc260a14fc64709642b09956b631b7f5"
+      }
+    },
+    {
+      "id": "abd643113cf6561ade5a97b9",
+      "name": "advplyr",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/abd643113cf6561ade5a97b9/repositories/001.json",
+        "sha256": "68c1b1ba3759cce003b533c7eab6b0d6352fe8100bf092c293bd104410524754"
+      }
+    },
+    {
+      "id": "bc2b1fbe68f43357a887b237",
+      "name": "alexta69",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/bc2b1fbe68f43357a887b237/repositories/001.json",
+        "sha256": "27476b110ced603f16cb5eb6fb799b84f0e36cedbe34cbaa418aff711da4af4c"
+      }
+    },
+    {
+      "id": "fc17dad5cb96a35787685b70",
+      "name": "babybuddy",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/fc17dad5cb96a35787685b70/repositories/001.json",
+        "sha256": "ed6c3703588e19eae6c0e1acba0821313b4ee40944c98b56005fcc394829f926"
+      }
+    },
+    {
+      "id": "bace37ebeea6ae7072b2d9e7",
+      "name": "bestruirui",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/bace37ebeea6ae7072b2d9e7/repositories/001.json",
+        "sha256": "6868d259fe83357a9457753d00ce4b4c507123f9c2d4b260daef1a953cdb0f0e"
+      }
+    },
+    {
+      "id": "a1bb216b2bbb7eb30b25960e",
+      "name": "brave",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/a1bb216b2bbb7eb30b25960e/repositories/001.json",
+        "sha256": "c35158a59ffad4f0edd1afc680b842e41e8b9e709c29460973830e8c67906bf1"
+      }
+    },
+    {
+      "id": "3afe7712b5e78c2ddd951361",
+      "name": "chaitin",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/3afe7712b5e78c2ddd951361/repositories/001.json",
+        "sha256": "346b8001b2a38c39881192329f5e68eeed2418b01c35826fe181f8857666ca94"
+      }
+    },
+    {
+      "id": "287574b943fa0e5f24d6af1f",
+      "name": "chenqimiao",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/287574b943fa0e5f24d6af1f/repositories/001.json",
+        "sha256": "8362003fb3505d85f83236f2cefd737d2824c264c1a84a16426d1242ed3c5dbc"
+      }
+    },
+    {
+      "id": "55a57854fc1b33f21ce8403b",
+      "name": "dani-garcia",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/55a57854fc1b33f21ce8403b/repositories/001.json",
+        "sha256": "c202bff09a286a93ca67527a966caa08dd34b1f223e1fe391279cacfc3f351dc"
+      }
+    },
+    {
+      "id": "028f30897d14f647fb799623",
+      "name": "dockers-x",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/028f30897d14f647fb799623/repositories/001.json",
+        "sha256": "7777156d85e74c752a0e4e37e6268bf5333139dfe4760b1a9312ef0dd193aa5c"
+      }
     }
   ],
-  "next": null
+  "next": {
+    "path": "compose/developers/002.json",
+    "sha256": "a4d8f74ba3f041f16eb7be9239eb622d3eeea6dafbd15976b2c1f90d2669cbcd"
+  }
 }

@@ -3,47 +3,68 @@
   "id": "louislam/uptime-kuma-compose",
   "kind": "compose",
   "name": "Uptime Kuma Compose",
-  "description": "通过 Compose 部署服务监控，数据保存在项目独立目录。",
-  "developer": "Louis Lam",
+  "description": "定时检测网站、端口和其他服务的可用性，查看延迟记录，通过通知渠道接收告警，并发布服务状态页面。",
+  "developer": "louislam",
   "projectUrl": "https://github.com/louislam/uptime-kuma",
   "source": "open",
   "license": "MIT",
   "paidKey": "none",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "category": "monitoring",
   "tags": [
-    "uptime",
-    "kuma",
-    "监控",
+    "uptime-kuma",
+    "Uptime Kuma Compose",
     "compose"
   ],
   "architectures": [
     "amd64",
     "arm64"
   ],
-  "icon": "icons/uptime-kuma-compose.svg",
+  "icon": "icons/uptime-kuma.svg",
   "payload": "compose.yaml",
   "env": "env.example",
   "recommendations": [
     {
-      "target": "env.WEB_PORT",
-      "title": "管理端口",
-      "reason": "确认端口未占用。",
-      "required": true,
-      "example": "3001"
+      "target": "compose.services.uptime-kuma.ports",
+      "title": "uptime-kuma 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "3001:3001"
+    },
+    {
+      "target": "compose.services.uptime-kuma.volumes",
+      "title": "uptime-kuma 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
     }
   ],
-  "documentation": "https://github.com/louislam/uptime-kuma/blob/master/compose.yaml",
+  "documentation": "https://github.com/louislam/uptime-kuma/blob/41194cb3d6e2bb8b9ae6c8a0fe59ce577c3f3928/README.md",
   "applications": [
     {
-      "id": "uptime-kuma",
-      "name": "Uptime Kuma",
+      "id": "uptime-kuma-compose",
+      "name": "Uptime Kuma Compose",
       "icon": "icons/uptime-kuma.svg",
-      "developer": "Louis Lam",
+      "developer": "louislam",
       "projectUrl": "https://github.com/louislam/uptime-kuma",
       "services": [
         "uptime-kuma"
       ]
     }
-  ]
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-03T08:55:32Z",
+    "lastCommit": "41194cb3d6e2bb8b9ae6c8a0fe59ce577c3f3928",
+    "readmeSHA256": "00ba16e6df299b20daec2a627fd72175ee52a65554c705d63a7b9eeb9d234a9a",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/uptime-kuma.json",
+      "sha256": "9c2a8db63ea5ae08d448f1ab8e96049f84da5a2a00084a646b2e8d958b54e4d5"
+    },
+    "iconSource": "https://raw.githubusercontent.com/louislam/uptime-kuma/41194cb3d6e2bb8b9ae6c8a0fe59ce577c3f3928/public/icon.svg",
+    "iconSHA256": "1f7b4df28ef01c74e334382dab159d96b2ff145ac835b5d2febbbc4166857831",
+    "adaptations": []
+  }
 }

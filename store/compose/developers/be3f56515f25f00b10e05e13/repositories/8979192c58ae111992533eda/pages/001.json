@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "coooolfan/xiaomi-album-syncer",
+      "kind": "compose",
+      "category": "storage",
+      "name": "Xiaomi Album Syncer",
+      "description": "把小米云相册及 iCloud 照片保存到本地，支持多账号、增量同步与定时下载，便于集中管理云端影像。",
+      "developer": "Coooolfan",
+      "projectUrl": "https://github.com/Coooolfan/XiaomiAlbumSyncer",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/xiaomialbumsyncer.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "xiaomialbumsyncer",
+        "Xiaomi Album Syncer",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/coooolfan/xiaomi-album-syncer/manifest.json",
+        "sha256": "7f874628e1ffcf71437385091d7a7cc515fe6f78414f6e219c96609ac962a2dd"
+      },
+      "summary": {
+        "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
+        "sha256": "3bd20dcafb45b7341542aab335349b93a4f920396429303294225ec412e81c5c"
+      }
+    }
+  ],
+  "next": null
+}

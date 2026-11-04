@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "stirling-tools/stirling-pdf",
+  "kind": "compose",
+  "name": "Stirling PDF",
+  "description": "在本地服务器处理 PDF 的合并、拆分、转换、OCR 和签署，也可通过 API 编排任务；提供可选付费服务器及企业功能。",
+  "developer": "Stirling-Tools",
+  "projectUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+  "source": "open",
+  "license": "Open-core; see upstream LICENSE",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "stirling-pdf",
+    "Stirling PDF",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/stirling-pdf.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.stirling-pdf.ports",
+      "title": "stirling-pdf 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "8080:8080"
+    },
+    {
+      "target": "compose.services.stirling-pdf.volumes",
+      "title": "stirling-pdf 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/Stirling-Tools/Stirling-PDF/blob/ea922397fac247d7181b58e9e86a222a767cebde/README.md",
+  "applications": [
+    {
+      "id": "stirling-pdf",
+      "name": "Stirling PDF",
+      "icon": "icons/stirling-pdf.svg",
+      "developer": "Stirling-Tools",
+      "projectUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "services": [
+        "stirling-pdf"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T13:24:12Z",
+    "lastCommit": "ea922397fac247d7181b58e9e86a222a767cebde",
+    "readmeSHA256": "0539da44759af7d1c3da8d76b00b892d9ebda4c82f9e161f01658f188a66ed86",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/stirling-pdf.json",
+      "sha256": "988bcae302bf710f46ac72ec1f8555a80d49f72dad3da4e9d2913e50a9b3d11d"
+    },
+    "iconSource": "https://raw.githubusercontent.com/Stirling-Tools/Stirling-PDF/ea922397fac247d7181b58e9e86a222a767cebde/frontend/public/favicon.png",
+    "iconSHA256": "69ac09c856cbb7428886749162b80924f8c8c2b618867220b48e819e6c5c85cf",
+    "adaptations": []
+  }
+}

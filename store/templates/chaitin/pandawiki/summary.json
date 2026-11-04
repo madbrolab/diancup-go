@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "chaitin/pandawiki",
+  "kind": "compose",
+  "category": "tools",
+  "name": "PandaWiki",
+  "description": "搭建面向读者的知识站点，管理文档并导入外部内容，配置模型后可进行知识问答与辅助写作；README 另列托管服务但未说明价格。",
+  "developer": "chaitin",
+  "projectUrl": "https://github.com/chaitin/PandaWiki",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "icon": "icons/panda-wiki.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "panda-wiki",
+    "PandaWiki",
+    "compose"
+  ],
+  "applicationCount": 8,
+  "manifest": {
+    "path": "templates/chaitin/pandawiki/manifest.json",
+    "sha256": "6d20ee47a48f6036870584d14103e8ff70be179507fb90a8d6283891959f3c3b"
+  }
+}

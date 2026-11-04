@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "open-webui/open-webui",
+      "kind": "compose",
+      "category": "ai",
+      "name": "Open WebUI",
+      "description": "为本地与兼容 API 的模型提供统一对话入口，可在自建环境管理资料和交互；许可要求保留品牌，另有企业服务。",
+      "developer": "open-webui",
+      "projectUrl": "https://github.com/open-webui/open-webui",
+      "source": "unknown",
+      "license": "Open WebUI License with branding requirements",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/open-webui.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "open-webui",
+        "Open WebUI",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/open-webui/open-webui/manifest.json",
+        "sha256": "65f760db081fa5c48372f89f3af1bccf8860c427ec83d796cbe98bc4f775778f"
+      },
+      "summary": {
+        "path": "templates/open-webui/open-webui/summary.json",
+        "sha256": "75f13cd8a694ef653fd2a6cf5d6ebac939ef5673c9311f8971281f456580d055"
+      }
+    }
+  ],
+  "next": null
+}

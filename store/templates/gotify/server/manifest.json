@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "id": "gotify/server",
+  "kind": "compose",
+  "name": "Gotify",
+  "description": "搭建自己的消息推送服务，通过 REST API 发送通知，并使用网页、WebSocket 或 Android 客户端接收消息。",
+  "developer": "gotify",
+  "projectUrl": "https://github.com/gotify/server",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "gotify",
+    "Gotify",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/gotify.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.gotify.ports",
+      "title": "gotify 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "8380:80"
+    },
+    {
+      "target": "compose.services.gotify.volumes",
+      "title": "gotify 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/gotify/server/blob/dd06dc77190696e93d3297b9a733711516fb17d9/README.md",
+  "applications": [
+    {
+      "id": "server",
+      "name": "Gotify",
+      "icon": "icons/gotify.svg",
+      "developer": "gotify",
+      "projectUrl": "https://github.com/gotify/server",
+      "services": [
+        "gotify"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-10-25T18:10:33Z",
+    "lastCommit": "dd06dc77190696e93d3297b9a733711516fb17d9",
+    "readmeSHA256": "d599461d213af6634dd8b7e57282e794eabbbcee66c3fe6eaa298c4654953a03",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/gotify.json",
+      "sha256": "3d39e754c8d16634f425e86e71f8e6184384c3864d7df91c874b4d7aad6a08dc"
+    },
+    "iconSource": "https://raw.githubusercontent.com/gotify/server/dd06dc77190696e93d3297b9a733711516fb17d9/ui/public/static/favicon-196x196.png",
+    "iconSHA256": "1f854444a9087c0497a597e999f4e80fc27f4139f44c5d1c24c046541ffb1004",
+    "adaptations": []
+  }
+}

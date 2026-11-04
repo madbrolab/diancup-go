@@ -4,73 +4,73 @@
     {
       "id": "tools",
       "name": "工具",
-      "count": 0,
+      "count": 21,
       "index": {
         "path": "compose/tools/index.json",
-        "sha256": "77531ffe5cd01aa4c99c53596df7733e22135bc49e529825b17270b7425b2357"
+        "sha256": "d6aec226e2d02635528e3c9b8c403d74b3bc95d2afe282d66acce85bddbc18a0"
       }
     },
     {
       "id": "media",
       "name": "影音",
-      "count": 0,
+      "count": 7,
       "index": {
         "path": "compose/media/index.json",
-        "sha256": "e14120e7e210d565bd098ac8314b8dd1573e49c958e8472e74cd2507b0670e58"
+        "sha256": "9b84bca35fd9b2b40596e2b8061ab1fd304ba7a8efb3cb30e66a0b7387fa42b7"
       }
     },
     {
       "id": "games",
       "name": "游戏",
-      "count": 0,
+      "count": 1,
       "index": {
         "path": "compose/games/index.json",
-        "sha256": "1f4a1fd08042e42961ac7934a3a0c93ee1155829906a4e19f71e9c46a6e93d67"
+        "sha256": "fa4283c5510999ec98a929331ca113fdac1fe0176b4771771ef320832ce51a30"
       }
     },
     {
       "id": "web",
       "name": "网站",
-      "count": 1,
+      "count": 3,
       "index": {
         "path": "compose/web/index.json",
-        "sha256": "24b1c8642e3839f8d9eafed1e69bfe60145214d303529b26d3d0c29c976cc1a9"
+        "sha256": "b9522a4f5ddd43e063d839b0d155ee293e22f43c75e2cb178284652eafb19c9f"
       }
     },
     {
       "id": "download",
       "name": "下载",
-      "count": 0,
+      "count": 3,
       "index": {
         "path": "compose/download/index.json",
-        "sha256": "5d725c884d4559e1f662b65193e77e6c46d3b7e503c07346ddf47fbc8bef3d5b"
+        "sha256": "8c6e786b112883cf448634a27a22abfb6ce20066efc4e083fbb78c2b42563f77"
       }
     },
     {
       "id": "storage",
       "name": "存储",
-      "count": 0,
+      "count": 4,
       "index": {
         "path": "compose/storage/index.json",
-        "sha256": "4635c030d8e45b4fa7b54c30d449394557bc9993e78ed02fb4541914c787cf02"
+        "sha256": "634d6ec48eb9d94acd5ea9a80afb0da88d01eac3773401e374536ecc3bfd575f"
       }
     },
     {
       "id": "network",
       "name": "网络",
-      "count": 0,
+      "count": 1,
       "index": {
         "path": "compose/network/index.json",
-        "sha256": "9a40a16afcc4ae053ce7c68715de1616ee404c69faddbf7dba8264243f984dab"
+        "sha256": "9f5519001d82e147c11137e9118d7a30df8745aba54c1d60fa3ca678ede8358a"
       }
     },
     {
       "id": "monitoring",
       "name": "监控",
-      "count": 1,
+      "count": 4,
       "index": {
         "path": "compose/monitoring/index.json",
-        "sha256": "8c4c21fd3cd9a16018d7b3ed71f4b99ab37a6a138d0c6c4f4ea12939c12451e1"
+        "sha256": "f1222cbd1cff43593ae811dce124806147507365cf141a8795071750179fdbd4"
       }
     },
     {
@@ -94,10 +94,10 @@
     {
       "id": "ai",
       "name": "AI",
-      "count": 0,
+      "count": 6,
       "index": {
         "path": "compose/ai/index.json",
-        "sha256": "57a3abc198e72916cc8aacb17bce49cdfaae1c41521a97b5bad9bd6e12c1c051"
+        "sha256": "6f5ec8ea079c86d6a4e2bf498f25b13580ec8e953b756d25c2e8f6365e452cb4"
       }
     },
     {

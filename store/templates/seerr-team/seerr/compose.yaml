@@ -1,0 +1,16 @@
+services:
+  jellyseerr:
+    image: fallenbagel/jellyseerr:latest
+    environment:
+      - LOG_LEVEL=debug
+      - TZ=Asia/Shanghai
+      - PORT=7688
+    ports:
+      - 7688:7688
+    volumes:
+      - ./config:/app/config
+    restart: unless-stopped
+    networks:
+      default:
+        aliases:
+          - jellyseerr

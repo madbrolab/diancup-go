@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "usememos/memos",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Memos",
+  "description": "按时间记录零散想法和日常笔记，通过标签整理内容，并为每条记录选择私密保存或公开分享。",
+  "developer": "usememos",
+  "projectUrl": "https://github.com/usememos/memos",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/memos-cn.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "memos-cn",
+    "Memos",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/usememos/memos/manifest.json",
+    "sha256": "9513880d59d0d09c9fa437a411c53368580ce3a101adba606524def28df2cb11"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "id": "coooolfan/xiaomi-album-syncer",
+  "kind": "compose",
+  "name": "Xiaomi Album Syncer",
+  "description": "把小米云相册及 iCloud 照片保存到本地，支持多账号、增量同步与定时下载，便于集中管理云端影像。",
+  "developer": "Coooolfan",
+  "projectUrl": "https://github.com/Coooolfan/XiaomiAlbumSyncer",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "storage",
+  "tags": [
+    "xiaomialbumsyncer",
+    "Xiaomi Album Syncer",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/xiaomialbumsyncer.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.app.ports",
+      "title": "app 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "38232:8080"
+    },
+    {
+      "target": "compose.services.app.volumes",
+      "title": "app 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/Coooolfan/XiaomiAlbumSyncer/blob/ccbbf798cffcca6c402b109d519c06a5575aaa86/README.md",
+  "applications": [
+    {
+      "id": "xiaomi-album-syncer",
+      "name": "Xiaomi Album Syncer",
+      "icon": "icons/xiaomialbumsyncer.svg",
+      "developer": "Coooolfan",
+      "projectUrl": "https://github.com/Coooolfan/XiaomiAlbumSyncer",
+      "services": [
+        "app"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-02T15:25:40Z",
+    "lastCommit": "ccbbf798cffcca6c402b109d519c06a5575aaa86",
+    "readmeSHA256": "7ae340f7ae8f155c95790e5f2b2e0dc519b40d2be177f68b9a8c0d5f462a4ffb",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/xiaomialbumsyncer.json",
+      "sha256": "d6471c2a0f3f17fbe462bb692cceed5ff73ca4715ae655583e9e3023ff84cef9"
+    },
+    "iconSource": "https://raw.githubusercontent.com/Coooolfan/XiaomiAlbumSyncer/ccbbf798cffcca6c402b109d519c06a5575aaa86/static/xiaomi-album-syncer-logo.png",
+    "iconSHA256": "4baed2e8285c93f80e406e7aa5bc3fe3aff45fe9da5481666287c8ac5ec311ef",
+    "adaptations": [
+      "app 使用项目内实例名，原容器名保留为网络别名"
+    ]
+  }
+}

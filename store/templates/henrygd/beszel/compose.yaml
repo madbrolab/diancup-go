@@ -1,0 +1,9 @@
+services:
+  beszel:
+    image: henrygd/beszel
+    restart: unless-stopped
+    network_mode: bridge
+    ports:
+      - 8090:8090
+    volumes:
+      - ./beszel_data:/beszel_data

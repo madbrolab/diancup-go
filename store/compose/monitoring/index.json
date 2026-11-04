@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "count": 1,
+  "count": 4,
   "first": {
     "path": "compose/monitoring/pages/001.json",
-    "sha256": "493c42c4d2864dbec3e1b8d9ec8134ba474579d0b100fd50ea5c22ac31806f48"
+    "sha256": "da338cafd4dd0d20f1332479dde845764552f068ce536c1ddb70947d63b7c477"
   }
 }

@@ -1,0 +1,12 @@
+services:
+  wallabag:
+    image: wallabag/wallabag:latest
+    restart: unless-stopped
+    ports:
+      - 8284:80
+    volumes:
+      - ./data:/var/www/wallabag/data
+      - ./images:/var/www/wallabag/web/assets/images
+    environment:
+      - SYMFONY__ENV__DOMAIN_NAME=http://localhost:8284
+      - SYMFONY__ENV__SERVER_NAME=Your Wallabag

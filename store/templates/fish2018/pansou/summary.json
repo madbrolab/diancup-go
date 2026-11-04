@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fish2018/pansou",
+  "kind": "compose",
+  "category": "storage",
+  "name": "PanSou",
+  "description": "按网盘类型汇集频道和插件的搜索结果，通过并发检索与缓存减少等待，并提供网页操作入口。",
+  "developer": "fish2018",
+  "projectUrl": "https://github.com/fish2018/pansou",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/pansou.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "pansou",
+    "PanSou",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/fish2018/pansou/manifest.json",
+    "sha256": "9e7ef5defcf1d4a57e72940d316db14b1a5b6fac0bcbbc829c6bbe967f14df3f"
+  }
+}

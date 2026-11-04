@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "langgenius/dify",
+  "kind": "compose",
+  "category": "ai",
+  "name": "Dify",
+  "description": "把模型、知识检索和工作流组合成 AI 应用，并提供运行观测与接口管理。支持自建，另有云端套餐及企业服务。",
+  "developer": "langgenius",
+  "projectUrl": "https://github.com/langgenius/dify",
+  "source": "open",
+  "license": "Dify Open Source License; see upstream LICENSE",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "icon": "icons/dify.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "dify",
+    "Dify",
+    "compose"
+  ],
+  "applicationCount": 5,
+  "manifest": {
+    "path": "templates/langgenius/dify/manifest.json",
+    "sha256": "1074fb0bb81a69abe7641b0bd69bf41c2d617d270cb475ff00a4ffe86df918c7"
+  }
+}

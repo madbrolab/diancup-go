@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "id": "weidu12123/liyuan",
+  "kind": "compose",
+  "name": "梨园 Liyuan",
+  "description": "面向角色扮演和故事创作的 Agent 工作区，通过角色空间、记忆检索和分支回退维护叙事。个人非商业使用免费，商业授权费用未说明。",
+  "developer": "weidu12123",
+  "projectUrl": "https://github.com/weidu12123/Liyuan",
+  "source": "unknown",
+  "license": "PolyForm Noncommercial 1.0.0",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "ai",
+  "tags": [
+    "liyuan",
+    "梨园 Liyuan",
+    "compose"
+  ],
+  "architectures": [
+    "amd64"
+  ],
+  "icon": "icons/liyuan.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.liyuan.ports",
+      "title": "liyuan 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "50000:7620"
+    },
+    {
+      "target": "compose.services.liyuan.volumes",
+      "title": "liyuan 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/weidu12123/Liyuan/blob/21fd38cb10e915fbf9c1f25fcbabe92f06a8993d/README.md",
+  "applications": [
+    {
+      "id": "liyuan",
+      "name": "梨园 Liyuan",
+      "icon": "icons/liyuan.svg",
+      "developer": "weidu12123",
+      "projectUrl": "https://github.com/weidu12123/Liyuan",
+      "services": [
+        "liyuan"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-01T09:04:35Z",
+    "lastCommit": "21fd38cb10e915fbf9c1f25fcbabe92f06a8993d",
+    "readmeSHA256": "2fda1b82972b9759b7f48a5c278348a32091828843248524f0cff7b10f1be78b",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/liyuan.json",
+      "sha256": "16a7a7fe267de0851b2d6128b47e9cb8540933245fa13341112962338e15c362"
+    },
+    "iconSource": "https://raw.githubusercontent.com/weidu12123/Liyuan/21fd38cb10e915fbf9c1f25fcbabe92f06a8993d/assets/brand/logo.png",
+    "iconSHA256": "77510c3cd64c14c4113b4b92364406f987da6834995325561be255124b64cf8c",
+    "adaptations": [
+      "liyuan 的命名卷 liyuan-agent 改为项目数据绑定 ./data/liyuan-agent",
+      "liyuan 的命名卷 liyuan-state 改为项目数据绑定 ./data/liyuan-state",
+      "liyuan 的命名卷 liyuan-uploads 改为项目数据绑定 ./data/liyuan-uploads",
+      "liyuan 的命名卷 liyuan-media 改为项目数据绑定 ./data/liyuan-media",
+      "liyuan 的命名卷 liyuan-audio 改为项目数据绑定 ./data/liyuan-audio",
+      "liyuan 的命名卷 liyuan-artifacts 改为项目数据绑定 ./data/liyuan-artifacts",
+      "liyuan 的命名卷 liyuan-codex 改为项目数据绑定 ./data/liyuan-codex",
+      "liyuan 的命名卷 liyuan-lore 改为项目数据绑定 ./data/liyuan-lore"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+services:
+  vikunja:
+    image: vikunja/vikunja:latest
+    restart: unless-stopped
+    ports:
+      - 3456:3456
+    volumes:
+      - ./files:/app/vikunja/files
+    environment:
+      - VIKUNJA_SERVICE_JWTSECRET=${JWTSECRET:?请填写 JWTSECRET}
+      - VIKUNJA_SERVICE_PUBLICURL=http://localhost:3456
+      - VIKUNJA_DATABASE_PATH=/app/vikunja/files/vikunja.db

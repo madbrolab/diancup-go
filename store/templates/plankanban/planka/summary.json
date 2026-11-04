@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "plankanban/planka",
+  "kind": "compose",
+  "category": "tools",
+  "name": "PLANKA",
+  "description": "用看板、列表和卡片协作管理项目，记录评论、附件与到期时间。社区版可自建，Pro 和企业功能另行授权。",
+  "developer": "plankanban",
+  "projectUrl": "https://github.com/plankanban/planka",
+  "source": "unknown",
+  "license": "PLANKA Community Fair Use License / Commercial License",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "icon": "icons/planka.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "planka",
+    "PLANKA",
+    "compose"
+  ],
+  "applicationCount": 2,
+  "manifest": {
+    "path": "templates/plankanban/planka/manifest.json",
+    "sha256": "e648b30d35d7d25504a23cef42ef713d236baf7717c8cca9df4b7bf96b085460"
+  }
+}

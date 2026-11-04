@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "qbittorrent/qbittorrent",
+  "kind": "compose",
+  "category": "download",
+  "name": "qBittorrent",
+  "description": "提供可远程访问的 BitTorrent 下载服务，用网页管理任务、连接和传输速度；此模板使用 LinuxServer.io 镜像。",
+  "developer": "qbittorrent",
+  "projectUrl": "https://github.com/qbittorrent/qBittorrent",
+  "source": "open",
+  "license": "See upstream COPYING; LinuxServer image GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/qbittorrent.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "qbittorrent",
+    "qBittorrent",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/qbittorrent/qbittorrent/manifest.json",
+    "sha256": "538b3ddb792eeaceb90774c7418b321bd8e520140cc484bb6b3567b9ae80f139"
+  }
+}

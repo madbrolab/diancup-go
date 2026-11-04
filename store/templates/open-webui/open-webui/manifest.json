@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "open-webui/open-webui",
+  "kind": "compose",
+  "name": "Open WebUI",
+  "description": "为本地与兼容 API 的模型提供统一对话入口，可在自建环境管理资料和交互；许可要求保留品牌，另有企业服务。",
+  "developer": "open-webui",
+  "projectUrl": "https://github.com/open-webui/open-webui",
+  "source": "unknown",
+  "license": "Open WebUI License with branding requirements",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "ai",
+  "tags": [
+    "open-webui",
+    "Open WebUI",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/open-webui.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "env.OPENAI_API_KEY",
+      "title": "OPENAI_API_KEY",
+      "reason": "按使用的功能填写；未启用相关功能时可保持空值。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.open-webui.ports",
+      "title": "open-webui 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "3000:8080"
+    },
+    {
+      "target": "compose.services.open-webui.volumes",
+      "title": "open-webui 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/open-webui/open-webui/blob/c38885a1a737da4968f157092f304f3b5481d0bf/README.md",
+  "applications": [
+    {
+      "id": "open-webui",
+      "name": "Open WebUI",
+      "icon": "icons/open-webui.svg",
+      "developer": "open-webui",
+      "projectUrl": "https://github.com/open-webui/open-webui",
+      "services": [
+        "open-webui"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-03T12:21:21Z",
+    "lastCommit": "c38885a1a737da4968f157092f304f3b5481d0bf",
+    "readmeSHA256": "4441584beee58537e80339450b56617c00b33bf77786576d1599b0d9fe564668",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/open-webui.json",
+      "sha256": "c7f659b01fc36abf9963114314646fc1a3c71a4f5124548bcfc69237efe7db25"
+    },
+    "iconSource": "https://raw.githubusercontent.com/open-webui/open-webui/c38885a1a737da4968f157092f304f3b5481d0bf/static/favicon.png",
+    "iconSHA256": "5698a3e39513e7b6304ec96c309373ab3af0f70fe794293461de395a94deaa65",
+    "adaptations": []
+  }
+}

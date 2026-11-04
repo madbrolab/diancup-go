@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "advplyr/audiobookshelf",
+  "kind": "compose",
+  "category": "media",
+  "name": "Audiobookshelf",
+  "description": "管理有声书和播客，补充媒体信息并在多个设备之间同步播放进度，也可订阅节目并自动下载新内容。",
+  "developer": "advplyr",
+  "projectUrl": "https://github.com/advplyr/audiobookshelf",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/audiobookshelf.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "audiobookshelf",
+    "Audiobookshelf",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/advplyr/audiobookshelf/manifest.json",
+    "sha256": "b036119894f337309dc5d65ce0e394792ae228bbe6120fa926043f9a07b79c3a"
+  }
+}

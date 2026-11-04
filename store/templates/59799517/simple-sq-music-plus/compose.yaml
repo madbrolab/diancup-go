@@ -1,0 +1,57 @@
+services:
+  sqmusic_main:
+    image: registry.cn-hangzhou.aliyuncs.com/sqdockler/simple_sq_music_plus:v3.0.28
+    environment:
+      - DB_IP=mysql
+      - DB_PORT=3306
+      - DB_NAME=sqmusicv3
+      - DB_USERNAME=root
+      - DB_PASSWORD=sqmusicv3password
+    volumes:
+      - ./sqmusic/file:/music
+    depends_on:
+      mysql:
+        condition: service_healthy
+    networks:
+      sq-app-network:
+        aliases:
+          - sqmusic_main
+    expose:
+      - "8099"
+    restart: always
+  sqmusic_web:
+    image: registry.cn-hangzhou.aliyuncs.com/sqdockler/simple_sq_music_plus_web:v3.0.15
+    ports:
+      - 8096:80
+    networks:
+      sq-app-network:
+        aliases:
+          - sqmusic_web
+    depends_on:
+      - sqmusic_main
+    restart: always
+  mysql:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: sqmusicv3password
+      MYSQL_DATABASE: sqmusicv3
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    networks:
+      sq-app-network:
+        aliases:
+          - sqmusic_mysql
+    healthcheck:
+      test:
+        - CMD
+        - mysqladmin
+        - ping
+        - -h
+        - localhost
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: always
+networks:
+  sq-app-network:
+    driver: bridge

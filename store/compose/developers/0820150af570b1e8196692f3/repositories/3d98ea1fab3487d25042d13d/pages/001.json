@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "bookstackapp/bookstack",
+      "kind": "compose",
+      "category": "tools",
+      "name": "BookStack",
+      "description": "把团队资料整理成书籍、章节和页面，提供易上手的文档编辑与组织方式，适合维护内部知识和操作手册。",
+      "developer": "BookStackApp",
+      "projectUrl": "https://github.com/BookStackApp/BookStack",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/bookstack.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "bookstack",
+        "BookStack",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/bookstackapp/bookstack/manifest.json",
+        "sha256": "19fcfd154e3555e744e5da50abf86c52b1cdf29b07e1447a2073136bb504e8f5"
+      },
+      "summary": {
+        "path": "templates/bookstackapp/bookstack/summary.json",
+        "sha256": "550d9cc5a91f0a889bb574a44712f4ea5747cef36f4a89d5c5a473b8563176d3"
+      }
+    }
+  ],
+  "next": null
+}

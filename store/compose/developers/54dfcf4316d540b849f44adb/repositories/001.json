@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "b214b0b57c271e9ed8e00b89",
+      "name": "https://github.com/FreshRSS/FreshRSS",
+      "projectUrl": "https://github.com/FreshRSS/FreshRSS",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/54dfcf4316d540b849f44adb/repositories/b214b0b57c271e9ed8e00b89/pages/001.json",
+        "sha256": "2dbca5f38467021dec36ace4cd13a7ad6316776f40785960d8678f80901aec2b"
+      }
+    }
+  ],
+  "next": null
+}

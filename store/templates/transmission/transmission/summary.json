@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "transmission/transmission",
+  "kind": "compose",
+  "category": "download",
+  "name": "Transmission",
+  "description": "运行面向服务器的 BT 下载守护进程，通过网页管理磁力链接和种子，并保留下载、配置与监视目录。",
+  "developer": "transmission",
+  "projectUrl": "https://github.com/transmission/transmission",
+  "source": "open",
+  "license": "See upstream COPYING; LinuxServer image GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/transmission.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "transmission",
+    "Transmission",
+    "compose"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/transmission/transmission/manifest.json",
+    "sha256": "92c3636d0f2794f2f86e298ff59841ced16f8262d70a54f716721aed84e4062e"
+  }
+}

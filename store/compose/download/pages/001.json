@@ -1,5 +1,102 @@
 {
   "schemaVersion": 1,
-  "items": [],
+  "items": [
+    {
+      "id": "alexta69/metube",
+      "kind": "compose",
+      "category": "download",
+      "name": "MeTube",
+      "description": "为 yt-dlp 提供网页任务界面，将视频、音频、字幕或播放列表下载到服务器，并按任务选择格式与保存位置。",
+      "developer": "alexta69",
+      "projectUrl": "https://github.com/alexta69/metube",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/metube.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "metube",
+        "MeTube",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/alexta69/metube/manifest.json",
+        "sha256": "eef6261f6eb08588fa981a5c69f5ec02318bdbd728e7764b5079a3850f5baade"
+      },
+      "summary": {
+        "path": "templates/alexta69/metube/summary.json",
+        "sha256": "3bfa4e3b357eb2dbb6e174087d0100e7044f9db8afb2d4356f8b5d36d889bb38"
+      }
+    },
+    {
+      "id": "qbittorrent/qbittorrent",
+      "kind": "compose",
+      "category": "download",
+      "name": "qBittorrent",
+      "description": "提供可远程访问的 BitTorrent 下载服务，用网页管理任务、连接和传输速度；此模板使用 LinuxServer.io 镜像。",
+      "developer": "qbittorrent",
+      "projectUrl": "https://github.com/qbittorrent/qBittorrent",
+      "source": "open",
+      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/qbittorrent.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "qbittorrent",
+        "qBittorrent",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/qbittorrent/qbittorrent/manifest.json",
+        "sha256": "538b3ddb792eeaceb90774c7418b321bd8e520140cc484bb6b3567b9ae80f139"
+      },
+      "summary": {
+        "path": "templates/qbittorrent/qbittorrent/summary.json",
+        "sha256": "de112ced0187af2cf34919253c30be782f5f7cd05c6ad3d20fb9b3d82a54b1d6"
+      }
+    },
+    {
+      "id": "transmission/transmission",
+      "kind": "compose",
+      "category": "download",
+      "name": "Transmission",
+      "description": "运行面向服务器的 BT 下载守护进程，通过网页管理磁力链接和种子，并保留下载、配置与监视目录。",
+      "developer": "transmission",
+      "projectUrl": "https://github.com/transmission/transmission",
+      "source": "open",
+      "license": "See upstream COPYING; LinuxServer image GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/transmission.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "transmission",
+        "Transmission",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/transmission/transmission/manifest.json",
+        "sha256": "92c3636d0f2794f2f86e298ff59841ced16f8262d70a54f716721aed84e4062e"
+      },
+      "summary": {
+        "path": "templates/transmission/transmission/summary.json",
+        "sha256": "e56072400c7ee1067d04b1d76d4041b17ab949d96c221a7a17476e30721a33d6"
+      }
+    }
+  ],
   "next": null
 }

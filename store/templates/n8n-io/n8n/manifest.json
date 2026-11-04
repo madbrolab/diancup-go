@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "id": "n8n-io/n8n",
+  "kind": "compose",
+  "name": "n8n",
+  "description": "用可视化节点连接应用与模型服务，编排自动化任务，也能加入脚本。采用 fair-code 授权，额外企业功能需商业许可。",
+  "developer": "n8n-io",
+  "projectUrl": "https://github.com/n8n-io/n8n",
+  "source": "unknown",
+  "license": "Sustainable Use License / n8n Enterprise License",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "n8n",
+    "n8n",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/n8n.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "compose.services.n8n.ports",
+      "title": "n8n 端口映射",
+      "reason": "默认端口沿用部署模板，请确认目标服务器上可用。",
+      "required": false,
+      "example": "35678:5678"
+    },
+    {
+      "target": "compose.services.n8n.volumes",
+      "title": "n8n 数据与系统挂载",
+      "reason": "相对路径以项目目录为基准，宿主机绝对路径可独立修改。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services",
+      "title": "代理地址",
+      "reason": "模板保留了代理示例地址，请填写可达的代理，或在直连环境移除对应项。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "documentation": "https://github.com/n8n-io/n8n/blob/ca3e5129e58c2b6907cd8e94addb167c28b58692/README.md",
+  "applications": [
+    {
+      "id": "n8n",
+      "name": "n8n",
+      "icon": "icons/n8n.svg",
+      "developer": "n8n-io",
+      "projectUrl": "https://github.com/n8n-io/n8n",
+      "services": [
+        "n8n"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-04",
+    "lastCommitAt": "2026-11-04T12:51:43Z",
+    "lastCommit": "ca3e5129e58c2b6907cd8e94addb167c28b58692",
+    "readmeSHA256": "1b2642bc182969047627fc3568c785bad291fb9a2c7d655b19813608bf69ce27",
+    "deploymentSource": {
+      "repository": "coracoo/tradis_templates",
+      "commit": "2d3d7221a724a31f8b90729a29be6ecf604bc8e6",
+      "file": "templates/n8n.json",
+      "sha256": "1f762abfcb171e7eae1cfff7fca8bb84b4d0c75fd8bb13dadaa13d0eca5d2d07"
+    },
+    "iconSource": "https://raw.githubusercontent.com/n8n-io/n8n/ca3e5129e58c2b6907cd8e94addb167c28b58692/packages/frontend/@n8n/design-system/src/components/N8nLogo/logo-icon.svg",
+    "iconSHA256": "71c16fd5a7c5f1ba06a45b3a0d4c022bc88f43e7a58d5a9b3feb626c2ef00616",
+    "adaptations": [
+      "n8n 的命名卷 n8n_data 改为项目数据绑定 ./data/n8n_data"
+    ]
+  }
+}

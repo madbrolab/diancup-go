@@ -1,0 +1,10 @@
+services:
+  chatgpt-next-web:
+    image: yidadaa/chatgpt-next-web:latest
+    restart: unless-stopped
+    ports:
+      - 3001:3000
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - CODE=${CODE}
+      - BASE_URL=

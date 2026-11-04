@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "wallabag/wallabag",
+      "kind": "compose",
+      "category": "tools",
+      "name": "wallabag",
+      "description": "将网页正文保存到个人稍后读列表，过滤阅读干扰，并通过浏览器扩展和移动客户端继续阅读。",
+      "developer": "wallabag",
+      "projectUrl": "https://github.com/wallabag/wallabag",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/wallabag.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "wallabag",
+        "wallabag",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/wallabag/wallabag/manifest.json",
+        "sha256": "2e4f953e1fe0e99e56ea785203f47aa0a2158fa0b8d6596932cb59a123fc31db"
+      },
+      "summary": {
+        "path": "templates/wallabag/wallabag/summary.json",
+        "sha256": "5b6506809402dc02c34b76779e91127b20334006df34a2bc82c3a9aaf2767e89"
+      }
+    },
+    {
+      "id": "weidu12123/liyuan",
+      "kind": "compose",
+      "category": "ai",
+      "name": "梨园 Liyuan",
+      "description": "面向角色扮演和故事创作的 Agent 工作区，通过角色空间、记忆检索和分支回退维护叙事。个人非商业使用免费，商业授权费用未说明。",
+      "developer": "weidu12123",
+      "projectUrl": "https://github.com/weidu12123/Liyuan",
+      "source": "unknown",
+      "license": "PolyForm Noncommercial 1.0.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/liyuan.svg",
+      "architectures": [
+        "amd64"
+      ],
+      "tags": [
+        "liyuan",
+        "梨园 Liyuan",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/weidu12123/liyuan/manifest.json",
+        "sha256": "b1900194c07a61dc8d9584cad4967bc9d7800e39d66b0b473c37f61b50afa6e5"
+      },
+      "summary": {
+        "path": "templates/weidu12123/liyuan/summary.json",
+        "sha256": "b74531d768e9f3ef123d7a07bbbaa8a2fcb243857d60446feacde9acfad8360a"
+      }
+    },
+    {
+      "id": "xhongc/music-tag-web",
+      "kind": "compose",
+      "category": "media",
+      "name": "Music Tag Web",
+      "description": "在浏览器中整理服务器曲库，批量修改歌曲标签、匹配封面与歌词，并按音乐信息归档文件。README 附有非商业使用限制。",
+      "developer": "xhongc",
+      "projectUrl": "https://github.com/xhongc/music-tag-web",
+      "source": "unknown",
+      "license": "GPL-3.0 with additional README restrictions",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/music-tag-web.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "music-tag-web",
+        "Music Tag Web",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/xhongc/music-tag-web/manifest.json",
+        "sha256": "bfc1ee087ebc008d102468d0fe3cd22e814f48e22756ed832760dc53ea70b36c"
+      },
+      "summary": {
+        "path": "templates/xhongc/music-tag-web/summary.json",
+        "sha256": "f68d415acfcc5162bd10a07f8a7df82f65e0805e840fbded7b98c757aba155a1"
+      }
+    }
+  ],
+  "next": null
+}
