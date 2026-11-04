@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "gitea/gitea-postgresql",
+  "kind": "compose",
+  "name": "Gitea + PostgreSQL",
+  "description": "轻量 Git 托管平台，搭配 PostgreSQL 数据库。",
+  "developer": "Gitea",
+  "projectUrl": "https://github.com/go-gitea/gitea",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "development",
+  "tags": [
+    "gitea",
+    "git",
+    "postgresql",
+    "代码托管"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/gitea-postgresql.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "recommendations": [
+    {
+      "target": "env.WEB_PORT",
+      "title": "网页端口",
+      "reason": "确认宿主机端口可用。",
+      "required": true,
+      "example": "3000"
+    },
+    {
+      "target": "env.SSH_PORT",
+      "title": "Git SSH 端口",
+      "reason": "避免与宿主机 SSH 端口冲突。",
+      "required": true,
+      "example": "2222"
+    },
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "填写独立强密码。",
+      "required": true,
+      "example": ""
+    }
+  ],
+  "documentation": "https://docs.gitea.com/installation/install-with-docker/"
+}

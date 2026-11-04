@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "count": 4,
+  "all": {
+    "path": "container/all/index.json",
+    "sha256": "770be6ee21328b52517fb5d322f36ec3987aa68f6687570f1ad242ed49a55f3e"
+  },
+  "first": {
+    "path": "container/categories/001.json",
+    "sha256": "212b614782db6b081e8ac5d5abf47a24cc86b92906bb2a1a3093f1a44875f7e8"
+  }
+}

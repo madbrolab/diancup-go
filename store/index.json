@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "revision": "668960d1d4efa7a92d91b6ac",
+  "sections": [
+    {
+      "id": "container",
+      "name": "普通模板",
+      "count": 4,
+      "index": {
+        "path": "container/index.json",
+        "sha256": "7dc574a7625f5ef29ad5da8fbbc22f931dae73a59835543fe52924253a3c7b00"
+      }
+    },
+    {
+      "id": "compose",
+      "name": "Compose 模板",
+      "count": 3,
+      "index": {
+        "path": "compose/index.json",
+        "sha256": "5cb948e75ea580f25319866e8c1f55651c7b34a609dd2e9a73470994d4efe058"
+      }
+    }
+  ],
+  "pageSize": 24,
+  "source": "https://github.com/madbrolab/diancup-go/tree/main/store"
+}

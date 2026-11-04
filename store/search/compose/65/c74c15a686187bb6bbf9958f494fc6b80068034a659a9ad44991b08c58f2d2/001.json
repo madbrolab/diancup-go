@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/gitea/gitea-postgresql/summary.json",
+      "sha256": "8f07935d3be6fef4d463f77c04ce4e97ec1bb2828acb711d9c3a41fb8c524ee4"
+    },
+    {
+      "path": "templates/louislam/uptime-kuma-compose/summary.json",
+      "sha256": "53cabb87a5a53709eb3780aa990d1f149e3c2221f4b8048c88f276db5d4a0821"
+    },
+    {
+      "path": "templates/official/wordpress-mariadb/summary.json",
+      "sha256": "097b37b56274cb6e1899a02b9f17217ef3d24294f06c0d4a3f2d7566e717d2b1"
+    }
+  ],
+  "next": null
+}

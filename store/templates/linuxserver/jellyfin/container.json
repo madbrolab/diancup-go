@@ -1,0 +1,46 @@
+{
+  "name": "jellyfin",
+  "image": "lscr.io/linuxserver/jellyfin:latest",
+  "ports": [
+    {
+      "id": "http",
+      "host": "8096",
+      "container": "8096"
+    }
+  ],
+  "volumes": [
+    {
+      "id": "config",
+      "host": "/appdata/jellyfin",
+      "container": "/config",
+      "mode": "rw"
+    },
+    {
+      "id": "media",
+      "host": "/mnt/media",
+      "container": "/media",
+      "mode": "ro"
+    }
+  ],
+  "environment": [
+    {
+      "key": "PUID",
+      "value": "1000"
+    },
+    {
+      "key": "PGID",
+      "value": "1000"
+    },
+    {
+      "key": "TZ",
+      "value": "Asia/Shanghai"
+    }
+  ],
+  "restart_policy": "unless-stopped",
+  "network_mode": "bridge",
+  "privileged": false,
+  "labels": {},
+  "command": [],
+  "cpu_limit": "",
+  "memory_limit": ""
+}

@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "web",
+      "name": "网站与代理",
+      "count": 1,
+      "index": {
+        "path": "container/web/index.json",
+        "sha256": "a783cde89575dc7dde497ce9eb546db660abe3407de9833ecc55929594405aa4"
+      }
+    },
+    {
+      "id": "media",
+      "name": "影音服务",
+      "count": 1,
+      "index": {
+        "path": "container/media/index.json",
+        "sha256": "ddb93c5dde9eed9e004d2bc9b78848064ec2ca529334cddadf75116ce99556b4"
+      }
+    },
+    {
+      "id": "monitoring",
+      "name": "监控工具",
+      "count": 1,
+      "index": {
+        "path": "container/monitoring/index.json",
+        "sha256": "5ec6b45526395e5bad7b18b23eb2a936b15d9d0c18af426a73c09d80249ba694"
+      }
+    },
+    {
+      "id": "database",
+      "name": "数据库",
+      "count": 1,
+      "index": {
+        "path": "container/database/index.json",
+        "sha256": "24b8caec556dc2339cbebee65402a561b291a368432660f98f23cca471c3c2ca"
+      }
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/louislam/uptime-kuma/summary.json",
+      "sha256": "18bb2135c12b771d9df00c6e31888553166a0ac13a6717e4016dbe601a2980f2"
+    }
+  ],
+  "next": null
+}

@@ -1,0 +1,57 @@
+{
+  "schemaVersion": 1,
+  "id": "linuxserver/jellyfin",
+  "kind": "container",
+  "name": "Jellyfin",
+  "description": "媒体库管理与播放，配置目录和媒体目录分开挂载。",
+  "developer": "Jellyfin / LinuxServer.io",
+  "projectUrl": "https://github.com/jellyfin/jellyfin",
+  "source": "open",
+  "license": "GPL-2.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "jellyfin",
+    "影音",
+    "媒体"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/jellyfin.svg",
+  "payload": "container.json",
+  "env": "",
+  "recommendations": [
+    {
+      "target": "volumes.config.host",
+      "title": "配置目录",
+      "reason": "选择该实例独立的配置目录。",
+      "required": true,
+      "example": "/appdata/jellyfin"
+    },
+    {
+      "target": "volumes.media.host",
+      "title": "媒体目录",
+      "reason": "选择现有媒体库，只读挂载；卸载时不提供清空。",
+      "required": true,
+      "example": "/mnt/media"
+    },
+    {
+      "target": "environment.PUID",
+      "title": "运行用户",
+      "reason": "根据媒体目录的文件所有者调整。",
+      "required": false,
+      "example": "1000"
+    },
+    {
+      "target": "environment.PGID",
+      "title": "运行用户组",
+      "reason": "根据媒体目录的文件用户组调整。",
+      "required": false,
+      "example": "1000"
+    }
+  ],
+  "documentation": "https://docs.linuxserver.io/images/docker-jellyfin/"
+}

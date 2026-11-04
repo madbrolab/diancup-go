@@ -1,0 +1,40 @@
+{
+  "name": "postgresql",
+  "image": "postgres:17-alpine",
+  "ports": [
+    {
+      "id": "http",
+      "host": "127.0.0.1:5432",
+      "container": "5432"
+    }
+  ],
+  "volumes": [
+    {
+      "id": "data",
+      "host": "/appdata/postgresql",
+      "container": "/var/lib/postgresql/data",
+      "mode": "rw"
+    }
+  ],
+  "environment": [
+    {
+      "key": "POSTGRES_USER",
+      "value": "app"
+    },
+    {
+      "key": "POSTGRES_DB",
+      "value": "app"
+    },
+    {
+      "key": "POSTGRES_PASSWORD",
+      "value": ""
+    }
+  ],
+  "restart_policy": "unless-stopped",
+  "network_mode": "bridge",
+  "privileged": false,
+  "labels": {},
+  "command": [],
+  "cpu_limit": "",
+  "memory_limit": ""
+}

@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "gitea/gitea-postgresql",
+      "kind": "compose",
+      "category": "development",
+      "name": "Gitea + PostgreSQL",
+      "description": "轻量 Git 托管平台，搭配 PostgreSQL 数据库。",
+      "developer": "Gitea",
+      "projectUrl": "https://github.com/go-gitea/gitea",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/gitea-postgresql.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "gitea",
+        "git",
+        "postgresql",
+        "代码托管"
+      ],
+      "manifest": {
+        "path": "templates/gitea/gitea-postgresql/manifest.json",
+        "sha256": "5598588bd2ec0d78bfb4d527bcdf3506f8d6e782fa111738e1f0ce8b2348af98"
+      },
+      "summary": {
+        "path": "templates/gitea/gitea-postgresql/summary.json",
+        "sha256": "8f07935d3be6fef4d463f77c04ce4e97ec1bb2828acb711d9c3a41fb8c524ee4"
+      }
+    },
+    {
+      "id": "louislam/uptime-kuma-compose",
+      "kind": "compose",
+      "category": "monitoring",
+      "name": "Uptime Kuma Compose",
+      "description": "通过 Compose 部署服务监控，数据保存在项目独立目录。",
+      "developer": "Louis Lam",
+      "projectUrl": "https://github.com/louislam/uptime-kuma",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/uptime-kuma-compose.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "uptime",
+        "kuma",
+        "监控",
+        "compose"
+      ],
+      "manifest": {
+        "path": "templates/louislam/uptime-kuma-compose/manifest.json",
+        "sha256": "e51be1f27f0e8c22528b2cadfddf5ce5dffe844b09c33b7573bb05f0cb2976cd"
+      },
+      "summary": {
+        "path": "templates/louislam/uptime-kuma-compose/summary.json",
+        "sha256": "53cabb87a5a53709eb3780aa990d1f149e3c2221f4b8048c88f276db5d4a0821"
+      }
+    },
+    {
+      "id": "official/wordpress-mariadb",
+      "kind": "compose",
+      "category": "web",
+      "name": "WordPress + MariaDB",
+      "description": "博客网站和独立数据库，数据库仅在项目网络中访问。",
+      "developer": "WordPress / MariaDB",
+      "projectUrl": "https://github.com/WordPress/WordPress",
+      "source": "open",
+      "license": "GPL-2.0-or-later",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/wordpress-mariadb.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "wordpress",
+        "mariadb",
+        "博客",
+        "网站"
+      ],
+      "manifest": {
+        "path": "templates/official/wordpress-mariadb/manifest.json",
+        "sha256": "f499d9f29cef4578d781d40e6278a8dc8fd184aeebf35914bb28a3f64ea03b22"
+      },
+      "summary": {
+        "path": "templates/official/wordpress-mariadb/summary.json",
+        "sha256": "097b37b56274cb6e1899a02b9f17217ef3d24294f06c0d4a3f2d7566e717d2b1"
+      }
+    }
+  ],
+  "next": null
+}

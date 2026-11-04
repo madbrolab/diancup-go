@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/official/nginx/summary.json",
+      "sha256": "0e19357e45a3c0af214578bd77556ea62d8c80867253a5d3d4299dd23f7d02e4"
+    }
+  ],
+  "next": null
+}

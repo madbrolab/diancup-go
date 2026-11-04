@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/gitea/gitea-postgresql/summary.json",
+      "sha256": "8f07935d3be6fef4d463f77c04ce4e97ec1bb2828acb711d9c3a41fb8c524ee4"
+    }
+  ],
+  "next": null
+}

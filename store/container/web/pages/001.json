@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "official/nginx",
+      "kind": "container",
+      "category": "web",
+      "name": "Nginx",
+      "description": "轻量 Web 服务与反向代理，网站目录以只读方式挂载。",
+      "developer": "NGINX",
+      "projectUrl": "https://github.com/nginx/nginx",
+      "source": "open",
+      "license": "BSD-2-Clause",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/nginx.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "nginx",
+        "网站",
+        "反向代理"
+      ],
+      "manifest": {
+        "path": "templates/official/nginx/manifest.json",
+        "sha256": "75c9e5e9d3f6665b83935b53adeee1bbf04894406cd9381d7a430fcbaa7b55b4"
+      },
+      "summary": {
+        "path": "templates/official/nginx/summary.json",
+        "sha256": "0e19357e45a3c0af214578bd77556ea62d8c80867253a5d3d4299dd23f7d02e4"
+      }
+    }
+  ],
+  "next": null
+}

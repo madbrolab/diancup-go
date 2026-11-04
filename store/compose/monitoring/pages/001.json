@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "louislam/uptime-kuma-compose",
+      "kind": "compose",
+      "category": "monitoring",
+      "name": "Uptime Kuma Compose",
+      "description": "通过 Compose 部署服务监控，数据保存在项目独立目录。",
+      "developer": "Louis Lam",
+      "projectUrl": "https://github.com/louislam/uptime-kuma",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/uptime-kuma-compose.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "uptime",
+        "kuma",
+        "监控",
+        "compose"
+      ],
+      "manifest": {
+        "path": "templates/louislam/uptime-kuma-compose/manifest.json",
+        "sha256": "e51be1f27f0e8c22528b2cadfddf5ce5dffe844b09c33b7573bb05f0cb2976cd"
+      },
+      "summary": {
+        "path": "templates/louislam/uptime-kuma-compose/summary.json",
+        "sha256": "53cabb87a5a53709eb3780aa990d1f149e3c2221f4b8048c88f276db5d4a0821"
+      }
+    }
+  ],
+  "next": null
+}

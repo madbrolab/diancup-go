@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "louislam/uptime-kuma",
+  "kind": "container",
+  "category": "monitoring",
+  "name": "Uptime Kuma",
+  "description": "自托管服务可用性监控，支持 HTTP、TCP 等探测。",
+  "developer": "Louis Lam",
+  "projectUrl": "https://github.com/louislam/uptime-kuma",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/uptime-kuma.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "uptime",
+    "kuma",
+    "监控"
+  ],
+  "manifest": {
+    "path": "templates/louislam/uptime-kuma/manifest.json",
+    "sha256": "06871eca490404c97f6d32474ca341ae078837cc44af901b60a8fd75c83432d4"
+  }
+}
