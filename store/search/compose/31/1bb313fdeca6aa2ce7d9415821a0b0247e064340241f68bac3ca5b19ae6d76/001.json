@@ -4,6 +4,10 @@
     {
       "path": "templates/coooolfan/xiaomi-album-syncer/summary.json",
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
+    },
+    {
+      "path": "templates/yetone/magpie/summary.json",
+      "sha256": "f9b548a81f5f062b9f9be28cdf02e0952912c7c5bd03fb3fab4cc2af6fa3f5bc"
     }
   ],
   "next": null

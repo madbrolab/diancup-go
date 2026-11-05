@@ -94,10 +94,10 @@
     {
       "id": "ai",
       "name": "AI",
-      "count": 3,
+      "count": 4,
       "index": {
         "path": "compose/ai/index.json",
-        "sha256": "99e759738d81af2455b7e8bcc07ac0141edb6ea2342d74fd0b4a5207e1028348"
+        "sha256": "61616aadb77831d4e998e289594104b4924e2e0d97a6c77ce29abe3a249861c6"
       }
     },
     {

@@ -12,6 +12,10 @@
     {
       "path": "templates/taksssss/iptv-tool/summary.json",
       "sha256": "2439878bc592bca125917749242c531a8405bc6e8773a67a2f95ca48a5d7eac5"
+    },
+    {
+      "path": "templates/yetone/magpie/summary.json",
+      "sha256": "f9b548a81f5f062b9f9be28cdf02e0952912c7c5bd03fb3fab4cc2af6fa3f5bc"
     }
   ],
   "next": null

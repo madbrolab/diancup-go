@@ -60,7 +60,7 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 
 ## 应用目录
 
-当前共 61 项模板（1 项普通模板、60 项 Compose 模板）。维护记录于 2026-11-04 至 2026-11-05 核对，各项目最近均有三个月内的上游活动。项目介绍、源码状态和收费说明以项目 README 为依据；未明确的收费情况保留为未知。点击应用查看模板，点击“项目”打开对应主页。
+当前共 62 项模板（1 项普通模板、61 项 Compose 模板）。维护记录于 2026-11-04 至 2026-11-05 核对，各项目最近均有三个月内的上游活动。项目介绍、源码状态和收费说明以项目 README 为依据；未明确的收费情况保留为未知。点击应用查看模板，点击“项目”打开对应主页。
 
 ### 工具
 
@@ -160,10 +160,13 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 | 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
 | --- | --- | --- | --- | --- | --- |
 | [DeepTutor](templates/hkuds/deeptutor/manifest.json) · [项目](https://github.com/HKUDS/DeepTutor) | 围绕个人资料构建学习工作区，结合知识库检索、辅导问答与学习任务辅助理解内容。项目声明没有付费在线产品。 | 2026-10-31 | 公开源码；Apache-2.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Magpie](templates/yetone/magpie/manifest.json) · [项目](https://github.com/yetone/magpie) | 为编程助手提供统一模型网关、渠道配置与路由切换 | 2026-11-05 | 公开源码；MIT | 自建无必需付费密钥；模型费用由渠道决定 | amd64, arm64 |
 | [NextChat](templates/chatgptnextweb/nextchat/manifest.json) · [项目](https://github.com/ChatGPTNextWeb/NextChat) | 提供可自建的多模型对话界面，支持常见模型渠道及桌面使用方式，并提供可选企业定制与私有部署服务。 | 2026-10-20 | 公开源码；MIT | 可选付费服务或功能 | amd64, arm64 |
 | [Open WebUI](templates/open-webui/open-webui/manifest.json) · [项目](https://github.com/open-webui/open-webui) | 为本地与兼容 API 的模型提供统一对话入口，可在自建环境管理资料和交互；许可要求保留品牌，另有企业服务。 | 2026-11-03 | 源码状态未知；Open WebUI License with branding requirements | 可选付费服务或功能 | amd64, arm64 |
 
 ## 部署提示
+
+- Magpie 默认网关 3425、网页 3430。填写实际网关地址及网页密钥后，使用 `http://NAS地址:3430/?k=网页密钥` 首次登录，再添加模型渠道并创建客户端网关密钥；配置目录自动初始化为 UID/GID 65532。
 
 项目数据默认使用模板中的通用目录。以 `./` 开头的路径属于当前 Compose 所在目录；多个应用需要共享资料时，应选择同一个宿主机实际目录。数据库密码和实例密钥留空时，必须填写后才能部署；模板不会替用户生成真实凭据。
 

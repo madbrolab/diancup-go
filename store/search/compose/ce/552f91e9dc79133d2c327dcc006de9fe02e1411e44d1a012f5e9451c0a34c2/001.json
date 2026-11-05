@@ -4,6 +4,10 @@
     {
       "path": "templates/chatgptnextweb/nextchat/summary.json",
       "sha256": "4c7f87bad3d8edf39c502d5b5a2f06aa0b0a9ce362c40c0a4d24c98de7726809"
+    },
+    {
+      "path": "templates/yetone/magpie/summary.json",
+      "sha256": "f9b548a81f5f062b9f9be28cdf02e0952912c7c5bd03fb3fab4cc2af6fa3f5bc"
     }
   ],
   "next": null

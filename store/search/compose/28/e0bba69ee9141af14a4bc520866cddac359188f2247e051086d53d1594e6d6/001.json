@@ -4,6 +4,10 @@
     {
       "path": "templates/iib0011/omni-tools/summary.json",
       "sha256": "27cda096dcc1b104f1f8a9f2826aa7276b7f92231506f2e0006aa2d096112a3d"
+    },
+    {
+      "path": "templates/yetone/magpie/summary.json",
+      "sha256": "f9b548a81f5f062b9f9be28cdf02e0952912c7c5bd03fb3fab4cc2af6fa3f5bc"
     }
   ],
   "next": null

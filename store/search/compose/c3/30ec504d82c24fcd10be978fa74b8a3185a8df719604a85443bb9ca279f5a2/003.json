@@ -40,6 +40,10 @@
     {
       "path": "templates/xhongc/music-tag-web/summary.json",
       "sha256": "581a9b6291b0b17a887fbe6b79c423ed169ac68cd166064a1765f8c331317577"
+    },
+    {
+      "path": "templates/yetone/magpie/summary.json",
+      "sha256": "f9b548a81f5f062b9f9be28cdf02e0952912c7c5bd03fb3fab4cc2af6fa3f5bc"
     }
   ],
   "next": null

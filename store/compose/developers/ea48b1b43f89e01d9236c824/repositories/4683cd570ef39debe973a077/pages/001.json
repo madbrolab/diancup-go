@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "yetone/magpie",
+      "kind": "compose",
+      "category": "ai",
+      "name": "Magpie",
+      "description": "为多种编程助手提供统一模型网关，集中配置模型渠道、路由组和多账号切换；通过网页完成设置后，可供其他电脑上的助手使用。",
+      "developer": "yetone",
+      "projectUrl": "https://github.com/yetone/magpie",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/magpie.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "magpie",
+        "AI",
+        "模型网关",
+        "API",
+        "路由",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/yetone/magpie/manifest.json",
+        "sha256": "b0b465b7cdf8285860011b8f29d921ae3f43b279d1cff088f9f48b2d635482ae"
+      },
+      "summary": {
+        "path": "templates/yetone/magpie/summary.json",
+        "sha256": "f9b548a81f5f062b9f9be28cdf02e0952912c7c5bd03fb3fab4cc2af6fa3f5bc"
+      }
+    }
+  ],
+  "next": null
+}

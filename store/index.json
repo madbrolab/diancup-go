@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "revision": "039b40a63515b04ee28164f6",
+  "revision": "e6ca3f3a099fc5013da07aa7",
   "sections": [
     {
       "id": "container",
@@ -14,10 +14,10 @@
     {
       "id": "compose",
       "name": "Compose 模板",
-      "count": 60,
+      "count": 61,
       "index": {
         "path": "compose/index.json",
-        "sha256": "8fab0b561b16a11940cfa7dc4faa08c16c9e00a9ccc57141ad79beea91be90af"
+        "sha256": "44f00453b7f4d3ff22837380c773aa02bd69352df23713daae33bf00cce66533"
       }
     }
   ],

@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "id": "yetone/magpie",
+  "kind": "compose",
+  "name": "Magpie",
+  "description": "为多种编程助手提供统一模型网关，集中配置模型渠道、路由组和多账号切换；通过网页完成设置后，可供其他电脑上的助手使用。",
+  "developer": "yetone",
+  "projectUrl": "https://github.com/yetone/magpie",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "ai",
+  "tags": [
+    "magpie",
+    "AI",
+    "模型网关",
+    "API",
+    "路由",
+    "compose"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/magpie.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://usemagpie.ai/docs/zh/docker",
+  "applications": [
+    {
+      "id": "magpie",
+      "name": "Magpie",
+      "developer": "yetone",
+      "projectUrl": "https://github.com/yetone/magpie",
+      "icon": "icons/magpie.svg",
+      "services": [
+        "prepare",
+        "magpie"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.MAGPIE_WEB_KEY",
+      "title": "网页访问密钥",
+      "reason": "填写至少 32 位随机十六进制字符并长期保留；首次通过 http://NAS地址:网页端口/?k=此密钥 登录。它不是客户端的网关密钥。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.PUBLIC_URL",
+      "title": "实际网关地址",
+      "reason": "填写其他设备实际访问的完整网关地址，与 GATEWAY_PORT 或反向代理地址保持一致。",
+      "required": true,
+      "example": "http://nas.example.com:3425"
+    },
+    {
+      "target": "env.BIND_IP",
+      "title": "宿主机监听地址",
+      "reason": "默认 0.0.0.0 供内网设备访问；可填写 NAS 实际内网 IP，或改为 127.0.0.1 并通过 SSH 隧道访问。跨网络使用时按官方文档配置 HTTPS。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.magpie",
+      "title": "首次添加渠道",
+      "reason": "进入 Providers 添加自己的 API 渠道或订阅账号，再在 Gateway 中为每个客户端创建网关密钥；容器版作为网关使用，不会修改其他电脑上的助手配置。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.prepare.volumes",
+      "title": "配置目录权限",
+      "reason": "./config 保存渠道、密钥、登录信息、插件与用量。准备任务将此目录本身设为官方 UID/GID 65532，不递归修改已有文件；复用已有目录时需自行确认其内部文件可读写。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.magpie.environment",
+      "title": "订阅登录回调",
+      "reason": "订阅登录后浏览器若停在无法打开的 localhost 回调页，将完整回调地址粘贴到网页的 Callback URL 字段。需要 Claude Code 等辅助程序时按官方指引在应用内安装。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.magpie.image",
+      "title": "模型费用",
+      "reason": "项目使用 MIT 许可，无需应用付费激活密钥；所接入模型的 API 用量或订阅由对应服务商计费。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-05",
+    "lastCommitAt": "2026-11-05T08:35:38Z",
+    "lastCommit": "97ccb90e88415ae414491589a0a9c0722fb5ac31",
+    "readmeSHA256": "091238b47c3f8890f73556bb77590d2ae90f1706c7b156450e4121ed157a4ad3",
+    "iconSource": "https://raw.githubusercontent.com/yetone/magpie/97ccb90e88415ae414491589a0a9c0722fb5ac31/site/public/img/icon-256.png",
+    "iconSHA256": "57437c6596e05a8fcfc42d4288c030aa00ed86b69fe35d464d69d7026150c704",
+    "images": [
+      {
+        "image": "ghcr.io/yetone/magpie:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "c3f05ed1c861971ea131ef3e5e878b9247cf7f1aecb945eb28e6939284e51508"
+      }
+    ]
+  }
+}
