@@ -1,6 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/madbrolab/diancup-go/main/assets/logo.svg" width="112" alt="DIANCUP">
   <h1>DIANCUP</h1>
+  <h3>💬 <a href="https://t.me/diancup">加入 DIANCUP Telegram 交流群</a></h3>
   <p>让常用服务，触手可及。</p>
   <p>可定制导航 · Docker 与 Compose 管理 · 主机运维</p>
 </div>
@@ -81,6 +82,6 @@ Chrome / Edge 打开扩展管理页，开启开发者模式，加载解压后的
 
 ## 交流与反馈
 
-[Telegram 交流群](https://t.me/diancup) · [GitHub Issues](https://github.com/madbrolab/diancup-go/issues) · [应用模板](https://github.com/madbrolab/diancup-go/tree/main/store) · [Docker Hub](https://hub.docker.com/r/madbrolab/diancup)
+[GitHub Issues](https://github.com/madbrolab/diancup-go/issues) · [应用模板](https://github.com/madbrolab/diancup-go/tree/main/store) · [Docker Hub](https://hub.docker.com/r/madbrolab/diancup)
 
 反馈时注明镜像版本、CPU 架构与复现步骤，请勿提交密码、API Key 或含凭据的日志。DIANCUP 由 **madbrolab** 维护。
