@@ -6,6 +6,14 @@
       "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
     },
     {
+      "path": "templates/gramps-project/gramps-web/summary.json",
+      "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
+    },
+    {
+      "path": "templates/karakeep-app/karakeep/summary.json",
+      "sha256": "9bd4eecfc22466f2fd43294f820548a4751e453aaf4a379529acd6a9aa545bef"
+    },
+    {
       "path": "templates/linuxserver/transmission-basic/summary.json",
       "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     },

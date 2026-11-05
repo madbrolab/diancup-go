@@ -417,6 +417,38 @@
       }
     },
     {
+      "id": "donkie/spoolman",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Spoolman",
+      "description": "记录 3D 打印耗材的品牌、材质、颜色和剩余重量，打印前查找合适料卷，并可连接兼容打印软件同步耗材用量。",
+      "developer": "Donkie",
+      "projectUrl": "https://github.com/Donkie/Spoolman",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/spoolman.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "spoolman",
+        "3D打印",
+        "耗材"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/donkie/spoolman/manifest.json",
+        "sha256": "0523678002b82455d64d46135c414d66303b1570fbe4253df82dfbc7398d21ae"
+      },
+      "summary": {
+        "path": "templates/donkie/spoolman/summary.json",
+        "sha256": "03ae37ff348588ca7637c9e998799d93e81f6e2ab7ccea6580c9e87299aada3e"
+      }
+    },
+    {
       "id": "ellite/wallos",
       "kind": "compose",
       "category": "tools",
@@ -641,6 +673,38 @@
       }
     },
     {
+      "id": "ghostfolio/ghostfolio",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Ghostfolio",
+      "description": "汇总个人投资账户与交易记录，查看资产配置、收益走势和持仓变化；数据保存在本地数据库，行情可按所选数据源获取。",
+      "developer": "ghostfolio",
+      "projectUrl": "https://github.com/ghostfolio/ghostfolio",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/ghostfolio.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "ghostfolio",
+        "投资",
+        "资产"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/ghostfolio/ghostfolio/manifest.json",
+        "sha256": "dd87b37cd792224f81c72df224f36b01b98d10634f3234fd1eb20de94925ba92"
+      },
+      "summary": {
+        "path": "templates/ghostfolio/ghostfolio/summary.json",
+        "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
+      }
+    },
+    {
       "id": "gitea/gitea-postgresql",
       "kind": "compose",
       "category": "development",
@@ -704,75 +768,10 @@
         "path": "templates/go-vikunja/vikunja/summary.json",
         "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
       }
-    },
-    {
-      "id": "gotify/server",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Gotify",
-      "description": "搭建自己的消息推送服务，通过 REST API 发送通知，并使用网页、WebSocket 或 Android 客户端接收消息。",
-      "developer": "gotify",
-      "projectUrl": "https://github.com/gotify/server",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/gotify.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "gotify",
-        "Gotify",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/gotify/server/manifest.json",
-        "sha256": "9f5983b4c7a0029ebc42adc057c36b4f972577d31e60e8b5e7be0e753ecc5307"
-      },
-      "summary": {
-        "path": "templates/gotify/server/summary.json",
-        "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
-      }
-    },
-    {
-      "id": "gotson/komga",
-      "kind": "compose",
-      "category": "media",
-      "name": "Komga",
-      "description": "把漫画、杂志和电子书目录整理为个人阅读库，提供网页阅读、合集、阅读进度以及 OPDS 和阅读器同步。",
-      "developer": "gotson",
-      "projectUrl": "https://github.com/gotson/komga",
-      "source": "open",
-      "license": "MIT",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/komga.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "komga",
-        "Komga",
-        "media",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/gotson/komga/manifest.json",
-        "sha256": "50f020c21e7ce7f798ec28474ab73cb13059e3a51d6fa46e809efaca68a9801e"
-      },
-      "summary": {
-        "path": "templates/gotson/komga/summary.json",
-        "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
-      }
     }
   ],
   "next": {
     "path": "compose/all/pages/002.json",
-    "sha256": "e09b7e6b2e3a2ad52c85bed3d23c3ef8d4c7c5dafc3064dd2f41b476777e48e5"
+    "sha256": "f8429cf7f2c71a482abedcb9b3265b13b912559689f067df2e3fd6467648e53f"
   }
 }

@@ -10,6 +10,10 @@
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
     },
     {
+      "path": "templates/seanmorley15/adventurelog/summary.json",
+      "sha256": "e77c6c8df987119e96ac35ae7039fe752c33d88ebb480757a753400ee79cd2ad"
+    },
+    {
       "path": "templates/syncthing/syncthing/summary.json",
       "sha256": "44158113e797b1faea4b92f1ba6fa4b99878c60e4d93c12d729445d07361ea59"
     },

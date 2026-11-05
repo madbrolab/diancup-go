@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/gramps-project/gramps-web/summary.json",
+      "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
+    },
+    {
       "path": "templates/openlistteam/openlist/summary.json",
       "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     },

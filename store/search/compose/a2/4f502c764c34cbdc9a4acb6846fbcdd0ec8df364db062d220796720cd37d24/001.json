@@ -14,6 +14,10 @@
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
+      "path": "templates/karakeep-app/karakeep/summary.json",
+      "sha256": "9bd4eecfc22466f2fd43294f820548a4751e453aaf4a379529acd6a9aa545bef"
+    },
+    {
       "path": "templates/seerr-team/seerr/summary.json",
       "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
     },

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "seanmorley15/adventurelog",
+  "kind": "compose",
+  "category": "tools",
+  "name": "AdventureLog",
+  "description": "在地图上记录旅行足迹、照片和经历，整理想去的地点与行程计划，把个人旅行资料持续保存在自己的服务器。",
+  "developer": "seanmorley15",
+  "projectUrl": "https://github.com/seanmorley15/AdventureLog",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/adventurelog.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "adventurelog",
+    "旅行",
+    "地图",
+    "行程"
+  ],
+  "applicationCount": 2,
+  "manifest": {
+    "path": "templates/seanmorley15/adventurelog/manifest.json",
+    "sha256": "bf04863cdac0dfe95ab4abc09b2118bc7c75361466a8896ee0e7504909c10fc5"
+  }
+}

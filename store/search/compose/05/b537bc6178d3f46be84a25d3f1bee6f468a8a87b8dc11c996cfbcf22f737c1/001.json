@@ -6,6 +6,10 @@
       "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
+      "path": "templates/ghostfolio/ghostfolio/summary.json",
+      "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
+    },
+    {
       "path": "templates/hkuds/deeptutor/summary.json",
       "sha256": "2c50cd1e697e54838a5f9d110af4f846c894128bc6ed91c6b5164c1c760d2d54"
     },

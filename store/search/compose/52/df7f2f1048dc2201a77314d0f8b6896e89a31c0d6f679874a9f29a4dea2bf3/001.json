@@ -6,6 +6,10 @@
       "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
     },
     {
+      "path": "templates/seanmorley15/adventurelog/summary.json",
+      "sha256": "e77c6c8df987119e96ac35ae7039fe752c33d88ebb480757a753400ee79cd2ad"
+    },
+    {
       "path": "templates/stirling-tools/stirling-pdf/summary.json",
       "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }

@@ -10,6 +10,10 @@
       "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
+      "path": "templates/donkie/spoolman/summary.json",
+      "sha256": "03ae37ff348588ca7637c9e998799d93e81f6e2ab7ccea6580c9e87299aada3e"
+    },
+    {
       "path": "templates/ellite/wallos/summary.json",
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
     },
@@ -36,6 +40,10 @@
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
       "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
+    },
+    {
+      "path": "templates/karakeep-app/karakeep/summary.json",
+      "sha256": "9bd4eecfc22466f2fd43294f820548a4751e453aaf4a379529acd6a9aa545bef"
     },
     {
       "path": "templates/madbrolab/dian115-basic/summary.json",

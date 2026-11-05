@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "id": "gramps-project/gramps-web",
+  "kind": "compose",
+  "name": "Gramps Web",
+  "description": "整理家谱中的人物、亲属关系、事件与照片，在浏览器中共同维护家庭历史，并可与 Gramps 桌面端交换资料。",
+  "developer": "gramps-project",
+  "projectUrl": "https://github.com/gramps-project/gramps-web",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "gramps-web",
+    "家谱",
+    "家庭历史"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/gramps-web.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://www.grampsweb.org/install_setup/deployment/",
+  "applications": [
+    {
+      "id": "gramps-web",
+      "name": "Gramps Web",
+      "developer": "gramps-project",
+      "projectUrl": "https://github.com/gramps-project/gramps-web",
+      "icon": "icons/gramps-web.svg",
+      "services": [
+        "app",
+        "worker"
+      ]
+    },
+    {
+      "id": "broker",
+      "name": "Valkey",
+      "developer": "Valkey",
+      "projectUrl": "https://github.com/valkey-io/valkey",
+      "icon": "icons/infra-valkey.svg",
+      "services": [
+        "redis"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.PUBLIC_URL",
+      "title": "完整访问地址",
+      "reason": "填写实际使用的完整地址，生成通知和邮件链接时使用。默认宿主机端口 80，可通过 HTTP_PORT 修改。",
+      "required": true,
+      "example": "http://nas.example.com"
+    },
+    {
+      "target": "compose.services.app",
+      "title": "首次设置",
+      "reason": "初次访问按向导创建家谱拥有者账号，随后创建或导入家谱。后台任务服务与网页服务使用同一版本镜像和同一组资料目录。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app.volumes",
+      "title": "家谱资料与密钥",
+      "reason": "人物数据库、账号、照片、索引和实例密钥分别持久化。请整体保留这些目录，尤其不要删除 ./secret 后继续沿用其他数据。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.worker",
+      "title": "后台任务",
+      "reason": "导入、导出和媒体处理由 worker 执行；不要只启动网页服务。Valkey 不发布宿主机端口。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-04T14:29:22Z",
+    "lastCommit": "44ede5a04f0a6ba91b084cf8ab719a97bcad6c22",
+    "readmeURL": "https://github.com/gramps-project/gramps-web/blob/44ede5a04f0a6ba91b084cf8ab719a97bcad6c22/README.md",
+    "readmeSHA256": "0807d7d9c7c99472133e611ece2aaee710c867c2356c03a6170f45215dd89ce9",
+    "iconSource": "https://raw.githubusercontent.com/gramps-project/gramps-web/44ede5a04f0a6ba91b084cf8ab719a97bcad6c22/images/icon512.png",
+    "iconSHA256": "8e4e8871b90a741ca9d80c169dace437b32f8d8d7afeab8dd655537b738869a2",
+    "images": [
+      {
+        "image": "ghcr.io/gramps-project/grampsweb:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:73150b81300927954e8288079a4ed3b699cac3dc853d080fef17fc6d1f61f994"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:1d198767de1409b989b379d7b03b1b9d81e20ff1d9f03a159b643358c0185c1d"
+          }
+        ]
+      },
+      {
+        "image": "valkey/valkey:8-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:ac81eb0a7b37e054000af8fdd5e6c3eb17249caa71eba79c003a145e518415e5"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:880f09f3e1bacbbec3dff2ac1676540939758b77f21a2f882e8af68391a8a69e"
+          }
+        ]
+      }
+    ],
+    "components": [
+      {
+        "projectUrl": "https://github.com/gramps-project/gramps-web-api",
+        "lastCommitAt": "2026-11-05T12:28:17Z",
+        "lastCommit": "c4a34cad7cf8743fc2a85d6611e277110a75ccc2",
+        "readmeSHA256": "7364e1a0e9d87245b385137fdf4601ce55afa7b20f2edb4e2d95598953ff4a95"
+      }
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+services:
+  prepare:
+    image: ghcr.io/manyfold3d/manyfold-solo:latest
+    user: 0:0
+    restart: no
+    entrypoint:
+      - /bin/sh
+      - -ec
+    command:
+      - chown "$$PUID:$$PGID" /config /models
+    environment:
+      PUID: ${PUID:-1000}
+      PGID: ${PGID:-1000}
+    volumes:
+      - ./config:/config
+      - ./models:/models
+  app:
+    image: ghcr.io/manyfold3d/manyfold-solo:latest
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-3214}:3214
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      PUID: ${PUID:-1000}
+      PGID: ${PGID:-1000}
+      SECRET_KEY_BASE: ${SECRET_KEY_BASE:?请填写 SECRET_KEY_BASE}
+    volumes:
+      - ./config:/config
+      - ./models:/models
+    depends_on:
+      prepare:
+        condition: service_completed_successfully

@@ -4,6 +4,10 @@
     {
       "path": "templates/actualbudget/actual-budget/summary.json",
       "sha256": "680cfc310a5a543e8759c276883e25b6458563dd7cedac65661f707a944d4cbb"
+    },
+    {
+      "path": "templates/manyfold3d/manyfold/summary.json",
+      "sha256": "f93a7b5d3f3f6096f281fab5f8ab8b5ed2b1b2d19bb3160d58f728a88ff31e91"
     }
   ],
   "next": null

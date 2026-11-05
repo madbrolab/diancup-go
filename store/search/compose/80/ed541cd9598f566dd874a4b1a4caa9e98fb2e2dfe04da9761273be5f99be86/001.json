@@ -10,8 +10,16 @@
       "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
+      "path": "templates/gramps-project/gramps-web/summary.json",
+      "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
+    },
+    {
       "path": "templates/hargata/lubelogger/summary.json",
       "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
+    },
+    {
+      "path": "templates/mayswind/ezbookkeeping/summary.json",
+      "sha256": "362468c43823134af8506a83f296c8eb42ffba18ec96d1ed80e938266ced3582"
     },
     {
       "path": "templates/penpot/penpot/summary.json",

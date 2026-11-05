@@ -4,6 +4,10 @@
     {
       "path": "templates/59799517/simple-sq-music-plus/summary.json",
       "sha256": "1b28183a57d88c355769998a0b3801a8445938d90c55db05a18529ef80dfd28a"
+    },
+    {
+      "path": "templates/manyfold3d/manyfold/summary.json",
+      "sha256": "f93a7b5d3f3f6096f281fab5f8ab8b5ed2b1b2d19bb3160d58f728a88ff31e91"
     }
   ],
   "next": null

@@ -6,6 +6,10 @@
       "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
     },
     {
+      "path": "templates/ghostfolio/ghostfolio/summary.json",
+      "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
+    },
+    {
       "path": "templates/home-assistant/home-assistant/summary.json",
       "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
     },
@@ -16,6 +20,10 @@
     {
       "path": "templates/laurent22/joplin-server-basic/summary.json",
       "sha256": "5ee4755c13b454086da1de7ee3332190adcb0482a96757707b8a25c4a848fb8c"
+    },
+    {
+      "path": "templates/seanmorley15/adventurelog/summary.json",
+      "sha256": "e77c6c8df987119e96ac35ae7039fe752c33d88ebb480757a753400ee79cd2ad"
     }
   ],
   "next": null

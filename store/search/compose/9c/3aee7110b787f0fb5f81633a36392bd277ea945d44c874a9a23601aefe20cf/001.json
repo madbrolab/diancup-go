@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/ghostfolio/ghostfolio/summary.json",
+      "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
+    },
+    {
+      "path": "templates/manyfold3d/manyfold/summary.json",
+      "sha256": "f93a7b5d3f3f6096f281fab5f8ab8b5ed2b1b2d19bb3160d58f728a88ff31e91"
+    }
+  ],
+  "next": null
+}

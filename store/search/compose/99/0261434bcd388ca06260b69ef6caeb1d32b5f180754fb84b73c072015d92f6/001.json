@@ -14,6 +14,10 @@
       "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
     },
     {
+      "path": "templates/mayswind/ezbookkeeping/summary.json",
+      "sha256": "362468c43823134af8506a83f296c8eb42ffba18ec96d1ed80e938266ced3582"
+    },
+    {
       "path": "templates/rommapp/romm/summary.json",
       "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
     },

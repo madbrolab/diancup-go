@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/ulsklyc/yuvomi/summary.json",
+      "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
+    }
+  ],
+  "next": null
+}

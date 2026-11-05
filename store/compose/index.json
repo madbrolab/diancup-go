@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "count": 61,
+  "count": 68,
   "all": {
     "path": "compose/all/index.json",
-    "sha256": "0add70b0218f21a5937a1aaed58407b500d1e46b74377372f46d60534b50064c"
+    "sha256": "392242bd23423877512b156c147abcfd64e079502f0732c7c60a0a61019c553d"
   },
   "developersFirst": {
     "path": "compose/developers/001.json",
-    "sha256": "85ebf19311eb23c045858b9a42669dd234a8deecc101f0382f2ff38d204669e7"
+    "sha256": "ffe1264cde24de7989c1e8e94898cbcd4d8103f9cb419bdb0fbd0b264e8a30ce"
   },
   "first": {
     "path": "compose/categories/001.json",
-    "sha256": "e8f90766e61cddf3a230444d9bb8d609214d8e37dcd032354405f8ad45261cb0"
+    "sha256": "3716259a0d0b29edff7fa97bef58b629036ab50a806172ebe8e1d5887d9be9aa"
   }
 }

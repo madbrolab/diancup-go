@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/seanmorley15/adventurelog/summary.json",
+      "sha256": "e77c6c8df987119e96ac35ae7039fe752c33d88ebb480757a753400ee79cd2ad"
+    },
+    {
       "path": "templates/usememos/memos/summary.json",
       "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
     }

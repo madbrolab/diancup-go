@@ -2,6 +2,14 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/gramps-project/gramps-web/summary.json",
+      "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
+    },
+    {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/hargata/lubelogger/summary.json",
       "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
     },
@@ -50,6 +58,14 @@
       "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
     },
     {
+      "path": "templates/manyfold3d/manyfold/summary.json",
+      "sha256": "f93a7b5d3f3f6096f281fab5f8ab8b5ed2b1b2d19bb3160d58f728a88ff31e91"
+    },
+    {
+      "path": "templates/mayswind/ezbookkeeping/summary.json",
+      "sha256": "362468c43823134af8506a83f296c8eb42ffba18ec96d1ed80e938266ced3582"
+    },
+    {
       "path": "templates/mealie-recipes/mealie/summary.json",
       "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
     },
@@ -80,26 +96,10 @@
     {
       "path": "templates/paperless-ngx/paperless-ngx/summary.json",
       "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
-    },
-    {
-      "path": "templates/penpot/penpot/summary.json",
-      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
-    },
-    {
-      "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
-    },
-    {
-      "path": "templates/rommapp/romm/summary.json",
-      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
-    },
-    {
-      "path": "templates/seerr-team/seerr/summary.json",
-      "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
     }
   ],
   "next": {
     "path": "search/compose/62/c66a7a5dd70c3146618063c344e531e6d4b59e379808443ce962b3abd63c5a/003.json",
-    "sha256": "2cadf2219aea10528febcc88cb1f6746446a6638b9ac05b56581644880474534"
+    "sha256": "361a9743035eac0ca2e344fd4f64211eac4ab0eb2d54a24b86fd16a003196549"
   }
 }

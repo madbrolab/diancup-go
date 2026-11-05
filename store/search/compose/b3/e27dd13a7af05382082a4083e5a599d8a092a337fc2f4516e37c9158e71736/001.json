@@ -74,6 +74,10 @@
       "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
     },
     {
+      "path": "templates/seanmorley15/adventurelog/summary.json",
+      "sha256": "e77c6c8df987119e96ac35ae7039fe752c33d88ebb480757a753400ee79cd2ad"
+    },
+    {
       "path": "templates/seerr-team/seerr/summary.json",
       "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
     },

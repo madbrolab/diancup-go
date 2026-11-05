@@ -2,6 +2,18 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/gotify/server/summary.json",
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
+    },
+    {
+      "path": "templates/gotson/komga/summary.json",
+      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
+      "path": "templates/gramps-project/gramps-web/summary.json",
+      "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
+    },
+    {
       "path": "templates/grocy/grocy/summary.json",
       "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
     },
@@ -54,6 +66,14 @@
       "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
     },
     {
+      "path": "templates/manyfold3d/manyfold/summary.json",
+      "sha256": "f93a7b5d3f3f6096f281fab5f8ab8b5ed2b1b2d19bb3160d58f728a88ff31e91"
+    },
+    {
+      "path": "templates/mayswind/ezbookkeeping/summary.json",
+      "sha256": "362468c43823134af8506a83f296c8eb42ffba18ec96d1ed80e938266ced3582"
+    },
+    {
       "path": "templates/mealie-recipes/mealie/summary.json",
       "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
     },
@@ -76,30 +96,10 @@
     {
       "path": "templates/open-webui/open-webui/summary.json",
       "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
-    },
-    {
-      "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
-    },
-    {
-      "path": "templates/paperless-ngx/paperless-ngx/summary.json",
-      "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
-    },
-    {
-      "path": "templates/penpot/penpot/summary.json",
-      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
-    },
-    {
-      "path": "templates/plankanban/planka/summary.json",
-      "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
-    },
-    {
-      "path": "templates/rommapp/romm/summary.json",
-      "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
     }
   ],
   "next": {
     "path": "search/compose/65/c74c15a686187bb6bbf9958f494fc6b80068034a659a9ad44991b08c58f2d2/003.json",
-    "sha256": "1a20c4ed464c431d9ce3a191e75c0a7c0342d3d56d10e3000118402ceeae947a"
+    "sha256": "cd2cdbfb359d4303333c98821b906af2563fa817b958fe60997514e9c5881d64"
   }
 }

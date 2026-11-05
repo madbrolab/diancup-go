@@ -1,0 +1,75 @@
+services:
+  app:
+    image: ghostfolio/ghostfolio:latest
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 1m
+    ports:
+      - ${HTTP_PORT:-3333}:3333
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      DATABASE_URL: postgresql://ghostfolio:${DB_PASSWORD:?请填写 DB_PASSWORD}@postgres:5432/ghostfolio?connect_timeout=300
+      POSTGRES_DB: ghostfolio
+      POSTGRES_USER: ghostfolio
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      REDIS_HOST: redis
+      REDIS_PORT: "6379"
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?请填写 REDIS_PASSWORD}
+      ACCESS_TOKEN_SALT: ${ACCESS_TOKEN_SALT:?请填写 ACCESS_TOKEN_SALT}
+      JWT_SECRET_KEY: ${JWT_SECRET_KEY:?请填写 JWT_SECRET_KEY}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - curl
+        - -f
+        - http://localhost:3333/api/v1/health
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 60s
+  postgres:
+    image: postgres:15-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ghostfolio
+      POSTGRES_DB: ghostfolio
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD
+        - pg_isready
+        - -U
+        - ghostfolio
+        - -d
+        - ghostfolio
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s
+  redis:
+    image: redis:8-alpine
+    restart: unless-stopped
+    environment:
+      REDIS_PASSWORD: ${REDIS_PASSWORD:?请填写 REDIS_PASSWORD}
+      REDISCLI_AUTH: ${REDIS_PASSWORD:?请填写 REDIS_PASSWORD}
+    command:
+      - redis-server
+      - --requirepass
+      - ${REDIS_PASSWORD:?请填写 REDIS_PASSWORD}
+    volumes:
+      - ./redis:/data
+    healthcheck:
+      test:
+        - CMD
+        - redis-cli
+        - ping
+      interval: 10s
+      timeout: 5s
+      retries: 10

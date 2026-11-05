@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "id": "seanmorley15/adventurelog",
+  "kind": "compose",
+  "name": "AdventureLog",
+  "description": "在地图上记录旅行足迹、照片和经历，整理想去的地点与行程计划，把个人旅行资料持续保存在自己的服务器。",
+  "developer": "seanmorley15",
+  "projectUrl": "https://github.com/seanmorley15/AdventureLog",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "adventurelog",
+    "旅行",
+    "地图",
+    "行程"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/adventurelog.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/seanmorley15/AdventureLog#readme",
+  "applications": [
+    {
+      "id": "adventurelog",
+      "name": "AdventureLog",
+      "developer": "seanmorley15",
+      "projectUrl": "https://github.com/seanmorley15/AdventureLog",
+      "icon": "icons/adventurelog.svg",
+      "services": [
+        "app"
+      ]
+    },
+    {
+      "id": "database",
+      "name": "PostgreSQL + PostGIS",
+      "developer": "PostgreSQL / PostGIS / imresamu",
+      "projectUrl": "https://github.com/imresamu/docker-postgis",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "db"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.SITE_URL",
+      "title": "实际访问地址",
+      "reason": "填写包含协议和端口的真实访问地址，与 HTTP_PORT 或反向代理地址一致。",
+      "required": true,
+      "example": "http://nas.example.com:8015"
+    },
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "填写独立密码，应用与 PostGIS 使用同一值。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app",
+      "title": "首次启动与登录",
+      "reason": "首次启动会导入地理资料，耗时及内存占用较高；等待初始化完成后，以 admin / admin 登录并立即修改密码。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.db.image",
+      "title": "地图数据库",
+      "reason": "采用官方文档列出的 ARM 兼容 PostGIS 16 镜像，同时支持 amd64 和 arm64。./postgres 保存数据库，./media 保存上传照片，均需保留。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-03T14:45:13Z",
+    "lastCommit": "f92621f07b978765fc1284dc29af0b5e744ae930",
+    "readmeURL": "https://github.com/seanmorley15/AdventureLog/blob/f92621f07b978765fc1284dc29af0b5e744ae930/README.md",
+    "readmeSHA256": "d64ad8fa21cc2e67072c395f3c5cc850787557454f584a89c448fe193474ea54",
+    "iconSource": "https://raw.githubusercontent.com/seanmorley15/AdventureLog/f92621f07b978765fc1284dc29af0b5e744ae930/brand/adventurelog.png",
+    "iconSHA256": "d7fd2cacac396c5f48cfa996b5913371d6ec66d2abcec3ca42bedf2eabc76c3e",
+    "images": [
+      {
+        "image": "ghcr.io/seanmorley15/adventurelog:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:9b9ff375c5e7069f0bcfabc5e0e0b21061dc16d50844c0a56a3ea29f2971edee"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:3d51294be8e94ef997c0cd33a5e0e94636c87b0095344cf557e5de609a381fc6"
+          }
+        ]
+      },
+      {
+        "image": "imresamu/postgis:16-3.5-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:3da7272d4bcaa398edb481a992791245da51d8ddcbdf56cf763aa4615d22fef2"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:9296373e191f9ba9665b58f0c1261c7e3beb2055a5a72e39fa1bf13ee9360977"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "manyfold3d/manyfold",
+  "kind": "compose",
+  "name": "Manyfold Solo",
+  "description": "为个人 3D 打印模型建立可预览、可分类的资料库，整理模型文件、作者和标签；Solo 镜像内置数据库与任务队列，适合家庭使用。",
+  "developer": "manyfold3d",
+  "projectUrl": "https://github.com/manyfold3d/manyfold",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "manyfold",
+    "3D打印",
+    "模型"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/manyfold.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://manyfold.app/get-started/docker",
+  "applications": [
+    {
+      "id": "manyfold",
+      "name": "Manyfold Solo",
+      "developer": "manyfold3d",
+      "projectUrl": "https://github.com/manyfold3d/manyfold",
+      "icon": "icons/manyfold.svg",
+      "services": [
+        "prepare",
+        "app"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.SECRET_KEY_BASE",
+      "title": "实例密钥",
+      "reason": "填写长随机值，建议 128 位十六进制字符，初始化后长期保留。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.PUID",
+      "title": "模型文件属主",
+      "reason": "与 PGID 一起设为实际模型目录的用户和组 ID。准备任务只修改两个挂载目录本身，已有内部文件也应允许该用户读写。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app",
+      "title": "首次设置",
+      "reason": "首次进入网页按提示设置管理员密码，然后添加文件系统资料库，容器内路径填写 /models。官方默认单用户模式不要求每次登录，多用户访问时按文档启用 MULTIUSER。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app.volumes",
+      "title": "模型与配置",
+      "reason": "./config 保存 SQLite 数据库和插件，./models 保存模型文件，必须一起保留。该 Solo 方案已包含 Redis，不需要另装数据库。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-05T15:13:44Z",
+    "lastCommit": "d8bccfee8ad18608f102dff0143c45883b9a9070",
+    "readmeURL": "https://github.com/manyfold3d/manyfold/blob/d8bccfee8ad18608f102dff0143c45883b9a9070/README.md",
+    "readmeSHA256": "bf375ac328f975deb50ff1224bf3482aef60df7e1e9e41711d362939d0af941a",
+    "iconSource": "https://raw.githubusercontent.com/manyfold3d/manyfold/d8bccfee8ad18608f102dff0143c45883b9a9070/app/frontend/images/roundel.svg",
+    "iconSHA256": "7b46cae896da9d089041e89193f8bd3c8798c2d4832abf94221309ce66cb5625",
+    "images": [
+      {
+        "image": "ghcr.io/manyfold3d/manyfold-solo:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:fe74b7fbec36692fa4aa4444b3c42a89dfdbc88c5695629baf6e9b13bfcd3c12"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:f2d7ef8be2381a851fdfeeaf7ed1ae7f9c90b3a0617362b9f5eb65fe29c0558c"
+          }
+        ]
+      }
+    ]
+  }
+}

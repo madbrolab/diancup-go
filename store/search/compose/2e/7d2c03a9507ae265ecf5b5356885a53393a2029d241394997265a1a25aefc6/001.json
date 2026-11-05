@@ -94,12 +94,12 @@
       "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
     },
     {
-      "path": "templates/grocy/grocy/summary.json",
-      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+      "path": "templates/gramps-project/gramps-web/summary.json",
+      "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
     }
   ],
   "next": {
     "path": "search/compose/2e/7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6/002.json",
-    "sha256": "dfb4767a99d312bcac98871d161a4ee02bd802763ead18e12f0b3a2edbe14225"
+    "sha256": "c1d5eeed3a00edf2d5d4eb1ea1311958359524ae658b2501428b05e0ee3ab3eb"
   }
 }

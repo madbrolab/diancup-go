@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/ghostfolio/ghostfolio/summary.json",
+      "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
+    },
+    {
       "path": "templates/jiangrui1994/cloudsaver/summary.json",
       "sha256": "d1dc3b05099a44a7f8e48649013b280c2442889b041958b1f590f6f7f58e2fc6"
     }

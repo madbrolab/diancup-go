@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "ulsklyc/yuvomi",
+      "kind": "container",
+      "category": "tools",
+      "name": "Yuvomi",
+      "description": "把家庭日历、待办、购物清单和餐食安排放在同一工作区，方便家人共同记录日常事项，并保留本地数据和定时备份。",
+      "developer": "ulsklyc",
+      "projectUrl": "https://github.com/ulsklyc/yuvomi",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/yuvomi.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "yuvomi",
+        "家庭",
+        "日历",
+        "待办"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/ulsklyc/yuvomi/manifest.json",
+        "sha256": "c1c8eca9fc27ecb68f3fc3f1e46ee385314e95d361671f2fd4bf1276e3a8621e"
+      },
+      "summary": {
+        "path": "templates/ulsklyc/yuvomi/summary.json",
+        "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
+      }
+    }
+  ],
+  "next": null
+}

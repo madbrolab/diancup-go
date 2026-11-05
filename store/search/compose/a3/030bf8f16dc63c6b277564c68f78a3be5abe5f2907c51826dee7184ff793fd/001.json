@@ -22,6 +22,10 @@
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
+      "path": "templates/ghostfolio/ghostfolio/summary.json",
+      "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
+    },
+    {
       "path": "templates/hargata/lubelogger/summary.json",
       "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
     },
@@ -30,12 +34,20 @@
       "sha256": "63a122fccdb396f46fb839a06fa92f27862132e797a0dde8112ddeeaacec2c41"
     },
     {
+      "path": "templates/karakeep-app/karakeep/summary.json",
+      "sha256": "9bd4eecfc22466f2fd43294f820548a4751e453aaf4a379529acd6a9aa545bef"
+    },
+    {
       "path": "templates/laurent22/joplin-server-basic/summary.json",
       "sha256": "5ee4755c13b454086da1de7ee3332190adcb0482a96757707b8a25c4a848fb8c"
     },
     {
       "path": "templates/mealie-recipes/mealie/summary.json",
       "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
+    },
+    {
+      "path": "templates/seanmorley15/adventurelog/summary.json",
+      "sha256": "e77c6c8df987119e96ac35ae7039fe752c33d88ebb480757a753400ee79cd2ad"
     },
     {
       "path": "templates/usememos/memos/summary.json",

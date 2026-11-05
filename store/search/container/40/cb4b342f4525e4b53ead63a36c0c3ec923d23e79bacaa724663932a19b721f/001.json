@@ -4,6 +4,10 @@
     {
       "path": "templates/linuxserver/jellyfin/summary.json",
       "sha256": "ddbd159686cf51a6e5e3124d2da0d1433aad969a29b3937e4522150a18ecd86d"
+    },
+    {
+      "path": "templates/ulsklyc/yuvomi/summary.json",
+      "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
     }
   ],
   "next": null

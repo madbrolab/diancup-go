@@ -1,0 +1,36 @@
+{
+  "name": "music-assistant",
+  "image": "ghcr.io/music-assistant/server:latest",
+  "ports": [],
+  "volumes": [
+    {
+      "id": "data",
+      "host": "/appdata/music-assistant/data",
+      "container": "/data",
+      "mode": "rw"
+    },
+    {
+      "id": "music",
+      "host": "/appdata/music-assistant/music",
+      "container": "/media",
+      "mode": "ro"
+    }
+  ],
+  "environment": [
+    {
+      "key": "TZ",
+      "value": "Asia/Shanghai"
+    },
+    {
+      "key": "LOG_LEVEL",
+      "value": "info"
+    }
+  ],
+  "restart_policy": "unless-stopped",
+  "network_mode": "host",
+  "privileged": false,
+  "labels": {},
+  "command": [],
+  "cpu_limit": "",
+  "memory_limit": ""
+}

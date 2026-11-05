@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "karakeep-app/karakeep",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Karakeep",
+      "description": "把网页、图片和笔记集中收藏，保存内容快照并全文检索，适合整理个人长期阅读资料；可按需连接模型服务辅助打标签。",
+      "developer": "karakeep-app",
+      "projectUrl": "https://github.com/karakeep-app/karakeep",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/karakeep.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "karakeep",
+        "收藏",
+        "网页归档",
+        "书签"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/karakeep-app/karakeep/manifest.json",
+        "sha256": "f0f9899469c51228fc1f5bf41dbffa162c794677f7f0b8deab51a6350175ebd4"
+      },
+      "summary": {
+        "path": "templates/karakeep-app/karakeep/summary.json",
+        "sha256": "9bd4eecfc22466f2fd43294f820548a4751e453aaf4a379529acd6a9aa545bef"
+      }
+    }
+  ],
+  "next": null
+}

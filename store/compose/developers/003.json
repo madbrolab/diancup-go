@@ -2,6 +2,60 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "9be9ed9b27e13e3c59cd3495",
+      "name": "mealie-recipes",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/9be9ed9b27e13e3c59cd3495/repositories/001.json",
+        "sha256": "00901d942c957dab1523e23efceccd0130d822464a4d19935c8e5af7cdadf9db"
+      }
+    },
+    {
+      "id": "06eb80c10d6089876042f48d",
+      "name": "n8n-io",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/06eb80c10d6089876042f48d/repositories/001.json",
+        "sha256": "2e3157a6ee15884e0e550818ec4705d330dc81e08063187e12b6b82c2134959b"
+      }
+    },
+    {
+      "id": "a2a1e69c4f8340f60ff88d14",
+      "name": "nextcloud",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/a2a1e69c4f8340f60ff88d14/repositories/001.json",
+        "sha256": "1728f9500c4c6db596209ffaaa62d11659b5b9e43a18d6360ff8ea39f64aee10"
+      }
+    },
+    {
+      "id": "d496c82198e4f3360f2a8433",
+      "name": "open-webui",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/d496c82198e4f3360f2a8433/repositories/001.json",
+        "sha256": "e83592048bebbbd4cd9f5e1f9867a25c08dd0a03647f35023cd72eb511b9f967"
+      }
+    },
+    {
+      "id": "d98970309b28f0e6e7d7922e",
+      "name": "paperless-ngx",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/d98970309b28f0e6e7d7922e/repositories/001.json",
+        "sha256": "98caf57e1f246918e038f6e972ab39d07e37a1137db3d122b89fa1401eeab3f9"
+      }
+    },
+    {
+      "id": "6e6670a9af20b60cb9ff8163",
+      "name": "penpot",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/6e6670a9af20b60cb9ff8163/repositories/001.json",
+        "sha256": "a1b6364363d2f9cfacaa24b1ba498178908ef4d33b03a629052595f204d03b53"
+      }
+    },
+    {
       "id": "42d1cf784744ddc3ebd2fbc9",
       "name": "plankanban",
       "count": 1,
@@ -26,6 +80,15 @@
       "first": {
         "path": "compose/developers/28d9bf7ed4a68d7e1e424c86/repositories/001.json",
         "sha256": "14a3485951a3354d02992e2cb6bc64692ac84bc9bdb5e9ab040ed3a71d9e3561"
+      }
+    },
+    {
+      "id": "41a03192f67162095bc913fd",
+      "name": "seanmorley15",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/41a03192f67162095bc913fd/repositories/001.json",
+        "sha256": "19c85cb34adf0b45e3801f24c9e3e5b9921254e9a6bd0bbd09828b593f6253d8"
       }
     },
     {

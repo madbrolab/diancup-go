@@ -1,0 +1,55 @@
+services:
+  app:
+    image: ghcr.io/gramps-project/grampsweb:latest
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-80}:5000
+    environment: &a1
+      TZ: ${TZ:-Asia/Shanghai}
+      GRAMPSWEB_TREE: Gramps Web
+      GRAMPSWEB_BASE_URL: ${PUBLIC_URL:?请填写 PUBLIC_URL}
+      GRAMPSWEB_CELERY_CONFIG__broker_url: redis://redis:6379/0
+      GRAMPSWEB_CELERY_CONFIG__result_backend: redis://redis:6379/0
+      GRAMPSWEB_RATELIMIT_STORAGE_URI: redis://redis:6379/1
+    volumes: &a2
+      - ./users:/app/users
+      - ./index:/app/indexdir
+      - ./thumbnail-cache:/app/thumbnail_cache
+      - ./cache:/app/cache
+      - ./secret:/app/secret
+      - ./database:/root/.gramps/grampsdb
+      - ./media:/app/media
+      - ./tmp:/tmp
+    depends_on:
+      redis:
+        condition: service_healthy
+  worker:
+    image: ghcr.io/gramps-project/grampsweb:latest
+    restart: unless-stopped
+    environment: *a1
+    volumes: *a2
+    command:
+      - celery
+      - -A
+      - gramps_webapi.celery
+      - worker
+      - --loglevel=INFO
+      - --concurrency=2
+    depends_on:
+      app:
+        condition: service_started
+      redis:
+        condition: service_healthy
+  redis:
+    image: valkey/valkey:8-alpine
+    restart: unless-stopped
+    volumes:
+      - ./broker:/data
+    healthcheck:
+      test:
+        - CMD
+        - valkey-cli
+        - ping
+      interval: 10s
+      timeout: 5s
+      retries: 10

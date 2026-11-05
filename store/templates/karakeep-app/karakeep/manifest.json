@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "karakeep-app/karakeep",
+  "kind": "compose",
+  "name": "Karakeep",
+  "description": "把网页、图片和笔记集中收藏，保存内容快照并全文检索，适合整理个人长期阅读资料；可按需连接模型服务辅助打标签。",
+  "developer": "karakeep-app",
+  "projectUrl": "https://github.com/karakeep-app/karakeep",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "karakeep",
+    "收藏",
+    "网页归档",
+    "书签"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/karakeep.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://docs.karakeep.com/installation/docker/",
+  "applications": [
+    {
+      "id": "karakeep",
+      "name": "Karakeep",
+      "developer": "karakeep-app",
+      "projectUrl": "https://github.com/karakeep-app/karakeep",
+      "icon": "icons/karakeep.svg",
+      "services": [
+        "web",
+        "chrome"
+      ]
+    },
+    {
+      "id": "search",
+      "name": "Meilisearch",
+      "developer": "Meilisearch",
+      "projectUrl": "https://github.com/meilisearch/meilisearch",
+      "icon": "icons/infra-meilisearch.svg",
+      "services": [
+        "meilisearch"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.NEXTAUTH_URL",
+      "title": "实际访问地址",
+      "reason": "填写浏览器实际使用的完整地址，端口与 HTTP_PORT 或反向代理一致。首次访问注册自己的账号。",
+      "required": true,
+      "example": "http://nas.example.com:3000"
+    },
+    {
+      "target": "env.NEXTAUTH_SECRET",
+      "title": "会话密钥",
+      "reason": "填写独立的长随机字符串并长期保留。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.MEILI_MASTER_KEY",
+      "title": "搜索服务密钥",
+      "reason": "填写至少 32 字符的独立随机值，应用与搜索服务共用此值。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.web.volumes",
+      "title": "收藏与搜索数据",
+      "reason": "./data 保存资料与附件，./search-data 保存搜索数据。浏览器和搜索端口只在项目网络中访问。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.web.environment",
+      "title": "可选功能与费用",
+      "reason": "基础收藏与检索可直接自建。README 另列收费托管订阅；AI 标签需自行接入模型，外部服务费用由对应服务商决定。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-04T07:57:15Z",
+    "lastCommit": "6a1e71d67c10b2f56d55e8d771be0dd0c2cf6316",
+    "readmeURL": "https://github.com/karakeep-app/karakeep/blob/6a1e71d67c10b2f56d55e8d771be0dd0c2cf6316/README.md",
+    "readmeSHA256": "68e769d2d94115a9db7280cf99e61c753e7dd8f856a373d8e64c154da4d7778f",
+    "iconSource": "https://raw.githubusercontent.com/karakeep-app/karakeep/6a1e71d67c10b2f56d55e8d771be0dd0c2cf6316/apps/web/public/icons/logo-icon.svg",
+    "iconSHA256": "71f0e5b203e76354c35646451515c199b87e00ed49b9761551e79b6f45f26940",
+    "images": [
+      {
+        "image": "ghcr.io/karakeep-app/karakeep:release",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:7d7ae59b924b6b58e018f2a67aa7207519ef0625ead5306a2491f982b6f89886"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:b4adb61d02a0e47357d25b768277114fac581ac78174846c5d3dfc5b45a6940f"
+          }
+        ]
+      },
+      {
+        "image": "ghcr.io/karakeep-app/karakeep-chrome:release",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:b9e13318f25677f56b65c1bb221c0a16f9d1ec58f4b306d8430ffd1c1c4568e5"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:6a41f77b9f0e8f942d5c31db9698e884481166551c59c541f6d2c322936ef5b1"
+          }
+        ]
+      },
+      {
+        "image": "getmeili/meilisearch:v1.55.0",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:cad32322d74319f2076f41828094774fbbacacff6bda32e317933293b76db616"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:3369dcba3e34085d880adf63a1eea2acac828554fe3a82e0a380c7f6af923149"
+          }
+        ]
+      }
+    ]
+  }
+}

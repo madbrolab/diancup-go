@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "count": 1,
+  "count": 6,
   "first": {
     "path": "container/all/pages/001.json",
-    "sha256": "cb156e0ebe74a674797d786d4a5d98a068fe0969682fb26c0abea3c705e4ed8f"
+    "sha256": "acc2f0c83cd45dec8bf96795a53b104641cbe136d91da72a5595354f7d5fbe5d"
   }
 }

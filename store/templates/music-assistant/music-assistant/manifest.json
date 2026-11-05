@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "id": "music-assistant/music-assistant",
+  "kind": "container",
+  "name": "Music Assistant",
+  "description": "连接本地曲库、流媒体来源与家中的播放设备，统一浏览音乐和管理播放队列，并支持兼容设备的多房间播放。",
+  "developer": "music-assistant",
+  "projectUrl": "https://github.com/music-assistant/server",
+  "source": "open",
+  "license": "Apache-2.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "music-assistant",
+    "音乐",
+    "音箱",
+    "多房间"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/music-assistant.svg",
+  "payload": "container.json",
+  "env": "",
+  "documentation": "https://www.music-assistant.io/installation/",
+  "recommendations": [
+    {
+      "target": "network_mode",
+      "title": "局域网设备发现",
+      "reason": "使用 Host 网络，默认网页入口为 http://NAS地址:8095，音频流服务默认使用 8097；部署前确认端口空闲。网页端口可在应用的 Webserver 设置中更改，Host 网络不能靠端口映射改端口。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "volumes.data.host",
+      "title": "应用数据",
+      "reason": "独立保存账号、配置、数据库和缓存。首次打开网页完成设置向导，再添加音乐来源与播放器。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "volumes.music.host",
+      "title": "本地音乐目录",
+      "reason": "选择实际音乐目录，只读挂载后在音乐来源中使用 /media。该基础模板读取宿主机已挂载的音乐目录。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "environment.LOG_LEVEL",
+      "title": "音乐服务费用",
+      "reason": "应用本身免费开源，所接入流媒体平台可能要求自己的账号或订阅；播放器兼容范围以官方列表为准。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-05T18:05:29Z",
+    "lastCommit": "ed613385514e4d130d60689f6041ac22ec81b094",
+    "readmeURL": "https://github.com/music-assistant/server/blob/ed613385514e4d130d60689f6041ac22ec81b094/README.md",
+    "readmeSHA256": "c6fe055f4348f41f9a96b3c6299df31950f6c00cb618160b38123359c2387e55",
+    "iconSource": "https://raw.githubusercontent.com/music-assistant/server/ed613385514e4d130d60689f6041ac22ec81b094/music_assistant/logo.png",
+    "iconSHA256": "7c2d209b9e1c9a56b9baddeca9c2b9f09a786e947cd1e825be3d63b727efbcbe",
+    "images": [
+      {
+        "image": "ghcr.io/music-assistant/server:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:b4f5b466ff2967d775da270a02de75372c1fec128f383886dfb4a8c7e607a642"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:d42dd377d27b280151ab7bf96bf72caab8dc8851446299c1b9161eacc6c319e5"
+          }
+        ]
+      }
+    ]
+  }
+}

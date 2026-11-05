@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "ghostfolio/ghostfolio",
+  "kind": "compose",
+  "name": "Ghostfolio",
+  "description": "汇总个人投资账户与交易记录，查看资产配置、收益走势和持仓变化；数据保存在本地数据库，行情可按所选数据源获取。",
+  "developer": "ghostfolio",
+  "projectUrl": "https://github.com/ghostfolio/ghostfolio",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "ghostfolio",
+    "投资",
+    "资产"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/ghostfolio.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/ghostfolio/ghostfolio#self-hosting",
+  "applications": [
+    {
+      "id": "ghostfolio",
+      "name": "Ghostfolio",
+      "developer": "ghostfolio",
+      "projectUrl": "https://github.com/ghostfolio/ghostfolio",
+      "icon": "icons/ghostfolio.svg",
+      "services": [
+        "app"
+      ]
+    },
+    {
+      "id": "database",
+      "name": "PostgreSQL",
+      "developer": "PostgreSQL",
+      "projectUrl": "https://www.postgresql.org/",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "postgres"
+      ]
+    },
+    {
+      "id": "cache",
+      "name": "Redis",
+      "developer": "Redis",
+      "projectUrl": "https://github.com/redis/redis",
+      "icon": "icons/infra-redis.svg",
+      "services": [
+        "redis"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "建议使用至少 32 位随机十六进制字符，避免连接 URL 中的特殊字符需要额外编码；已有数据库继续沿用原密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.REDIS_PASSWORD",
+      "title": "缓存密码",
+      "reason": "填写独立随机密码；Redis 仅在项目网络中访问。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.ACCESS_TOKEN_SALT",
+      "title": "访问令牌盐值",
+      "reason": "填写独立长随机值并长期保留。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.JWT_SECRET_KEY",
+      "title": "登录签名密钥",
+      "reason": "填写另一份独立长随机值并长期保留。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app",
+      "title": "首次账号",
+      "reason": "首次访问选择 Get Started 创建账号，第一个账号获得管理员角色；妥善保存应用提供的登录凭据。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app.environment",
+      "title": "行情与费用",
+      "reason": "README 列有独立的 Premium 托管服务。自建时行情覆盖、接口密钥及费用取决于数据源，不能据此保证所有市场数据免费可用。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.postgres.volumes",
+      "title": "持久化",
+      "reason": "./postgres 保存资产与账号数据库，./redis 保存缓存目录；数据库与缓存均不发布宿主机端口。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-05T18:54:23Z",
+    "lastCommit": "22ddbbbda793b51f34380d7f189a835e151759ca",
+    "readmeURL": "https://github.com/ghostfolio/ghostfolio/blob/22ddbbbda793b51f34380d7f189a835e151759ca/README.md",
+    "readmeSHA256": "f11c352a5b5b010553ef28d64b6f34c77dc475a3daea5ee55013dc4ef4faaf34",
+    "iconSource": "https://raw.githubusercontent.com/ghostfolio/ghostfolio/22ddbbbda793b51f34380d7f189a835e151759ca/apps/client/src/assets/apple-touch-icon.png",
+    "iconSHA256": "8fd67da06e6ba0c22a8843e8704af1304e0415f7be6602edff6a51d05279aff2",
+    "images": [
+      {
+        "image": "ghostfolio/ghostfolio:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:ff5a15830805dc318bc4d1c8005e74cb2042f56ab85057390626efa9e4c1a1b5"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:4f5d200ef516ce1044a1ea990c2a29d6e4a1a58726d5ad9e860ae1dbd80dd04d"
+          }
+        ]
+      },
+      {
+        "image": "postgres:15-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:1d4031d6ed0a9b774b365f99a3c16127217eb19f699d8d43fc43b732748601ef"
+          },
+          {
+            "platform": "linux/arm64/v8",
+            "digest": "sha256:188e422ad801eaf156d9b9e276064d931553a81f4281a18db98752178dbc061d"
+          }
+        ]
+      },
+      {
+        "image": "redis:8-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:be7c1cada5a6eb1656adfa2635b99296af725881301b21f84f35a71fac072c7f"
+          },
+          {
+            "platform": "linux/arm64/v8",
+            "digest": "sha256:b8d831cd7faefb56db98e77ad421379ec35f6b5342a8cff9c8cde2cfd02ec837"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "schemaVersion": 1,
+  "id": "crocodilestick/calibre-web-automated",
+  "kind": "container",
+  "name": "Calibre-Web Automated",
+  "description": "为家庭电子书建立可检索的在线书库，自动处理投递目录中的新书、转换格式并推送至阅读器；正式书库与待处理文件分开保存。",
+  "developer": "crocodilestick",
+  "projectUrl": "https://github.com/crocodilestick/Calibre-Web-Automated",
+  "source": "open",
+  "license": "GPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "media",
+  "tags": [
+    "calibre-web-automated",
+    "电子书",
+    "书库",
+    "阅读"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/calibre-web-automated.svg",
+  "payload": "container.json",
+  "env": "",
+  "documentation": "https://github.com/crocodilestick/Calibre-Web-Automated#readme",
+  "recommendations": [
+    {
+      "target": "volumes.ingest.host",
+      "title": "新书投递目录",
+      "reason": "处理后的投递文件会移除。选择独立的临时投递目录，与正式书库、配置目录互不嵌套，不要直接指向原件总库。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "volumes.library.host",
+      "title": "正式书库",
+      "reason": "该目录保存电子书与 Calibre 数据库，须供 PUID/PGID 对应用户读写；首次登录后按向导使用 /calibre-library。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "volumes.config.host",
+      "title": "应用配置",
+      "reason": "保存账号、设置及处理记录，与正式书库一起长期保留。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "environment.PUID",
+      "title": "文件属主",
+      "reason": "PUID 与 PGID 默认均为 1000，应与书库及投递目录的读写权限一致。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "environment.NETWORK_SHARE_MODE",
+      "title": "网络共享目录",
+      "reason": "默认使用本机磁盘。书库位于 NFS/SMB 时，按官方说明将此项设为 true，并预先保证目录权限；配置数据库优先放在本机磁盘。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "ports.http.host",
+      "title": "首次登录",
+      "reason": "默认端口 8083；初始账号 admin、密码 admin123，登录后立即修改。只调整宿主机端口时，保留容器内端口及 CWA_PORT_OVERRIDE 为 8083。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-10-01T13:53:50Z",
+    "lastCommit": "4fc2c4459965efb1b8ff43ea7849c2f47a755d9c",
+    "readmeURL": "https://github.com/crocodilestick/Calibre-Web-Automated/blob/4fc2c4459965efb1b8ff43ea7849c2f47a755d9c/README.md",
+    "readmeSHA256": "5582add69c980920a118ecf50fca0f5dbcf3bb70d533a3393c7449a29b4da937",
+    "iconSource": "https://raw.githubusercontent.com/crocodilestick/Calibre-Web-Automated/4fc2c4459965efb1b8ff43ea7849c2f47a755d9c/cps/static/img/cwa-logo-round.svg",
+    "iconSHA256": "ec361e7c3dfd36483a69b6875a5e6a79155637079f8c8f1512d9ceb7cba84781",
+    "images": [
+      {
+        "image": "crocodilestick/calibre-web-automated:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:1297be5207318acea7030884a2d283ef3e805c745eaeaa4c5602bc3dc9b7f47a"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:034dfd0aafa7a7e44c6c114e22ba02d2540b9daa877a6ca1e047d03e36b78450"
+          }
+        ]
+      }
+    ]
+  }
+}

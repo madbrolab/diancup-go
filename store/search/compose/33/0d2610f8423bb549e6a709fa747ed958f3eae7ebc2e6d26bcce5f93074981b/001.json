@@ -4,6 +4,10 @@
     {
       "path": "templates/jeffvli/feishin/summary.json",
       "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
+    },
+    {
+      "path": "templates/manyfold3d/manyfold/summary.json",
+      "sha256": "f93a7b5d3f3f6096f281fab5f8ab8b5ed2b1b2d19bb3160d58f728a88ff31e91"
     }
   ],
   "next": null

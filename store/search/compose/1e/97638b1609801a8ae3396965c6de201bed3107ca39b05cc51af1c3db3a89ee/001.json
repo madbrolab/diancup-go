@@ -4,6 +4,10 @@
     {
       "path": "templates/gitea/gitea-postgresql/summary.json",
       "sha256": "e99a9462042abc8aa227cd260ecf438433f0b618f9ba3de424882f6cfce26a77"
+    },
+    {
+      "path": "templates/mayswind/ezbookkeeping/summary.json",
+      "sha256": "362468c43823134af8506a83f296c8eb42ffba18ec96d1ed80e938266ced3582"
     }
   ],
   "next": null

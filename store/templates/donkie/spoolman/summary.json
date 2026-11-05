@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "donkie/spoolman",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Spoolman",
+  "description": "记录 3D 打印耗材的品牌、材质、颜色和剩余重量，打印前查找合适料卷，并可连接兼容打印软件同步耗材用量。",
+  "developer": "Donkie",
+  "projectUrl": "https://github.com/Donkie/Spoolman",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "icon": "icons/spoolman.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "spoolman",
+    "3D打印",
+    "耗材"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/donkie/spoolman/manifest.json",
+    "sha256": "0523678002b82455d64d46135c414d66303b1570fbe4253df82dfbc7398d21ae"
+  }
+}

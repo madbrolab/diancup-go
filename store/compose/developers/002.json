@@ -2,6 +2,15 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "a1bb216b2bbb7eb30b25960e",
+      "name": "brave",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/a1bb216b2bbb7eb30b25960e/repositories/001.json",
+        "sha256": "f75c85eb8d067b57a4ec4d56129bd9e657056795fae0f6ae0b005eb8c45e9753"
+      }
+    },
+    {
       "id": "3afe7712b5e78c2ddd951361",
       "name": "chaitin",
       "count": 1,
@@ -56,6 +65,15 @@
       }
     },
     {
+      "id": "8b76b86ba4ac83c9246763c7",
+      "name": "ghostfolio",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/8b76b86ba4ac83c9246763c7/repositories/001.json",
+        "sha256": "37af7a4ffaa5f1929dacf894cdfd64fb125eaa3e6d563ea107ac162fc1151f9c"
+      }
+    },
+    {
       "id": "f8d1e307806d3186d33da443",
       "name": "go-vikunja",
       "count": 1,
@@ -80,6 +98,15 @@
       "first": {
         "path": "compose/developers/fa2a3916aa450ea5246c8f80/repositories/001.json",
         "sha256": "cf8f03a1383249be99bc45169044ec5d7533470c797e6eb3b38dd6ca01111d05"
+      }
+    },
+    {
+      "id": "edb45ccf6a945000df45c4fa",
+      "name": "gramps-project",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/edb45ccf6a945000df45c4fa/repositories/001.json",
+        "sha256": "7262ee75d350098489895d488dca4fd9db58818f22e551cd661a3d306f99f70d"
       }
     },
     {
@@ -155,6 +182,15 @@
       }
     },
     {
+      "id": "bea39ad43fe7f87a9d290da2",
+      "name": "karakeep-app",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/bea39ad43fe7f87a9d290da2/repositories/001.json",
+        "sha256": "f23aca6d74d168b048ef26c1b0e52359484230b440250cd76e6194f7de552869"
+      }
+    },
+    {
       "id": "c073df3f8fa20c9a11e1bc77",
       "name": "madbrolab",
       "count": 1,
@@ -164,62 +200,26 @@
       }
     },
     {
-      "id": "9be9ed9b27e13e3c59cd3495",
-      "name": "mealie-recipes",
+      "id": "715a0621f9b8bbc2f31b35a8",
+      "name": "manyfold3d",
       "count": 1,
       "first": {
-        "path": "compose/developers/9be9ed9b27e13e3c59cd3495/repositories/001.json",
-        "sha256": "00901d942c957dab1523e23efceccd0130d822464a4d19935c8e5af7cdadf9db"
+        "path": "compose/developers/715a0621f9b8bbc2f31b35a8/repositories/001.json",
+        "sha256": "a815ca39002336f38c1d25a2ebd681d4a9625a41455359ccd20cfb3c3df98aee"
       }
     },
     {
-      "id": "06eb80c10d6089876042f48d",
-      "name": "n8n-io",
+      "id": "4e166fab2a3ae4159d35c52c",
+      "name": "mayswind",
       "count": 1,
       "first": {
-        "path": "compose/developers/06eb80c10d6089876042f48d/repositories/001.json",
-        "sha256": "2e3157a6ee15884e0e550818ec4705d330dc81e08063187e12b6b82c2134959b"
-      }
-    },
-    {
-      "id": "a2a1e69c4f8340f60ff88d14",
-      "name": "nextcloud",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/a2a1e69c4f8340f60ff88d14/repositories/001.json",
-        "sha256": "1728f9500c4c6db596209ffaaa62d11659b5b9e43a18d6360ff8ea39f64aee10"
-      }
-    },
-    {
-      "id": "d496c82198e4f3360f2a8433",
-      "name": "open-webui",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/d496c82198e4f3360f2a8433/repositories/001.json",
-        "sha256": "e83592048bebbbd4cd9f5e1f9867a25c08dd0a03647f35023cd72eb511b9f967"
-      }
-    },
-    {
-      "id": "d98970309b28f0e6e7d7922e",
-      "name": "paperless-ngx",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/d98970309b28f0e6e7d7922e/repositories/001.json",
-        "sha256": "98caf57e1f246918e038f6e972ab39d07e37a1137db3d122b89fa1401eeab3f9"
-      }
-    },
-    {
-      "id": "6e6670a9af20b60cb9ff8163",
-      "name": "penpot",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/6e6670a9af20b60cb9ff8163/repositories/001.json",
-        "sha256": "a1b6364363d2f9cfacaa24b1ba498178908ef4d33b03a629052595f204d03b53"
+        "path": "compose/developers/4e166fab2a3ae4159d35c52c/repositories/001.json",
+        "sha256": "a531c4d4572c8091fb0b488933a0dac5e37acffb15e5ba2a886cac373e970f3a"
       }
     }
   ],
   "next": {
     "path": "compose/developers/003.json",
-    "sha256": "5e1255c18001ebd24df2d4329f7dad081926823994a8ee6d8d0f2a737badfee5"
+    "sha256": "b50f860cf15632cab5df7f367b242cd849322c3031d3e454256eae4da3589ae5"
   }
 }

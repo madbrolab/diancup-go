@@ -2,8 +2,20 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/crocodilestick/calibre-web-automated/summary.json",
+      "sha256": "516795481fcb25e3c94dc7448739a98365d6bcb1eb28a920a0f6742363379cf0"
+    },
+    {
+      "path": "templates/excalidraw/excalidraw/summary.json",
+      "sha256": "04da6ae08c4379260a0f5792a9a165aba00bf20059c1a40e849a9d131939b721"
+    },
+    {
       "path": "templates/linuxserver/jellyfin/summary.json",
       "sha256": "ddbd159686cf51a6e5e3124d2da0d1433aad969a29b3937e4522150a18ecd86d"
+    },
+    {
+      "path": "templates/ulsklyc/yuvomi/summary.json",
+      "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
     }
   ],
   "next": null

@@ -1,0 +1,39 @@
+services:
+  web:
+    image: ghcr.io/karakeep-app/karakeep:release
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-3000}:3000
+    volumes:
+      - ./data:/data
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      DATA_DIR: /data
+      NEXTAUTH_URL: ${NEXTAUTH_URL:?请填写 NEXTAUTH_URL}
+      NEXTAUTH_SECRET: ${NEXTAUTH_SECRET:?请填写 NEXTAUTH_SECRET}
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:?请填写 MEILI_MASTER_KEY}
+      MEILI_ADDR: http://meilisearch:7700
+      BROWSER_WEB_URL: http://chrome:9222
+    depends_on:
+      chrome:
+        condition: service_started
+      meilisearch:
+        condition: service_started
+  chrome:
+    image: ghcr.io/karakeep-app/karakeep-chrome:release
+    restart: unless-stopped
+    init: true
+    command:
+      - --disable-gpu
+      - --disable-dev-shm-usage
+      - --hide-scrollbars
+      - --disable-blink-features=AutomationControlled
+      - --window-size=1440,900
+  meilisearch:
+    image: getmeili/meilisearch:v1.55.0
+    restart: unless-stopped
+    environment:
+      MEILI_NO_ANALYTICS: "true"
+      MEILI_MASTER_KEY: ${MEILI_MASTER_KEY:?请填写 MEILI_MASTER_KEY}
+    volumes:
+      - ./search-data:/meili_data

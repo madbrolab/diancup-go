@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "excalidraw/excalidraw",
+  "kind": "container",
+  "category": "tools",
+  "name": "Excalidraw",
+  "description": "在浏览器中绘制手绘风格的白板、流程图和结构草图，支持导出图片与可继续编辑的绘图文件，适合随手记录和讲解想法。",
+  "developer": "excalidraw",
+  "projectUrl": "https://github.com/excalidraw/excalidraw",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "icon": "icons/excalidraw.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "excalidraw",
+    "白板",
+    "绘图"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/excalidraw/excalidraw/manifest.json",
+    "sha256": "e0b407d207a22543d6702c07fc5aaff531911fc95d6a83580d963e4888054383"
+  }
+}

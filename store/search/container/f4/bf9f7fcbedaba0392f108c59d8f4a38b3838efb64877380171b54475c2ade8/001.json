@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/c4illin/convertx/summary.json",
+      "sha256": "05e5996c337360f740e0db37a69aaf5d344e45dd5afd604fd77505101c0c930c"
+    },
+    {
+      "path": "templates/music-assistant/music-assistant/summary.json",
+      "sha256": "91fe1731c9da54c7ca940ac2fa28d7e586a8491add7788fc799b401253232768"
+    }
+  ],
+  "next": null
+}

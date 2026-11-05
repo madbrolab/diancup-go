@@ -162,6 +162,38 @@
       }
     },
     {
+      "id": "donkie/spoolman",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Spoolman",
+      "description": "记录 3D 打印耗材的品牌、材质、颜色和剩余重量，打印前查找合适料卷，并可连接兼容打印软件同步耗材用量。",
+      "developer": "Donkie",
+      "projectUrl": "https://github.com/Donkie/Spoolman",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/spoolman.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "spoolman",
+        "3D打印",
+        "耗材"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/donkie/spoolman/manifest.json",
+        "sha256": "0523678002b82455d64d46135c414d66303b1570fbe4253df82dfbc7398d21ae"
+      },
+      "summary": {
+        "path": "templates/donkie/spoolman/summary.json",
+        "sha256": "03ae37ff348588ca7637c9e998799d93e81f6e2ab7ccea6580c9e87299aada3e"
+      }
+    },
+    {
       "id": "ellite/wallos",
       "kind": "compose",
       "category": "tools",
@@ -322,6 +354,38 @@
       }
     },
     {
+      "id": "ghostfolio/ghostfolio",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Ghostfolio",
+      "description": "汇总个人投资账户与交易记录，查看资产配置、收益走势和持仓变化；数据保存在本地数据库，行情可按所选数据源获取。",
+      "developer": "ghostfolio",
+      "projectUrl": "https://github.com/ghostfolio/ghostfolio",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/ghostfolio.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "ghostfolio",
+        "投资",
+        "资产"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/ghostfolio/ghostfolio/manifest.json",
+        "sha256": "dd87b37cd792224f81c72df224f36b01b98d10634f3234fd1eb20de94925ba92"
+      },
+      "summary": {
+        "path": "templates/ghostfolio/ghostfolio/summary.json",
+        "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
+      }
+    },
+    {
       "id": "go-vikunja/vikunja",
       "kind": "compose",
       "category": "tools",
@@ -383,6 +447,38 @@
       "summary": {
         "path": "templates/gotify/server/summary.json",
         "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
+      }
+    },
+    {
+      "id": "gramps-project/gramps-web",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Gramps Web",
+      "description": "整理家谱中的人物、亲属关系、事件与照片，在浏览器中共同维护家庭历史，并可与 Gramps 桌面端交换资料。",
+      "developer": "gramps-project",
+      "projectUrl": "https://github.com/gramps-project/gramps-web",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/gramps-web.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "gramps-web",
+        "家谱",
+        "家庭历史"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/gramps-project/gramps-web/manifest.json",
+        "sha256": "587617c867e1c16f2ed88b113d1315ede3b9fa3a7815a12daa59c32f0d72134d"
+      },
+      "summary": {
+        "path": "templates/gramps-project/gramps-web/summary.json",
+        "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
       }
     },
     {
@@ -518,6 +614,39 @@
       }
     },
     {
+      "id": "karakeep-app/karakeep",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Karakeep",
+      "description": "把网页、图片和笔记集中收藏，保存内容快照并全文检索，适合整理个人长期阅读资料；可按需连接模型服务辅助打标签。",
+      "developer": "karakeep-app",
+      "projectUrl": "https://github.com/karakeep-app/karakeep",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/karakeep.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "karakeep",
+        "收藏",
+        "网页归档",
+        "书签"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/karakeep-app/karakeep/manifest.json",
+        "sha256": "f0f9899469c51228fc1f5bf41dbffa162c794677f7f0b8deab51a6350175ebd4"
+      },
+      "summary": {
+        "path": "templates/karakeep-app/karakeep/summary.json",
+        "sha256": "9bd4eecfc22466f2fd43294f820548a4751e453aaf4a379529acd6a9aa545bef"
+      }
+    },
+    {
       "id": "laurent22/joplin-server-basic",
       "kind": "compose",
       "category": "tools",
@@ -547,6 +676,70 @@
       "summary": {
         "path": "templates/laurent22/joplin-server-basic/summary.json",
         "sha256": "5ee4755c13b454086da1de7ee3332190adcb0482a96757707b8a25c4a848fb8c"
+      }
+    },
+    {
+      "id": "manyfold3d/manyfold",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Manyfold Solo",
+      "description": "为个人 3D 打印模型建立可预览、可分类的资料库，整理模型文件、作者和标签；Solo 镜像内置数据库与任务队列，适合家庭使用。",
+      "developer": "manyfold3d",
+      "projectUrl": "https://github.com/manyfold3d/manyfold",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/manyfold.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "manyfold",
+        "3D打印",
+        "模型"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/manyfold3d/manyfold/manifest.json",
+        "sha256": "270c5d31ddeb7b39931af56886754875355a55e598a9efd4a738e1d04b67e8ca"
+      },
+      "summary": {
+        "path": "templates/manyfold3d/manyfold/summary.json",
+        "sha256": "f93a7b5d3f3f6096f281fab5f8ab8b5ed2b1b2d19bb3160d58f728a88ff31e91"
+      }
+    },
+    {
+      "id": "mayswind/ezbookkeeping",
+      "kind": "compose",
+      "category": "tools",
+      "name": "ezBookkeeping",
+      "description": "记录个人收支与账户往来，按分类、币种和时间查看账目统计；搭配独立 PostgreSQL，适合长期维护家庭财务记录。",
+      "developer": "mayswind",
+      "projectUrl": "https://github.com/mayswind/ezbookkeeping",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/ezbookkeeping.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "ezbookkeeping",
+        "记账",
+        "财务"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/mayswind/ezbookkeeping/manifest.json",
+        "sha256": "4fab4905395c1bf08c75ad55870f86fb10aec8147108297ce165d7a9f063e6b2"
+      },
+      "summary": {
+        "path": "templates/mayswind/ezbookkeeping/summary.json",
+        "sha256": "362468c43823134af8506a83f296c8eb42ffba18ec96d1ed80e938266ced3582"
       }
     },
     {
@@ -581,205 +774,10 @@
         "path": "templates/mealie-recipes/mealie/summary.json",
         "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
       }
-    },
-    {
-      "id": "n8n-io/n8n",
-      "kind": "compose",
-      "category": "tools",
-      "name": "n8n",
-      "description": "用可视化节点连接应用与模型服务，编排自动化任务，也能加入脚本。采用 fair-code 授权，额外企业功能需商业许可。",
-      "developer": "n8n-io",
-      "projectUrl": "https://github.com/n8n-io/n8n",
-      "source": "unknown",
-      "license": "Sustainable Use License / n8n Enterprise License",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/n8n.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "n8n",
-        "n8n",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/n8n-io/n8n/manifest.json",
-        "sha256": "c54f0067529770c449ce10082dbbaf8bb65ca66f568c014e34556f2580771acb"
-      },
-      "summary": {
-        "path": "templates/n8n-io/n8n/summary.json",
-        "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
-      }
-    },
-    {
-      "id": "paperless-ngx/paperless-ngx",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Paperless-ngx",
-      "description": "归档扫描件、账单和家庭文档，通过 OCR 提取文字，按标签、联系人和文档类型整理并全文检索。默认启用简体中文与英文识别。",
-      "developer": "paperless-ngx",
-      "projectUrl": "https://github.com/paperless-ngx/paperless-ngx",
-      "source": "open",
-      "license": "GPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/paperless.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "paperless",
-        "Paperless-ngx",
-        "tools",
-        "compose"
-      ],
-      "applicationCount": 3,
-      "manifest": {
-        "path": "templates/paperless-ngx/paperless-ngx/manifest.json",
-        "sha256": "79bb041542cacac409ca9cd5a9588f6d7276c73df0dcade2e390f506f64a96d7"
-      },
-      "summary": {
-        "path": "templates/paperless-ngx/paperless-ngx/summary.json",
-        "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
-      }
-    },
-    {
-      "id": "penpot/penpot",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Penpot",
-      "description": "在浏览器里协作设计界面、制作交互原型和维护设计系统，可与开发流程配合使用。项目提供可自建的开源版本和付费企业方案。",
-      "developer": "penpot",
-      "projectUrl": "https://github.com/penpot/penpot",
-      "source": "open",
-      "license": "MPL-2.0",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/penpot.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "penpot",
-        "Penpot",
-        "tools",
-        "compose"
-      ],
-      "applicationCount": 3,
-      "manifest": {
-        "path": "templates/penpot/penpot/manifest.json",
-        "sha256": "819bc18db073455808d1f0c96d62705b92c689650bd7658dba11a712e48ce45d"
-      },
-      "summary": {
-        "path": "templates/penpot/penpot/summary.json",
-        "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
-      }
-    },
-    {
-      "id": "plankanban/planka",
-      "kind": "compose",
-      "category": "tools",
-      "name": "PLANKA",
-      "description": "用看板、列表和卡片协作管理项目，记录评论、附件与到期时间。社区版可自建，Pro 和企业功能另行授权。",
-      "developer": "plankanban",
-      "projectUrl": "https://github.com/plankanban/planka",
-      "source": "unknown",
-      "license": "PLANKA Community Fair Use License / Commercial License",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/planka.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "planka",
-        "PLANKA",
-        "compose"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/plankanban/planka/manifest.json",
-        "sha256": "8e6519fdba15968a16acfa33492f785728dcc0a8b72535c5da0effe556965ef8"
-      },
-      "summary": {
-        "path": "templates/plankanban/planka/summary.json",
-        "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
-      }
-    },
-    {
-      "id": "stirling-tools/stirling-pdf",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Stirling PDF",
-      "description": "在本地服务器处理 PDF 的合并、拆分、转换、OCR 和签署，也可通过 API 编排任务；提供可选付费服务器及企业功能。",
-      "developer": "Stirling-Tools",
-      "projectUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
-      "source": "open",
-      "license": "Open-core; see upstream LICENSE",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/stirling-pdf.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "stirling-pdf",
-        "Stirling PDF",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/stirling-tools/stirling-pdf/manifest.json",
-        "sha256": "911aae2b7e02df0f4f709b49383b47619d354fd7049d740f318c3d8ba08ffc5e"
-      },
-      "summary": {
-        "path": "templates/stirling-tools/stirling-pdf/summary.json",
-        "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
-      }
-    },
-    {
-      "id": "sysadminsmedia/homebox",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Homebox",
-      "description": "为家中物品建立可搜索的档案，记录存放位置、照片、购买凭证与保修信息，便于查找和整理家庭资产。",
-      "developer": "sysadminsmedia",
-      "projectUrl": "https://github.com/sysadminsmedia/homebox",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/homebox.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "homebox",
-        "Homebox",
-        "tools",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/sysadminsmedia/homebox/manifest.json",
-        "sha256": "e9178e419c06c4b9bc562bcbddd2a434c0fcfc4bb534d9be29158044d815e12b"
-      },
-      "summary": {
-        "path": "templates/sysadminsmedia/homebox/summary.json",
-        "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
-      }
     }
   ],
   "next": {
     "path": "compose/tools/pages/002.json",
-    "sha256": "0bc7cfc05c47e7333f01b6e73ef9483691d11f15745e3e041e7cb016a308dbce"
+    "sha256": "a9f2382c4f6a0e207ec9a8cfd65e7979f1239dc104952933ef8a4d96cf965576"
   }
 }

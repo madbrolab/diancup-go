@@ -4,6 +4,10 @@
     {
       "path": "templates/brave/brave-browser/summary.json",
       "sha256": "2e8a5f1cb803d28135fbe5849bfc003942db62166a9102d7bfd2b80bdd30d3aa"
+    },
+    {
+      "path": "templates/ghostfolio/ghostfolio/summary.json",
+      "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
     }
   ],
   "next": null

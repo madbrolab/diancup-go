@@ -1,0 +1,86 @@
+{
+  "name": "yuvomi",
+  "image": "ghcr.io/ulsklyc/yuvomi:latest",
+  "ports": [
+    {
+      "id": "http",
+      "host": "3000",
+      "container": "3000"
+    }
+  ],
+  "volumes": [
+    {
+      "id": "data",
+      "host": "/appdata/yuvomi/data",
+      "container": "/data",
+      "mode": "rw"
+    },
+    {
+      "id": "backups",
+      "host": "/appdata/yuvomi/backups",
+      "container": "/backups",
+      "mode": "rw"
+    },
+    {
+      "id": "modules",
+      "host": "/appdata/yuvomi/modules",
+      "container": "/app/modules",
+      "mode": "rw"
+    },
+    {
+      "id": "documents",
+      "host": "/appdata/yuvomi/documents",
+      "container": "/documents",
+      "mode": "rw"
+    }
+  ],
+  "environment": [
+    {
+      "key": "TZ",
+      "value": "Asia/Shanghai"
+    },
+    {
+      "key": "NODE_ENV",
+      "value": "production"
+    },
+    {
+      "key": "DB_PATH",
+      "value": "/data/yuvomi.db"
+    },
+    {
+      "key": "BACKUP_DIR",
+      "value": "/backups"
+    },
+    {
+      "key": "MODULES_DIR",
+      "value": "/app/modules"
+    },
+    {
+      "key": "DOCUMENT_STORAGE_LOCAL_ENABLED",
+      "value": "false"
+    },
+    {
+      "key": "DOCUMENT_STORAGE_LOCAL_PATH",
+      "value": "/documents"
+    },
+    {
+      "key": "SESSION_SECURE",
+      "value": "false"
+    },
+    {
+      "key": "SESSION_SECRET",
+      "value": ""
+    },
+    {
+      "key": "DB_ENCRYPTION_KEY",
+      "value": ""
+    }
+  ],
+  "restart_policy": "unless-stopped",
+  "network_mode": "bridge",
+  "privileged": false,
+  "labels": {},
+  "command": [],
+  "cpu_limit": "",
+  "memory_limit": ""
+}

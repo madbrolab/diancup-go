@@ -42,6 +42,10 @@
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
+      "path": "templates/ghostfolio/ghostfolio/summary.json",
+      "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
+    },
+    {
       "path": "templates/gitea/gitea-postgresql/summary.json",
       "sha256": "e99a9462042abc8aa227cd260ecf438433f0b618f9ba3de424882f6cfce26a77"
     },
@@ -52,6 +56,10 @@
     {
       "path": "templates/gotson/komga/summary.json",
       "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
+    },
+    {
+      "path": "templates/gramps-project/gramps-web/summary.json",
+      "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
     },
     {
       "path": "templates/grocy/grocy/summary.json",
@@ -88,18 +96,10 @@
     {
       "path": "templates/linuxserver/transmission-basic/summary.json",
       "sha256": "0d2612f581ae7e2262f64e38de17ede0a50ad46a852d5fbc92a764f8f06074e9"
-    },
-    {
-      "path": "templates/madbrolab/dian115-basic/summary.json",
-      "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
-    },
-    {
-      "path": "templates/mealie-recipes/mealie/summary.json",
-      "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
     }
   ],
   "next": {
     "path": "search/compose/e3/b98a4da31a127d4bde6e43033f66ba274cab0eb7eb1c70ec41402bf6273dd8/002.json",
-    "sha256": "c5bb6ffc3060e4fec66cacbf709a7a9e71e329a646c3634631054c941e41ffed"
+    "sha256": "6efc4935189786398b20ede847ea334d173ab30efcb9c5d21771b19f37b5f655"
   }
 }

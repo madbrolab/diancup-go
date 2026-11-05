@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "gramps-project/gramps-web",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Gramps Web",
+  "description": "整理家谱中的人物、亲属关系、事件与照片，在浏览器中共同维护家庭历史，并可与 Gramps 桌面端交换资料。",
+  "developer": "gramps-project",
+  "projectUrl": "https://github.com/gramps-project/gramps-web",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/gramps-web.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "gramps-web",
+    "家谱",
+    "家庭历史"
+  ],
+  "applicationCount": 2,
+  "manifest": {
+    "path": "templates/gramps-project/gramps-web/manifest.json",
+    "sha256": "587617c867e1c16f2ed88b113d1315ede3b9fa3a7815a12daa59c32f0d72134d"
+  }
+}

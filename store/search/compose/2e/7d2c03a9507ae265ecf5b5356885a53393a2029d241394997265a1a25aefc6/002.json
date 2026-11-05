@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/grocy/grocy/summary.json",
+      "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
+    },
+    {
       "path": "templates/hargata/lubelogger/summary.json",
       "sha256": "f8e3d3de2904b2fc1833fa128e41aa2c9229f538384c5962dfea4504f4b177e2"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/seerr-team/seerr/summary.json",
       "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
-    },
-    {
-      "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }
   ],
   "next": {
     "path": "search/compose/2e/7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6/003.json",
-    "sha256": "a6e948a49a2416246b428486018e3a78286fdaa7bbd6267f2cb539de114acf69"
+    "sha256": "2cadf2219aea10528febcc88cb1f6746446a6638b9ac05b56581644880474534"
   }
 }

@@ -54,6 +54,10 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
+      "path": "templates/donkie/spoolman/summary.json",
+      "sha256": "03ae37ff348588ca7637c9e998799d93e81f6e2ab7ccea6580c9e87299aada3e"
+    },
+    {
       "path": "templates/ellite/wallos/summary.json",
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/gotify/server/summary.json",
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
-    },
-    {
-      "path": "templates/gotson/komga/summary.json",
-      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
     }
   ],
   "next": {
     "path": "search/compose/61/99aecf23aba7e87b2dafb8b4915260da85e3cf53568197b7e451982392fb8e/002.json",
-    "sha256": "8a6024b587d8ee9ca54c72aa516aadf68e8e0e570a62d49344c0470ea8de742c"
+    "sha256": "4793078e7711edc2c0406c93cac7c269b3bbfde8067b4121794d6d94c81484bd"
   }
 }

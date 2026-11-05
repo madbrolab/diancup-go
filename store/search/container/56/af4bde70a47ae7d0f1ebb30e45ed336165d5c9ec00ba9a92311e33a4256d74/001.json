@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/crocodilestick/calibre-web-automated/summary.json",
+      "sha256": "516795481fcb25e3c94dc7448739a98365d6bcb1eb28a920a0f6742363379cf0"
+    },
+    {
+      "path": "templates/music-assistant/music-assistant/summary.json",
+      "sha256": "91fe1731c9da54c7ca940ac2fa28d7e586a8491add7788fc799b401253232768"
+    }
+  ],
+  "next": null
+}

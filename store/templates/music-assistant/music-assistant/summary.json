@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "music-assistant/music-assistant",
+  "kind": "container",
+  "category": "media",
+  "name": "Music Assistant",
+  "description": "连接本地曲库、流媒体来源与家中的播放设备，统一浏览音乐和管理播放队列，并支持兼容设备的多房间播放。",
+  "developer": "music-assistant",
+  "projectUrl": "https://github.com/music-assistant/server",
+  "source": "open",
+  "license": "Apache-2.0",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/music-assistant.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "music-assistant",
+    "音乐",
+    "音箱",
+    "多房间"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/music-assistant/music-assistant/manifest.json",
+    "sha256": "102b023cfa707534c6ffb0a004b621f770851ff103ea8a3a22b8854e20768793"
+  }
+}

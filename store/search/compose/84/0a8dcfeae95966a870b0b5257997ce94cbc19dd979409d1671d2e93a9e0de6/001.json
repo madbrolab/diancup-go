@@ -82,6 +82,10 @@
       "sha256": "ac0e40ab7d6c810f9d3cd83d5e9f17475ef8fe0894a9f6a03c74f9dacd585f18"
     },
     {
+      "path": "templates/ghostfolio/ghostfolio/summary.json",
+      "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
+    },
+    {
       "path": "templates/gitea/gitea-postgresql/summary.json",
       "sha256": "e99a9462042abc8aa227cd260ecf438433f0b618f9ba3de424882f6cfce26a77"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/gotify/server/summary.json",
       "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
-    },
-    {
-      "path": "templates/gotson/komga/summary.json",
-      "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
     }
   ],
   "next": {
     "path": "search/compose/84/0a8dcfeae95966a870b0b5257997ce94cbc19dd979409d1671d2e93a9e0de6/002.json",
-    "sha256": "ddc07b93a7a1104f97c6ebe35e586d4df85ed356187d5845226547a3e1655803"
+    "sha256": "4c0e83544be7df9dce4aa2833c0e7e63c3f84fe11f041b8126a439fc38f09963"
   }
 }

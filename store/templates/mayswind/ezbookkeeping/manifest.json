@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "id": "mayswind/ezbookkeeping",
+  "kind": "compose",
+  "name": "ezBookkeeping",
+  "description": "记录个人收支与账户往来，按分类、币种和时间查看账目统计；搭配独立 PostgreSQL，适合长期维护家庭财务记录。",
+  "developer": "mayswind",
+  "projectUrl": "https://github.com/mayswind/ezbookkeeping",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "ezbookkeeping",
+    "记账",
+    "财务"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/ezbookkeeping.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://ezbookkeeping.mayswind.net/installation/installation-docker",
+  "applications": [
+    {
+      "id": "ezbookkeeping",
+      "name": "ezBookkeeping",
+      "developer": "mayswind",
+      "projectUrl": "https://github.com/mayswind/ezbookkeeping",
+      "icon": "icons/ezbookkeeping.svg",
+      "services": [
+        "prepare",
+        "app"
+      ]
+    },
+    {
+      "id": "database",
+      "name": "PostgreSQL",
+      "developer": "PostgreSQL",
+      "projectUrl": "https://www.postgresql.org/",
+      "icon": "icons/infra-postgresql.svg",
+      "services": [
+        "db"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.PUBLIC_DOMAIN",
+      "title": "访问域名或 IP",
+      "reason": "仅填写实际域名或 IP，不带协议、端口和路径。",
+      "required": true,
+      "example": "nas.example.com"
+    },
+    {
+      "target": "env.PUBLIC_URL",
+      "title": "完整访问地址",
+      "reason": "填写浏览器实际使用的完整地址，与 HTTP_PORT 或反向代理地址保持一致。首次进入页面注册账号。",
+      "required": true,
+      "example": "http://nas.example.com:8080/"
+    },
+    {
+      "target": "env.DB_PASSWORD",
+      "title": "数据库密码",
+      "reason": "填写独立密码，应用与 PostgreSQL 使用同一值；数据库不发布宿主机端口。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "env.SECRET_KEY",
+      "title": "实例密钥",
+      "reason": "填写至少 32 字符的独立随机值并长期保留。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "compose.services.prepare",
+      "title": "文件目录权限",
+      "reason": "日志与附件目录初始化为 UID/GID 1000，仅调整目录本身。./postgres、./storage 均须长期保留，复用已有目录时确认内部文件权限。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app.image",
+      "title": "正式使用配置",
+      "reason": "采用官方建议的外部数据库方案；项目 README 未明确收费服务或激活要求，收费状态保留为未知。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-05T13:05:25Z",
+    "lastCommit": "50338cbec2b9dc4b2d8976ab3380036e30e8b290",
+    "readmeURL": "https://github.com/mayswind/ezbookkeeping/blob/50338cbec2b9dc4b2d8976ab3380036e30e8b290/README.md",
+    "readmeSHA256": "2b8527ef7530785bb21bd98410f400ed51e30d1d918be2bf5029ab9006a25917",
+    "iconSource": "https://raw.githubusercontent.com/mayswind/ezbookkeeping/50338cbec2b9dc4b2d8976ab3380036e30e8b290/public/touchicon.png",
+    "iconSHA256": "7ff42b82d992f6f1b11a16e5c526c4ef3d036374d6aa35080b7e3d40c1323b2f",
+    "images": [
+      {
+        "image": "mayswind/ezbookkeeping:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:dea2cde3b0c88a20c4b4fc3fcb98eac5bfd9c3ff8c5cb0e299df80acebe52f30"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:96253738bf3ef956b6331463a9478de6fd239316a2b7383fbc97ca1d55b6216f"
+          }
+        ]
+      },
+      {
+        "image": "postgres:17",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:996e9dc583ba9f0265a2c75547a9c95fb22c251e394749cab205a0a00e1856a1"
+          },
+          {
+            "platform": "linux/arm64/v8",
+            "digest": "sha256:f998bd5067cabb2b023800c6fbf04f24bd22fbb7f8430cfd8c8503a6c3834777"
+          }
+        ]
+      }
+    ]
+  }
+}

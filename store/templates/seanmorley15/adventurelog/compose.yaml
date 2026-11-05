@@ -1,0 +1,50 @@
+services:
+  app:
+    image: ghcr.io/seanmorley15/adventurelog:latest
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-8015}:80
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      SITE_URL: ${SITE_URL:?请填写 SITE_URL}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      PGHOST: db
+      POSTGRES_DB: database
+      POSTGRES_USER: adventure
+      PORT: "3000"
+    volumes:
+      - ./media:/code/media
+    depends_on:
+      db:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - python3
+        - -c
+        - import urllib.request; urllib.request.urlopen('http://127.0.0.1:80/health')
+      interval: 30s
+      timeout: 5s
+      retries: 5
+      start_period: 120s
+  db:
+    image: imresamu/postgis:16-3.5-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: adventure
+      POSTGRES_DB: database
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD
+        - pg_isready
+        - -U
+        - adventure
+        - -d
+        - database
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s

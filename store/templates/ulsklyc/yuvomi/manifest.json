@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "id": "ulsklyc/yuvomi",
+  "kind": "container",
+  "name": "Yuvomi",
+  "description": "把家庭日历、待办、购物清单和餐食安排放在同一工作区，方便家人共同记录日常事项，并保留本地数据和定时备份。",
+  "developer": "ulsklyc",
+  "projectUrl": "https://github.com/ulsklyc/yuvomi",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "yuvomi",
+    "家庭",
+    "日历",
+    "待办"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/yuvomi.svg",
+  "payload": "container.json",
+  "env": "",
+  "documentation": "https://github.com/ulsklyc/yuvomi/blob/main/docs/installation.md",
+  "recommendations": [
+    {
+      "target": "environment.SESSION_SECRET",
+      "title": "会话密钥",
+      "reason": "填写至少 32 字符的长随机值，部署后长期保留。首次访问创建家庭和管理员。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "environment.DB_ENCRYPTION_KEY",
+      "title": "数据库加密密钥",
+      "reason": "填写并单独保存强随机密钥，建议 64 位十六进制字符；已有加密数据库必须继续使用原密钥，更改会导致数据库无法打开。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "volumes.data.host",
+      "title": "独立数据目录",
+      "reason": "四个挂载目录应分别独立；镜像启动会递归调整这些目录的属主为 node 用户，不要直接选择整个媒体库或系统目录。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "volumes.backups.host",
+      "title": "备份与附件",
+      "reason": "备份目录与数据库一同保留；默认文档附件存入数据库，启用本地附件存储后还须保留 documents 目录。modules 保存自行安装的模块。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "environment.SESSION_SECURE",
+      "title": "访问协议",
+      "reason": "默认 false 供内网 HTTP 使用；改用 HTTPS 反向代理后按官方说明设为 true。家庭时区还可在应用设置中单独调整。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-05T18:53:52Z",
+    "lastCommit": "5e3dd30a9707f176c734b480ed221105b42d42ee",
+    "readmeURL": "https://github.com/ulsklyc/yuvomi/blob/5e3dd30a9707f176c734b480ed221105b42d42ee/README.md",
+    "readmeSHA256": "eb9b6ca8cf867d29094e9f01e68ef3870e5b6546ee0ed405f3598f27592eb543",
+    "iconSource": "https://raw.githubusercontent.com/ulsklyc/yuvomi/5e3dd30a9707f176c734b480ed221105b42d42ee/public/icons/icon-512.png",
+    "iconSHA256": "0b9a1b063de826368b95aff19e5a58395a7b22f9316a3fd37b6e1ea0513fe60f",
+    "images": [
+      {
+        "image": "ghcr.io/ulsklyc/yuvomi:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:ff1dde3109360ca306f8962cf182526b2092946bbc68c6d8ada48f23f4079fc0"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:e48e08098ef71d1b91544ffde357d437620ab30a18d4b5f8c38ee1d0c094c6ad"
+          }
+        ]
+      }
+    ]
+  }
+}

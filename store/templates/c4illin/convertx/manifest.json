@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "id": "c4illin/convertx",
+  "kind": "container",
+  "name": "ConvertX",
+  "description": "通过网页提交图片、文档、音频等文件，在 NAS 上选择目标格式并批量转换，减少在各台电脑重复安装转换软件的需要。",
+  "developer": "C4illin",
+  "projectUrl": "https://github.com/C4illin/ConvertX",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "convertx",
+    "文件转换",
+    "格式转换"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/convertx.svg",
+  "payload": "container.json",
+  "env": "",
+  "documentation": "https://github.com/C4illin/ConvertX#usage",
+  "recommendations": [
+    {
+      "target": "environment.JWT_SECRET",
+      "title": "登录签名密钥",
+      "reason": "填写至少 32 字符的随机值并长期保留。首次访问创建自己的账号，此后默认关闭公开注册。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "environment.HTTP_ALLOWED",
+      "title": "内网访问协议",
+      "reason": "默认 true 允许内网 HTTP 登录；使用 HTTPS 反向代理时可按官方说明改为 false。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "volumes.data.host",
+      "title": "转换数据目录",
+      "reason": "选择实例独立目录，保存账号及转换数据；镜像会按 PUID/PGID 修正目录权限。转换结果会按应用策略定期清理，重要文件请及时下载。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "environment.LANGUAGE",
+      "title": "日期显示",
+      "reason": "zh-CN 控制日期格式，不代表全部界面已汉化。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "image",
+      "title": "收费状态",
+      "reason": "README 未明确收费服务或付费激活要求；各格式的转换能力取决于镜像内置工具及文件本身。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-02T07:27:42Z",
+    "lastCommit": "57a884d0901c24bce96e67383fe3ee72c140b95f",
+    "readmeURL": "https://github.com/C4illin/ConvertX/blob/57a884d0901c24bce96e67383fe3ee72c140b95f/README.md",
+    "readmeSHA256": "fa5f9e027d5738e9235429c6dfbabd3a933e8b83e9d3cc71ec904c789c914af1",
+    "iconSource": "https://raw.githubusercontent.com/C4illin/ConvertX/57a884d0901c24bce96e67383fe3ee72c140b95f/public/apple-touch-icon.png",
+    "iconSHA256": "3a7150bfd543748bfebdf5cbd70f73570c8363492284acdd3971cb55a7eed75f",
+    "images": [
+      {
+        "image": "ghcr.io/c4illin/convertx:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:bba2e672eb9a42ac9d879a7758b946163f9eae00c3abd93155d0f597635970c2"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:abccb600e3b88fa2c3852a8ff308300ebf1e8293d6651960fd3b0ba2fb8fe5d1"
+          }
+        ]
+      }
+    ]
+  }
+}

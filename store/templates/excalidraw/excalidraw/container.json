@@ -1,0 +1,20 @@
+{
+  "name": "excalidraw",
+  "image": "excalidraw/excalidraw:latest",
+  "ports": [
+    {
+      "id": "http",
+      "host": "3000",
+      "container": "80"
+    }
+  ],
+  "volumes": [],
+  "environment": [],
+  "restart_policy": "unless-stopped",
+  "network_mode": "bridge",
+  "privileged": false,
+  "labels": {},
+  "command": [],
+  "cpu_limit": "",
+  "memory_limit": ""
+}

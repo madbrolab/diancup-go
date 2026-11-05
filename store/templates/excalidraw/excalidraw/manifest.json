@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "id": "excalidraw/excalidraw",
+  "kind": "container",
+  "name": "Excalidraw",
+  "description": "在浏览器中绘制手绘风格的白板、流程图和结构草图，支持导出图片与可继续编辑的绘图文件，适合随手记录和讲解想法。",
+  "developer": "excalidraw",
+  "projectUrl": "https://github.com/excalidraw/excalidraw",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "excalidraw",
+    "白板",
+    "绘图"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/excalidraw.svg",
+  "payload": "container.json",
+  "env": "",
+  "documentation": "https://github.com/excalidraw/excalidraw#readme",
+  "recommendations": [
+    {
+      "target": "ports.http.host",
+      "title": "访问与保存",
+      "reason": "默认宿主机端口 3000，无须创建应用账号。绘图默认保存在当前浏览器本地，请主动导出 .excalidraw 文件保存重要内容。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "image",
+      "title": "服务范围",
+      "reason": "该镜像提供基础网页编辑器，不包含自建协作后端和云端账号存储。README 另列 Excalidraw+ 服务，基础自建编辑器无须付费激活。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-05T17:10:20Z",
+    "lastCommit": "701b901a0f1ba3d0b390d9cdf63d112e25abac4b",
+    "readmeURL": "https://github.com/excalidraw/excalidraw/blob/701b901a0f1ba3d0b390d9cdf63d112e25abac4b/README.md",
+    "readmeSHA256": "011eea74cbbf38fd263ec93a221f379466c557dc7587acfe93797201193a7e7a",
+    "iconSource": "https://raw.githubusercontent.com/excalidraw/excalidraw/701b901a0f1ba3d0b390d9cdf63d112e25abac4b/public/apple-touch-icon.png",
+    "iconSHA256": "b6a6c4464319a3b1faeb310bcb8ac24061b2301ce19ddc81453675bbd461ed8f",
+    "images": [
+      {
+        "image": "excalidraw/excalidraw:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:4542f30bea392b833822d0e7db4fa2220e6706ca962c082add2665159fa91758"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:0faa2324e70d2331952550c0f29ea20af63ffcfd146fbb2ffd5bacdc7f8d8a6b"
+          }
+        ]
+      }
+    ]
+  }
+}

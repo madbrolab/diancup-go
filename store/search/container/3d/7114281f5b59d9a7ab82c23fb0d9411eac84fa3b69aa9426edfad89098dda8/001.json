@@ -2,8 +2,20 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/excalidraw/excalidraw/summary.json",
+      "sha256": "04da6ae08c4379260a0f5792a9a165aba00bf20059c1a40e849a9d131939b721"
+    },
+    {
       "path": "templates/linuxserver/jellyfin/summary.json",
       "sha256": "ddbd159686cf51a6e5e3124d2da0d1433aad969a29b3937e4522150a18ecd86d"
+    },
+    {
+      "path": "templates/music-assistant/music-assistant/summary.json",
+      "sha256": "91fe1731c9da54c7ca940ac2fa28d7e586a8491add7788fc799b401253232768"
+    },
+    {
+      "path": "templates/ulsklyc/yuvomi/summary.json",
+      "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
     }
   ],
   "next": null

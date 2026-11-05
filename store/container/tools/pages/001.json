@@ -1,5 +1,103 @@
 {
   "schemaVersion": 1,
-  "items": [],
+  "items": [
+    {
+      "id": "c4illin/convertx",
+      "kind": "container",
+      "category": "tools",
+      "name": "ConvertX",
+      "description": "通过网页提交图片、文档、音频等文件，在 NAS 上选择目标格式并批量转换，减少在各台电脑重复安装转换软件的需要。",
+      "developer": "C4illin",
+      "projectUrl": "https://github.com/C4illin/ConvertX",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/convertx.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "convertx",
+        "文件转换",
+        "格式转换"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/c4illin/convertx/manifest.json",
+        "sha256": "3c0098452ab73d7ebfb2521cc40acadd881c365e88435ffd9bcc10fe476ffbf2"
+      },
+      "summary": {
+        "path": "templates/c4illin/convertx/summary.json",
+        "sha256": "05e5996c337360f740e0db37a69aaf5d344e45dd5afd604fd77505101c0c930c"
+      }
+    },
+    {
+      "id": "excalidraw/excalidraw",
+      "kind": "container",
+      "category": "tools",
+      "name": "Excalidraw",
+      "description": "在浏览器中绘制手绘风格的白板、流程图和结构草图，支持导出图片与可继续编辑的绘图文件，适合随手记录和讲解想法。",
+      "developer": "excalidraw",
+      "projectUrl": "https://github.com/excalidraw/excalidraw",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/excalidraw.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "excalidraw",
+        "白板",
+        "绘图"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/excalidraw/excalidraw/manifest.json",
+        "sha256": "e0b407d207a22543d6702c07fc5aaff531911fc95d6a83580d963e4888054383"
+      },
+      "summary": {
+        "path": "templates/excalidraw/excalidraw/summary.json",
+        "sha256": "04da6ae08c4379260a0f5792a9a165aba00bf20059c1a40e849a9d131939b721"
+      }
+    },
+    {
+      "id": "ulsklyc/yuvomi",
+      "kind": "container",
+      "category": "tools",
+      "name": "Yuvomi",
+      "description": "把家庭日历、待办、购物清单和餐食安排放在同一工作区，方便家人共同记录日常事项，并保留本地数据和定时备份。",
+      "developer": "ulsklyc",
+      "projectUrl": "https://github.com/ulsklyc/yuvomi",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/yuvomi.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "yuvomi",
+        "家庭",
+        "日历",
+        "待办"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/ulsklyc/yuvomi/manifest.json",
+        "sha256": "c1c8eca9fc27ecb68f3fc3f1e46ee385314e95d361671f2fd4bf1276e3a8621e"
+      },
+      "summary": {
+        "path": "templates/ulsklyc/yuvomi/summary.json",
+        "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
+      }
+    }
+  ],
   "next": null
 }

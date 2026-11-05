@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "manyfold3d/manyfold",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Manyfold Solo",
+      "description": "为个人 3D 打印模型建立可预览、可分类的资料库，整理模型文件、作者和标签；Solo 镜像内置数据库与任务队列，适合家庭使用。",
+      "developer": "manyfold3d",
+      "projectUrl": "https://github.com/manyfold3d/manyfold",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/manyfold.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "manyfold",
+        "3D打印",
+        "模型"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/manyfold3d/manyfold/manifest.json",
+        "sha256": "270c5d31ddeb7b39931af56886754875355a55e598a9efd4a738e1d04b67e8ca"
+      },
+      "summary": {
+        "path": "templates/manyfold3d/manyfold/summary.json",
+        "sha256": "f93a7b5d3f3f6096f281fab5f8ab8b5ed2b1b2d19bb3160d58f728a88ff31e91"
+      }
+    }
+  ],
+  "next": null
+}

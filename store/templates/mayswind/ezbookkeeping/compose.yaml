@@ -1,0 +1,59 @@
+services:
+  prepare:
+    image: mayswind/ezbookkeeping:latest
+    user: 0:0
+    restart: no
+    entrypoint:
+      - /bin/sh
+      - -ec
+    command:
+      - chown 1000:1000 /ezbookkeeping/log /ezbookkeeping/storage
+    environment: {}
+    volumes:
+      - ./log:/ezbookkeeping/log
+      - ./storage:/ezbookkeeping/storage
+  app:
+    image: mayswind/ezbookkeeping:latest
+    restart: unless-stopped
+    ports:
+      - ${HTTP_PORT:-8080}:8080
+    environment:
+      TZ: ${TZ:-Asia/Shanghai}
+      EBK_SERVER_DOMAIN: ${PUBLIC_DOMAIN:?请填写 PUBLIC_DOMAIN}
+      EBK_SERVER_ROOT_URL: ${PUBLIC_URL:?请填写 PUBLIC_URL}
+      EBK_SECURITY_SECRET_KEY: ${SECRET_KEY:?请填写 SECRET_KEY}
+      EBK_DATABASE_TYPE: postgres
+      EBK_DATABASE_HOST: db:5432
+      EBK_DATABASE_NAME: ezbookkeeping
+      EBK_DATABASE_USER: ezbookkeeping
+      EBK_DATABASE_PASSWD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+      EBK_DATABASE_SSL_MODE: disable
+    volumes:
+      - ./log:/ezbookkeeping/log
+      - ./storage:/ezbookkeeping/storage
+    depends_on:
+      prepare:
+        condition: service_completed_successfully
+      db:
+        condition: service_healthy
+  db:
+    image: postgres:17
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ezbookkeeping
+      POSTGRES_DB: ezbookkeeping
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请填写 DB_PASSWORD}
+    volumes:
+      - ./postgres:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD
+        - pg_isready
+        - -U
+        - ezbookkeeping
+        - -d
+        - ezbookkeeping
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 20s

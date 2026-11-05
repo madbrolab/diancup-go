@@ -90,16 +90,16 @@
       "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
     },
     {
-      "path": "templates/triliumnext/trilium/summary.json",
-      "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
+      "path": "templates/seanmorley15/adventurelog/summary.json",
+      "sha256": "e77c6c8df987119e96ac35ae7039fe752c33d88ebb480757a753400ee79cd2ad"
     },
     {
-      "path": "templates/usememos/memos/summary.json",
-      "sha256": "0b0bb37d9698881790a2b875558f8403b67d59d755e495540d3137682a7b674c"
+      "path": "templates/triliumnext/trilium/summary.json",
+      "sha256": "214a35edffabe2669a21526a0d6410446bb0021e2cc32f1a2ecd05bc365b28a9"
     }
   ],
   "next": {
     "path": "search/compose/0b/fe935e70c321c7ca3afc75ce0d0ca2f98b5422e008bb31c00c6d7f1f1c0ad6/002.json",
-    "sha256": "194de962fa1cc50c0d2b0b4487101c969cee634cb8d0a0a9185da6a9998f3fdc"
+    "sha256": "3be69e2ec7d5362a042914f3091aca7a951a171e67283a2b10bc386300b97c4d"
   }
 }

@@ -60,12 +60,22 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 
 ## 应用目录
 
-当前共 62 项模板（1 项普通模板、61 项 Compose 模板）。维护记录于 2026-11-04 至 2026-11-05 核对，各项目最近均有三个月内的上游活动。项目介绍、源码状态和收费说明以项目 README 为依据；未明确的收费情况保留为未知。点击应用查看模板，点击“项目”打开对应主页。
+当前共 74 项模板（6 项普通模板、68 项 Compose 模板）。维护记录于 2026-11-04 至 2026-11-06 核对，各项目最近均有三个月内的上游活动。项目介绍、源码状态和收费说明以项目 README 为依据；未明确的收费情况保留为未知。点击应用查看模板，点击“项目”打开对应主页。
 
 ### 工具
 
 | 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
 | --- | --- | --- | --- | --- | --- |
+| [Karakeep](templates/karakeep-app/karakeep/manifest.json) · [项目](https://github.com/karakeep-app/karakeep) | 把网页、图片和笔记集中收藏，保存内容快照并全文检索，适合整理个人长期阅读资料；可按需连接模型服务辅助打标签。 | 2026-11-04 | 公开源码；AGPL-3.0 | 可选付费服务或功能 | amd64, arm64 |
+| [Yuvomi](templates/ulsklyc/yuvomi/manifest.json) · [项目](https://github.com/ulsklyc/yuvomi) | 把家庭日历、待办、购物清单和餐食安排放在同一工作区，方便家人共同记录日常事项，并保留本地数据和定时备份。 | 2026-11-06 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
+| [ezBookkeeping](templates/mayswind/ezbookkeeping/manifest.json) · [项目](https://github.com/mayswind/ezbookkeeping) | 记录个人收支与账户往来，按分类、币种和时间查看账目统计；搭配独立 PostgreSQL，适合长期维护家庭财务记录。 | 2026-11-05 | 公开源码；MIT | README 未明确 | amd64, arm64 |
+| [AdventureLog](templates/seanmorley15/adventurelog/manifest.json) · [项目](https://github.com/seanmorley15/AdventureLog) | 在地图上记录旅行足迹、照片和经历，整理想去的地点与行程计划，把个人旅行资料持续保存在自己的服务器。 | 2026-11-03 | 公开源码；GPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Excalidraw](templates/excalidraw/excalidraw/manifest.json) · [项目](https://github.com/excalidraw/excalidraw) | 在浏览器中绘制手绘风格的白板、流程图和结构草图，支持导出图片与可继续编辑的绘图文件，适合随手记录和讲解想法。 | 2026-11-06 | 公开源码；MIT | 可选付费服务或功能 | amd64, arm64 |
+| [Ghostfolio](templates/ghostfolio/ghostfolio/manifest.json) · [项目](https://github.com/ghostfolio/ghostfolio) | 汇总个人投资账户与交易记录，查看资产配置、收益走势和持仓变化；数据保存在本地数据库，行情可按所选数据源获取。 | 2026-11-06 | 公开源码；AGPL-3.0 | 可选付费服务或功能 | amd64, arm64 |
+| [Gramps Web](templates/gramps-project/gramps-web/manifest.json) · [项目](https://github.com/gramps-project/gramps-web) | 整理家谱中的人物、亲属关系、事件与照片，在浏览器中共同维护家庭历史，并可与 Gramps 桌面端交换资料。 | 2026-11-04 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Manyfold Solo](templates/manyfold3d/manyfold/manifest.json) · [项目](https://github.com/manyfold3d/manyfold) | 为个人 3D 打印模型建立可预览、可分类的资料库，整理模型文件、作者和标签；Solo 镜像内置数据库与任务队列，适合家庭使用。 | 2026-11-05 | 公开源码；AGPL-3.0 | README 未明确 | amd64, arm64 |
+| [Spoolman](templates/donkie/spoolman/manifest.json) · [项目](https://github.com/Donkie/Spoolman) | 记录 3D 打印耗材的品牌、材质、颜色和剩余重量，打印前查找合适料卷，并可连接兼容打印软件同步耗材用量。 | 2026-11-02 | 公开源码；MIT | README 未明确 | amd64, arm64 |
+| [ConvertX](templates/c4illin/convertx/manifest.json) · [项目](https://github.com/C4illin/ConvertX) | 通过网页提交图片、文档、音频等文件，在 NAS 上选择目标格式并批量转换，减少在各台电脑重复安装转换软件的需要。 | 2026-11-02 | 公开源码；AGPL-3.0 | README 未明确 | amd64, arm64 |
 | [Actual Budget](templates/actualbudget/actual-budget/manifest.json) · [项目](https://github.com/actualbudget/actual) | 以本地数据为中心管理个人收支与预算，并在设备之间同步记录。软件免费开源，可自行部署或选择外部托管。 | 2026-11-03 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
 | [AFFiNE](templates/toeverything/affine/manifest.json) · [项目](https://github.com/toeverything/AFFiNE) | 把文档、白板和知识组织放在同一个协作工作区，支持自由排版与多人编辑。社区版可免费自建，其他版本和云端服务另有方案。 | 2026-11-04 | 公开源码；MIT (Community Edition); separate terms for other editions | 可选付费服务或功能 | amd64, arm64 |
 | [Baby Buddy](templates/babybuddy/babybuddy/manifest.json) · [项目](https://github.com/babybuddy/babybuddy) | 记录婴儿喂养、睡眠、换尿布及日常照护活动，让照护者共享记录并观察生活规律。 | 2026-10-28 | 公开源码；BSD-2-Clause | 自建无必需付费密钥 | amd64, arm64 |
@@ -100,6 +110,8 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 
 | 应用 | 用途 | 最近更新 | 源码与许可 | 收费授权 | 架构 |
 | --- | --- | --- | --- | --- | --- |
+| [Calibre-Web Automated](templates/crocodilestick/calibre-web-automated/manifest.json) · [项目](https://github.com/crocodilestick/Calibre-Web-Automated) | 为家庭电子书建立可检索的在线书库，自动处理投递目录中的新书、转换格式并推送至阅读器；正式书库与待处理文件分开保存。 | 2026-10-01 | 公开源码；GPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Music Assistant](templates/music-assistant/music-assistant/manifest.json) · [项目](https://github.com/music-assistant/server) | 连接本地曲库、流媒体来源与家中的播放设备，统一浏览音乐和管理播放队列，并支持兼容设备的多房间播放。 | 2026-11-06 | 公开源码；Apache-2.0 | 自建无必需付费密钥 | amd64, arm64 |
 | [Audiobookshelf](templates/advplyr/audiobookshelf/manifest.json) · [项目](https://github.com/advplyr/audiobookshelf) | 管理有声书和播客，补充媒体信息并在多个设备之间同步播放进度，也可订阅节目并自动下载新内容。 | 2026-11-01 | 公开源码；GPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
 | [DIAN115 + PostgreSQL 基础版](templates/madbrolab/dian115-basic/manifest.json) · [项目](https://github.com/madbrolab/dian115) | 管理 115 网盘资源、媒体整理、STRM 与影音服务接入。主程序采用私有授权，需要激活密钥；此基础配置配套 PostgreSQL 18。 | 2026-11-04 | 闭源；Proprietary / private activation license | 需要付费授权 | amd64, arm64 |
 | [Emby Server 基础版](templates/emby/embyserver-basic/manifest.json) · [项目](https://emby.media/) | 整理并串流自己的影视与音乐收藏，向浏览器和客户端提供媒体库。此模板采用官方镜像，部分客户端和高级功能需要 Emby Premiere。 | 2026-10-31 | 闭源；Proprietary (current Emby Server) | 可选付费服务或功能 | amd64, arm64 |
@@ -165,6 +177,14 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 | [Open WebUI](templates/open-webui/open-webui/manifest.json) · [项目](https://github.com/open-webui/open-webui) | 为本地与兼容 API 的模型提供统一对话入口，可在自建环境管理资料和交互；许可要求保留品牌，另有企业服务。 | 2026-11-03 | 源码状态未知；Open WebUI License with branding requirements | 可选付费服务或功能 | amd64, arm64 |
 
 ## 部署提示
+
+- Calibre-Web Automated 默认 8083，初始账号 `admin / admin123`。投递目录中的文件处理后会移除，必须与正式书库分开。
+- Karakeep 包含网页抓取浏览器和搜索服务；填写真实访问地址、会话密钥与搜索密钥，首次访问注册账号。Yuvomi 的数据库加密密钥须单独保存，已有数据库不能随意换密钥。
+- ezBookkeeping 使用 PostgreSQL 17，默认 8080；填写真实访问地址、数据库密码与实例密钥。Ghostfolio 使用 PostgreSQL 15 和 Redis，默认 3333，第一个账号为管理员。
+- Music Assistant 使用 Host 网络，网页默认 8095、音频流默认 8097，部署前确认端口空闲；网页端口在应用设置中调整。Excalidraw 的绘图默认保存在浏览器本地，重要内容请导出文件。
+- AdventureLog 默认 8015，包含支持双架构的 PostGIS 16，初始账号 `admin / admin`；首次启动需等待地理资料初始化。Gramps Web 默认 80，首次按向导创建家谱拥有者账号。
+- Manyfold Solo 默认 3214，添加文件系统模型库时填写 `/models`。Spoolman 默认 7912，无内置账号认证，PUID 不能为 0；两者均带目录权限准备任务，只调整挂载目录本身。
+- ConvertX 默认 3000，默认关闭公开注册，首次访问仍可创建首个账号；内网 HTTP 已启用，转换结果会按应用策略清理。多个模板可能使用相同默认端口，应按实际部署调整。
 
 - Magpie 默认网关 3425、网页 3430。填写实际网关地址及网页密钥后，使用 `http://NAS地址:3430/?k=网页密钥` 首次登录，再添加模型渠道并创建客户端网关密钥；配置目录自动初始化为 UID/GID 65532。
 

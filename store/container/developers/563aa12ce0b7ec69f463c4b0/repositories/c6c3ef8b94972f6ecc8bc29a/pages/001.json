@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "c4illin/convertx",
+      "kind": "container",
+      "category": "tools",
+      "name": "ConvertX",
+      "description": "通过网页提交图片、文档、音频等文件，在 NAS 上选择目标格式并批量转换，减少在各台电脑重复安装转换软件的需要。",
+      "developer": "C4illin",
+      "projectUrl": "https://github.com/C4illin/ConvertX",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/convertx.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "convertx",
+        "文件转换",
+        "格式转换"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/c4illin/convertx/manifest.json",
+        "sha256": "3c0098452ab73d7ebfb2521cc40acadd881c365e88435ffd9bcc10fe476ffbf2"
+      },
+      "summary": {
+        "path": "templates/c4illin/convertx/summary.json",
+        "sha256": "05e5996c337360f740e0db37a69aaf5d344e45dd5afd604fd77505101c0c930c"
+      }
+    }
+  ],
+  "next": null
+}

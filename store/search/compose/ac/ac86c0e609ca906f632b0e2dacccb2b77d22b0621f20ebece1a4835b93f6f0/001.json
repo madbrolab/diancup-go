@@ -30,6 +30,10 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
+      "path": "templates/donkie/spoolman/summary.json",
+      "sha256": "03ae37ff348588ca7637c9e998799d93e81f6e2ab7ccea6580c9e87299aada3e"
+    },
+    {
       "path": "templates/ellite/wallos/summary.json",
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
     },
@@ -40,6 +44,10 @@
     {
       "path": "templates/freeok/so-novel/summary.json",
       "sha256": "c6c3e4d90ebd64b0dbf12e2bba36cf37fb15f14bdcf55d89bce73c4541dd52c5"
+    },
+    {
+      "path": "templates/ghostfolio/ghostfolio/summary.json",
+      "sha256": "f3f1e78a1262f9c38936af1756a44790f2c1ed6f2c3a3ac91214e0c61204a58b"
     },
     {
       "path": "templates/gitea/gitea-postgresql/summary.json",
@@ -88,18 +96,10 @@
     {
       "path": "templates/madbrolab/dian115-basic/summary.json",
       "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
-    },
-    {
-      "path": "templates/mealie-recipes/mealie/summary.json",
-      "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
-    },
-    {
-      "path": "templates/nextcloud/nextcloud/summary.json",
-      "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
     }
   ],
   "next": {
     "path": "search/compose/ac/ac86c0e609ca906f632b0e2dacccb2b77d22b0621f20ebece1a4835b93f6f0/002.json",
-    "sha256": "0cb9ed329cceee6221ef78b996d528d4b03bc1d1fe973b34e37aa83045ea112b"
+    "sha256": "9b1bab8347731abe0c60f95eefe6dd79e0e4900496559f7b2037a2a4219d1f59"
   }
 }

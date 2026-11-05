@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "id": "donkie/spoolman",
+  "kind": "compose",
+  "name": "Spoolman",
+  "description": "记录 3D 打印耗材的品牌、材质、颜色和剩余重量，打印前查找合适料卷，并可连接兼容打印软件同步耗材用量。",
+  "developer": "Donkie",
+  "projectUrl": "https://github.com/Donkie/Spoolman",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "spoolman",
+    "3D打印",
+    "耗材"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/spoolman.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/Donkie/Spoolman/wiki/Installation",
+  "applications": [
+    {
+      "id": "spoolman",
+      "name": "Spoolman",
+      "developer": "Donkie",
+      "projectUrl": "https://github.com/Donkie/Spoolman",
+      "icon": "icons/spoolman.svg",
+      "services": [
+        "prepare",
+        "app"
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "target": "env.PUID",
+      "title": "运行用户",
+      "reason": "填写正整数 UID，不能为 0；与 PGID 一起对应资料目录的实际读写用户。准备任务只修改目录本身，已有文件仍须能被该用户读写。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app.volumes",
+      "title": "耗材数据库",
+      "reason": "默认使用 SQLite，数据库和相关数据保存在 ./data；无须单独部署数据库服务。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app.ports",
+      "title": "网页与打印软件",
+      "reason": "默认入口 7912。应用不提供账号认证，适合受控内网使用；打印软件对接时填写其实际可访问的地址。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "compose.services.app.image",
+      "title": "收费状态",
+      "reason": "项目使用 MIT 许可；README 未明确收费服务或付费激活要求，收费状态保留为未知。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-06",
+    "lastCommitAt": "2026-11-02T15:31:32Z",
+    "lastCommit": "eccb05eadd0e012cfe23b72a08492f8ed58e8a7c",
+    "readmeURL": "https://github.com/Donkie/Spoolman/blob/eccb05eadd0e012cfe23b72a08492f8ed58e8a7c/README.md",
+    "readmeSHA256": "0ac8af938b41f74c947d17132f7baa882afa59381f620f34bdd552ab1903ee33",
+    "iconSource": "https://raw.githubusercontent.com/Donkie/Spoolman/eccb05eadd0e012cfe23b72a08492f8ed58e8a7c/client_v2/static/maskable-icon-512x512.png",
+    "iconSHA256": "7e97b5516d648b79846990ed0566b1e90ae903552e8b8dd7eab922f86aebe6af",
+    "images": [
+      {
+        "image": "ghcr.io/donkie/spoolman:latest",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:1405c3db0661cabf45209701f95304cf65f7db3b0f262dc824d32a1694fdf5fa"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:8ea605a261d38ae9f093086fdf112e2376c1bfae8a8c3ab405d81f3dc10ff8d5"
+          }
+        ]
+      }
+    ]
+  }
+}

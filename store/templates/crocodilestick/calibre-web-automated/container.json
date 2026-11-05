@@ -1,0 +1,60 @@
+{
+  "name": "calibre-web-automated",
+  "image": "crocodilestick/calibre-web-automated:latest",
+  "ports": [
+    {
+      "id": "http",
+      "host": "8083",
+      "container": "8083"
+    }
+  ],
+  "volumes": [
+    {
+      "id": "config",
+      "host": "/appdata/calibre-web-automated/config",
+      "container": "/config",
+      "mode": "rw"
+    },
+    {
+      "id": "ingest",
+      "host": "/appdata/calibre-web-automated/ingest",
+      "container": "/cwa-book-ingest",
+      "mode": "rw"
+    },
+    {
+      "id": "library",
+      "host": "/appdata/calibre-web-automated/library",
+      "container": "/calibre-library",
+      "mode": "rw"
+    }
+  ],
+  "environment": [
+    {
+      "key": "TZ",
+      "value": "Asia/Shanghai"
+    },
+    {
+      "key": "PUID",
+      "value": "1000"
+    },
+    {
+      "key": "PGID",
+      "value": "1000"
+    },
+    {
+      "key": "NETWORK_SHARE_MODE",
+      "value": "false"
+    },
+    {
+      "key": "CWA_PORT_OVERRIDE",
+      "value": "8083"
+    }
+  ],
+  "restart_policy": "unless-stopped",
+  "network_mode": "bridge",
+  "privileged": false,
+  "labels": {},
+  "command": [],
+  "cpu_limit": "",
+  "memory_limit": ""
+}

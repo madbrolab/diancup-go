@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mayswind/ezbookkeeping",
+  "kind": "compose",
+  "category": "tools",
+  "name": "ezBookkeeping",
+  "description": "记录个人收支与账户往来，按分类、币种和时间查看账目统计；搭配独立 PostgreSQL，适合长期维护家庭财务记录。",
+  "developer": "mayswind",
+  "projectUrl": "https://github.com/mayswind/ezbookkeeping",
+  "source": "open",
+  "license": "MIT",
+  "paidKey": "unknown",
+  "version": "1.0.0",
+  "icon": "icons/ezbookkeeping.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "ezbookkeeping",
+    "记账",
+    "财务"
+  ],
+  "applicationCount": 2,
+  "manifest": {
+    "path": "templates/mayswind/ezbookkeeping/manifest.json",
+    "sha256": "4fab4905395c1bf08c75ad55870f86fb10aec8147108297ce165d7a9f063e6b2"
+  }
+}

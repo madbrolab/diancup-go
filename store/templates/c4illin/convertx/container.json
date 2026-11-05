@@ -1,0 +1,60 @@
+{
+  "name": "convertx",
+  "image": "ghcr.io/c4illin/convertx:latest",
+  "ports": [
+    {
+      "id": "http",
+      "host": "3000",
+      "container": "3000"
+    }
+  ],
+  "volumes": [
+    {
+      "id": "data",
+      "host": "/appdata/convertx/data",
+      "container": "/app/data",
+      "mode": "rw"
+    }
+  ],
+  "environment": [
+    {
+      "key": "TZ",
+      "value": "Asia/Shanghai"
+    },
+    {
+      "key": "PUID",
+      "value": "1000"
+    },
+    {
+      "key": "PGID",
+      "value": "1000"
+    },
+    {
+      "key": "JWT_SECRET",
+      "value": ""
+    },
+    {
+      "key": "HTTP_ALLOWED",
+      "value": "true"
+    },
+    {
+      "key": "ACCOUNT_REGISTRATION",
+      "value": "false"
+    },
+    {
+      "key": "ALLOW_UNAUTHENTICATED",
+      "value": "false"
+    },
+    {
+      "key": "LANGUAGE",
+      "value": "zh-CN"
+    }
+  ],
+  "restart_policy": "unless-stopped",
+  "network_mode": "bridge",
+  "privileged": false,
+  "labels": {},
+  "command": [],
+  "cpu_limit": "",
+  "memory_limit": ""
+}

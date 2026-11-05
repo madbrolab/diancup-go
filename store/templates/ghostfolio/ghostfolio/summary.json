@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ghostfolio/ghostfolio",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Ghostfolio",
+  "description": "汇总个人投资账户与交易记录，查看资产配置、收益走势和持仓变化；数据保存在本地数据库，行情可按所选数据源获取。",
+  "developer": "ghostfolio",
+  "projectUrl": "https://github.com/ghostfolio/ghostfolio",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "icon": "icons/ghostfolio.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "ghostfolio",
+    "投资",
+    "资产"
+  ],
+  "applicationCount": 3,
+  "manifest": {
+    "path": "templates/ghostfolio/ghostfolio/manifest.json",
+    "sha256": "dd87b37cd792224f81c72df224f36b01b98d10634f3234fd1eb20de94925ba92"
+  }
+}

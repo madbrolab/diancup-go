@@ -1,23 +1,23 @@
 {
   "schemaVersion": 1,
-  "revision": "e6ca3f3a099fc5013da07aa7",
+  "revision": "aecf89e40f0732e42b40eccc",
   "sections": [
     {
       "id": "container",
       "name": "普通模板",
-      "count": 1,
+      "count": 6,
       "index": {
         "path": "container/index.json",
-        "sha256": "eeb4ca7c38c5aa15806dfcc0763f8947179109d062d5d7e0da5efd8a2d688927"
+        "sha256": "83d4765de6e4c2a5adae3b4aec0e16cec5c8609e60705469302e6ab669837d17"
       }
     },
     {
       "id": "compose",
       "name": "Compose 模板",
-      "count": 61,
+      "count": 68,
       "index": {
         "path": "compose/index.json",
-        "sha256": "44f00453b7f4d3ff22837380c773aa02bd69352df23713daae33bf00cce66533"
+        "sha256": "ed2c5a1c5e5d4fe5060616ad897460bf5687273d6fb0ec955fb888ba157ade79"
       }
     }
   ],

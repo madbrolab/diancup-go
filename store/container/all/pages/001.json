@@ -2,6 +2,103 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "c4illin/convertx",
+      "kind": "container",
+      "category": "tools",
+      "name": "ConvertX",
+      "description": "通过网页提交图片、文档、音频等文件，在 NAS 上选择目标格式并批量转换，减少在各台电脑重复安装转换软件的需要。",
+      "developer": "C4illin",
+      "projectUrl": "https://github.com/C4illin/ConvertX",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "unknown",
+      "version": "1.0.0",
+      "icon": "icons/convertx.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "convertx",
+        "文件转换",
+        "格式转换"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/c4illin/convertx/manifest.json",
+        "sha256": "3c0098452ab73d7ebfb2521cc40acadd881c365e88435ffd9bcc10fe476ffbf2"
+      },
+      "summary": {
+        "path": "templates/c4illin/convertx/summary.json",
+        "sha256": "05e5996c337360f740e0db37a69aaf5d344e45dd5afd604fd77505101c0c930c"
+      }
+    },
+    {
+      "id": "crocodilestick/calibre-web-automated",
+      "kind": "container",
+      "category": "media",
+      "name": "Calibre-Web Automated",
+      "description": "为家庭电子书建立可检索的在线书库，自动处理投递目录中的新书、转换格式并推送至阅读器；正式书库与待处理文件分开保存。",
+      "developer": "crocodilestick",
+      "projectUrl": "https://github.com/crocodilestick/Calibre-Web-Automated",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/calibre-web-automated.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "calibre-web-automated",
+        "电子书",
+        "书库",
+        "阅读"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/crocodilestick/calibre-web-automated/manifest.json",
+        "sha256": "093d7f7ee22981006a8fd5d06b3a710b50267f1942700c18ca31953b5d03b88d"
+      },
+      "summary": {
+        "path": "templates/crocodilestick/calibre-web-automated/summary.json",
+        "sha256": "516795481fcb25e3c94dc7448739a98365d6bcb1eb28a920a0f6742363379cf0"
+      }
+    },
+    {
+      "id": "excalidraw/excalidraw",
+      "kind": "container",
+      "category": "tools",
+      "name": "Excalidraw",
+      "description": "在浏览器中绘制手绘风格的白板、流程图和结构草图，支持导出图片与可继续编辑的绘图文件，适合随手记录和讲解想法。",
+      "developer": "excalidraw",
+      "projectUrl": "https://github.com/excalidraw/excalidraw",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/excalidraw.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "excalidraw",
+        "白板",
+        "绘图"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/excalidraw/excalidraw/manifest.json",
+        "sha256": "e0b407d207a22543d6702c07fc5aaff531911fc95d6a83580d963e4888054383"
+      },
+      "summary": {
+        "path": "templates/excalidraw/excalidraw/summary.json",
+        "sha256": "04da6ae08c4379260a0f5792a9a165aba00bf20059c1a40e849a9d131939b721"
+      }
+    },
+    {
       "id": "linuxserver/jellyfin",
       "kind": "container",
       "category": "media",
@@ -31,6 +128,72 @@
       "summary": {
         "path": "templates/linuxserver/jellyfin/summary.json",
         "sha256": "ddbd159686cf51a6e5e3124d2da0d1433aad969a29b3937e4522150a18ecd86d"
+      }
+    },
+    {
+      "id": "music-assistant/music-assistant",
+      "kind": "container",
+      "category": "media",
+      "name": "Music Assistant",
+      "description": "连接本地曲库、流媒体来源与家中的播放设备，统一浏览音乐和管理播放队列，并支持兼容设备的多房间播放。",
+      "developer": "music-assistant",
+      "projectUrl": "https://github.com/music-assistant/server",
+      "source": "open",
+      "license": "Apache-2.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/music-assistant.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "music-assistant",
+        "音乐",
+        "音箱",
+        "多房间"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/music-assistant/music-assistant/manifest.json",
+        "sha256": "102b023cfa707534c6ffb0a004b621f770851ff103ea8a3a22b8854e20768793"
+      },
+      "summary": {
+        "path": "templates/music-assistant/music-assistant/summary.json",
+        "sha256": "91fe1731c9da54c7ca940ac2fa28d7e586a8491add7788fc799b401253232768"
+      }
+    },
+    {
+      "id": "ulsklyc/yuvomi",
+      "kind": "container",
+      "category": "tools",
+      "name": "Yuvomi",
+      "description": "把家庭日历、待办、购物清单和餐食安排放在同一工作区，方便家人共同记录日常事项，并保留本地数据和定时备份。",
+      "developer": "ulsklyc",
+      "projectUrl": "https://github.com/ulsklyc/yuvomi",
+      "source": "open",
+      "license": "MIT",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/yuvomi.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "yuvomi",
+        "家庭",
+        "日历",
+        "待办"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/ulsklyc/yuvomi/manifest.json",
+        "sha256": "c1c8eca9fc27ecb68f3fc3f1e46ee385314e95d361671f2fd4bf1276e3a8621e"
+      },
+      "summary": {
+        "path": "templates/ulsklyc/yuvomi/summary.json",
+        "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
       }
     }
   ],

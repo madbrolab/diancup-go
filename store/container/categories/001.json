@@ -4,19 +4,19 @@
     {
       "id": "tools",
       "name": "工具",
-      "count": 0,
+      "count": 3,
       "index": {
         "path": "container/tools/index.json",
-        "sha256": "6ebf1d1a91d0b3df1fc7599b3c01cc46a6c2edbe8e0637d4e25557d9b680e548"
+        "sha256": "8dc8884593f95df35bad29e0d44e1844d01ab915c186eb0484d6dbeed3edccd2"
       }
     },
     {
       "id": "media",
       "name": "影音",
-      "count": 1,
+      "count": 3,
       "index": {
         "path": "container/media/index.json",
-        "sha256": "010085d30e0006ec6737b2eda3a83b5de151193f3bd08dc283f79a45aff0099d"
+        "sha256": "cb42c4ef396195555a40bcfb65303b184c2b5fcd52e2568fd9c35dc506f26371"
       }
     },
     {

@@ -2,6 +2,234 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "n8n-io/n8n",
+      "kind": "compose",
+      "category": "tools",
+      "name": "n8n",
+      "description": "用可视化节点连接应用与模型服务，编排自动化任务，也能加入脚本。采用 fair-code 授权，额外企业功能需商业许可。",
+      "developer": "n8n-io",
+      "projectUrl": "https://github.com/n8n-io/n8n",
+      "source": "unknown",
+      "license": "Sustainable Use License / n8n Enterprise License",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/n8n.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "n8n",
+        "n8n",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/n8n-io/n8n/manifest.json",
+        "sha256": "c54f0067529770c449ce10082dbbaf8bb65ca66f568c014e34556f2580771acb"
+      },
+      "summary": {
+        "path": "templates/n8n-io/n8n/summary.json",
+        "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
+      }
+    },
+    {
+      "id": "paperless-ngx/paperless-ngx",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Paperless-ngx",
+      "description": "归档扫描件、账单和家庭文档，通过 OCR 提取文字，按标签、联系人和文档类型整理并全文检索。默认启用简体中文与英文识别。",
+      "developer": "paperless-ngx",
+      "projectUrl": "https://github.com/paperless-ngx/paperless-ngx",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/paperless.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "paperless",
+        "Paperless-ngx",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/paperless-ngx/paperless-ngx/manifest.json",
+        "sha256": "79bb041542cacac409ca9cd5a9588f6d7276c73df0dcade2e390f506f64a96d7"
+      },
+      "summary": {
+        "path": "templates/paperless-ngx/paperless-ngx/summary.json",
+        "sha256": "46cee0935c95dfe32a9259c811abdf909d6c2bbdc20ad17e3121158255e9520e"
+      }
+    },
+    {
+      "id": "penpot/penpot",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Penpot",
+      "description": "在浏览器里协作设计界面、制作交互原型和维护设计系统，可与开发流程配合使用。项目提供可自建的开源版本和付费企业方案。",
+      "developer": "penpot",
+      "projectUrl": "https://github.com/penpot/penpot",
+      "source": "open",
+      "license": "MPL-2.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/penpot.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "penpot",
+        "Penpot",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 3,
+      "manifest": {
+        "path": "templates/penpot/penpot/manifest.json",
+        "sha256": "819bc18db073455808d1f0c96d62705b92c689650bd7658dba11a712e48ce45d"
+      },
+      "summary": {
+        "path": "templates/penpot/penpot/summary.json",
+        "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
+      }
+    },
+    {
+      "id": "plankanban/planka",
+      "kind": "compose",
+      "category": "tools",
+      "name": "PLANKA",
+      "description": "用看板、列表和卡片协作管理项目，记录评论、附件与到期时间。社区版可自建，Pro 和企业功能另行授权。",
+      "developer": "plankanban",
+      "projectUrl": "https://github.com/plankanban/planka",
+      "source": "unknown",
+      "license": "PLANKA Community Fair Use License / Commercial License",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/planka.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "planka",
+        "PLANKA",
+        "compose"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/plankanban/planka/manifest.json",
+        "sha256": "8e6519fdba15968a16acfa33492f785728dcc0a8b72535c5da0effe556965ef8"
+      },
+      "summary": {
+        "path": "templates/plankanban/planka/summary.json",
+        "sha256": "6a22aa02df27b5f5b1813b852979d383037d9f0c2c5c896e492a21be90830455"
+      }
+    },
+    {
+      "id": "seanmorley15/adventurelog",
+      "kind": "compose",
+      "category": "tools",
+      "name": "AdventureLog",
+      "description": "在地图上记录旅行足迹、照片和经历，整理想去的地点与行程计划，把个人旅行资料持续保存在自己的服务器。",
+      "developer": "seanmorley15",
+      "projectUrl": "https://github.com/seanmorley15/AdventureLog",
+      "source": "open",
+      "license": "GPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/adventurelog.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "adventurelog",
+        "旅行",
+        "地图",
+        "行程"
+      ],
+      "applicationCount": 2,
+      "manifest": {
+        "path": "templates/seanmorley15/adventurelog/manifest.json",
+        "sha256": "bf04863cdac0dfe95ab4abc09b2118bc7c75361466a8896ee0e7504909c10fc5"
+      },
+      "summary": {
+        "path": "templates/seanmorley15/adventurelog/summary.json",
+        "sha256": "e77c6c8df987119e96ac35ae7039fe752c33d88ebb480757a753400ee79cd2ad"
+      }
+    },
+    {
+      "id": "stirling-tools/stirling-pdf",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Stirling PDF",
+      "description": "在本地服务器处理 PDF 的合并、拆分、转换、OCR 和签署，也可通过 API 编排任务；提供可选付费服务器及企业功能。",
+      "developer": "Stirling-Tools",
+      "projectUrl": "https://github.com/Stirling-Tools/Stirling-PDF",
+      "source": "open",
+      "license": "Open-core; see upstream LICENSE",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/stirling-pdf.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "stirling-pdf",
+        "Stirling PDF",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/stirling-tools/stirling-pdf/manifest.json",
+        "sha256": "911aae2b7e02df0f4f709b49383b47619d354fd7049d740f318c3d8ba08ffc5e"
+      },
+      "summary": {
+        "path": "templates/stirling-tools/stirling-pdf/summary.json",
+        "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
+      }
+    },
+    {
+      "id": "sysadminsmedia/homebox",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Homebox",
+      "description": "为家中物品建立可搜索的档案，记录存放位置、照片、购买凭证与保修信息，便于查找和整理家庭资产。",
+      "developer": "sysadminsmedia",
+      "projectUrl": "https://github.com/sysadminsmedia/homebox",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/homebox.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "homebox",
+        "Homebox",
+        "tools",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/sysadminsmedia/homebox/manifest.json",
+        "sha256": "e9178e419c06c4b9bc562bcbddd2a434c0fcfc4bb534d9be29158044d815e12b"
+      },
+      "summary": {
+        "path": "templates/sysadminsmedia/homebox/summary.json",
+        "sha256": "c26104e1fa179299b3baaf7d36fb917cbd881d842a7880e62872bd77941b94e2"
+      }
+    },
+    {
       "id": "toeverything/affine",
       "kind": "compose",
       "category": "tools",

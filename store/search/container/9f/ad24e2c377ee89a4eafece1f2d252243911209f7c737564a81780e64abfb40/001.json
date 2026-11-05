@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/excalidraw/excalidraw/summary.json",
+      "sha256": "04da6ae08c4379260a0f5792a9a165aba00bf20059c1a40e849a9d131939b721"
+    },
+    {
+      "path": "templates/ulsklyc/yuvomi/summary.json",
+      "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
+    }
+  ],
+  "next": null
+}

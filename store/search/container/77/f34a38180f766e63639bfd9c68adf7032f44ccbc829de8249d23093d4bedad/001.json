@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "path": "templates/c4illin/convertx/summary.json",
+      "sha256": "05e5996c337360f740e0db37a69aaf5d344e45dd5afd604fd77505101c0c930c"
+    },
+    {
+      "path": "templates/ulsklyc/yuvomi/summary.json",
+      "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
+    }
+  ],
+  "next": null
+}
