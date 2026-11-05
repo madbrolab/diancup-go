@@ -79,8 +79,8 @@ docker compose up -d
 
 Chrome / Edge 打开扩展管理页，开启开发者模式，加载解压后的 ZIP。插件设置中填写 DIANCUP 地址和导航设置生成的专用 API Key，测试并保存后，即可添加当前网页或右键链接，也可设为新标签页。
 
-## 反馈
+## 交流与反馈
 
-[GitHub Issues](https://github.com/madbrolab/diancup-go/issues) · [应用模板](https://github.com/madbrolab/diancup-go/tree/main/store) · [Docker Hub](https://hub.docker.com/r/madbrolab/diancup)
+[Telegram 交流群](https://t.me/diancup) · [GitHub Issues](https://github.com/madbrolab/diancup-go/issues) · [应用模板](https://github.com/madbrolab/diancup-go/tree/main/store) · [Docker Hub](https://hub.docker.com/r/madbrolab/diancup)
 
 反馈时注明镜像版本、CPU 架构与复现步骤，请勿提交密码、API Key 或含凭据的日志。DIANCUP 由 **madbrolab** 维护。
