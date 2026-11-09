@@ -76,9 +76,11 @@ docker compose up -d
 
 ## 浏览器插件
 
-[下载 ZIP](https://github.com/madbrolab/diancup-go/raw/refs/heads/main/downloads/diancup-extension-1.1.2.zip) · [下载 CRX](https://github.com/madbrolab/diancup-go/raw/refs/heads/main/downloads/diancup-extension-1.1.2.crx) · [SHA-256 校验](https://github.com/madbrolab/diancup-go/blob/main/SHA256SUMS)
+[下载 ZIP 1.1.4](https://github.com/madbrolab/diancup-go/raw/refs/heads/main/downloads/diancup-extension-1.1.4.zip) · [下载 CRX 1.1.4](https://github.com/madbrolab/diancup-go/raw/refs/heads/main/downloads/diancup-extension-1.1.4.crx) · [安装与更新说明](https://github.com/madbrolab/diancup-go/blob/main/downloads/README.md) · [SHA-256 校验](https://github.com/madbrolab/diancup-go/blob/main/SHA256SUMS)
 
 Chrome / Edge 打开扩展管理页，开启开发者模式，加载解压后的 ZIP。插件设置中填写 DIANCUP 地址和导航设置生成的专用 API Key，测试并保存后，即可添加当前网页或右键链接，也可设为新标签页。
+
+1.1.4 支持从多个站点图标中点击选择，保存书签时直接上传所选图片；预览与上传复用同一份数据，服务器无需再次下载。同步所选图标需配合支持该功能的主程序；旧服务器会提示更新。
 
 ## 交流与反馈
 
