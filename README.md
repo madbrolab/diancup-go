@@ -31,6 +31,10 @@
 
 ## Docker Compose 部署
 
+> [!IMPORTANT]
+> **强烈建议使用 HOST 网络模式（`network_mode: host`）！**
+> **否则会失去端口管理、进程监控、网络流量监控、主机进程监控功能。** 下方部署示例已使用 HOST 网络模式，请保留该配置。
+
 安装 Docker Engine 和 Compose 插件，创建 `compose.yaml`：
 
 ```yaml
@@ -38,10 +42,9 @@ services:
   diancup:
     image: madbrolab/diancup:latest
     container_name: diancup
+    network_mode: host
     privileged: true
     restart: unless-stopped
-    ports:
-      - "9527:9527"
     volumes:
       - ./config:/config
       - /:/host
@@ -49,6 +52,8 @@ services:
       TZ: Asia/Shanghai
       WEB_PORT: "9527"
 ```
+
+HOST 模式直接使用宿主机端口，无需配置 `ports` 映射；如需修改 Web 访问端口，请调整 `WEB_PORT`，并确保该端口未被其他服务占用。
 
 启动或更新：
 
