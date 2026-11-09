@@ -1,6 +1,42 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="DIANCUP 当前真实前端，填充模拟数据。"><link rel="icon" href="./assets/logo.svg"><title>DIANCUP · 真实界面演示</title>  <script type="module" crossorigin src="./assets/demo-BUMbnFjh.js"></script>
-  <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-C4grpNmD.js">
-  <link rel="stylesheet" crossorigin href="./assets/demo-CDhuB6-l.css">
-</head>
-<body><header class="showcase-bar"><a href="#/" class="showcase-brand"><img src="./assets/logo.svg" width="27" height="27" alt=""><strong>DIANCUP</strong><span>在线演示</span></a><nav aria-label="演示入口"><button id="navigation-tab" class="selected">导航页</button><button id="admin-tab">主机管理</button></nav><div class="showcase-tools"><span>真实界面 · 模拟数据</span><button id="phone-trigger">手机预览</button><a href="https://github.com/madbrolab/diancup-go" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></header><iframe id="desktop" title="DIANCUP 当前版本真实前端"></iframe>
-<dialog id="phone-dialog" aria-label="真实移动端页面预览"><div class="phone-preview"><div class="phone-toolbar"><div><strong>移动端预览</strong><span>与正式版使用相同页面</span></div><nav aria-label="切换手机演示"><button id="phone-nav">导航</button><button id="phone-admin">管理</button></nav><button id="phone-close" aria-label="关闭手机预览">×</button></div><div class="phone-frame"><div class="phone-status"><span>9:41</span><i></i><span>▴ ▰</span></div><iframe id="phone" title="DIANCUP 真实手机页面"></iframe><div class="phone-chin"><i></i></div></div><p class="phone-caption">可直接操作手机内页面 · Esc 或点击背景关闭</p></div></dialog></body></html>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="体验 DIANCUP 当前版本的导航和管理界面，所有业务数据均为虚构。">
+    <link rel="icon" href="./assets/logo.svg">
+    <title>DIANCUP · 在线演示</title>
+    <script type="module" crossorigin src="./assets/demo-DgSjcoQW.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/version-BjInjiNB.js">
+    <link rel="stylesheet" crossorigin href="./assets/demo-CIlRJDul.css">
+  </head>
+  <body>
+    <main class="demo-stage"><iframe id="desktop" title="DIANCUP 桌面演示"></iframe></main>
+    <div class="demo-switcher">
+      <button id="demo-trigger" type="button" popovertarget="demo-menu" aria-label="切换演示页面或打开手机预览" aria-expanded="false" aria-controls="demo-menu">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="3" width="16" height="12" rx="2"/><path d="M7 21h6m-3-6v6"/><rect x="15" y="9" width="7" height="12" rx="1.8"/><path d="M18 18h1"/></svg>
+        <svg class="switcher-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg>
+        <span class="switcher-dot" aria-hidden="true"></span>
+      </button>
+      <span class="switcher-hint" aria-hidden="true">切换演示 · 手机预览</span>
+    </div>
+    <nav id="demo-menu" popover="auto" aria-label="演示页面与设备">
+      <div class="menu-heading"><img src="./assets/logo.svg" width="24" height="24" alt=""><div><strong>DIANCUP</strong><span>在线演示</span></div><span class="demo-badge">DEMO</span></div>
+      <p class="menu-label">桌面页面</p>
+      <button type="button" data-view="desktop" data-route="/" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg><span>应用导航<small>应用、媒体与日常</small></span><span class="selection-mark" aria-hidden="true">✓</span></button>
+      <button type="button" data-view="desktop" data-route="/dashboard" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M3 9h18M9 9v12"/></svg><span>管理工作台<small>主机、容器与文件</small></span><span class="selection-mark" aria-hidden="true">✓</span></button>
+      <p class="menu-label">手机预览</p>
+      <button type="button" data-view="phone" data-route="/"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 5h4m-3 14h2"/></svg><span>手机导航<small>在手机尺寸下体验导航</small></span><svg class="row-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+      <button type="button" data-view="phone" data-route="/dashboard"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M9 8h6m-6 4h6m-4 7h2"/></svg><span>手机管理<small>在手机尺寸下体验管理</small></span><svg class="row-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+      <div class="menu-footer"><span>虚构数据 · <span id="demo-version"></span></span><a href="https://github.com/madbrolab/diancup-go" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+    </nav>
+    <dialog id="phone-dialog" aria-labelledby="phone-title">
+      <div class="phone-preview">
+        <div class="phone-toolbar"><h1 id="phone-title">手机预览</h1><label class="phone-page"><span class="sr-only">切换手机页面</span><select id="phone-page"><option value="/">应用导航</option><option value="/dashboard">仪表板</option><option value="/dashboard/containers">容器管理</option><option value="/dashboard/host-monitor">主机监控</option><option value="/dashboard/files">文件管理</option><option value="/dashboard/market">模板商店</option><option value="/dashboard/assistant">AI 助手</option></select></label><button id="phone-close" type="button" aria-label="关闭手机预览" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18"/></svg></button></div>
+        <div class="phone-frame"><div class="phone-status" aria-hidden="true"><span>9:41</span><i></i><svg viewBox="0 0 40 14"><path d="M1 10v2m4-5v5m4-8v8m4-11v11"/><rect x="22" y="2" width="14" height="10" rx="2"/><path d="M39 5v4M25 5h8v4h-8z"/></svg></div><iframe id="phone" title="DIANCUP 手机演示"></iframe><div class="phone-chin" aria-hidden="true"><i></i></div></div>
+        <p class="phone-caption">可以直接操作 · Esc 或点击背景关闭</p>
+      </div>
+    </dialog>
+    <p id="demo-notice" role="status" hidden></p>
+  </body>
+</html>

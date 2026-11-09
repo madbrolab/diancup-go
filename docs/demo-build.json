@@ -3,6 +3,8 @@
   "productionFrontend": true,
   "protected": true,
   "sourceMaps": false,
-  "version": "2026.10.28.2",
-  "builtAt": "2026-10-28T17:02:20.854Z"
+  "version": "2026.11.10.1",
+  "seedVersion": "2026-11-10",
+  "sourceDigest": "b1084b496e35cb033f3749ea10213890b820001269c13265b9575e98edc87da7",
+  "builtAt": "2026-11-09T20:20:34.965Z"
 }
