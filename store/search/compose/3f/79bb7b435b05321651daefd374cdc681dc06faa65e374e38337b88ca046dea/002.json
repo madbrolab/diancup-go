@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/gotify/server/summary.json",
+      "sha256": "8f6f6d944c7082c1ec3c0795183d2316f53954b3b41d538eba2bda4165969953"
+    },
+    {
       "path": "templates/gotson/komga/summary.json",
       "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/open-webui/open-webui/summary.json",
       "sha256": "cd5b68c5c2d01d7264e6c7b5cf1b62fd0c575557f4e7d7f9674ceaf76e9d7d82"
-    },
-    {
-      "path": "templates/openlistteam/openlist/summary.json",
-      "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
     }
   ],
   "next": {
     "path": "search/compose/3f/79bb7b435b05321651daefd374cdc681dc06faa65e374e38337b88ca046dea/003.json",
-    "sha256": "ad5008511f53d59b48e0b7a8f67abd3f97e386f7fc7facd832fbe8a257fe1c35"
+    "sha256": "cd2cdbfb359d4303333c98821b906af2563fa817b958fe60997514e9c5881d64"
   }
 }

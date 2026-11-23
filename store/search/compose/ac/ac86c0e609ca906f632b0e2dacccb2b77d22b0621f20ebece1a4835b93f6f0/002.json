@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/madbrolab/dian115-basic/summary.json",
+      "sha256": "be8e35f90554aa608631668849b061620fdc22e10fa446adc9c7aad539e11d1c"
+    },
+    {
       "path": "templates/manyfold3d/manyfold/summary.json",
       "sha256": "f93a7b5d3f3f6096f281fab5f8ab8b5ed2b1b2d19bb3160d58f728a88ff31e91"
     },

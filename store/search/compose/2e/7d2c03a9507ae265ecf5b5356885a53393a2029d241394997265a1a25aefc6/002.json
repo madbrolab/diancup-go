@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/gramps-project/gramps-web/summary.json",
+      "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
+    },
+    {
       "path": "templates/grocy/grocy/summary.json",
       "sha256": "9ca86619ffb70b08f56d45ed25429e7cc24b2d971da5604b8bcc13ac38f3196d"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/rommapp/romm/summary.json",
       "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
-    },
-    {
-      "path": "templates/seerr-team/seerr/summary.json",
-      "sha256": "6316f44130241de1dbe717ed221874fff31713282ba46370b6cda6321ba59292"
     }
   ],
   "next": {
     "path": "search/compose/2e/7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6/003.json",
-    "sha256": "2cadf2219aea10528febcc88cb1f6746446a6638b9ac05b56581644880474534"
+    "sha256": "1a20c4ed464c431d9ce3a191e75c0a7c0342d3d56d10e3000118402ceeae947a"
   }
 }

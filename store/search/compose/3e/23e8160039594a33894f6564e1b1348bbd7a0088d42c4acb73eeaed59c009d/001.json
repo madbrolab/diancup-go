@@ -42,6 +42,10 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
+      "path": "templates/deckard-li/joplin-web/summary.json",
+      "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+    },
+    {
       "path": "templates/emby/embyserver-basic/summary.json",
       "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/navidrome/navidrome-basic/summary.json",
       "sha256": "e835e2405366c66c3d6869d376d56cae9722a9b0a35f93067606590ab27b8999"
-    },
-    {
-      "path": "templates/official/wordpress-mariadb/summary.json",
-      "sha256": "820cc0b2e97829251d66c4f2c61a4d5b021eae852e6344eb91d6d2175cae7fc8"
     }
   ],
   "next": {
     "path": "search/compose/3e/23e8160039594a33894f6564e1b1348bbd7a0088d42c4acb73eeaed59c009d/002.json",
-    "sha256": "fd5460654fc35b993f4e545ccf6c8b45987cbc48ea3d9f87b5f1e2aa43bddefa"
+    "sha256": "941189a50ca196a73a09b12d536b9355fe6382687963b2d8c282ff10dca6b084"
   }
 }

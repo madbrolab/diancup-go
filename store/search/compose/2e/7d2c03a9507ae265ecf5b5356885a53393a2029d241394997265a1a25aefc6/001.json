@@ -54,6 +54,10 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
+      "path": "templates/deckard-li/joplin-web/summary.json",
+      "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+    },
+    {
       "path": "templates/ellite/wallos/summary.json",
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/gotson/komga/summary.json",
       "sha256": "60308fcd737f992016670ad3292f41e224419e8f867569d891e92e67f3f8b797"
-    },
-    {
-      "path": "templates/gramps-project/gramps-web/summary.json",
-      "sha256": "72137641f3efe00685eb17ef8d6824e5f93c20a8398c3dadd5260cb327b1fbdf"
     }
   ],
   "next": {
     "path": "search/compose/2e/7d2c03a9507ae265ecf5b5356885a53393a2029d241394997265a1a25aefc6/002.json",
-    "sha256": "c1d5eeed3a00edf2d5d4eb1ea1311958359524ae658b2501428b05e0ee3ab3eb"
+    "sha256": "00a2db18c9b8aa0d79488dda676979a1c067583e3306655c21b0d7d36a0027da"
   }
 }

@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/deckard-li/joplin-web/summary.json",
+      "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+    },
+    {
       "path": "templates/syncthing/syncthing/summary.json",
       "sha256": "44158113e797b1faea4b92f1ba6fa4b99878c60e4d93c12d729445d07361ea59"
     },

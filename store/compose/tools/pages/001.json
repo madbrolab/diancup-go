@@ -162,6 +162,40 @@
       }
     },
     {
+      "id": "deckard-li/joplin-web",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Joplin Web 网页笔记",
+      "description": "在浏览器中用中文编辑 Markdown 笔记，通过卡片或列表浏览笔记本，并与已有的 Joplin Server 同步。支持手机和电脑。",
+      "developer": "Deckard-Li",
+      "projectUrl": "https://github.com/Deckard-Li/joplin-self-hosted-web",
+      "source": "open",
+      "license": "AGPL-3.0-or-later",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/joplin-web.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "Joplin",
+        "网页笔记",
+        "Markdown",
+        "同步",
+        "中文"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/deckard-li/joplin-web/manifest.json",
+        "sha256": "b6c3c6c2ff64d42290c1ad7087b6966ae4d07c2b1880b3c3f890c94db13a756c"
+      },
+      "summary": {
+        "path": "templates/deckard-li/joplin-web/summary.json",
+        "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+      }
+    },
+    {
       "id": "donkie/spoolman",
       "kind": "compose",
       "category": "tools",
@@ -741,43 +775,10 @@
         "path": "templates/mayswind/ezbookkeeping/summary.json",
         "sha256": "362468c43823134af8506a83f296c8eb42ffba18ec96d1ed80e938266ced3582"
       }
-    },
-    {
-      "id": "mealie-recipes/mealie",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Mealie",
-      "description": "保存网页食谱与自制菜谱，安排每周餐单并生成购物清单，适合个人和家庭共同整理饮食计划。",
-      "developer": "mealie-recipes",
-      "projectUrl": "https://github.com/mealie-recipes/mealie",
-      "source": "open",
-      "license": "AGPL-3.0",
-      "paidKey": "none",
-      "version": "1.0.0",
-      "icon": "icons/mealie.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "mealie",
-        "Mealie",
-        "tools",
-        "compose"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/mealie-recipes/mealie/manifest.json",
-        "sha256": "0e3457be87965daafc62f76bebe2e9322a6b7c1ecb9f18f22b32928e3df02d9c"
-      },
-      "summary": {
-        "path": "templates/mealie-recipes/mealie/summary.json",
-        "sha256": "f8acaa13b0d104883be11c874dc2336a1c7b1a2c6cf92ef524bbfd4fe4a652b4"
-      }
     }
   ],
   "next": {
     "path": "compose/tools/pages/002.json",
-    "sha256": "a9f2382c4f6a0e207ec9a8cfd65e7979f1239dc104952933ef8a4d96cf965576"
+    "sha256": "66d34d9c9b03e8e00ae1080a2fd50d5f999287836c46e3d95313d61be6847dac"
   }
 }

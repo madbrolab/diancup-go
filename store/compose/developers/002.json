@@ -2,6 +2,15 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "fc17dad5cb96a35787685b70",
+      "name": "babybuddy",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/fc17dad5cb96a35787685b70/repositories/001.json",
+        "sha256": "4720bc80894dbecb9060eddd51b50d326cee28e0440a8b7f611d9a2ce49a51a8"
+      }
+    },
+    {
       "id": "a1bb216b2bbb7eb30b25960e",
       "name": "brave",
       "count": 1,
@@ -207,19 +216,10 @@
         "path": "compose/developers/715a0621f9b8bbc2f31b35a8/repositories/001.json",
         "sha256": "a815ca39002336f38c1d25a2ebd681d4a9625a41455359ccd20cfb3c3df98aee"
       }
-    },
-    {
-      "id": "4e166fab2a3ae4159d35c52c",
-      "name": "mayswind",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/4e166fab2a3ae4159d35c52c/repositories/001.json",
-        "sha256": "a531c4d4572c8091fb0b488933a0dac5e37acffb15e5ba2a886cac373e970f3a"
-      }
     }
   ],
   "next": {
     "path": "compose/developers/003.json",
-    "sha256": "b50f860cf15632cab5df7f367b242cd849322c3031d3e454256eae4da3589ae5"
+    "sha256": "88ec44fe779be487ddf9158cdf3dc0949b9e8367138fec5fbac392a346a1fd39"
   }
 }

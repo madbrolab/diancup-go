@@ -1,0 +1,62 @@
+services:
+  assets:
+    image: alpine/git:v2.52.0
+    restart: "no"
+    volumes:
+      - web-b6a71a78:/git
+    entrypoint: ["/bin/sh", "-ec"]
+    command:
+      - |
+        if [ -f /git/site/server.mjs ]; then exit 0; fi
+        revision=b6a71a78a2c405143648e8ed960548cc6889d122
+        stage=$$(mktemp -d /git/.download-XXXXXX)
+        trap 'rm -rf "$$stage"' EXIT
+        git -C "$$stage" init -q
+        git -C "$$stage" fetch --quiet --depth=1 --no-tags https://github.com/Deckard-Li/joplin-self-hosted-web.git "$$revision"
+        git -C "$$stage" checkout "$$revision" -- web server.mjs package.json Caddyfile.lan LICENSE NOTICE.md SOURCES.md
+        rm -rf "$$stage/.git"
+        chmod 755 "$$stage"
+        mv -T "$$stage" /git/site
+
+  web:
+    image: node:22-alpine
+    restart: unless-stopped
+    depends_on:
+      assets:
+        condition: service_completed_successfully
+    user: node
+    command: ["node", "/opt/joplin/site/server.mjs"]
+    environment:
+      NODE_ENV: production
+      PORT: "8080"
+      JOPLIN_SERVER_URL: ${JOPLIN_SERVER_URL:?请填写已有 Joplin Server 的完整地址}
+    volumes:
+      - web-b6a71a78:/opt/joplin:ro
+    read_only: true
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8080/').then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+
+  https:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    depends_on:
+      web:
+        condition: service_healthy
+    command: ["caddy", "run", "--config", "/opt/joplin/site/Caddyfile.lan", "--adapter", "caddyfile"]
+    environment:
+      WEB_DOMAIN: ${WEB_HOST:?请填写浏览器使用的 NAS IP 或域名}
+    ports:
+      - "${HTTPS_PORT:-8443}:443"
+    volumes:
+      - web-b6a71a78:/opt/joplin:ro
+      - ./https/data:/data
+      - ./https/config:/config
+
+volumes:
+  web-b6a71a78:

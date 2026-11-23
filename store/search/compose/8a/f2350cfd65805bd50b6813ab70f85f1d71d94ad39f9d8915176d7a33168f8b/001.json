@@ -26,6 +26,10 @@
       "sha256": "82d89195f3fab564b692170bc5cdbf503463812df257de3d48f6781dcd8821a5"
     },
     {
+      "path": "templates/deckard-li/joplin-web/summary.json",
+      "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+    },
+    {
       "path": "templates/donkie/spoolman/summary.json",
       "sha256": "03ae37ff348588ca7637c9e998799d93e81f6e2ab7ccea6580c9e87299aada3e"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/openlistteam/openlist/summary.json",
       "sha256": "565ec6eba1dc9ff93d59f6eee43218bbac4f1280118c55fd8736a5ac74132ca4"
-    },
-    {
-      "path": "templates/penpot/penpot/summary.json",
-      "sha256": "37dd97af8a2d852319595329ca9ce5b928594dd1e90027d0964ffb56230945d1"
     }
   ],
   "next": {
     "path": "search/compose/8a/f2350cfd65805bd50b6813ab70f85f1d71d94ad39f9d8915176d7a33168f8b/002.json",
-    "sha256": "7c3de8a97f26671a74493802b19f6d03105a60f1b6303a81f13505e86ddd3360"
+    "sha256": "4feebe1c0422899f2faa74dec4d5f604b16d83564295a2181571423545b9e215"
   }
 }

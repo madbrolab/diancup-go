@@ -10,6 +10,10 @@
       "sha256": "67fe68b50147273197420eff811d15eb46e7ed243e62a3ffaa10c63f22a2b045"
     },
     {
+      "path": "templates/deckard-li/joplin-web/summary.json",
+      "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+    },
+    {
       "path": "templates/donkie/spoolman/summary.json",
       "sha256": "03ae37ff348588ca7637c9e998799d93e81f6e2ab7ccea6580c9e87299aada3e"
     },

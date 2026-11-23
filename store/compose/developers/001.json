@@ -56,6 +56,15 @@
       }
     },
     {
+      "id": "0830e3f9618f8ffb42d62771",
+      "name": "Deckard-Li",
+      "count": 1,
+      "first": {
+        "path": "compose/developers/0830e3f9618f8ffb42d62771/repositories/001.json",
+        "sha256": "d262b23cbd3e88d419233163a048f62aeb0b54730ea07d702f7fca5add308f07"
+      }
+    },
+    {
       "id": "0fe19bad6bc41fdf1e62b2ad",
       "name": "Donkie",
       "count": 1,
@@ -207,19 +216,10 @@
         "path": "compose/developers/bc2b1fbe68f43357a887b237/repositories/001.json",
         "sha256": "137052582cb72278b1af27cf3d2f137d728df56226c607b58e0ccaeccdc9167c"
       }
-    },
-    {
-      "id": "fc17dad5cb96a35787685b70",
-      "name": "babybuddy",
-      "count": 1,
-      "first": {
-        "path": "compose/developers/fc17dad5cb96a35787685b70/repositories/001.json",
-        "sha256": "4720bc80894dbecb9060eddd51b50d326cee28e0440a8b7f611d9a2ce49a51a8"
-      }
     }
   ],
   "next": {
     "path": "compose/developers/002.json",
-    "sha256": "dd11d48e8cbe13d998083cfadf9545daca05a8f4fc75e7e25786b88c002ee7ec"
+    "sha256": "5f068dff362a634943fad212b3b55fd6fe893f01c933c0c76e28221c319de742"
   }
 }

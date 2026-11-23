@@ -34,6 +34,10 @@
       "sha256": "517f1586d87747d47399e399819d292f0cfd40b17423c5ec16981e84ffbaf3d3"
     },
     {
+      "path": "templates/deckard-li/joplin-web/summary.json",
+      "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+    },
+    {
       "path": "templates/donkie/spoolman/summary.json",
       "sha256": "03ae37ff348588ca7637c9e998799d93e81f6e2ab7ccea6580c9e87299aada3e"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/rommapp/romm/summary.json",
       "sha256": "db8c70e4e9f404bca355904418bd9d3817aa17f4df2422d0a7e10ee94a2b259c"
-    },
-    {
-      "path": "templates/stirling-tools/stirling-pdf/summary.json",
-      "sha256": "888602ef0ae400eab77fef9fdf53bf3e8b268973fd1dbe2e9442beb0c9872021"
     }
   ],
   "next": {
     "path": "search/compose/2f/4b6032adda461bc42d7c7424b0441efcef375b9a10da2eeaac3ad9544b811e/002.json",
-    "sha256": "7b9f56126426417148602a85e288bfd00a72f4ba6c51e3a1e2786b6a23f7b129"
+    "sha256": "b9519616183e1dfc50acf956385d162d10a813f85934fa8bf347ca3d9bda14e3"
   }
 }

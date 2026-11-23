@@ -53,3 +53,7 @@ SOFTWARE.
 ## 思源笔记图标
 
 商店使用思源笔记项目的原始 SVG 图标。[上游图标](https://github.com/siyuan-note/siyuan/blob/e6794a0c44976269591c2e1633c29dc44ca379e4/app/src/assets/icon.svg) · [项目许可](https://github.com/siyuan-note/siyuan/blob/e6794a0c44976269591c2e1633c29dc44ca379e4/LICENSE)
+
+## Joplin Web 网页笔记图标
+
+网页笔记模板使用 Deckard-Li 项目提供的文档图标，采用 AGPL-3.0-or-later 许可。[图标源文件](https://github.com/Deckard-Li/joplin-self-hosted-web/blob/b6a71a78a2c405143648e8ed960548cc6889d122/web/self-hosted-icon.svg) · [项目署名与许可](https://github.com/Deckard-Li/joplin-self-hosted-web/blob/b6a71a78a2c405143648e8ed960548cc6889d122/NOTICE.md)

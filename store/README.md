@@ -60,7 +60,7 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 
 ## 应用目录
 
-当前共 75 项模板（7 项普通模板、68 项 Compose 模板）。维护记录于 2026-11-04 至 2026-11-24 核对，各项目最近均有三个月内的上游活动。项目介绍、源码状态和收费说明以项目 README 为依据；未明确的收费情况保留为未知。点击应用查看模板，点击“项目”打开对应主页。
+当前共 76 项模板（7 项普通模板、69 项 Compose 模板）。维护记录于 2026-11-04 至 2026-11-24 核对，各项目最近均有三个月内的上游活动。项目介绍、源码状态和收费说明以项目 README 为依据；未明确的收费情况保留为未知。点击应用查看模板，点击“项目”打开对应主页。
 
 ### 工具
 
@@ -87,6 +87,7 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 | [Grocy](templates/grocy/grocy/manifest.json) · [项目](https://github.com/grocy/grocy) | 管理食品库存、保质期、购物清单和家务安排，也可记录家庭设备与电池消耗，适合日常采购和减少食物浪费。 | 2026-09-16 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
 | [Home Assistant](templates/home-assistant/home-assistant/manifest.json) · [项目](https://github.com/home-assistant/core) | 连接家中的智能设备、传感器与服务，建立自动化场景和家庭仪表盘。此模板部署 Home Assistant Container，配置保存在自己的 NAS。 | 2026-11-04 | 公开源码；Apache-2.0 | README 未明确 | amd64, arm64 |
 | [Homebox](templates/sysadminsmedia/homebox/manifest.json) · [项目](https://github.com/sysadminsmedia/homebox) | 为家中物品建立可搜索的档案，记录存放位置、照片、购买凭证与保修信息，便于查找和整理家庭资产。 | 2026-10-31 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [Joplin Web 网页笔记](templates/deckard-li/joplin-web/manifest.json) · [项目](https://github.com/Deckard-Li/joplin-self-hosted-web) | 在浏览器中用中文编辑 Markdown 笔记，通过卡片或列表浏览笔记本，并与已有的 Joplin Server 同步。支持手机和电脑。 | 2026-11-16 | 公开源码；AGPL-3.0-or-later | 自建无必需付费密钥 | amd64, arm64 |
 | [Joplin Server + PostgreSQL 基础版](templates/laurent22/joplin-server-basic/manifest.json) · [项目](https://github.com/laurent22/joplin) | 为 Joplin 客户端提供笔记同步与共享服务，数据保存在配套 PostgreSQL 中。服务端源码可查看，个人用途与商业用途适用不同授权。 | 2026-11-04 | 源码状态未知；Joplin Server Personal Use License / commercial license | 可选付费服务或功能 | amd64, arm64 |
 | [jotty·page](templates/fccview/jotty/manifest.json) · [项目](https://github.com/fccview/jotty) | 自建清单与笔记空间，保存日常任务和文字记录，并可为个人笔记启用加密。 | 2026-10-25 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
 | [LubeLogger](templates/hargata/lubelogger/manifest.json) · [项目](https://github.com/hargata/lubelog) | 记录家用车辆的保养、维修、加油、里程与费用，保存相关凭证，设置保养计划，并与家人共同维护车辆档案。 | 2026-10-14 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |

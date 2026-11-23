@@ -42,6 +42,10 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
+      "path": "templates/deckard-li/joplin-web/summary.json",
+      "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+    },
+    {
       "path": "templates/ellite/wallos/summary.json",
       "sha256": "ad1b93370232e68369de4297babb4dcab833ced2b8d0fec8be75a00a209575df"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/immich-app/immich/summary.json",
       "sha256": "e05bdc49092e3d0a441e172850970898d81eb80cd861df50a1ec4b3e1e00a0e8"
-    },
-    {
-      "path": "templates/jeffvli/feishin/summary.json",
-      "sha256": "34abda7174aba196137021a198dc4ac513584173233346648150f698a3b516ee"
     }
   ],
   "next": {
     "path": "search/compose/de/1d5dd076fb7a704745fca1d49d20599e9bbf5c7e859408d38d6be1260be00d/002.json",
-    "sha256": "b5abb0e47f25fec03c4ab2502fad76b231ab366cb818734c1da44a87e54d3841"
+    "sha256": "c18b8552e0d53d45e64c8b10ed75f6f6ed2a7ad2daf966b5115c9f9c316fe473"
   }
 }

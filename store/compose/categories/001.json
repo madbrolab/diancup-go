@@ -4,10 +4,10 @@
     {
       "id": "tools",
       "name": "工具",
-      "count": 36,
+      "count": 37,
       "index": {
         "path": "compose/tools/index.json",
-        "sha256": "df4eae19c5762bb098519201e73e3f3f092a28f0c4a0ddd4d613e6cfc1dfa72c"
+        "sha256": "e49bd76532ec845a8ba153aa7d4d76e71418863e4220ccc6fc1ab1e95b7562fb"
       }
     },
     {

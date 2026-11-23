@@ -417,6 +417,40 @@
       }
     },
     {
+      "id": "deckard-li/joplin-web",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Joplin Web 网页笔记",
+      "description": "在浏览器中用中文编辑 Markdown 笔记，通过卡片或列表浏览笔记本，并与已有的 Joplin Server 同步。支持手机和电脑。",
+      "developer": "Deckard-Li",
+      "projectUrl": "https://github.com/Deckard-Li/joplin-self-hosted-web",
+      "source": "open",
+      "license": "AGPL-3.0-or-later",
+      "paidKey": "none",
+      "version": "1.0.0",
+      "icon": "icons/joplin-web.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "Joplin",
+        "网页笔记",
+        "Markdown",
+        "同步",
+        "中文"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/deckard-li/joplin-web/manifest.json",
+        "sha256": "b6c3c6c2ff64d42290c1ad7087b6966ae4d07c2b1880b3c3f890c94db13a756c"
+      },
+      "summary": {
+        "path": "templates/deckard-li/joplin-web/summary.json",
+        "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+      }
+    },
+    {
       "id": "donkie/spoolman",
       "kind": "compose",
       "category": "tools",
@@ -736,42 +770,10 @@
         "path": "templates/gitea/gitea-postgresql/summary.json",
         "sha256": "e99a9462042abc8aa227cd260ecf438433f0b618f9ba3de424882f6cfce26a77"
       }
-    },
-    {
-      "id": "go-vikunja/vikunja",
-      "kind": "compose",
-      "category": "tools",
-      "name": "Vikunja",
-      "description": "自建任务与项目管理空间，安排待办事项和协作计划；另提供托管版，以及包含管理和审计能力的 Pro 版本。",
-      "developer": "go-vikunja",
-      "projectUrl": "https://github.com/go-vikunja/vikunja",
-      "source": "open",
-      "license": "AGPL-3.0-or-later",
-      "paidKey": "optional",
-      "version": "1.0.0",
-      "icon": "icons/vikunja.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "vikunja",
-        "Vikunja",
-        "compose"
-      ],
-      "applicationCount": 1,
-      "manifest": {
-        "path": "templates/go-vikunja/vikunja/manifest.json",
-        "sha256": "3be38f115e8d20ebb669769be77a284b8e65fb05f55501e9803c02515f2f2e93"
-      },
-      "summary": {
-        "path": "templates/go-vikunja/vikunja/summary.json",
-        "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
-      }
     }
   ],
   "next": {
     "path": "compose/all/pages/002.json",
-    "sha256": "f8429cf7f2c71a482abedcb9b3265b13b912559689f067df2e3fd6467648e53f"
+    "sha256": "8ff300e3c35e94d94a6cb1f5fecd7ad22c6f21caf6745877c140ebb27d5fe3f8"
   }
 }

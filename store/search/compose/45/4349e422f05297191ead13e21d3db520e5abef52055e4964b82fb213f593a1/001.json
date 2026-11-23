@@ -34,6 +34,10 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
+      "path": "templates/deckard-li/joplin-web/summary.json",
+      "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+    },
+    {
       "path": "templates/emby/embyserver-basic/summary.json",
       "sha256": "68755344b3953ca80b05ebf47b9de67f939c51fc199fb5514f3b63a5c6012e84"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/jxxghp/moviepilot-basic/summary.json",
       "sha256": "8a64ff7fde0a4dbab80f758788b183eb9a8deadbea229960c4c464a93213af69"
-    },
-    {
-      "path": "templates/karakeep-app/karakeep/summary.json",
-      "sha256": "9bd4eecfc22466f2fd43294f820548a4751e453aaf4a379529acd6a9aa545bef"
     }
   ],
   "next": {
     "path": "search/compose/45/4349e422f05297191ead13e21d3db520e5abef52055e4964b82fb213f593a1/002.json",
-    "sha256": "8ffc94f948e9cff9b69e09d8de9de7da92d519484832f665b86b26125466c24c"
+    "sha256": "26c53b66a15e189fbe3f35dde0ccc3b4429fab76727a14c68c80476d4dfe5389"
   }
 }

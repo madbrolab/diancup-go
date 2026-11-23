@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "deckard-li/joplin-web",
+  "kind": "compose",
+  "name": "Joplin Web 网页笔记",
+  "description": "在浏览器中用中文编辑 Markdown 笔记，通过卡片或列表浏览笔记本，并与已有的 Joplin Server 同步。支持手机和电脑。",
+  "developer": "Deckard-Li",
+  "projectUrl": "https://github.com/Deckard-Li/joplin-self-hosted-web",
+  "source": "open",
+  "license": "AGPL-3.0-or-later",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "Joplin",
+    "网页笔记",
+    "Markdown",
+    "同步",
+    "中文"
+  ],
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "icon": "icons/joplin-web.svg",
+  "payload": "compose.yaml",
+  "env": "env.example",
+  "documentation": "https://github.com/Deckard-Li/joplin-self-hosted-web/blob/b6a71a78a2c405143648e8ed960548cc6889d122/README.md#configure-synchronisation",
+  "recommendations": [
+    {
+      "target": "env.JOPLIN_SERVER_URL",
+      "title": "已有 Joplin Server 的地址",
+      "reason": "填写容器能访问的同步后端完整地址，保留协议、端口和已有路径前缀。首次安装需要从 GitHub 获取指定版本的网页端文件。",
+      "required": true,
+      "example": "https://sync.example.com"
+    },
+    {
+      "target": "env.WEB_HOST",
+      "title": "网页端的访问主机",
+      "reason": "填写浏览器访问网页端时使用的局域网 IP 或域名。HTTPS 证书按此名称签发，端口在 HTTPS_PORT 中设置。",
+      "required": true,
+      "example": "notes.home.arpa"
+    },
+    {
+      "target": "env.HTTPS_PORT",
+      "title": "首次打开 HTTPS 网页",
+      "reason": "默认端口为 8443。将项目目录下的 https/data/caddy/pki/authorities/local/root.crt 导入客户端受信任根证书后，打开 https://访问主机:端口。只需分发 root.crt。",
+      "required": false,
+      "example": "8443"
+    },
+    {
+      "target": "compose.services.web",
+      "title": "连接现有笔记",
+      "reason": "在网页的「配置 → 同步」中选择 Joplin Server。同步地址填网页访问地址加 /joplin，再输入已有账号的邮箱和密码。",
+      "required": false,
+      "example": "https://notes.home.arpa:8443/joplin"
+    }
+  ],
+  "applications": [
+    {
+      "id": "joplin-web",
+      "name": "Joplin Web",
+      "developer": "Deckard-Li",
+      "projectUrl": "https://github.com/Deckard-Li/joplin-self-hosted-web",
+      "icon": "icons/joplin-web.svg",
+      "services": [
+        "assets",
+        "web",
+        "https"
+      ]
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-24",
+    "lastCommitAt": "2026-11-16T13:13:46Z",
+    "lastCommit": "b6a71a78a2c405143648e8ed960548cc6889d122",
+    "readmeURL": "https://github.com/Deckard-Li/joplin-self-hosted-web/blob/b6a71a78a2c405143648e8ed960548cc6889d122/README.md",
+    "readmeSHA256": "40082157d8b061a75b6b26b0daa7512f5af5697e3b3bd2f13a252400ad948954",
+    "iconSource": "https://raw.githubusercontent.com/Deckard-Li/joplin-self-hosted-web/b6a71a78a2c405143648e8ed960548cc6889d122/web/self-hosted-icon.svg",
+    "iconSHA256": "6ed3b4ae6af87f109d8ca98366b6ea4355d025fd9095c4a544700e925f20ceab",
+    "images": [
+      {
+        "image": "alpine/git:v2.52.0",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "4a0e72d49596a1f5d3701aeedafdadc5c0da4062be4657c7bdc4017387f591cc",
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:8ca9c34b11904f2406088b72aafefdda49bff86f1a10a21d746c7e7d32b769e3"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:ab0d33a6ac918bc243a0e809915395c32603de5828efa16722be249818fedd10"
+          }
+        ]
+      },
+      {
+        "image": "node:22-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "1314fb30ec37592d5845e5a160d522c0e680972aa534549940b8d73bde88481a",
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:12f54cafa58d0e96554ae05871e29663ff7241836377dc9a7916449b8adb062c"
+          },
+          {
+            "platform": "linux/arm64/v8",
+            "digest": "sha256:286344ef340c151df65af44a8c8cf2996c1783073d49b88fabcf90a56ea82023"
+          }
+        ]
+      },
+      {
+        "image": "caddy:2-alpine",
+        "architectures": [
+          "amd64",
+          "arm64"
+        ],
+        "manifestSHA256": "003a97808e781aa9f7e75cc2f43d34d461099031faf5e20faefb9f61126836f0",
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:fc9cbc100585871d18d4e451cca7021785c90a7006087427ae5ceb3e4efe6424"
+          },
+          {
+            "platform": "linux/arm64/v8",
+            "digest": "sha256:9ee998103a2bc0d4392bbe9738b4069da1562d6920b3cd8088cfd098a8270120"
+          }
+        ]
+      }
+    ]
+  }
+}

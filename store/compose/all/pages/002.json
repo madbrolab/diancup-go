@@ -2,6 +2,38 @@
   "schemaVersion": 1,
   "items": [
     {
+      "id": "go-vikunja/vikunja",
+      "kind": "compose",
+      "category": "tools",
+      "name": "Vikunja",
+      "description": "自建任务与项目管理空间，安排待办事项和协作计划；另提供托管版，以及包含管理和审计能力的 Pro 版本。",
+      "developer": "go-vikunja",
+      "projectUrl": "https://github.com/go-vikunja/vikunja",
+      "source": "open",
+      "license": "AGPL-3.0-or-later",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/vikunja.svg",
+      "architectures": [
+        "amd64",
+        "arm64"
+      ],
+      "tags": [
+        "vikunja",
+        "Vikunja",
+        "compose"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/go-vikunja/vikunja/manifest.json",
+        "sha256": "3be38f115e8d20ebb669769be77a284b8e65fb05f55501e9803c02515f2f2e93"
+      },
+      "summary": {
+        "path": "templates/go-vikunja/vikunja/summary.json",
+        "sha256": "e9b0e6425fbbe34c803a59d26369b6541319e471dc15f4906fdbd70a312d9c4b"
+      }
+    },
+    {
       "id": "gotify/server",
       "kind": "compose",
       "category": "tools",
@@ -746,43 +778,10 @@
         "path": "templates/nextcloud/nextcloud/summary.json",
         "sha256": "b824edb4974676fccba00bff98e0c63b094c7345ea65daa659bb6d4ea5851804"
       }
-    },
-    {
-      "id": "official/wordpress-mariadb",
-      "kind": "compose",
-      "category": "web",
-      "name": "WordPress + MariaDB",
-      "description": "博客网站和独立数据库，数据库仅在项目网络中访问。",
-      "developer": "WordPress / MariaDB",
-      "projectUrl": "https://github.com/WordPress/WordPress",
-      "source": "open",
-      "license": "GPL-2.0-or-later",
-      "paidKey": "none",
-      "version": "1.1.1",
-      "icon": "icons/wordpress-mariadb.svg",
-      "architectures": [
-        "amd64",
-        "arm64"
-      ],
-      "tags": [
-        "wordpress",
-        "mariadb",
-        "博客",
-        "网站"
-      ],
-      "applicationCount": 2,
-      "manifest": {
-        "path": "templates/official/wordpress-mariadb/manifest.json",
-        "sha256": "8cb634decc308260ad36e1d1b7deb03b0c8454a9134cdcf604a79e6f7e8d16ce"
-      },
-      "summary": {
-        "path": "templates/official/wordpress-mariadb/summary.json",
-        "sha256": "820cc0b2e97829251d66c4f2c61a4d5b021eae852e6344eb91d6d2175cae7fc8"
-      }
     }
   ],
   "next": {
     "path": "compose/all/pages/003.json",
-    "sha256": "6086f328ed1eff9158e8ad7d37b62e440dbacc1143c1fa2af9317c457401d30e"
+    "sha256": "24de51206c4cc29eaf202aa7fc7e41bdf025ac5550d5de59d3d6ec30c385ed06"
   }
 }

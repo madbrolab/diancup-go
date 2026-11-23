@@ -46,6 +46,10 @@
       "sha256": "b4ac0099c239f8cb9b3d45e691f3ee48839d97ee470d1bce593ce163a4a4f485"
     },
     {
+      "path": "templates/deckard-li/joplin-web/summary.json",
+      "sha256": "5b62aa04ee4ce9a5957c13d35902b4bf04a27e35e4f42bc4eceb47e038d7467e"
+    },
+    {
       "path": "templates/donkie/spoolman/summary.json",
       "sha256": "03ae37ff348588ca7637c9e998799d93e81f6e2ab7ccea6580c9e87299aada3e"
     },
@@ -92,14 +96,10 @@
     {
       "path": "templates/mayswind/ezbookkeeping/summary.json",
       "sha256": "362468c43823134af8506a83f296c8eb42ffba18ec96d1ed80e938266ced3582"
-    },
-    {
-      "path": "templates/n8n-io/n8n/summary.json",
-      "sha256": "ca4beee6fa10e100e792e9188073a21ff972a21c43155323ad253b89e14051d7"
     }
   ],
   "next": {
     "path": "search/compose/18/ac3e7343f016890c510e93f935261169d9e3f565436429830faf0934f4f8e4/002.json",
-    "sha256": "afcb22ba4783304ac219d0eebb985e8e59053859db0b337273fdc2784e74ce3f"
+    "sha256": "b0ca75cf294f339a077bb5637e50454fafc9c81c7a3b8ba50aeef3556ad91a33"
   }
 }

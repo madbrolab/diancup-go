@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "deckard-li/joplin-web",
+  "kind": "compose",
+  "category": "tools",
+  "name": "Joplin Web 网页笔记",
+  "description": "在浏览器中用中文编辑 Markdown 笔记，通过卡片或列表浏览笔记本，并与已有的 Joplin Server 同步。支持手机和电脑。",
+  "developer": "Deckard-Li",
+  "projectUrl": "https://github.com/Deckard-Li/joplin-self-hosted-web",
+  "source": "open",
+  "license": "AGPL-3.0-or-later",
+  "paidKey": "none",
+  "version": "1.0.0",
+  "icon": "icons/joplin-web.svg",
+  "architectures": [
+    "amd64",
+    "arm64"
+  ],
+  "tags": [
+    "Joplin",
+    "网页笔记",
+    "Markdown",
+    "同步",
+    "中文"
+  ],
+  "applicationCount": 1,
+  "manifest": {
+    "path": "templates/deckard-li/joplin-web/manifest.json",
+    "sha256": "b6c3c6c2ff64d42290c1ad7087b6966ae4d07c2b1880b3c3f890c94db13a756c"
+  }
+}
