@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "id": "siyuan-note/siyuan",
+  "kind": "container",
+  "name": "思源笔记（SiYuan）",
+  "description": "在浏览器中编写 Markdown 笔记，用块引用和双向链接串联相关段落。笔记和附件保存在自己的 NAS 工作空间。",
+  "developer": "siyuan-note",
+  "projectUrl": "https://github.com/siyuan-note/siyuan",
+  "source": "open",
+  "license": "AGPL-3.0",
+  "paidKey": "optional",
+  "version": "1.0.0",
+  "category": "tools",
+  "tags": [
+    "思源笔记",
+    "SiYuan",
+    "知识管理",
+    "双向链接",
+    "Markdown"
+  ],
+  "architectures": [
+    "amd64",
+    "arm",
+    "arm64"
+  ],
+  "icon": "icons/siyuan.svg",
+  "payload": "container.json",
+  "env": "",
+  "documentation": "https://github.com/siyuan-note/siyuan/blob/e6794a0c44976269591c2e1633c29dc44ca379e4/README.zh-CN.md#docker-部署",
+  "recommendations": [
+    {
+      "target": "environment.SIYUAN_ACCESS_AUTH_CODE",
+      "title": "工作空间锁屏密码",
+      "reason": "为此工作空间设置独立的强密码。首次打开网页时输入同一密码。",
+      "required": true,
+      "example": ""
+    },
+    {
+      "target": "volumes.workspace.host",
+      "title": "工作空间目录",
+      "reason": "选择思源专用目录。笔记和附件都保存在这里，镜像启动时会按 PUID 和 PGID 递归调整目录内文件的属主和属组。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "ports.http.host",
+      "title": "浏览器访问",
+      "reason": "默认通过 http://NAS地址:6806 打开笔记。如果更改宿主机端口，请使用新端口访问。",
+      "required": false,
+      "example": ""
+    },
+    {
+      "target": "environment.SIYUAN_LANG",
+      "title": "界面语言",
+      "reason": "默认简体中文。若希望保留网页设置中选择的语言，可移除此变量。",
+      "required": false,
+      "example": ""
+    }
+  ],
+  "verification": {
+    "checkedAt": "2026-11-24",
+    "lastCommitAt": "2026-11-19T14:25:49Z",
+    "lastCommit": "e6794a0c44976269591c2e1633c29dc44ca379e4",
+    "readmeURL": "https://github.com/siyuan-note/siyuan/blob/e6794a0c44976269591c2e1633c29dc44ca379e4/README.zh-CN.md",
+    "readmeSHA256": "48ac6a1ebebb8cb8e90b9a38175e3828c09a2686aa319735eccba4a9e043249d",
+    "iconSource": "https://raw.githubusercontent.com/siyuan-note/siyuan/e6794a0c44976269591c2e1633c29dc44ca379e4/app/src/assets/icon.svg",
+    "iconSHA256": "4b8602537c22eac81d289c9fb122f54fa7736517dab157fdd850f6ba81c2c16a",
+    "images": [
+      {
+        "image": "b3log/siyuan:v3.8.11",
+        "architectures": [
+          "amd64",
+          "arm",
+          "arm64"
+        ],
+        "platforms": [
+          {
+            "platform": "linux/amd64",
+            "digest": "sha256:f5998fcaea2d55594d83ed06224b351697d4e3816960564b06fbbcb3ca6ccc1c"
+          },
+          {
+            "platform": "linux/arm/v7",
+            "digest": "sha256:71752f584a375cbc10f8ba438e870241946e87217179a86ff67243ac69fc481b"
+          },
+          {
+            "platform": "linux/arm/v8",
+            "digest": "sha256:8cbeab819ce2950bc2353372aa6b220dd348dd75db5c7d5585bcaaacf4c87dfe"
+          },
+          {
+            "platform": "linux/arm64",
+            "digest": "sha256:da537771e94d2ba054d1d25716f275d70dc94a8c6a2d3558860a94476137f4e1"
+          }
+        ]
+      }
+    ]
+  }
+}

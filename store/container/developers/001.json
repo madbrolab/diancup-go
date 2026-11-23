@@ -47,6 +47,15 @@
       }
     },
     {
+      "id": "5aa83b038f1288734bbc9a80",
+      "name": "siyuan-note",
+      "count": 1,
+      "first": {
+        "path": "container/developers/5aa83b038f1288734bbc9a80/repositories/001.json",
+        "sha256": "988cadcfe9d831ed47bf1d31fa3e02ccb3b0ae2ffa7cd7cf7bff1ef432c39f4a"
+      }
+    },
+    {
       "id": "634edb61d38c96bea6500fb3",
       "name": "ulsklyc",
       "count": 1,

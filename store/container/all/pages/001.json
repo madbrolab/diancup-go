@@ -164,6 +164,41 @@
       }
     },
     {
+      "id": "siyuan-note/siyuan",
+      "kind": "container",
+      "category": "tools",
+      "name": "思源笔记（SiYuan）",
+      "description": "在浏览器中编写 Markdown 笔记，用块引用和双向链接串联相关段落。笔记和附件保存在自己的 NAS 工作空间。",
+      "developer": "siyuan-note",
+      "projectUrl": "https://github.com/siyuan-note/siyuan",
+      "source": "open",
+      "license": "AGPL-3.0",
+      "paidKey": "optional",
+      "version": "1.0.0",
+      "icon": "icons/siyuan.svg",
+      "architectures": [
+        "amd64",
+        "arm",
+        "arm64"
+      ],
+      "tags": [
+        "思源笔记",
+        "SiYuan",
+        "知识管理",
+        "双向链接",
+        "Markdown"
+      ],
+      "applicationCount": 1,
+      "manifest": {
+        "path": "templates/siyuan-note/siyuan/manifest.json",
+        "sha256": "f8aee9fa56c613d137b76e79052e08b54d4e83dde1b6ac5af8dd378b033219b5"
+      },
+      "summary": {
+        "path": "templates/siyuan-note/siyuan/summary.json",
+        "sha256": "38243781959ef08c0b0eed3ddc378c545b0e9402dad8009486fb7f66eaaedb47"
+      }
+    },
+    {
       "id": "ulsklyc/yuvomi",
       "kind": "container",
       "category": "tools",

@@ -1,0 +1,51 @@
+{
+  "name": "siyuan",
+  "image": "b3log/siyuan:v3.8.11",
+  "ports": [
+    {
+      "id": "http",
+      "host": "6806",
+      "container": "6806"
+    }
+  ],
+  "volumes": [
+    {
+      "id": "workspace",
+      "host": "/appdata/siyuan/workspace",
+      "container": "/siyuan/workspace",
+      "mode": "rw"
+    }
+  ],
+  "environment": [
+    {
+      "key": "SIYUAN_ACCESS_AUTH_CODE",
+      "value": ""
+    },
+    {
+      "key": "PUID",
+      "value": "1000"
+    },
+    {
+      "key": "PGID",
+      "value": "1000"
+    },
+    {
+      "key": "TZ",
+      "value": "Asia/Shanghai"
+    },
+    {
+      "key": "SIYUAN_LANG",
+      "value": "zh-CN"
+    }
+  ],
+  "restart_policy": "unless-stopped",
+  "network_mode": "bridge",
+  "privileged": false,
+  "labels": {},
+  "command": [
+    "serve",
+    "--workspace=/siyuan/workspace"
+  ],
+  "cpu_limit": "",
+  "memory_limit": ""
+}

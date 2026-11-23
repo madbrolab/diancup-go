@@ -2,6 +2,10 @@
   "schemaVersion": 1,
   "items": [
     {
+      "path": "templates/siyuan-note/siyuan/summary.json",
+      "sha256": "38243781959ef08c0b0eed3ddc378c545b0e9402dad8009486fb7f66eaaedb47"
+    },
+    {
       "path": "templates/ulsklyc/yuvomi/summary.json",
       "sha256": "5610a9d9e688b3fd51caeaa2a52ffab869ed3c2bb3f7fb554e3ac7525f6efe63"
     }

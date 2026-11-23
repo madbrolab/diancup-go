@@ -60,7 +60,7 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 
 ## 应用目录
 
-当前共 74 项模板（6 项普通模板、68 项 Compose 模板）。维护记录于 2026-11-04 至 2026-11-06 核对，各项目最近均有三个月内的上游活动。项目介绍、源码状态和收费说明以项目 README 为依据；未明确的收费情况保留为未知。点击应用查看模板，点击“项目”打开对应主页。
+当前共 75 项模板（7 项普通模板、68 项 Compose 模板）。维护记录于 2026-11-04 至 2026-11-24 核对，各项目最近均有三个月内的上游活动。项目介绍、源码状态和收费说明以项目 README 为依据；未明确的收费情况保留为未知。点击应用查看模板，点击“项目”打开对应主页。
 
 ### 工具
 
@@ -91,6 +91,7 @@ Compose 项目页和模板商店均提供“默认安装位置”入口，两处
 | [jotty·page](templates/fccview/jotty/manifest.json) · [项目](https://github.com/fccview/jotty) | 自建清单与笔记空间，保存日常任务和文字记录，并可为个人笔记启用加密。 | 2026-10-25 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
 | [LubeLogger](templates/hargata/lubelogger/manifest.json) · [项目](https://github.com/hargata/lubelog) | 记录家用车辆的保养、维修、加油、里程与费用，保存相关凭证，设置保养计划，并与家人共同维护车辆档案。 | 2026-10-14 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
 | [Mealie](templates/mealie-recipes/mealie/manifest.json) · [项目](https://github.com/mealie-recipes/mealie) | 保存网页食谱与自制菜谱，安排每周餐单并生成购物清单，适合个人和家庭共同整理饮食计划。 | 2026-11-03 | 公开源码；AGPL-3.0 | 自建无必需付费密钥 | amd64, arm64 |
+| [思源笔记（SiYuan）](templates/siyuan-note/siyuan/manifest.json) · [项目](https://github.com/siyuan-note/siyuan) | 用块引用和双向链接整理笔记，笔记与附件保存在 NAS 工作空间。 | 2026-11-19 | 公开源码；AGPL-3.0 | 基础功能免费，会员功能可选 | amd64, arm/v7, arm/v8, arm64 |
 | [Memos](templates/usememos/memos/manifest.json) · [项目](https://github.com/usememos/memos) | 按时间记录零散想法和日常笔记，通过标签整理内容，并为每条记录选择私密保存或公开分享。 | 2026-11-01 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |
 | [n8n](templates/n8n-io/n8n/manifest.json) · [项目](https://github.com/n8n-io/n8n) | 用可视化节点连接应用与模型服务，编排自动化任务，也能加入脚本。采用 fair-code 授权，额外企业功能需商业许可。 | 2026-11-04 | 源码状态未知；Sustainable Use License / n8n Enterprise License | 可选付费服务或功能 | amd64, arm64 |
 | [Omni-tools](templates/iib0011/omni-tools/manifest.json) · [项目](https://github.com/iib0011/omni-tools) | 把图片、文本、数字、日期和文件处理工具放进一个网页，日常格式处理可在浏览器本地完成，无需上传到外部工具站。 | 2026-10-24 | 公开源码；MIT | 自建无必需付费密钥 | amd64, arm64 |

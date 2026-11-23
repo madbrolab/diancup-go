@@ -4,6 +4,10 @@
     {
       "path": "templates/crocodilestick/calibre-web-automated/summary.json",
       "sha256": "516795481fcb25e3c94dc7448739a98365d6bcb1eb28a920a0f6742363379cf0"
+    },
+    {
+      "path": "templates/siyuan-note/siyuan/summary.json",
+      "sha256": "38243781959ef08c0b0eed3ddc378c545b0e9402dad8009486fb7f66eaaedb47"
     }
   ],
   "next": null

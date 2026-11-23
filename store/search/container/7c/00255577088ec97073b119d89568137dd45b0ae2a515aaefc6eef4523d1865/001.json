@@ -12,6 +12,10 @@
     {
       "path": "templates/excalidraw/excalidraw/summary.json",
       "sha256": "04da6ae08c4379260a0f5792a9a165aba00bf20059c1a40e849a9d131939b721"
+    },
+    {
+      "path": "templates/siyuan-note/siyuan/summary.json",
+      "sha256": "38243781959ef08c0b0eed3ddc378c545b0e9402dad8009486fb7f66eaaedb47"
     }
   ],
   "next": null

@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "revision": "aecf89e40f0732e42b40eccc",
+  "revision": "aafe1f027b460f49b2d4bae8",
   "sections": [
     {
       "id": "container",
       "name": "普通模板",
-      "count": 6,
+      "count": 7,
       "index": {
         "path": "container/index.json",
-        "sha256": "83d4765de6e4c2a5adae3b4aec0e16cec5c8609e60705469302e6ab669837d17"
+        "sha256": "1cfd0dc9035097c914d4aab529ac18eb1f5dbfed45827f6d8cd3c1c0cf588668"
       }
     },
     {

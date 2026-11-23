@@ -4,10 +4,10 @@
     {
       "id": "tools",
       "name": "工具",
-      "count": 3,
+      "count": 4,
       "index": {
         "path": "container/tools/index.json",
-        "sha256": "8dc8884593f95df35bad29e0d44e1844d01ab915c186eb0484d6dbeed3edccd2"
+        "sha256": "6c455db24904034bbb9eda942a4fb596ad8a5673bd8078f8f72b50c6b56fb497"
       }
     },
     {
